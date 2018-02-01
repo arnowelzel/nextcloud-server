@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kiril <neohidra@gmail.com>, 2016\n"
+"Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/nextcloud/teams/64236/bg_BG/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Етикети"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Обнови"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Създай"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Изберете етикет..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Отбелязани файлове"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Моля изберете таг по който да филтрирате"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Няма открити етикети"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Моля изберете таг за филтриране"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Няма намерени файлове за избраните тагове"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "Добавен системен таг %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "Добавен системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s добави системен таг %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} добави системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Премахнат системен таг %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Премахнат системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s премахна системен таг %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} премахна системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Създадохте системен таг %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Създадохте системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s създаде системен таг %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} създаде системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Изтрихте системен таг %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Изтрихте системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s изтри системен таг %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} изтри системен таг {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Актуализирахте системен таг %2$s на %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "Актуализирахте системен таг {oldsystemtag} на {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s акутализиран системен таг %3$s на %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "{actor} Актуализира системен таг {oldsystemtag} на {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Добавихте системен таг %2$s на %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Добавихте системен таг {systemtag} на {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s добави системен таг %3$s на %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} добави системен таг {systemtag} на {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Премахнахте системен таг %2$s от %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Премахнахте системен таг {systemtag} от {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s премахна системни таг %3$s от %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} премахна системен таг {systemtag} от {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr ""
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr ""
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "Промяна на <strong>системни тагове</strong> за файл"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr ""
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr ""
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Име"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Изтриване"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Публичен"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Ограничен"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr ""
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Възстанови"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Тук няма файлове"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Няма намерени записи в тази папка"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Размер"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Променен на"

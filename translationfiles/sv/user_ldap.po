@@ -1,0 +1,1046 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: enoch85 <daniel@techandme.se>, 2017\n"
+"Language-Team: Swedish (https://www.transifex.com/nextcloud/teams/64236/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Fel vid rensning av mappningar"
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Misslyckades med att radera serverinställningen"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Ogiltig konfiguration: Anonym bindning är inte tillåten."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Giltig konfiguration, anslutning upprättad!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Giltig konfiguration, men bindning misslyckades. Var god kontrollera "
+"uppgifter och serverinställningarna."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr "Ogiltig konfiguration. Var god undersök loggar för mer detaljer."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Ingen åtgärd har angetts"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Ingen konfiguration har angetts"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Ingen data har angetts"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "Kunde inte sätta inställning %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "Funktion existerar ej"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "LDAP-användare och gruppbackend"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Förnyar ..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Väldigt svagt lösenord"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Svagt lösenord"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Mindre bra lösenord"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Bra lösenord"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Starkt lösenord"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Den grundläggande DN verkar vara fel"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Testar konfiguration..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Felaktig konfiguration"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Konfigurationen är ej komplett"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Konfigurationen är OK"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Välj grupper"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Välj objekt-klasser"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Var god kontrollera dina uppgifter, de verkar vara fel."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Var god specificera en port, den kunde ej upptäckas automatiskt."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"Grundläggande DN kunde ej upptäckas automatiskt, var god dubbelkontrollera "
+"dina uppgifter, värd och port."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "Kunde inte upptäcka Base DN, var god ange det manuellt."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Server"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "Inget objekt funnet i den givna Base DN. Var god granska."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Mer än 1,000 katalogposter tillgängliga."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "Poster tillgängliga inom angivet Base DN"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Ett fel uppstod. Var god kontrollera Base DN, och även "
+"anslutningsinställningar och referenser."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Vill du verkligen radera den nuvarande serverinställningen?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Bekräfta radering"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Rensning av mappningar lyckades!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Fel uppstod under rensning av mappningar"
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"Anonym bindning inte tillåten. Var god ange en användar-DN och lösenord."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "LDAP Operations error. Anonym bindning kanske inte längre tillåts."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Misslyckades att spara. Var god kontrollera att databasen är verksam. Ladda "
+"om innan du fortsätter."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Byte av läge kommer aktivera automatiska LDAP förfrågningar. Beroende på din"
+" LDAP storlek kan de ta ett tag. Vill du fortfarande ändra läge?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Lägesändring"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Välj attribut"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Användare inte funnern. Vänligen kolla dina inloggningsattribut och "
+"användarnamn. Effektivt filter (för att kopiera och klistra in för "
+"validering via kommando): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Användare hittad och inställnings bekräftade."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Överväg att specificera din sökning eftersom den resulterade i många "
+"användare och bara den första kommer att kunna logga in."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr ""
+"Ett ospecificerat fel inträffade. Var god kolla loggen och inställningar."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Sökfiltret är ej giltigt, antagligen på grund utav ett syntaxfel så som "
+"ojämnt antal öppna och stängda klamrar. Var god granska."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"Ett anslutningsfel till LDAP / AD uppstod. Var god granska värd, port och "
+"inloggningsuppgifter."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+" \"%uid\"-platshållaren saknas. Den kommer bli ersatt med inloggningsnamn "
+"när LDAP / AD efterfrågas."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Vänligen ange ett inloggningsnamn att försöka ansluta med"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"Grupplådan var inaktiverat eftersom LDAP/AD-servern inte stödjer memberOf."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Lösenordsbyte nekad. Anledning/tips: "
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Vänligen logga in med det nya lösenordet"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Ditt lösenord kommer gå ut i morgon."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Ditt lösenord kommer gå ut i dag."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "Ditt lösenord kommer gå ut inom %n dag."
+msgstr[1] "Ditt lösenord kommer gå ut inom %n dagar."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD integration"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "%s grupp hittad"
+msgstr[1] "%s grupper hittade"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "%s användare hittad"
+msgstr[1] "%s användare hittade"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Kunde inte upptäcka ditt visningsnamnsattribut. Vänligen specificera det "
+"själv i avancerade inställningar för LDAP."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "Det gick inte hitta den önskade funktionen"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Felaktig värd"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Testa konfigurationen"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Hjälp"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "Grupper som uppfyller dessa kriterier finns i %s:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Endast dessa objektklasser:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Endast från dessa grupper:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Sökgrupper"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Tillgängliga grupper"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Valda grupper"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "Redigera LDAP-förfrågan"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP Filter:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr ""
+"Filtret specificerar vilka LDAD-grupper som ska ha åtkomst till %s instans"
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Verifiera inställningar och räkna grupperna"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr "Vid inloggning, %s kan hitta användaren baserat på följande attribut:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP / AD Användarnamn:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"Tillåter inloggning mot LDAP / AD-användarnamn, vilket är antingen \"uid\" "
+"eller \"sAMAccountName\" och kommer att upptäckas."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP / AD E-postadress:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+"Tillåter inloggning mot ett e-post-attribut. \"mail\" och "
+"\"mailPrimaryAddress\" tillåtna."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Övriga attribut:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"Definierar filtret som ska appliceras vid inloggningsförsök. \"%%uid\" "
+"ersätter användarnamnet i inloggningshändelsen. Exempel: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Testa inloggningsnamn"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Verifiera inställningar"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Server"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. Server:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Lägg till en ny konfiguration"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Kopiera nuvarande konfiguration till en ny katalogsammansättning"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Radera nuvarande konfiguration"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Server"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"Du kan utelämna protokollen, om du inte kräver SSl. I såna fall, starta med "
+"ldaps://"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Port"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Upptäck Port"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "Användar-DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"DN för användaren som skall användas, t.ex. uid=agent, dc=example, dc=com. "
+"För anonym åtkomst, lämna DN och lösenord tomt."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Lösenord"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "För anonym åtkomst, lämna DN och lösenord tomt."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "Spara Uppgifter"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Ett start-DN per rad"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr "Du kan ange start-DN för användare och grupper under fliken Avancerat"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Upptäck bas-DN"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Testa Bas-DN"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Undviker automatiska LDAP-förfrågningar. Bättre för större installationer, "
+"men kräver en del LDAP-kunskap."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "Ange LDAP-filter manuellt (rekommenderat för stora kataloger)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr ""
+"Listning och sökning av användare är begränsade efter dessa kriterier:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"De mest vanliga objektklasserna för användare är organizationalPerson, "
+"person, user och inetOrgPerson. Om du inte är säker vilken objektklass som "
+"ska väljas, vänligen hör med din mappadministratör."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+"Filtret specificerar vilka LDAP-användare som skall ha åtkomst till %s "
+"instans"
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Verifiera inställningar och räkna användare"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Sparar"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Tillbaka"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Vänligen förnya ditt lösenord."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Ett internt fel inträffade."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Var god försök igen eller kontakta din administratör."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Nuvarande lösenord"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Förnya lösenord"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Fel lösenord. Återställa det?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Fel lösenord."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Server"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Användare"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Inloggningsattribut"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Grupper"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Expert"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Avancerad"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Varning:</b> PHP LDAP-modulen är inte installerad, serversidan kommer "
+"inte att fungera. Kontakta din systemadministratör för installation."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Uppkopplingsinställningar"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Konfiguration aktiv"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Ifall denna är avbockad så kommer konfigurationen att skippas."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Säkerhetskopierings-värd (Replika)"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Ange en valfri värd för säkerhetskopiering. Den måste vara en replika av den"
+" huvudsakliga LDAP/AD-servern"
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Säkerhetskopierings-port (Replika)"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Inaktivera huvudserver"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Anslut endast till replikaservern."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Stäng av verifiering av SSL-certifikat."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Rekommenderas inte, använd endast för test! Om anslutningen bara fungerar "
+"med denna inställning behöver du importera LDAP-serverns SSL-certifikat till"
+" din %s server."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "Cache Time-To-Live"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "i sekunder. En förändring tömmer cache."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Mappinställningar"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Attribut för användarnamn"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+"LDAP-attributet som ska användas för att generera användarens visningsnamn."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "2:a Visningsnamns Fält"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"Frivilligt. Ett LDAP-attribut att läggas till visningsnamnet i parentes. "
+"Resulterar i t.ex. »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "Bas för användare i katalogtjänst"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "En användarstart-DN per rad"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Användarsökningsattribut"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Valfritt; ett attribut per rad"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Attribut för gruppnamn"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr ""
+"LDAP-attributet som ska användas för att generera gruppens visningsnamn."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "Bas för grupper i katalogtjänst"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "En gruppstart-DN per rad"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Gruppsökningsattribut"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Attribut för gruppmedlemmar"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "Dynamic Group Member URL"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"LDAP-attributen som på gruppobjekt innehåller en LDAP-sök-URL som bestämmer "
+"vilka objekt som tillhör gruppen. (En tom inställning inaktiverar "
+"funktionaliteten dynamisk gruppmedlemskap)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Undergrupper"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"När den är påslagen, stöds grupper som innehåller grupper. (Fungerar endast "
+"om gruppmedlemmens attribut innehåller DN.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "\"Paging chunksize\""
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"Klusterstorlek som används för paged LDAP-sökningar som kan komma att "
+"returnera skrymmande resultat som uppräknande av användare eller grupper. "
+"(Inställning av denna till 0 inaktiverar paged LDAP-sökningar i de "
+"situationerna)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Aktivera: Antal tillåtna lösenordsbyten för LDAP-användare"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"Tillåt LDAP-användare att ändra deras lösenord och tillåt "
+"Superadministratörer och Gruppadministratörer att ändra lösenordet för deras"
+" LDAP-användare. Fungerar bara när policy för åtkomstkontroll är "
+"konfigurerat därefter på LDAP-servern. Eftersom lösenord är skickade i ren "
+"text till LDAP-servern, transportkryptering måste användas och "
+"lösenordshashning ska vara konfigurerat på LDAP-servern."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Nytt lösenord skickas som oformaterad text till LDAP)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "Standard för lösenordspolicy DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"DN av en standard för lösenordspolicy som kommer användas för "
+"utgångshantering av lösenord. Fungerar bara när LDAP-lösenord ändras per "
+"användare är aktiverat och stöds bara av OpenLDAP. Lämna tomt för att "
+"inaktivera utgångshantering av lösenord."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Specialattribut"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Fält för lagringsutrymme"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Lämna tomt för användarens utrymme enligt standard. Annars, specificera ett "
+"LDAP/AD-attribut."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Standardutrymme för lagring"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"Skriv över standardutrymmet för LDAP-användare som inte har ett utrymme satt"
+" i Utrymmesfältet"
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "E-postfält"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Sätt användarens e-post från deras LDAP-attribut. Lämna tomt för "
+"standardbeteende."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Namnregel för hemkatalog"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Lämnas tomt för användarnamn (standard). Ange annars ett LDAP-/AD-attribut."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Internt användarnamn"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"Som standard kommer de interna användarnamnen skapas från UUID-attributen. "
+"Det säkerställer att användarnamnet är unikt och att tecken inte behöver "
+"konverteras. Det interna användarnamnet har begränsningen att bara dessa "
+"tecken tillåts: [ a-zA-Z0-9_.@- ].  Andra tecken kommer att ersättas med "
+"deras korresponderande ASCII-kod eller utelämnas. Vid kollisioner kommer ett"
+" nummer läggas till/ökas. Det interna användarnamnet används för att "
+"identifiera en användare internt. Det är också standardnamnet för "
+"användarens hemmapp. Det är också en del av externa URL'er, till exempel för"
+" alla *DAV-tjänster. Med denna inställning, kan standardbeteendet bli "
+"överskrivet. Lämna det tomt för standardbeteende. Ändringar kommer att bara "
+"gälla för nya mappningar (tillagda) LDAP-användare."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "Internt användarnamnsattribut:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Åsidosätt UUID-detektion"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"Som standard upptäcker ownCloud automatiskt UUID-attributet. Det UUID-"
+"attributet används för att utan tvivel identifiera LDAP-användare och "
+"grupper. Dessutom kommer interna användarnamn skapas baserat på detta UUID, "
+"om inte annat anges ovan. Du kan åsidosätta inställningen och passera ett "
+"attribut som du själv väljer. Du måste se till att attributet som du väljer "
+"kan hämtas för både användare och grupper och att det är unikt. Lämna det "
+"tomt för standard beteende. Förändringar kommer endast att påverka nyligen "
+"mappade (tillagda) LDAP-användare och grupper."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "UUID-attribut för användare:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "UUID-attribut för grupper:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Användarnamn-LDAP användarmappning"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"Användarnamn används för att lagra och tilldela (meta) data. För att exakt "
+"identifiera och känna igen användare, kommer varje LDAP-användare att ha ett"
+" internt användarnamn. Detta kräver en mappning från användarnamn till LDAP-"
+"användare. Det skapade användarnamnet mappas till UUID't för LDAP-"
+"användaren. Dessutom är DN't cachat också för att minska LDAP-interaktion, "
+"men används inte för identifiering. Om DN't ändras, kommer ändringar att "
+"hittas. Det interna användarnamnet används överallt. Rensning av "
+"mappningarna kommer att ha kvarlevor överallt. Rensning av mappningarna är "
+"inte konfigurationskänsliga, de påverka alla LDAP-konfigurationer! Rensa "
+"aldrig mappningarna i en produktionsmiljö, bara i test- eller "
+"experimentläge."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Rensa användarnamn-LDAP användarmappning"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Rensa gruppnamn-LDAP gruppmappning"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"%uid-platshållaren saknas. Den kommer att ersättas med inloggningsnamn när "
+"LDAP / AD efterfrågas."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Verifiera inställningar och räkna grupper"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Skapa en ny och tom konfiguration"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"Du behöver inte ange protokoll förutom om du använder SSL. Starta då med "
+"ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Varning:</b> Apps user_ldap och user_webdavauth är inkompatibla. Oväntade"
+" problem kan uppstå. Be din systemadministratör att inaktivera en av dem."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "i bytes"

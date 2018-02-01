@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Necdet Yücel <necdetyucel@gmail.com>, 2016\n"
+"Language-Team: Turkish (https://www.transifex.com/nextcloud/teams/64236/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Birleşmiş paylaşım"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr ""
+"{owner}@{remote} konumundan {name} uzak paylaşımını eklemek istiyor musunuz?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Uzak paylaşım"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Uzak paylaşım parolası"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "İptal"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Uzak paylaşım ekle"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Kopyala"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Kopyalandı!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Desteklenmiyor!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Kopyalamak için ⌘-C kullanın."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Kopyalamak için Ctrl-C kullanın."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Birleşmiş Bulut Kimliği Geçersiz"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Bu sunucuda sunucudan sunucuya paylaşım etkin değil"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Birleşmiş bir paylaşım oluşturulamadı."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr "Birleşmiş bir paylaşım oluşturulamadı. Parola yanlış olabilir."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Birleşmiş paylaşım isteği gönderildi. Bir çağrı alacaksınız. "
+"Bildirimlerinizi denetleyin."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Bağlama noktası adında geçersiz karakterler var."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Sahip ile birleşmiş bir paylaşım oluşturmanıza izin verilmiyor."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Geçersiz ya da güvenilmez SSL sertifikası"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr "Uzak paylaşım kimliği doğrulanamadı. Parola yanlış olabilir"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Depolama geçersiz"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Birleşmiş paylaşım eklendi"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Uzak paylaşım eklenemedi"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "%s paylaşılmadı. %s ile zaten paylaşılmış"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Aynı kullanıcı ile bir birleşmiş paylaşım oluşturulamaz"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Dosya %s ile zaten paylaşılmış"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"%s paylaşılamadı. %s bulunamadı. Sunucuya erişilemiyor ya da sunucu "
+"kendinden imzalı bir güvenlik sertifikası kullanıyor olabilir."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Paylaşım bulunamadı"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "%1$s kullanıcısından \"%3$s\" uzak paylaşımını aldınız (%2$s adına)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"{user} kullanıcısından {share} uzak paylaşımını aldınız ( {behalf} adına)"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "%1$s kullanıcısından \"%3$s\" uzak paylaşımını aldınız"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "{user} kullanıcısından {share} uzak paylaşımını aldınız"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Kabul Et"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Reddet"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "#Nextcloud Birleşmiş Bulut Kimliğim ile paylaş, %s bölümüne bakın"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "#Nextcloud Birleşmiş Bulut kimliğim üzerinden benimle paylaş"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Paylaşım"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Birleşmiş Bulut Paylaşımı"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Belgeleri aç"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Kişilerin sunucular arasında nasıl paylaşım yapabileceğini ayarlayın."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "Bu sunucudaki kullanıcılar diğer sunuculara paylaşım gönderebilsin"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr "Bu sunucudaki kullanıcılar diğer sunuculardan paylaşım alabilsin"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Genel ve herkese açık adres defterinde kullanıcı ara"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Kullanıcıların bilgilerini genel ve herkese açık bir adres defterinde "
+"paylaşabilsin"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Birleşmiş Bulut"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Nextcloud, ownCloud ya da Pydio kullanıcıları ile paylaşım yapılaiblir. "
+"Yalnızca paylaşım penceresine person@cloud.example.com gibi Birleşmiş Bulut "
+"kodunu yazın."
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Birleşmiş Bulut Kimliğiniz:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Paylaşın, böylece arkadaşlarınız da sizinle dosya paylaşabilir:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Web sitenize ekleyin"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Benimle Nextcloud üzerinden paylaşın"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML Kodu:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Genel ve herkese açık adres defterinde kullanıcı ara ve yerel kullanıcıların"
+" bilgilerini paylaşmasını sağla"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Paylaşın:"

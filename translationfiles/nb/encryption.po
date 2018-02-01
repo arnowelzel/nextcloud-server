@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Anders <anders@aasemartinsen.net>, 2016\n"
+"Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/nextcloud/teams/64236/nb_NO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "Passord for gjenopprettingsnøkkel mangler"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "Gjenta passord for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+"Gjentatt passord for gjenopprettingsnøkkel stemmer ikke med oppgitt passord "
+"for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "Gjenopprettingsnøkkel aktivert"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"Klarte ikke å aktivere gjenopprettingsnøkkel. Sjekk passordet for "
+"gjenopprettingsnøkkelen."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "Gjenopprettingsnøkkel ble deaktivert"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"Klarte ikke å deaktivere gjenopprettingsnøkkel. Sjekk passordet for "
+"gjenopprettingsnøkkelen."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "Manglende parametre"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "Oppgi det gamle gjenopprettingspassordet"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "Oppgi et nytt gjenopprettingspassord"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "Gjenta det nye gjenopprettingspassordet"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "Passordet ble endret."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr ""
+"Klarte ikke å endre passordet. Kanskje gammelt passord ikke var korrekt."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "Gjenopprettingsnøkkel deaktivert"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "Gjenopprettingsnøkkel aktivert"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+"Klarte ikke å aktivere gjenopprettingsnøkkelen. Prøv igjen eller kontakt "
+"administratoren."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "Klarte ikke å oppdatere privatnøkkelpassordet."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "Det gamle passordet var feil. Prøv igjen."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr "Det nåværende innloggingspassordet var feil. Prøv igjen."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "Passord for privat nøkkel ble oppdatert."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"Du må migrere krypteringsnøklene din fra den gamle krypteringen (ownCloud <="
+" 8.0) til den nye. Kjør 'occ encryption:migrate' eller kontakt en "
+"administrator"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+"Ugyldig privat nøkkel for Krypteringsappen. Oppdater passordet for din "
+"private nøkkel i dine personlige innstillinger for å gjenopprette tilgang "
+"til de krypterte filene dine."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+"Program for kryptering er aktivert, men nøklene dine er ikke satt opp. Logg "
+"ut og inn igjen."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+"Skru på kryptering på tjenersiden i innstillingene for å bruke "
+"krypteringsmodulen."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr "Krypteringsappen er aktivert og klar"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "Feil signatur"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "Manglende signatur"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "engangspassord for kryptering på tjenersiden"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"Kan ikke dekryptere denne filen. Dette er sannsynligvis en delt fil. Spør "
+"eieren av filen om å dele den med deg på nytt."
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"Kan ikke lese denne filen, som sannsynligvis er en delt fil. Be eieren av "
+"filen om å dele den med deg på nytt."
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr "Standard krypteringsmodul"
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"Hei,\n"
+"\n"
+"Administratoren har aktivert kryptering på tjenersiden. Filene dine har blitt kryptert med passordet '%s'.\n"
+"\n"
+"logg inn på vev-grensesnittet, gå til seksjonen 'grunnleggende krypteringsmodul' i dine personlige innstillinger og oppdater krypteringspassordet ditt ved å legge inn dette passordet i feltet 'gammelt påloggingspassord' sammen med ditt nåværende påloggingspassord.\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "Delingen vil opphøre %s."
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "Ha det!"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"Hei,<br><br>Administratoren har skrudd på kryptering på tjenersiden. Filene "
+"dine er blitt kryptert med passordet <strong>%s</strong>.<br><br>Logg inn på"
+" vev-grensesnittet, gå til seksjonen \"grunnleggende krypteringsmodul\" i "
+"dine personlige innstillinger og oppdater krypteringspassordet ditt ved å "
+"legge inn dette passordet i feltet \"gammelt påloggingspassord\" sammen med "
+"ditt nåværende påloggingspassord.<br><br>"
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+"Program for kryptering er aktivert men nøklene dine er ikke satt opp. Logg "
+"ut og inn igjen."
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "Krypter hjemmelageret"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"Aktivering av dette valget krypterer alle filer som er lagret på "
+"hovedlageret. Ellers vil kun filer på eksterne lagre bli kryptert."
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "Aktiver gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "Deaktiver gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"Gjenopprettingsnøkkelen er en ekstra krypteringsnøkkel som brukes til å "
+"kryptere filer. Den tillater gjenoppretting av en brukers filer i tilfelle "
+"brukeren glemmer passordet sitt."
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "Passord for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "Gjenta passord for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "Endre passord for gjenopprettingsnøkkel:"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "Gammelt passord for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "Nytt passord for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "Gjenta nytt passord for gjenopprettingsnøkkel"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "Endre passord"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr "Grunnleggende krypteringsmodul"
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"Passordet for din private nøkkel stemmer ikke lenger med påloggingspassordet"
+" ditt."
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+"Sett ditt gamle passord for privat nøkkel til ditt nåværende "
+"påloggingspassord:"
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+"Hvis du ikke husker det gamle passordet ditt kan du spørre administratoren "
+"om å gjenopprette filene dine."
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "Gammelt påloggingspassord"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "Nåværende påloggingspassord"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "Oppdater passord for privat nøkkel"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "Aktiver gjenoppretting av passord:"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"Aktivering av dette valget tillater deg å gjenerobre tilgang til dine "
+"krypterte filer i tilfelle du mister passordet ditt."
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "Aktiv"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "Inaktiv"

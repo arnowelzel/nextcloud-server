@@ -1,0 +1,1049 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Suela Palushi <suela_palushi@hotmail.com>, 2017\n"
+"Language-Team: Albanian (https://www.transifex.com/nextcloud/teams/64236/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Dështoi në heqjen e përshoqërimeve."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Dështoi në fshirjen e formësimit të serverit"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Konfigurim i pavlefshëm: Lidhja anonim nuk është e lejueshme."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Konfigurim i vlefshëm, lidhja u krijuar!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Konfigurime të vlefshme, por lidhja dështoi. Ju lutem kontrolloni "
+"konfigurimet dhe kredencialet e serverit."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+"Konfigurime të pavlefshme. Ju lutem shikoni hyrjet për detaje të mëtejshme."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "S’është treguar veprim"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "S’u dha formësim"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "S’u treguan të dhëna"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "S’vuri dot në punë formësimin %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "Veprimi s’ekziston"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "Backend i përdoruesve dhe grupit të LDAP"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Duke rinovuar..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Fjalëkalim shumë i dobët"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Fjalekalim i dobët "
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Fjalekalim hajd mo "
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Fjalëkalim i mirë"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Fjalëkalim i fortë "
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "DN-ja Bazë duket se është e gabuar"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Po provohet formësimi…"
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Formësim i pasaktë"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Formësim jo i plotë"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Formësimi OK"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Përzgjidhni grupe"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Përzgjidhni klasa objektesh"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Ju lutemi, kontrolloni kredencialet, duket se janë gabim."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Ju lutemi, përcaktoni portën, s’u arrit të vetëzbulohet."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"DN-ja Bazë s’u vetëzbulua dot, ju lutemi, rishikoni kredencialet, hostin dhe"
+" portën."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "S’u zbulua dot DN Bazë, ju lutemi, jepeni dorazi."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Server"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "Në DN Bazë të dhën s’u gjet objekt. Ju lutemi, rishikojeni."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Më shumë se 1000 zëra të gatshëm."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr " zëra të gatshëm brenda DN-së Bazë të dhënë"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Ndodhi një gabim. Ju lutemi, kontrolloni DN-në Bazë, si edhe rregullimet për"
+" lidhjen dhe kredencialet."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Doni vërtet të fshihet Formësimi i tanishëm i Shërbyesit?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Ripohoni Fshirjen"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Përshoqërimet u hoqën me sukses!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Gabim gjatë heqjes së përshoqërimeve."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"S’lejohet bind anonim. Ju lutemi, jepni një DN Përodruesi dhe Fjalëkalim."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "Gabim Veprimesh LDAP. Mund të mos lejohen bind-e anonimë."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Ruajta dështoi. Ju lutemi, sigurohuni që baza e të dhënave është në punë. "
+"Ringarkojemi përpara se të vazhdohet."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Këmbimi i mënyrë do të lejojë kërkesa LDAP automatike. Në varësi të "
+"madhësisë për LDAP-in tuaj, kjo mund të hajë ca kohë. Doni prapë të këmbehet"
+" mënyra?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Këmbim mënyre"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Përzgjidhni atribute"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Përdoruesi nuk u gjet. Ju lutemi kontrolloni atributet tuaja të "
+"identifikimit dhe emrin e përdoruesit. Filtër efektiv (për të kopjuar dhe "
+"ngjitur për validimin e rreshtit të komandës): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Përdoruesi u gjet dhe rregullimet u verifikuan."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Konsideroni të kufizoni kërkimin tuaj, pasi ai përfshin shumë përdorues, "
+"vetëm i pari ij të cilëve do të jetë në gjendje të hyjë."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr ""
+"Një gabim i pa specifikuar ndodhi. Ju lutem kontrolloni hyrjet dhe "
+"konfigurimet."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Filtri i kërkimit është i pavlefshëm, ndoshta për shkak problemesh sintakse,"
+" të tillë si një numër jo i njëjtë kllpash të hapura dhe mbyllura. Ju "
+"lutemi, rishikojeni."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"Ndodhi një gabim lidhje te LDAP / AD, ju lutemi, kontrolloni strehën, portën"
+" dhe kredencialet."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"Vendi \"%uis\" po mungon. Do të zëvendësohet me emrin e identifikimit kur të"
+" kërkohet LDAP / AD."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Ju lutemi, jepni një emër hyrjesh që të ritestohet"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"Kutia e grupeve u çaktivizua, ngaqë shërbyesi LDAP / AD nuk mbulon memberOf."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Ndryshimi i fjalëkalimit u refuzua. Informatë:"
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Ju lutem kyçuni me fjalëkalimin e ri"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Fjalëkalimi juaj do të skadojë nesër"
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Fjalëkalimi juaj do të skadojë sot."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "Fjalëkalimi juaj do të skadojë brenad %n ditëve"
+msgstr[1] "Fjalëkalimi juaj do të skadojë brenad %n ditëve"
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "Integrimi LDAP / AD"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "U gjet %s grup"
+msgstr[1] "U gjetën %s grupe"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "U gjet %s përdorues"
+msgstr[1] "U gjetën %s përdorues"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Nuk mund të zbulohej atributi i emrit të ekranit të përdoruesit. Ju lutemi "
+"specifikoni vetë në avancë parametrat e LDAP."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "S’u gjet dot veçoria e dëshiruar"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Strehë e Pavlefshme"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Provoni konfigurimet"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Ndihmë"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "Grupet që i plotësojnë këto kushte gjenden te %s:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Vetëm këto klasa objektesh:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Vetëm prej këtyre grupesh:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Kërko në grupe"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Grupe të mundshëm"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Grupe të përzgjedhur"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "Përpunoni Kërkesë LDAP"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "Filtër LDAP:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "Filtri përcakton se cilët grupe LDAP do të kenë hyrje te instanca %s."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Verifiko konfigurimet dhe numëro grupet"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr ""
+"Kur hyhet, %s do ta gjejë përdoruesin duke u bazuar në atributet vijues:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "Emër përdoruesi LDAP / AD:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "Adresë Email LDAP / AD:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Atribute të Tjerë:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Testo Emër hyrjesh"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Verifikoni rregullimet"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Shërbyes"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. Shërbyes:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Shto një konfigurim të ri"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Kopjojeni formësimin e tanishëm te një lidhmë e re drejtorie"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Fshije formësimin e tanishëm"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Strehë"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"Ju mund të hiqni protokollin, nëse nuk keni nevojë për SSL. Nëse po, filloni"
+" me ldaps: //"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Portë"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Zbulo Portë"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "DN Përdoruesi"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"DN -ja e klientit të përdoruesit për të cilin duhet kryer bind, "
+"p.sh,uid=agent,dc=example,dc=com. Për hyrje anonime, DN-në dhe Fjalëkalimin "
+"lëreni të zbrazët."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Fjalëkalim"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Për hyrje anonime, lini të zbrazët DN-në dhe Fjalëkalimim."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr ""
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Një DN Bazë për rresht"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"DN Bazë për përdorues dhe grupe mund të përcaktoni që nga skeda Të mëtejshme"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Zbulo DN Bazë"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Testo DN Bazë"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Shmang kërkesa LDAP automatike. Më e përshtatshme për instalime më të mëdha,"
+" por lyp ca dije rreth LDAP-it."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "Jepni filtra LDAP dorazi (e këshilluar për drejtori të mëdha)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "Listimi dhe kërkimi i përdoruesve është i kufizuar nga këto kritere:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"Klasat më të rëndomta objektesh për përdoruesit janë organizationalPerson, "
+"person, user, dhe inetOrgPerson. Nëse s’jeni i sigurt cilën klasë objekti të"
+" përzgjidhni, ju lutemi, lidhuni me përgjegjësin e drejtorisë suaj."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+"Filtri përcakton se cilët përdorues LDAP do të kenë hyrje te instanca %s."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Verifiko rregullimet dhe numëro përdoruesit"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Po ruhet"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Mbrapsht"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Vazhdo"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Ju lutem rinovoni fjalëkalimin tuaj"
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Ndodhi një gabim i brendshëm."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Ju lutem provoni përsëri ose kontaktoni administratorin tuaj."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Fjalëkalimi aktual"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Fjalëkalim i ri"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Rinovo fjalëkalimin"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Fjalëkalim i gabuar. Do ta rivendosësh?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Fjalëkalim i gabuar."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Anullo"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Shërbyes"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Përdorues"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Atribute Hyrjesh"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Grupe"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Ekspert"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Të mëtejshme"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Kujdes:</b> Moduli PHP LDAP s’është i instaluar, pjesa përkatëse në "
+"shërbyes nuk do të funksionojë. Ju lutemi, kërkojini përgjegjësit të "
+"sistemit tuaj ta instalojë."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Rregullime Lidhjeje"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Formësimi Aktiv"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Po u la pa shenjë, ky formësim do të anashkalohet."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Strehë Kopjeruajtjeje (Replica)"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Jepni një strehë opsionale kopjeruajtjesh. Duhet të jetë një kopje identike "
+"e shërbyesit kryesor LDAP/AD."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Portë Kopjeruajtjeje (Replica)"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Çaktivizoni Shërbyesin Kryesor"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Lidhu vetëm te shërbyesi kopje."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Çaktivizoni vleftësim dëshmish SSL."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"E pakëshillueshme, përdoreni vetëm për testim! Nëse lidhja funksionon vetëm "
+"me këtë mundësi, importoni te shërbyesi juaj %s dëshminë SSL të shërbyesit "
+"LDAP."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "Cache Time-To-Live"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "në sekonda. Ndryshimi e zbraz fshehtinën."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Konfigurime Direktorish"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Fushë Emri Përdoruesi Në Ekran"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr "Atribut LDAP që përdoret për të prodhuar emër ekrani për përdoruesin."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "Fushë e 2-të Emri Përdoruesi Në Ekran"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"Opsionale. Një atribut LDAP për t’u shtuar te emri në ekran, në kllapa. "
+"Përfundimi do t’i ngjante »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "Strukturë Bazë Përdoruesi"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "Një DN Bazë Përdoruesi për rresht"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Atribute Kërkimesh Nga Përdoruesi"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Opsionale; një atribut për rresht"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Fushë Emri Grupi Në Ekran"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr "Atribut LDAP që përdoret për të prodhuar emër ekrani për grupin."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "Strukturë Bazë Grupi"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "Një DN Bazë Grupi për rresht"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Atribute Kërkimi Grupi"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Përshoqërim Grup-Përdorues"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "URL Anëtari Grupi Dinamik"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"Atributi LDAP që në objekte grupi përmban një URL kërkimi LDAP që përcakton "
+"se cilat objekte i përkasin grupit. (Nëse rregullimi lihet i zbrazët, "
+"funksioni i anëtarësisë në grup dinamik.)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Grupe Brenda Njëri-Tjetrit"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"Kur aktivizohet, grupet që përmbajnë grupe mbulohen. (Funksionon vetëm nëse "
+"atributi për anëtar grupi përmban DN-ra.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "Madhësi  copash faqosjeje"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"Madhësi copash të përdorura për kërkime LDAP të sistemuara në faqe, kërkime "
+"që japin përfundime të papërpunuara, të tilla si numër përdoruesish ose "
+"grupesh. (Caktimi si 0 i çaktivizon kërkimet e faqosura LDAP për këto "
+"raste.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Aktivizo ndryshimet LDPA e fjalëkalimit për përdorues"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"Lejo përdoruesit të LDAP të ndryshojnë fjalëkalimin e tyre dhe lejojnë "
+"Administratorët Super dhe Administratorët e Grupit të ndryshojnë "
+"fjalëkalimin e përdoruesve të tyre të LDAP. Vepron vetëm kur politikat e "
+"kontrollit të qasjes janë konfiguruar në përputhje me rrethanat në serverin "
+"LDAP. Ndërkohë që fjalëkalimet u dërgohen në mënyrë të thjeshtë tek serveri "
+"LDAP, duhet të përdoret enkriptimi i transportit dhe duhet të konfigurohet "
+"hashja e fjalëkalimit në serverin LDAP."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Fjalëkalimi i ri është dërgur si text i thjeshtë te LDAP)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "Politika e fjalëkalimit të parazgjedhur DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"DN e një politike të parazgjedhur të fjalëkalimit që do të përdoret për "
+"trajtimin e skadimit të fjalëkalimit. Punon vetëm kur ndryshimet e "
+"fjalëkalimeve LDAP për përdorues janë të aktivizuara dhe mbështetet vetëm "
+"nga OpenLDAP. Lëreni bosh për të çaktivizuar trajtimin e skadimit të "
+"fjalëkalimit."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Atribute Speciale"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Fushë Kuotash"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Lër bosh për kuotën e parazgjedhur të përdoruesit. Përndryshe, specifikoni "
+"një atribut LDAP/AD."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Parazgjedhje Kuotash"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"Mbishkruaj mbi kuotën e parazgjedhur për përdoruesit e LDAP që nuk kanë një "
+"kuotë të caktuar në Fushën e Kuotës."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "Fushë Email-i"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Vendos emailin e përdoruesit nga atributi i tyre LDAP. Lëreni bosh për "
+"sjelljen e paracaktuar."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Rregull Emërtimi Dosjeje Kreu të Përdoruesit"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Lëreni bosh për emrin e përdoruesit (I Paracaktuar). Ose, përcaktoni një "
+"atribut LDAP/AD."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Emër i Brendshëm Përdoruesi"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"Në paracaktim, emri i brendshëm i përdoruesit do të krijohet nga atributi "
+"UUID. Sigurohuni që emri i përdoruesit është unik dhe karakteret nuk kanë "
+"nevojë të konvertohen. Emri i përdoruesit të brendshëm ka kufizim që lejohen"
+" vetëm këto karaktere: [a-zA-Z0-9 _. @ -]. Karaktere të tjera zëvendësohen "
+"me korrespondencën e tyre ASCII ose thjesht hiqen. Për goditjet një numër do"
+" të shtohet / rritet. Emri i brendshëm përdoret për të identifikuar një "
+"përdorues brenda. Është gjithashtu emri i parazgjedhur për dosjen e "
+"përdoruesit në shtëpi. Është gjithashtu një pjesë e URL-ve të largëta, për "
+"shembull për të gjitha shërbimet * DAV. Me këtë cilësim, sjellja e "
+"parazgjedhur mund të fshihet. Lëreni bosh për sjelljen e paracaktuar. "
+"Ndryshimet do të kenë efekt vetëm në përdoruesit e sapo hartuar (shtuar) "
+"LDAP."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "Atribut Emër i Brendshëm Përdoruesi:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Anashkalo zbullim UUID-je"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"Si parazgjedhje, atributi UUID zbulohet automatikisht. Atributi UUID "
+"përdoret për të identifikuar pa dyshime përdorues dhe grupe LDAP. "
+"Gjithashtu, emri i brendshëm i përdoruesi do të krijohet mbi bazën e UUID-"
+"së, në mos u përcaktoftë ndryshe më sipër. Mund ta anashkaloni rregullimin "
+"dhe të jepni një atribut tuajin sipas dëshirës. Duhet të siguroni që "
+"atributi sipas dëshirës të mund të jepet si për përdorues, ashtu edhe për "
+"grupe, dhe se është unik. Lëreni të zbrazët që të ruhet sjellja "
+"parazgjedhje. Ndryshimet do të kenë efekt vetëm etëm mbi përdorues LDAP të "
+"përshoqëruar (shtuar) rishtas."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "Atribut UUID për Përdorues:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "Atribut UUID për Grupe:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Përshoqërim Emër përdoruesi-Përdorues LDAP"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"Emrat e përdoruesve përdoren për të depozituar dhe shpërndarë (tej) të "
+"dhëna. Që të mund të identifikohen dhe pranohen saktësisht përdoruesit, çdo "
+"përdorues LDAP do të ketë një emër të brendshëm përdoruesi. Kjo kërkon "
+"përshoqërim nga emër përdoruesi te përdorues LDAP. Emri i përdoruesit i "
+"krijuar i përshoqërohet UUID-së së përdoruesit LDAP. Tej kësaj, edhe DN-ja "
+"ruhet në fshehtinë, për të zvogëluar ndërveprim LDAP, por s’përdoret për "
+"identifikim. Nëse ndryshon DN-ja, ndryshimet do të gjenden. Emri i brendshëm"
+" i përdoruesi përdoret gjithandej. Heqja e përshoqërimeve do të lërë "
+"thërrime ngado. Heqja e përshoqërimeve nuk preket nga formësimi, prek krejt "
+"formësimet për LDAP-në! Mos i hiqni kurrë përshoqërimet në një mjedis "
+"prodhimi, vetëm në një faqë testimi ose eksperimetale."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Pastro Përshoqërimin Emër përdoruesi-Përdorues LDAP"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Pastro Përshoqërimin Emër grupi-Grup LDAP"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"Vendmbajtësja %uid mungon. Do të zëvendësohet me emrin e hyrjes, kur të "
+"kërkohet te LDAP / AD."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Verifiko rregullimet dhe numëro grupet"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Shtoni një formësim të ri të zbrazët"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"Protokollin mund ta lini pa vënë, hiq rastin kur ju duhet SSL. Në atë rast "
+"filloni me ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Kujdes:</b> user_ldap dhe user_webdavauth të aplikacionit janë të "
+"papërputhshëm. Mund t’ju ndodhin sjellje të papritura. Ju lutemi, kërkojini "
+"përgjegjësit të sistemit tuaj të çaktivizojë një prej tyre."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "në bajte"

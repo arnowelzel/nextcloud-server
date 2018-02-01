@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: holdenger <holden42@gmail.com>, 2017\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/nextcloud/teams/64236/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ajax/rollbackVersion.php:40
+#, php-format
+msgid "Could not revert: %s"
+msgstr "Nemožno obnoviť: %s"
+
+#: js/versionstabview.js:78
+msgid "Versions"
+msgstr "Verzie"
+
+#: js/versionstabview.js:136
+msgid "Failed to revert {file} to revision {timestamp}."
+msgstr "Zlyhalo obnovenie súboru {file} na verziu {timestamp}."
+
+#: js/versionstabview.js:220
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n bajt"
+msgstr[1] "%n bajtov"
+msgstr[2] "%n bajtov"
+
+#: js/versionstabview.js:225
+msgid "Restore"
+msgstr "Obnoviť"
+
+#: js/versionstabview.js:235
+msgid "No earlier versions available"
+msgstr "Nie sú dostupné predchádzajúce verzie"
+
+#: js/versionstabview.js:236
+msgid "More versions …"
+msgstr "Viac verzií ..."
+
+#: js/versionstabview.js:232
+msgid "No versions available"
+msgstr "Žiadne verzie nie sú dostupné"
+
+#: js/versionstabview.js:233
+msgid "More versions..."
+msgstr "Viac verzií..."

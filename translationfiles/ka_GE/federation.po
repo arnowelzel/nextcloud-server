@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2017\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "დაემატა სანდო სერვერების სიას"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "სერვერი უკვე დაცული სერვერების სიაშია."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "სერვერი რომელთანაც შედგება ფედერალიზირება არ იქნა ნაპოვნი"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "სერვერის დამატება ვერ მოხერხდა"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "სანდო სერვერები"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"ფედერალიზაცია იძლევა საშუალებას დაუკავშირდეთ სხვა დაცულ სერვერებს და "
+"გაცვალოთ მომხმარებლის დირექტორია. მაგალითისთვის ეს გამოყენებულ იქნება, რომ "
+"მოხდეს ექსტერნალური მომხმარებლების ფედერალური გაზიარებისთვის ავტო-დასრულება."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr ""
+"სერვერის ავტომატურად დამატება, როდესაც ფედერალური გაზიარება წარმატებით "
+"შეიქმნება"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ სანდო სერვერის დამატება"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "სანდო სერვერი"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "დამატება"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "ფედერაცია"

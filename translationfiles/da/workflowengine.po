@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nick Bakkegaard <nickbakkegaard@gmail.com>, 2017\n"
+"Language-Team: Danish (https://www.transifex.com/nextcloud/teams/64236/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Gemt"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Kunne ikke gemme:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Fil MIME type"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "er"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "er ikke"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "er lig med"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "er ikke lig med"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Eksempel: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Filstørrelse (upload)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "mindre"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "mindre eller lig med"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "større eller lig med"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "større"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Filsystem markering"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "er markeret med"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "er ikke markeret med"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Vælg markering"
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Forespørg bruger adresse"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "er lig med IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "er ikke lig med IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "er lig med IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "er ikke lig med IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Kald tid"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "mellem"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "ikke mellem"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Start"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Stop"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Vælg tidszone..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Forespurgt URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Foruddefineret URLer"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Fil WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Bruger \"user agent\""
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Synkronisering klienter"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android klient"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS klient"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Dekstop klient"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Brugers gruppemedlemsskab"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "er medlem af"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "er ikke medlem af"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Den givne operator er invalid"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Det givne regulære udtryk er invalidt"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Den givne filstørrelse er invalid"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Det givne tag id er invalidt"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Det givne IP interval er invalidt"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Det givne IP interval er invalidt for IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Det givne IP interval er invalidt for IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Det givne tid interval er invalidt"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Den givne starttid er invalid"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Den givne sluttid er invalid"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Den givne gruppe eksisterer ikke"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Tjek %s er invalid eller eksisterer ikke"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Operation #%s eksisterer ikke"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Operation %s eksisterer ikke"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Operation %s er invalid"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Tjek %s eksisterer ikke"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Tjek %s er invalid"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Tjek #%s eksisterer"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Workflow"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Åben dokumentationen"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Tilføj regelgruppe"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Kort regelbeskrivelse"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Tilføj regel"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Reset"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Gem"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Gemmer..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Indlæser..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Succesfuld gemt "
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Fil MIME type"

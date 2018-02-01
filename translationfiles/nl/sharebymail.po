@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: André Koot <meneer@tken.net>, 2017\n"
+"Language-Team: Dutch (https://www.transifex.com/nextcloud/teams/64236/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Deel met %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Gedeeld met {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "Gedeeld met %1$s door %2$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "Gedeeld met {email} door {actor}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "Wachtwoord voor het delen per mail is naar %1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "Wachtwoord voor het delen per mail is naar {email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "Wachtwoord voor het delen per mail is naar je verstuurd"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Je deelde %1$s met %2$s per mail"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "Je deelde {file} met {email} per mail"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s deelde %1$s met %2$s per mail"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} deelde {file} met {email} per mail"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "Wachtwoord voor toegang tot %1$s is gestuurd naar %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "Wachtwoord voor toegang tot {file} is gestuurd naar {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "Wachtwoord voor toegang tot %1$s is naar jou gestuurd"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "Wachtwoord voor toegang tot {file} is naar je verstuurd"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "Delen van %s is mislukt, omdat dit al gedeeld wordt met %s"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"We kunnen je geen automatisch gegenereerd wachtwoord toesturen. Vermeld een "
+"geldig emailadres in je persoonlijke instellingen en probeer het nogmaals."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Delen per email is mislukt"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s heeft \"%s\" met je gedeeld"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s heeft \"%s\" met je gedeeld."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Klik op onderstaande link om te openen."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Open »%s«"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s via %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s heeft \"%s\" met je gedeeld.\n"
+"Als het goed is, heb je een aparte email ontvangen met een linkje voor toegang.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s heeft \"%s\" met je gedeeld. Je zou al een aparte email ontvangen moeten "
+"hebben met een link om er te komen."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "Toegangswachtwoord »%s« gedeeld met je door %s"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Wachtwoord om binnen te komen »%s«"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Het is beveiligd met het volgende wachtwoord: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Je deelde  »%s« met %s. De link is al gestuurd naar de geadresseerde. "
+"Vanwege de beveiligingsinstellingen, zoals ingesteld door de beheerder van "
+"%s, moet het delen worden beveiligd met een wachtwoord en is het niet "
+"toegestaan het wachtwoord rechtstreeks naar de ontvanger te versturen. "
+"Hierdoor moet je het wachtwoord zelf handmatig naar de ontvanger sturen."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Wachtwoord voor toegang »%s« gedeeld met %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Dit is het wachtwoord: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr "Je kunt in de Delen-dialoog altijd een ander wachtwoord kiezen."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Kon gedeeld niet vinden"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Delen via email"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Staat gebruikers toe om een gepersonaliseerde link of map te delen door een "
+"e-mailadres op te geven."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Wachtwoord per email verzenden"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Wachtwoord-beveiliging afdwingen"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "delen per email is mislukt"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s deelde »%s« met jou in naam van %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Maken van de mail is mislukt"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Hallo daar,\n"
+"\n"
+"%s deelde \"%s\" met je namens %s.\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Hallo daar,\n"
+"\n"
+"%s deelde \"%s\" met je.\n"
+"\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Proost!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Hallo daar,<br><br>%s deelde <a href=\"%s\">%s</a> met je namens %s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "Hallo daar,<br><br>%s deelde <a href=\"%s\">%s</a> met je.<br><br>"

@@ -1,0 +1,2328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kai Schröer <kai.schroeer@gmx.net>, 2017\n"
+"Language-Team: German (Germany) (https://www.transifex.com/nextcloud/teams/64236/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Activity/Provider.php:97
+msgid "{actor} changed your password"
+msgstr "{actor} hat Ihr Passwort geändert"
+
+#: Activity/Provider.php:99
+msgid "You changed your password"
+msgstr "Sie haben Ihr Passwort geändert"
+
+#: Activity/Provider.php:101
+msgid "Your password was reset by an administrator"
+msgstr "Ihr Passwort wurde vom Administrator zurückgesetzt"
+
+#: Activity/Provider.php:104
+msgid "{actor} changed your email address"
+msgstr "{actor} hat Ihre E-Mail-Adresse geändert"
+
+#: Activity/Provider.php:106
+msgid "You changed your email address"
+msgstr "Sie haben Ihre E-Mail-Adresse geändert"
+
+#: Activity/Provider.php:108
+msgid "Your email address was changed by an administrator"
+msgstr "Ihre E-Mail-Adresse wurde durch den Administrator geändert"
+
+#: Activity/SecurityFilter.php:60 Activity/SecuritySetting.php:51
+#: templates/settings/personal/security.php:35
+msgid "Security"
+msgstr "Sicherheit"
+
+#: Activity/SecurityProvider.php:61
+#, php-format
+msgid "You successfully logged in using two-factor authentication (%1$s)"
+msgstr ""
+"Du hast Dich erfolgreich mittels Zwei-Faktor-Authentifizierung angemeldet "
+"(%1$s)"
+
+#: Activity/SecurityProvider.php:72
+#, php-format
+msgid "A login attempt using two-factor authentication failed (%1$s)"
+msgstr ""
+"Ein Anmeldeversuch mittels Zwei-Faktor-Authentifizierung schlug fehl (%1$s)"
+
+#: Activity/Setting.php:54
+msgid "Your <strong>password</strong> or <strong>email</strong> was modified"
+msgstr ""
+"Ihr <strong>Passwort</strong> oder Ihre <strong>E-Mail-Adresse</strong> "
+"wurde geändert"
+
+#: Controller/AppSettingsController.php:146 js/apps.js:44
+msgid "Your apps"
+msgstr "Ihre Apps"
+
+#: Controller/AppSettingsController.php:147
+msgid "Updates"
+msgstr "Aktualisierungen"
+
+#: Controller/AppSettingsController.php:148 js/apps.js:45
+msgid "Enabled apps"
+msgstr "Aktivierte Apps"
+
+#: Controller/AppSettingsController.php:149 js/apps.js:46
+msgid "Disabled apps"
+msgstr "Deaktivierte Apps"
+
+#: Controller/AppSettingsController.php:150
+msgid "App bundles"
+msgstr "App-Pakete"
+
+#: Controller/ChangePasswordController.php:108
+msgid "Wrong password"
+msgstr "Falsches Passwort"
+
+#: Controller/ChangePasswordController.php:136 js/admin.js:127 js/admin.js:190
+#: js/admin.js:210
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: Controller/ChangePasswordController.php:156
+msgid "No user supplied"
+msgstr "Kein Benutzer angegeben"
+
+#: Controller/ChangePasswordController.php:165
+#: Controller/ChangePasswordController.php:262
+#: Controller/ChangePasswordController.php:273 js/settings/personalInfo.js:185
+#: js/settings/personalInfo.js:200
+msgid "Unable to change password"
+msgstr "Passwort konnte nicht geändert werden"
+
+#: Controller/ChangePasswordController.php:179
+#: Controller/UsersController.php:544 Controller/UsersController.php:611
+#: Controller/UsersController.php:935 ajax/setquota.php:56
+msgid "Authentication error"
+msgstr "Authentifizierungsfehler"
+
+#: Controller/ChangePasswordController.php:229
+msgid ""
+"Please provide an admin recovery password; otherwise, all user data will be "
+"lost."
+msgstr ""
+"Bitte geben Sie ein Wiederherstellungspasswort für das Administratorkonto "
+"an, da sonst alle Benutzerdaten verlorengehen."
+
+#: Controller/ChangePasswordController.php:236
+msgid ""
+"Wrong admin recovery password. Please check the password and try again."
+msgstr ""
+"Falsches Wiederherstellungspasswort für das Admin-Konto. Bitte überprüfen "
+"Sie das Passwort und versuchen Sie es erneut."
+
+#: Controller/ChangePasswordController.php:255
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"updated."
+msgstr ""
+"Das Backend unterstützt die Passwortänderung nicht, aber das "
+"Verschlüsselungspasswort des Benutzers wurde aktualisiert."
+
+#: Controller/CheckSetupController.php:201
+msgid ""
+"installing and updating apps via the app store or Federated Cloud Sharing"
+msgstr ""
+"Das Installieren und Aktualisieren von Apps durch den App-Store oder durch "
+"Federated Cloud Sharing"
+
+#: Controller/CheckSetupController.php:203
+msgid "Federated Cloud Sharing"
+msgstr "Federated-Cloud-Sharing"
+
+#: Controller/CheckSetupController.php:213
+#: Controller/CheckSetupController.php:227
+#, php-format
+msgid ""
+"cURL is using an outdated %s version (%s). Please update your operating "
+"system or features such as %s will not work reliably."
+msgstr ""
+"cURL verwendet eine veraltete %s Version (%s). Bitte aktualisieren Sie ihr "
+"Betriebssystem, da ansonsten Funktionen, wie z.B. %s, nicht zuverlässig "
+"funktionieren werden."
+
+#: Controller/EncryptionController.php:147
+#, php-format
+msgid "A problem occurred, please check your log files (Error: %s)"
+msgstr ""
+"Es ist ein Problem aufgetreten, bitte überprüfen Sie Ihre Logdateien "
+"(Fehler: %s)"
+
+#: Controller/EncryptionController.php:155
+msgid "Migration Completed"
+msgstr "Migration abgeschlossen"
+
+#: Controller/GroupsController.php:106
+msgid "Group already exists."
+msgstr "Gruppe existiert bereits."
+
+#: Controller/GroupsController.php:124
+msgid "Unable to add group."
+msgstr "Gruppe konnte nicht angelegt werden."
+
+#: Controller/GroupsController.php:155
+msgid "Unable to delete group."
+msgstr "Gruppe konnte nicht gelöscht werden."
+
+#: Controller/MailSettingsController.php:129
+msgid "Invalid SMTP password."
+msgstr "Ungültiges SMTP Passwort."
+
+#: Controller/MailSettingsController.php:154
+msgid "Email setting test"
+msgstr "Test der E-Mail-Einstellungen"
+
+#: Controller/MailSettingsController.php:156
+#, php-format
+msgid "Well done, %s!"
+msgstr "Gut gemacht, %s!"
+
+#: Controller/MailSettingsController.php:157
+msgid ""
+"If you received this email, the email configuration seems to be correct."
+msgstr ""
+"Wenn du diese E-Mail empfangen hast, sind die E-Mail-Einstellungen korrekt."
+
+#: Controller/MailSettingsController.php:165
+msgid "Email could not be sent. Check your mail server log"
+msgstr ""
+"E-Mail konnte nicht versandt werden. Prüfen Sie Ihr E-Mail-Server-Protokoll"
+
+#: Controller/MailSettingsController.php:169
+#, php-format
+msgid ""
+"A problem occurred while sending the email. Please revise your settings. "
+"(Error: %s)"
+msgstr ""
+"Beim Senden der E-Mail ist ein Problem aufgetreten. Bitte überprüfen Sie "
+"Ihre Einstellungen. (Fehler: %s)"
+
+#: Controller/MailSettingsController.php:173
+msgid "You need to set your user email before being able to send test emails."
+msgstr ""
+"Sie müssen Ihre Benutzer-E-Mail-Adresse einstellen, bevor Sie Test-E-Mails "
+"versenden können."
+
+#: Controller/UsersController.php:394 Controller/UsersController.php:770
+#: Controller/UsersController.php:997
+msgid "Invalid mail address"
+msgstr "Ungültige E-Mail-Adresse"
+
+#: Controller/UsersController.php:420
+msgid "No valid group selected"
+msgstr "Keine gültige Gruppe ausgewählt"
+
+#: Controller/UsersController.php:430
+msgid "A user with that name already exists."
+msgstr "Ein Benutzer mit diesem Namen existiert bereits."
+
+#: Controller/UsersController.php:441
+msgid "To send a password link to the user an email address is required."
+msgstr ""
+"Um einen Passwort-Link an einen Benutzer zu versenden wird eine E-Mail-"
+"Adresse benötigt."
+
+#: Controller/UsersController.php:461 Controller/UsersController.php:509
+msgid "Unable to create user."
+msgstr "Benutzer konnte nicht erstellt werden."
+
+#: Controller/UsersController.php:532 Controller/UsersController.php:569
+msgid "Unable to delete user."
+msgstr "Benutzer konnte nicht gelöscht werden."
+
+#: Controller/UsersController.php:586
+msgid "Error while enabling user."
+msgstr "Fehler beim Aktivieren des Benutzers."
+
+#: Controller/UsersController.php:588
+msgid "Error while disabling user."
+msgstr "Fehler beim Deaktivieren des Benutzers."
+
+#: Controller/UsersController.php:672
+msgid ""
+"In order to verify your Twitter account, post the following tweet on Twitter"
+" (please make sure to post it without any line breaks):"
+msgstr ""
+"Um Ihr Twitter-Konto zu überprüfen, veröffentlichen Sie bitte den folgenden "
+"Tweet auf Twitter (Bitte stellen Sie sicher, dass der Tweet keinen "
+"Zeilenumbruch enthält):"
+
+#: Controller/UsersController.php:680
+msgid ""
+"In order to verify your Website, store the following content in your web-"
+"root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the"
+" complete text is in one line):"
+msgstr ""
+"Um Ihre Webseite zu überprüfen, speichern Sie bitte den folgenden Inhalt im "
+"Web-Wurzelverzeichnist in der Datei '.well-"
+"known/CloudIdVerificationCode.txt' (bitte stellen Sie sicher, das sich der "
+"gesamte Text in einer Zeile befindet):"
+
+#: Controller/UsersController.php:814
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+#: Controller/UsersController.php:849
+msgid "Unable to change full name"
+msgstr "Der vollständige Name konnte nicht geändert werden"
+
+#: Controller/UsersController.php:861
+msgid "Unable to change email address"
+msgstr "E-Mail-Adresse konnte nicht geändert werden"
+
+#: Controller/UsersController.php:949
+msgid "Your full name has been changed."
+msgstr "Ihr vollständiger Name ist geändert worden."
+
+#: Controller/UsersController.php:985
+msgid "Forbidden"
+msgstr "Verboten"
+
+#: Controller/UsersController.php:1009
+msgid "Invalid user"
+msgstr "Ungültiger Benutzer"
+
+#: Controller/UsersController.php:1022
+msgid "Unable to change mail address"
+msgstr "E-Mail-Adresse konnte nicht geändert werden"
+
+#: Controller/UsersController.php:1040
+msgid "Email saved"
+msgstr "E-Mail-Adresse gespeichert"
+
+#: Hooks.php:108
+#, php-format
+msgid "%1$s changed your password on %2$s."
+msgstr "%1$s hat Ihr Passwort auf %2$s geändert."
+
+#: Hooks.php:112
+#, php-format
+msgid "Your password on %s was changed."
+msgstr "Ihr Passwort auf %s wurde geändert."
+
+#: Hooks.php:117
+#, php-format
+msgid "Your password on %s was reset by an administrator."
+msgstr "Ihr Passwort auf %s wurde vom Administrator zurückgesetzt."
+
+#: Hooks.php:130
+#, php-format
+msgid "Password for %1$s changed on %2$s"
+msgstr "Passwort für %1$s geändert auf %2$s"
+
+#: Hooks.php:132
+#, php-format
+msgid "Password changed for %s"
+msgstr "Passwort geändert für %s "
+
+#: Hooks.php:133 Hooks.php:203
+msgid "If you did not request this, please contact an administrator."
+msgstr ""
+"Wenn Sie das nicht angefordert haben sollten, wenden Sie sich bitte an den "
+"Administrator."
+
+#: Hooks.php:177
+#, php-format
+msgid "%1$s changed your email address on %2$s."
+msgstr "%1$s hat Ihre E-Mail-Adresse geändert auf %2$s."
+
+#: Hooks.php:181
+#, php-format
+msgid "Your email address on %s was changed."
+msgstr "Ihre E-Mail-Adresse auf %s wurde geändert."
+
+#: Hooks.php:186
+#, php-format
+msgid "Your email address on %s was changed by an administrator."
+msgstr "Ihre E-Mail-Adresse auf %s wurde von einem Administrator geändert."
+
+#: Hooks.php:200
+#, php-format
+msgid "Email address for %1$s changed on %2$s"
+msgstr "E-Mail-Adresse für %1$s geändert auf %2$s"
+
+#: Hooks.php:202
+#, php-format
+msgid "Email address changed for %s"
+msgstr "E-Mail-Adresse geändert für %s"
+
+#: Hooks.php:205
+#, php-format
+msgid "The new email address is %s"
+msgstr "Die neue E-Mail-Adresse lautet %s"
+
+#: Mailer/NewUserMailHelper.php:132
+#, php-format
+msgid "Your %s account was created"
+msgstr "Ihr %s-Konto wurde erstellt"
+
+#: Mailer/NewUserMailHelper.php:135
+msgid "Welcome aboard"
+msgstr "Willkommen an Bord"
+
+#: Mailer/NewUserMailHelper.php:137
+#, php-format
+msgid "Welcome aboard %s"
+msgstr "Willkommen an Bord %s"
+
+#: Mailer/NewUserMailHelper.php:139
+#, php-format
+msgid "Welcome to your %s account, you can add, protect, and share your data."
+msgstr ""
+"Willkommen zu Ihrem %s-Konto. Sie können Ihre Daten hinzufügen, schützen und"
+" teilen."
+
+#: Mailer/NewUserMailHelper.php:140
+#, php-format
+msgid "Your username is: %s"
+msgstr "Ihr Benutzername lautet: %s"
+
+#: Mailer/NewUserMailHelper.php:142
+msgid "Set your password"
+msgstr "Vergeben Sie Ihr Passwort"
+
+#: Mailer/NewUserMailHelper.php:144
+#, php-format
+msgid "Go to %s"
+msgstr "Gehe zu %s"
+
+#: Mailer/NewUserMailHelper.php:149
+msgid "Install Client"
+msgstr "Installiere den Client"
+
+#: ajax/disableapp.php:30 ajax/enableapp.php:33 ajax/setquota.php:39
+#: ajax/togglesubadmins.php:32 ajax/uninstallapp.php:31
+msgid "Password confirmation is required"
+msgstr "Passwortbestätigung erforderlich"
+
+#: ajax/uninstallapp.php:54
+msgid "Couldn't remove app."
+msgstr "Die App konnte nicht entfernt werden."
+
+#: ajax/updateapp.php:57
+msgid "Couldn't update app."
+msgstr "Die App konnte nicht aktualisiert werden."
+
+#: js/admin.js:10
+msgid "Are you really sure you want add {domain} as trusted domain?"
+msgstr ""
+"Sind Sie sich wirklich sicher, dass Sie {domain} als vertrauenswürdige "
+"Domain hinzufügen möchten?"
+
+#: js/admin.js:13
+msgid "Add trusted domain"
+msgstr "Vertrauenswürdige Domain hinzufügen"
+
+#: js/admin.js:76
+msgid "Migration in progress. Please wait until the migration is finished"
+msgstr "Migration läuft. Bitte warte, bis die Migration abgeschlossen ist"
+
+#: js/admin.js:80
+msgid "Migration started …"
+msgstr "Migration begonnen…"
+
+#: js/admin.js:130
+msgid "Not saved"
+msgstr "Nicht gespeichert"
+
+#: js/admin.js:229
+msgid "Sending…"
+msgstr "Senden…"
+
+#: js/admin.js:235
+msgid "Email sent"
+msgstr "E-Mail gesendet"
+
+#: js/apps.js:15 js/apps.js:821
+msgid "Official"
+msgstr "Offiziell"
+
+#: js/apps.js:26 templates/apps.php:67 templates/apps.php:187
+msgid "All"
+msgstr "Alle"
+
+#: js/apps.js:144 templates/apps.php:74 templates/apps.php:180
+#, php-format, javascript-format
+msgid "Update to %s"
+msgstr "Aktualisierung auf %s"
+
+#: js/apps.js:160 templates/apps.php:209
+msgid "No apps found for your version"
+msgstr "Es wurden keine Apps für Ihre Version gefunden"
+
+#: js/apps.js:166
+msgid "The app will be downloaded from the app store"
+msgstr "Die App wird aus dem App-Store heruntergeladen"
+
+#: js/apps.js:172
+msgid ""
+"Official apps are developed by and within the community. They offer central "
+"functionality and are ready for production use."
+msgstr ""
+"Offizielle Apps werden von und innerhalb der Community entwickelt. Sie "
+"stellen die zentralen Funktionen bereit und sind für den produktiven Einsatz"
+" geeignet."
+
+#: js/apps.js:177
+msgid ""
+"Approved apps are developed by trusted developers and have passed a cursory "
+"security check. They are actively maintained in an open code repository and "
+"their maintainers deem them to be stable for casual to normal use."
+msgstr ""
+"Geprüfte Apps werden von vertrauenswürdigen Entwicklern entwickelt und haben"
+" eine oberflächliche Sicherheitsprüfung durchlaufen. Sie werden innerhalb "
+"eines offenen Code-Repositorys aktiv gepflegt und ihre Betreuer erachten sie"
+" als stabil genug für für den gelegentlichen bis normalen Einsatz."
+
+#: js/apps.js:182
+msgid ""
+"This app is not checked for security issues and is new or known to be "
+"unstable. Install at your own risk."
+msgstr ""
+"Diese App ist nicht auf Sicherheitsprobleme hin überprüft und ist neu oder "
+"bekanntermaßen instabil. Die Installation erfolgt auf eigenes Risiko."
+
+#: js/apps.js:372
+msgid "Disabling app …"
+msgstr "App wird deaktiviert…"
+
+#: js/apps.js:382 js/apps.js:384 js/apps.js:436
+msgid "Error while disabling app"
+msgstr "Beim Deaktivieren der App ist ein Fehler aufgetreten"
+
+#: js/apps.js:388 js/apps.js:466 js/users/users.js:959 templates/apps.php:79
+#: templates/apps.php:182
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: js/apps.js:406 js/apps.js:440 js/apps.js:503 js/apps.js:517 js/apps.js:531
+#: js/users/users.js:961 templates/apps.php:81 templates/apps.php:189
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: js/apps.js:417
+msgid "Enabling app …"
+msgstr "Aktiviere App…"
+
+#: js/apps.js:434 js/apps.js:500 js/apps.js:524 js/apps.js:526
+msgid "Error while enabling app"
+msgstr "Beim Aktivieren der App ist ein Fehler aufgetreten"
+
+#: js/apps.js:497
+msgid ""
+"Error: This app can not be enabled because it makes the server unstable"
+msgstr ""
+"Fehler: Diese App kann nicht aktiviert werden, da sie den Server instabil "
+"macht. "
+
+#: js/apps.js:511
+msgid "Error: Could not disable broken app"
+msgstr " Fehler: Die beschädigte Anwendung konnte nicht deaktiviert werden "
+
+#: js/apps.js:514
+msgid "Error while disabling broken app"
+msgstr "Beim Deaktivieren der defekten App ist ein Fehler aufgetreten"
+
+#: js/apps.js:539
+msgid "App up to date"
+msgstr "App ist aktuell"
+
+#: js/apps.js:545
+msgid "Upgrading …"
+msgstr "Aktualisiere ..."
+
+#: js/apps.js:552
+msgid "Could not upgrade app"
+msgstr "App konnte nicht aktualisiert werden"
+
+#: js/apps.js:557
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: js/apps.js:585
+msgid "Removing …"
+msgstr "Entferne…"
+
+#: js/apps.js:588
+msgid "Could not remove app"
+msgstr "App konnte nicht entfernt werden"
+
+#: js/apps.js:589 templates/apps.php:76 templates/apps.php:192
+msgid "Remove"
+msgstr "Entfernen"
+
+#: js/apps.js:731
+msgid ""
+"The app has been enabled but needs to be upgraded. You will be redirected to"
+" the upgrade page in 5 seconds."
+msgstr ""
+"Die App wurde aktiviert, muss aber aktualisiert werden. Sie werden in 5 "
+"Sekunden zur Aktualisierungsseite weitergeleitet."
+
+#: js/apps.js:733
+msgid "App upgrade"
+msgstr "App aktualisieren"
+
+#: js/apps.js:826
+msgid "Approved"
+msgstr "Geprüft"
+
+#: js/apps.js:831
+msgid "Experimental"
+msgstr "Experimentell"
+
+#: js/apps.js:842
+msgid "No apps found for {query}"
+msgstr "Keine Applikationen für {query} gefunden"
+
+#: js/apps.js:943 templates/apps.php:41
+msgid "Enable all"
+msgstr "Alle aktivieren"
+
+#: js/authtoken_view.js:39
+msgid "Allow filesystem access"
+msgstr "Erlaube Dateisystem-Zugriff"
+
+#: js/authtoken_view.js:42
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: js/authtoken_view.js:42
+msgid "Revoke"
+msgstr "Widerrufen"
+
+#: js/authtoken_view.js:134
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: js/authtoken_view.js:135
+msgid "Edge"
+msgstr "Edge"
+
+#: js/authtoken_view.js:136
+msgid "Firefox"
+msgstr "Firefox"
+
+#: js/authtoken_view.js:137
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: js/authtoken_view.js:138
+msgid "Safari"
+msgstr "Safari"
+
+#: js/authtoken_view.js:139
+msgid "Google Chrome for Android"
+msgstr "Google Chrome für Android"
+
+#: js/authtoken_view.js:140
+msgid "iPhone iOS"
+msgstr "iPhone iOS"
+
+#: js/authtoken_view.js:141
+msgid "iPad iOS"
+msgstr "iPad iOS"
+
+#: js/authtoken_view.js:142
+msgid "iOS Client"
+msgstr "iOS-Client"
+
+#: js/authtoken_view.js:143
+msgid "Android Client"
+msgstr "Android-Client"
+
+#: js/authtoken_view.js:150
+msgid "Sync client - {os}"
+msgstr "Sync-Client - {os}"
+
+#: js/authtoken_view.js:167
+msgid "This session"
+msgstr "Diese Sitzung"
+
+#: js/authtoken_view.js:233 js/authtoken_view.js:246 js/authtoken_view.js:268
+msgid "Copy"
+msgstr "Kopieren"
+
+#: js/authtoken_view.js:240
+msgid "Copied!"
+msgstr "Kopiert!"
+
+#: js/authtoken_view.js:254
+msgid "Not supported!"
+msgstr "Nicht unterstützt!"
+
+#: js/authtoken_view.js:256
+msgid "Press ⌘-C to copy."
+msgstr "⌘-C zum Kopieren drücken."
+
+#: js/authtoken_view.js:258
+msgid "Press Ctrl-C to copy."
+msgstr "Ctrl-C zum Kopieren drücken."
+
+#: js/authtoken_view.js:290
+msgid "Error while loading browser sessions and device tokens"
+msgstr "Fehler beim Laden der Browser-Sitzungen und Geräte-Token"
+
+#: js/authtoken_view.js:324
+msgid "Error while creating device token"
+msgstr "Fehler beim Erstellen des Geräte-Tokens"
+
+#: js/authtoken_view.js:382
+msgid "Error while deleting the token"
+msgstr "Fehler beim Löschen des Geräte-Tokens"
+
+#: js/certificates.js:35 js/certificates.js:63
+msgid "An error occurred. Please upload an ASCII-encoded PEM certificate."
+msgstr ""
+"Es ist ein Fehler aufgetreten. Bitte laden Sie ein ASCII-kodiertes PEM-"
+"Zertifikat hoch."
+
+#: js/certificates.js:47
+msgid "Valid until {date}"
+msgstr "Gültig bis {date}"
+
+#: js/certificates.js:52 js/certificates.js:53 templates/certificates.php:27
+#: templates/certificates.php:28 templates/users/part.userlist.php:78
+msgid "Delete"
+msgstr "Löschen"
+
+#: js/federationscopemenu.js:49
+msgid "Local"
+msgstr "Lokal"
+
+#: js/federationscopemenu.js:49
+msgid "Private"
+msgstr "Privat"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to local users"
+msgstr "Nur für lokale Benutzer sichtbar"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to you"
+msgstr "Nur für Sie sichtbar"
+
+#: js/federationscopemenu.js:56
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: js/federationscopemenu.js:57
+msgid "Visible to local users and to trusted servers"
+msgstr "Sichtbar für lokale Benutzer und vertrauenswürdige Server"
+
+#: js/federationscopemenu.js:63
+msgid "Public"
+msgstr "Öffentlich"
+
+#: js/federationscopemenu.js:64
+msgid "Will be synced to a global and public address book"
+msgstr ""
+"Wird mit einem globalen und einem öffentlichen Adressbuch synchronisiert"
+
+#: js/federationsettingsview.js:171
+msgid "Verify"
+msgstr "Überprüfen"
+
+#: js/federationsettingsview.js:177 js/settings/personalInfo.js:239
+msgid "Verifying …"
+msgstr "Überprüfe…"
+
+#: js/settings/personalInfo.js:291
+msgid ""
+"An error occured while changing your language. Please reload the page and "
+"try again."
+msgstr ""
+"Es ist ein Fehler beim Wechseln der Sprache aufgetreten. Bitte laden Sie die"
+" Seite neu und versuchen es noch einmal."
+
+#: js/settings/personalInfo.js:338
+msgid "Select a profile picture"
+msgstr "Wählen Sie ein Profilbild"
+
+#: js/settings/personalInfo.js:391
+msgid "Very weak password"
+msgstr "Sehr schwaches Passwort"
+
+#: js/settings/personalInfo.js:392
+msgid "Weak password"
+msgstr "Schwaches Passwort"
+
+#: js/settings/personalInfo.js:393
+msgid "So-so password"
+msgstr "Akzeptables Passwort"
+
+#: js/settings/personalInfo.js:394
+msgid "Good password"
+msgstr "Gutes Passwort"
+
+#: js/settings/personalInfo.js:395
+msgid "Strong password"
+msgstr "Starkes Passwort"
+
+#: js/settings.js:30 templates/settings/personal/personal.info.php:309
+#: templates/users/part.createuser.php:13 templates/users/part.userlist.php:9
+msgid "Groups"
+msgstr "Gruppen"
+
+#: js/users/deleteHandler.js:208
+msgid "Unable to delete {objName}"
+msgstr "Löschen von {objName} nicht möglich"
+
+#: js/users/groups.js:150 js/users/groups.js:258
+msgid "Error creating group: {message}"
+msgstr "Fehler beim Erstellen einer Gruppe: {message}"
+
+#: js/users/groups.js:259
+msgid "A valid group name must be provided"
+msgstr "Ein gültiger Gruppenname muss angegeben werden"
+
+#: js/users/groups.js:287
+msgid "deleted {groupName}"
+msgstr "{groupName} gelöscht"
+
+#: js/users/groups.js:288 js/users/users.js:350
+msgid "undo"
+msgstr "rückgängig machen"
+
+#: js/users/users.js:118
+msgid "{size} used"
+msgstr "{size} verwendet"
+
+#: js/users/users.js:153
+msgid "never"
+msgstr "niemals"
+
+#: js/users/users.js:349
+msgid "deleted {userName}"
+msgstr "{userName} gelöscht"
+
+#: js/users/users.js:418
+msgid "No user found for <strong>{pattern}</strong>"
+msgstr "Keine Benutzer für <strong>{pattern}</strong> gefunden"
+
+#: js/users/users.js:476
+msgid "Unable to add user to group {group}"
+msgstr "Benutzer kann nicht zur Gruppe {group} hinzugefügt werden "
+
+#: js/users/users.js:480
+msgid "Unable to remove user from group {group}"
+msgstr "Benutzer kann nicht aus der Gruppe {group} entfernt werden "
+
+#: js/users/users.js:499 templates/users/part.grouplist.php:5
+#: templates/users/part.grouplist.php:8
+msgid "Add group"
+msgstr "Gruppe hinzufügen"
+
+#: js/users/users.js:591
+msgid "Invalid quota value \"{val}\""
+msgstr "Ungültiges Speicherkontingent \"{val}\""
+
+#: js/users/users.js:639 js/users/users.js:700
+msgid "no group"
+msgstr "Keine Gruppe"
+
+#: js/users/users.js:749
+msgid "Password successfully changed"
+msgstr "Das Passwort wurde erfolgreich geändert"
+
+#: js/users/users.js:775
+msgid ""
+"Changing the password will result in data loss, because data recovery is not"
+" available for this user"
+msgstr ""
+"Die Änderung des Passworts führt zu Datenverlust, weil die "
+"Datenwiederherstellung für diesen Benutzer nicht verfügbar ist"
+
+#: js/users/users.js:888
+msgid "Could not change the users email"
+msgstr "Die E-Mail-Adresse des Benutzers konnte nicht geändert werden"
+
+#: js/users/users.js:992 js/users/users.js:1002
+msgid "Error while changing status of {user}"
+msgstr "Fehler beim Ändern des Status des Benutzers {user}"
+
+#: js/users/users.js:1033
+msgid "A valid username must be provided"
+msgstr "Es muss ein gültiger Benutzername angegeben werden"
+
+#: js/users/users.js:1032 js/users/users.js:1038 js/users/users.js:1047
+#: js/users/users.js:1089
+msgid "Error creating user: {message}"
+msgstr "Fehler beim Erstellen des Benutzers: {message}"
+
+#: js/users/users.js:1039
+msgid "A valid password must be provided"
+msgstr "Es muss ein gültiges Passwort angegeben werden"
+
+#: js/users/users.js:1048
+msgid "A valid email must be provided"
+msgstr "Es muss eine gültige E-Mail-Adresse angegeben werden"
+
+#: templates/apps.php:32 templates/apps.php:136
+msgid "Developer documentation"
+msgstr "Dokumentation für Entwickler"
+
+#: templates/apps.php:59
+msgid "View in store"
+msgstr "Im Store anzeigen"
+
+#: templates/apps.php:66
+msgid "Limit to groups"
+msgstr "Auf Gruppen beschränken"
+
+#: templates/apps.php:111
+#, php-format
+msgid "by %s"
+msgstr "von %s"
+
+#: templates/apps.php:113
+#, php-format
+msgid "%s-licensed"
+msgstr "%s-Lizensiert"
+
+#: templates/apps.php:121
+msgid "Documentation:"
+msgstr "Dokumentation:"
+
+#: templates/apps.php:124 templates/help.php:7
+msgid "User documentation"
+msgstr "Dokumentation für Benutzer"
+
+#: templates/apps.php:130
+msgid "Admin documentation"
+msgstr "Dokumentation für Administratoren"
+
+#: templates/apps.php:143
+msgid "Visit website"
+msgstr "Webseite besuchen"
+
+#: templates/apps.php:147
+msgid "Report a bug"
+msgstr "Melden Sie einen technischen Fehler"
+
+#: templates/apps.php:150
+msgid "Show description …"
+msgstr "Beschreibung anzeigen…"
+
+#: templates/apps.php:151
+msgid "Hide description …"
+msgstr "Beschreibung ausblenden…"
+
+#: templates/apps.php:154
+msgid "This app has an update available."
+msgstr "Für diese App ist eine Aktualisierung verfügbar."
+
+#: templates/apps.php:159
+msgid ""
+"This app has no minimum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+"Für diese App wurde keine untere Versionsgrenze für Nextcloud gesetzt. Dies "
+"wird zukünftig als Fehler behandelt."
+
+#: templates/apps.php:164
+msgid ""
+"This app has no maximum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+"Für diese App wurde keine obere Versionsgrenze für Nextcloud gesetzt. Dies "
+"wird zukünftig als Fehler behandelt."
+
+#: templates/apps.php:171
+msgid ""
+"This app cannot be installed because the following dependencies are not "
+"fulfilled:"
+msgstr ""
+"Diese App kann nicht installiert werden, weil die folgenden Abhängigkeiten "
+"nicht erfüllt sind:"
+
+#: templates/apps.php:185
+msgid "Enable only for specific groups"
+msgstr "Nur für bestimmte Gruppen aktivieren"
+
+#: templates/certificates.php:2
+msgid "SSL Root Certificates"
+msgstr "SSL-Root-Zertifikate"
+
+#: templates/certificates.php:6
+msgid "Common Name"
+msgstr "Allgemeiner Name"
+
+#: templates/certificates.php:7
+msgid "Valid until"
+msgstr "Gültig bis"
+
+#: templates/certificates.php:8
+msgid "Issued By"
+msgstr "Ausgestellt von:"
+
+#: templates/certificates.php:19
+#, php-format
+msgid "Valid until %s"
+msgstr "Gültig bis %s"
+
+#: templates/certificates.php:40
+msgid "Import root certificate"
+msgstr "Root-Zertifikat importieren"
+
+#: templates/help.php:13
+msgid "Administrator documentation"
+msgstr "Dokumentation für Administratoren"
+
+#: templates/help.php:20
+msgid "Online documentation"
+msgstr "Online-Dokumentation"
+
+#: templates/help.php:25
+msgid "Forum"
+msgstr "Forum"
+
+#: templates/help.php:32
+msgid "Getting help"
+msgstr "Hilfe bekommen"
+
+#: templates/help.php:39
+msgid "Commercial support"
+msgstr "Kommerzieller Support"
+
+#: templates/settings/admin/additional-mail.php:28
+#: templates/settings/admin/additional-mail.php:35
+msgid "None"
+msgstr "Keine"
+
+#: templates/settings/admin/additional-mail.php:29
+msgid "Login"
+msgstr "Anmelden"
+
+#: templates/settings/admin/additional-mail.php:30
+msgid "Plain"
+msgstr "Klartext"
+
+#: templates/settings/admin/additional-mail.php:31
+msgid "NT LAN Manager"
+msgstr "NT-LAN-Manager"
+
+#: templates/settings/admin/additional-mail.php:36
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: templates/settings/admin/additional-mail.php:37
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: templates/settings/admin/additional-mail.php:55
+msgid "Email server"
+msgstr "E-Mail-Server"
+
+#: templates/settings/admin/additional-mail.php:57
+#: templates/settings/admin/encryption.php:32
+#: templates/settings/admin/server.php:180
+#: templates/settings/admin/sharing.php:32
+msgid "Open documentation"
+msgstr "Dokumentation öffnen"
+
+#: templates/settings/admin/additional-mail.php:59
+msgid ""
+"It is important to set up this server to be able to send emails, like for "
+"password reset and notifications."
+msgstr ""
+"Es ist wichtig diesen Server so zu konfigurieren, dass E-Mails versandt "
+"werden können, z.B. für den Passwort-Reset und Benachrichtigungen."
+
+#: templates/settings/admin/additional-mail.php:63
+msgid "Send mode"
+msgstr "Sendemodus"
+
+#: templates/settings/admin/additional-mail.php:76
+msgid "Encryption"
+msgstr "Verschlüsselung"
+
+#: templates/settings/admin/additional-mail.php:91
+msgid "From address"
+msgstr "Absenderadresse"
+
+#: templates/settings/admin/additional-mail.php:92
+msgid "mail"
+msgstr "E-Mail"
+
+#: templates/settings/admin/additional-mail.php:99
+msgid "Authentication method"
+msgstr "Authentifizierungsmethode"
+
+#: templates/settings/admin/additional-mail.php:112
+msgid "Authentication required"
+msgstr "Authentifizierung benötigt"
+
+#: templates/settings/admin/additional-mail.php:116
+msgid "Server address"
+msgstr "Serveradresse"
+
+#: templates/settings/admin/additional-mail.php:120
+msgid "Port"
+msgstr "Port"
+
+#: templates/settings/admin/additional-mail.php:126
+msgid "Credentials"
+msgstr "Zugangsdaten"
+
+#: templates/settings/admin/additional-mail.php:127
+msgid "SMTP Username"
+msgstr "SMTP-Benutzername"
+
+#: templates/settings/admin/additional-mail.php:130
+msgid "SMTP Password"
+msgstr "SMTP-Passwort"
+
+#: templates/settings/admin/additional-mail.php:131
+msgid "Store credentials"
+msgstr "Anmeldeinformationen speichern"
+
+#: templates/settings/admin/additional-mail.php:136
+msgid "Test email settings"
+msgstr "E-Mail-Einstellungen testen"
+
+#: templates/settings/admin/additional-mail.php:137
+msgid "Send email"
+msgstr "E-Mail senden"
+
+#: templates/settings/admin/encryption.php:30
+msgid "Server-side encryption"
+msgstr "Serverseitige Verschlüsselung"
+
+#: templates/settings/admin/encryption.php:34
+msgid ""
+"Server-side encryption makes it possible to encrypt files which are uploaded"
+" to this server. This comes with limitations like a performance penalty, so "
+"enable this only if needed."
+msgstr ""
+"Serverseitige Verschlüsselung ermöglicht es die auf diesen Server "
+"hochgeladenen Dateien zu verschlüsseln. Dies führt allerdings auch zu "
+"Nachteilen, wie z.B. einem Geschwindigkeitsverlust. Sie sollte deshalb nur "
+"eingeschaltet werden, wenn sie wirklich benötigt wird."
+
+#: templates/settings/admin/encryption.php:40
+msgid "Enable server-side encryption"
+msgstr "Serverseitige Verschlüsselung aktivieren"
+
+#: templates/settings/admin/encryption.php:44
+msgid "Please read carefully before activating server-side encryption: "
+msgstr ""
+"Bitte lesen Sie ganz genau, bevor Sie die serverseitige Verschlüsselung "
+"aktivieren:"
+
+#: templates/settings/admin/encryption.php:46
+msgid ""
+"Once encryption is enabled, all files uploaded to the server from that point"
+" forward will be encrypted at rest on the server. It will only be possible "
+"to disable encryption at a later date if the active encryption module "
+"supports that function, and all pre-conditions (e.g. setting a recover key) "
+"are met."
+msgstr ""
+"Wird die Verschlüsselung einmal aktiviert, so werden alle ab diesem "
+"Zeitpunkt hochgeladene Dateien verschlüsselt. Sie kann nur wieder "
+"deaktiviert werden, wenn das Verschlüsselungsmodul dies unterstützt und alle"
+" Voraussetzungen (wie das Setzen eines Wiederherstellungsschlüssels) im "
+"Vorhinein erfüllt wurden."
+
+#: templates/settings/admin/encryption.php:47
+msgid ""
+"Encryption alone does not guarantee security of the system. Please see "
+"documentation for more information about how the encryption app works, and "
+"the supported use cases."
+msgstr ""
+"Verschlüsselung alleine garantiert nicht die Systemsicherheit. Bitte lese in"
+" der Dokumentation nach, wie die Verschlüsselungs-app funktioniert und "
+"welche Anwendungsfälle unterstützt werden."
+
+#: templates/settings/admin/encryption.php:48
+msgid "Be aware that encryption always increases the file size."
+msgstr "Bedenken Sie, dass durch die Verschlüsselung die Dateigröße zunimmt. "
+
+#: templates/settings/admin/encryption.php:49
+msgid ""
+"It is always good to create regular backups of your data, in case of "
+"encryption make sure to backup the encryption keys along with your data."
+msgstr ""
+"Es ist immer gut, regelmäßig Sicherungskopien von ihren Daten zu machen. "
+"Falls Sie die Verschlüsselung nutzen, sollten Sie auch eine Sicherung der "
+"Verschlüsselungsschlüssel zusammen mit Ihren Daten machen."
+
+#: templates/settings/admin/encryption.php:52
+msgid "This is the final warning: Do you really want to enable encryption?"
+msgstr ""
+"Dies ist die letzte Warnung: Wollen Sie die Verschlüsselung wirklich "
+"aktivieren?"
+
+#: templates/settings/admin/encryption.php:54
+msgid "Enable encryption"
+msgstr "Verschlüsselung aktivieren"
+
+#: templates/settings/admin/encryption.php:61
+msgid ""
+"No encryption module loaded, please enable an encryption module in the app "
+"menu."
+msgstr ""
+"Kein Verschlüsselungs-Modul geladen, bitte aktiviere ein Verschlüsselungs-"
+"Modul im Anwendungs-Menü."
+
+#: templates/settings/admin/encryption.php:63
+msgid "Select default encryption module:"
+msgstr "Standard-Verschlüsselungs-Modul auswählen:"
+
+#: templates/settings/admin/encryption.php:82
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
+"run 'occ encryption:migrate'"
+msgstr ""
+"Sie müssen Ihre Verschlüsselungsschlüssel von der alten Verschlüsselung "
+"(ownCloud <= 8.0) zur Neuen migrieren. Bitte aktivieren Sie das \"Default "
+"Encryption Module\" und rufen Sie 'occ encryption:migrate' auf."
+
+#: templates/settings/admin/encryption.php:84
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one."
+msgstr ""
+"Sie müssen Ihre Verschlüsselungsschlüssel von der alten Verschlüsselung "
+"(ownCloud <= 8.0) zur Neuen migrieren."
+
+#: templates/settings/admin/encryption.php:86
+msgid "Start migration"
+msgstr "Migration beginnen"
+
+#: templates/settings/admin/server.php:30
+msgid "Security & setup warnings"
+msgstr "Sicherheits- & Einrichtungswarnungen"
+
+#: templates/settings/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Tricks section and the documentation"
+" for more information."
+msgstr ""
+"Für die Sicherheit und Geschwindigkeit Ihrer Installation ist es von großer "
+"Bedeutung, dass sie richtig konfiguriert ist. Um Ihnen hierbei zu helfen "
+"werden einige automatische Tests durchgeführt. Weitere Informationen finden "
+"Sie im Tipps & Tricks- Abschnitt und in der Dokumentation."
+
+#: templates/settings/admin/server.php:38
+msgid ""
+"PHP does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+"PHP scheint zur Abfrage von Systemumgebungsvariablen nicht richtig "
+"eingerichtet zu sein. Der Test mit getenv(\"PATH\") liefert nur eine leere "
+"Antwort zurück."
+
+#: templates/settings/admin/server.php:39
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation documentation ↗</a> for PHP configuration notes and"
+" the PHP configuration of your server, especially when using php-fpm."
+msgstr ""
+"Bitte die <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">Installationsdokumentation ↗</a> auf Hinweise zur PHP-"
+"Konfiguration durchlesen, sowie die PHP-Konfiguration Ihres Servers "
+"überprüfen, insbesondere dann, wenn PHP-FPM eingesetzt wird."
+
+#: templates/settings/admin/server.php:48
+msgid ""
+"The Read-Only config has been enabled. This prevents setting some "
+"configurations via the web-interface. Furthermore, the file needs to be made"
+" writable manually for every update."
+msgstr ""
+"Die schreibgeschützte Konfiguration wurde aktiviert. Dies verhindert das "
+"Setzen einiger Einstellungen über die Web-Schnittstelle. Weiterhin muss bei "
+"jedem Update der Schreibzugriff auf die Datei händisch aktiviert werden."
+
+#: templates/settings/admin/server.php:57
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+"PHP ist offenbar so konfiguriert, dass PHPDoc-Blöcke in der Anweisung "
+"entfernt werden. Dadurch sind mehrere Kern-Apps nicht erreichbar. "
+
+#: templates/settings/admin/server.php:58
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"Dies wird wahrscheinlich durch Zwischenspeicher/Beschleuniger wie etwa Zend "
+"OPcache oder eAccelerator verursacht."
+
+#: templates/settings/admin/server.php:67
+msgid ""
+"Your database does not run with \"READ COMMITTED\" transaction isolation "
+"level. This can cause problems when multiple actions are executed in "
+"parallel."
+msgstr ""
+"Ihre Datenbank läuft nicht mit der \"READ COMMITED\" "
+"Transaktionsisolationsstufe. Dies kann Probleme hervorrufen, wenn mehrere "
+"Aktionen parallel ausgeführt werden."
+
+#: templates/settings/admin/server.php:76
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"it is recommended to update to a newer %1$s version."
+msgstr ""
+"%1$s ist in einer älteren Version als %2$s installiert. Aus Stabilitäts- und"
+" Performancegründen empfehlen wir eine Aktualisierung auf eine neuere "
+"%1$s-Version"
+
+#: templates/settings/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. It is strongly recommended to enable "
+"this module to get the best results with MIME type detection."
+msgstr ""
+"Das PHP Modul 'fileinfo' fehlt. Es empfiehlt sich dringend, das Modul zu "
+"aktivieren, um bestmögliche Ergebnisse bei der MIME-Datei-Typ-Erkennung zu "
+"erhalten. "
+
+#: templates/settings/admin/server.php:94
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+"Transaktionales Sperren ist deaktiviert, was zu Problemen mit "
+"Laufzeitbedingungen führen kann. Aktivieren Sie 'filelocking.enabled' in der"
+" config.php  diese Probleme zu vermeiden. Weitere Informationen findest Sie "
+"in unserer <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">Dokumentation ↗</a>."
+
+#: templates/settings/admin/server.php:105
+msgid "System locale can not be set to a one which supports UTF-8."
+msgstr ""
+"Es kann kein Systemgebietsschema gesetzt werden, das UTF-8 unterstützt."
+
+#: templates/settings/admin/server.php:109
+msgid ""
+"This means that there might be problems with certain characters in "
+"filenames."
+msgstr ""
+"Dies bedeutet, dass es zu Problemen mit bestimmten Zeichen in Dateinamen "
+"kommen kann. "
+
+#: templates/settings/admin/server.php:113
+#, php-format
+msgid ""
+"It is strongly proposed to install the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+"Es empfiehlt sich dringend, die erforderlichen Pakete auf Ihrem System zu "
+"installieren, damit eines der folgenden Gebietsschemata unterstützt wird: "
+"%s."
+
+#: templates/settings/admin/server.php:122
+#, php-format
+msgid ""
+"If your installation is not installed at the root of the domain and uses "
+"system Cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+"Wenn sich Ihre Installation nicht im Wurzelverzeichnis der Domain befindet "
+"und Cron des Systems genutzt wird, kann es zu Fehlern bei der URL-"
+"Generierung kommen. Um dies zu verhindern, setzen Sie bitte die "
+"„overwrite.cli.url“-Option in Ihrer config.php auf das Web-Wurzelverzeichnis"
+" Ihrer Installation (Vorschlag: „%s“)."
+
+#: templates/settings/admin/server.php:130
+msgid ""
+"It was not possible to execute the cron job via CLI. The following technical"
+" errors have appeared:"
+msgstr ""
+"Die Ausführung des Cron-Jobs über die Kommandozeile war nicht möglich. Die "
+"folgenden technischen Fehler sind dabei aufgetreten: "
+
+#: templates/settings/admin/server.php:149
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+"Bitte überprüfen Sie noch einmal die <a target=\"_blank\" rel=\"noreferrer "
+"noopener\" href=\"%s\">Installationsanleitungen ↗</a> und kontrollieren Sie "
+"das <a href=\"%s\">Protokoll</a> auf mögliche Fehler oder Warnungen."
+
+#: templates/settings/admin/server.php:153
+msgid "All checks passed."
+msgstr "Alle Überprüfungen bestanden."
+
+#: templates/settings/admin/server.php:158
+msgid "Background jobs"
+msgstr "Hintergrund-Aufgaben"
+
+#: templates/settings/admin/server.php:166
+#, php-format
+msgid "Last job ran %s."
+msgstr "Letzte Aufgabe ausgeführt %s"
+
+#: templates/settings/admin/server.php:171
+#, php-format
+msgid "Last job execution ran %s. Something seems wrong."
+msgstr "Letzte Aufgaben-Ausführung lief %s. Etwas scheint falsch zu sein."
+
+#: templates/settings/admin/server.php:176
+msgid "Background job didn’t run yet!"
+msgstr "Hintergrund-Aufgabe wurde bislang nicht ausgeführt!"
+
+#: templates/settings/admin/server.php:183
+msgid ""
+"For optimal performance it's important to configure background jobs "
+"correctly. For bigger instances 'Cron' is the recommended setting. Please "
+"see the documentation for more information."
+msgstr ""
+"Um die optimale Geschwindigkeit zu erreichen ist es wichtig, dass die "
+"Hintergrund-Aktivitäten richtig konfiguriert sind. Für größere "
+"Installationen ist 'Cron' die empfohlene Einstellung. Weitere Informationen "
+"finden Sie in der Dokumentation."
+
+#: templates/settings/admin/server.php:190
+msgid "Execute one task with each page loaded"
+msgstr "Eine Aufgabe bei jedem Laden einer Seite ausführen"
+
+#: templates/settings/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over HTTP."
+msgstr ""
+"cron.php ist als Webcron-Dienst registriert, der die cron.php alle 15 "
+"Minuten per HTTP aufruft. "
+
+#: templates/settings/admin/server.php:209
+msgid "Use system cron service to call the cron.php file every 15 minutes."
+msgstr ""
+"Nutzen Sie den System-Cron-Service um cron.php alle 15 Minuten aufzurufen."
+
+#: templates/settings/admin/server.php:211
+#, php-format
+msgid "The cron.php needs to be executed by the system user \"%s\"."
+msgstr "Die cron.php muss durch den Systemnutzer \"%s\" ausgeführt werden."
+
+#: templates/settings/admin/server.php:216
+msgid ""
+"To run this you need the PHP POSIX extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+"Um dies auszuführen, wird die PHP-Posix Erweiterung benötigt. Weitere "
+"Informationen in der {linkstart}PHP-Dokumentation{linkend}. "
+
+#: templates/settings/admin/server.php:225
+msgid "Version"
+msgstr "Version"
+
+#: templates/settings/admin/sharing.php:30
+msgid "Sharing"
+msgstr "Teilen"
+
+#: templates/settings/admin/sharing.php:34
+msgid ""
+"As admin you can fine-tune the sharing behavior. Please see the "
+"documentation for more information."
+msgstr ""
+"Als Administrator können sie das Teilen-Verhalten feinabstimmen. Weitere "
+"Informationen finden Sie in der Dokumentation."
+
+#: templates/settings/admin/sharing.php:38
+msgid "Allow apps to use the Share API"
+msgstr "Apps die Benutzung der Share-API erlauben"
+
+#: templates/settings/admin/sharing.php:43
+msgid "Allow users to share via link"
+msgstr "Benutzern erlauben, Inhalte über Links zu teilen"
+
+#: templates/settings/admin/sharing.php:49
+msgid "Allow public uploads"
+msgstr "Öffentliches Hochladen erlauben"
+
+#: templates/settings/admin/sharing.php:52
+msgid "Always ask for a password"
+msgstr "Immer nach einem Passwort fragen"
+
+#: templates/settings/admin/sharing.php:55
+msgid "Enforce password protection"
+msgstr "Passwortschutz erzwingen"
+
+#: templates/settings/admin/sharing.php:59
+msgid "Set default expiration date"
+msgstr "Standardmäßiges Ablaufdatum setzen"
+
+#: templates/settings/admin/sharing.php:63
+msgid "Expire after "
+msgstr "Ablauf nach "
+
+#: templates/settings/admin/sharing.php:66
+msgid "days"
+msgstr "Tagen"
+
+#: templates/settings/admin/sharing.php:69
+msgid "Enforce expiration date"
+msgstr "Ablaufdatum erzwingen"
+
+#: templates/settings/admin/sharing.php:74
+msgid "Allow resharing"
+msgstr "Weiterteilen erlauben"
+
+#: templates/settings/admin/sharing.php:79
+msgid "Allow sharing with groups"
+msgstr "Teilen mit Gruppen erlauben"
+
+#: templates/settings/admin/sharing.php:84
+msgid "Restrict users to only share with users in their groups"
+msgstr "Benutzer auf das Teilen innerhalb ihrer Gruppen beschränken"
+
+#: templates/settings/admin/sharing.php:89
+msgid "Exclude groups from sharing"
+msgstr "Gruppen von Freigaben ausschließen"
+
+#: templates/settings/admin/sharing.php:94
+msgid ""
+"These groups will still be able to receive shares, but not to initiate them."
+msgstr ""
+"Diese Gruppen können weiterhin Freigaben empfangen, aber selbst keine mehr "
+"initiieren."
+
+#: templates/settings/admin/sharing.php:99
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username or email address needs to be entered."
+msgstr ""
+"Die Auto-Vervollständigung von Benutzernamen im Teilen-Dialog erlauben. Wenn"
+" dies deaktiviert ist, muss der vollständige Benutzername oder E-Mail-"
+"Adresse eingegeben werden."
+
+#: templates/settings/admin/sharing.php:104
+msgid ""
+"Show disclaimer text on the public link upload page. (Only shown when the "
+"file list is hidden.)"
+msgstr ""
+"Zeige Haftungsausschluss auf der öffentlichen Upload-Seite. (Wird nur "
+"gezeigt wenn die Dateiliste nicht angezeigt wird.) "
+
+#: templates/settings/admin/sharing.php:107
+msgid ""
+"This text will be shown on the public link upload page when the file list is"
+" hidden."
+msgstr ""
+"Dieser Text wird auf der öffentlichen Upload-Seite angezeigt wenn die "
+"Dateiliste nicht angezeigt wird."
+
+#: templates/settings/admin/tipstricks.php:30
+msgid "Tips & tricks"
+msgstr "Tipps & Tricks"
+
+#: templates/settings/admin/tipstricks.php:31
+msgid ""
+"There are a lot of features and config switches available to optimally "
+"customize and use this instance. Here are some pointers for more "
+"information."
+msgstr ""
+"Es gibt ein Menge von Eigenschaften und Konfigurationsschaltern die es "
+"ermöglichen, die Installation optimal zu nutzen und anzupassen. Hier einige "
+"Verweise auf weitere Informationen."
+
+#: templates/settings/admin/tipstricks.php:38
+msgid ""
+"SQLite is currently being used as the backend database. For larger "
+"installations we recommend that you switch to a different database backend."
+msgstr ""
+"SQLite wird als Datenbank verwendet. Bei größeren Installationen empfehlen "
+"wir,  auf ein anderes Datenbank-Backend zu wechseln."
+
+#: templates/settings/admin/tipstricks.php:39
+msgid ""
+"This is particularly recommended when using the desktop client for file "
+"synchronisation."
+msgstr ""
+"Dies wird insbesondere bei der Benutzung des Dektop-Clients zur "
+"Synchronisierung empfohlen."
+
+#: templates/settings/admin/tipstricks.php:40
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+"Um zu einer anderen Datenbank zu migrieren, benutzen Sie bitte die "
+"Kommandozeile: 'occ db:convert-type', oder in die <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"%s\">Dokumentation ↗</a> schauen."
+
+#: templates/settings/admin/tipstricks.php:43
+msgid "How to do backups"
+msgstr "Wie man Datensicherungen anlegt"
+
+#: templates/settings/admin/tipstricks.php:44
+msgid "Advanced monitoring"
+msgstr "Erweitertes Monitoring"
+
+#: templates/settings/admin/tipstricks.php:45
+msgid "Performance tuning"
+msgstr "Leistungsoptimierung"
+
+#: templates/settings/admin/tipstricks.php:46
+msgid "Improving the config.php"
+msgstr "Die config.php optimieren"
+
+#: templates/settings/admin/tipstricks.php:47
+msgid "Theming"
+msgstr "Themes verwenden"
+
+#: templates/settings/admin/tipstricks.php:48
+msgid "Check the security of your Nextcloud over our security scan"
+msgstr ""
+"Überprüfen Sie die Sicherheit Ihrer Nextcloud mit unserem Sicherheits-Scan"
+
+#: templates/settings/admin/tipstricks.php:49
+msgid "Hardening and security guidance"
+msgstr "Systemhärtung und Sicherheitsempfehlungen"
+
+#: templates/settings/frame.php:33
+msgid "Personal"
+msgstr "Persönlich"
+
+#: templates/settings/frame.php:60
+msgid "Administration"
+msgstr "Verwaltung"
+
+#: templates/settings/personal/personal.info.php:47
+#: templates/settings/personal/personal.info.php:58
+#, php-format
+msgid "You are using <strong>%s</strong> of <strong>%s</strong>"
+msgstr "Sie verwenden <strong>%s</strong> der verfügbaren <strong>%s</strong>"
+
+#: templates/settings/personal/personal.info.php:50
+#: templates/settings/personal/personal.info.php:61
+#, php-format
+msgid ""
+"You are using <strong>%s</strong> of <strong>%s</strong> (<strong>%s "
+"%%</strong>)"
+msgstr ""
+"Sie verwenden <strong>%s</strong> von <strong>%s</strong> (<strong>%s "
+"%%</strong>)"
+
+#: templates/settings/personal/personal.info.php:73
+msgid "Profile picture"
+msgstr "Profilbild"
+
+#: templates/settings/personal/personal.info.php:81
+msgid "Upload new"
+msgstr "Neues hochladen"
+
+#: templates/settings/personal/personal.info.php:82
+msgid "Select from Files"
+msgstr "Aus Dateien wählen"
+
+#: templates/settings/personal/personal.info.php:83
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: templates/settings/personal/personal.info.php:85
+msgid "png or jpg, max. 20 MB"
+msgstr "png oder jpg, max. 20 MB"
+
+#: templates/settings/personal/personal.info.php:87
+msgid "Picture provided by original account"
+msgstr "Bild von Original-Konto zur Verfügung gestellt"
+
+#: templates/settings/personal/personal.info.php:93
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: templates/settings/personal/personal.info.php:94
+msgid "Choose as profile picture"
+msgstr "Als Profilbild auswählen"
+
+#: templates/settings/personal/personal.info.php:109
+#: templates/users/part.userlist.php:6
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+#: templates/settings/personal/personal.info.php:119
+msgid "No display name set"
+msgstr "Kein Anzeigename angegeben"
+
+#: templates/settings/personal/personal.info.php:131
+#: templates/users/part.userlist.php:8
+msgid "Email"
+msgstr "E-Mail"
+
+#: templates/settings/personal/personal.info.php:153
+msgid "Your email address"
+msgstr "Ihre E-Mail-Adresse"
+
+#: templates/settings/personal/personal.info.php:158
+msgid "No email address set"
+msgstr "Keine E-Mail-Adresse angegeben"
+
+#: templates/settings/personal/personal.info.php:161
+msgid "For password reset and notifications"
+msgstr "Für Passwort-Wiederherstellung und Benachrichtigungen"
+
+#: templates/settings/personal/personal.info.php:172
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: templates/settings/personal/personal.info.php:179
+msgid "Your phone number"
+msgstr "Ihre Telefonnummer"
+
+#: templates/settings/personal/personal.info.php:192
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/settings/personal/personal.info.php:198
+msgid "Your postal address"
+msgstr "Ihre Postadresse"
+
+#: templates/settings/personal/personal.info.php:212
+msgid "Website"
+msgstr "Webseite"
+
+#: templates/settings/personal/personal.info.php:238
+#: templates/settings/personal/personal.info.php:285
+msgid ""
+"It can take up to 24 hours before the account is displayed as verified."
+msgstr ""
+"Es kann bis zu 24 Stunden dauern, bis das Konto als überprüt angezeigt wird."
+
+#: templates/settings/personal/personal.info.php:244
+msgid "Link https://…"
+msgstr "Link https://…"
+
+#: templates/settings/personal/personal.info.php:259
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/settings/personal/personal.info.php:291
+msgid "Twitter handle @…"
+msgstr "Twitter-Handle @…"
+
+#: templates/settings/personal/personal.info.php:310
+msgid "You are member of the following groups:"
+msgstr "Sie sind Mitglied folgender Gruppen:"
+
+#: templates/settings/personal/personal.info.php:323
+#: templates/settings/personal/personal.info.php:325
+msgid "Language"
+msgstr "Sprache"
+
+#: templates/settings/personal/personal.info.php:343
+msgid "Help translate"
+msgstr "Helfen Sie bei der Übersetzung"
+
+#: templates/settings/personal/personal.info.php:354
+#: templates/settings/personal/security.php:62
+#: templates/users/part.createuser.php:8 templates/users/part.userlist.php:7
+msgid "Password"
+msgstr "Passwort"
+
+#: templates/settings/personal/personal.info.php:357
+#: templates/settings/personal/personal.info.php:359
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
+#: templates/settings/personal/personal.info.php:363
+#: templates/settings/personal/personal.info.php:365
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: templates/settings/personal/personal.info.php:371
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: templates/settings/personal/security.php:36
+msgid "Web, desktop and mobile clients currently logged in to your account."
+msgstr "Aktuell in Ihrem Konto angemeldete Web-, Desktop- und Mobil-Clients."
+
+#: templates/settings/personal/security.php:40
+msgid "Device"
+msgstr "Gerät"
+
+#: templates/settings/personal/security.php:41
+msgid "Last activity"
+msgstr "Letzte Aktivität"
+
+#: templates/settings/personal/security.php:49
+msgid "App name"
+msgstr "App-Name"
+
+#: templates/settings/personal/security.php:50
+msgid "Create new app password"
+msgstr "Neues App-Passwort erstellen"
+
+#: templates/settings/personal/security.php:54
+msgid "Use the credentials below to configure your app or device."
+msgstr ""
+"Nutzen Sie die unten angebenen Anmeldeinformationen, um ihre App oder ihr "
+"Gerät zu konfigurieren."
+
+#: templates/settings/personal/security.php:55
+msgid "For security reasons this password will only be shown once."
+msgstr "Aus Sicherheitsgründen wird das Passwort nur einmal angezeigt."
+
+#: templates/settings/personal/security.php:58
+#: templates/users/part.createuser.php:4 templates/users/part.userlist.php:5
+msgid "Username"
+msgstr "Benutzername"
+
+#: templates/settings/personal/security.php:65
+msgid "Done"
+msgstr "Erledigt"
+
+#: templates/settings.development.notice.php:15
+msgid ""
+"Developed by the {communityopen}Nextcloud community{linkclose}, the "
+"{githubopen}source code{linkclose} is licensed under the "
+"{licenseopen}AGPL{linkclose}."
+msgstr ""
+"Entwickelt von der {communityopen}Nextcloud Community{linkclose}, der "
+"{githubopen}Quellcode{linkclose} ist lizensiert unter "
+"{licenseopen}AGPL{linkclose}-Lizenz."
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+"
+msgstr "Folgen Sie uns auf Google+"
+
+#: templates/settings.development.notice.php:52
+msgid "Like our Facebook page"
+msgstr "Liken Sie uns auf unserer Facebook-Seite"
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter"
+msgstr "Folgen Sie uns auf Twitter"
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog"
+msgstr "Sehen Sie sich unseren Blog an"
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter"
+msgstr "Abonnieren Sie unseren Newsletter"
+
+#: templates/users/main.php:41
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: templates/users/main.php:51
+msgid "Show storage location"
+msgstr "Speicherort anzeigen"
+
+#: templates/users/main.php:58
+msgid "Show user backend"
+msgstr "Benutzer-Backend anzeigen"
+
+#: templates/users/main.php:65
+msgid "Show last login"
+msgstr "Letzte Anmeldung anzeigen"
+
+#: templates/users/main.php:72
+msgid "Show email address"
+msgstr "E-Mail-Adresse anzeigen"
+
+#: templates/users/main.php:79
+msgid "Send email to new user"
+msgstr "E-Mail an neuen Benutzer senden"
+
+#: templates/users/main.php:83
+msgid ""
+"When the password of a new user is left empty, an activation email with a "
+"link to set the password is sent."
+msgstr ""
+"Wenn das Passwort für den neuen Benutzer leer gelassen wird, wird an ihn "
+"eine Aktivierungs-E-Mail mit einem Link zur Passwortvergabe versandt."
+
+#: templates/users/part.createuser.php:11
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: templates/users/part.createuser.php:14
+msgid "Create"
+msgstr "Erstellen"
+
+#: templates/users/part.createuser.php:20
+msgid "Admin Recovery Password"
+msgstr "Admin-Passwort-Wiederherstellung"
+
+#: templates/users/part.createuser.php:21
+#: templates/users/part.createuser.php:22
+msgid ""
+"Enter the recovery password in order to recover the users files during "
+"password change"
+msgstr ""
+"Geben Sie das Wiederherstellungspasswort ein, um die Benutzerdateien während"
+" der Passwortänderung wiederherzustellen"
+
+#: templates/users/part.grouplist.php:18
+msgid "Everyone"
+msgstr "Jeder"
+
+#: templates/users/part.grouplist.php:31
+msgid "Admins"
+msgstr "Administratoren"
+
+#: templates/users/part.grouplist.php:43
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: templates/users/part.setquota.php:3
+msgid "Default quota"
+msgstr "Standard Speicherkontingent "
+
+#: templates/users/part.setquota.php:5 templates/users/part.userlist.php:46
+msgid "Please enter storage quota (ex: \"512 MB\" or \"12 GB\")"
+msgstr "Bitte Speicherkontingent eingeben (z.B.: „512 MB“ oder „12 GB“)"
+
+#: templates/users/part.setquota.php:7 templates/users/part.setquota.php:30
+#: templates/users/part.userlist.php:51
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: templates/users/part.setquota.php:22 templates/users/part.userlist.php:59
+msgid "Other"
+msgstr "Andere"
+
+#: templates/users/part.userlist.php:11
+msgid "Group admin for"
+msgstr "Gruppenadministrator für"
+
+#: templates/users/part.userlist.php:13
+msgid "Quota"
+msgstr "Kontingent"
+
+#: templates/users/part.userlist.php:14
+msgid "Storage location"
+msgstr "Speicherort"
+
+#: templates/users/part.userlist.php:15
+msgid "User backend"
+msgstr "Benutzer-Backend"
+
+#: templates/users/part.userlist.php:16
+msgid "Last login"
+msgstr "Letzte Anmeldung"
+
+#: templates/users/part.userlist.php:27
+msgid "change full name"
+msgstr "Vollständigen Namen ändern"
+
+#: templates/users/part.userlist.php:31
+msgid "set new password"
+msgstr "Neues Passwort setzen"
+
+#: templates/users/part.userlist.php:35
+msgid "change email address"
+msgstr "E-Mail-Adresse ändern"
+
+#: templates/users/part.userlist.php:48
+msgid "Default"
+msgstr "Standard"
+
+#: Controller/AppSettingsController.php:131 js/apps.js:43
+msgid "Enabled"
+msgstr ""
+
+#: Controller/AppSettingsController.php:132 js/apps.js:44
+msgid "Not enabled"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:220
+msgid ""
+"Please provide an admin recovery password, otherwise all user data will be "
+"lost"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:246
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"successfully updated."
+msgstr ""
+
+#: Controller/MailSettingsController.php:154
+msgid "test email settings"
+msgstr ""
+
+#: Controller/PersonalController.php:85
+msgid "Invalid request"
+msgstr ""
+
+#: ajax/togglegroups.php:44
+msgid "Admins can't remove themself from the admin group"
+msgstr ""
+
+#: ajax/togglegroups.php:72
+#, php-format
+msgid "Unable to add user to group %s"
+msgstr ""
+
+#: ajax/togglegroups.php:78
+#, php-format
+msgid "Unable to remove user from group %s"
+msgstr ""
+
+#: js/admin.js:223
+msgid "Sending..."
+msgstr ""
+
+#: js/apps.js:127 js/apps.js:424
+msgid "You have %n app update pending"
+msgid_plural "You have %n app updates pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/apps.js:398
+msgid "Updating...."
+msgstr ""
+
+#: js/apps.js:405
+msgid "Error while updating app"
+msgstr ""
+
+#: js/apps.js:437
+msgid "Uninstalling ...."
+msgstr ""
+
+#: js/apps.js:440
+msgid "Error while uninstalling app"
+msgstr ""
+
+#: js/apps.js:441
+msgid "Uninstall"
+msgstr ""
+
+#: js/apps.js:523
+msgid ""
+"The app has been enabled but needs to be updated. You will be redirected to "
+"the update page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:525
+msgid "App update"
+msgstr ""
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: personal.php:87
+msgid "__language_name__"
+msgstr ""
+
+#: personal.php:203
+msgid "Personal info"
+msgstr ""
+
+#: personal.php:204 templates/personal.php:268
+msgid "Sessions"
+msgstr ""
+
+#: personal.php:205 templates/personal.php:284
+msgid "App passwords"
+msgstr ""
+
+#: personal.php:206
+msgid "Sync clients"
+msgstr ""
+
+#: templates/admin/additional-mail.php:60
+msgid "This is used for sending out notifications."
+msgstr ""
+
+#: templates/admin/server.php:37
+msgid ""
+"php does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/admin/server.php:38
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation documentation ↗</a> for php configuration notes and"
+" the php configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/admin/server.php:56
+msgid ""
+"PHP is apparently setup to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/admin/server.php:75
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"we recommend updating to a newer %1$s version."
+msgstr ""
+
+#: templates/admin/server.php:84
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with mime-type detection."
+msgstr ""
+
+#: templates/admin/server.php:93
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/admin/server.php:108
+msgid ""
+"This means that there might be problems with certain characters in file "
+"names."
+msgstr ""
+
+#: templates/admin/server.php:112
+#, php-format
+msgid ""
+"We strongly suggest installing the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/admin/server.php:121
+#, php-format
+msgid ""
+"If your installation is not installed in the root of the domain and uses "
+"system cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/admin/server.php:129
+msgid ""
+"It was not possible to execute the cronjob via CLI. The following technical "
+"errors have appeared:"
+msgstr ""
+
+#: templates/admin/server.php:148
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/admin/server.php:157
+msgid "Cron"
+msgstr ""
+
+#: templates/admin/server.php:166
+#, php-format
+msgid "Last cron job execution: %s."
+msgstr ""
+
+#: templates/admin/server.php:171
+#, php-format
+msgid "Last cron job execution: %s. Something seems wrong."
+msgstr ""
+
+#: templates/admin/server.php:176
+msgid "Cron was not executed yet!"
+msgstr ""
+
+#: templates/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over http."
+msgstr ""
+
+#: templates/admin/server.php:209
+msgid "Use system's cron service to call the cron.php file every 15 minutes."
+msgstr ""
+
+#: templates/admin/server.php:216
+msgid ""
+"To run this you need the PHP posix extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#: templates/admin/sharing.php:96
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username needs to be entered."
+msgstr ""
+
+#: templates/admin/tipstricks.php:39
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/apps.php:139
+msgid "Uninstall app"
+msgstr ""
+
+#: templates/email.new_user.php:14
+#, php-format
+msgid ""
+"Hey there,<br><br>just letting you know that you now have a %s "
+"account.<br><br>Your username: <strong>%s</strong><br>Access it: <strong><a "
+"href=\"%s\">%s</a></strong><br><br>"
+msgstr ""
+
+#. TRANSLATORS term at the end of a mail
+#: templates/email.new_user.php:17 templates/email.new_user_plain_text.php:5
+msgid "Cheers!"
+msgstr ""
+
+#: templates/email.new_user_plain_text.php:2
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"just letting you know that you now have a %s account.\n"
+"\n"
+"Your username: %s\n"
+"Access it: %s\n"
+"\n"
+msgstr ""
+
+#: templates/personal.php:106
+msgid "For password recovery and notifications"
+msgstr ""
+
+#: templates/personal.php:150
+msgid "Your website"
+msgstr ""
+
+#: templates/personal.php:163
+msgid "Your Twitter handle"
+msgstr ""
+
+#: templates/personal.php:235
+msgid "Get the apps to sync your files"
+msgstr ""
+
+#: templates/personal.php:238
+msgid "Desktop client"
+msgstr ""
+
+#: templates/personal.php:242
+msgid "Android app"
+msgstr ""
+
+#: templates/personal.php:246
+msgid "iOS app"
+msgstr ""
+
+#: templates/personal.php:259
+msgid ""
+"If you want to support the project {contributeopen}join "
+"development{linkclose} or {contributeopen}spread the word{linkclose}!"
+msgstr ""
+
+#: templates/personal.php:263
+msgid "Show First Run Wizard again"
+msgstr ""
+
+#: templates/personal.php:285
+msgid ""
+"Passcodes that give an app or device permissions to access your account."
+msgstr ""
+
+#: templates/personal.php:289
+msgid "Name"
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google Plus!"
+msgstr ""
+
+#: templates/settings.development.notice.php:52
+msgid "Like our facebook page!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Subscribe to our twitter channel!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Subscribe to our news feed!"
+msgstr ""
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter!"
+msgstr ""
+
+#: templates/users/main.php:58
+msgid "Show last log in"
+msgstr ""
+
+#: templates/users/part.grouplist.php:12
+msgid "Group name"
+msgstr ""
+
+#: js/apps.js:567
+msgid "Error while removing app"
+msgstr ""
+
+#: personal.php:203
+msgid "Verifying"
+msgstr ""
+
+#: templates/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Ticks section and the documentation "
+"for more information."
+msgstr ""
+
+#: templates/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with MIME type detection."
+msgstr ""
+
+#: templates/personal.php:361
+msgid ""
+"Web, desktop, mobile clients and app specific passwords that currently have "
+"access to your account."
+msgstr ""
+
+#: templates/personal.php:375
+msgid ""
+"Here you can generate individual passwords for apps so you don’t have to "
+"give out your password. You can revoke them individually too."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog!"
+msgstr ""

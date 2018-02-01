@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Moo, 2016\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/nextcloud/teams/64236/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "Trūksta atkūrimo rakto slaptažodžio"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "Prašome pakartoti atkūrimo rakto slaptažodį"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+"Pakartotas atstatymo rakto slaptažodis nesutampa su atstatymo rakto "
+"slaptažodžiu"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "Atkūrimo raktas pradėtas naudoti"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"Nepavyko panaudoti atkūrimo rakto. Prašome patikrinti savo atkūrimo rakto "
+"slaptažodį!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "Atkūrimo raktas nebenaudojamas"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"Nepavyko atjungti atkūrimo rakto. Prašome patikrinti savo atkūrimo rakto "
+"slaptažodį!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "Trūksta parametrų"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "Įveskite seną atkūrimo rakto slaptažodį"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "Prašome pateikti naują atkūrimo rakto slaptažodį"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "Pakartokite naują atkūrimo rakto slaptažodį"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "Slaptažodis sėkmingai pakeistas."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr ""
+"Nepavyko pakeisti slaptažodžio. Galbūt, buvo neteisingai įvestas senas "
+"slaptažodis."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "Atkūrimo raktas nenaudojamas"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "Atkūrimo raktas naudojamas"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+"Nepavyksta pradėti naudoti atkūrimo rakto, prašome bandyti dar kartą arba "
+"susisiekti su sistemos administratoriumi"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "Nepavyko atnaujinti slaptažodžio privačiam raktui."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "Neteisingas senas slaptažodis, prašome bandyti dar kartą."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr ""
+"Esamas prisijungimo slaptažodis buvo neteisingas, prašome bandyti dar kartą."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "Privataus rakto slaptažodis sėkmingai atnaujintas."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"Jūs turite atlikti šifravimo raktų migraciją iš senojo (ownCloud <= 8.0) į "
+"naująjį. Prašome terminale įvykdyti \"occ encryption:migrate\" arba "
+"susisiekti su sistemos administratoriumi"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+"Šifravimo įskiepis neatpažįsta privataus rakto. Atnaujinkite slaptažodį "
+"skirtą privačiam raktui naudoti, kurį rasite asmeninių nustatymų skiltyje, "
+"skirtoje atstatyti prieigą prie šifruotų failų."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+"Šifravimo įskiepis veikia, tačiau privatus ir atkūrimo raktas nebuvo "
+"panaudotas. Pabandykite prisijungti iš naujo."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+"Administratoriaus nustatymuose įgalinkite šifravimą, jei norite naudoti "
+"šifravimo modulį."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr "Šifravimo įskiepis yra paruoštas ir veikia"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "Blogas parašas"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "Trūksta parašo"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "vienkartinis slaptažodis skirtas šifravimui"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"Nepavyksta iššifruoti šio failo, tikriausiai, tai yra bendrinamas failas. "
+"Paprašykite failo savininko iš naujo pradėti bendrinti su jumis šį failą."
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"Nepavyksta perskaityti šio failo, tikriausiai, tai yra bendrinamas failas. "
+"Paprašykite failo savininko iš naujo pradėti bendrinti su jumis šį failą."
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr "Numatytasis šifravimo modulis"
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"Sveiki,\n"
+"\n"
+"Administratorius įjungė šifravimą sistemoje. Jūsų failai buvo užšifruoti naudojantis šiuo slaptažodžiu: \"%s\".\n"
+"\n"
+"Prisijunkite prie sistemos, atidarykite nustatymus, pasirinkite skiltį \"Šifravimo įskiepis\" ir atnaujinkite savo šifravimui skirtą slaptažodį pasinaudodami šiuo ir savo prisijungimo slaptažodžiu.\n"
+"\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "Bendrinimo laikas pasibaigs %s."
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "Sveikinimai!"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"Sveiki, <br><br>Administratorius įjungė šifravimą sistemoje. Jūsų failai "
+"buvo užšifruoti naudojantis šiuo slaptažodžiu: <strong>%s</strong>.<br><br> "
+"Prisijunkite prie sistemos, atidarykite nustatymus, pasirinkite skiltį "
+"\"Šifravimo įskiepis\" ir atnaujinkite savo šifravimui skirtą slaptažodį "
+"pasinaudodami šiuo ir savo prisijungimo slaptažodžiu.<br><br>"
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+"Šifravimo įskiepis veikia, tačiau privatus ir atkūrimo raktas nebuvo "
+"panaudotas. Pabandykite prisijungti iš naujo"
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "Šifruoti visą saugyklą"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"Ši parinktis užšifruos visus duomenis, esančius visoje saugykloje. Jei "
+"pasirinkimas šioje skiltyje liks išjungtas, tada duomenys, esantys išorinėje"
+" saugykloje bus užšifruoti."
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "Naudoti atstatymo raktą"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "Nenaudoti atstatymo rakto"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"Atkūrimo raktas yra papildoma saugumo priemonė skirta duomenų šifravimui. "
+"Atkūrimo raktas leidžia asmens duomenų atstatymą, kai asmuo pamiršta "
+"slaptažodį."
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "Slaptažodis atkūrimo raktui"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "Pakartokite slaptažodį atkūrimo raktui "
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "Pakeisti slaptažodį atkūrimo raktui:"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "Senas atstatymo rakto slaptažodis"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "Naujas slaptažodis atkūrimo raktui"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "Pakartokite naują slaptažodį atkūrimo raktui"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "Pakeisti slaptažodį"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr "Pagrindinis šifravimo modulis"
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"Jūsų privataus rakto slaptažodis nesutampa su jūsų prisijungimo "
+"slaptažodžiu."
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr "Naudoti privataus rakto slaptažodį kaip prisijungimo slaptažodį:"
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+"Jei nepamenate savo seno slaptažodžio, galite paprašyti sistemos "
+"administratoriaus atkurti jūsų duomenis."
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "Senas prisijungimo slaptažodis"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "Dabartinis prisijungimo slaptažodis"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "Atnaujinti privataus rakto slaptažodį"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "Įjungti slaptažodžio atkūrimą:"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"Šios parinkties įjungimas leis jums iš naujo gauti prieigą prie savo "
+"užšifruotų duomenų tuo atveju, jei prarasite slaptažodį"
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "Įjungta"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "Išjungta"

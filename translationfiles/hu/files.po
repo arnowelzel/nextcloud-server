@@ -1,0 +1,688 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: miles teg <varota@gmail.com>, 2018\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/nextcloud/teams/64236/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files/ajax/list.php:88 /app/apps/files/js/filelist.js:1758
+msgid "Storage is temporarily not available"
+msgstr "A tároló átmenetileg nem érhető el"
+
+#: /app/apps/files/ajax/list.php:96
+msgid "Storage invalid"
+msgstr "A tároló érvénytelen"
+
+#: /app/apps/files/ajax/list.php:104
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+#: /app/apps/files/appinfo/app.php:48
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:147
+msgid "All files"
+msgstr "Az összes fájl"
+
+#: /app/apps/files/appinfo/app.php:58 /app/apps/files/js/recentfilelist.js:36
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:158
+msgid "Recent"
+msgstr "Legutóbbi"
+
+#: /app/apps/files/js/app.js:57
+msgid "File could not be found"
+msgstr "Fájl nem található"
+
+#: /app/apps/files/js/breadcrumb.js:225
+msgid "Home"
+msgstr "Saját mappa"
+
+#: /app/apps/files/js/detailsview.js:114
+msgid "Close"
+msgstr "Bezárás"
+
+#: /app/apps/files/js/favoritesfilelist.js:31
+#: /app/apps/files/lib/Activity/Filter/Favorites.php:80
+#: /app/apps/files/lib/Controller/ViewController.php:168
+msgid "Favorites"
+msgstr "Kedvencek"
+
+#: /app/apps/files/js/file-upload.js:516 /app/apps/files/js/filelist.js:2473
+#: /app/apps/files/js/filelist.js:2491 /app/apps/files/js/filelist.js:2497
+msgid "Could not create folder \"{dir}\""
+msgstr "{dir} mappa nem hozható létre"
+
+#: /app/apps/files/js/file-upload.js:599
+msgid "Upload cancelled."
+msgstr "A feltöltést megszakítottuk."
+
+#: /app/apps/files/js/file-upload.js:879
+msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
+msgstr ""
+"A(z) {filename} fájl nem tölthető fel, mert ez vagy egy könyvtár, vagy pedig"
+" 0 bájtból áll."
+
+#: /app/apps/files/js/file-upload.js:898
+msgid ""
+"Not enough free space, you are uploading {size1} but only {size2} is left"
+msgstr ""
+"Nincs elég szabad hely. A feltöltés mérete {size1}, de csak ennyi hely van: "
+"{size2}."
+
+#: /app/apps/files/js/file-upload.js:970
+msgid "Target folder \"{dir}\" does not exist any more"
+msgstr "A cél mappa már nem létezik: \"{dir}\""
+
+#: /app/apps/files/js/file-upload.js:974
+#: /app/apps/files/js/file-upload.js:1185
+msgid "Not enough free space"
+msgstr "Nincs elég szabad hely"
+
+#: /app/apps/files/js/file-upload.js:1042
+#: /app/apps/files/js/file-upload.js:1094 /app/apps/files/templates/list.php:5
+msgid "Uploading …"
+msgstr "Feltöltés..."
+
+#: /app/apps/files/js/file-upload.js:1044 /app/apps/files/templates/list.php:5
+msgid "…"
+msgstr "..."
+
+#: /app/apps/files/js/file-upload.js:1099
+msgid "{loadedSize} of {totalSize} ({bitrate})"
+msgstr "{loadedSize} / {totalSize} ({bitrate})"
+
+#: /app/apps/files/js/file-upload.js:1188
+msgid "Target folder does not exist any more"
+msgstr "A célmappa már nem létezik"
+
+#: /app/apps/files/js/file-upload.js:1190
+msgid "Error when assembling chunks, status code {status}"
+msgstr "Hiba a darabok összerakásakor, Állapotkód {status}"
+
+#: /app/apps/files/js/fileactions.js:384
+msgid "Actions"
+msgstr "Műveletek"
+
+#: /app/apps/files/js/fileactions.js:586 /app/apps/files/templates/list.php:60
+msgid "Download"
+msgstr "Letöltés"
+
+#: /app/apps/files/js/fileactions.js:616
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: /app/apps/files/js/fileactions.js:628 /app/apps/files/templates/list.php:56
+msgid "Move or copy"
+msgstr "Mozgatás vagy másolás"
+
+#: /app/apps/files/js/fileactions.js:634 /app/apps/files/js/filelist.js:801
+msgid "Target folder"
+msgstr "Cél mappa"
+
+#: /app/apps/files/js/fileactions.js:654 /app/apps/files/templates/list.php:64
+#: /app/apps/files/templates/list.php:75
+#: /app/apps/files/templates/recentlist.php:32
+#: /app/apps/files/templates/simplelist.php:31
+msgid "Delete"
+msgstr "Törlés"
+
+#: /app/apps/files/js/fileactions.js:656
+msgid "Disconnect storage"
+msgstr "Tároló leválasztása"
+
+#: /app/apps/files/js/fileactions.js:658
+msgid "Unshare"
+msgstr "A megosztás visszavonása"
+
+#: /app/apps/files/js/fileinfomodel.js:115
+msgid "Could not load info for file \"{file}\""
+msgstr "Nem sikerült betölteni az információs fájl ehhez: \"{file}\""
+
+#: /app/apps/files/js/filelist.js:47
+#: /app/apps/files/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Files"
+msgstr "Fájlok"
+
+#: /app/apps/files/js/filelist.js:407
+msgid "Details"
+msgstr "Részletek"
+
+#: /app/apps/files/js/filelist.js:1238
+msgid "Select"
+msgstr "Kiválaszt"
+
+#: /app/apps/files/js/filelist.js:1332 /app/apps/files/js/filesummary.js:234
+#: /app/apps/files/js/filesummary.js:271
+msgid "Pending"
+msgstr "Folyamatban"
+
+#: /app/apps/files/js/filelist.js:1354
+msgid "Unable to determine date"
+msgstr "Nem lehet meghatározni a dátumot"
+
+#: /app/apps/files/js/filelist.js:1739
+msgid "This operation is forbidden"
+msgstr "Tiltott művelet"
+
+#: /app/apps/files/js/filelist.js:1747
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Ez a könyvtár nem elérhető, kérem nézze meg a naplófájlokat vagy keresse az "
+"adminisztrátort"
+
+#: /app/apps/files/js/filelist.js:2087
+msgid "Could not move \"{file}\", target exists"
+msgstr "{file} fájl nem áthelyezhető, mert a cél már létezik"
+
+#: /app/apps/files/js/filelist.js:2091
+msgid "Could not move \"{file}\""
+msgstr "{file} fájl nem áthelyezhető"
+
+#: /app/apps/files/js/filelist.js:2152
+msgid "Could not copy \"{file}\", target exists"
+msgstr "Nem sikerült \"{file}\" másolása, a cél már létezik"
+
+#: /app/apps/files/js/filelist.js:2156
+msgid "Could not copy \"{file}\""
+msgstr "\"{file}\" másolása sikertelen"
+
+#: /app/apps/files/js/filelist.js:2180 /app/apps/files/js/filelist.js:2187
+msgid "Copied {origin} inside {destination}"
+msgstr "{origin} átmásolva ide: {destination}"
+
+#: /app/apps/files/js/filelist.js:2194
+msgid "Copied {origin} and {nbfiles} other files inside {destination}"
+msgstr "{origin} és {nbfiles} egyéb fájl átmásolva ide: {destination}"
+
+#: /app/apps/files/js/filelist.js:2263 /app/apps/files/js/newfilemenu.js:150
+msgid "{newName} already exists"
+msgstr "{newName} már létezik"
+
+#: /app/apps/files/js/filelist.js:2318
+msgid "Could not rename \"{fileName}\", it does not exist any more"
+msgstr "Nem átnevezhető erre: {fileName}, mert már nem létezik"
+
+#: /app/apps/files/js/filelist.js:2327
+msgid ""
+"The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+"{targetName} már használatban van ebben a mappában: {dir}. Kérjük, válassz "
+"másik nevet."
+
+#: /app/apps/files/js/filelist.js:2338
+msgid "Could not rename \"{fileName}\""
+msgstr "{fileName} fájl nem átnevezhető"
+
+#: /app/apps/files/js/filelist.js:2423 /app/apps/files/js/filelist.js:2434
+#: /app/apps/files/js/filelist.js:2554
+msgid "Could not create file \"{file}\""
+msgstr "{file} fájl nem létrehozható"
+
+#: /app/apps/files/js/filelist.js:2430
+msgid "Could not create file \"{file}\" because it already exists"
+msgstr "{file} fájl nem létrehozható, mert már létezik"
+
+#: /app/apps/files/js/filelist.js:2484
+msgid "Could not create folder \"{dir}\" because it already exists"
+msgstr "{dir} mappa nem hozható létre, mert már létezik"
+
+#: /app/apps/files/js/filelist.js:2664
+msgid "Error deleting file \"{fileName}\"."
+msgstr "Hiba történt {fileName} fájl törlése közben."
+
+#: /app/apps/files/js/filelist.js:2800
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr ""
+"Ehhez nincsenek keresési eredmények más mappákban: {tag}{filter}{endtag}"
+
+#: /app/apps/files/js/filelist.js:2841
+#: /app/apps/files/js/mainfileinfodetailview.js:188
+#: /app/apps/files/templates/list.php:52
+#: /app/apps/files/templates/recentlist.php:20
+#: /app/apps/files/templates/simplelist.php:22
+msgid "Name"
+msgstr "Név"
+
+#: /app/apps/files/js/filelist.js:2842
+#: /app/apps/files/js/mainfileinfodetailview.js:193
+#: /app/apps/files/templates/list.php:70
+#: /app/apps/files/templates/recentlist.php:25
+#: /app/apps/files/templates/simplelist.php:26
+msgid "Size"
+msgstr "Méret"
+
+#: /app/apps/files/js/filelist.js:2843
+#: /app/apps/files/js/mainfileinfodetailview.js:196
+#: /app/apps/files/templates/list.php:73
+#: /app/apps/files/templates/recentlist.php:29
+#: /app/apps/files/templates/simplelist.php:29
+msgid "Modified"
+msgstr "Módosítva"
+
+#: /app/apps/files/js/filelist.js:2851 /app/apps/files/js/filesummary.js:231
+msgid "%n folder"
+msgid_plural "%n folders"
+msgstr[0] "%n mappa"
+msgstr[1] "%n mappa"
+
+#: /app/apps/files/js/filelist.js:2852 /app/apps/files/js/filesummary.js:232
+msgid "%n file"
+msgid_plural "%n files"
+msgstr[0] "%n fájl"
+msgstr[1] "%n fájl"
+
+#: /app/apps/files/js/filelist.js:2859 /app/apps/files/js/filesummary.js:207
+msgid "{dirs} and {files}"
+msgstr "{dirs} és {files}"
+
+#: /app/apps/files/js/filelist.js:2867 /app/apps/files/js/filesummary.js:233
+msgid "including %n hidden"
+msgid_plural "including %n hidden"
+msgstr[0] "beleértve %n rejtett"
+msgstr[1] "beleértve %n rejtett"
+
+#: /app/apps/files/js/filelist.js:2955 /app/apps/files/templates/list.php:14
+msgid "You don’t have permission to upload or create files here"
+msgstr "Nincs jogosultságod fájlok feltöltéséhez vagy létrehozásához ide"
+
+#: /app/apps/files/js/filelist.js:3052
+msgid "Uploading %n file"
+msgid_plural "Uploading %n files"
+msgstr[0] "%n fájl feltöltése"
+msgstr[1] "%n fájl feltöltése"
+
+#: /app/apps/files/js/filelist.js:3208
+msgid "New"
+msgstr "Új"
+
+#: /app/apps/files/js/files.js:100
+msgid "{used} of {quota} used"
+msgstr "{used} / {quota} felhasználva"
+
+#: /app/apps/files/js/files.js:102
+msgid "{used} used"
+msgstr "{used} felhasználva"
+
+#: /app/apps/files/js/files.js:134
+msgid "\"{name}\" is an invalid file name."
+msgstr "\"{name}\" érvénytelen, mint fájlnév."
+
+#: /app/apps/files/js/files.js:136
+msgid "File name cannot be empty."
+msgstr "A fájlnév nem lehet semmi."
+
+#: /app/apps/files/js/files.js:138
+msgid "\"/\" is not allowed inside a file name."
+msgstr "„/” nem szerepelhet fájlnévben."
+
+#: /app/apps/files/js/files.js:140
+msgid "\"{name}\" is not an allowed filetype"
+msgstr "\"{name}\" nem engedélyetett fájltípus"
+
+#: /app/apps/files/js/files.js:155
+msgid ""
+"Storage of {owner} is full, files can not be updated or synced anymore!"
+msgstr ""
+"A {owner} felhasználó tárolója betelt, a fájlok nem frissíthetők és "
+"szinkronizálhatók többet!"
+
+#: /app/apps/files/js/files.js:161
+msgid "Your storage is full, files can not be updated or synced anymore!"
+msgstr ""
+"A tároló tele van, a fájlok nem frissíthetőek vagy szinkronizálhatóak a "
+"jövőben."
+
+#: /app/apps/files/js/files.js:168
+msgid "Storage of {owner} is almost full ({usedSpacePercent}%)"
+msgstr "A {owner} felhasználó tárolója majdnem betelt ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/files.js:179
+msgid "Your storage is almost full ({usedSpacePercent}%)"
+msgstr "A tároló majdnem tele van ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/filesummary.js:258
+msgid "matches '{filter}'"
+msgid_plural "match '{filter}'"
+msgstr[0] "egyezés '{filter}'"
+msgstr[1] "egyezés '{filter}'"
+
+#: /app/apps/files/js/gotoplugin.js:36
+msgid "View in folder"
+msgstr "Megtekintés mappában"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:100
+msgid "Copied!"
+msgstr "Másolva!"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:106
+#: /app/apps/files/js/mainfileinfodetailview.js:204
+msgid ""
+"Copy direct link (only works for users who have access to this file/folder)"
+msgstr ""
+"Közvetlen hivatkozás másolása (csak azoknál a felhasználóknál működik "
+"akiknek hozzáférése van a fájlhoz/mappához)"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:190
+msgid "Path"
+msgstr "Útvonal"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:195
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n bájt"
+msgstr[1] "%n bájt"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Favorited"
+msgstr "Kedvenc"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+msgid "Favorite"
+msgstr "Kedvenc"
+
+#: /app/apps/files/js/newfilemenu.js:68 /app/apps/files/js/newfilemenu.js:69
+msgid "New folder"
+msgstr "Új mappa"
+
+#: /app/apps/files/js/newfilemenu.js:227
+msgid "Upload file"
+msgstr "Fájl feltöltés"
+
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Not favorited"
+msgstr "Nincs a kedvencek között"
+
+#: /app/apps/files/js/tagsplugin.js:96
+msgid "Remove from favorites"
+msgstr "Eltávolítás a kedvencekből"
+
+#: /app/apps/files/js/tagsplugin.js:103
+msgid "Add to favorites"
+msgstr "Hozzáadás a kedvencekhez"
+
+#: /app/apps/files/js/tagsplugin.js:259
+msgid "An error occurred while trying to update the tags"
+msgstr "Hiba történt, miközben megpróbálta frissíteni a címkéket"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:102
+msgid "Added to favorites"
+msgstr "Hozzáadva a kedvencekhez"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:109
+msgid "Removed from favorites"
+msgstr "Eltávolítva a kedvencekből"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:132
+msgid "You added {file} to your favorites"
+msgstr "Hozzáadtad a kedvenceidhez: {file}"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:139
+msgid "You removed {file} from your favorites"
+msgstr "Eltávolítottad a kedvenceidből: {file}"
+
+#: /app/apps/files/lib/Activity/Filter/FileChanges.php:61
+msgid "File changes"
+msgstr "Fájl változások"
+
+#: /app/apps/files/lib/Activity/Provider.php:115
+msgid "Created by {user}"
+msgstr "Létrehozta: {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:122
+msgid "Changed by {user}"
+msgstr "Módosította: {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:129
+msgid "Deleted by {user}"
+msgstr "Törölte: {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:136
+msgid "Restored by {user}"
+msgstr "Visszaállította: {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:138
+msgid "Renamed by {user}"
+msgstr "Átnevezte: {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:145
+msgid "Moved by {user}"
+msgstr "Áthelyezte: {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:157
+#: /app/apps/files/lib/Activity/Provider.php:262
+msgid "\"remote user\""
+msgstr "\"távoli felhasználó\""
+
+#: /app/apps/files/lib/Activity/Provider.php:176
+msgid "You created {file}"
+msgstr "Létrehoztad: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:183
+msgid "{user} created {file}"
+msgstr "{user} létrehozta: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:190
+msgid "{file} was created in a public folder"
+msgstr "{file} létrehozva egy nyilvános mappában"
+
+#: /app/apps/files/lib/Activity/Provider.php:197
+msgid "You changed {file}"
+msgstr "Módosítottad: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:204
+msgid "{user} changed {file}"
+msgstr "{user} módosította: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:211
+msgid "You deleted {file}"
+msgstr "Törölted: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:218
+msgid "{user} deleted {file}"
+msgstr "{user} törölte: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:225
+msgid "You restored {file}"
+msgstr "Visszaállítottad: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:227
+msgid "{user} restored {file}"
+msgstr "{user} visszaállította: {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:229
+msgid "You renamed {oldfile} to {newfile}"
+msgstr "Átnevezted ezt: {oldfile} erre: {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:236
+msgid "{user} renamed {oldfile} to {newfile}"
+msgstr "{user} átnevezte ezt: {oldfile} erre: {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:243
+msgid "You moved {oldfile} to {newfile}"
+msgstr "Áthelyezted ezt: {oldfile} ide: {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:250
+msgid "{user} moved {oldfile} to {newfile}"
+msgstr "{user} áthelyezte ezt: {oldfile} ide: {newfile}"
+
+#: /app/apps/files/lib/Activity/Settings/FavoriteAction.php:55
+msgid ""
+"A file has been added to or removed from your <strong>favorites</strong>"
+msgstr "Egy fájl eltávolítva vagy hozzáadva a <strong>kedvenceidhez</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileChanged.php:55
+msgid ""
+"A file or folder has been <strong>changed</strong> or "
+"<strong>renamed</strong>"
+msgstr ""
+"A fájl vagy mappa <strong>megváltozott</strong> vagy <strong>át lett "
+"nevezve</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileCreated.php:55
+msgid "A new file or folder has been <strong>created</strong>"
+msgstr "Új fájl vagy mappa <strong>létrehozva</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileDeleted.php:55
+msgid "A file or folder has been <strong>deleted</strong>"
+msgstr "Fájl vagy mappa <strong>törölve</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileFavorite.php:55
+msgid ""
+"Limit notifications about creation and changes to your <strong>favorite "
+"files</strong> <em>(Stream only)</em>"
+msgstr ""
+"Szűkítse le az értesítéseket a létrehozásról és a változásokról a "
+"<strong>kedvenc fájlok</strong> <em>(Stream only)</em> -ra"
+
+#: /app/apps/files/lib/Activity/Settings/FileRestored.php:55
+msgid "A file or folder has been <strong>restored</strong>"
+msgstr "Egy új fájl vagy mappa <strong>visszaállítva</strong>"
+
+#: /app/apps/files/lib/Controller/ViewController.php:181
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+#: /app/apps/files/lib/Helper.php:53
+#, php-format
+msgid "Upload (max. %s)"
+msgstr "Feltöltés (max.: %s)"
+
+#: /app/apps/files/templates/admin.php:4
+msgid "File handling"
+msgstr "Fájlkezelés"
+
+#: /app/apps/files/templates/admin.php:5
+msgid "Maximum upload size"
+msgstr "Maximális feltölthető fájlméret"
+
+#: /app/apps/files/templates/admin.php:10
+msgid "max. possible: "
+msgstr "max. lehetséges: "
+
+#: /app/apps/files/templates/admin.php:15
+msgid "Save"
+msgstr "Mentés"
+
+#: /app/apps/files/templates/admin.php:16
+msgid "With PHP-FPM it might take 5 minutes for changes to be applied."
+msgstr "PHP-FPM-mel akár 5 percbe is telhet, míg ez a beállítás érvénybe lép."
+
+#: /app/apps/files/templates/admin.php:18
+msgid "Missing permissions to edit from here."
+msgstr "Innen nem lehet szerkeszteni hiányzó jogosultság miatt."
+
+#: /app/apps/files/templates/appnavigation.php:21
+#, php-format
+msgid "%s of %s used"
+msgstr "%s / %s használt"
+
+#: /app/apps/files/templates/appnavigation.php:23
+#, php-format
+msgid "%s used"
+msgstr "%s használt"
+
+#: /app/apps/files/templates/appnavigation.php:35
+msgid "Settings"
+msgstr "Beállítások"
+
+#: /app/apps/files/templates/appnavigation.php:41
+msgid "Show hidden files"
+msgstr "Rejtett fájlok megjelenítése"
+
+#: /app/apps/files/templates/appnavigation.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files/templates/appnavigation.php:45
+#, php-format
+msgid ""
+"Use this address to <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">access your Files via WebDAV</a>"
+msgstr ""
+"Használd ezt a címet a <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">fájlok WebDAV-al való eléréséhez</a>"
+
+#: /app/apps/files/templates/list.php:8
+msgid "Cancel upload"
+msgstr "Feltöltés megszakítása"
+
+#: /app/apps/files/templates/list.php:31
+msgid "No files in here"
+msgstr "Itt nincsenek fájlok"
+
+#: /app/apps/files/templates/list.php:32
+msgid "Upload some content or sync with your devices!"
+msgstr "Tölts fel néhány tartalmat, vagy szinkronizálj az eszközöddel!"
+
+#: /app/apps/files/templates/list.php:37
+#: /app/apps/files/templates/recentlist.php:10
+#: /app/apps/files/templates/simplelist.php:13
+msgid "No entries found in this folder"
+msgstr "Nincsenek bejegyzések ebben a mappában"
+
+#: /app/apps/files/templates/list.php:47
+msgid "Select all"
+msgstr "Összes kijelölése"
+
+#: /app/apps/files/templates/list.php:91
+msgid "Upload too large"
+msgstr "A feltöltés túl nagy"
+
+#: /app/apps/files/templates/list.php:93
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+"A feltöltendő fájlok mérete meghaladja a szerveren megengedett maximális "
+"méretet."
+
+#: /app/apps/files/templates/simplelist.php:5
+msgid "No favorites yet"
+msgstr "Még nincsenek kedvencek"
+
+#: /app/apps/files/templates/simplelist.php:6
+msgid "Files and folders you mark as favorite will show up here"
+msgstr "A kedvencnek jelölt fájlokat és mappákat itt találod meg"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:180
+msgid "Shared with you"
+msgstr "Megosztva veled"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:191
+msgid "Shared with others"
+msgstr "Megosztva másokkal"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:202
+msgid "Shared by link"
+msgstr "Megosztva hivatkozással"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:213
+msgid "Tags"
+msgstr "Címkék"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:224
+msgid "Deleted files"
+msgstr "Törölt fájlok"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:111
+msgid "Text file"
+msgstr "Szövegfájl"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:112
+msgid "New text file.txt"
+msgstr "Új szöveges fájl.txt"

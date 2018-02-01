@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Glosshead <o44ehb@gmail.com>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/nextcloud/teams/64236/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Общий доступ из федеративного хранилища"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr ""
+"Вы хотите добавить удалённый общий каталог {name} из {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Общий ресурс другого сервера"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Пароль общего ресурса другого сервера"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Отмена"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Добавить общий ресурс другого сервера"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Копировать"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Не поддерживается!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Нажмите ⌘-C для копирования."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Нажмите Ctrl-C для копирования."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Неверный ID в объединении облачных хранилищ."
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr ""
+"На данном сервере выключено межсерверное предоставление общего доступа"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Не удаётся установить федеративный общий доступ."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Не удаётся установить федеративный общий доступ, возможно неверный пароль."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Был отправлен запрос общего федеративного доступа, Вы получите приглашение. "
+"Проверьте свои уведомления."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Имя точки монтирования содержит недопустимые символы."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Не допускается создание федеративного общего ресурса с владельцем."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Недействительный или недоверенный сертификат SSL"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Не удалось провести проверку подлинности для доступа к удалённому хранилищу,"
+" возможно неправильно указан пароль"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Хранилище недоступно"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Добавлен общий федеративный ресурс"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Невозможно добавить удалённый общий ресурс"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+"Не удалось поделиться «%s», пользователю%s уже  предоставлен доступ к этому "
+"элементу"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr ""
+"Не допускается создание федеративного общего ресурса с тем же пользователем"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Доступ к файлу уже предоставлен %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"Не удалось поделиться «%s», не удалось найти %s, возможно, сервер недоступен"
+" или использует самоподписанный сертификат."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Не удалось найти общий ресурс"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"Вы получили «%3$s»  в качестве удалённого ресурса из %1$s (от имени %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Вы получили «{share}» в качестве удалённого ресурса от {user} (от имени "
+"{behalf})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Вы получили «%3$s» в качестве удалённого ресурса из %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Вы получили {share} в качестве удалённого ресурса от {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Принять"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Отклонить"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Поделитесь со мной через мой #Nextcloud ID в федерации облачных хранилищ, "
+"смотрите %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr ""
+"Поделитесь со мной через мой #Nextcloud ID в федерации облачных хранилищ"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Общий доступ"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Федерация облачных хранилищ"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Открыть документацию"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Настройте общий доступ между серверами."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "Разрешить пользователям делиться с пользователями других серверов"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr "Разрешить пользователям использовать общие ресурсы с других серверов"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Искать пользователей в глобальной и открытой адресной книге"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Разрешить пользователям публиковать свои данные в глобальной и общедоступной"
+" адресной книге"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Федерация облачных хранилищ"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Можно поделиться с любым пользователем Nextcloud, ownCloud или Pydio! Просто"
+" введите его идентификатор  федеративного облачного хранилища в диалоге "
+"предоставления общего доступа. Идентификатор указывается в виде "
+"«person@cloud.example.com»."
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Ваш ID в федерации облачных хранилищ:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Сообщите его друзьям, чтобы они могли поделиться с вами файлами:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Добавить к себе на сайт"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Поделитесь со мной через Nextcloud"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML код:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Поиск пользователей в глобальной и общедоступной адресной книге и разрешение"
+" публикации своих данных локальным пользователям "
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Поделиться:"

@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Александр Яворский <kekcuha@gmail.com>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/nextcloud/teams/64236/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Предоставлен общий доступ для %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Предоставлен общий доступ для {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "%2$s предоставил(а) общий доступ для %1$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "{actor} предоставил(а) общий доступ для {email}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr ""
+"Пароль для доступа по адресу электронной почты был отправлен на адрес %1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr ""
+"Пароль для доступа по адресу электронной почты был отправлен на адрес "
+"{email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "Вам отправлен пароль для доступа"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Вы предоставили общий доступ к «%1$s» для %2$s по электронной почте"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr ""
+"Вы предоставили общий доступ к «{file}» для {email} по электронной почте"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s открыл(а) общий доступ к «%1$s» для %2$s по электронной почте"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr ""
+"{actor} предоставил(а) общий доступ к «{file}» для {email} по электронной "
+"почте"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "Пароль для доступа к «%1$s» был отправлен на адрес %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "Пароль для доступа к «{file}» был отправлен на адрес {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "Вам был отправлен пароль для доступа к «%1$s»"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "Вам был отправлен пароль для доступа к «{file}»"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr ""
+"Не удалось открыть общий доступ к «%s», общий доступ для %s уже предоставлен"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"Не удаётся отправить вам автоматически созданный пароль. Укажите верный "
+"адрес email в своих личных настройках и попробуйте снова."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Не удалось предоставить общий доступ по адресу электронной почты"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s предоставил(а) Вам доступ к «%s»"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s предоставил(а) Вам доступ к «%s»."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Для открытия нажмите на кнопку, расположенную ниже."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Открыть «%s»"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s через %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s предоставил(а) Вам общий доступ к «%s».\n"
+"Вы, скорее всего, уже получили отдельное письмо, содержащую ссылку для получения доступа.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s предоставил(а) Вам доступ к «%s». Вы, скорее всего, уже получили "
+"отдельное письмо, содержащее ссылку для получения доступа."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr ""
+"Пароль для  «%s»,  общий доступ к которому предоставлен Вам пользователем %s"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Пароль для доступа к «%s»"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Доступ защищён следующим паролем: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Вы только что предоставили общий доступ к «%s» пользователю %s. Уведомление "
+"о предоставлении доступа было отправлено получателю. В соответствии с "
+"политиками безопасности, заданными администратором %s, каждый общий ресурс "
+"должен быть защищён паролем, а так же не допускается непосредственное "
+"отправление пароля получателю, поэтому Вам потребуется самостоятельно "
+"перенаправить получателю пароль для доступа."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Паролем для доступа к «%s» поделились с %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Пароль: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr "В любой момент можно выбрать другой пароль в диалоге «Общий доступ»."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Не удалось найти общий ресурс"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Поделиться по почте"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Позволяет пользователям делиться персонализированной ссылкой на файл или "
+"каталог, указав адрес электронной почты."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Отправлять пароль по электронной почте"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Требовать защиту паролем"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Не удалось поделиться по e-mail"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s предоставил(а) Вам общий доступ к  «%s» от имени %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Не удалось создать сообщение электронной почты"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Привет,\n"
+"\n"
+"%s предоставил(а) Вам общий доступ к «%s» от имени %s.\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Привет,\n"
+"\n"
+"%s предоставил(а) Вам общий доступ к «%s».\n"
+"\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Всего наилучшего!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Привет,<br><br>%s предоставил(а) Вам общий доступ к «<a href=\"%s\">%s</a>» "
+"от имени %s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr ""
+"Привет,<br><br>%s предоставил(а) Вам общий доступ к «<a "
+"href=\"%s\">%s</a>».<br><br>"

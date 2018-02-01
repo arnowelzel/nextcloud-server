@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Luca Ugo <lucachess@gmail.com>, 2016\n"
+"Language-Team: Italian (https://www.transifex.com/nextcloud/teams/64236/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "Aggiunto all'elenco dei server affidabili"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "Il server è già nell'elenco dei server affidabili."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Non ho trovato alcun server per la federazione"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "Impossibile aggiungere il server"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "Server affidabili"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"La federazione consente di connettersi ad altri server affidabili per "
+"accedere alla cartella utente. Ad esempio, può essere utilizzata per il "
+"completamento automatico di utenti esterni per la condivisione federata."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr ""
+"Aggiungi automaticamente il server dopo che una condivisione federata è "
+"stata creata con successo"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ Aggiungi server affidabile"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "Server affidabile"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "Aggiungi"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "Federazione"

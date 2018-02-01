@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dukecz, 2017\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/nextcloud/teams/64236/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Sdíleno s %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Sdíleno s {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "%2$s sdílí s %1$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "{actor} sdílí s {email}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "Heslo e-mailového sdílení odesláno na %1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "Heslo e-mailového sdílení odesláno na {email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "Heslo e-mailového sdílení vám bylo zasláno"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Sdílel(a) jste %1$s e-mailem s %2$s"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "E-mailem jste s {email} sdíleli {file}"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s s %2$s sdílel e-mailem %1$s"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} sdílel(a) {file} e-mailem s {email}"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "Heslo pro přístupu k %1$s bylo zasláno na %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "Heslo pro přístup k {file} bylo zasláno na {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "Heslo pro přístup k %1$s vám bylo zasláno"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "Heslo pro přístupu k {file} vám bylo zasláno"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "Sdílení %s selhalo, tato položka je již s %s sdílena"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"Nemůžeme vám zaslat automaticky vygenerované heslo. Nastavte si v osobním "
+"nastavení platnou e-mailovou adresu a zkuste to znovu."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Sdílení emailem se nezdařilo"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s s vámi sdílel(a) »%s»"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s s vámi nasdílel(a) »%s«."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Pro otevření kliknětena tlačítko níže."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Otevřít »%s«"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s přes %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr "%s s vámi sdílel(a) %s."
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s s vámi sdílel(a) »%s«. Již jste měli dostat e-mail s přístupovými údaji."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "Heslo pro přístup k »%s« (vám nasdílel(a) %s)"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Heslo pro přístup k »%s«"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Je chráněn následujícím heslem: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Právě jste s »%s» nasdílel(a) %s. Sdílení bylo již příjemci zasláno. Kvůli "
+"bezpečnostní politice nastavené administrátorem %s musí být každé sdílení "
+"chráněno heslem a toto heslo nemůže být příjemci zasláno přímo. Kvůli tomu "
+"ho budete muset manuálně přeposlat."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Heslo pro přístup k »%s« sdíleno s %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Toto je heslo: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr "V dialogu sdílení můžete kdykoliv vybrat jiné heslo."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Nelze nalézt sdílení"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Sdílet e-mailem"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Dovoluje uživatelům odeslat personalizovaný odkaz na soubor nebo složku po "
+"zadání e-mailové adresy."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Odeslat heslo e-mailem"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Vynutit ochranu hesla"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Odeslání sdílení E-mailem se nezdařilo"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s s vámi sdílel »%s» místo %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Vytváření E-mailu se nezdařilo"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Ahoj,\n"
+"\n"
+"%s s vámi sdílel(a) »%s» na místo %s\n"
+"\n"
+"%s"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Ahoj,\n"
+"\n"
+"\n"
+"%s s vámi sdílel »%s».\n"
+"\n"
+"%s"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Mějte se!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Ahoj,<br><br>%s s vámi sdílel(a) <a href=\"%s\">%s</a> namísto %s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "Nazdar,<br><br>%s s vámi sdílel(a) <a href=\"%s\">%s</a>.<br><br>"

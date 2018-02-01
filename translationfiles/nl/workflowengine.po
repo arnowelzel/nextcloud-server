@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: André Koot <meneer@tken.net>, 2017\n"
+"Language-Team: Dutch (https://www.transifex.com/nextcloud/teams/64236/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Bewaard"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Opslaan mislukt:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Mimetype bestand"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "is"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "is niet"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "komt overeen"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "komt niet overeen"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Bijvoorbeeld: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Bestandsgrootte (upload)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "minder"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "minder of gelijk"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "groter of gelijk"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "groter"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Bestandssysteem markering"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "is gemarkeerd met"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "is niet gemarkeerd met"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Selecteer markering..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Vraag extern adres aan"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "komt overeen met IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "komt niet overeen met IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "komt overeen met IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "komt niet overeen met IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Vraag tijd aan"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "tussen"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "niet tussen"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Begin"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Einde"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Selecteer tijdzone..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Vraag URL aan"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Voorgedefinieerde URL's"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Bestanden WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Vraag gebruikersagent aan"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Synchroniseer clients"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android client"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS client"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Desktop client"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Gebruikersgroep lidmaatschap"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "is lid van"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "is geen lid van"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "De opgegeven operator is ongeldig"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "De opgegeven reguliere expressie is ongeldig"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "De opgegeven bestandsgrootte is ongeldig"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "De opgegeven markerings-id is ongeldig"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "De opgegeven IP-range is ongeldig"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "De opgegeven IP-range is niet geldig voor IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "De opgegeven IP-range is niet geldig voor IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "De opgegeven tijdspanne is ongeldig"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "De opgegeven begintijd is ongeldig"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "De opgegeven eindtijd is ongeldig"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "De opgegeven groep bestaat niet"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Controleer: %s is ongeldig of bestaat niet"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Bewerking #%s bestaat niet"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Bewerking %s bestaat niet"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Bewerking %s is ongeldig"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Controleer: %s bestaat niet"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Controleer: %s is ongeldig"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Controleer: #%s bestaat niet"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Workflow"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Open documentatie"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Groepsrol toevoegen"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Korte rolbeschrijving"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Voeg rol toe"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Reset"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Opslaan"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Opslaan..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Laden..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Succesvol opgeslagen"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Bestand mime type"

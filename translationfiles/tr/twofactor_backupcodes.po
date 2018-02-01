@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"Language-Team: Turkish (https://www.transifex.com/nextcloud/teams/64236/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: js/settingsview.js:11
+msgid "Generate backup codes"
+msgstr "Yedek kodları oluştur"
+
+#: js/settingsview.js:15
+msgid ""
+"Backup codes have been generated. {{used}} of {{total}} codes have been "
+"used."
+msgstr "Yedek kodları oluşturuldu. {{used}} / {{total}} kod kullanılıyor."
+
+#: js/settingsview.js:17
+msgid ""
+"These are your backup codes. Please save and/or print them as you will not "
+"be able to read the codes again later"
+msgstr ""
+"Yedek kodlarınızı burada görebilirsiniz. Kodları daha sonra göremeyeceğiniz "
+"için bu kodları kaydedin ya da yazdırın"
+
+#: js/settingsview.js:23
+msgid "Save backup codes"
+msgstr "Yedek kodları kaydet"
+
+#: js/settingsview.js:24
+msgid "Print backup codes"
+msgstr "Yedek kodları yazdır"
+
+#: js/settingsview.js:28
+msgid "Regenerate backup codes"
+msgstr "Yedek kodlarını yeniden oluştur"
+
+#: js/settingsview.js:31
+msgid ""
+"If you regenerate backup codes, you automatically invalidate old codes."
+msgstr "Yedek kodlarını yeniden oluşturursanız, eski kodlar geçersiz olur."
+
+#: js/settingsview.js:184
+msgid "An error occurred while generating your backup codes"
+msgstr "Yedek kodlar oluşturulurken bir sorun çıktı"
+
+#: js/settingsview.js:196 js/settingsview.js:197
+msgid "Nextcloud backup codes"
+msgstr "Nextcloud yedek kodları"
+
+#: lib/Activity/Provider.php:63
+msgid "You created two-factor backup codes for your account"
+msgstr "İki aşamalı kimlik doğrulama için yedek kodlarınızı oluşturdunuz"
+
+#: lib/Provider/BackupCodesProvider.php:74 templates/challenge.php:6
+msgid "Backup code"
+msgstr "Yedek kod"
+
+#: lib/Provider/BackupCodesProvider.php:83
+msgid "Use backup code"
+msgstr "Yedek kodu kullan"
+
+#: templates/personal.php:10
+msgid "Second-factor backup codes"
+msgstr "İki aşamalı kimlik doğrulama yedek kodları"

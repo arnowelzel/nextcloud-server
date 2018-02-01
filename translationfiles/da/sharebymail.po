@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nick Bakkegaard <nickbakkegaard@gmail.com>, 2017\n"
+"Language-Team: Danish (https://www.transifex.com/nextcloud/teams/64236/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Delt med %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Delt med {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "Delt med %1$s af %2$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "Delt med {email} af {actor}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "Password for mail deling er sendt til %1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "Password for mail deling er sendt til {email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "Password for mail deling er sendt til dig"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Du delte %1$s med %2$s via e-mail"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "Du delte {file} med {email} via e-mail"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s delte %1$s med %2$s via e-mail"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} delte {file} med {email} via e-mail"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "Password for adgang %1$s blev sendt til %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "Password for adgang {file} blev sendt til {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "Password for adgang %1$s blev sendt til dig."
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "Password for adgang {file} blev sendt til dig."
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "Deling %s fejlede, dette objekt er allerede delt med %s"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+" Vi kan ikke sende det autogenerede password. Angiv venligst en valid email "
+"adresse i dine personlige indstillinger og prøv igen."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Kunne ikke sende deling via e-mail"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s delt »%s« med dig"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s delte »%s« med dig."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Klik på knappen nedenunder for at åbne."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Åbn »%s«"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s via %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s delte »%s« med dig.\n"
+"Du burde allerede have modtaget en email med et link til at tilgå det.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s delte »%s« med dig.\n"
+"Du burde allerede have modtaget en email med et link til at tilgå det."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "Kodeord for adgang til »%s« delt med dig af %s"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Kodeord for adgang til »%s«"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Det er beskyttet af følgende kodeord: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Du har delt »%s« med %s. Delingen er allerede sendt til modtageren. Pga. "
+"sikkerhedsretninger der er lavet af administratoren af  %s hver deling skal "
+"beskyttes af et password og det er ikke tilladt at sende passwordet direkte "
+"til modtageren. Derfor skal du give passwordet til modtageren manuelt."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Password for adgang til »%s« delt med dig af %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Dette password er: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr "Du kan til enhver tid vælge et andet password i delings dialogen."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Kan ikke finde deling"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Delt med mail"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Tillad brugere at dele et personligt link til en fil eller folder ved at "
+"skrive en email ind."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Send kodeord på mail"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Tving kodeords beskyttelse"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Kunne ikke dele via e-mail"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s delte »%s« med dig for %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Oprettelse af e-mail mislykkedes"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Hej,\n"
+"\n"
+"%s delte »%s« med dig, for %s.\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Hey there,\n"
+"\n"
+"%s delte »%s« med dig.\n"
+"\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Hej!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr "Hej,<br><br>%s delte <a href=\"%s\">%s</a> med dig, for %s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "Hej,<br><br>%s delte <a href=\"%s\">%s</a> med dig.<br><br>"

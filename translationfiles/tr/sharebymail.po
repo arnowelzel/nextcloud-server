@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Furkan Fidan <public.f@posteo.de>, 2017\n"
+"Language-Team: Turkish (https://www.transifex.com/nextcloud/teams/64236/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "%1$s ile paylaşıldı"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "{email} ile paylaşıldı"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "%1$s ile %2$s tarafından paylaşıldı"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "{email} ile {actor} tarafından paylaşıldı"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "E-posta ile paylaşma parolası %1$s adresine gönderildi"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "E-posta ile paylaşma parolası {email} adresine gönderildi"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "E-posta ile paylaşma parolası size gönderildi"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "%1$s dosyasını %2$s ile e-posta üzerinden paylaştınız"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "{file} dosyasını {email} ile e-posta üzerinden paylaştınız"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s, %1$s dosyasını %2$s ile e-posta üzerinden paylaştı"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor}, {file} dosyasını {email} ile e-posta üzerinden paylaştı"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "%1$s dosyasına erişim parolası %2s adresine gönderildi"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "{file} dosyasına erişim parolası {email} adresine gönderildi"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "%1$s dosyasına erişim parolası size gönderildi"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "{file} dosyasına erişim parolası size gönderildi"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "%s paylaşılamadı, bu öge zaten %s ile paylaşılmış"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"Otomatik üretilen parola size gönderilemedi. Lütfen kişisel ayarlarınızdan "
+"geçerli bir e-posta adresi ayarlayın ve yeniden deneyin."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Paylaşım e-postası gönderilemedi"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s sizinle »%s« ögesini paylaştı"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s sizinle »%s« ögesini paylaştı."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Açmak için aşağıdaki düğmeye tıklayın."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "»%s« Aç"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s, %s aracılığıyla"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s sizinle »%s« ögesini paylaştı.\n"
+"Erişim bağlantısını içeren başka bir e-posta daha almış olmalısınız.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s sizinle »%s« ögesini paylaştı. Erişim bağlantısını içeren başka bir "
+"e-posta daha almış olmalısınız."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "»%s« için sizin tarafınızdan %s üzerinden paylaşılan erişim parolası"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "»%s« erişim parolası"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Öge şu parola ile korunuyor: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"»%s« ögesini %s ile paylaştınız. Paylaşım alıcıya gönderildi. %s yöneticisi "
+"tarafından belirlenmiş güvenlik ilkelerine göre her bir paylaşım için bir "
+"parola belirtilmesi ve bu parolanın alıcıya doğrudan gönderilmemesi "
+"gerekiyor. Bu nedenle parolayı alıcıya el ile siz iletmelisiniz."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "»%s« için %s üzerinden paylaşılan erişim parolası"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "İleteceğiniz parola: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr ""
+"İstediğiniz zaman paylaşım bölümünden farklı bir parola belirtebilirsiniz."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Paylaşım bulunamadı"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "E-posta ile paylaş"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Kullanıcıların bir e-posta adresi yazarak bir dosya ya da klasör için "
+"kişisel bir bağlantı paylaşmasını sağlar."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Parolayı e-posta ile gönder"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Parola koruması dayatılsın"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Paylaşım e-postası gönderilemedi"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s sizinle »%s« ögesini %s adına paylaştı"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "E-posta oluşturulamadı"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Merhaba,\n"
+"\n"
+"%s sizinle »%s« ögesini %s adına paylaştı.\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Merhaba,\n"
+"\n"
+"%s sizinle »%s« ögesini paylaştı.\n"
+"\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Hoşça kalın!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Merhaba,<br><br>%s sizinle <a href=\"%s\">%s</a> ögesini %s adına "
+"paylaştı.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr ""
+"Merhaba,<br><br>%s sizinle <a href=\"%s\">%s</a> ögesini paylaştı.<br><br>"

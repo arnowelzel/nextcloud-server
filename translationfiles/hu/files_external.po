@@ -1,0 +1,584 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: H P <bashman@hpacc.hu>, 2017\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/nextcloud/teams/64236/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files_external/appinfo/app.php:46
+#: /app/apps/files_external/js/app.js:38
+#: /app/apps/files_external/lib/Settings/Section.php:63
+#: /app/apps/files_external/templates/settings.php:91
+msgid "External storages"
+msgstr "Külső tárolók"
+
+#: /app/apps/files_external/js/mountsfilelist.js:53
+msgid "Personal"
+msgstr "Személyes"
+
+#: /app/apps/files_external/js/mountsfilelist.js:55
+msgid "System"
+msgstr "Rendszer"
+
+#: /app/apps/files_external/js/oauth1.js:13
+#: /app/apps/files_external/js/oauth2.js:13
+msgid "Grant access"
+msgstr "Megadom a hozzáférést"
+
+#: /app/apps/files_external/js/oauth1.js:43
+#: /app/apps/files_external/js/oauth1.js:71
+#: /app/apps/files_external/js/oauth1.js:77
+msgid "Error configuring OAuth1"
+msgstr "OAuth1 konfigurálási hiba"
+
+#: /app/apps/files_external/js/oauth1.js:76
+msgid "Please provide a valid app key and secret."
+msgstr "Kérlek adj meg egy érvényes alkalmazás kulcsot és jelszót."
+
+#: /app/apps/files_external/js/oauth2.js:53
+#: /app/apps/files_external/js/oauth2.js:88
+msgid "Error configuring OAuth2"
+msgstr "OAuth2 konfigurálási hiba"
+
+#: /app/apps/files_external/js/public_key.js:41
+msgid "Generate keys"
+msgstr "Kulcsok generálása"
+
+#: /app/apps/files_external/js/public_key.js:60
+msgid "Error generating key pair"
+msgstr "Hiba történt a kulcspár generálása közben"
+
+#: /app/apps/files_external/js/settings.js:93
+msgid "All users. Type to select user or group."
+msgstr "Összes felhasználó. Írj be egy felhasználót vagy csoportot."
+
+#: /app/apps/files_external/js/settings.js:178
+msgid "(group)"
+msgstr "(csoport)"
+
+#: /app/apps/files_external/js/settings.js:501
+msgid "Compatibility with Mac NFD encoding (slow)"
+msgstr "Kompatibilitás a Mac NFD kódolással (lassú)"
+
+#: /app/apps/files_external/js/settings.js:956
+msgid "Admin defined"
+msgstr "Adminisztrátor definiálva"
+
+#: /app/apps/files_external/js/settings.js:1133
+msgid "Are you sure you want to delete this external storage"
+msgstr "Biztosan törlöd ezt a külső tárolót"
+
+#: /app/apps/files_external/js/settings.js:1135
+msgid "Delete storage?"
+msgstr "Tároló törlése?"
+
+#: /app/apps/files_external/js/settings.js:1346
+#: /app/apps/files_external/js/settings.js:1364
+#: /app/apps/files_external/js/settings.js:1392
+msgid "Saved"
+msgstr "Elmentve"
+
+#: /app/apps/files_external/js/settings.js:1380
+msgid "Saving..."
+msgstr "Mentés..."
+
+#: /app/apps/files_external/js/settings.js:1394
+#: /app/apps/files_external/js/statusmanager.js:440
+#: /app/apps/files_external/templates/settings.php:161
+#: /app/apps/files_external/templates/settings.php:162
+#: /app/apps/files_external/templates/settings.php:209
+msgid "Save"
+msgstr "Mentés"
+
+#: /app/apps/files_external/js/statusmanager.js:89
+msgid "Empty response from the server"
+msgstr "Üres válasz a szervertől"
+
+#: /app/apps/files_external/js/statusmanager.js:105
+msgid ""
+"Couldn't access. Please log out and in again to activate this mount point"
+msgstr ""
+"Nem hozzáférhető. Kérjük lépj ki és be ismét a csatolási pont aktiválásához"
+
+#: /app/apps/files_external/js/statusmanager.js:107
+msgid "Couldn't get the information from the remote server: {code} {type}"
+msgstr ""
+"Nem sikerült lekérdezni az információkat a távoli szerverről: {code} {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:160
+msgid "Couldn't get the list of external mount points: {type}"
+msgstr "Nem lehet letölteni a külső csatolási pontok listáját: {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "There was an error with message: "
+msgstr "Hiba történt ezzel az üzenettel:"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "External mount error"
+msgstr "Külső csatolási hiba"
+
+#: /app/apps/files_external/js/statusmanager.js:194
+msgid "external-storage"
+msgstr "külső tároló"
+
+#: /app/apps/files_external/js/statusmanager.js:270
+msgid ""
+"Couldn't fetch list of Windows network drive mount points: Empty response "
+"from server"
+msgstr ""
+"A Windows megosztások listája nem begyűjthető: üres válasz a szervertől"
+
+#: /app/apps/files_external/js/statusmanager.js:302
+msgid ""
+"Some of the configured external mount points are not connected. Please click"
+" on the red row(s) for more information"
+msgstr ""
+"Néhány beállított külső csatolási pont nincs kapcsolatban. További "
+"információkért kattints a piros sor(ok)ra."
+
+#: /app/apps/files_external/js/statusmanager.js:397
+msgid "Please enter the credentials for the {mount} mount"
+msgstr "Kérlek add meg a következő csatolás azonosítóit: {mount}"
+
+#: /app/apps/files_external/js/statusmanager.js:400
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:40
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:55
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:50
+#: /app/apps/files_external/templates/settings.php:202
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: /app/apps/files_external/js/statusmanager.js:401
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:57
+#: /app/apps/files_external/templates/settings.php:206
+msgid "Password"
+msgstr "Jelszó"
+
+#: /app/apps/files_external/js/statusmanager.js:423
+msgid "Credentials saved"
+msgstr "Azonosítók mentve"
+
+#: /app/apps/files_external/js/statusmanager.js:430
+msgid "Credentials saving failed"
+msgstr "Azonosítók mentése sikertelen"
+
+#: /app/apps/files_external/js/statusmanager.js:438
+msgid "Credentials required"
+msgstr "Azonosító szükséges"
+
+#: /app/apps/files_external/lib/Controller/GlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/StoragesController.php:309
+#: /app/apps/files_external/lib/Controller/StoragesController.php:334
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:125
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/UserStoragesController.php:201
+#, php-format
+msgid "Storage with ID \"%d\" not found"
+msgstr "A(z) \"%d\" azonosítójú tároló nincs meg"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:130
+msgid "Invalid backend or authentication mechanism class"
+msgstr "Érvénytelen háttér vagy autentikációs mechanizmus osztály"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:149
+msgid "Invalid mount point"
+msgstr "Érvénytelen csatolási pont"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:159
+msgid "Objectstore forbidden"
+msgstr "Objektumtár tiltott"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:173
+#, php-format
+msgid "Invalid storage backend \"%s\""
+msgstr "Érvénytelen háttértár kezelő \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:185
+#, php-format
+msgid "Not permitted to use backend \"%s\""
+msgstr "A(z) \"%s\" háttér használata nem engedélyezett"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:196
+#, php-format
+msgid "Not permitted to use authentication mechanism \"%s\""
+msgstr "Nem engedélyezett a \"%s\" autentikációs mechanizmus használata"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:208
+msgid "Unsatisfied backend parameters"
+msgstr "Elégtelen háttér adatok"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:217
+msgid "Unsatisfied authentication mechanism parameters"
+msgstr "Elégtelen autentikációs mechanizmus paraméterek"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:263
+#, php-format
+msgid "Insufficient data: %s"
+msgstr "Nem elegendő adat: %s"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:268
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:165
+#, php-format
+msgid "Storage with ID \"%d\" is not user editable"
+msgstr "A(z) \"%d\" azonosítójú tároló nem szerkeszthető a felhasználók által"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:40
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:42
+msgid "Access key"
+msgstr "Hozzáférési kulcs"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:43
+msgid "Secret key"
+msgstr "Titkos kulcs"
+
+#: /app/apps/files_external/lib/Lib/Auth/Builtin.php:36
+msgid "Builtin"
+msgstr "Beépített"
+
+#: /app/apps/files_external/lib/Lib/Auth/NullMechanism.php:36
+msgid "None"
+msgstr "Egyik sem"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:38
+msgid "OAuth1"
+msgstr "OAuth1"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:42
+msgid "App key"
+msgstr "Alkalmazás kulcs"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
+msgid "App secret"
+msgstr "Alkalmazás titkos kulcs"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
+msgid "OAuth2"
+msgstr "OAuth2"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:42
+msgid "Client ID"
+msgstr "Ügyfél ID"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
+msgid "Client secret"
+msgstr "Kliens titok"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:38
+msgid "OpenStack"
+msgstr "OpenStack"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:43
+msgid "Tenant name"
+msgstr "Bérlő neve"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:44
+msgid "Identity endpoint URL"
+msgstr "Identitás végpont URL"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:38
+msgid "Rackspace"
+msgstr "Rackspace"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:41
+msgid "API key"
+msgstr "API kulcs"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:52
+#: /app/apps/files_external/templates/settings.php:198
+msgid "Global credentials"
+msgstr "Globális azonosítók"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:56
+msgid "Log-in credentials, save in database"
+msgstr "Bejelentkezési azonosítók, mentés az adatbázisban"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:38
+msgid "Username and password"
+msgstr "Felhasználónév és jelszó"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
+msgid "Log-in credentials, save in session"
+msgstr "Bejelentkezési azonosítók, mentés az munkamenetben"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
+msgid "User entered, store in database"
+msgstr "Felhasználó megadva, tárolás az adatbázisban"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:48
+msgid "RSA public key"
+msgstr "RSA nyilvános kulcs"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:51
+msgid "Public key"
+msgstr "Nyilvános kulcs"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:43
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:45
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:49
+msgid "Bucket"
+msgstr "Bucket"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:46
+msgid "Hostname"
+msgstr "Hosztnév"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:48
+msgid "Port"
+msgstr "Port"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:47
+msgid "Region"
+msgstr "Megye"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
+msgid "Enable SSL"
+msgstr "SSL engedélyezése"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:54
+msgid "Enable Path Style"
+msgstr "Útvonal stílus engedélyezés"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:56
+msgid "Legacy (v2) authentication"
+msgstr "Elavult (v2) authetikáció"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:45
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:43
+msgid "URL"
+msgstr "URL"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:46
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:46
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:44
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:42
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:49
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:54
+msgid "Remote subfolder"
+msgstr "Távoli almappa"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:48
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:46
+msgid "Secure https://"
+msgstr "Biztonságos https://"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:43
+msgid "FTP"
+msgstr "FTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:45
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:39
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:41
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:47
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:49
+msgid "Host"
+msgstr "Kiszolgáló"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:48
+msgid "Secure ftps://"
+msgstr "Biztonságos ftps://"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:39
+msgid "Local"
+msgstr "Helyi"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:41
+msgid "Location"
+msgstr "Hely"
+
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:41
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:37
+msgid "SFTP"
+msgstr "SFTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:40
+msgid "Root"
+msgstr "Gyökér"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:39
+msgid "SFTP with secret key login"
+msgstr "SFTP titkos kulcs belépéssel"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:45
+msgid "SMB / CIFS"
+msgstr "SMB / CIFS"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:48
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:52
+msgid "Share"
+msgstr "Megosztás"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:51
+msgid "Domain"
+msgstr "Domain"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:47
+msgid "SMB / CIFS using OC login"
+msgstr "SMB / CIFS OC belépéssel"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:50
+msgid "Username as share"
+msgstr "Felhasználónév és megosztás"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:43
+msgid "OpenStack Object Storage"
+msgstr "OpenStack Object Storage"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:45
+msgid "Service name"
+msgstr "Szolgáltatás neve"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:50
+msgid "Request timeout (seconds)"
+msgstr "Időtúllépés (másodperc)"
+
+#: /app/apps/files_external/lib/config.php:323
+#, php-format
+msgid ""
+"The cURL support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"A cURL támogatás, a PHP-ban nincs engedélyezve vagy telepítve. %s csatolása "
+"lehetetlen. Kérd meg a rendszergazdádat, hogy telepítse."
+
+#: /app/apps/files_external/lib/config.php:325
+#, php-format
+msgid ""
+"The FTP support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"Az FTP támogatás, a PHP-ban nincs engedélyezve vagy telepítve. %s csatolása "
+"lehetetlen. Kérd meg a rendszergazdádat, hogy telepítse."
+
+#: /app/apps/files_external/lib/config.php:327
+#, php-format
+msgid ""
+"\"%s\" is not installed. Mounting of %s is not possible. Please ask your "
+"system administrator to install it."
+msgstr ""
+"%s nincs telepítve. %s csatolása lehetetlen. Kérd meg a rendszergazdádat, "
+"hogy telepítse."
+
+#: /app/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "External storage support"
+msgstr ""
+
+#: /app/apps/files_external/templates/list.php:9
+msgid "No external storage configured"
+msgstr "Nincs külső tároló beállítva."
+
+#: /app/apps/files_external/templates/list.php:10
+msgid "You can add external storages in the personal settings"
+msgstr "Hozzáadhatsz külső tárolókat a személyes beállítások közt."
+
+#: /app/apps/files_external/templates/list.php:20
+msgid "Name"
+msgstr "Név"
+
+#: /app/apps/files_external/templates/list.php:24
+msgid "Storage type"
+msgstr "Tároló típusa"
+
+#: /app/apps/files_external/templates/list.php:27
+msgid "Scope"
+msgstr "Hatáskör"
+
+#: /app/apps/files_external/templates/settings.php:9
+msgid "Enable encryption"
+msgstr "Titkosítás engedélyezése"
+
+#: /app/apps/files_external/templates/settings.php:10
+msgid "Enable previews"
+msgstr "Előnézet engedélyezése"
+
+#: /app/apps/files_external/templates/settings.php:11
+msgid "Enable sharing"
+msgstr "Megosztás engedélyezése"
+
+#: /app/apps/files_external/templates/settings.php:12
+msgid "Check for changes"
+msgstr "Változások keresése"
+
+#: /app/apps/files_external/templates/settings.php:13
+msgid "Never"
+msgstr "Soha"
+
+#: /app/apps/files_external/templates/settings.php:14
+msgid "Once every direct access"
+msgstr "Minden közvetlen elérésnél"
+
+#: /app/apps/files_external/templates/settings.php:97
+#: /app/apps/files_external/templates/settings.php:116
+msgid "Folder name"
+msgstr "Mappa neve"
+
+#: /app/apps/files_external/templates/settings.php:98
+msgid "External storage"
+msgstr "Külső tárolók"
+
+#: /app/apps/files_external/templates/settings.php:99
+msgid "Authentication"
+msgstr "Azonisítás"
+
+#: /app/apps/files_external/templates/settings.php:100
+msgid "Configuration"
+msgstr "Beállítások"
+
+#: /app/apps/files_external/templates/settings.php:101
+msgid "Available for"
+msgstr "Elérhető számukra"
+
+#: /app/apps/files_external/templates/settings.php:122
+msgid "Add storage"
+msgstr "Tároló becsatolása"
+
+#: /app/apps/files_external/templates/settings.php:147
+#: /app/apps/files_external/templates/settings.php:148
+msgid "Advanced settings"
+msgstr "Haladó beállítások"
+
+#: /app/apps/files_external/templates/settings.php:155
+#: /app/apps/files_external/templates/settings.php:156
+msgid "Delete"
+msgstr "Törlés"
+
+#: /app/apps/files_external/templates/settings.php:173
+msgid "Allow users to mount external storage"
+msgstr "Külső tárolók csatolásának  engedélyezése a felhasználók részére"
+
+#: /app/apps/files_external/templates/settings.php:176
+msgid "Allow users to mount the following external storage"
+msgstr "A felhasználók számára engedélyezett külső tárolók csatolása:"

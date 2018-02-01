@@ -1,0 +1,485 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2016\n"
+"Language-Team: Icelandic (https://www.transifex.com/nextcloud/teams/64236/is/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
+
+#: /app/apps/files_sharing/appinfo/app.php:59
+#: /app/apps/files_sharing/js/app.js:42
+msgid "Shared with you"
+msgstr "Deilt með þér"
+
+#: /app/apps/files_sharing/appinfo/app.php:71
+#: /app/apps/files_sharing/js/app.js:65
+msgid "Shared with others"
+msgstr "Deilt með öðrum"
+
+#: /app/apps/files_sharing/appinfo/app.php:84
+#: /app/apps/files_sharing/js/app.js:88
+msgid "Shared by link"
+msgstr "Deilt með tengli"
+
+#: /app/apps/files_sharing/js/app.js:44
+msgid "Nothing shared with you yet"
+msgstr "Engu deilt með þér ennþá"
+
+#: /app/apps/files_sharing/js/app.js:45
+msgid "Files and folders others share with you will show up here"
+msgstr "Skrár og möppur sem aðrir deila með þér birtast hér"
+
+#: /app/apps/files_sharing/js/app.js:67
+msgid "Nothing shared yet"
+msgstr "Engu deilt ennþá"
+
+#: /app/apps/files_sharing/js/app.js:68
+msgid "Files and folders you share will show up here"
+msgstr "Skrár og möppur sem þú deilir birtast hér"
+
+#: /app/apps/files_sharing/js/app.js:90
+msgid "No shared links"
+msgstr "Engir sameignartenglar"
+
+#: /app/apps/files_sharing/js/app.js:91
+msgid "Files and folders you share by link will show up here"
+msgstr "Skrár og möppur sem þú deilir með tenglum birtast hér"
+
+#: /app/apps/files_sharing/js/public.js:228
+msgid "You can upload into this folder"
+msgstr "Þú getur sent inn skrár í þessa möppu"
+
+#: /app/apps/files_sharing/js/public.js:349
+msgid "No compatible server found at {remote}"
+msgstr "Enginn samhæfður vefþjónn fannst á {remote}"
+
+#: /app/apps/files_sharing/js/public.js:350
+msgid "Invalid server URL"
+msgstr "Ógild URI-slóð vefþjóns"
+
+#: /app/apps/files_sharing/js/public.js:404
+msgid "Failed to add the public link to your Nextcloud"
+msgstr "Mistókst að bæta opinberum tengli í þitt eigið Nextcloud"
+
+#: /app/apps/files_sharing/js/share.js:152
+msgid "Share"
+msgstr "Deila"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:102
+msgid "No expiration date set"
+msgstr "Engin dagsetning fyrir gildistíma er sett"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:231
+msgid "Shared by"
+msgstr "Deilt af"
+
+#: /app/apps/files_sharing/js/sharetabview.js:35
+msgid "Sharing"
+msgstr "Deiling"
+
+#: /app/apps/files_sharing/lib/Activity/Filter.php:59
+msgid "File shares"
+msgstr "Skráasameignir"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:48
+msgid "Downloaded via public link"
+msgstr "Náð í með almenningstengli"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:51
+msgid "Downloaded by {email}"
+msgstr "Náð í með {email}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:77
+msgid "{file} downloaded via public link"
+msgstr "{file} sótt með almenningstengli"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:80
+msgid "{email} downloaded {file}"
+msgstr "{email} sótti {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:45
+msgid "Shared with group {group}"
+msgstr "Deilt með hópnum {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:47
+msgid "Removed share for group {group}"
+msgstr "Fjarlægði sameign af hópnum {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:49
+msgid "{actor} shared with group {group}"
+msgstr "{actor} deildi með hópnum {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:51
+msgid "{actor} removed share for group {group}"
+msgstr "{actor} fjarlægði sameign af hópnum {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:76
+msgid "You shared {file} with group {group}"
+msgstr "Þú deildir {file} með hópnum {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:78
+msgid "You removed group {group} from {file}"
+msgstr "Þú fjarlægðir hópinn {group} af {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:80
+msgid "{actor} shared {file} with group {group}"
+msgstr "{actor} deildi {file} með hópnum {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:82
+msgid "{actor} removed group {group} from {file}"
+msgstr "{actor} fjarlægði hópinn {group} af {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:47
+msgid "Shared as public link"
+msgstr "Deilt sem almenningstengill"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:49
+msgid "Removed public link"
+msgstr "Fjarlægði almenningstengil"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:51
+msgid "Public link expired"
+msgstr "Almenningstengill er útrunninn"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:53
+msgid "{actor} shared as public link"
+msgstr "{actor} deildi sem almenningstengill"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:55
+msgid "{actor} removed public link"
+msgstr "{actor} fjarlægði almenningstengil"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:57
+msgid "Public link of {actor} expired"
+msgstr "Almenningstengill {actor} er útrunninn"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:83
+msgid "You shared {file} as public link"
+msgstr "Þú deildir {file} sem almenningstengli"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:85
+msgid "You removed public link for {file}"
+msgstr "Þú fjarlægðir almenningstengilinn fyrir {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:87
+msgid "Public link expired for {file}"
+msgstr "Almenningstengill er útrunninn fyrir {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:89
+msgid "{actor} shared {file} as public link"
+msgstr "{actor} deildi {file} sem almenningstengli"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:91
+msgid "{actor} removed public link for {file}"
+msgstr "{actor} fjarlægði almenningstengil fyrir {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:93
+msgid "Public link of {actor} for {file} expired"
+msgstr "Almenningstengill frá {actor} fyrir {file} er útrunninn"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:70
+msgid "{user} accepted the remote share"
+msgstr "{user} samþykkti fjartengda sameign"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:72
+msgid "{user} declined the remote share"
+msgstr "{user} hafnaði fjartengdri sameign"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:97
+msgid "You received a new remote share {file} from {user}"
+msgstr "Þú tókst við nýrri fjartengdri sameign {file} frá {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:99
+msgid "{user} accepted the remote share of {file}"
+msgstr "{user} samþykkti fjartengdu sameignina {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:101
+msgid "{user} declined the remote share of {file}"
+msgstr "{user} hafnaði fjartengdu sameigninni {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:103
+msgid "{user} unshared {file} from you"
+msgstr "{user} tók af deilingu á {file} frá þér"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:49
+msgid "Shared with {user}"
+msgstr "Deilt með {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:51
+msgid "Removed share for {user}"
+msgstr "Fjarlægði deilingu með {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:53
+msgid "{actor} shared with {user}"
+msgstr "{actor} deildi með {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:55
+msgid "{actor} removed share for {user}"
+msgstr "{actor} fjarlægði deilingu með {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:57
+msgid "Shared by {actor}"
+msgstr "Deilt af {actor}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:59
+msgid "{actor} removed share"
+msgstr "{actor} fjarlægði deilingu"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:85
+msgid "You shared {file} with {user}"
+msgstr "Þú deildir {file} með {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:87
+msgid "You removed {user} from {file}"
+msgstr "Þú fjarlægðir {user} af {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:89
+msgid "{actor} shared {file} with {user}"
+msgstr "{actor} deildi {file} með {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:91
+msgid "{actor} removed {user} from {file}"
+msgstr "{actor} fjarlægði {user} af {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:93
+msgid "{actor} shared {file} with you"
+msgstr "{actor} deildi {file} með þér"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:95
+msgid "{actor} removed you from {file}"
+msgstr "{actor} fjarlægði þig af {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/PublicLinks.php:55
+msgid ""
+"A file or folder shared by mail or by public link was "
+"<strong>downloaded</strong>"
+msgstr ""
+"Skrá eða mappa sem deilt var með tölvupósti eða almenningstengli var "
+"<strong>sótt</strong>"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/RemoteShare.php:56
+msgid "A file or folder was shared from <strong>another server</strong>"
+msgstr "Skjali eða möppu hefur verið deilt <strong>frá öðrum þjóni</strong>"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/Shared.php:56
+msgid "A file or folder has been <strong>shared</strong>"
+msgstr "Skjali eða  möppu hefur verið <strong>deilt</strong>"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:248
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:260
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:276
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:681
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:687
+msgid "Wrong share ID, share doesn't exist"
+msgstr "Rangt auðkenni sameignar, sameign er ekki til"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:282
+msgid "could not delete share"
+msgstr "tókst ekki að eyða sameign"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:286
+msgid "Could not delete share"
+msgstr "Tókst ekki að eyða sameign"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:332
+msgid "Please specify a file or folder path"
+msgstr "Tiltaktu skrá eða slóð á möppu"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:339
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:598
+msgid "Wrong path, file/folder doesn't exist"
+msgstr "Röng slóð, skrá/mappa er ekki til"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:347
+msgid "Could not create share"
+msgstr "Ekki tókst að búa til sameign"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:351
+msgid "invalid permissions"
+msgstr "Ógildar aðgangsheimildir"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:375
+msgid "Please specify a valid user"
+msgstr "Settu inn gilt notandanafn"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:381
+msgid "Group sharing is disabled by the administrator"
+msgstr "Deiling innan hóps hefur verið gerð óvirk af kerfisstjóra."
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:386
+msgid "Please specify a valid group"
+msgstr "Settu inn gildan hóp"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:393
+msgid "Public link sharing is disabled by the administrator"
+msgstr ""
+"Deiling opinberra sameignartengla hefur verið gerð óvirk af kerfisstjóra."
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:408
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:730
+msgid "Public upload disabled by the administrator"
+msgstr "Opinber innsending hefur verið gerð óvirk af kerfisstjóra."
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:413
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:734
+msgid "Public upload is only possible for publicly shared folders"
+msgstr ""
+"Opinber innsending er einungis möguleg í möppur sem er deilt opinberlega"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:437
+msgid "Invalid date, date format must be YYYY-MM-DD"
+msgstr "Ógild dagsetning, dagsetningasniðið verður að vera ÁÁÁÁ-MM-DD"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:443
+#, php-format
+msgid ""
+"Sharing %s failed because the back end does not allow shares from type %s"
+msgstr ""
+"Deiling %s mistókst, því bakvinnslukerfið leyfir ekki sameignir af gerðinni "
+"%s"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:461
+msgid "You cannot share to a Circle if the app is not enabled"
+msgstr "Þú getur ekki deilt með hring ef forritið er ekki virkt"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:468
+msgid "Please specify a valid circle"
+msgstr "Settu inn gildan hring"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:473
+msgid "Unknown share type"
+msgstr "Óþekkt tegund sameignar"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:535
+msgid "Not a directory"
+msgstr "Er ekki mappa"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:600
+msgid "Could not lock path"
+msgstr "Gat ekki læst slóð"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:691
+msgid "Wrong or no update parameter given"
+msgstr "Rangt eða ekkert uppfærsluviðfang gefið"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:720
+msgid "Can't change permissions for public share links"
+msgstr "Ekki tókst að breyta aðgangsheimildum fyrir opinbera deilingartengla"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:803
+msgid "Cannot increase permissions"
+msgstr "Get ekki aukið aðgangsheimildir"
+
+#: /app/apps/files_sharing/lib/Middleware/OCSShareAPIMiddleware.php:56
+msgid "Share API is disabled"
+msgstr "Deilingar-API er óvirkt"
+
+#: /app/apps/files_sharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "File sharing"
+msgstr ""
+
+#: /app/apps/files_sharing/templates/authenticate.php:11
+msgid "This share is password-protected"
+msgstr "Þessi sameign er varin með lykilorði"
+
+#: /app/apps/files_sharing/templates/authenticate.php:14
+msgid "The password is wrong. Try again."
+msgstr "Lykilorðið er rangt. Reyndu aftur."
+
+#: /app/apps/files_sharing/templates/authenticate.php:17
+#: /app/apps/files_sharing/templates/authenticate.php:20
+msgid "Password"
+msgstr "Lykilorð"
+
+#: /app/apps/files_sharing/templates/list.php:10
+msgid "No entries found in this folder"
+msgstr "Engar skrár fundust í þessari möppu"
+
+#: /app/apps/files_sharing/templates/list.php:18
+msgid "Name"
+msgstr "Nafn"
+
+#: /app/apps/files_sharing/templates/list.php:22
+msgid "Share time"
+msgstr "Deilingartími"
+
+#: /app/apps/files_sharing/templates/list.php:25
+msgid "Expiration date"
+msgstr "Gildir til"
+
+#: /app/apps/files_sharing/templates/part.404.php:3
+msgid "Sorry, this link doesn’t seem to work anymore."
+msgstr "Því miður, þessi tengill virðist ekki virka lengur."
+
+#: /app/apps/files_sharing/templates/part.404.php:4
+msgid "Reasons might be:"
+msgstr "Mögulegar ástæður gætu verið:"
+
+#: /app/apps/files_sharing/templates/part.404.php:6
+msgid "the item was removed"
+msgstr "atriðið var fjarlægt"
+
+#: /app/apps/files_sharing/templates/part.404.php:7
+msgid "the link expired"
+msgstr "tengillinn er útrunninn"
+
+#: /app/apps/files_sharing/templates/part.404.php:8
+msgid "sharing is disabled"
+msgstr "slökkt er á skráadeilingu"
+
+#: /app/apps/files_sharing/templates/part.404.php:10
+msgid "For more info, please ask the person who sent this link."
+msgstr ""
+"Til að vita meira skaltu hafa samband við þann sem sendi þér þennan tengil."
+
+#: /app/apps/files_sharing/templates/public.php:46
+#, php-format
+msgid "shared by %s"
+msgstr "Deilt af %s"
+
+#: /app/apps/files_sharing/templates/public.php:53
+#: /app/apps/files_sharing/templates/public.php:59
+msgid "Download"
+msgstr "Niðurhal"
+
+#: /app/apps/files_sharing/templates/public.php:65
+msgid "Direct link"
+msgstr "Beinn tengill"
+
+#: /app/apps/files_sharing/templates/public.php:74
+msgid "Add to your Nextcloud"
+msgstr "Bæta í þitt eigið Nextcloud"
+
+#: /app/apps/files_sharing/templates/public.php:108
+#, php-format
+msgid "Download %s"
+msgstr "Sækja %s"
+
+#: /app/apps/files_sharing/templates/public.php:120
+#, php-format
+msgid "Upload files to %s"
+msgstr "Senda inn skrár á %s"
+
+#: /app/apps/files_sharing/templates/public.php:127
+msgid "Select or drop files"
+msgstr "Veldu eða slepptu skrám"
+
+#: /app/apps/files_sharing/templates/public.php:128
+msgid "Uploading files…"
+msgstr "Sendi inn skrár…"
+
+#: /app/apps/files_sharing/templates/public.php:129
+msgid "Uploaded files:"
+msgstr "Innsendar skrár:"

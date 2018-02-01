@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: H P <bashman@hpacc.hu>, 2017\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/nextcloud/teams/64236/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Egyesített megosztás"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Hozzá akarod adni a {name} távoli megosztást innen: {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Távoli megosztás"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Jelszó a távoli megosztáshoz"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Távoli megosztás hozzáadása"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Másol"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Másolva!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Nem támogatott!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "A másoláshoz nyomj ⌘-C-t."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "A másoláshoz nyomj Ctrl-C-t."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Érvénytelen Egyesített Felhő Azonosító"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "A kiszolgálók közötti megosztás nincs engedélyezve ezen a kiszolgálón"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Egy egyesített megosztás nem hozható létre."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Egy egyesített megosztás nem hozható létre, lehet hogy nem megfelelő a "
+"jelszó."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Egyesített megosztási kérés elküldve, kapni fogsz egy meghívót. Ellenőrizd "
+"az értesítéseidet."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "A csatolási pont neve érvénytelen karaktereket tartalmaz "
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "A tulajdonossal nem lehet egyesített megosztást létrehozni."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Érvénytelen vagy nem megbízható az SSL tanúsítvány"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Nem sikerült az azonosítás a távoli megosztáshoz. Lehet, hogy rossz a "
+"jelszó."
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "A tároló nem érvényes"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Egyesített megosztás hozzáadva"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Távoli megosztás nem adható hozzá"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "%s megosztása nem sikerült, mert ez már meg van osztva vele: %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Azonos felhasználóval nem lehet létrehozni egyesített megosztást"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Fájl már megosztva vele: %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"%s megosztása nem sikerült, mert %s nem található, lehetséges, hogy a "
+"szerver jelenleg nem érhető el vagy ön-aláírt tanúsítványt használ."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "A megosztás nem található"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "Kaptál egy távoli megosztást: \"%3$s\", innen: %1$s (%2$s nevében)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Kaptál egy távoli megosztást: {share}, innen: {user} ({behalf} nevében)"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Kaptál egy távoli megosztást: \"%3$s\", innen: %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Kaptál egy távoli megosztást: {share}, innen: {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Elfogadás"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Elutasítás"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Ossza meg velem az #Nextcloud Egyesített Felhő Azonosító segítségével, lásd "
+"%s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr ""
+"Ossza meg velem az #Nextcloud Egyesített Felhő Azonosító segítségével "
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Megosztás"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Megosztás Egyesített Felhőben"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Dokumentáció megnyitása"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "A szerverek közti megosztási lehetőségek beállítása"
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Engedélyezze ezen szerver felhasználóinak, hogy fájlokat osszanak meg más "
+"szerverekkel."
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Engedélyezze ezen szerver felhasználóinak, hogy megosztásokat fogadjanak más"
+" szerverektől"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Felhasználók keresése a globális és a nyilvános névjegyekben"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr "Minden felhasználó a közös adattárolót és névjegyzéket használja"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Egyesített felhő"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Bárkivel megoszthatsz aki Nextcloud-ot, ownCloud-ot vagy Pydio-t használ! "
+"Csak add meg az egységesített megosztási azonosítójukat a megosztási "
+"ablakban. Valahogy így néz ki: person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Egyesített felhő azonosító:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Oszd meg, hogy a barátaid is megoszthassanak veled fájlokat:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Adja hozzá saját weboldalához"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Ossza meg velem Nextcloud-on keresztül"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML kód:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"A központi és nyilvános névjegyzék keresése a felhasználóknak és a helyi "
+"felhasználók is hozzáadhatnak"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Oszd meg:"

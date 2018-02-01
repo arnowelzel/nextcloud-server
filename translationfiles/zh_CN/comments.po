@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Joas Schilling, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/nextcloud/teams/64236/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:52 js/commentstabview.js:144 lib/Activity/Filter.php:57
+msgid "Comments"
+msgstr "评论"
+
+#: js/commentstabview.js:116
+msgid "New comment …"
+msgstr "新评论 ..."
+
+#: js/commentstabview.js:117
+msgid "Delete comment"
+msgstr "删除评论"
+
+#: js/commentstabview.js:118
+msgid "Post"
+msgstr "发布"
+
+#: js/commentstabview.js:119
+msgid "Cancel"
+msgstr "取消"
+
+#: js/commentstabview.js:129
+msgid "Edit comment"
+msgstr "编辑评论"
+
+#: js/commentstabview.js:137
+msgid "[Deleted user]"
+msgstr "[已删除用户]"
+
+#: js/commentstabview.js:166
+msgid "No comments yet, start the conversation!"
+msgstr "还没有评论，开始对话吧！"
+
+#: js/commentstabview.js:167
+msgid "More comments …"
+msgstr "更多评论 ..."
+
+#: js/commentstabview.js:486
+msgid "Save"
+msgstr "保存"
+
+#: js/commentstabview.js:526
+msgid "Allowed characters {count} of {max}"
+msgstr "当前字数： {count}，最大允许：{max}"
+
+#: js/commentstabview.js:589
+msgid "Error occurred while retrieving comment with id {id}"
+msgstr "检索 id 为 {id} 的评论出错"
+
+#: js/commentstabview.js:711
+msgid "Error occurred while updating comment with id {id}"
+msgstr "更新 id 为 {id} 的评论出错"
+
+#: js/commentstabview.js:713
+msgid "Error occurred while posting comment"
+msgstr "发布评论出错"
+
+#: js/filesplugin.js:47
+msgid "%n unread comment"
+msgid_plural "%n unread comments"
+msgstr[0] "%n 未读评论"
+
+#: js/filesplugin.js:90
+msgid "Comment"
+msgstr "评论"
+
+#: lib/Activity/Provider.php:122 lib/Activity/Provider.php:123
+msgid "You commented"
+msgstr "您的评论"
+
+#: lib/Activity/Provider.php:126
+#, php-format
+msgid "%1$s commented"
+msgstr "%1$s 已评论"
+
+#: lib/Activity/Provider.php:127
+msgid "{author} commented"
+msgstr "{author} 评论了"
+
+#: lib/Activity/Provider.php:148
+#, php-format
+msgid "You commented on %1$s"
+msgstr "您在 %1$s 的评论"
+
+#: lib/Activity/Provider.php:151
+msgid "You commented on {file}"
+msgstr "您对 {file} 的评论"
+
+#: lib/Activity/Provider.php:156
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr "%1$s 评论了 %2$s"
+
+#: lib/Activity/Provider.php:160
+msgid "{author} commented on {file}"
+msgstr "{author} 对 {file} 的评论"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>Comments</strong> for files"
+msgstr "文件的<strong>评论</strong>"
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid ""
+"You were mentioned on “%s”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:112
+msgid ""
+"You were mentioned on “{file}”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:125
+#, php-format
+msgid "%1$s mentioned you in a comment on “%2$s”"
+msgstr "%1$s 在 “%2$s” 的评论中提到了您"
+
+#: lib/Notification/Notifier.php:129
+msgid "{user} mentioned you in a comment on “{file}”"
+msgstr "{user} 在 “{file}” 的评论中提到了您"
+
+#: appinfo/app.php:71
+msgid "Unknown user"
+msgstr "未知用户"
+
+#: lib/Notification/Notifier.php:104
+#, php-format
+msgid "A (now) deleted user mentioned you in a comment on “%s”"
+msgstr "一个(已)被删除的用户在 “%s” 的评论中提到了您"
+
+#: lib/Notification/Notifier.php:108
+msgid "A (now) deleted user mentioned you in a comment on “{file}”"
+msgstr "一个(已)被删除的用户在 “{file}” 的评论中提到了您"

@@ -1,0 +1,696 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Daiva Cesynė <d.tautkute@gmail.com>, 2017\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/nextcloud/teams/64236/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /app/apps/files/ajax/list.php:88 /app/apps/files/js/filelist.js:1758
+msgid "Storage is temporarily not available"
+msgstr "Saugykla yra laikinai neprieinama"
+
+#: /app/apps/files/ajax/list.php:96
+msgid "Storage invalid"
+msgstr "Saugykla netinkama naudoti"
+
+#: /app/apps/files/ajax/list.php:104
+msgid "Unknown error"
+msgstr "Nežinoma klaida"
+
+#: /app/apps/files/appinfo/app.php:48
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:147
+msgid "All files"
+msgstr "Visi failai"
+
+#: /app/apps/files/appinfo/app.php:58 /app/apps/files/js/recentfilelist.js:36
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:158
+msgid "Recent"
+msgstr "Naujausi"
+
+#: /app/apps/files/js/app.js:57
+msgid "File could not be found"
+msgstr "Nepavyko rasti rinkmenos"
+
+#: /app/apps/files/js/breadcrumb.js:225
+msgid "Home"
+msgstr "Pagrindinis"
+
+#: /app/apps/files/js/detailsview.js:114
+msgid "Close"
+msgstr "Užverti"
+
+#: /app/apps/files/js/favoritesfilelist.js:31
+#: /app/apps/files/lib/Activity/Filter/Favorites.php:80
+#: /app/apps/files/lib/Controller/ViewController.php:168
+msgid "Favorites"
+msgstr "Mėgstamiausi"
+
+#: /app/apps/files/js/file-upload.js:516 /app/apps/files/js/filelist.js:2473
+#: /app/apps/files/js/filelist.js:2491 /app/apps/files/js/filelist.js:2497
+msgid "Could not create folder \"{dir}\""
+msgstr "Nepavyko sukurti aplanko \"{dir}\""
+
+#: /app/apps/files/js/file-upload.js:599
+msgid "Upload cancelled."
+msgstr "Įkėlimo atsisakyta."
+
+#: /app/apps/files/js/file-upload.js:879
+msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
+msgstr ""
+"Nepavyksta įkelti {filename}, nes tai yra katalogas arba šio failo dydis yra"
+" 0 baitų"
+
+#: /app/apps/files/js/file-upload.js:898
+msgid ""
+"Not enough free space, you are uploading {size1} but only {size2} is left"
+msgstr ""
+"Nepakanka laisvos vietos. Jūs bandote įkelti {size1} dydžio bylą, bet liko "
+"tik  {size2} vietos"
+
+#: /app/apps/files/js/file-upload.js:970
+msgid "Target folder \"{dir}\" does not exist any more"
+msgstr "Paskirties aplanko \"{dir}\" daugiau nebėra"
+
+#: /app/apps/files/js/file-upload.js:974
+#: /app/apps/files/js/file-upload.js:1185
+msgid "Not enough free space"
+msgstr "Trūksta laisvos vietos"
+
+#: /app/apps/files/js/file-upload.js:1042
+#: /app/apps/files/js/file-upload.js:1094 /app/apps/files/templates/list.php:5
+msgid "Uploading …"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:1044 /app/apps/files/templates/list.php:5
+msgid "…"
+msgstr "..."
+
+#: /app/apps/files/js/file-upload.js:1099
+msgid "{loadedSize} of {totalSize} ({bitrate})"
+msgstr "{loadedSize} iš {totalSize} ({bitrate})"
+
+#: /app/apps/files/js/file-upload.js:1188
+msgid "Target folder does not exist any more"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:1190
+msgid "Error when assembling chunks, status code {status}"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:384
+msgid "Actions"
+msgstr "Veiksmai"
+
+#: /app/apps/files/js/fileactions.js:586 /app/apps/files/templates/list.php:60
+msgid "Download"
+msgstr "Atsisiųsti"
+
+#: /app/apps/files/js/fileactions.js:616
+msgid "Rename"
+msgstr "Pervadinti"
+
+#: /app/apps/files/js/fileactions.js:628 /app/apps/files/templates/list.php:56
+msgid "Move or copy"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:634 /app/apps/files/js/filelist.js:801
+msgid "Target folder"
+msgstr "Paskirties aplankas"
+
+#: /app/apps/files/js/fileactions.js:654 /app/apps/files/templates/list.php:64
+#: /app/apps/files/templates/list.php:75
+#: /app/apps/files/templates/recentlist.php:32
+#: /app/apps/files/templates/simplelist.php:31
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: /app/apps/files/js/fileactions.js:656
+msgid "Disconnect storage"
+msgstr "Atjungti saugyklą"
+
+#: /app/apps/files/js/fileactions.js:658
+msgid "Unshare"
+msgstr "Nebebendrinti"
+
+#: /app/apps/files/js/fileinfomodel.js:115
+msgid "Could not load info for file \"{file}\""
+msgstr "Nepavyko įkelti informacijos failui \"{file}\""
+
+#: /app/apps/files/js/filelist.js:47
+#: /app/apps/files/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Files"
+msgstr "Failai"
+
+#: /app/apps/files/js/filelist.js:407
+msgid "Details"
+msgstr "Informacija"
+
+#: /app/apps/files/js/filelist.js:1238
+msgid "Select"
+msgstr "Pasirinkti"
+
+#: /app/apps/files/js/filelist.js:1332 /app/apps/files/js/filesummary.js:234
+#: /app/apps/files/js/filesummary.js:271
+msgid "Pending"
+msgstr "Laukiantis"
+
+#: /app/apps/files/js/filelist.js:1354
+msgid "Unable to determine date"
+msgstr "Nepavyksta nustatyti datos"
+
+#: /app/apps/files/js/filelist.js:1739
+msgid "This operation is forbidden"
+msgstr "Ši operacija yra uždrausta"
+
+#: /app/apps/files/js/filelist.js:1747
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Katalogas neprieinamas, prašome peržiūrėti žurnalo įrašus arba susisiekti su"
+" administratoriumi"
+
+#: /app/apps/files/js/filelist.js:2087
+msgid "Could not move \"{file}\", target exists"
+msgstr "Nepavyko perkelti \"{file}\", toks jau egzistuoja"
+
+#: /app/apps/files/js/filelist.js:2091
+msgid "Could not move \"{file}\""
+msgstr "Nepavyko perkelti \"{file}\""
+
+#: /app/apps/files/js/filelist.js:2152
+msgid "Could not copy \"{file}\", target exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2156
+msgid "Could not copy \"{file}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2180 /app/apps/files/js/filelist.js:2187
+msgid "Copied {origin} inside {destination}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2194
+msgid "Copied {origin} and {nbfiles} other files inside {destination}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2263 /app/apps/files/js/newfilemenu.js:150
+msgid "{newName} already exists"
+msgstr "{newName} jau yra"
+
+#: /app/apps/files/js/filelist.js:2318
+msgid "Could not rename \"{fileName}\", it does not exist any more"
+msgstr "Nepavyko pervadinti bylos \"{fileName}\", nes tokia byla neegzistuoja"
+
+#: /app/apps/files/js/filelist.js:2327
+msgid ""
+"The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+"Pavadinimas \"{targetName}\" jau naudojamas aplanke \"{dir}\". Prašome "
+"pasirinkti kitokį pavadinimą."
+
+#: /app/apps/files/js/filelist.js:2338
+msgid "Could not rename \"{fileName}\""
+msgstr "Nepavyko pervadinti failo \"{fileName}\""
+
+#: /app/apps/files/js/filelist.js:2423 /app/apps/files/js/filelist.js:2434
+#: /app/apps/files/js/filelist.js:2554
+msgid "Could not create file \"{file}\""
+msgstr "Nepavyko sukurti failo \"{file}\""
+
+#: /app/apps/files/js/filelist.js:2430
+msgid "Could not create file \"{file}\" because it already exists"
+msgstr ""
+"Nepavyko sukurti failo \"{file}\" - failas su tokiu pavadinimu jau "
+"egzistuoja"
+
+#: /app/apps/files/js/filelist.js:2484
+msgid "Could not create folder \"{dir}\" because it already exists"
+msgstr ""
+"Nepavyko sukurti aplanko \"{dir}\"- aplankas su tokiu pavadinimu jau "
+"egzistuoja"
+
+#: /app/apps/files/js/filelist.js:2664
+msgid "Error deleting file \"{fileName}\"."
+msgstr "Klaida trinant failą \"{fileName}\"."
+
+#: /app/apps/files/js/filelist.js:2800
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr ""
+"Kituose aplankuose nėra paieškos rezultatų, skirtų {tag}{filter}{endtag}"
+
+#: /app/apps/files/js/filelist.js:2841
+#: /app/apps/files/js/mainfileinfodetailview.js:188
+#: /app/apps/files/templates/list.php:52
+#: /app/apps/files/templates/recentlist.php:20
+#: /app/apps/files/templates/simplelist.php:22
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: /app/apps/files/js/filelist.js:2842
+#: /app/apps/files/js/mainfileinfodetailview.js:193
+#: /app/apps/files/templates/list.php:70
+#: /app/apps/files/templates/recentlist.php:25
+#: /app/apps/files/templates/simplelist.php:26
+msgid "Size"
+msgstr "Dydis"
+
+#: /app/apps/files/js/filelist.js:2843
+#: /app/apps/files/js/mainfileinfodetailview.js:196
+#: /app/apps/files/templates/list.php:73
+#: /app/apps/files/templates/recentlist.php:29
+#: /app/apps/files/templates/simplelist.php:29
+msgid "Modified"
+msgstr "Pakeista"
+
+#: /app/apps/files/js/filelist.js:2851 /app/apps/files/js/filesummary.js:231
+msgid "%n folder"
+msgid_plural "%n folders"
+msgstr[0] "%n aplankas"
+msgstr[1] "%n aplankai"
+msgstr[2] "%n aplankų"
+
+#: /app/apps/files/js/filelist.js:2852 /app/apps/files/js/filesummary.js:232
+msgid "%n file"
+msgid_plural "%n files"
+msgstr[0] "%n failas"
+msgstr[1] "%n failai"
+msgstr[2] "%n failų"
+
+#: /app/apps/files/js/filelist.js:2859 /app/apps/files/js/filesummary.js:207
+msgid "{dirs} and {files}"
+msgstr "{dirs} ir {files}"
+
+#: /app/apps/files/js/filelist.js:2867 /app/apps/files/js/filesummary.js:233
+msgid "including %n hidden"
+msgid_plural "including %n hidden"
+msgstr[0] "įskaitant %n paslėptą"
+msgstr[1] "įskaitant %n paslėptus"
+msgstr[2] "įskaitant %n paslėptų"
+
+#: /app/apps/files/js/filelist.js:2955 /app/apps/files/templates/list.php:14
+msgid "You don’t have permission to upload or create files here"
+msgstr "Jūs neturite leidimo čia įkelti arba kurti failus"
+
+#: /app/apps/files/js/filelist.js:3052
+msgid "Uploading %n file"
+msgid_plural "Uploading %n files"
+msgstr[0] "Įkeliamas %n failas"
+msgstr[1] "Įkeliami %n failai"
+msgstr[2] "Įkeliama %n failų"
+
+#: /app/apps/files/js/filelist.js:3208
+msgid "New"
+msgstr "Naujas"
+
+#: /app/apps/files/js/files.js:100
+msgid "{used} of {quota} used"
+msgstr ""
+
+#: /app/apps/files/js/files.js:102
+msgid "{used} used"
+msgstr ""
+
+#: /app/apps/files/js/files.js:134
+msgid "\"{name}\" is an invalid file name."
+msgstr "„{name}“ yra netinkamas bylos pavadinimas."
+
+#: /app/apps/files/js/files.js:136
+msgid "File name cannot be empty."
+msgstr "Failo pavadinimas negali būti tuščias."
+
+#: /app/apps/files/js/files.js:138
+msgid "\"/\" is not allowed inside a file name."
+msgstr ""
+
+#: /app/apps/files/js/files.js:140
+msgid "\"{name}\" is not an allowed filetype"
+msgstr "\"{name}\" nėra leidžiamas failo tipas"
+
+#: /app/apps/files/js/files.js:155
+msgid ""
+"Storage of {owner} is full, files can not be updated or synced anymore!"
+msgstr ""
+"{owner} saugykla yra pilna, failai daugiau nebegali būti atnaujinti arba "
+"sinchronizuojami!"
+
+#: /app/apps/files/js/files.js:161
+msgid "Your storage is full, files can not be updated or synced anymore!"
+msgstr ""
+"Jūsų saugykla pilna, failai daugiau nebegali būti atnaujinti arba "
+"sinchronizuojami!"
+
+#: /app/apps/files/js/files.js:168
+msgid "Storage of {owner} is almost full ({usedSpacePercent}%)"
+msgstr "{owner} saugykla yra beveik pilna ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/files.js:179
+msgid "Your storage is almost full ({usedSpacePercent}%)"
+msgstr "Jūsų saugykla yra beveik pilna ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/filesummary.js:258
+msgid "matches '{filter}'"
+msgid_plural "match '{filter}'"
+msgstr[0] "atitinka '{filter}'"
+msgstr[1] "atitinka '{filter}'"
+msgstr[2] "atitinka '{filter}'"
+
+#: /app/apps/files/js/gotoplugin.js:36
+msgid "View in folder"
+msgstr "Peržiūrėti aplanką"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:100
+msgid "Copied!"
+msgstr "Nukopijuota!"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:106
+#: /app/apps/files/js/mainfileinfodetailview.js:204
+msgid ""
+"Copy direct link (only works for users who have access to this file/folder)"
+msgstr ""
+"Nukopijuoti nuorodą (veikia tik tiems naudotojams, kurie turi prieigą prie "
+"šios rinkmenos)"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:190
+msgid "Path"
+msgstr "Kelias"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:195
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n baitas"
+msgstr[1] "%n baitai"
+msgstr[2] "%n baitų"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Favorited"
+msgstr "Pažymėta mėgstamu"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+msgid "Favorite"
+msgstr "Mėgiamas"
+
+#: /app/apps/files/js/newfilemenu.js:68 /app/apps/files/js/newfilemenu.js:69
+msgid "New folder"
+msgstr "Naujas aplankas"
+
+#: /app/apps/files/js/newfilemenu.js:227
+msgid "Upload file"
+msgstr "Įkelti failą"
+
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Not favorited"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:96
+msgid "Remove from favorites"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:103
+msgid "Add to favorites"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:259
+msgid "An error occurred while trying to update the tags"
+msgstr "Bandant atnaujinti žymes įvyko klaida"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:102
+msgid "Added to favorites"
+msgstr "Pridėta prie mėgstamųjų"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:109
+msgid "Removed from favorites"
+msgstr "Pašalinta iš mėgstamųjų"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:132
+msgid "You added {file} to your favorites"
+msgstr "Jūs pridėjote {file} prie mėgstamųjų"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:139
+msgid "You removed {file} from your favorites"
+msgstr "Jūs pašalinote {file} iš mėgstamųjų"
+
+#: /app/apps/files/lib/Activity/Filter/FileChanges.php:61
+msgid "File changes"
+msgstr "Failo pakeitimai"
+
+#: /app/apps/files/lib/Activity/Provider.php:115
+msgid "Created by {user}"
+msgstr "Sukūrė {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:122
+msgid "Changed by {user}"
+msgstr "Pakeitė {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:129
+msgid "Deleted by {user}"
+msgstr "Ištrynė {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:136
+msgid "Restored by {user}"
+msgstr "Atkūrė {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:138
+msgid "Renamed by {user}"
+msgstr "Pervadino {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:145
+msgid "Moved by {user}"
+msgstr "Perkėlė {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:157
+#: /app/apps/files/lib/Activity/Provider.php:262
+msgid "\"remote user\""
+msgstr "\"nuotolinis naudotojas\""
+
+#: /app/apps/files/lib/Activity/Provider.php:176
+msgid "You created {file}"
+msgstr "Jūs sukūrėte {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:183
+msgid "{user} created {file}"
+msgstr "{user} sukūrė {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:190
+msgid "{file} was created in a public folder"
+msgstr "{file} buvo sukurtas viešajame aplanke"
+
+#: /app/apps/files/lib/Activity/Provider.php:197
+msgid "You changed {file}"
+msgstr "Jūs pakeitėte {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:204
+msgid "{user} changed {file}"
+msgstr "{user} pakeitė {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:211
+msgid "You deleted {file}"
+msgstr "Jūs ištrynėte {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:218
+msgid "{user} deleted {file}"
+msgstr "{user} ištrynė {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:225
+msgid "You restored {file}"
+msgstr "Jūs atkūrėte {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:227
+msgid "{user} restored {file}"
+msgstr "{user} atkūrė {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:229
+msgid "You renamed {oldfile} to {newfile}"
+msgstr "Jūs pervadinote {oldfile} į {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:236
+msgid "{user} renamed {oldfile} to {newfile}"
+msgstr "{user} pervadino {oldfile} į {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:243
+msgid "You moved {oldfile} to {newfile}"
+msgstr "Jūs perkėlėte {oldfile} į {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:250
+msgid "{user} moved {oldfile} to {newfile}"
+msgstr "{user} perkėlė {oldfile} į {newfile}"
+
+#: /app/apps/files/lib/Activity/Settings/FavoriteAction.php:55
+msgid ""
+"A file has been added to or removed from your <strong>favorites</strong>"
+msgstr "Failas buvo pridėtas arba pašalintas iš <strong>mėgstamųjų</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileChanged.php:55
+msgid ""
+"A file or folder has been <strong>changed</strong> or "
+"<strong>renamed</strong>"
+msgstr ""
+"Buvo <strong>pakeistas</strong> ar <strong>pervadintas</strong> failas ar "
+"aplankas"
+
+#: /app/apps/files/lib/Activity/Settings/FileCreated.php:55
+msgid "A new file or folder has been <strong>created</strong>"
+msgstr "Buvo <strong>sukurtas</strong> naujas failas ar aplankas"
+
+#: /app/apps/files/lib/Activity/Settings/FileDeleted.php:55
+msgid "A file or folder has been <strong>deleted</strong>"
+msgstr "Duomenys buvo <strong>ištrinti</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileFavorite.php:55
+msgid ""
+"Limit notifications about creation and changes to your <strong>favorite "
+"files</strong> <em>(Stream only)</em>"
+msgstr ""
+"Riboti pranešimus apie sukūrimą ir pokyčius jūsų <strong>mėgiamuose "
+"failuose</strong> <em>(Tik srautas)</em>"
+
+#: /app/apps/files/lib/Activity/Settings/FileRestored.php:55
+msgid "A file or folder has been <strong>restored</strong>"
+msgstr "Duomenys buvo <strong>atstatyti</strong>"
+
+#: /app/apps/files/lib/Controller/ViewController.php:181
+msgid "Unlimited"
+msgstr "Neribotai"
+
+#: /app/apps/files/lib/Helper.php:53
+#, php-format
+msgid "Upload (max. %s)"
+msgstr "Įkelti (maks. %s)"
+
+#: /app/apps/files/templates/admin.php:4
+msgid "File handling"
+msgstr "Failų tvarkymas"
+
+#: /app/apps/files/templates/admin.php:5
+msgid "Maximum upload size"
+msgstr "Maksimalus įkeliamo failo dydis"
+
+#: /app/apps/files/templates/admin.php:10
+msgid "max. possible: "
+msgstr "maks. galima:"
+
+#: /app/apps/files/templates/admin.php:15
+msgid "Save"
+msgstr "Įrašyti"
+
+#: /app/apps/files/templates/admin.php:16
+msgid "With PHP-FPM it might take 5 minutes for changes to be applied."
+msgstr "Su PHP-FPM atnaujinimai gali užtrukti apie 5min."
+
+#: /app/apps/files/templates/admin.php:18
+msgid "Missing permissions to edit from here."
+msgstr "Draudžiama iš čia redaguoti"
+
+#: /app/apps/files/templates/appnavigation.php:21
+#, php-format
+msgid "%s of %s used"
+msgstr "naudojama %s iš %s"
+
+#: /app/apps/files/templates/appnavigation.php:23
+#, php-format
+msgid "%s used"
+msgstr "%s panaudota"
+
+#: /app/apps/files/templates/appnavigation.php:35
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: /app/apps/files/templates/appnavigation.php:41
+msgid "Show hidden files"
+msgstr "Rodyti paslėptus failus"
+
+#: /app/apps/files/templates/appnavigation.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files/templates/appnavigation.php:45
+#, php-format
+msgid ""
+"Use this address to <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">access your Files via WebDAV</a>"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:8
+msgid "Cancel upload"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:31
+msgid "No files in here"
+msgstr "Čia nėra failų"
+
+#: /app/apps/files/templates/list.php:32
+msgid "Upload some content or sync with your devices!"
+msgstr "Įkelkite kokį nors turinį, arba sinchronizuokite su savo įrenginiais!"
+
+#: /app/apps/files/templates/list.php:37
+#: /app/apps/files/templates/recentlist.php:10
+#: /app/apps/files/templates/simplelist.php:13
+msgid "No entries found in this folder"
+msgstr "Nerasta įrašų šiame aplanke"
+
+#: /app/apps/files/templates/list.php:47
+msgid "Select all"
+msgstr "Pažymėti viską"
+
+#: /app/apps/files/templates/list.php:91
+msgid "Upload too large"
+msgstr "Įkėlimui failas per didelis"
+
+#: /app/apps/files/templates/list.php:93
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+"Bandomų įkelti failų dydis viršija maksimalų, šiame serveryje leidžiamų "
+"įkelti failų dydį."
+
+#: /app/apps/files/templates/simplelist.php:5
+msgid "No favorites yet"
+msgstr "Nėra pridėta į \"mėgstamų\" sąrašą"
+
+#: /app/apps/files/templates/simplelist.php:6
+msgid "Files and folders you mark as favorite will show up here"
+msgstr "Failai ir aplankai, kuriuos pažymite mėgstamais, atsiras čia"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:180
+msgid "Shared with you"
+msgstr "Bendrinama su jumis"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:191
+msgid "Shared with others"
+msgstr "Bendrinama su kitais"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:202
+msgid "Shared by link"
+msgstr "Bendrinama nuoroda"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:213
+msgid "Tags"
+msgstr "Žymės"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:224
+msgid "Deleted files"
+msgstr "Ištrinti failai"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:111
+msgid "Text file"
+msgstr "Tekstinis failas"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:112
+msgid "New text file.txt"
+msgstr "Naujas tekstinis failas.txt"

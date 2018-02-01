@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2017\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "ფედერალური გაზიარება"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "გსურთ დაამატოთ {owner}@{remote}-ის დისტანცური გაზიარება {name}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "დისტანციური გაზიარება"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "დისტანციური გაზიარების პაროლი"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "დისტანციური გაზიარების დამატება"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "კოპირება"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "კოპირებულია!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "არაა მხარდაჭერილი!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "კოპირებისთვის დააჭირეთ ⌘-C."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "კოპირებისთვის დააჭირეთ Ctrl-C-ს."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "არასწორი ფედერალური ქლაუდ ID"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "ამ სერვერზე სერვერიდან სერვერზე გაზიარება არაა ჩართული"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "ფედერალური გაზიარება ვერ დამყარდა."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"ფედერალური გაზიარება ვერ დამყარდა, შეისაძლოა პაროლი არ იყოს მართებული."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"ფედერალური გაზიარების მოთხოვნა გაიგზავნა, თქვენ მიიღებთ მოწვევას. შეამოწმეთ "
+"თქვენი შეტყობინებები."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "დამონტაჟების წერტილის სახელი შეიცავს არასწორ სიმბოლოებს."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "მფლობელთან ფედერალური გაზიარების შექმნა არაა ნებადართული."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "არასწორი ან არასანდო SSL სერტიფიკატი"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"დისტანციურ გაზიარებასთან აუტენტიფიკაცია არ მოხერხდა, შესაძლოა პაროლი იყოს "
+"არასწორი"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "საცავი არაა სწორი"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "ფედერალური გაზიარება დაემატა"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "ფედერალური გაზიარება ვერ დაემატა"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+"%s-ს გაზიარება არ მოხერხდა, ეს ობიექტი %s მომხმარებელთან უკვე გაზიარებულია"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "იმავე მომხმარებელთან ფედერალური გაზიარება ვერ შეიქმნება"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "ფაილი უკვე გაზიარებულია მომხმარებელთან %s "
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"%s-ის გაზიარება ვერ მოხერხდა, ვერ ვოპოვეთ %s, ალბათ სერვერი ახლა "
+"მიუწვდომელია ან იყენებს თავის ხელმოწერილ სერტიფიკატს."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "გაზიარება ვერ იქნა ნაპოვნი"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"თქვენ მიიღეთ \"%3$s\" როგორც დისტანციური გაზიარება მომხმარებლისგან %1$s "
+"(სახელით %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"თქვენ მიიღეთ გაზიარება {share} როგორც დისტანციური გაზიარება მომხმარებლისგან "
+"{user} (სახელით {behalf})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "თქვენ მიიღეთ \"%3$s\" როგორც დისტანციური გაზიარება მომხმარებლისგან %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr ""
+"თქვენ მიიღეთ {share} როგორც დისტანციური გაზიარება მომხმარებლისგან {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "მიღება"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "უარყოფა"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"გააზიარეთ ჩემთან ჩემი #Nextcloud-ის ფედერალური ქლაუდ ID-ის მეშვეობით, იხილეთ"
+" %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "გააზიარეთ ჩემთან ჩემი #Nextcloud-ის ფედერალური ქლაუდ ID-ის მეშვეობით"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "გაზიარება"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "ფედერალური ქლაუდ გაზიარება"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "ღია დოკუმენტაცია"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr ""
+"განაგეთ თუ როგორ შეუძლიათ ადამიანებს სერვერებს შორის მოახდინონ გაზიარება."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"დართეთ ნება მომხმარებლებს ამ სერვერზე გააგზავნონ გაზიარებები სხვა "
+"სერვერებთან"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"დართეთ ნება მომხმარებლებს ამ სერვერზე მიიღონ გაზიარებები სხვა სერვერებიდან"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "მოძებნეთ გლობალური და ღია მომხმარებლების მისამართების წიგნები"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"დართეთ ნება მომხმარებლებს გამოაქყვეყნონ მათი მონაცემები გლობალურ და საზოგადო"
+" მისამართების წიგნებში"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "ფედერალური ქლაუდი"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"შეგიძლიათ გაუზიაროთ ნებისმიერ ადამიანს ვინც იყენებს Nextcloud-ს, ownCloud-ს "
+"ან Pydio!-ს უბრალოდ მოათავსეთ მათი ფედერალური ქლაუდ ID-ები გაზიარების "
+"დიალოგში. ის გამოიყურება როგოც person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "თქვენი ფედერალური ქლაუდ ID:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr ""
+"გააზიარეთ, რომ თქვენმა მეგობრებმაც შეძლონ ფაილების გაზიარება თქვენთან:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "საიტზე დამატება"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "გამიზიარე Nextcloud-ის მეშვეობით"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML კოდი:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"მოიძიეთ გლობალური და ღია მისამართების წიგნები მომხმარებლებისთვის და მიეცით "
+"უფლება ლოკალურ მომხმარებლებს გააზიარონ საკუთარი მონაცემები"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "გააზიარე ეს:"

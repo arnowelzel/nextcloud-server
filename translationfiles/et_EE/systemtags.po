@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: J N <jurks666@gmail.com>, 2017\n"
+"Language-Team: Estonian (Estonia) (https://www.transifex.com/nextcloud/teams/64236/et_EE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et_EE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Sildid"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Uuenda"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Loo"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Vali silt..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Sildistatud failid"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Vali sildid, mille järgi filtreerida"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Silte ei leitud"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Palun vali sildid, mille järgi filtreerida"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Valitud siltidega ei leitud ühtegi faili"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "Lisas süsteemi sildi %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "Lisas süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s lisas süsteemi sildi %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} lisas süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Eemaldas süsteemi sildi %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Eemaldas süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s eemaldas süsteemi sildi %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} eemaldas süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Sa lõid süsteemi sildi %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Sa lõid süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s lõi süsteemi sildi %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} lõi süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Sa kustutasid süsteemi sildi %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Sa kustutasid süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s kustutas süsteemi sildi %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} kustutas süsteemi sildi {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Sa uuendasid süsteemi sildi %2$s => %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "Sa uuendasid süsteemi sildi {oldsystemtag} => {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s uuendas süsteemi sildi %3$s => %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "{actor} uuendas süsteemi sildi {oldsystemtag} => {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Sa lisasid süsteemi sildi %2$s => %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Sa lisasid süsteemi sildi {systemtag} failile {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s lisas süsteemi sildi %3$s => %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} lisas süsteemi sildi {systemtag} failile {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Sa eemaldasid süsteemi sildi %2$s - %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Sa eemaldasid süsteemi sildi {systemtag} {file} faililt"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s eemaldas süsteemi sildi %3$s - %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} eemaldas süsteemi sildi {systemtag} {file} faililt"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (piiratud)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (nähtamatu)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "<strong>Süsteemi sildid</strong> sellele failile on muudetud"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "Koostöö sildid"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"Loo ja muuda koostöö silte. Need sildid kohalduvad kõigile kasutajatele."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "Vali silt ..."
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Nimi"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Kustuta"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Avalik"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Piiratud"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "Nähtamatu"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Lähtesta"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Siin ei ole faile"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Selles kaustast ei leitud kirjeid"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Suurus"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Muudetud"

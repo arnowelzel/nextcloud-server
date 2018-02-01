@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Yu-Ming Tseng <trueasa@gmail.com>, 2017\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/nextcloud/teams/64236/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "已加入信任伺服器清單"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "伺服器已經在信任清單內"
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "沒有找到可結盟的伺服器"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "無法加入伺服器"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "信任的伺服器"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"聯盟功能允許您與信任的伺服器連結，交換使用者列表。舉例來說，與其他雲端聯盟的使用者分享檔案時，有了這一份列表，就可以在輸入框搜尋他們的使用者名稱。"
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr "當聯盟分享成功建立的時候自動將伺服器加入信任清單"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ 加入信任的伺服器"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "信任的伺服器"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "新增"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "聯盟"

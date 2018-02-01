@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Morris Jobke <hey@morrisjobke.de>, 2016\n"
+"Language-Team: Slovenian (https://www.transifex.com/nextcloud/teams/64236/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ajax/rollbackVersion.php:40
+#, php-format
+msgid "Could not revert: %s"
+msgstr "Ni mogoče povrniti: %s"
+
+#: js/versionstabview.js:78
+msgid "Versions"
+msgstr "Različice"
+
+#: js/versionstabview.js:136
+msgid "Failed to revert {file} to revision {timestamp}."
+msgstr "Povrnitev datoteke {file} na različico {timestamp} je spodletelo."
+
+#: js/versionstabview.js:220
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n byte"
+msgstr[1] "%n byte-a"
+msgstr[2] "%n byte-i"
+msgstr[3] "%n byte-ov"
+
+#: js/versionstabview.js:225
+msgid "Restore"
+msgstr "Obnovi"
+
+#: js/versionstabview.js:235
+msgid "No earlier versions available"
+msgstr "Ni starejših različic"
+
+#: js/versionstabview.js:236
+msgid "More versions …"
+msgstr "Več različic ..."
+
+#: js/versionstabview.js:232
+msgid "No versions available"
+msgstr "Ni različic na voljo"
+
+#: js/versionstabview.js:233
+msgid "More versions..."
+msgstr "Več različic..."

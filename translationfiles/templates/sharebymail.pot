@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /app/apps/sharebymail/lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:153
+#: /app/apps/sharebymail/lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:167
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:207
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:522
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:360
+msgid "Failed to send share by E-mail"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:382
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:395
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:396
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:399
+msgid "Click the button below to open it."
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:403
+#, php-format
+msgid "Open »%s«"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:412
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:478
+#, php-format
+msgid "%s via %s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:457
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:458
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:459
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:471
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:539
+#, php-format
+msgid "Password to access »%s«"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:473
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:526
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:527
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password "
+"directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:541
+#, php-format
+msgid "This is the password: %s"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:542
+msgid "You can choose a different password at any time in the share dialog."
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:861
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:867
+msgid "Could not find share"
+msgstr ""
+
+#: /app/apps/sharebymail/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/sharebymail/templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr ""
+
+#: /app/apps/sharebymail/templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+
+#: /app/apps/sharebymail/templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr ""
+
+#: /app/apps/sharebymail/templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr ""
+
+#: /app/apps/sharebymail/lib/ShareByMailProvider.php:361
+msgid "Failed to send share by email"
+msgstr ""

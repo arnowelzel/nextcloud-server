@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Toon van Gerwen <translation@vgerwen.nl>, 2017\n"
+"Language-Team: Dutch (https://www.transifex.com/nextcloud/teams/64236/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "Ontbrekende wachtwoord herstelsleutel"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "Herhaal het herstelsleutel wachtwoord"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+"Het herhaalde herstelsleutel wachtwoord kwam niet overeen met het eerdere "
+"herstelsleutel wachtwoord "
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "Herstelsleutel succesvol ingeschakeld"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"Kon herstelsleutel niet activeren. Controleer het wachtwoord van je "
+"herstelsleutel!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "Herstelsleutel succesvol uitgeschakeld"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"Kon herstelsleutel niet deactiveren. Controleer het wachtwoord van je "
+"herstelsleutel!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "Ontbrekende parameters"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "Geef het oude herstelwachtwoord op"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "Geef een nieuw herstelwachtwoord op"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "Herhaal het nieuwe herstelwachtwoord"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "Wachtwoord succesvol gewijzigd."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr ""
+"Kon wachtwoord niet wijzigen. Wellicht oude wachtwoord niet juist ingevoerd."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "Herstelsleutel uitgeschakeld"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "Herstelsleutel ingeschakeld"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+"Kon herstelsleutel niet inschakelen, probeer het opnieuw, of neem contact op"
+" met je beheerder"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "Kon het wachtwoord van de privésleutel niet bijwerken."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "Het oude wachtwoord was onjuist, probeer het opnieuw."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr "Het huidige inlogwachtwoord was niet juist, probeer het opnieuw."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "Privésleutel succesvol bijgewerkt."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"Je moet je cryptosleutels van de oude versleuteling (ownCloud <= 8.0) "
+"migreren naar de nieuwe. Start 'occ encryption:migrate' of neem contact op "
+"met je beheerder"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+"Ongeldige privésleutel voor de crypto app. Werk het privésleutel wachtwoord "
+"bij in je persoonlijke instellingen om opnieuw toegang te krijgen tot je "
+"versleutelde bestanden."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+"Crypto app is ingeschakeld, maar je sleutels werden niet geïnitialiseerd. "
+"Log uit en log daarna opnieuw in."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+"Activeer de server-encryptie in de beheerdersinstellingen om de "
+"encryptiemodule te kunnen gebruiken."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr "Encryptie app is ingeschakeld en gereed"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "Verkeerde handtekening"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "Missende ondertekening"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "eenmalig wachtwoord voor server-side versleuteling"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"Kan dit bestand niet ontcijferen, waarschijnlijk is het een gedeeld bestand,"
+" Vraag de eigenaar om het bestand opnieuw met je te delen."
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"Kan dit bestand niet lezen, waarschijnlijk is het een gedeeld bestand. Vraag"
+" de eigenaar om het bestand opnieuw met je te delen."
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr "Standaard cryptomodule"
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"Hallo daar,\n"
+"\n"
+"de beheerder heeft server-side versleuteling ingeschakeld. Je bestanden werden versleuteld met het wachtwoord '%s'.\n"
+"\n"
+"Login op de webinterface, ga naar 'basis cryptomodule' in je persoonlijke instellingen en pas je cryptowachtwoord aan door dit wachtwoord in het 'oude inlog wachtwoord' veld in te vullen alsmede in je huidige inlogwachtwoord.\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "De share vervalt op %s."
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "Proficiat!"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"Hallo daar,<br><br>de beheerder heeft server-side versleuteling "
+"ingeschakeld. Je bestanden werden versleuteld met het wachtwoord "
+"<strong>%s</strong>.<br><br>Login op de webinterface, ga naar 'basis "
+"cryptomodule' in je persoonlijke instellingen en pas je cryptowachtwoord aan"
+" door dit wachtwoord in het \"oude inlog wachtwoord\" veld in te vullen "
+"alsmede in je huidige inlogwachtwoord.<br><br>"
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+"Crypto app is ingeschakeld, maar je sleutels werden niet geïnitialiseerd. "
+"Log uit en log daarna opnieuw in."
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "Versleutel de eigen serveropslag"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"Het inschakelen van deze optie zorgt voor versleutelen van alle bestanden op"
+" de hoofdopslag, anders worden alleen bestanden op externe opslag "
+"versleuteld"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "Activeer herstelsleutel"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "Deactiveer herstelsleutel"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"De herstelsleutel is een extra cryptografische sleutel die wordt gebruikt om"
+" bestanden te versleutelen. Die maakt het mogelijk bestanden te herstellen "
+"als de gebruiker zijn of haar wachtwoord vergeet."
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "Wachtwoord herstelsleulel"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "Herhaal wachtwoord herstelsleutel"
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "Wijzig wachtwoord herstelsleutel:"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "Oude wachtwoord herstelsleutel"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "Nieuwe wachtwoord herstelsleutel"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "Herhaal nieuwe wachtwoord herstelsleutel"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "Wijzigen wachtwoord"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr "Basis versleutelingsmodule"
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"Het wachtwoord van je privésleutel komt niet meer overeen met je "
+"inlogwachtwoord."
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+"Stel het wachtwoord van je oude privésleutel in op je huidige "
+"inlogwachtwoord."
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+"Als je je oude wachtwoord niet meer weet, kun je de beheerder vragen je "
+"bestanden terug te halen."
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "Oude wachtwoord"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "Huidige wachtwoord"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "Bijwerken wachtwoord Privésleutel"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "Activeren wachtwoord herstel:"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"Het activeren van deze optie maakt het mogelijk om je versleutelde bestanden"
+" te benaderen als je wachtwoord kwijt is"
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "Uitgeschakeld"

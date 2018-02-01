@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Daniele Scasciafratte Mte90 <mte90net@gmail.com>, 2017\n"
+"Language-Team: Italian (https://www.transifex.com/nextcloud/teams/64236/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Condivisa con %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Condivisa con {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "Condivisa con %1$s da %2$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "Condivisa con {email} da {actor}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "Password per la condivisione tramite posta inviata a %1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "Password per la condivisione tramite posta inviata a {email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "Password per la condivisione tramite posta inviata a te"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Hai condiviso %1$s con %2$s tramite posta"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "Hai condiviso {file} con {user} tramite posta"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s ha condiviso %1$s con %2$s tramite email"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} ha condiviso {file} con {email} tramite email"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "La password per accedere a %1$s è stata inviata a %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "La password per accedere a {file} ti è stata inviata a {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "La password per accedere a %1$s ti è stata inviata"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "La password per accedere a {file} ti è stata inviata"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "Condivisione %s non riuscita, questo elemento è già condiviso con %s"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"Non possiamo inviarti la password generata automaticamente. Imposta un "
+"indirizzo di posta valido nelle impostazioni personali e prova ancora."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Invio non riuscito della condivisione tramite email"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s ha condiviso »%s« con te"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s ha condiviso «%s» con te."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Fai clic sul pulsante sotto per aprirlo."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Apri «%s»"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s tramite %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s ha condiviso «%s» con te.\n"
+"Dovresti aver ricevuto un messaggio separato con un collegamento per accedervi.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s ha condiviso «%s» con te. Dovresti aver ricevuto un messaggio separato "
+"con un collegamento per accedervi."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "Password per accedere a «%s» condivisa con te da %s"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Password per accedere a «%s»"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "È protetta con la password seguente: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Hai appena condiviso «%s» con %s. La condivisione è stata già inviata al "
+"destinatario. A causa dei criteri di sicurezza definiti dall'amministratore "
+"di %s, ogni condivisione deve essere protetta da password e non è consentito"
+" l'invio diretto della password al destinatario. Perciò, devi inoltrare "
+"manualmente la password al destinatario."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Password per accedere a «%s» condivisa con %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Questa è la password: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr ""
+"Puoi scegliere una password diversa in qualsiasi momento nella finestra di "
+"condivisione."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Non è stato possibile trovare la condivisione"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Condividi tramite email"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Consente agli utenti di condividere un collegamento personalizzato a un file"
+" o a una cartella inserendo un indirizzo di posta elettronica."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Invia password tramite posta"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Imponi la protezione con password"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Invio non riuscito della condivisione tramite email"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s ha condiviso «%s» con te per conto di %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Creazione dell'email non riuscita"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Ciao,\n"
+"\n"
+"%s ha condiviso «%s» con te per conto di %s.\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Ciao,\n"
+"\n"
+"%s ha condiviso «%s» con te.\n"
+"\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Saluti!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Ciao, <br><br>%s ha condiviso <a href=\"%s\">%s</a> con te per conto di "
+"%s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "Ciao, <br><br>%s ha condiviso <a href=\"%s\">%s</a> con te.<br><br>"

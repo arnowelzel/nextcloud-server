@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Branko Kokanovic <branko@kokanovic.org>, 2017\n"
+"Language-Team: Serbian (https://www.transifex.com/nextcloud/teams/64236/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: js/admin.js:47
+msgid "Could not start updater, please try the manual update"
+msgstr "Не могу да покренем програм за ажурирање, покушајте ручно ажурирање"
+
+#: js/notification.js:17
+msgid "{version} is available. Get more information on how to update."
+msgstr "Верзија {version} је доступна. Сазнајте како да ажурирате."
+
+#: lib/AppInfo/Application.php:80
+msgid "Update notifications"
+msgstr "Обавештења о ажурирању"
+
+#: lib/Controller/AdminController.php:83
+msgid "Channel updated"
+msgstr "Канал ажуриран"
+
+#: lib/Notification/Notifier.php:102
+#, php-format
+msgid ""
+"The update server could not be reached since %d days to check for new "
+"updates."
+msgstr ""
+"Сервер за ажурирања није доступан пошто је прошло %d дана од последње "
+"провере ажурирања."
+
+#: lib/Notification/Notifier.php:103
+msgid "Please check the Nextcloud and server log files for errors."
+msgstr "Проверите логове од сервера и од Некстклауда за грешке."
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid "Update to %1$s is available."
+msgstr "Доступно је ажурирање на %1$s. "
+
+#: lib/Notification/Notifier.php:121
+#, php-format
+msgid "Update for %1$s to version %2$s is available."
+msgstr "Доступно је ажурирање апликације %1$s на верзију %2$s."
+
+#: lib/Notification/Notifier.php:122
+#, php-format
+msgid "Update for {app} to version %s is available."
+msgstr "Доступно је ажурирање апликације {app} на верзију %s."
+
+#: templates/admin.php:27
+#, php-format
+msgid "A new version is available: %s"
+msgstr "Доступна је нова верзија: %s"
+
+#: templates/admin.php:29
+msgid "Open updater"
+msgstr "Отвори програм за ажурирање"
+
+#: templates/admin.php:32
+msgid "Download now"
+msgstr "Скини сада"
+
+#: templates/admin.php:35
+msgid "The update check is not yet finished. Please refresh the page."
+msgstr "Провера за новим верзијама још није готова. Освежите страну."
+
+#: templates/admin.php:37
+msgid "Your version is up to date."
+msgstr "Ваша верзија је ажурна."
+
+#: templates/admin.php:38
+#, php-format
+msgid "Checked on %s"
+msgstr "Проверено %s"
+
+#: templates/admin.php:44
+msgid "A non-default update server is in use to be checked for updates:"
+msgstr ""
+"Неподразумевани сервер за ажурирање је коришћен да провери нове верзије:"
+
+#: templates/admin.php:51
+msgid "Update channel:"
+msgstr "Канал за ажурирање:"
+
+#: templates/admin.php:61
+msgid ""
+"You can always update to a newer version / experimental channel. But you can"
+" never downgrade to a more stable channel."
+msgstr ""
+"Увек можете да надоградите на новију верзију/експериментални канал. Али не "
+"можете се вратити на стабилни канал."
+
+#: templates/admin.php:62
+msgid ""
+"Note that after a new release it can take some time before it shows up here."
+" We roll out new versions spread out over time to our users and sometimes "
+"skip a version when issues are found."
+msgstr ""
+"После издавања нове верзије, може да прође неко време пре него што се "
+"верзија појави овде. Ми избацујемо нове верзије постепено и можемо некад да "
+"прескочимо верзију ако наиђемо на проблеме."
+
+#: templates/admin.php:67
+msgid "Notify members of the following groups about available updates:"
+msgstr "Обавести чланове следећих група о доступности нових верзија:"
+
+#: templates/admin.php:70
+msgid "Only notification for app updates are available."
+msgstr "Доступна су само обавештења о новим верзијама апликација."
+
+#: templates/admin.php:71
+msgid ""
+"The selected update channel makes dedicated notifications for the server "
+"obsolete."
+msgstr ""
+"Уз означени канал за ажурирање нема смисла да имате обавештења о новим "
+"верзијама."
+
+#: templates/admin.php:72
+msgid "The selected update channel does not support updates of the server."
+msgstr "Означени канал за ажурирање не подржава обавештења о новим верзијама."

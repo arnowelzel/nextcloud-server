@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Branko Kokanovic <branko@kokanovic.org>, 2017\n"
+"Language-Team: Serbian (https://www.transifex.com/nextcloud/teams/64236/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Подељено са %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Подељено са {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "%2$s поделио са %1$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "{actor} поделио са {email}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "Лозинка за дељење е-поштом послата на %1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "Лозинка за дељење е-поштом послата на {email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "Лозинка за дељење е-поштом послата Вама"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Поделили сте %1$s са %2$s е-поштом"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "Поделили сте {file} са {email} е-поштом"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s је поделио %1$s са %2$s е-поштом"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} је поделио {file} са {email} е-поштом"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "Лозинка за приступ %1$s је послата на %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "Лозинка за приступ {file} је послата на {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "Лозинка за приступ %1$sВам је послата"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "Лозинка за приступ  {file} Вам је послата "
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "Дељење %s није успело, ова ставка је већ подељена са %s"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"Не можемо Вам послати ауто-генерисану лозинку. Подесите исправну адресу "
+"е-поште у личним поставкама и покушајте поново."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Грешка у слању дељења е-поштом"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s је поделио »%s« са Вама"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s је поделио »%s« са Вама."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Кликните на дугме испод да га отворите."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Отвори »%s«"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s преко %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s је поделио »%s« са Вама.\n"
+"Треба да сте до сад добили посебни мејл са везом како да му приступите.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s је поделио »%s« са Вама. Треба да сте до сад добили посебни мејл са везом"
+" како да му приступите."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "%s Вам је поделио лозинку за приступ »%s«"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Лозинка за приступ »%s«"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Заштићена је следећом лозинком: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Управо сте поделили »%s« са корисником %s. Дељење је већ послато примаоцу. "
+"Због безбедоносне политике коју је дефинисао администратор инстанце %s , "
+"свако дељење мора бити заштићено лозинком и није дозвољено да пошаљете "
+"лозинку директно кориснику. Због тога морате ручно послати лозинку примаоцу."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Лозинка за приступ »%s« подељена са корисником %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Ово је лозинка: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr ""
+"Можете да одаберете другу лозинку кад год желите у дијалогу за дељење."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Не могу да пронађем дељење"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Подели е-поштом"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Дозвољава корисницима да поделе персонализовану везу до фајла или фасцикле "
+"преко е-поште."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Пошаљи лозинку е-поштом"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Захтевај заштиту лозинком"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Грешка у слању дељења е-поштом"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s је поделио »%s« са Вама у име корисника %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Грешка при креирању е-поште"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Поздрав,\n"
+"\n"
+"%s је поделио »%s« са Вама у име корисника %s.\n"
+"\n"
+"%s\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Поздрав,\n"
+"\n"
+"%s је поделио »%s« са Вама.\n"
+"\n"
+"%s\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Здраво!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Поздрав, <br><br>%s је поделио <a href=\"%s\">%s</a> са Вама у име корисника"
+" %s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "Поздрав,<br><br>%sје поделио <a href=\"%s\">%s</a>са Вама.<br><br>"

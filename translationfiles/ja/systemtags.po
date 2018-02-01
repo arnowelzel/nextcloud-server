@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: YANO Tetsu <tetuyano+transi@gmail.com>, 2016\n"
+"Language-Team: Japanese (Japan) (https://www.transifex.com/nextcloud/teams/64236/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "タグ"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "更新"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "作成"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "タグを選択..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "タグ済ファイル"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "フィルターするタグを選択してください"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "タグが見つかりません"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "フィルターするタグを入力してください"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "そのタグに割りあてられているファイルはありません"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "%1$s システムタグを追加しました"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "システムタグ {systemtag} を追加しました"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s が %2$s タグを追加しました"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} がシステムタグ {systemtag} を追加しました"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "システムタグ %1$s を削除しました"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "システムタグ {systemtag} を削除しました"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s がシステムタグ %2$s を削除しました"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} がシステムタグ {systemtag} を削除しました"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "システムタグ %1$s を作成しました"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "システムタグ {systemtag} を追加しました"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s が %2$s タグを作成 "
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} がシステムタグ {systemtag} を作成しました"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "システムタグ %1$s を削除しました"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "システムタグ {systemtag} を削除しました"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s が %2$s タグを削除"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} がシステムタグ {systemtag} を削除しました"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "システムタグを %2$s から %1$s に更新しました"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "システムタグを {oldsystemtag} から {newsystemtag} に更新しました"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s が タグを %3$s から %2$s に更新"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "{actor} がシステムタグを {oldsystemtag} から {newsystemtag} に更新しました"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "%1$s にシステムタグ %2$s を追加しました"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "{file} にシステムタグ {systemtag} を追加"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s はシステムタグ %3$s を %2$s に追加しました"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} が {file} にシステムタグ {systemtag} を追加しました"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "%1$s から システムタグ %2$sを削除しました"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "{file} から システムタグ {systemtag} を削除"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s は %2$s からシステムタグ %3$s を削除しました"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} が {file} からシステムタグ {systemtag} を削除しました"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (制限)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (不可視)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "ファイルの<strong>タグ</strong>が変更されたとき"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "コラボタグ"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr "共同作業タグを削除編集する。このタグは全てのユーザーに影響します"
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "タグを選択..."
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "名前"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "削除"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "公開"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "制限付き"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "不可視"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "リセット"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "ファイルがありません"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "このフォルダーにはエントリーがありません"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "サイズ"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "更新日時"

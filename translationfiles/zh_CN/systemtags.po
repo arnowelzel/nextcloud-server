@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fei li <20240224@qq.com>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/nextcloud/teams/64236/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "标签"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "更新"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "创建"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "选择标签..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "标签文件"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "选择标签来筛选"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "标签未找到"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "请选择标签来筛选"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "该标签下没有任何文件"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "已添加的系统标签 %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "已添加系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s 已添加的系统标签 %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} 已添加的系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "已移除的系统标签 %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "已移除的系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s 删除了系统标签 %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} 删除了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "您创建了系统标签 %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "您创建了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s 创建了系统标签 %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} 创建了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "您删除了系统标签 %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "您删除了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s 删除了系统标签 %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} 删除了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "您已经将系统标签 %2$s 更新为 %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "您已经将系统标签 {oldsystemtag} 更新为 {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s 已经将系统标签 %3$s 更新为 %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "{actor} 已经将系统标签 {oldsystemtag} 更新为 {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "您为 %1$s 填加了系统标签 %2$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "您为 {file} 添加了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s 为 %2$s 添加了系统标签 %3$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} 为 {file} 添加了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "您从 %1$s 移除了系统标签 %2$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "您从 {file} 移除了系统标签 {systemtag}."
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s 从 %2$s 移除了系统标签 %3$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} 从 {file} 中移除了系统标签 {systemtag}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (受限)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (不可见)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "已更改的文件的<strong>系统标签</strong> "
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "协同标签"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr "创建并编辑协同标签. 这些标签影响全部用户."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "选择标签..."
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "名称"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "删除"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "公开"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "受限"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "不可见"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "重置"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "无文件"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "此文件夹中无项目"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "大小"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "修改日期"

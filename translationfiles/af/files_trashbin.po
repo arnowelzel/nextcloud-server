@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Gideon Wentink <gjwentink@gmail.com>, 2017\n"
+"Language-Team: Afrikaans (https://www.transifex.com/nextcloud/teams/64236/af/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: af\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files_trashbin/ajax/delete.php:85
+#, php-format
+msgid "Couldn't delete %s permanently"
+msgstr "Kon nie %s permanent skrap nie"
+
+#: /app/apps/files_trashbin/ajax/undelete.php:90
+#, php-format
+msgid "Couldn't restore %s"
+msgstr "Kon nie %s herstel nie"
+
+#: /app/apps/files_trashbin/appinfo/app.php:38
+#: /app/apps/files_trashbin/js/filelist.js:44
+#: /app/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Deleted files"
+msgstr "Geskrapte lêers"
+
+#: /app/apps/files_trashbin/js/app.js:49
+#: /app/apps/files_trashbin/templates/index.php:36
+msgid "Restore"
+msgstr "Herstel"
+
+#: /app/apps/files_trashbin/js/app.js:71
+#: /app/apps/files_trashbin/templates/index.php:40
+#: /app/apps/files_trashbin/templates/index.php:49
+msgid "Delete"
+msgstr "Skrap"
+
+#: /app/apps/files_trashbin/js/app.js:77 /app/apps/files_trashbin/js/app.js:78
+msgid "Delete permanently"
+msgstr "Skrap permanent"
+
+#: /app/apps/files_trashbin/js/filelist.js:145
+#: /app/apps/files_trashbin/js/filelist.js:190
+#: /app/apps/files_trashbin/js/filelist.js:240
+msgid "Error"
+msgstr "Fout"
+
+#: /app/apps/files_trashbin/js/filelist.js:338
+msgid "This operation is forbidden"
+msgstr "Hierdie operasie is verbode"
+
+#: /app/apps/files_trashbin/js/filelist.js:346
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Hierdie gids is onbeskikbaar, gaan die logs na of kontak die administrateur"
+
+#: /app/apps/files_trashbin/lib/Trashbin.php:908
+#: /app/apps/files_trashbin/lib/Trashbin.php:910
+msgid "restored"
+msgstr "herstel"
+
+#: /app/apps/files_trashbin/templates/index.php:9
+msgid "No deleted files"
+msgstr "Geen geskrapte lêers"
+
+#: /app/apps/files_trashbin/templates/index.php:10
+msgid "You will be able to recover deleted files from here"
+msgstr "U sal geskrapte lêers van hier kan herstel"
+
+#: /app/apps/files_trashbin/templates/index.php:17
+msgid "No entries found in this folder"
+msgstr "Geen inskrwyings in hierdie vouer gevind"
+
+#: /app/apps/files_trashbin/templates/index.php:27
+msgid "Select all"
+msgstr "Kies alle"
+
+#: /app/apps/files_trashbin/templates/index.php:32
+msgid "Name"
+msgstr "Naam"
+
+#: /app/apps/files_trashbin/templates/index.php:46
+msgid "Deleted"
+msgstr "Geskrap"

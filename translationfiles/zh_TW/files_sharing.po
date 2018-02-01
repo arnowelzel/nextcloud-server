@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Yu-Ming Tseng <trueasa@gmail.com>, 2017\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/nextcloud/teams/64236/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /app/apps/files_sharing/appinfo/app.php:59
+#: /app/apps/files_sharing/js/app.js:42
+msgid "Shared with you"
+msgstr "與您分享"
+
+#: /app/apps/files_sharing/appinfo/app.php:71
+#: /app/apps/files_sharing/js/app.js:65
+msgid "Shared with others"
+msgstr "與其他人分享"
+
+#: /app/apps/files_sharing/appinfo/app.php:84
+#: /app/apps/files_sharing/js/app.js:88
+msgid "Shared by link"
+msgstr "由連結分享"
+
+#: /app/apps/files_sharing/js/app.js:44
+msgid "Nothing shared with you yet"
+msgstr "目前沒有任何與您分享的內容"
+
+#: /app/apps/files_sharing/js/app.js:45
+msgid "Files and folders others share with you will show up here"
+msgstr "與您分享的檔案與資料夾將會顯示在這裡"
+
+#: /app/apps/files_sharing/js/app.js:67
+msgid "Nothing shared yet"
+msgstr "目前沒有分享內容"
+
+#: /app/apps/files_sharing/js/app.js:68
+msgid "Files and folders you share will show up here"
+msgstr "您分享的檔案與資料夾將會顯示在這裡"
+
+#: /app/apps/files_sharing/js/app.js:90
+msgid "No shared links"
+msgstr "沒有已分享的連結"
+
+#: /app/apps/files_sharing/js/app.js:91
+msgid "Files and folders you share by link will show up here"
+msgstr "您分享的檔案與資料夾連結將會顯示在這裡"
+
+#: /app/apps/files_sharing/js/public.js:228
+msgid "You can upload into this folder"
+msgstr "你可以上傳內容到此資料夾"
+
+#: /app/apps/files_sharing/js/public.js:349
+msgid "No compatible server found at {remote}"
+msgstr "沒有在 {remote} 找到相容的伺服器"
+
+#: /app/apps/files_sharing/js/public.js:350
+msgid "Invalid server URL"
+msgstr "無效的伺服器 URL"
+
+#: /app/apps/files_sharing/js/public.js:404
+msgid "Failed to add the public link to your Nextcloud"
+msgstr "無法將公開連結加入您的 Nextcloud"
+
+#: /app/apps/files_sharing/js/share.js:152
+msgid "Share"
+msgstr "分享"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:102
+msgid "No expiration date set"
+msgstr "未指定到期日"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:231
+msgid "Shared by"
+msgstr "分享自"
+
+#: /app/apps/files_sharing/js/sharetabview.js:35
+msgid "Sharing"
+msgstr "分享"
+
+#: /app/apps/files_sharing/lib/Activity/Filter.php:59
+msgid "File shares"
+msgstr "檔案分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:48
+msgid "Downloaded via public link"
+msgstr "透過公用連結下載"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:51
+msgid "Downloaded by {email}"
+msgstr "{email} 已下載"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:77
+msgid "{file} downloaded via public link"
+msgstr "{file} 已透過公用連結下載"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:80
+msgid "{email} downloaded {file}"
+msgstr "{email} 已下載 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:45
+msgid "Shared with group {group}"
+msgstr "與群組 {group} 分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:47
+msgid "Removed share for group {group}"
+msgstr "移除與群組 {group} 分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:49
+msgid "{actor} shared with group {group}"
+msgstr "{actor} 分享給群組 {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:51
+msgid "{actor} removed share for group {group}"
+msgstr "{actor} 移除了與群組 {group} 的分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:76
+msgid "You shared {file} with group {group}"
+msgstr "你分享了 {file} 給群組 {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:78
+msgid "You removed group {group} from {file}"
+msgstr "你將群組 {group} 從 {file} 移除"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:80
+msgid "{actor} shared {file} with group {group}"
+msgstr "{actor} 分享 {file} 給群組 {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:82
+msgid "{actor} removed group {group} from {file}"
+msgstr "{actor} 將群組 {group} 從 {file} 移除"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:47
+msgid "Shared as public link"
+msgstr "藉由公用連結分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:49
+msgid "Removed public link"
+msgstr "刪除公開連結"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:51
+msgid "Public link expired"
+msgstr "公開連結已過期"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:53
+msgid "{actor} shared as public link"
+msgstr "{actor} 透過公開連結分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:55
+msgid "{actor} removed public link"
+msgstr "{actor} 移除公開連結分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:57
+msgid "Public link of {actor} expired"
+msgstr "{actor} 的公開連結過期了"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:83
+msgid "You shared {file} as public link"
+msgstr "你藉由公用連結分享了 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:85
+msgid "You removed public link for {file}"
+msgstr "您刪除了 {file} 的公開分享連結"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:87
+msgid "Public link expired for {file}"
+msgstr "{file} 的公開連結已過期"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:89
+msgid "{actor} shared {file} as public link"
+msgstr "{actor} 透過公開連結分享 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:91
+msgid "{actor} removed public link for {file}"
+msgstr "{actor} 移除 {file} 的公開連結分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:93
+msgid "Public link of {actor} for {file} expired"
+msgstr "{actor} 公開分享 {file} 的連結過期了"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:70
+msgid "{user} accepted the remote share"
+msgstr "{user} 接受了遠端分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:72
+msgid "{user} declined the remote share"
+msgstr "{user} 拒絕了遠端分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:97
+msgid "You received a new remote share {file} from {user}"
+msgstr "您收到了一個遠端分享 {file} 來自於 {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:99
+msgid "{user} accepted the remote share of {file}"
+msgstr "{user} 接受了檔案 {file} 的遠端分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:101
+msgid "{user} declined the remote share of {file}"
+msgstr "{user} 拒絕了檔案 {file} 的遠端分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:103
+msgid "{user} unshared {file} from you"
+msgstr "{user} 取消與你分享檔案 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:49
+msgid "Shared with {user}"
+msgstr "與 {user} 分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:51
+msgid "Removed share for {user}"
+msgstr "移除對 {user} 的分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:53
+msgid "{actor} shared with {user}"
+msgstr "{actor} 分享給 {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:55
+msgid "{actor} removed share for {user}"
+msgstr "{actor} 移除了對 {user} 的分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:57
+msgid "Shared by {actor}"
+msgstr "由 {actor} 分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:59
+msgid "{actor} removed share"
+msgstr "{actor} 移除了分享"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:85
+msgid "You shared {file} with {user}"
+msgstr "你與 {user} 分享了 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:87
+msgid "You removed {user} from {file}"
+msgstr "你將 {user} 從 {file} 移除"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:89
+msgid "{actor} shared {file} with {user}"
+msgstr "{actor} 分享了 {file} 給 {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:91
+msgid "{actor} removed {user} from {file}"
+msgstr "{actor} 移除 {user} 從 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:93
+msgid "{actor} shared {file} with you"
+msgstr "{actor} 與你分享了 {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:95
+msgid "{actor} removed you from {file}"
+msgstr "{actor} 將你從 {file} 移除"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/PublicLinks.php:55
+msgid ""
+"A file or folder shared by mail or by public link was "
+"<strong>downloaded</strong>"
+msgstr "email或公開連結分享的檔案與資料夾已被 <strong>下載</strong>"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/RemoteShare.php:56
+msgid "A file or folder was shared from <strong>another server</strong>"
+msgstr "檔案或目錄已被 <strong>其他伺服器</strong> 分享"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/Shared.php:56
+msgid "A file or folder has been <strong>shared</strong>"
+msgstr "檔案或目錄已被 <strong>分享</strong>"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:248
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:260
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:276
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:681
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:687
+msgid "Wrong share ID, share doesn't exist"
+msgstr "錯誤的分享 ID ，分享不存在"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:282
+msgid "could not delete share"
+msgstr "無法刪除分享"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:286
+msgid "Could not delete share"
+msgstr "無法刪除分享"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:332
+msgid "Please specify a file or folder path"
+msgstr "請指定檔案或資料夾路徑"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:339
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:598
+msgid "Wrong path, file/folder doesn't exist"
+msgstr "錯誤的路徑，該檔案或資料夾不存在"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:347
+msgid "Could not create share"
+msgstr "無法建立分享"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:351
+msgid "invalid permissions"
+msgstr "無效的權限"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:375
+msgid "Please specify a valid user"
+msgstr "請選擇一個有效的使用者"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:381
+msgid "Group sharing is disabled by the administrator"
+msgstr "群組分享已被管理員停用"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:386
+msgid "Please specify a valid group"
+msgstr "請指定一個有效的群組"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:393
+msgid "Public link sharing is disabled by the administrator"
+msgstr "公開連結分享已被管理員停用"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:408
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:730
+msgid "Public upload disabled by the administrator"
+msgstr "公開上傳已被管理員停用"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:413
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:734
+msgid "Public upload is only possible for publicly shared folders"
+msgstr "只有公開分享的資料夾可以接受公開上傳"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:437
+msgid "Invalid date, date format must be YYYY-MM-DD"
+msgstr "無效的日期，需為 YYYY-MM-DD 格式"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:443
+#, php-format
+msgid ""
+"Sharing %s failed because the back end does not allow shares from type %s"
+msgstr "分享 %s 失敗，因為後端不允許來自 %s 類型的分享"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:461
+msgid "You cannot share to a Circle if the app is not enabled"
+msgstr "當應用未被啟用，你無法分享到circle。"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:468
+msgid "Please specify a valid circle"
+msgstr "請指定一個有效的circle"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:473
+msgid "Unknown share type"
+msgstr "未知的分享類型"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:535
+msgid "Not a directory"
+msgstr "這不是一個資料夾"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:600
+msgid "Could not lock path"
+msgstr "無法鎖定路徑"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:691
+msgid "Wrong or no update parameter given"
+msgstr "更新參數不正確或未提供"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:720
+msgid "Can't change permissions for public share links"
+msgstr "無法由公開分享的連結變更權限"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:803
+msgid "Cannot increase permissions"
+msgstr "無法增加權限"
+
+#: /app/apps/files_sharing/lib/Middleware/OCSShareAPIMiddleware.php:56
+msgid "Share API is disabled"
+msgstr "分享 API 已停用"
+
+#: /app/apps/files_sharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "File sharing"
+msgstr ""
+
+#: /app/apps/files_sharing/templates/authenticate.php:11
+msgid "This share is password-protected"
+msgstr "這個分享有密碼保護"
+
+#: /app/apps/files_sharing/templates/authenticate.php:14
+msgid "The password is wrong. Try again."
+msgstr "請檢查您的密碼並再試一次"
+
+#: /app/apps/files_sharing/templates/authenticate.php:17
+#: /app/apps/files_sharing/templates/authenticate.php:20
+msgid "Password"
+msgstr "密碼"
+
+#: /app/apps/files_sharing/templates/list.php:10
+msgid "No entries found in this folder"
+msgstr "在此資料夾中沒有任何項目"
+
+#: /app/apps/files_sharing/templates/list.php:18
+msgid "Name"
+msgstr "名稱"
+
+#: /app/apps/files_sharing/templates/list.php:22
+msgid "Share time"
+msgstr "分享時間"
+
+#: /app/apps/files_sharing/templates/list.php:25
+msgid "Expiration date"
+msgstr "到期日"
+
+#: /app/apps/files_sharing/templates/part.404.php:3
+msgid "Sorry, this link doesn’t seem to work anymore."
+msgstr "抱歉，此連結已經失效"
+
+#: /app/apps/files_sharing/templates/part.404.php:4
+msgid "Reasons might be:"
+msgstr "可能的原因："
+
+#: /app/apps/files_sharing/templates/part.404.php:6
+msgid "the item was removed"
+msgstr "項目已經移除"
+
+#: /app/apps/files_sharing/templates/part.404.php:7
+msgid "the link expired"
+msgstr "連結過期"
+
+#: /app/apps/files_sharing/templates/part.404.php:8
+msgid "sharing is disabled"
+msgstr "分享功能已停用"
+
+#: /app/apps/files_sharing/templates/part.404.php:10
+msgid "For more info, please ask the person who sent this link."
+msgstr "請詢問告訴您此連結的人以瞭解更多"
+
+#: /app/apps/files_sharing/templates/public.php:46
+#, php-format
+msgid "shared by %s"
+msgstr "分享自 %s"
+
+#: /app/apps/files_sharing/templates/public.php:53
+#: /app/apps/files_sharing/templates/public.php:59
+msgid "Download"
+msgstr "下載"
+
+#: /app/apps/files_sharing/templates/public.php:65
+msgid "Direct link"
+msgstr "直接連結"
+
+#: /app/apps/files_sharing/templates/public.php:74
+msgid "Add to your Nextcloud"
+msgstr "加入到您的 Nextcloud"
+
+#: /app/apps/files_sharing/templates/public.php:108
+#, php-format
+msgid "Download %s"
+msgstr "下載 %s"
+
+#: /app/apps/files_sharing/templates/public.php:120
+#, php-format
+msgid "Upload files to %s"
+msgstr "上傳檔案到 %s"
+
+#: /app/apps/files_sharing/templates/public.php:127
+msgid "Select or drop files"
+msgstr "選擇或拖曳檔案至此"
+
+#: /app/apps/files_sharing/templates/public.php:128
+msgid "Uploading files…"
+msgstr "上傳檔案中…"
+
+#: /app/apps/files_sharing/templates/public.php:129
+msgid "Uploaded files:"
+msgstr "已上傳的檔案："

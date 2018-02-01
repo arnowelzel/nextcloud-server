@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Javier Llamas <s_llamasj@globalhitss.com>, 2016\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/nextcloud/teams/64236/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Salvo"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "A gravação falhou:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Tipo de arquivo MIME"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "é"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "não é"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "coincide"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "não coincide"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Examplo: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Tamanho do arquivo (envio)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "menos"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "menores ou iguais"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "maiores ou iguais"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "maior"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Etiqueta do sistema de arquivos"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "está etiquetado com"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "não está etiquetado com"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Selecionar etiqueta..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Solicitar endereço remoto"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "IPv4 coincide"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "IPV4 não coincide"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "IPV6 coincide"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "IPV6 não coincide"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Tempo de solicitação"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "entre"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "não entre"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Iniciar"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Fim"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Selecionar fuso horário..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Solicitação de URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "URLs predefinidas"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Arquivos WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Solicitar usuário agente"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Sincronizar clientes"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Cliente Android"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "Cliente iOS"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Cliente de Desktop"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Adesão de grupo de usuário"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "é membro de"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "não é membro de"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "O operador fornecido é inválido"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "A expressão regular fornecida é inválida"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "O tamanho fornecido do arquivo é inválido"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "O id da etiqueta fornecida é inválido"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "O intervalo de IP fornecido é inválido"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "O intervalo de IP fornecido é inválido para IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "O range de IP fornecido é inválido para IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "O intervalo de tempo fornecido é inválido"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "O horário de início fornecido é inválido"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "O horário de término fornecido é inválido"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "O grupo fornecido não existe"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Verifique se %s é valido ou existe"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Operação #%s não existe"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Operação %s não existe"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Operação %s é inválida"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Verifique se %s não existe"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Verifique se %s é inválido"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Verifique se %s não existe"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Fluxo de trabalho"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Abrir documentação"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Adicionar regra do grupo"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Descrição curta da regra"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Adicionar regra"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Redefinir"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Salvar"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Salvando..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Carregando..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Salvo"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Tipo de arquivo mime"

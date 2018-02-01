@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"Language-Team: Turkish (https://www.transifex.com/nextcloud/teams/64236/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Kaydedildi"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Kaydedilemedi:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Dosya MIME türü"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "şu olan"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "şu olmayan"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "şuna uyan"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "şuna uymayan"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Örnek: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Dosya boyutu (yükleme)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "şundan küçük"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "şundan küçük ya da eşit"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "şundan büyük ya da eşit"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "şundan büyük"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Dosya sistemi etiketi"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "şununla etiketlenmiş"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "şununla etiketlenmemiş"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Etiketi seçin..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Uzak adres isteği"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "şu IPv4 adresine uyan"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "şu IPv4 adresine uymayan"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "şu IPv6 adresine uyan"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "şu IPv6 adresine uymayan"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "İstek zamanı"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "şunların arasında olan"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "şunların arasında olmayan"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Başlangıç"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Bitiş"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Saat dilimini seçin..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "İstek Adresi"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Hazır Adresler"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Dosya WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Kullanıcı yazılımı istensin"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "İstemciler eşitlensin"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android istemcisi"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS istemcisi"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Masaüstü istemcisi"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Kullanıcı grubu üyeliği"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "şunun üyesi olan"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "şunun üyesi olmayan"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Belirtilen işlem geçersiz"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Belirtilen kurallı ifade geçersiz"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Belirtilen dosya boyutu geçersiz"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Belirtilen etiket kodu geçersiz"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Belirtilen IP adresi aralığı geçersiz"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Belirtilen IP adresi aralığı IPv4 için geçersiz"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Belirtilen IP adresi aralığı IPv6 için geçersiz"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Belirtilen zaman aralığı geçersiz"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Belirtilen başlangıç zamanı geçersiz"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Belirtilen bitiş zamanı geçersiz"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Belirtilen grup bulunamadı"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "%s denetimi geçersiz ya da bulunamadı"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "#%s işlemi bulunamadı"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "%s işlemi bulunamadı"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "%s işlemi geçersiz"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "%s denetimi bulunamadı"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "%s denetimi geçersiz"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "#%s denetimi bulunamadı"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "İş akışı"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Belgeleri aç"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Kural grubu ekle"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Kısa kural açıklaması"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Kural ekle"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Kaydet"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Kaydediliyor..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Yükleniyor..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Kaydedildi"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Dosya MIME türü"

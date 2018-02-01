@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: enolp <enolp@softastur.org>, 2016\n"
+"Language-Team: Asturian (https://www.transifex.com/nextcloud/teams/64236/ast/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:52 js/commentstabview.js:144 lib/Activity/Filter.php:57
+msgid "Comments"
+msgstr "Comentarios"
+
+#: js/commentstabview.js:116
+msgid "New comment …"
+msgstr "Comentariu nuevu..."
+
+#: js/commentstabview.js:117
+msgid "Delete comment"
+msgstr "Desaniciar comentariu"
+
+#: js/commentstabview.js:118
+msgid "Post"
+msgstr "Espublizar"
+
+#: js/commentstabview.js:119
+msgid "Cancel"
+msgstr "Encaboxar"
+
+#: js/commentstabview.js:129
+msgid "Edit comment"
+msgstr "Editar comentariu"
+
+#: js/commentstabview.js:137
+msgid "[Deleted user]"
+msgstr "[Usuariu desaniciáu]"
+
+#: js/commentstabview.js:166
+msgid "No comments yet, start the conversation!"
+msgstr "Entá nun hai comentarios. ¡Entama una conversación!"
+
+#: js/commentstabview.js:167
+msgid "More comments …"
+msgstr "Más comentarios..."
+
+#: js/commentstabview.js:486
+msgid "Save"
+msgstr "Guardar"
+
+#: js/commentstabview.js:526
+msgid "Allowed characters {count} of {max}"
+msgstr "{count} caráuteres almitíos de {max}"
+
+#: js/commentstabview.js:589
+msgid "Error occurred while retrieving comment with id {id}"
+msgstr "Asocedió un fallu entrín se recibía'l comentariu cola ID {id}"
+
+#: js/commentstabview.js:711
+msgid "Error occurred while updating comment with id {id}"
+msgstr "Asocedió un fallu entrín s'anovaba'l comentariu cola ID {id}"
+
+#: js/commentstabview.js:713
+msgid "Error occurred while posting comment"
+msgstr "Asocedieron fallos entrín s'espublizaba'l comentariu"
+
+#: js/filesplugin.js:47
+msgid "%n unread comment"
+msgid_plural "%n unread comments"
+msgstr[0] "%n comentariu ensin lleer"
+msgstr[1] "%n comentarios ensin lleer"
+
+#: js/filesplugin.js:90
+msgid "Comment"
+msgstr "Comentariu"
+
+#: lib/Activity/Provider.php:122 lib/Activity/Provider.php:123
+msgid "You commented"
+msgstr "Comentesti"
+
+#: lib/Activity/Provider.php:126
+#, php-format
+msgid "%1$s commented"
+msgstr "%1$s comentó"
+
+#: lib/Activity/Provider.php:127
+msgid "{author} commented"
+msgstr "{author} comentó"
+
+#: lib/Activity/Provider.php:148
+#, php-format
+msgid "You commented on %1$s"
+msgstr "Comentesti en %1$s"
+
+#: lib/Activity/Provider.php:151
+msgid "You commented on {file}"
+msgstr "Comentesti en {file}"
+
+#: lib/Activity/Provider.php:156
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr "%1$s comentó en %2$s"
+
+#: lib/Activity/Provider.php:160
+msgid "{author} commented on {file}"
+msgstr "{autor} comentó en {ficheru}"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>Comments</strong> for files"
+msgstr "<strong>Comentarios</strong> pa ficheros"
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid ""
+"You were mentioned on “%s”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:112
+msgid ""
+"You were mentioned on “{file}”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:125
+#, php-format
+msgid "%1$s mentioned you in a comment on “%2$s”"
+msgstr "%1$s mentóte nun comentariu de «%2$s»"
+
+#: lib/Notification/Notifier.php:129
+msgid "{user} mentioned you in a comment on “{file}”"
+msgstr "{user} mentóte nun comentariu de «{file}»"
+
+#: appinfo/app.php:71
+msgid "Unknown user"
+msgstr "Usuariu desconocíu"
+
+#: lib/Notification/Notifier.php:104
+#, php-format
+msgid "A (now) deleted user mentioned you in a comment on “%s”"
+msgstr "Un usuariu (agora) desaniciáu mentóte nun comentariu de «%s»"
+
+#: lib/Notification/Notifier.php:108
+msgid "A (now) deleted user mentioned you in a comment on “{file}”"
+msgstr "Un usuariu (agora) desaniciáu mentóte nun comentariu de «{file}»"

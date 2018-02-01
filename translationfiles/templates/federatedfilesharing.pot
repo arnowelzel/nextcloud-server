@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /app/apps/federatedfilesharing/appinfo/app.php:38
+msgid "Federated sharing"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/external.js:30
+#: /app/apps/federatedfilesharing/js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/external.js:33
+#: /app/apps/federatedfilesharing/js/external.js:46
+msgid "Remote share"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/external.js:52
+msgid "Remote share password"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/external.js:63
+msgid "Cancel"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/external.js:64
+msgid "Add remote share"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/settings-personal.js:26
+#: /app/apps/federatedfilesharing/js/settings-personal.js:39
+#: /app/apps/federatedfilesharing/js/settings-personal.js:61
+msgid "Copy"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/settings-personal.js:33
+msgid "Copied!"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/settings-personal.js:47
+msgid "Not supported!"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/AddressHandler.php:74
+msgid "Invalid Federated Cloud ID"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:185
+msgid "Server to server sharing is not enabled on this server"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:206
+msgid "Couldn't establish a federated share."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:208
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:217
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:245
+msgid "The mountpoint name contains invalid characters."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:250
+msgid "Not allowed to create a federated share with the owner."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:272
+msgid "Invalid or untrusted SSL certificate"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:290
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:298
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:316
+msgid "Storage not valid"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:306
+msgid "Federated share added"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:323
+#: /app/apps/federatedfilesharing/lib/Controller/MountPublicLinkController.php:332
+msgid "Couldn't add remote share"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/FederatedShareProvider.php:163
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/FederatedShareProvider.php:175
+msgid "Not allowed to create a federated share with the same user"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/FederatedShareProvider.php:208
+#, php-format
+msgid "File is already shared with %s"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/FederatedShareProvider.php:270
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/FederatedShareProvider.php:800
+#: /app/apps/federatedfilesharing/lib/FederatedShareProvider.php:806
+msgid "Could not find share"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Notifier.php:84
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Notifier.php:87
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Notifier.php:100
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Notifier.php:103
+msgid "You received {share} as a remote share from {user}"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Notifier.php:120
+msgid "Accept"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Notifier.php:127
+msgid "Decline"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/settings-personal.php:63
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/settings-personal.php:64
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Federated file sharing"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:35
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like person@cloud."
+"example.com"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:23
+msgid "Share it so your friends can share files with you:"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:41
+msgid "Add to your website"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:50
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:58
+msgid "Share with me via Nextcloud"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-personal.php:55
+msgid "HTML Code:"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr ""
+
+#: /app/apps/federatedfilesharing/templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr ""

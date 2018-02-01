@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Henri Pero <henri@henripero.com>, 2016\n"
+"Language-Team: Finnish (Finland) (https://www.transifex.com/nextcloud/teams/64236/fi_FI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "Lisätty luotettujen palvelimien luetteloon"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "Palvelin on jo luotettujen palvelimien luettelossa."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Palvelinta, johon liittyä, ei löytynyt"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "Palvelimen lisääminen ei onnistunut"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "Luotetut palvelimet"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"Federointi sallii sinun liittyä toisten luotettujen palvelimien "
+"käyttäjäluetteloihin. Sitä käytetään esimerkiksi ulkoisten käyttäjänimien "
+"automaattiseen täydentämiseen."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr ""
+"Lisää palvelin automaattisesti, kun federoitu jako on luotu onnistuneesti"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ Lisää luotettu palvelin"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "Luotettu palvelin"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "Lisää"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "Federaatio"

@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Martynas Stakė <martynas.stake@gmail.com>, 2017\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/nextcloud/teams/64236/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: appinfo/app.php:52 js/commentstabview.js:144 lib/Activity/Filter.php:57
+msgid "Comments"
+msgstr "Komentarai"
+
+#: js/commentstabview.js:116
+msgid "New comment …"
+msgstr "Naujas komentaras …"
+
+#: js/commentstabview.js:117
+msgid "Delete comment"
+msgstr "Ištrinti komentarą"
+
+#: js/commentstabview.js:118
+msgid "Post"
+msgstr "Įrašas"
+
+#: js/commentstabview.js:119
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: js/commentstabview.js:129
+msgid "Edit comment"
+msgstr "Redaguoti komentarą"
+
+#: js/commentstabview.js:137
+msgid "[Deleted user]"
+msgstr "[Ištrintas naudotojas]"
+
+#: js/commentstabview.js:166
+msgid "No comments yet, start the conversation!"
+msgstr "Kol kas komentarų nėra, pradėkite pokalbį!"
+
+#: js/commentstabview.js:167
+msgid "More comments …"
+msgstr "Daugiau komentarų …"
+
+#: js/commentstabview.js:486
+msgid "Save"
+msgstr "Įrašyti"
+
+#: js/commentstabview.js:526
+msgid "Allowed characters {count} of {max}"
+msgstr "Leidžiama simbolių {count} iš {max}"
+
+#: js/commentstabview.js:589
+msgid "Error occurred while retrieving comment with id {id}"
+msgstr "Klaida bandant parodyti komentarą pagal identifikavimo numerį {id}"
+
+#: js/commentstabview.js:711
+msgid "Error occurred while updating comment with id {id}"
+msgstr "Klaida bandant pataisyti komentarą pagal identifikavimo numerį {id}"
+
+#: js/commentstabview.js:713
+msgid "Error occurred while posting comment"
+msgstr "Skelbiant komentarą, įvyko klaida"
+
+#: js/filesplugin.js:47
+msgid "%n unread comment"
+msgid_plural "%n unread comments"
+msgstr[0] "%n neskaitytas komentaras"
+msgstr[1] "%n neskaityti komentarai"
+msgstr[2] "%n neskaitytų komentarų"
+
+#: js/filesplugin.js:90
+msgid "Comment"
+msgstr "Komentaras"
+
+#: lib/Activity/Provider.php:122 lib/Activity/Provider.php:123
+msgid "You commented"
+msgstr "Jūs pakomentavote"
+
+#: lib/Activity/Provider.php:126
+#, php-format
+msgid "%1$s commented"
+msgstr "%1$s pakomentavo"
+
+#: lib/Activity/Provider.php:127
+msgid "{author} commented"
+msgstr "{author} pakomentavo"
+
+#: lib/Activity/Provider.php:148
+#, php-format
+msgid "You commented on %1$s"
+msgstr "Pakomentavote %1$s"
+
+#: lib/Activity/Provider.php:151
+msgid "You commented on {file}"
+msgstr "Pakomentavote {file}"
+
+#: lib/Activity/Provider.php:156
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr "%1$s pakomentavo %2$s"
+
+#: lib/Activity/Provider.php:160
+msgid "{author} commented on {file}"
+msgstr "{author} pakomentavo {file}"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>Comments</strong> for files"
+msgstr "<strong>Failų komentarai</strong>"
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid ""
+"You were mentioned on “%s”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:112
+msgid ""
+"You were mentioned on “{file}”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:125
+#, php-format
+msgid "%1$s mentioned you in a comment on “%2$s”"
+msgstr "%1$s paminėjo jus komentare \"%2$s\""
+
+#: lib/Notification/Notifier.php:129
+msgid "{user} mentioned you in a comment on “{file}”"
+msgstr "{user} paminėjo jus komentare “{file}”"
+
+#: appinfo/app.php:71
+msgid "Unknown user"
+msgstr "Nežinomas naudotojas"
+
+#: lib/Notification/Notifier.php:104
+#, php-format
+msgid "A (now) deleted user mentioned you in a comment on “%s”"
+msgstr "Ištrintas vartotojas paminėjo jus komentare \"%s\""
+
+#: lib/Notification/Notifier.php:108
+msgid "A (now) deleted user mentioned you in a comment on “{file}”"
+msgstr "Ištrintas vartotojas paminėjo jus komentare \"{file}\""

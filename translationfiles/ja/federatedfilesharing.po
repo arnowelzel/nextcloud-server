@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Morris Jobke <hey@morrisjobke.de>, 2016\n"
+"Language-Team: Japanese (Japan) (https://www.transifex.com/nextcloud/teams/64236/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "連携共有"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "{owner}@{remote} からのリモート共有 {name} を追加してもよろしいですか？"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "リモート共有"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "リモート共有のパスワード"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "リモート共有を追加"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "コピー"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "コピーされました！"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "サポートされていません！"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "⌘+Cを押してコピーします。"
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Ctrl+Cを押してコピーします。"
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "無効なクラウド共有ID"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "このサーバーでは、サーバー間の共有が有効ではありません"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "クラウド共有を接続できませんでした。"
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr "クラウド共有を接続できませんでした。パスワードが間違っていませんか。"
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr "クラウド共有リクエストが送信されました。招待が受信できます。通知を確認してください。"
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "マウントポイント名 に不正な文字列が含まれています。"
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "その所有者でクラウド共有を作成することは出来ません"
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "無効または信頼できないSSL証明書"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr "リモート共有が認証できませんでした，パスワードが間違っているかもしれません"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "ストレージが無効です"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "クラウド共有が追加されました"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "リモート共有を追加できませんでした"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "%s を共有できませんでした。このアイテムはすでに %s に共有されています。"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "同じユーザーでクラウド共有を作成することは出来ません"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "ファイルは既に %s と共有されています。"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr "%s を共有できませんでした。%s が見つかりませんでした。現在サーバーに接続できないか、自己証明書を使っています。"
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "共有が見つかりませんでした"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "%1$s からリモート共有として \"%3$s\" を受け取りました。(%2$s の代理として)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr "{user} からリモート共有として {share} を受け取りました。({behalf} の代理として)"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "%1$s からリモート共有として \"%3$s\" を受け取りました。"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "{user} から {file} のリモート共有が届いています"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "承諾"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "拒否《はてなキーワード》"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "#Nextcloud の「クラウド共有ID」で私と共有できます。こちらを見てください。%s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "#Nextcloud の「クラウド共有ID」で私と共有できます。"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "共有中"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "統合されたクラウド共有"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "ドキュメントを開く"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "サーバー間でどうやって共有するかを調整する"
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "ユーザーがこのサーバーから他のサーバーに共有することを許可する"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr "ユーザーが他のサーバーからこのサーバーに共有することを許可する"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "グローバルまたはユーザーの公開アドレス帳を検索する"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr "グローバルアドレス帳のグローバルな公開をユーザーに許可します"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "クラウド共有"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Nextcloud 、ownCloud、Pydio "
+"を使う人とは誰とでも共有できます。クラウド連携IDを共有ダイアログに入力するだけです。例：person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "あなたのクラウド共有ID："
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "友達がファイルをあなたと共有できるように、これを共有しましょう:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "ウェブサイトに追加"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Nextcloud 経由で共有"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTMLコード:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr "グローバルまたはユーザーの公開アドレス帳を検索し、ローカルユーザーのデータを公開する"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "共有先:"

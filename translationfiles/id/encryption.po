@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Mohamad Hasan Al Banna <se7entime@openmailbox.org>, 2017\n"
+"Language-Team: Indonesian (https://www.transifex.com/nextcloud/teams/64236/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "Kata sandi kunci pemuliahan tidak ada"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "Silakan ulangi kata sandi kunci pemulihan"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+"Kata sandi kunci pemulihan yang diulangi tidak cocok dengan kata sandi kunci"
+" pemulihan yang diberikan"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "Kunci pemulihan berhasil diaktifkan"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"Tidak dapat mengaktifkan kunci pemulihan. Silakan periksa kata sandi kunci "
+"pemulihan Anda!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "Kunci pemulihan berhasil dinonaktifkan"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"Tidak dapat menonaktifkan kunci pemulihan. Silakan periksa kata sandi kunci "
+"pemulihan Anda!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "Parameter salah"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "Mohon berikan kata sandi pemulihan lama"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "Mohon berikan kata sandi pemulihan baru"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "Silakan ulangi sandi pemulihan baru"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "Kata sandi berhasil diubah"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr ""
+"Tidak dapat mengubah kata sandi. Kemungkinan kata sandi lama yang dimasukkan"
+" salah."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "Kunci Pemulihan dinonaktifkan"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "Kunci Pemulihan diaktifkan"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+"Tidak dapat mengaktifkan kunci pemulihan, silakan coba lagi atau hubungi "
+"administrator Anda"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "Tidak dapat memperbarui kata sandi kunci private."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "Kata sandi lama salah, mohon coba lagi."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr "Kata sandi masuk saat ini salah, mohon coba lagi."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "Sandi kunci privat berhasil diperbarui."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"Anda perlu mengganti kunci enkripsi Anda dari enkripsi lama (ownCloud <= "
+"8.0) ke yang baru. Mohon jalankan 'occ encryption:migrate' atau hubungi "
+"administrator Anda"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+"Kunci privat tidak sah untuk aplikasi enkripsi. Silakan perbarui kata sandi "
+"kunci privat anda pada pengaturan pribadi untuk memulihkan akses ke berkas "
+"anda yang dienkripsi."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+"Apl Enkripsi telah aktif, tapi kunci anda tidak diinisialisasikan. Harap "
+"keluar-log dan masuk-log kembali."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr "Apl enkripsi aktif dan siap"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "Tanda salah"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "Tanda hilang"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "Kata sandi sekali pakai untuk server-side-encryption"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"Tidak dapat mendekripsi berkas ini, mungkin ini adalah berkas bersama. "
+"Silakan meminta pemilik berkas ini untuk membagikan kembali dengan Anda."
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"Tidak dapat membaca berkas ini, kemungkinan merupakan berkas berbagi. "
+"Silakan minta pemilik berkas untuk membagikan ulang kepada Anda."
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr "Modul bawaan enkripsi"
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"Hai,\n"
+"\n"
+"admin mengaktifkan server-side-encryption. Berkas-berkas Anda dienkripsi menggunakan kata sandi '%s'.\n"
+"\n"
+"Silakan masuk di antarmuka web, pergi ke bagian 'modul enkripsi dasar' pada pengaturan pribadi Anda dan perbarui kata sandi enkripsi Anda dengan memasukkan kata sandi ini kedalam kolom 'kata sandi masuk yang lama' dan kata sandi-masuk saat ini.\n"
+"\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "Pembagian akan berakhir pada %s."
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "Horee!"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"Hai,<br><br>admin mengaktifkan server-side-encryption. Berkas-berkas Anda "
+"dienkripsi menggunakan kata sandi <strong>%s</strong>.<br><br>Silakan masuk "
+"di antarmuka web, pergi ke bagian 'modul enkripsi dasar' pada pengaturan "
+"pribadi Anda dan perbarui kata sandi enkripsi Anda dengan memasukkan kata "
+"sandi ini kedalam kolom 'kata sandi masuk yang lama' dan kata sandi masuk "
+"yang baru.<br><br>"
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+"Aplikasi enkripsi telah diaktifkan tetapi kunci tidak terinisialisasi, "
+"silakan log-out dan log-in lagi"
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "Enkripsi penyimpanan rumah"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"Mengaktifkan opsi ini akan mengenkripsi semua berkas yang disimpan pada "
+"penyimpanan utama, jika tidak diaktifkan maka hanya berkas pada penyimpanan "
+"eksternal saja yang akan dienkripsi."
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "Aktifkan kunci pemulihan"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "Nonaktifkan kunci pemulihan"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"Kunci pemulihan adalah kunci enkripsi tambahan yang digunakan untuk "
+"mengenkripsi berkas. Kunci pemulihan memungkinkan untuk memulihkan berkas-"
+"berkas pengguna ketika pengguna tersebut melupakan kata sandi mereka."
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "Kata sandi kunci pemulihan"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "Ulangi kata sandi kunci pemulihan"
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "Ubah kata sandi kunci pemulihan:"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "Kata sandi kunci pemulihan lama"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "Kata sandi kunci pemulihan baru"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "Ulangi sandi kunci pemulihan baru"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "Ubah Sandi"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr "Modul enkripsi dasar"
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"Kata sandi kunci private Anda tidak lagi cocok dengan kata sandi masuk Anda."
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+"Setel kata sandi kunci private Anda untuk kata sandi masuk Anda saat ini:"
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+"Jika Anda tidak ingat kata sandi lama, Anda dapat meminta administrator Anda"
+" untuk memulihkan berkas."
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "Kata sandi masuk yang lama"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "Kata sandi masuk saat ini"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "Perbarui Kata Sandi Kunci Private"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "Aktifkan kata sandi pemulihan:"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"Mengaktifkan opsi ini memungkinkan Anda untuk mendapatkan kembali akses ke "
+"berkas terenkripsi Anda dalam kasus kehilangan kata sandi"
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "Diaktifkan"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "Dinonaktifkan"

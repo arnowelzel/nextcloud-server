@@ -1,0 +1,1045 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jiří Vírava <appukonrad@gmail.com>, 2017\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/nextcloud/teams/64236/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Selhalo zrušení mapování."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Selhalo smazání nastavení serveru"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Neplatná konfigurace: Anonymní navázání není povoleno."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Nastavení je v pořádku a spojení bylo navázáno."
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Konfigurace je v pořádku, ale spojení selhalo. Zkontrolujte prosím nastavení"
+" serveru a přihlašovací údaje."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr "Konfigurace je neplatná. Pro bližší informace se podívejte do logu."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Neurčena žádná akce"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Neurčena žádná konfigurace"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Neurčena žádná data"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "Nelze nastavit konfiguraci %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "Tato akce neexistuje"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "Backend pro LDAP uživatele a skupiny"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Obnovování …"
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Velmi slabé heslo"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Slabé heslo"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Přijatelné heslo"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Dobré heslo"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Silné heslo"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Base DN nevypadá být v pořádku"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Testování konfigurace..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Nesprávná konfigurace"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Nekompletní konfigurace"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Konfigurace v pořádku"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Vyberte skupiny"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Vyberte objektové třídy"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Ověřte své přihlašovací údaje, zdají se být neplatné."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Uveďte prosím port, nelze ho automaticky detekovat."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"Base DN nelze automaticky detekovat, ověřte prosím přihlašovací údaje, host "
+"a port."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "Nelze automaticky detekovat Base DN, zadejte prosím ručně."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Server"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "V zadané Base DN nebyl objekt nalezen. Ověřte."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Je dostupných více než 1000 adresářů."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "záznamů dostupných v zadané Base DN"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Došlo k chybě. Ověře prosím Base DN společně s nastavením připojení a "
+"přihlašovacími údaji."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Opravdu si přejete smazat současné nastavení serveru?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Potvrdit smazání"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Mapování úspěšně vyčištěno!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Chyba při čištění mapování."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr "Anonymní bind není povolen. Zadejte prosím User DN a Heslo."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "Chyba LDAP operace. Anonymní bind nejspíše není povolen."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Ukládání selhalo. Ujistěte se, že databáze funguje. Načtěte znovu, než "
+"budete pokračovat."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Přepnutí módu povolí automatické LDAP dotazy. V závislosti na velikosti "
+"vašeho LDAP může vyhledávání chvíli trvat. Opravdu si přejete přepnout mód?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Přepnutí módu"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Vyberte atributy"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Uživatel nenalezen. Zkontrolujte prosím své přihlašovací údaje a jméno. "
+"Použitý filtr (pro zkopírování a ověření v příkazovém řádku): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Uživatel nalezen a nastavení ověřeno."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Zvažte zúžení vyhledávání, protože současné zahrnuje mnoho uživatelů, ze "
+"kterých se bude schopen přihlásit pouze první."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr ""
+"Došlo k nespecifikované chybě. Zkontrolujte prosím nastavení a soubor logu."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Filtr vyhledávání je neplatný, pravděpodobně z důvodu chybné syntax jako "
+"třeba neuzavřené závorky. Ověřte to."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"Došlo k chybě připojení k LDAP / AD, zkontrolujte prosím host, port a "
+"přihlašovací údaje."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"Zástupný symbol \"%uid\" chybí. Při dotatzu na LDAP / AD bude nahrazen "
+"přihlašovacím jménem."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Zadejte prosím přihlašovací jméno pro otestování"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"Skupinové pole bylo vypnuto, protože LDAP / AD server nepodporuje memberOf."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Změna hesla zamítnuta. Nápověda: "
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Prosím, přihlaste se pomocí nového hesla"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Vaše heslo zítra vyprší."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Vaše heslo dnes vyprší."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "Vaše heslo vyprší za %n den."
+msgstr[1] "Vaše heslo vyprší za %n dny."
+msgstr[2] "Vaše heslo vyprší za %n dní."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD propojení"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "nalezena %s skupina"
+msgstr[1] "nalezeny %s skupiny"
+msgstr[2] "nalezeno %s skupin"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "nalezen %s uživatel"
+msgstr[1] "nalezeni %s uživatelé"
+msgstr[2] "nalezeno %s uživatelů"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Nelze detekovat atribut pro zobrazení jména uživatele. Upřesněte ho prosím "
+"sami v rozšířeném nastavení LDAP."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "Nelze nalézt požadovanou vlastnost"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Neplatný hostitel"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Vyzkoušet nastavení"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Nápověda"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "Skupiny splňující tyto podmínky jsou k dispozici v %s:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Pouze tyto třídy objektů:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Pouze z těchto skupin:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Prohledat skupiny"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Dostupné skupiny"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Vybrané skupiny"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "Upravit LDAP požadavek"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP filtr:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "Filtr určuje, kteří uživatelé LDAP mají mít přístup k instanci %s."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Ověřit nastavení a spočítat skupiny"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr ""
+"Při přihlašování, %s bude hledat uživatele na základě následujících "
+"atributů:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP / AD uživatelské jméno:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"Dovoluje přihlášení pomocí LDAP / AD uživatelského jména, což je \"uid\" "
+"nebo \"sAMAccountName\", což bude detekováno."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP / AD emailová adresa:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+"Povoluje přihlášení pomocí e-mailového atributu. Je povolen \"mail\" a "
+"\"mailPrimaryAddress\" allowed."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Další atributy:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"Definuje filtr použitý při pokusu o přihlášení. %%uid je nahrazeno "
+"uživatelským jménem z přihlašovací akce. Příklad: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Testovací přihlašovací jméno"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Ověřit nastavení"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Server"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. Server:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Přidat novou konfiguraci"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Zkopírovat současnou konfiguraci do nového adresářového propojení"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Smazat současnou konfiguraci"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Počítač"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"Pokud nevyžadujete SSL, můžete protokol vynechat. Pokud ano, začněte "
+"ldaps://"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Port"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Detekovat port"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "Uživatelské DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"DN klientského uživatele, ke kterému tvoříte vazbu, např. "
+"uid=agent,dc=example,dc=com. Pro anonymní přístup ponechte DN a heslo "
+"prázdné."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Heslo"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Pro anonymní přístup ponechte údaje DN and heslo prázdné."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "Uložit pověření"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Jedna základní DN na řádku"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"V rozšířeném nastavení můžete určit základní DN pro uživatele a skupiny"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Detekovat Base DN"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Test Base DN"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Zabraňuje automatickým LDAP požadavkům. Výhodné pro objemná nastavení, ale "
+"vyžaduje znalosti o LDAP."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "Ručně vložit LDAP filtry (doporučeno pro obsáhlé adresáře)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "Získávání a vyhledávání uživatelů je omezeno následujícími kritérii:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"Nejčastější třídy objektů pro uživatele jsou organizationalPerson, person, "
+"user a inetOrgPerson. Pokud si nejste jisti které třídy objektů zvolit, "
+"obraťte se na svého adresářového správce."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr "Filtr určuje, kteří uživatelé LDAP mají mít přístup k instanci %s."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Ověřit nastavení a spočítat uživatele"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Ukládá se"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Zpět"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Prosím, obnovte vaše heslo."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Došlo k interní chybě."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Zkuste to znovu, nebo kontaktujte vašeho administrátora."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Aktuální heslo"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Žádné heslo"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Obnovit heslo"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Chybné heslo. Resetovat?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Chybné heslo."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Server"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Uživatelé"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Přihlašovací atributy"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Skupiny"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Expertní"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Varování:</b> není nainstalován LDAP modul pro PHP, podpůrná vrstva "
+"nebude fungovat. Požádejte prosím správce systému, aby jej nainstaloval."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Nastavení spojení"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Nastavení aktivní"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Pokud není zaškrtnuto, bude toto nastavení přeskočeno."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Záložní (kopie) hostitel"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Zadejte volitelného záložního hostitele. Musí to být kopie hlavního serveru "
+"LDAP/AD."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Záložní (kopie) port"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Zakázat hlavní server"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Připojit jen k záložnímu serveru."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Vypnout ověřování SSL certifikátu."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Nedoporučuje se, určeno pouze k testovacímu použití. Pokud spojení funguje "
+"jen s touto volbou, importujte SSL certifikát vašeho LDAP serveru na server "
+"%s."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "TTL vyrovnávací paměti"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "v sekundách. Změna vyprázdní vyrovnávací paměť."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Nastavení adresáře"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Pole zobrazovaného jména uživatele"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr "LDAP atribut použitý k vytvoření zobrazovaného jména uživatele."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "Druhé pole zobrazovaného jména uživatele"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"Volitelné. Přidání LDAP atributu v závorkách k zobrazovanému jménu. Vypadá "
+"např. jako »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "Základní uživatelský strom"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "Jedna uživatelská základní DN na řádku"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Atributy vyhledávání uživatelů"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Volitelné, jeden atribut na řádku"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Pole zobrazovaného jména skupiny"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr "LDAP atribut použitý k vytvoření zobrazovaného jména skupiny."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "Základní skupinový strom"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "Jedna skupinová základní DN na řádku"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Atributy vyhledávání skupin"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Asociace člena skupiny"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "URL člena dynamické skupiny"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"LDAP atribut, který obsahuje pro skupinu objektů vyhledávací LDAP URL, která"
+" určuje které objekty patří do skupiny. (Prázdné nastavení vypne funkci "
+"člena dynamické skupiny.)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Vnořené skupiny"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"Pokud zapnuto, je možno používat skupiny, které obsahují jiné skupiny. "
+"(Funguje pouze pokud atribut člena skupiny obsahuje DN.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "Velikost bloku stránkování"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"Velikost bloku použitá pro stránkování vyhledávání v LDAP, které může vracet"
+" objemné výsledky jako třeba výčet uživatelů či skupin. (Nastavení na 0 "
+"zakáže stránkovaná vyhledávání pro tyto situace.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Povolit změny LDAP hesla pro každého uživatele"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"Povolit LDAP uživatelům změnu jejich hesla a povolit Super Administrátorům a"
+" skupinovým Administrátorům změnu hesel jejich LDAP uživatelů. Funguje "
+"pouze, pokud jsou na LDAP serveru příslušně nakonfigurovány seznamy řízení "
+"přístupu. Protože hesla jsou LDAP serveru zasílána v čisté podobě, musí být "
+"použito šifrování při transportu a na LDAP serveru by mělo být "
+"nakonfigurováno hashování hesel."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Nové heslo je LDAPu zasláno jako prostý text)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "DN výchozí politiky hesel"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"DN výchozí politiky hesel, která bude použita ke zpracování vypršení hesel. "
+"Funguje pouze pokud jsou povoleny změny hesla uživatelem a používá se "
+"OpenLDAP. Ponechte prázdné pro výchozí zpracování vypršení hesel."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Speciální atributy"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Pole pro kvótu"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Ponechte prázné pro výchozí uživatelskou kvótu. Jinak uveďte LDAP / AD "
+"atribut."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Výchozí kvóta"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"Přepsat výchozí kvótu pro LDAP uživatele, kteří nemají kvótu nastavenou v "
+"poli kvóty."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "Pole emailu"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Nastavit e-mail uživatele na základě LDAP atributu. Ponechte prázdné pro "
+"výchozí chování."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Pravidlo pojmenování domovského adresáře uživatele"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Ponechte prázdné pro uživatelské jméno (výchozí). Jinak uveďte LDAP/AD "
+"parametr."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Interní uživatelské jméno"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"Ve výchozím nastavení bude interní uživatelské jméno vytvořeno z atributu "
+"UUID. To zajišťuje, že je uživatelské jméno unikátní a znaky nemusí být "
+"převáděny. Interní uživatelské jméno má omezení, podle kterého jsou povoleny"
+" jen následující znaky [ a-zA-Z0-9_.@- ]. Ostatní znaky jsou nahrazeny "
+"jejich protějšky z ASCII nebo prostě vynechány. Při konfliktech bude "
+"přidáno/zvýšeno číslo. Interní uživatelské jméno slouží pro interní "
+"identifikaci uživatele. Je také výchozím názvem domovského adresáře "
+"uživatele. Je také součástí URL, např. pro služby *DAV. Tímto nastavením "
+"může být výchozí chování změněno. Ponechte jej prázdné, chcete-li zachovat "
+"výchozí nastavení. Změny se projeví pouze u nově namapovaných (přidaných) "
+"uživatelů LDAP."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "Atribut interního uživatelského jména:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Nastavit ručně UUID atribut"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"Ve výchozím nastavení je UUID atribut nalezen automaticky. UUID atribut je "
+"používán pro nezpochybnitelnou identifikaci uživatelů a skupin z LDAP. Navíc"
+" je na základě UUID tvořeno také interní uživatelské jméno, pokud není "
+"nastaveno jinak. Můžete výchozí nastavení přepsat a použít atribut, který "
+"sami zvolíte. Musíte se ale ujistit, že atribut, který vyberete, bude uveden"
+" jak u uživatelů, tak i u skupin a je unikátní. Ponechte prázdné pro výchozí"
+" chování. Změna bude mít vliv jen na nově namapované (přidané) uživatele a "
+"skupiny z LDAP."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "UUID atribut pro uživatele:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "UUID atribut pro skupiny:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Mapování uživatelských jmen z LDAPu"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"Uživatelská jména jsou používána pro uchovávání a přiřazování (meta)dat. Pro"
+" správnou identifikaci a rozpoznání uživatelů bude mít každý LDAP uživatel "
+"interní uživatelské jméno. To vyžaduje mapování uživatelských jmen na "
+"uživatele LDAP. Vytvořené uživatelské jméno je mapováno na UUID uživatele v "
+"LDAP. DN informace je navíc udržována v paměti pro snížení interakce s LDAP,"
+" ale není používána pro identifikaci. Pokud se DN změní, bude to správně "
+"rozpoznáno. Interní uživatelské jméno se používá celé. Vyčištění mapování "
+"zanechá zbytky všude. Vyčištění navíc není specifické pro každou "
+"konfiguraci, bude mít vliv na všechny LDAP konfigurace! Nikdy nečistěte "
+"mapování v produkčním prostředí, ale pouze v testovací nebo experimentální "
+"fázi."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Zrušit mapování uživatelských jmen LDAPu"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Zrušit mapování názvů skupin LDAPu"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"Chybí zástupný znak %uid. Bude nahrazen přihlašovacím jménem při dotazování "
+"LDAP / AD."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Ověřit nastavení a spočítat skupiny"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Přidat novou a prázdnou konfiguraci"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"Můžete vynechat protokol, vyjma pokud požadujete SSL. Tehdy začněte s "
+"ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Varování:</b> Aplikace user_ldap a user_webdavauth jsou vzájemně "
+"nekompatibilní. Můžete zaznamenat neočekávané chování. Požádejte prosím "
+"svého správce systému o zakázání jedné z nich."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "v bajtech"

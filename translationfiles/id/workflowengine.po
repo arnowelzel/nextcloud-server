@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ari Ansyah <ariansyah105@gmail.com>, 2017\n"
+"Language-Team: Indonesian (https://www.transifex.com/nextcloud/teams/64236/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Disimpan"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Penyimpanan gagal:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Berkas tipe MIME"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "adalah"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "bukan"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "cocok dengan"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "tidak cocok dengan"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Contoh: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Ukuran berkas (unggah)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "kurang dari"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "kurang dari atau sama dengan"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "lebih dari atau sama dengan"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "lebih dari"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Tag sistem berkas"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "di tag dengan"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "tidak di tag dengan"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Pilih tag..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Minta alamat remote"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "cocok dengan IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "tidak cocok dengan IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "cocok dengan IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "tidak cocok dengan IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Waktu permintaan"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "diantara"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "tidak diantara"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Mulai"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Selesai"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Pilih zona waktu..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Minta URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "URL terdefinisi"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Berkas WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Minta user agent"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Klien sync"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Klien Android"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "Klien iOS"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Klien desktop"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Keanggotaan grup pengguna"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "anggota dari"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "bukan anggota dari"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Operator yang diberikan tidak sah"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Regular expression yang diberikan tidak sah"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Ukuran berkas yang diberikan tidak sah"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Tag ID yang diberikan tidak sah"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Rentang IP yang diberikan tidak sah"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Rentang IP yang diberikan tidak sah untuk IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Rentang IP yang diberikan tidak sah untuk IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Rentang waktu yang diberikan tidak sah"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Waktu mulai yang diberikan tidak sah"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Waktu selesai yang diberikan tidak sah"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Grup yang diberikan tidak ada"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Cek %s tidak valid atau tidak ada"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Operasi #%s tidak ada"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Operasi %s tidak ada"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Operasi %s tidak valid"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Cek %s tidak ada"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Cek %s tidak valid"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Cek #%s tidak ada"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Alur kerja"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Buka dokumentasi"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Tambahkan aturan grup "
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Deskripsi aturan singkat"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Tambahkan aturan"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Setel ulang"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Simpan"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Menyimpan..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Memuat..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Berhasil disimpan"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Tipe MIME berkas"

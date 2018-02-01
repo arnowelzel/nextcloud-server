@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Naofumi <naofum@gmail.com>, 2017\n"
+"Language-Team: Japanese (Japan) (https://www.transifex.com/nextcloud/teams/64236/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "保存されました"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "保存に失敗しました："
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "ファイルMIMEタイプ"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "は"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "は異なる"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "合致"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "合致しない"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "例: {プレースホルダー}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "ファイルサイズ（アップロード）"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "より小さい"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "より小さいか等しい"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "大きいか等しい"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "大きい"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "ファイルシステムタグ"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "に次のタグが付いている"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "に次のタグが付いていない"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "タグを選択..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "リクエスト リモートアドレス"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "次の IPv4アドレスに合致"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "次の IPv4アドレスに合致しない"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "次の IPv6アドレスに合致"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "次の IPv6アドレスに合致しない"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "ルール適用の時刻"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "間"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "間ではない"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "開始"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "終了"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "タイムゾーンを選択..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "呼びだしたURL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "定義済みのURL"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "ファイルWebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "リクエスト時のユーザーエージェント"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "同期クライアントタイプ"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "アンドロイドクライアント"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOSクライアント"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "デスクトップクライアント"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "ユーザーがグループのメンバーかどうか"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "が次のグループのメンバーである"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "が次のグループのメンバーではない"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "指定された演算子は無効"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "指定の正規表現は無効"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "指定されたファイルサイズは無効"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "指定されたIDタグは無効"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "指定されたIP範囲は無効"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "指定されたIPはIPv4の範囲ではありません"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "指定されたIPはIPv6の範囲ではありません"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "指定された期間は無効です"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "指定された開始時刻は無効です"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "指定された終了時刻は無効です"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "指定されたグループは存在しません"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "%sのチェックは無効か存在しません"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "#%s 操作は存在しません"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "%s 操作は存在しません"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "%s 操作は無効です"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "チェック %s は存在しません"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "チェック %s は無効です"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "チェック #%s は存在しません"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "ワークフロー"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "ドキュメントを開く"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "ルールグループを追加する"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "ルールの簡潔な説明"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "ルールを追加"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "リセット"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "保存"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "保存中..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "読み込み中..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "保存しました"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "ファイルMIMEタイプ"

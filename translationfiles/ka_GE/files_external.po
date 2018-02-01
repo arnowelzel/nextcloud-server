@@ -1,0 +1,586 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2016\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /app/apps/files_external/appinfo/app.php:46
+#: /app/apps/files_external/js/app.js:38
+#: /app/apps/files_external/lib/Settings/Section.php:63
+#: /app/apps/files_external/templates/settings.php:91
+msgid "External storages"
+msgstr "გარე საცავები"
+
+#: /app/apps/files_external/js/mountsfilelist.js:53
+msgid "Personal"
+msgstr "პირადი"
+
+#: /app/apps/files_external/js/mountsfilelist.js:55
+msgid "System"
+msgstr "სისტემა"
+
+#: /app/apps/files_external/js/oauth1.js:13
+#: /app/apps/files_external/js/oauth2.js:13
+msgid "Grant access"
+msgstr "წვდომის მინიჭება"
+
+#: /app/apps/files_external/js/oauth1.js:43
+#: /app/apps/files_external/js/oauth1.js:71
+#: /app/apps/files_external/js/oauth1.js:77
+msgid "Error configuring OAuth1"
+msgstr "OAuth1-ის კონფიგურირებისას წარმოიშვა შეცდომა"
+
+#: /app/apps/files_external/js/oauth1.js:76
+msgid "Please provide a valid app key and secret."
+msgstr "გთხოვთ უზრუნველყოთ სწორი აპლიკაციის გასაღები და საიდუმლო."
+
+#: /app/apps/files_external/js/oauth2.js:53
+#: /app/apps/files_external/js/oauth2.js:88
+msgid "Error configuring OAuth2"
+msgstr "OAuth2-ის კონფიგურირებისას წარმოიშვა შეცდომა"
+
+#: /app/apps/files_external/js/public_key.js:41
+msgid "Generate keys"
+msgstr "გასაღებების გენერირება"
+
+#: /app/apps/files_external/js/public_key.js:60
+msgid "Error generating key pair"
+msgstr "გასაღების წყვილის გენერირებისას წარმოიშვა შეცდომა"
+
+#: /app/apps/files_external/js/settings.js:93
+msgid "All users. Type to select user or group."
+msgstr "ყველა მომხმარებელი. მოხმარებლის ან ჯგუფის ასარჩევად დაიწყეთ ბეჭდვა."
+
+#: /app/apps/files_external/js/settings.js:178
+msgid "(group)"
+msgstr "(ჯგუფი)"
+
+#: /app/apps/files_external/js/settings.js:501
+msgid "Compatibility with Mac NFD encoding (slow)"
+msgstr "Mac NFD-სთან თავსებადობა (ნელი)"
+
+#: /app/apps/files_external/js/settings.js:956
+msgid "Admin defined"
+msgstr "განსაზღვრულია ადმინისტრატორის მიერ"
+
+#: /app/apps/files_external/js/settings.js:1133
+msgid "Are you sure you want to delete this external storage"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ამ გარე საცავის გაუქმება?"
+
+#: /app/apps/files_external/js/settings.js:1135
+msgid "Delete storage?"
+msgstr "გავაუქმოთ საცავი?"
+
+#: /app/apps/files_external/js/settings.js:1346
+#: /app/apps/files_external/js/settings.js:1364
+#: /app/apps/files_external/js/settings.js:1392
+msgid "Saved"
+msgstr "შენახულია"
+
+#: /app/apps/files_external/js/settings.js:1380
+msgid "Saving..."
+msgstr "ინახება…"
+
+#: /app/apps/files_external/js/settings.js:1394
+#: /app/apps/files_external/js/statusmanager.js:440
+#: /app/apps/files_external/templates/settings.php:161
+#: /app/apps/files_external/templates/settings.php:162
+#: /app/apps/files_external/templates/settings.php:209
+msgid "Save"
+msgstr "შენახვა"
+
+#: /app/apps/files_external/js/statusmanager.js:89
+msgid "Empty response from the server"
+msgstr "სერვერმა დააბრუნა ცარიელი პასუხი"
+
+#: /app/apps/files_external/js/statusmanager.js:105
+msgid ""
+"Couldn't access. Please log out and in again to activate this mount point"
+msgstr ""
+"წვდომა ვერ მოხერხდა. ამ მონტაჟის წერტილის გასააქტიურებლად გთხოვთ გახვიდეთ და"
+" ახლიდან გაიაროთ ავტორიზაცია."
+
+#: /app/apps/files_external/js/statusmanager.js:107
+msgid "Couldn't get the information from the remote server: {code} {type}"
+msgstr ""
+"დისტანციური სერვერიდან ინფორმაციის მოპოვება ვერ მოხერხდა: {code} {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:160
+msgid "Couldn't get the list of external mount points: {type}"
+msgstr "გარე მონტაჟის წერტილების სიის მოპოვება ვერ მოხერხდა: {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "There was an error with message: "
+msgstr "წარმოიშვა შეცდომა წერილით:"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "External mount error"
+msgstr "გარე მონტაჟის შეცდომა"
+
+#: /app/apps/files_external/js/statusmanager.js:194
+msgid "external-storage"
+msgstr "გარე-საცავი"
+
+#: /app/apps/files_external/js/statusmanager.js:270
+msgid ""
+"Couldn't fetch list of Windows network drive mount points: Empty response "
+"from server"
+msgstr ""
+"Windows-ის ქსელის დრაივის მონტაჯის წერტილების სიის მოპოვება ვერ მოხერხდა: "
+"ცარიელი პასუხი სერვერიდან"
+
+#: /app/apps/files_external/js/statusmanager.js:302
+msgid ""
+"Some of the configured external mount points are not connected. Please click"
+" on the red row(s) for more information"
+msgstr ""
+"ზოგი კონფიგურირებული გარე მონტაჟის წერიტილი არაა დაკავშირებული. მეტი "
+"ინფორმაციისთვის გთხოვთ დააწკაპუნოთ წითელ რიგ(ებ)ს."
+
+#: /app/apps/files_external/js/statusmanager.js:397
+msgid "Please enter the credentials for the {mount} mount"
+msgstr "გთხოვთ {mount} მონტაჟისთვის შეიყვანოთ მონაცემები"
+
+#: /app/apps/files_external/js/statusmanager.js:400
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:40
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:55
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:50
+#: /app/apps/files_external/templates/settings.php:202
+msgid "Username"
+msgstr "მომხმარებლის სახელი"
+
+#: /app/apps/files_external/js/statusmanager.js:401
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:57
+#: /app/apps/files_external/templates/settings.php:206
+msgid "Password"
+msgstr "პაროლი"
+
+#: /app/apps/files_external/js/statusmanager.js:423
+msgid "Credentials saved"
+msgstr "მონაცემები შენახულია"
+
+#: /app/apps/files_external/js/statusmanager.js:430
+msgid "Credentials saving failed"
+msgstr "მონაცემების შენახვა ვერ მოხერხდა"
+
+#: /app/apps/files_external/js/statusmanager.js:438
+msgid "Credentials required"
+msgstr "მონაცემები საჭიროა"
+
+#: /app/apps/files_external/lib/Controller/GlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/StoragesController.php:309
+#: /app/apps/files_external/lib/Controller/StoragesController.php:334
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:125
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/UserStoragesController.php:201
+#, php-format
+msgid "Storage with ID \"%d\" not found"
+msgstr "საცავი ID-ით \"%d\" ვერ იქნა ნაპოვნი"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:130
+msgid "Invalid backend or authentication mechanism class"
+msgstr "არასწორი ბექენდი ან აუტენტიფიკაციის მექანიზმის კლასი"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:149
+msgid "Invalid mount point"
+msgstr "არასწორი მონტაჟის წერტილი"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:159
+msgid "Objectstore forbidden"
+msgstr "ობიექტსტორი აკრძალულია"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:173
+#, php-format
+msgid "Invalid storage backend \"%s\""
+msgstr "არასწორი საცავის ბექენდი \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:185
+#, php-format
+msgid "Not permitted to use backend \"%s\""
+msgstr "ბექენის \"%s\" გამოყენება არაა ნებადართული"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:196
+#, php-format
+msgid "Not permitted to use authentication mechanism \"%s\""
+msgstr "აუტენტიკაციის მექანიზმის \"%s\"-ს გამოყენება არაა ნებადართული"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:208
+msgid "Unsatisfied backend parameters"
+msgstr "ბექენდის პარამეტრები არადამაკმაყოფილებელია"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:217
+msgid "Unsatisfied authentication mechanism parameters"
+msgstr "აუტენტიფიკაციის მექნიზმის პარამეტრები არადამაკმაყოფილებელია"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:263
+#, php-format
+msgid "Insufficient data: %s"
+msgstr "არასაკმარისი მონაცემები: %s"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:268
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:165
+#, php-format
+msgid "Storage with ID \"%d\" is not user editable"
+msgstr "საცავი ID-ით \"%d\" არაა მომხმარებლისთვის შეცვლადი"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:40
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:42
+msgid "Access key"
+msgstr "წვდომის გასაღები"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:43
+msgid "Secret key"
+msgstr "საიდუმლო გასაღები"
+
+#: /app/apps/files_external/lib/Lib/Auth/Builtin.php:36
+msgid "Builtin"
+msgstr "ჩაშენებული"
+
+#: /app/apps/files_external/lib/Lib/Auth/NullMechanism.php:36
+msgid "None"
+msgstr "არც ერთი"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:38
+msgid "OAuth1"
+msgstr "OAuth1"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:42
+msgid "App key"
+msgstr "აპლიკაციის გასაღები"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
+msgid "App secret"
+msgstr "აპლიკაციის საიდუმლო"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
+msgid "OAuth2"
+msgstr "OAuth2"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:42
+msgid "Client ID"
+msgstr "კლიენტის ID"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
+msgid "Client secret"
+msgstr "კლიენტის საიდუმლო"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:38
+msgid "OpenStack"
+msgstr "OpenStack"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:43
+msgid "Tenant name"
+msgstr "მოიჯარის სახელი"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:44
+msgid "Identity endpoint URL"
+msgstr "იდენტობის საბოლოო-წერტილის URL"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:38
+msgid "Rackspace"
+msgstr "Rackspace-ი"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:41
+msgid "API key"
+msgstr "API გასაღები"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:52
+#: /app/apps/files_external/templates/settings.php:198
+msgid "Global credentials"
+msgstr "გლობალური მონაცემები"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:56
+msgid "Log-in credentials, save in database"
+msgstr "ლოგინის მონაცემები, შენახვა მონაცემთა ბაზაში"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:38
+msgid "Username and password"
+msgstr "მომხმარებელი და პაროლი"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
+msgid "Log-in credentials, save in session"
+msgstr "ლოგინის მონაცემები, შენახვა სესიაში"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
+msgid "User entered, store in database"
+msgstr "შეყვანილი მომხმარებელი, შენახვა მონაცემთა ბაზაში"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:48
+msgid "RSA public key"
+msgstr "RSA ღია გასაღები"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:51
+msgid "Public key"
+msgstr "ღია გასაღები"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:43
+msgid "Amazon S3"
+msgstr "Amazon S3-ი"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:45
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:49
+msgid "Bucket"
+msgstr "ხაპია"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:46
+msgid "Hostname"
+msgstr "ჰოსტი"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:48
+msgid "Port"
+msgstr "პორტი"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:47
+msgid "Region"
+msgstr "რეგიონი"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
+msgid "Enable SSL"
+msgstr "SSL-ის ამოქმედება"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:54
+msgid "Enable Path Style"
+msgstr "ბილიკის სტილის ამოქმედება"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:56
+msgid "Legacy (v2) authentication"
+msgstr "ლეგატი (ვ2) აუტენტიფიკაცია"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:43
+msgid "WebDAV"
+msgstr "WebDAV-ი"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:45
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:43
+msgid "URL"
+msgstr "URL"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:46
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:46
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:44
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:42
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:49
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:54
+msgid "Remote subfolder"
+msgstr "დისტანციური ქვე-დირექტორია"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:48
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:46
+msgid "Secure https://"
+msgstr "დაცული https://"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:43
+msgid "FTP"
+msgstr "FTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:45
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:39
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:41
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:47
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:49
+msgid "Host"
+msgstr "ჰოსტი"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:48
+msgid "Secure ftps://"
+msgstr "დაცული ftps://"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:39
+msgid "Local"
+msgstr "ლოკალური"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:41
+msgid "Location"
+msgstr "ადგილმდებარეობა"
+
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:41
+msgid "Nextcloud"
+msgstr "Nextcloud-ი"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:37
+msgid "SFTP"
+msgstr "SFTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:40
+msgid "Root"
+msgstr "Root"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:39
+msgid "SFTP with secret key login"
+msgstr "SFTP საიდუმლო გასაღების ლოგინით"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:45
+msgid "SMB / CIFS"
+msgstr "SMB / CIFS"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:48
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:52
+msgid "Share"
+msgstr "გაზიარება"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:51
+msgid "Domain"
+msgstr "დომენი"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:47
+msgid "SMB / CIFS using OC login"
+msgstr "SMB / CIFS OC ლოგინით"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:50
+msgid "Username as share"
+msgstr "მომხმარებლის სახელი გაზიარებად"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:43
+msgid "OpenStack Object Storage"
+msgstr "OpenStack ობიექტ საცავი"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:45
+msgid "Service name"
+msgstr "სერვისის სახელი"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:50
+msgid "Request timeout (seconds)"
+msgstr "მოთხოვნის დროის ამოწურვა (წამები)"
+
+#: /app/apps/files_external/lib/config.php:323
+#, php-format
+msgid ""
+"The cURL support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"cURL-ის მხარდაჭერა PHP-ში არაა მოქდენი ან დაყენებული. %s-ის მონტაჟი ვერ "
+"ხერხდება. გთხოვთ სთხოვოთ თქვენი სისტემის ადმინისტრატორს მისი დაყენება."
+
+#: /app/apps/files_external/lib/config.php:325
+#, php-format
+msgid ""
+"The FTP support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"FTP-ს მხარდაჭერა PHP-ში არაა მოქმედი ან დაყენებული. %s-ის მონტაჟი ვერ "
+"ხერხდება. გთხოვთ სთხოვოთ თქვენი სისტემის ადმინისტრატორს მისი დაყენება."
+
+#: /app/apps/files_external/lib/config.php:327
+#, php-format
+msgid ""
+"\"%s\" is not installed. Mounting of %s is not possible. Please ask your "
+"system administrator to install it."
+msgstr ""
+"\"%s\" არაა დაყენებული. %s-ის მონტაჟი ვერ ხერხდება. გთხოვთ სთხოვოთ თქვენი "
+"სისტემის ადმინისტრატორს მისი დაყენება."
+
+#: /app/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "External storage support"
+msgstr ""
+
+#: /app/apps/files_external/templates/list.php:9
+msgid "No external storage configured"
+msgstr "გარე საცავი არაა კონფიგურირებული"
+
+#: /app/apps/files_external/templates/list.php:10
+msgid "You can add external storages in the personal settings"
+msgstr "გარე საცავები შეგიძლიათ დაამატოთ პირად პარამეტრებში"
+
+#: /app/apps/files_external/templates/list.php:20
+msgid "Name"
+msgstr "სახელი"
+
+#: /app/apps/files_external/templates/list.php:24
+msgid "Storage type"
+msgstr "საცავის სახეობა"
+
+#: /app/apps/files_external/templates/list.php:27
+msgid "Scope"
+msgstr "ფარგლები"
+
+#: /app/apps/files_external/templates/settings.php:9
+msgid "Enable encryption"
+msgstr "შიფრაციის ამოქმედება"
+
+#: /app/apps/files_external/templates/settings.php:10
+msgid "Enable previews"
+msgstr "პრევიუების ამოქმედება"
+
+#: /app/apps/files_external/templates/settings.php:11
+msgid "Enable sharing"
+msgstr "გაზიარების ამოქმედება"
+
+#: /app/apps/files_external/templates/settings.php:12
+msgid "Check for changes"
+msgstr "ცვლილებების შემოწმება"
+
+#: /app/apps/files_external/templates/settings.php:13
+msgid "Never"
+msgstr "არასდროს"
+
+#: /app/apps/files_external/templates/settings.php:14
+msgid "Once every direct access"
+msgstr "ყოველთვის პირდაპირი წვდომისას"
+
+#: /app/apps/files_external/templates/settings.php:97
+#: /app/apps/files_external/templates/settings.php:116
+msgid "Folder name"
+msgstr "დირექტორიის სახელი"
+
+#: /app/apps/files_external/templates/settings.php:98
+msgid "External storage"
+msgstr "ექსტერნალური საცავი"
+
+#: /app/apps/files_external/templates/settings.php:99
+msgid "Authentication"
+msgstr "აუტენტიფიკაცია"
+
+#: /app/apps/files_external/templates/settings.php:100
+msgid "Configuration"
+msgstr "კონფიგურაცია"
+
+#: /app/apps/files_external/templates/settings.php:101
+msgid "Available for"
+msgstr "ხელმისაწვდომია რომ"
+
+#: /app/apps/files_external/templates/settings.php:122
+msgid "Add storage"
+msgstr "საცავის დამატება"
+
+#: /app/apps/files_external/templates/settings.php:147
+#: /app/apps/files_external/templates/settings.php:148
+msgid "Advanced settings"
+msgstr "დამატებითი პარამეტრები"
+
+#: /app/apps/files_external/templates/settings.php:155
+#: /app/apps/files_external/templates/settings.php:156
+msgid "Delete"
+msgstr "წაშლა"
+
+#: /app/apps/files_external/templates/settings.php:173
+msgid "Allow users to mount external storage"
+msgstr "მივცეთ მომხმარებლებს გარე საცავის მონტაჟის უფლება"
+
+#: /app/apps/files_external/templates/settings.php:176
+msgid "Allow users to mount the following external storage"
+msgstr "მივცეთ მომხმარებლებს შემდეგი გარე საცავების მონტაჟის უფლება"

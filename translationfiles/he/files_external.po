@@ -1,0 +1,575 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Morris Jobke <hey@morrisjobke.de>, 2016\n"
+"Language-Team: Hebrew (https://www.transifex.com/nextcloud/teams/64236/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files_external/appinfo/app.php:46
+#: /app/apps/files_external/js/app.js:38
+#: /app/apps/files_external/lib/Settings/Section.php:63
+#: /app/apps/files_external/templates/settings.php:91
+msgid "External storages"
+msgstr ""
+
+#: /app/apps/files_external/js/mountsfilelist.js:53
+msgid "Personal"
+msgstr "אישי"
+
+#: /app/apps/files_external/js/mountsfilelist.js:55
+msgid "System"
+msgstr "מערכת"
+
+#: /app/apps/files_external/js/oauth1.js:13
+#: /app/apps/files_external/js/oauth2.js:13
+msgid "Grant access"
+msgstr "הענקת גישה"
+
+#: /app/apps/files_external/js/oauth1.js:43
+#: /app/apps/files_external/js/oauth1.js:71
+#: /app/apps/files_external/js/oauth1.js:77
+msgid "Error configuring OAuth1"
+msgstr "שגיאה בתצורת OAuth1"
+
+#: /app/apps/files_external/js/oauth1.js:76
+msgid "Please provide a valid app key and secret."
+msgstr "יש לספק מפתח יישום וסוד תקניים."
+
+#: /app/apps/files_external/js/oauth2.js:53
+#: /app/apps/files_external/js/oauth2.js:88
+msgid "Error configuring OAuth2"
+msgstr "שגיאה בתצורת OAuth2"
+
+#: /app/apps/files_external/js/public_key.js:41
+msgid "Generate keys"
+msgstr "יצירת מפתחות"
+
+#: /app/apps/files_external/js/public_key.js:60
+msgid "Error generating key pair"
+msgstr "שגיאה ביצירת זוג מפתחות"
+
+#: /app/apps/files_external/js/settings.js:93
+msgid "All users. Type to select user or group."
+msgstr "כל המשתמשים. יש להקיש לבחירת משתמש או קבוצה."
+
+#: /app/apps/files_external/js/settings.js:178
+msgid "(group)"
+msgstr "(קבוצה)"
+
+#: /app/apps/files_external/js/settings.js:501
+msgid "Compatibility with Mac NFD encoding (slow)"
+msgstr "תואם של קידוד Mac NFD (איטי)"
+
+#: /app/apps/files_external/js/settings.js:956
+msgid "Admin defined"
+msgstr "הוגדר מנהל"
+
+#: /app/apps/files_external/js/settings.js:1133
+msgid "Are you sure you want to delete this external storage"
+msgstr ""
+
+#: /app/apps/files_external/js/settings.js:1135
+msgid "Delete storage?"
+msgstr ""
+
+#: /app/apps/files_external/js/settings.js:1346
+#: /app/apps/files_external/js/settings.js:1364
+#: /app/apps/files_external/js/settings.js:1392
+msgid "Saved"
+msgstr "נשמר"
+
+#: /app/apps/files_external/js/settings.js:1380
+msgid "Saving..."
+msgstr ""
+
+#: /app/apps/files_external/js/settings.js:1394
+#: /app/apps/files_external/js/statusmanager.js:440
+#: /app/apps/files_external/templates/settings.php:161
+#: /app/apps/files_external/templates/settings.php:162
+#: /app/apps/files_external/templates/settings.php:209
+msgid "Save"
+msgstr "שמירה"
+
+#: /app/apps/files_external/js/statusmanager.js:89
+msgid "Empty response from the server"
+msgstr "תגובה ריקה מהשרת"
+
+#: /app/apps/files_external/js/statusmanager.js:105
+msgid ""
+"Couldn't access. Please log out and in again to activate this mount point"
+msgstr ""
+
+#: /app/apps/files_external/js/statusmanager.js:107
+msgid "Couldn't get the information from the remote server: {code} {type}"
+msgstr ""
+
+#: /app/apps/files_external/js/statusmanager.js:160
+msgid "Couldn't get the list of external mount points: {type}"
+msgstr "לא ניתן היה לקבל את רשימת נקודות העיגון החיצוניות: {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "There was an error with message: "
+msgstr "התרחשה שגיאה עם הודעה: "
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "External mount error"
+msgstr "שגיאת עגינה חיצונית"
+
+#: /app/apps/files_external/js/statusmanager.js:194
+msgid "external-storage"
+msgstr "אחסון חיצוני"
+
+#: /app/apps/files_external/js/statusmanager.js:270
+msgid ""
+"Couldn't fetch list of Windows network drive mount points: Empty response "
+"from server"
+msgstr ""
+
+#: /app/apps/files_external/js/statusmanager.js:302
+msgid ""
+"Some of the configured external mount points are not connected. Please click"
+" on the red row(s) for more information"
+msgstr ""
+"חלק מנקודות העיגון החיצוניות שהוגדרו אינן מחוברות. יש ללחוץ על השורה/ות "
+"האדומה/ות למידע נוסף"
+
+#: /app/apps/files_external/js/statusmanager.js:397
+msgid "Please enter the credentials for the {mount} mount"
+msgstr "יש להזין את פרטי הגישה עבור התקן עגינה {mount}"
+
+#: /app/apps/files_external/js/statusmanager.js:400
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:40
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:55
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:50
+#: /app/apps/files_external/templates/settings.php:202
+msgid "Username"
+msgstr "שם משתמש"
+
+#: /app/apps/files_external/js/statusmanager.js:401
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:57
+#: /app/apps/files_external/templates/settings.php:206
+msgid "Password"
+msgstr "סיסמא"
+
+#: /app/apps/files_external/js/statusmanager.js:423
+msgid "Credentials saved"
+msgstr "פרטי גישה נשמרו"
+
+#: /app/apps/files_external/js/statusmanager.js:430
+msgid "Credentials saving failed"
+msgstr "שמירת פרטי גישה נכשלה"
+
+#: /app/apps/files_external/js/statusmanager.js:438
+msgid "Credentials required"
+msgstr "נדרשים פרטי גישה"
+
+#: /app/apps/files_external/lib/Controller/GlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/StoragesController.php:309
+#: /app/apps/files_external/lib/Controller/StoragesController.php:334
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:125
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/UserStoragesController.php:201
+#, php-format
+msgid "Storage with ID \"%d\" not found"
+msgstr ""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:130
+msgid "Invalid backend or authentication mechanism class"
+msgstr "צד אחורי או סוג מנגנון אימות לא חוקי"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:149
+msgid "Invalid mount point"
+msgstr "נקודת עגינה לא חוקית"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:159
+msgid "Objectstore forbidden"
+msgstr "Objectstore חסום"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:173
+#, php-format
+msgid "Invalid storage backend \"%s\""
+msgstr "צד אחורי של האחסון אינו תקין \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:185
+#, php-format
+msgid "Not permitted to use backend \"%s\""
+msgstr "השימוש בצד אחורי \"%s\" אינו מותר"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:196
+#, php-format
+msgid "Not permitted to use authentication mechanism \"%s\""
+msgstr "השימוש במכניזם אימות \"%s\" אינו מותר"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:208
+msgid "Unsatisfied backend parameters"
+msgstr "פרמטרים צד אחורי אינם מספקים"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:217
+msgid "Unsatisfied authentication mechanism parameters"
+msgstr "פרמטרים של מכניזם אימות אינם מספקים"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:263
+#, php-format
+msgid "Insufficient data: %s"
+msgstr "מידע לא מספק: %s"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:268
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:165
+#, php-format
+msgid "Storage with ID \"%d\" is not user editable"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:40
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:42
+msgid "Access key"
+msgstr "מפתח כניסה"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:43
+msgid "Secret key"
+msgstr "מפתח סודי"
+
+#: /app/apps/files_external/lib/Lib/Auth/Builtin.php:36
+msgid "Builtin"
+msgstr "מובנה"
+
+#: /app/apps/files_external/lib/Lib/Auth/NullMechanism.php:36
+msgid "None"
+msgstr "כלום"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:38
+msgid "OAuth1"
+msgstr "OAuth1"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:42
+msgid "App key"
+msgstr "מפתח יישום"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
+msgid "App secret"
+msgstr "סוד יישום"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
+msgid "OAuth2"
+msgstr "OAuth2"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:42
+msgid "Client ID"
+msgstr "זיהוי לקוח"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
+msgid "Client secret"
+msgstr "סוד לקוח"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:38
+msgid "OpenStack"
+msgstr "OpenStack"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:43
+msgid "Tenant name"
+msgstr "שם דייר"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:44
+msgid "Identity endpoint URL"
+msgstr "זהות נתיב נקודת קצה"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:38
+msgid "Rackspace"
+msgstr "חץ אחורה"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:41
+msgid "API key"
+msgstr "מפתח API"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:52
+#: /app/apps/files_external/templates/settings.php:198
+msgid "Global credentials"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:56
+msgid "Log-in credentials, save in database"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:38
+msgid "Username and password"
+msgstr "שם משתמש וסיסמא"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
+msgid "Log-in credentials, save in session"
+msgstr "אישורי התחברות, נשמרים במידע שיחה - סשן"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
+msgid "User entered, store in database"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:48
+msgid "RSA public key"
+msgstr "מפתח ציבורי RSA"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:51
+msgid "Public key"
+msgstr "מפתח ציבורי"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:43
+msgid "Amazon S3"
+msgstr "אמזון S3"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:45
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:49
+msgid "Bucket"
+msgstr "סל"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:46
+msgid "Hostname"
+msgstr "שם מארח"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:48
+msgid "Port"
+msgstr "שער"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:47
+msgid "Region"
+msgstr "אזור"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
+msgid "Enable SSL"
+msgstr "הפעלת SSL"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:54
+msgid "Enable Path Style"
+msgstr "אהפעלת סגנון נתיב"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:56
+msgid "Legacy (v2) authentication"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:45
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:43
+msgid "URL"
+msgstr "נתיב אינטרנט"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:46
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:46
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:44
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:42
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:49
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:54
+msgid "Remote subfolder"
+msgstr "תיקיית משנה רחוקה"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:48
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:46
+msgid "Secure https://"
+msgstr "פרוטוקול מאובטח https://"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:43
+msgid "FTP"
+msgstr "FTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:45
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:39
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:41
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:47
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:49
+msgid "Host"
+msgstr "מארח"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:48
+msgid "Secure ftps://"
+msgstr "פרוטוקול מאובטח ftps://"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:39
+msgid "Local"
+msgstr "מקומי"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:41
+msgid "Location"
+msgstr "מיקום"
+
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:41
+msgid "Nextcloud"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:37
+msgid "SFTP"
+msgstr "SFTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:40
+msgid "Root"
+msgstr "נתיב ראשי"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:39
+msgid "SFTP with secret key login"
+msgstr "SFTP עם מפתח כניסה סודי"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:45
+msgid "SMB / CIFS"
+msgstr "SMB / CIFS"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:48
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:52
+msgid "Share"
+msgstr "שיתוף"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:51
+msgid "Domain"
+msgstr "שם תחום"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:47
+msgid "SMB / CIFS using OC login"
+msgstr "SMB / CIFS בשימוש עם כניסת OC"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:50
+msgid "Username as share"
+msgstr "שם משתמש כשיתוף"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:43
+msgid "OpenStack Object Storage"
+msgstr "אחסון אובייקט OpenStack"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:45
+msgid "Service name"
+msgstr "שם שירות"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:50
+msgid "Request timeout (seconds)"
+msgstr "פסק זמן מבוקש (שניות)"
+
+#: /app/apps/files_external/lib/config.php:323
+#, php-format
+msgid ""
+"The cURL support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+
+#: /app/apps/files_external/lib/config.php:325
+#, php-format
+msgid ""
+"The FTP support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+
+#: /app/apps/files_external/lib/config.php:327
+#, php-format
+msgid ""
+"\"%s\" is not installed. Mounting of %s is not possible. Please ask your "
+"system administrator to install it."
+msgstr ""
+
+#: /app/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "External storage support"
+msgstr ""
+
+#: /app/apps/files_external/templates/list.php:9
+msgid "No external storage configured"
+msgstr "לא מוגדר אחסון חיצוני"
+
+#: /app/apps/files_external/templates/list.php:10
+msgid "You can add external storages in the personal settings"
+msgstr "ניתן להוסיף אחסונים חיצוניים בהגדרות האישיות"
+
+#: /app/apps/files_external/templates/list.php:20
+msgid "Name"
+msgstr "שם"
+
+#: /app/apps/files_external/templates/list.php:24
+msgid "Storage type"
+msgstr "סוג אחסון"
+
+#: /app/apps/files_external/templates/list.php:27
+msgid "Scope"
+msgstr "היקף"
+
+#: /app/apps/files_external/templates/settings.php:9
+msgid "Enable encryption"
+msgstr "אפשר הצפנה"
+
+#: /app/apps/files_external/templates/settings.php:10
+msgid "Enable previews"
+msgstr "מאפשר תצוגות מקדימות"
+
+#: /app/apps/files_external/templates/settings.php:11
+msgid "Enable sharing"
+msgstr "הפעלת שיתוף"
+
+#: /app/apps/files_external/templates/settings.php:12
+msgid "Check for changes"
+msgstr "בדיקה אחר שינויים"
+
+#: /app/apps/files_external/templates/settings.php:13
+msgid "Never"
+msgstr "לעולם לא"
+
+#: /app/apps/files_external/templates/settings.php:14
+msgid "Once every direct access"
+msgstr "פעם אחת כל כניסה ישירה"
+
+#: /app/apps/files_external/templates/settings.php:97
+#: /app/apps/files_external/templates/settings.php:116
+msgid "Folder name"
+msgstr "שם התיקייה"
+
+#: /app/apps/files_external/templates/settings.php:98
+msgid "External storage"
+msgstr "אחסון חיצוני"
+
+#: /app/apps/files_external/templates/settings.php:99
+msgid "Authentication"
+msgstr "אימות"
+
+#: /app/apps/files_external/templates/settings.php:100
+msgid "Configuration"
+msgstr "הגדרות"
+
+#: /app/apps/files_external/templates/settings.php:101
+msgid "Available for"
+msgstr "זמין עבור"
+
+#: /app/apps/files_external/templates/settings.php:122
+msgid "Add storage"
+msgstr "הוספת אחסון"
+
+#: /app/apps/files_external/templates/settings.php:147
+#: /app/apps/files_external/templates/settings.php:148
+msgid "Advanced settings"
+msgstr "הגדרות מתקדמות"
+
+#: /app/apps/files_external/templates/settings.php:155
+#: /app/apps/files_external/templates/settings.php:156
+msgid "Delete"
+msgstr "מחיקה"
+
+#: /app/apps/files_external/templates/settings.php:173
+msgid "Allow users to mount external storage"
+msgstr "מאפשר למשתמשים לחבר אחסון חיצוני"
+
+#: /app/apps/files_external/templates/settings.php:176
+msgid "Allow users to mount the following external storage"
+msgstr "מאפשר למשתמשים לחבר אחסון חיצוני הבא"

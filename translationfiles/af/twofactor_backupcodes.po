@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Gideon Wentink <gjwentink@gmail.com>, 2017\n"
+"Language-Team: Afrikaans (https://www.transifex.com/nextcloud/teams/64236/af/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: af\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/settingsview.js:11
+msgid "Generate backup codes"
+msgstr "Genereer rugsteunkodes"
+
+#: js/settingsview.js:15
+msgid ""
+"Backup codes have been generated. {{used}} of {{total}} codes have been "
+"used."
+msgstr "Rugsteunkodes is gegenereer. {{used}} van {{total}} kodes is gebruik."
+
+#: js/settingsview.js:17
+msgid ""
+"These are your backup codes. Please save and/or print them as you will not "
+"be able to read the codes again later"
+msgstr ""
+"Dit is u rugsteunkodes. Bewaar dit of druk dit af aangesien u later nie "
+"hierdie kodes sal kan lees nie"
+
+#: js/settingsview.js:23
+msgid "Save backup codes"
+msgstr "Bewaar rugsteunkodes"
+
+#: js/settingsview.js:24
+msgid "Print backup codes"
+msgstr "Druk rugsteunkodes"
+
+#: js/settingsview.js:28
+msgid "Regenerate backup codes"
+msgstr "Hergenereer rugsteunkodes"
+
+#: js/settingsview.js:31
+msgid ""
+"If you regenerate backup codes, you automatically invalidate old codes."
+msgstr ""
+"Indien u rugsteunkodes hergenereer maak u outomaties die ou kodes ongeldig."
+
+#: js/settingsview.js:184
+msgid "An error occurred while generating your backup codes"
+msgstr "’n fout het voorgekom tydens generering van u rugsteunkodes"
+
+#: js/settingsview.js:196 js/settingsview.js:197
+msgid "Nextcloud backup codes"
+msgstr "Nextcloud-rugsteunkodes"
+
+#: lib/Activity/Provider.php:63
+msgid "You created two-factor backup codes for your account"
+msgstr "U het tweefaktorrugsteunkodes vir u rekening geskep"
+
+#: lib/Provider/BackupCodesProvider.php:74 templates/challenge.php:6
+msgid "Backup code"
+msgstr "Rugsteunkode"
+
+#: lib/Provider/BackupCodesProvider.php:83
+msgid "Use backup code"
+msgstr "Gebruik rugsteunkode"
+
+#: templates/personal.php:10
+msgid "Second-factor backup codes"
+msgstr "Tweedefaktorrugsteunkodes"

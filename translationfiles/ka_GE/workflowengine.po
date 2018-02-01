@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2017\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "შენახულია"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "შენახვა ვერ მოხერხდა:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "ფაილის MIME სახეობა"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "არის"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "არ არის"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "ემთხვევა"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "არ ემთხვევა"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "მაგალითი: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "ფაილის ზომა (ატვირთვა)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "უფრო ნაკლები"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "უფრო ნაკლები ან ტოლი"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "უფრო მეტი ან ტოლი"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "უფრო მეტი"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "ფაილის სისტემური ტეგი"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "დატეგილია როგორც"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "არაა დატეგილი როგორც"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "აირჩიეთ ტეგი..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "დისტანციური მისამართის მოთხოვნა"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "ემთხვევა IPv4-ს"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "არ ემთხვევა IPv4-ს"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "ემთხვევა IPv6-ს"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "არ ემთხვევა IPv6-ს"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "მოთხოვნის დრო"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "შორის"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "არა შორის"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "დაწყება"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "დამთავრება"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "აირჩიეთ დროის სარტყელი..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "მოთხოვნის URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "წინასწარ განსაზღვრული URL-ები"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "ფაილები WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "მოთხოვნის მომხმარებლის აგენტი"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "სინქ. კლიენტები"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android კლიენტი"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS კლიენტი"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "დესკტოპ კლიენტი"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "მომხმარებლის ჯგუფის წევრიანობა"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "არის წევრი ჯგუფისა"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "არ არის წევრი ჯგუფისა"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "მოცემული ოპერატორი არაა სწორი"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "მოცემული რეგულარული გამოსახულება არაა სწორი"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "მოცემული ფაილის ზომა არაა სწორი"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "მოცემული ტეგის id არაა სწორი"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "მოცემული IP დიაპაზონი არაა სწორი"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "მოცემული IP დიაპაზონი არაა სწორი IPv4-ისთვის"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "მოცემული IP დიაპაზონი არაა სწორი IPv6-ისთვის"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "მოცემული დროის ინტერვალი არაა სწორი"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "მოცემული საწყისი დრო არაა სწორი"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "მოცემული დროის დასასრული არაა სწორი"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "მოცემული ჯგუფი არ არსებობს"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "შეამოწმეთ %s არასწორია ან არ არსებობს"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "ოპერაცია #%s არ არსებობს"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "ოპერაცია %s არ არსებობს"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "ოპერაცია %s არაა სწორი"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "შეამოწმეთ %s არ არსებობს"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "შეამოწმეთ %s არასწორია"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "შეამოწმეთ #%s არ არსებობს"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "შრომითი პროცესები"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "ღია დოკუმენტაცია"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "ჯგუფის წესის დამატება"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "წესის მოკლე აღწერა"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "წესის დამატება"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "საწყის მდოგმარეობაში დაბრუნება"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "შენახვა"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "მიმდინარეობს დამახსოვრება..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "იტვირთება..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "წარმატებით დამახსოვრდა"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "ფაილის mime სახეობა"

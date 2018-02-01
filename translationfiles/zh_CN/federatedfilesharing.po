@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ALEX Mikealson <wzwsad22@gmail.com>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/nextcloud/teams/64236/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "联合云共享"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "你想要添加远程共享 {名称} 来自 {所属}@{远程}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "远程分享"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "远程分享密码"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "取消"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "添加远程分享"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "复制"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "已复制!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "不支持!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "请按 ⌘-C 键复制"
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "请按 Ctrl-C 键复制"
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "联合云ID不正确"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "此服务器未启用服务器到服务器分享功能"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "无法建立一个远程分享"
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr "无法建立分享，可能密码是错误的。"
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr "共享协作请求发送成功！通过你将收到通知。注意留意你的通知提醒"
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "挂载点的名称包含无效字符。"
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "不允许与所有者创建联合共享."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "无效或是不被信任的 SSL 证书"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr "无法验证远程共享，可能是密码错误"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "存储不可用"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "共享协作已添加"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "无法添加远程共享"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "共享 %s 失败，因为它已经共享给 %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "不能给你自己分享文件"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "文件已经共享与 %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr "共享 %s 失败, 无法找到 %s, 可能该服务器当前无法访问或者使用自签名证书."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "没有发现共享"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "你得到“%3$s\"做为远程分享从”%1$s（代替\"%2$s）"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr "你得到[共享]是从[用户]做为远程共享（代替原来的）"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "你从“%1$s\"得到\"%3$s\"做为远程共享"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "您从 {user} 收到了 {share} 作为远程共享"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "接受"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "拒绝"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "通过我的联合云ID，分享给我，看%s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "通过我的#Nextcloud联合云ID与我共享"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "分享中"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "联合云共享"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "打开文档"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "调整人们如何在服务器之间共享。"
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "允许用户分享文件给其他服务器上的用户"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr "允许用户从其他服务器接收分享"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "在全局和公开地址簿中寻找用户"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr "允许用户将其数据发布到全球和公共通讯录"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "联合云"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"您可以与任何使用Nextcloud，ownCloud或Pydio的人分享！ 只需将它们的联合云ID放在共享对话框中。 "
+"看起来像person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "你的联合云ID："
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "使用分享，以便您的朋友可以与您共享文件："
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "添加到您的网站"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "通过联合云与我共享"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML 代码:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr "搜索用户的全球和公共通讯录，并让本地用户发布其数据"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "分享它："

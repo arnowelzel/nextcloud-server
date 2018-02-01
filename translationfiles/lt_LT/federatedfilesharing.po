@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Moo, 2016\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/nextcloud/teams/64236/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Dalinimasis kitame serveryje"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr ""
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Kitame serveryje pasidalinti duomenys"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Kitame serveryje pasidalintų duomenų slaptažodis"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Pasidalinti duomenimis kitame serveryje"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Nukopijuota!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Nepalaikoma!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Norėdami nukopijuoti, paspauskite ⌘-C."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Paspauskite Ctrl-C, kad nukopijuotumėte."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Neteisingas Centralizuoto Serverio ID"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Dalinimasis tarp serverių yra neleidžiamas šiame serveryje"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Neįmanoma pradėti dalintis kitame serveryje."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Neįmanoma pradėti dalintis kitame serveryje. Gal jūsų slaptažodis blogas?"
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Dalinimosi kitame serveryje užklausa išsiųsta. Jūs būsite informuoti, jei "
+"pasidalinimas bus sėkmingas. "
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Prijungimo taškas turi netinkamų naudoti simbolių."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Savininkas neleidžia dalintis duomenimis su kitu serveriu."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Neteisingas arba nepatikimas SSL liudijimas"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Neįmanoma pradėti dalintis kitame serveryje. Gal jūsų slaptažodis blogas?"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Saugykla netinkama naudotis"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Pasidalinta per kitą serverį"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Nepavyko peržiūrėti kitame serveryje pasidalintų duomenų"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+"%s bendrinimas nepavyko, kadangi šis elementas jau yra bendrinamas su %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Negalima dalintis su identišku naudotoju kitame serveryje"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Failas jau yra bendrinamas su %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"\"%s\" pasidalinimas nepavyko, neįmanoma rasti %s, tikėtina, kad serveris "
+"šiuo metu nepasiekiamas arba naudoja nepatikimą sertifikatą."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Nepavyko rasti bendrinamų duomenų"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"Gavote galimybę peržiūrėti duomenis \"%3$s\", kuriuos pasidalino %1$s (%2$s "
+"vardu) esantis kitame serveryje"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Gavote galimybę peržiūrėti duomenis \"{share}\", kuriuos pasidalino {user} "
+"({behalf} vardu) esantis kitame serveryje"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Gavote galimybę peržiūrėti duomenis \"%3$s\", kuriuos pasidalino %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr ""
+"Gavote galimybę peržiūrėti duomenis \"{share}\", kuriuos pasidalino {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Priimti"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Atmesti"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Pasidalinti su manimi per #Nextcloud Centralizuoto Serverio ID, toliau %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Pasidalinti su manimi per #Nextcloud Centralizuoto Serverio ID"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Dalinamasis"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Centralizuotas Dalinimasis Serveriuose"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Atverti dokumentaciją"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr ""
+"Nustatyti taisykles, kaip naudotojai gali dalintis duomenimis tarp serverių."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Leisti šio serverio naudotojams dalintis duomenimis su kitais serveriais"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Leisti šio serverio naudotojams priimti kituose serveriuose dalinamus "
+"duomenis"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Ieškoti vartotojų globaliose ir viešose adresų knygose"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Leisti naudotojams viešinti savo duomenis globaliose ar viešose adresų "
+"knygose"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Centralizuotas Serveris"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Galite dalintis su visais, kas naudojasi NextCloud, ownCloud ar Pydio! "
+"Tiesiog dalinimosi dialoge įrašykite jų Centralizuoto Serverio ID. Pavyzdys:"
+" person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Jūsų Centralizuoto Serverio ID:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr ""
+"Pasidalinkite tam, kad jūsų draugai galėtų dalintis duomenimis su jumis:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Pridėti jūsų puslapį"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Pasidalinti su manimi per NextCloud"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML kodas:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Rasti globalias ar viešas adresų knygas ir leisti naudotojams viešinti savo "
+"duomenis"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Pasidalinti:"

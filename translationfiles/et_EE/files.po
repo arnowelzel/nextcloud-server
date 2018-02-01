@@ -1,0 +1,685 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: elder one, 2017\n"
+"Language-Team: Estonian (Estonia) (https://www.transifex.com/nextcloud/teams/64236/et_EE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et_EE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files/ajax/list.php:88 /app/apps/files/js/filelist.js:1758
+msgid "Storage is temporarily not available"
+msgstr "Salvestusruum pole ajutiselt kättesaadav"
+
+#: /app/apps/files/ajax/list.php:96
+msgid "Storage invalid"
+msgstr "Vigane andmehoidla"
+
+#: /app/apps/files/ajax/list.php:104
+msgid "Unknown error"
+msgstr "Tundmatu viga"
+
+#: /app/apps/files/appinfo/app.php:48
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:147
+msgid "All files"
+msgstr "Kõik failid"
+
+#: /app/apps/files/appinfo/app.php:58 /app/apps/files/js/recentfilelist.js:36
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:158
+msgid "Recent"
+msgstr "Hiljutised"
+
+#: /app/apps/files/js/app.js:57
+msgid "File could not be found"
+msgstr "Faili ei leitud"
+
+#: /app/apps/files/js/breadcrumb.js:225
+msgid "Home"
+msgstr "Kodu"
+
+#: /app/apps/files/js/detailsview.js:114
+msgid "Close"
+msgstr "Sulge"
+
+#: /app/apps/files/js/favoritesfilelist.js:31
+#: /app/apps/files/lib/Activity/Filter/Favorites.php:80
+#: /app/apps/files/lib/Controller/ViewController.php:168
+msgid "Favorites"
+msgstr "Lemmikud"
+
+#: /app/apps/files/js/file-upload.js:516 /app/apps/files/js/filelist.js:2473
+#: /app/apps/files/js/filelist.js:2491 /app/apps/files/js/filelist.js:2497
+msgid "Could not create folder \"{dir}\""
+msgstr "Kausta \"{dir}\" loomine ebaõnnestus"
+
+#: /app/apps/files/js/file-upload.js:599
+msgid "Upload cancelled."
+msgstr "Üleslaadimine tühistati."
+
+#: /app/apps/files/js/file-upload.js:879
+msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
+msgstr ""
+"Ei saa üles laadida {filename}, kuna see on kataloog või selle suurus on 0 "
+"baiti"
+
+#: /app/apps/files/js/file-upload.js:898
+msgid ""
+"Not enough free space, you are uploading {size1} but only {size2} is left"
+msgstr ""
+"Pole piisavalt vaba ruumi. Sa laadid üles {size1}, kuid ainult {size2} on "
+"saadaval."
+
+#: /app/apps/files/js/file-upload.js:970
+msgid "Target folder \"{dir}\" does not exist any more"
+msgstr "Kausta \"{dir}\" pole enam olemas"
+
+#: /app/apps/files/js/file-upload.js:974
+#: /app/apps/files/js/file-upload.js:1185
+msgid "Not enough free space"
+msgstr "Pole piisavalt vaba ruumi"
+
+#: /app/apps/files/js/file-upload.js:1042
+#: /app/apps/files/js/file-upload.js:1094 /app/apps/files/templates/list.php:5
+msgid "Uploading …"
+msgstr "Üleslaadminie ..."
+
+#: /app/apps/files/js/file-upload.js:1044 /app/apps/files/templates/list.php:5
+msgid "…"
+msgstr "..."
+
+#: /app/apps/files/js/file-upload.js:1099
+msgid "{loadedSize} of {totalSize} ({bitrate})"
+msgstr "{loadedSize}/{loadedSize} ({bitrate})"
+
+#: /app/apps/files/js/file-upload.js:1188
+msgid "Target folder does not exist any more"
+msgstr "Sihtkataloogi pole enam olemas"
+
+#: /app/apps/files/js/file-upload.js:1190
+msgid "Error when assembling chunks, status code {status}"
+msgstr "Tükkide kokkupanemise viga, staatus kood {status}"
+
+#: /app/apps/files/js/fileactions.js:384
+msgid "Actions"
+msgstr "Tegevused"
+
+#: /app/apps/files/js/fileactions.js:586 /app/apps/files/templates/list.php:60
+msgid "Download"
+msgstr "Lae alla"
+
+#: /app/apps/files/js/fileactions.js:616
+msgid "Rename"
+msgstr "Nimeta ümber"
+
+#: /app/apps/files/js/fileactions.js:628 /app/apps/files/templates/list.php:56
+msgid "Move or copy"
+msgstr "Liiguta või kopeeri"
+
+#: /app/apps/files/js/fileactions.js:634 /app/apps/files/js/filelist.js:801
+msgid "Target folder"
+msgstr "Sihtkaust"
+
+#: /app/apps/files/js/fileactions.js:654 /app/apps/files/templates/list.php:64
+#: /app/apps/files/templates/list.php:75
+#: /app/apps/files/templates/recentlist.php:32
+#: /app/apps/files/templates/simplelist.php:31
+msgid "Delete"
+msgstr "Kustuta"
+
+#: /app/apps/files/js/fileactions.js:656
+msgid "Disconnect storage"
+msgstr "Ühenda andmehoidla lahti."
+
+#: /app/apps/files/js/fileactions.js:658
+msgid "Unshare"
+msgstr "Lõpeta jagamine"
+
+#: /app/apps/files/js/fileinfomodel.js:115
+msgid "Could not load info for file \"{file}\""
+msgstr "Faili \"{file}\" info laadimine ebaõnnestus"
+
+#: /app/apps/files/js/filelist.js:47
+#: /app/apps/files/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Files"
+msgstr "Failid"
+
+#: /app/apps/files/js/filelist.js:407
+msgid "Details"
+msgstr "Üksikasjad"
+
+#: /app/apps/files/js/filelist.js:1238
+msgid "Select"
+msgstr "Vali"
+
+#: /app/apps/files/js/filelist.js:1332 /app/apps/files/js/filesummary.js:234
+#: /app/apps/files/js/filesummary.js:271
+msgid "Pending"
+msgstr "Ootel"
+
+#: /app/apps/files/js/filelist.js:1354
+msgid "Unable to determine date"
+msgstr "Kuupäeva tuvastamine ei õnnestunud"
+
+#: /app/apps/files/js/filelist.js:1739
+msgid "This operation is forbidden"
+msgstr "See toiming on keelatud"
+
+#: /app/apps/files/js/filelist.js:1747
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"See kaust pole saadaval. Palun kontrolli logifaile või võta ühendust "
+"administraatoriga"
+
+#: /app/apps/files/js/filelist.js:2087
+msgid "Could not move \"{file}\", target exists"
+msgstr "\"{file}\" liigutamine ebaõnnestus, fail on juba olemas"
+
+#: /app/apps/files/js/filelist.js:2091
+msgid "Could not move \"{file}\""
+msgstr "\"{file}\" liigutamine ebaõnnestus"
+
+#: /app/apps/files/js/filelist.js:2152
+msgid "Could not copy \"{file}\", target exists"
+msgstr "\"{file}\" kopeerimine ebaõnnestus, sihtfail on juba olemas"
+
+#: /app/apps/files/js/filelist.js:2156
+msgid "Could not copy \"{file}\""
+msgstr "\"{file}\" kopeerimine ebaõnnestus"
+
+#: /app/apps/files/js/filelist.js:2180 /app/apps/files/js/filelist.js:2187
+msgid "Copied {origin} inside {destination}"
+msgstr "Kopeeris {origin} {destination} sisse"
+
+#: /app/apps/files/js/filelist.js:2194
+msgid "Copied {origin} and {nbfiles} other files inside {destination}"
+msgstr "Kopeeris {origin} ja {nbfiles} teist faili {destination} sisse"
+
+#: /app/apps/files/js/filelist.js:2263 /app/apps/files/js/newfilemenu.js:150
+msgid "{newName} already exists"
+msgstr "{newName} on juba olemas"
+
+#: /app/apps/files/js/filelist.js:2318
+msgid "Could not rename \"{fileName}\", it does not exist any more"
+msgstr "\"{fileName}\" ümbernimetamine ebaõnnestus, seda pole enam olemas"
+
+#: /app/apps/files/js/filelist.js:2327
+msgid ""
+"The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+"Nimi \"{targetName}\" on juba \"{dir}\" kaustas kasutusel. Palun valige "
+"teine nimi."
+
+#: /app/apps/files/js/filelist.js:2338
+msgid "Could not rename \"{fileName}\""
+msgstr "\"{fileName}\" ümbernimetamine ebaõnnestus"
+
+#: /app/apps/files/js/filelist.js:2423 /app/apps/files/js/filelist.js:2434
+#: /app/apps/files/js/filelist.js:2554
+msgid "Could not create file \"{file}\""
+msgstr "Faili \"{file}\" loomine ebaõnnestus"
+
+#: /app/apps/files/js/filelist.js:2430
+msgid "Could not create file \"{file}\" because it already exists"
+msgstr "Faili \"{file}\" loomine ebaõnnestus, sest see on juba olemas"
+
+#: /app/apps/files/js/filelist.js:2484
+msgid "Could not create folder \"{dir}\" because it already exists"
+msgstr "Kausta \"{dir}\" loomine ebaõnnestus, sest see on juba olemas"
+
+#: /app/apps/files/js/filelist.js:2664
+msgid "Error deleting file \"{fileName}\"."
+msgstr "Tõrge faili \"{fileName}\" kustutamisel."
+
+#: /app/apps/files/js/filelist.js:2800
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr "Teistest kaustadest ei leitud {tag}{filter}{endtag}"
+
+#: /app/apps/files/js/filelist.js:2841
+#: /app/apps/files/js/mainfileinfodetailview.js:188
+#: /app/apps/files/templates/list.php:52
+#: /app/apps/files/templates/recentlist.php:20
+#: /app/apps/files/templates/simplelist.php:22
+msgid "Name"
+msgstr "Nimi"
+
+#: /app/apps/files/js/filelist.js:2842
+#: /app/apps/files/js/mainfileinfodetailview.js:193
+#: /app/apps/files/templates/list.php:70
+#: /app/apps/files/templates/recentlist.php:25
+#: /app/apps/files/templates/simplelist.php:26
+msgid "Size"
+msgstr "Suurus"
+
+#: /app/apps/files/js/filelist.js:2843
+#: /app/apps/files/js/mainfileinfodetailview.js:196
+#: /app/apps/files/templates/list.php:73
+#: /app/apps/files/templates/recentlist.php:29
+#: /app/apps/files/templates/simplelist.php:29
+msgid "Modified"
+msgstr "Muudetud"
+
+#: /app/apps/files/js/filelist.js:2851 /app/apps/files/js/filesummary.js:231
+msgid "%n folder"
+msgid_plural "%n folders"
+msgstr[0] "%n kataloog"
+msgstr[1] "%n kataloogi"
+
+#: /app/apps/files/js/filelist.js:2852 /app/apps/files/js/filesummary.js:232
+msgid "%n file"
+msgid_plural "%n files"
+msgstr[0] "%n fail"
+msgstr[1] "%n faili"
+
+#: /app/apps/files/js/filelist.js:2859 /app/apps/files/js/filesummary.js:207
+msgid "{dirs} and {files}"
+msgstr "{dirs} ja {files}"
+
+#: /app/apps/files/js/filelist.js:2867 /app/apps/files/js/filesummary.js:233
+msgid "including %n hidden"
+msgid_plural "including %n hidden"
+msgstr[0] "sealhulgas %n peidetud"
+msgstr[1] "sealhulgas %n peidetud"
+
+#: /app/apps/files/js/filelist.js:2955 /app/apps/files/templates/list.php:14
+msgid "You don’t have permission to upload or create files here"
+msgstr "Sul puuduvad õigused siia failide üleslaadimiseks või tekitamiseks"
+
+#: /app/apps/files/js/filelist.js:3052
+msgid "Uploading %n file"
+msgid_plural "Uploading %n files"
+msgstr[0] "Laadin üles %n faili"
+msgstr[1] "Laadin üles %n faili"
+
+#: /app/apps/files/js/filelist.js:3208
+msgid "New"
+msgstr "Uus"
+
+#: /app/apps/files/js/files.js:100
+msgid "{used} of {quota} used"
+msgstr ""
+
+#: /app/apps/files/js/files.js:102
+msgid "{used} used"
+msgstr ""
+
+#: /app/apps/files/js/files.js:134
+msgid "\"{name}\" is an invalid file name."
+msgstr "\"{name}\" on vigane failinimi."
+
+#: /app/apps/files/js/files.js:136
+msgid "File name cannot be empty."
+msgstr "Faili nimi ei saa olla tühi."
+
+#: /app/apps/files/js/files.js:138
+msgid "\"/\" is not allowed inside a file name."
+msgstr ""
+
+#: /app/apps/files/js/files.js:140
+msgid "\"{name}\" is not an allowed filetype"
+msgstr "\"{name}\" pole lubatud failitüüp"
+
+#: /app/apps/files/js/files.js:155
+msgid ""
+"Storage of {owner} is full, files can not be updated or synced anymore!"
+msgstr "{owner} andmemaht on täis! Faile ei uuendata ega sünkroniseerita!"
+
+#: /app/apps/files/js/files.js:161
+msgid "Your storage is full, files can not be updated or synced anymore!"
+msgstr "Sinu andmemaht on täis! Faile ei uuendata ega sünkroniseerita!"
+
+#: /app/apps/files/js/files.js:168
+msgid "Storage of {owner} is almost full ({usedSpacePercent}%)"
+msgstr "Sinu {owner} andmemaht on peaaegu täis ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/files.js:179
+msgid "Your storage is almost full ({usedSpacePercent}%)"
+msgstr "Su andmemaht on peaaegu täis ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/filesummary.js:258
+msgid "matches '{filter}'"
+msgid_plural "match '{filter}'"
+msgstr[0] "vastab '{filter}'"
+msgstr[1] "vastab '{filter}'"
+
+#: /app/apps/files/js/gotoplugin.js:36
+msgid "View in folder"
+msgstr "Vaata kaustas"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:100
+msgid "Copied!"
+msgstr "Kopeeritud!"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:106
+#: /app/apps/files/js/mainfileinfodetailview.js:204
+msgid ""
+"Copy direct link (only works for users who have access to this file/folder)"
+msgstr ""
+"Kopeeri otselink (töötab ainult nende kasutajate jaoks, kelle on ligipääs "
+"sellele failile/kaustale)"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:190
+msgid "Path"
+msgstr "Asukoht"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:195
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n bait"
+msgstr[1] "%n baiti"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Favorited"
+msgstr "Lemmikud"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+msgid "Favorite"
+msgstr "Lemmik"
+
+#: /app/apps/files/js/newfilemenu.js:68 /app/apps/files/js/newfilemenu.js:69
+msgid "New folder"
+msgstr "Uus kaust"
+
+#: /app/apps/files/js/newfilemenu.js:227
+msgid "Upload file"
+msgstr "Lae fail üles"
+
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Not favorited"
+msgstr "Lemmikuks lisamata"
+
+#: /app/apps/files/js/tagsplugin.js:96
+msgid "Remove from favorites"
+msgstr "Eemalda lemmikutest"
+
+#: /app/apps/files/js/tagsplugin.js:103
+msgid "Add to favorites"
+msgstr "Lisa lemmikutesse"
+
+#: /app/apps/files/js/tagsplugin.js:259
+msgid "An error occurred while trying to update the tags"
+msgstr "Siltide uuendamisel tekkis tõrge"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:102
+msgid "Added to favorites"
+msgstr "Lemmikutesse lisatud"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:109
+msgid "Removed from favorites"
+msgstr "Lemmikutest eemaldatud"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:132
+msgid "You added {file} to your favorites"
+msgstr "{file} lemmikutesse lisatud"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:139
+msgid "You removed {file} from your favorites"
+msgstr "{file} lemmikutest eemaldatud"
+
+#: /app/apps/files/lib/Activity/Filter/FileChanges.php:61
+msgid "File changes"
+msgstr "Failimuudatused"
+
+#: /app/apps/files/lib/Activity/Provider.php:115
+msgid "Created by {user}"
+msgstr "Kasutaja {user} poolt loodud"
+
+#: /app/apps/files/lib/Activity/Provider.php:122
+msgid "Changed by {user}"
+msgstr "Kasutaja {user} poolt muudetud"
+
+#: /app/apps/files/lib/Activity/Provider.php:129
+msgid "Deleted by {user}"
+msgstr "Kasutaja {user} poolt kustutatud"
+
+#: /app/apps/files/lib/Activity/Provider.php:136
+msgid "Restored by {user}"
+msgstr "Kasutaja {user} poolt taastatud"
+
+#: /app/apps/files/lib/Activity/Provider.php:138
+msgid "Renamed by {user}"
+msgstr "Kasutaja {user} poolt ümber nimetatud"
+
+#: /app/apps/files/lib/Activity/Provider.php:145
+msgid "Moved by {user}"
+msgstr "Kasutaja {user} liigutatud"
+
+#: /app/apps/files/lib/Activity/Provider.php:157
+#: /app/apps/files/lib/Activity/Provider.php:262
+msgid "\"remote user\""
+msgstr "\"kaugkasutaja\""
+
+#: /app/apps/files/lib/Activity/Provider.php:176
+msgid "You created {file}"
+msgstr "Sa lõid faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:183
+msgid "{user} created {file}"
+msgstr "Kasutaja {user} lõi faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:190
+msgid "{file} was created in a public folder"
+msgstr "{file} loodi avalikku kausta"
+
+#: /app/apps/files/lib/Activity/Provider.php:197
+msgid "You changed {file}"
+msgstr "Sa muutsid faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:204
+msgid "{user} changed {file}"
+msgstr "Kasutaja {user} muutis faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:211
+msgid "You deleted {file}"
+msgstr "Sa kustutasid faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:218
+msgid "{user} deleted {file}"
+msgstr "Kasutaja {user} kustutas faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:225
+msgid "You restored {file}"
+msgstr "Sa taastasid faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:227
+msgid "{user} restored {file}"
+msgstr "Kasutaja {user} taastas faili {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:229
+msgid "You renamed {oldfile} to {newfile}"
+msgstr "Sa nimetasid faili ümber: {oldfile} nüüd {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:236
+msgid "{user} renamed {oldfile} to {newfile}"
+msgstr "{user} nimetas faili ümber: {oldfile} nüüd {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:243
+msgid "You moved {oldfile} to {newfile}"
+msgstr "Sa liigutasid faili: {oldfile} nüüd {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:250
+msgid "{user} moved {oldfile} to {newfile}"
+msgstr "{user} liigutas faili: {oldfile} nüüd {newfile}"
+
+#: /app/apps/files/lib/Activity/Settings/FavoriteAction.php:55
+msgid ""
+"A file has been added to or removed from your <strong>favorites</strong>"
+msgstr "<strong>Lemmikutesse</strong> on lisatud või sealt eemaldatud fail"
+
+#: /app/apps/files/lib/Activity/Settings/FileChanged.php:55
+msgid ""
+"A file or folder has been <strong>changed</strong> or "
+"<strong>renamed</strong>"
+msgstr ""
+"Fail või kaust on <strong>muudetud</strong> või "
+"<strong>ümbernimetatud</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileCreated.php:55
+msgid "A new file or folder has been <strong>created</strong>"
+msgstr "Uus fail või kaust on <strong>loodud</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileDeleted.php:55
+msgid "A file or folder has been <strong>deleted</strong>"
+msgstr "Fail või kaust on <strong>kustutatud</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileFavorite.php:55
+msgid ""
+"Limit notifications about creation and changes to your <strong>favorite "
+"files</strong> <em>(Stream only)</em>"
+msgstr ""
+"Piira loomise ja muutuste teavitus oma <strong>lemmikfailide</strong> kohta "
+"<em>(ainult voog)</em>"
+
+#: /app/apps/files/lib/Activity/Settings/FileRestored.php:55
+msgid "A file or folder has been <strong>restored</strong>"
+msgstr "Fail või kaust on <strong>taastatud</strong>"
+
+#: /app/apps/files/lib/Controller/ViewController.php:181
+msgid "Unlimited"
+msgstr "Piiramatult"
+
+#: /app/apps/files/lib/Helper.php:53
+#, php-format
+msgid "Upload (max. %s)"
+msgstr "Üleslaadimine (max. %s)"
+
+#: /app/apps/files/templates/admin.php:4
+msgid "File handling"
+msgstr "Failide käsitlemine"
+
+#: /app/apps/files/templates/admin.php:5
+msgid "Maximum upload size"
+msgstr "Maksimaalne üleslaadimise suurus"
+
+#: /app/apps/files/templates/admin.php:10
+msgid "max. possible: "
+msgstr "maks. võimalik: "
+
+#: /app/apps/files/templates/admin.php:15
+msgid "Save"
+msgstr "Salvesta"
+
+#: /app/apps/files/templates/admin.php:16
+msgid "With PHP-FPM it might take 5 minutes for changes to be applied."
+msgstr ""
+"PHP-FPM-ga võib selle väärtuse mõju rakendamine võtta aega kuni 5 minutit "
+"pärast salvestamist."
+
+#: /app/apps/files/templates/admin.php:18
+msgid "Missing permissions to edit from here."
+msgstr "Puuduvad õigused siit muuta."
+
+#: /app/apps/files/templates/appnavigation.php:21
+#, php-format
+msgid "%s of %s used"
+msgstr "%s/%s kasutatud"
+
+#: /app/apps/files/templates/appnavigation.php:23
+#, php-format
+msgid "%s used"
+msgstr "%s kasutatud"
+
+#: /app/apps/files/templates/appnavigation.php:35
+msgid "Settings"
+msgstr "Seaded"
+
+#: /app/apps/files/templates/appnavigation.php:41
+msgid "Show hidden files"
+msgstr "Näita peidetud faile"
+
+#: /app/apps/files/templates/appnavigation.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files/templates/appnavigation.php:45
+#, php-format
+msgid ""
+"Use this address to <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">access your Files via WebDAV</a>"
+msgstr ""
+"Kasuta seda aadressi, et <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">oma failidele WebDAV kaudu ligi pääseda</a>"
+
+#: /app/apps/files/templates/list.php:8
+msgid "Cancel upload"
+msgstr "Tühista üleslaadimine"
+
+#: /app/apps/files/templates/list.php:31
+msgid "No files in here"
+msgstr "Siin ei ole faile"
+
+#: /app/apps/files/templates/list.php:32
+msgid "Upload some content or sync with your devices!"
+msgstr "Laadi sisu üles või süngi oma seadmetega!"
+
+#: /app/apps/files/templates/list.php:37
+#: /app/apps/files/templates/recentlist.php:10
+#: /app/apps/files/templates/simplelist.php:13
+msgid "No entries found in this folder"
+msgstr "Selles kaustast ei leitud kirjeid"
+
+#: /app/apps/files/templates/list.php:47
+msgid "Select all"
+msgstr "Vali kõik"
+
+#: /app/apps/files/templates/list.php:91
+msgid "Upload too large"
+msgstr "Üleslaadimine on liiga suur"
+
+#: /app/apps/files/templates/list.php:93
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+"Failid, mida sa proovid üles laadida, ületab serveri poolt üleslaetavatele "
+"failidele määratud maksimaalse suuruse."
+
+#: /app/apps/files/templates/simplelist.php:5
+msgid "No favorites yet"
+msgstr "Lemmikuid veel pole"
+
+#: /app/apps/files/templates/simplelist.php:6
+msgid "Files and folders you mark as favorite will show up here"
+msgstr "Siin kuvatakse faile ja kaustasid, mille oled märkinud lemmikuteks"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:180
+msgid "Shared with you"
+msgstr "Sinuga jagatud"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:191
+msgid "Shared with others"
+msgstr "Teistega jagatud"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:202
+msgid "Shared by link"
+msgstr "Jagatud lingiga"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:213
+msgid "Tags"
+msgstr "Sildid"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:224
+msgid "Deleted files"
+msgstr "Kustutatud failid"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:111
+msgid "Text file"
+msgstr "Tekstifail"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:112
+msgid "New text file.txt"
+msgstr "Uus tekstifail.txt"

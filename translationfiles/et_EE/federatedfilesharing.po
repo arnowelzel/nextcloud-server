@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: J N <jurks666@gmail.com>, 2017\n"
+"Language-Team: Estonian (Estonia) (https://www.transifex.com/nextcloud/teams/64236/et_EE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et_EE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Liit-jagamine"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Soovid lisada kaugjagamise {name} asukohast {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Kaugjagamine"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Kaugjagamise parool"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Tühista"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Lisa kaugjagamine"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Kopeeritud!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Pole toetatud!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Kopeerimiseks vajuta ⌘ + C."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Kopeerimiseks vajuta Ctrl + C."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Vigane liitpilve ID"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Serveritevaheline jagamine ei ole selle pilves aktiiveeritud"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Liitjagamist ei õnnestunud luua"
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr "Liitjagamist ei õnnestunud luua, ehk oli parool vale."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Liitjagamise päring edastatud, sulle saadetakse kutse. Kontrolli oma "
+"teateid."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Ühenduspunkti nimes on vigaseid märke."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Liitjagamise loomine omanikuga ei ole lubatud."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Vigane või tundmatu SSL sertifikaat"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr "Ei õnnestunud kagujagamist autentida, ehk on parool vale"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Andmehoidla pole korrektne"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Liitjagamine lisatud"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Ei suutnud lisada kaugjagamist"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "%s jagamine ebaõnnestus, kuna see üksus on juba jagatud %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Liitjagamise loomine sama kasutajaga ei ole lubatud."
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Fail on juba jagatud kasutajaga %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"%s jagamine ebaõnnestus, ei suutnud %s leida, ehk ei ole server kättesaadav "
+"või kasutab ise allkirjastatud sertifikaati."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Jagamist ei leitud"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "Sa said kaugjagatud faili \"%3$s\" kasutajalt %1$s (%2$s nimel)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Sa said kaugjagatud faili  {share} kasjutajalt  {user} ({behalf} nimel)"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Sa said kaugjagatud faili \"%3$s\" kasutajalt %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Sa said kaugjagatud faili {file} kasutajalt {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Nõustu"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Keeldu"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "Jaga minuga läbi minu #Nextcloudi liitpilve ID, vaata %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Jaga minuga läbi minu #Nextcloudi liitpilve ID"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Jagamine"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Jagamine liitpilves"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Ava dokumentatsioon"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Seadista kuidas inimesed saavad serverite vahel jagada."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "Luba selle serveri kasutajatel saata faile teistesse serveritesse"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Luba selle serveri kasutajatel võtta vastu jagamisi teistest serveritest"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Otsi kasutajaid globaalsest ja avalikust aadressiraamatust"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Luba kasutajatel avaldada oma andmeid globaalses ja avalikus "
+"aadressiraamatus"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Liitpilv"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Sa võid jagada kõigiga kes kasutab Nextcloudi, ownCloudi või Pydio't. "
+"Lihtsalt siseta jagamise dialoogi nende liitpilve ID. See näeb välja nagu "
+"person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Sinu liitpilve ID:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Jaga seda, et su sõbrad saaksid sinuga faile jagada:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Lisa oma veebisaidile"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Jaga minuga läbi Nextclouddiga"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML kood:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Otsi kasutajaid globaalsest ja avalikust aadressiraamatust ja luba kohalikel"
+" kasutajatel avaldada oma andmeid"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Jaga seda:"

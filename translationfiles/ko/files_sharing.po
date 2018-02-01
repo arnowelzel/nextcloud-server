@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 이주홍 <admin@alphafactory.co.kr>, 2017\n"
+"Language-Team: Korean (https://www.transifex.com/nextcloud/teams/64236/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /app/apps/files_sharing/appinfo/app.php:59
+#: /app/apps/files_sharing/js/app.js:42
+msgid "Shared with you"
+msgstr "나와 공유됨"
+
+#: /app/apps/files_sharing/appinfo/app.php:71
+#: /app/apps/files_sharing/js/app.js:65
+msgid "Shared with others"
+msgstr "다른 사람과 공유됨"
+
+#: /app/apps/files_sharing/appinfo/app.php:84
+#: /app/apps/files_sharing/js/app.js:88
+msgid "Shared by link"
+msgstr "링크로 공유됨"
+
+#: /app/apps/files_sharing/js/app.js:44
+msgid "Nothing shared with you yet"
+msgstr "나와 공유된 항목 없음"
+
+#: /app/apps/files_sharing/js/app.js:45
+msgid "Files and folders others share with you will show up here"
+msgstr "다른 사람이 공유한 파일과 폴더가 여기에 나타납니다"
+
+#: /app/apps/files_sharing/js/app.js:67
+msgid "Nothing shared yet"
+msgstr "공유된 항목 없음"
+
+#: /app/apps/files_sharing/js/app.js:68
+msgid "Files and folders you share will show up here"
+msgstr "내가 공유하는 파일과 폴더가 여기에 나타납니다"
+
+#: /app/apps/files_sharing/js/app.js:90
+msgid "No shared links"
+msgstr "공유된 링크 없음"
+
+#: /app/apps/files_sharing/js/app.js:91
+msgid "Files and folders you share by link will show up here"
+msgstr "내가 링크로 공유하는 파일과 폴더가 여기에 나타납니다"
+
+#: /app/apps/files_sharing/js/public.js:228
+msgid "You can upload into this folder"
+msgstr "이 폴더에 업로드할 수 있습니다"
+
+#: /app/apps/files_sharing/js/public.js:349
+msgid "No compatible server found at {remote}"
+msgstr "{remote}에서 호환 서버를 찾을 수 없음"
+
+#: /app/apps/files_sharing/js/public.js:350
+msgid "Invalid server URL"
+msgstr "잘못된 서버 URL"
+
+#: /app/apps/files_sharing/js/public.js:404
+msgid "Failed to add the public link to your Nextcloud"
+msgstr "Nextcloud에 공개 링크를 추가할 수 없음"
+
+#: /app/apps/files_sharing/js/share.js:152
+msgid "Share"
+msgstr "공유"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:102
+msgid "No expiration date set"
+msgstr "만료 날짜가 설정되지 않았음"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:231
+msgid "Shared by"
+msgstr "공유한 사용자:"
+
+#: /app/apps/files_sharing/js/sharetabview.js:35
+msgid "Sharing"
+msgstr "공유"
+
+#: /app/apps/files_sharing/lib/Activity/Filter.php:59
+msgid "File shares"
+msgstr "파일 공유"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:48
+msgid "Downloaded via public link"
+msgstr "공개 링크로 다운로드"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:51
+msgid "Downloaded by {email}"
+msgstr "{email} 님이 다운로드함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:77
+msgid "{file} downloaded via public link"
+msgstr "공개 링크로 {file} 다운로드함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:80
+msgid "{email} downloaded {file}"
+msgstr "{email} 님이 {file}을(를) 다운로드함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:45
+msgid "Shared with group {group}"
+msgstr "그룹 {group}와(과) 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:47
+msgid "Removed share for group {group}"
+msgstr "그룹 {group}의 공유를 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:49
+msgid "{actor} shared with group {group}"
+msgstr "{actor} 님이 그룹 {group}와(과) 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:51
+msgid "{actor} removed share for group {group}"
+msgstr "{actor} 님이 그룹 {group}의 공유를 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:76
+msgid "You shared {file} with group {group}"
+msgstr "파일 {file}을(를) 그룹 {group}와(과) 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:78
+msgid "You removed group {group} from {file}"
+msgstr "그룹 {group}을(를) {file}에서 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:80
+msgid "{actor} shared {file} with group {group}"
+msgstr "{actor} 님이 {file}을(를) 그룹 {group}와(과) 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:82
+msgid "{actor} removed group {group} from {file}"
+msgstr "{actor} 님이 그룹 {group}을(를) {file}에서 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:47
+msgid "Shared as public link"
+msgstr "공개 링크로 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:49
+msgid "Removed public link"
+msgstr "공개 링크 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:51
+msgid "Public link expired"
+msgstr "공개 링크 만료됨"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:53
+msgid "{actor} shared as public link"
+msgstr "{actor} 님이 공개 링크로 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:55
+msgid "{actor} removed public link"
+msgstr "{actor} 님이 공개 링크를 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:57
+msgid "Public link of {actor} expired"
+msgstr "{actor} 님의 공개 링크가 만료됨"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:83
+msgid "You shared {file} as public link"
+msgstr "{file}을(를) 공개 링크로 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:85
+msgid "You removed public link for {file}"
+msgstr "{file}의 공개 링크를 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:87
+msgid "Public link expired for {file}"
+msgstr "{file}의 공개 링크가 만료됨"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:89
+msgid "{actor} shared {file} as public link"
+msgstr "{actor} 님이 {file}을(를) 공개 링크로 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:91
+msgid "{actor} removed public link for {file}"
+msgstr "{actor} 님이 {file}의 공개 링크를 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:93
+msgid "Public link of {actor} for {file} expired"
+msgstr "{actor} 님의 {file} 공개 링크가 만료됨"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:70
+msgid "{user} accepted the remote share"
+msgstr "{user} 님이 원격 공유를 수락함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:72
+msgid "{user} declined the remote share"
+msgstr "{user} 님이 원격 공유를 거절함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:97
+msgid "You received a new remote share {file} from {user}"
+msgstr "{user} 님으로부터 원격 공유된 {file}을(를) 받음"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:99
+msgid "{user} accepted the remote share of {file}"
+msgstr "{user} 님이 {file}의 원격 공유를 수락함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:101
+msgid "{user} declined the remote share of {file}"
+msgstr "{user} 님이 {file}의 원격 공유를 거절함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:103
+msgid "{user} unshared {file} from you"
+msgstr "{user} 님이 {file} 공유를 해제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:49
+msgid "Shared with {user}"
+msgstr "{user} 님과 공유됨"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:51
+msgid "Removed share for {user}"
+msgstr "{user} 님의 공유 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:53
+msgid "{actor} shared with {user}"
+msgstr "{actor} 님이 {user} 님과 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:55
+msgid "{actor} removed share for {user}"
+msgstr "{actor} 님이 {user} 님의 공유 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:57
+msgid "Shared by {actor}"
+msgstr "{actor} 님이 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:59
+msgid "{actor} removed share"
+msgstr "{actor} 님이 공유 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:85
+msgid "You shared {file} with {user}"
+msgstr "{file}을(를) {user} 님과 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:87
+msgid "You removed {user} from {file}"
+msgstr "{user} 님을 {file}에서 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:89
+msgid "{actor} shared {file} with {user}"
+msgstr "{actor} 님이 {file}을(를) {user} 님과 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:91
+msgid "{actor} removed {user} from {file}"
+msgstr "{actor} 님이 {user} 님을 {file}에서 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:93
+msgid "{actor} shared {file} with you"
+msgstr "{actor} 님이 {file}을 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:95
+msgid "{actor} removed you from {file}"
+msgstr "{actor} 님이 여러분을 {file}에서 삭제함"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/PublicLinks.php:55
+msgid ""
+"A file or folder shared by mail or by public link was "
+"<strong>downloaded</strong>"
+msgstr "이메일이나 공개 공유로 공유한 파일이 <strong>다운로드됨</strong>"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/RemoteShare.php:56
+msgid "A file or folder was shared from <strong>another server</strong>"
+msgstr "<strong>다른 서버</strong>에서 파일이나 폴더를 공유함"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/Shared.php:56
+msgid "A file or folder has been <strong>shared</strong>"
+msgstr "파일이나 폴더가 <strong>공유됨</strong>"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:248
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:260
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:276
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:681
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:687
+msgid "Wrong share ID, share doesn't exist"
+msgstr "잘못된 공유 ID, 공유가 존재하지 않음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:282
+msgid "could not delete share"
+msgstr "공유를 삭제할 수 없음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:286
+msgid "Could not delete share"
+msgstr "공유를 삭제할 수 없음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:332
+msgid "Please specify a file or folder path"
+msgstr "파일이나 폴더 경로를 지정하십시오"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:339
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:598
+msgid "Wrong path, file/folder doesn't exist"
+msgstr "잘못된 경로, 파일/폴더가 존재하지 않음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:347
+msgid "Could not create share"
+msgstr "공유를 만들 수 없음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:351
+msgid "invalid permissions"
+msgstr "잘못된 권한"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:375
+msgid "Please specify a valid user"
+msgstr "올바른 사용자를 지정하십시오"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:381
+msgid "Group sharing is disabled by the administrator"
+msgstr "관리자가 그룹 공유를 비활성화함"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:386
+msgid "Please specify a valid group"
+msgstr "올바른 그룹을 지정하십시오"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:393
+msgid "Public link sharing is disabled by the administrator"
+msgstr "관리자가 공개 링크 공유를 비활성화함"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:408
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:730
+msgid "Public upload disabled by the administrator"
+msgstr "공개 업로드는 관리자에 의해 비활성화되어 있음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:413
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:734
+msgid "Public upload is only possible for publicly shared folders"
+msgstr "공개 공유 폴더에만 공개 업로드를 사용할 수 있음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:437
+msgid "Invalid date, date format must be YYYY-MM-DD"
+msgstr "잘못된 날짜, YYYY-MM-DD 형식이어야 합니다."
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:443
+#, php-format
+msgid ""
+"Sharing %s failed because the back end does not allow shares from type %s"
+msgstr "%s을(를) 공유할 수 없습니다. 백엔드에서 %s 형식의 공유를 지원하지 않습니다"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:461
+msgid "You cannot share to a Circle if the app is not enabled"
+msgstr "서클 앱이 활성화되어 있지 않으면 서클로 공유할 수 없음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:468
+msgid "Please specify a valid circle"
+msgstr "올바른 서클을 지정하십시오"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:473
+msgid "Unknown share type"
+msgstr "알 수 없는 공유 형식"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:535
+msgid "Not a directory"
+msgstr "디렉터리가 아님"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:600
+msgid "Could not lock path"
+msgstr "경로를 잠글 수 없음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:691
+msgid "Wrong or no update parameter given"
+msgstr "업데이트 인자가 잘못되었거나 지정되지 않았음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:720
+msgid "Can't change permissions for public share links"
+msgstr "공개 공유 링크의 권한을 변경할 수 없음"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:803
+msgid "Cannot increase permissions"
+msgstr "권한을 늘릴 수 없음"
+
+#: /app/apps/files_sharing/lib/Middleware/OCSShareAPIMiddleware.php:56
+msgid "Share API is disabled"
+msgstr "공유 API가 비활성화됨"
+
+#: /app/apps/files_sharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "File sharing"
+msgstr ""
+
+#: /app/apps/files_sharing/templates/authenticate.php:11
+msgid "This share is password-protected"
+msgstr "이 공유는 암호로 보호되어 있습니다"
+
+#: /app/apps/files_sharing/templates/authenticate.php:14
+msgid "The password is wrong. Try again."
+msgstr "암호가 잘못되었습니다. 다시 입력해 주십시오."
+
+#: /app/apps/files_sharing/templates/authenticate.php:17
+#: /app/apps/files_sharing/templates/authenticate.php:20
+msgid "Password"
+msgstr "암호"
+
+#: /app/apps/files_sharing/templates/list.php:10
+msgid "No entries found in this folder"
+msgstr "이 폴더에 항목 없음"
+
+#: /app/apps/files_sharing/templates/list.php:18
+msgid "Name"
+msgstr "이름"
+
+#: /app/apps/files_sharing/templates/list.php:22
+msgid "Share time"
+msgstr "공유 시간"
+
+#: /app/apps/files_sharing/templates/list.php:25
+msgid "Expiration date"
+msgstr "만료 날짜"
+
+#: /app/apps/files_sharing/templates/part.404.php:3
+msgid "Sorry, this link doesn’t seem to work anymore."
+msgstr "죄송합니다. 이 링크는 더 이상 작동하지 않습니다."
+
+#: /app/apps/files_sharing/templates/part.404.php:4
+msgid "Reasons might be:"
+msgstr "이유는 다음과 같을 수 있습니다:"
+
+#: /app/apps/files_sharing/templates/part.404.php:6
+msgid "the item was removed"
+msgstr "항목이 삭제됨"
+
+#: /app/apps/files_sharing/templates/part.404.php:7
+msgid "the link expired"
+msgstr "링크가 만료됨"
+
+#: /app/apps/files_sharing/templates/part.404.php:8
+msgid "sharing is disabled"
+msgstr "공유가 비활성화됨"
+
+#: /app/apps/files_sharing/templates/part.404.php:10
+msgid "For more info, please ask the person who sent this link."
+msgstr "자세한 정보는 링크를 보낸 사람에게 문의하십시오."
+
+#: /app/apps/files_sharing/templates/public.php:46
+#, php-format
+msgid "shared by %s"
+msgstr "%s에 의해 공유됨"
+
+#: /app/apps/files_sharing/templates/public.php:53
+#: /app/apps/files_sharing/templates/public.php:59
+msgid "Download"
+msgstr "다운로드"
+
+#: /app/apps/files_sharing/templates/public.php:65
+msgid "Direct link"
+msgstr "직접 링크"
+
+#: /app/apps/files_sharing/templates/public.php:74
+msgid "Add to your Nextcloud"
+msgstr "내 Nextcloud에 추가"
+
+#: /app/apps/files_sharing/templates/public.php:108
+#, php-format
+msgid "Download %s"
+msgstr "%s 다운로드"
+
+#: /app/apps/files_sharing/templates/public.php:120
+#, php-format
+msgid "Upload files to %s"
+msgstr "%s에 파일 업로드"
+
+#: /app/apps/files_sharing/templates/public.php:127
+msgid "Select or drop files"
+msgstr "파일을 선택하거나 끌어다 놓기"
+
+#: /app/apps/files_sharing/templates/public.php:128
+msgid "Uploading files…"
+msgstr "파일 업로드 중…"
+
+#: /app/apps/files_sharing/templates/public.php:129
+msgid "Uploaded files:"
+msgstr "업로드한 파일:"

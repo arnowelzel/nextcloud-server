@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Loki3000, 2016\n"
+"Language-Team: Russian (https://www.transifex.com/nextcloud/teams/64236/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Сохранено"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Ошибка при сохранении:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "MIME-тип файла"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "равняется"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "не равняется"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "соответствует"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "не соответствует"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Пример: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Размер передаваемого на сервер файла"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "меньше"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "меньше либо равно"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "больше либо равно"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "больше"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Метка файла"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "файл помечен"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "файл не помечен"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Выберите метку…"
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Адрес, с которого производится запрос"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "соответствует IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "не соответствует IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "соответствует IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "не соответствует IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Время запроса"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "между"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "не между"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Начало"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Окончание"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Выберите часовой пояс…"
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "URL запроса"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Предопределенные URL"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Файлы WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Используемое приложение (user agent)"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Клиенты синхронизации"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "клиент для Android"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "клиент для iOS"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "клиент для ПК"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Участие в группе пользователей"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "является участником"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "не является участником"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Указанный оператор неверен"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Указанное регулярное выражение неверно"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Укзанный размер файла неверен"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Указанная метка неверна"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Указанный диапазон IP адресов неверен"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Указанный диапазон IP не соответствует IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Указанный диапазон IP не соответствует IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Указанный интервал времени неверен"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Указаное время начала неверно"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Указаное время окончания неверно"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Указанная группа не существует"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Проверка %s неверна или не существует"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Операция #%s не существует"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Операция %s не существует"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Операция %s неверна"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Проверка %s не существует"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Проверка %s неверна"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Проверка #%s не существует"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Рабочий процесс"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Открыть документацию"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Добавить группу правил"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Краткое описание правила"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Добавить правило"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Сбросить"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Сохранить"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Сохранение..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Загрузка..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Успешно сохранено"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "MIME тип файла"

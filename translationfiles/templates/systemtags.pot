@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /app/apps/systemtags/appinfo/app.php:68 /app/apps/systemtags/js/app.js:36
+#: /app/apps/systemtags/js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr ""
+
+#: /app/apps/systemtags/js/admin.js:119
+msgid "Update"
+msgstr ""
+
+#: /app/apps/systemtags/js/admin.js:124
+#: /app/apps/systemtags/templates/admin.php:56
+msgid "Create"
+msgstr ""
+
+#: /app/apps/systemtags/js/admin.js:134
+msgid "Select tag…"
+msgstr ""
+
+#: /app/apps/systemtags/js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr ""
+
+#: /app/apps/systemtags/js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr ""
+
+#: /app/apps/systemtags/js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr ""
+
+#: /app/apps/systemtags/js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr ""
+
+#: /app/apps/systemtags/js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:116
+#, php-format
+msgid "Added system tag %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:119
+msgid "Added system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:123
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:127
+msgid "{actor} added system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:134
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:137
+msgid "Removed system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:141
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:145
+msgid "{actor} removed system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:174
+#, php-format
+msgid "You created system tag %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:177
+msgid "You created system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:179
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:183
+msgid "{actor} created system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:187
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:190
+msgid "You deleted system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:192
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:196
+msgid "{actor} deleted system tag {systemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:200
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:204
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:206
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:211
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:215
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:219
+msgid "You added system tag {systemtag} to {file}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:221
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:226
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:230
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:234
+msgid "You removed system tag {systemtag} from {file}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:236
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:241
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:324
+#, php-format
+msgid "%s (restricted)"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (invisible)"
+msgstr ""
+
+#: /app/apps/systemtags/lib/Activity/Setting.php:53
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr ""
+
+#: /app/apps/systemtags/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/systemtags/templates/admin.php:35
+msgid "Collaborative tags"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:38
+msgid "Select tag …"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:42
+#: /app/apps/systemtags/templates/list.php:21
+msgid "Name"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:45
+msgid "Delete"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:51
+msgid "Public"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:52
+msgid "Restricted"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:53
+msgid "Invisible"
+msgstr ""
+
+#: /app/apps/systemtags/templates/admin.php:57
+msgid "Reset"
+msgstr ""
+
+#: /app/apps/systemtags/templates/list.php:6
+msgid "No files in here"
+msgstr ""
+
+#: /app/apps/systemtags/templates/list.php:12
+msgid "No entries found in this folder"
+msgstr ""
+
+#: /app/apps/systemtags/templates/list.php:25
+msgid "Size"
+msgstr ""
+
+#: /app/apps/systemtags/templates/list.php:28
+msgid "Modified"
+msgstr ""

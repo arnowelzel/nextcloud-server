@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: togglecode <payam.foroushan@huemer-dc.com>, 2017\n"
+"Language-Team: Persian (https://www.transifex.com/nextcloud/teams/64236/fa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /app/apps/files_trashbin/ajax/delete.php:85
+#, php-format
+msgid "Couldn't delete %s permanently"
+msgstr "%s را نمی توان برای همیشه حذف کرد"
+
+#: /app/apps/files_trashbin/ajax/undelete.php:90
+#, php-format
+msgid "Couldn't restore %s"
+msgstr "%s را نمی توان بازگرداند"
+
+#: /app/apps/files_trashbin/appinfo/app.php:38
+#: /app/apps/files_trashbin/js/filelist.js:44
+#: /app/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Deleted files"
+msgstr "فایل های حذف شده"
+
+#: /app/apps/files_trashbin/js/app.js:49
+#: /app/apps/files_trashbin/templates/index.php:36
+msgid "Restore"
+msgstr "بازیابی"
+
+#: /app/apps/files_trashbin/js/app.js:71
+#: /app/apps/files_trashbin/templates/index.php:40
+#: /app/apps/files_trashbin/templates/index.php:49
+msgid "Delete"
+msgstr "حذف"
+
+#: /app/apps/files_trashbin/js/app.js:77 /app/apps/files_trashbin/js/app.js:78
+msgid "Delete permanently"
+msgstr "حذف قطعی"
+
+#: /app/apps/files_trashbin/js/filelist.js:145
+#: /app/apps/files_trashbin/js/filelist.js:190
+#: /app/apps/files_trashbin/js/filelist.js:240
+msgid "Error"
+msgstr "خطا"
+
+#: /app/apps/files_trashbin/js/filelist.js:338
+msgid "This operation is forbidden"
+msgstr "این عملیات غیرمجاز است"
+
+#: /app/apps/files_trashbin/js/filelist.js:346
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"پوشه‌ در دسترس نیست، لطفا لاگ‌ها را بررسی کنید یا به مدیر سیستم اطلاع دهید"
+
+#: /app/apps/files_trashbin/lib/Trashbin.php:908
+#: /app/apps/files_trashbin/lib/Trashbin.php:910
+msgid "restored"
+msgstr "بازیابی شد"
+
+#: /app/apps/files_trashbin/templates/index.php:9
+msgid "No deleted files"
+msgstr "هیچ فایل حذف شده وجود ندارد"
+
+#: /app/apps/files_trashbin/templates/index.php:10
+msgid "You will be able to recover deleted files from here"
+msgstr "شما قادر خواهید بود فایل های حذف شده را از اینجا بازیابی کنید"
+
+#: /app/apps/files_trashbin/templates/index.php:17
+msgid "No entries found in this folder"
+msgstr "هیچ ورودی‌ای در این پوشه وجود ندارد"
+
+#: /app/apps/files_trashbin/templates/index.php:27
+msgid "Select all"
+msgstr "انتخاب همه"
+
+#: /app/apps/files_trashbin/templates/index.php:32
+msgid "Name"
+msgstr "نام"
+
+#: /app/apps/files_trashbin/templates/index.php:46
+msgid "Deleted"
+msgstr "حذف شده"

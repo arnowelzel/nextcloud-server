@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: shyaminayesh <shyaminsaf@gmail.com>, 2017\n"
+"Language-Team: Sinhala (Sri Lanka) (https://www.transifex.com/nextcloud/teams/64236/si_LK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: si_LK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:52 js/commentstabview.js:144 lib/Activity/Filter.php:57
+msgid "Comments"
+msgstr "අදහස් දැක්වීම්"
+
+#: js/commentstabview.js:116
+msgid "New comment …"
+msgstr "අලුත් අදහස් දැක්වීමක් ..."
+
+#: js/commentstabview.js:117
+msgid "Delete comment"
+msgstr "අදහස් දැක්වීම මකන්න"
+
+#: js/commentstabview.js:118
+msgid "Post"
+msgstr "ලිපියක්"
+
+#: js/commentstabview.js:119
+msgid "Cancel"
+msgstr "එපා"
+
+#: js/commentstabview.js:129
+msgid "Edit comment"
+msgstr "අදහස වෙනස් කරන්න"
+
+#: js/commentstabview.js:137
+msgid "[Deleted user]"
+msgstr "[ඉවත්කළ සේවාදායකයා]"
+
+#: js/commentstabview.js:166
+msgid "No comments yet, start the conversation!"
+msgstr "තවම අදහස් නැත. ආරම්බක අදහස ඇතුළු කරන්න !"
+
+#: js/commentstabview.js:167
+msgid "More comments …"
+msgstr "තවත් අදහස් ..."
+
+#: js/commentstabview.js:486
+msgid "Save"
+msgstr "සුරකින්න"
+
+#: js/commentstabview.js:526
+msgid "Allowed characters {count} of {max}"
+msgstr "අකුරු {max} න් {count} බාවිතා කර ඇත"
+
+#: js/commentstabview.js:589
+msgid "Error occurred while retrieving comment with id {id}"
+msgstr "{id} අදහස ලබාගැනීමේ ගැටළුවක් ඇත"
+
+#: js/commentstabview.js:711
+msgid "Error occurred while updating comment with id {id}"
+msgstr "{id} අදහස වෙනස් කිරීමේ දෝෂයක් ඇත"
+
+#: js/commentstabview.js:713
+msgid "Error occurred while posting comment"
+msgstr "අදහස්ගැ දැක්වීමේ ගැටළුවක් ඇත"
+
+#: js/filesplugin.js:47
+msgid "%n unread comment"
+msgid_plural "%n unread comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/filesplugin.js:90
+msgid "Comment"
+msgstr "අදහස"
+
+#: lib/Activity/Provider.php:122 lib/Activity/Provider.php:123
+msgid "You commented"
+msgstr "ඔයාගේ අදහස"
+
+#: lib/Activity/Provider.php:126
+#, php-format
+msgid "%1$s commented"
+msgstr "%1$s අදහස් දක්වා ඇත"
+
+#: lib/Activity/Provider.php:127
+msgid "{author} commented"
+msgstr "{අයිතිකරු} අදහස් දක්වා ඇත"
+
+#: lib/Activity/Provider.php:148
+#, php-format
+msgid "You commented on %1$s"
+msgstr "ඔබ %1$s හි අදහස් දක්වා ඇත"
+
+#: lib/Activity/Provider.php:151
+msgid "You commented on {file}"
+msgstr "ඔබ {file} හි අදහස් දක්වා ඇත"
+
+#: lib/Activity/Provider.php:156
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr "%1$s, %2$s තුල අදහස් දක්වා ඇත"
+
+#: lib/Activity/Provider.php:160
+msgid "{author} commented on {file}"
+msgstr "{author}, {file} තුල අදහසක් දක්වා ඇත"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>Comments</strong> for files"
+msgstr "ගොනු සදහා <strong>අදහස් </strong>"
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid ""
+"You were mentioned on “%s”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:112
+msgid ""
+"You were mentioned on “{file}”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+
+#: lib/Notification/Notifier.php:125
+#, php-format
+msgid "%1$s mentioned you in a comment on “%2$s”"
+msgstr "%1$s ඔබව %2$s හි අදහසක මතක් කර ඇත"
+
+#: lib/Notification/Notifier.php:129
+msgid "{user} mentioned you in a comment on “{file}”"
+msgstr "{user} ඔබව {file} තුලදී මතක් කර ඇත"
+
+#: appinfo/app.php:71
+msgid "Unknown user"
+msgstr "හදුනානොගත් සේවාදායකයා"
+
+#: lib/Notification/Notifier.php:104
+#, php-format
+msgid "A (now) deleted user mentioned you in a comment on “%s”"
+msgstr "මකන ලද සේවාදායකයෙක් (now) ඔබව %s අදහස තුල මතක් කර ඇත"
+
+#: lib/Notification/Notifier.php:108
+msgid "A (now) deleted user mentioned you in a comment on “{file}”"
+msgstr ""
+"{file} තුල අදහස් දැක්වීමකදී, (now) ඉවත්කරන ලද සේවාදායකයෙක් ඔබව මතක් කර ඇත"

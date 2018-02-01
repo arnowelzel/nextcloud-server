@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2017\n"
+"Language-Team: Icelandic (https://www.transifex.com/nextcloud/teams/64236/is/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Vistað"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Vistun mistókst:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "MIME-skráartegund"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "er"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "er ekki"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "samsvarar"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "samsvarar ekki"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Dæmi: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Skráarstærð (innsending)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "minna en"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "minna eða jafnt"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "stærra eða jafnt"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "meira en"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Skráakerfismerki"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "er merkt með"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "er ekki merkt með"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Veldu merki..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Biðja um fjartengt vistfang"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "samsvarar IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "samsvarar ekki IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "samsvarar IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "samsvarar ekki IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Tími beiðnar"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "á milli"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "er ekki á milli"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Byrjun"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Endar"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Veldu tímabelti…"
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Slóð á beiðni"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Forákvarðaðar slóðir"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "WebDAV skráa"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Biðja um notandaforrit"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Samstilla biðlara"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android-biðlari"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS-biðlari"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Skjáborðsforrit"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Notandi er meðlimur í hópum"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "er meðlimur í "
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "er ekki meðlimur í"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Uppgefinn virki er ógildur"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Uppgefin regluleg segð er ógild"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Uppgefin stærð er ógild"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Uppgefið auðkenni merkis er ógilt"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Uppgefna IP-vistfangasviðið er ógilt"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Uppgefna IP-vistfangasviðið er ekki gilt fyrir IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Uppgefna IP-vistfangasviðið er ekki gilt fyrir IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Uppgefið tímasvið er ógilt"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Uppgefinn upphafstími er ógildur"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Uppgefinn lokatími er ógildur"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Uppgefinn hópur er ekki til"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Athugunin %s er ógild eða er ekki til"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Aðgerðin #%s er ekki til"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Aðgerðin %s er ekki til"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Aðgerðin %s er ógild"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Athugunin %s er ekki til"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Athugunin %s er ógild"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Athugunin #%s er ekki til"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Vinnuferli"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Opna hjálparskjöl"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Bæta við regluhópi"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Stutt lýsing á reglu"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Bæta við reglu"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Endurstilla"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Vista"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Vista…"
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Hleð inn..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Tókst að vista"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Skráartegund"

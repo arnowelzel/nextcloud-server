@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: David Asbrow <j1897773@mvrht.net>, 2017\n"
+"Language-Team: Latvian (https://www.transifex.com/nextcloud/teams/64236/lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Saglabāts"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Saglabāšana neizdevās:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Faila MIME tips"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "ir"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "nav"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "atbilst"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "neatbilst"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Piemērs: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Faila lielums (augšupielādēt)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "mazāk"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "mazāks vai vienāds ar"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "lielāks vai vienāds ar"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "lielāks"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Failu sistēmas atzīme"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "atzīmēts ar"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "nav atzīmēts ar"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Izvēlies atzīmi..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Pieprasīt attālo adresi"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "atbilst IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "neatbilst IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "atbilst IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "neatbilst IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Pieprasījuma laiks"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "starp"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "nav starp"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Sākums"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Beigas"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Izvēlieties laika joslu..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Pieprasījuma URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Standarta URLs"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "WebDAV faili"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Nepieciešams lietotāja aģents"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Sync klients"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android klients"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS klients"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Darbvirsmas klients"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Lietotāju grupas piederība"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "ir biedrs"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "nav biedrs"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Norādītais operators ir nederīgs"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Norādītā regulārā izteiksme nav derīga."
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Norādītais faila formāts nav derīgs"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Norādītais birkas id ir nederīgs"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Norādītais IP diapazons ir nederīgs"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Norādītais IP diapazons nav derīgs IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Norādītais IP diapazons nav derīgs IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Norādītais laiks nav derīgs."
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Dotais sākuma laiks ir nederīgs"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Norādītais beigu laiks nav derīgs."
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Norādītā grupa nepastāv."
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Pārbaude %s ir nederīga vai nepastāv"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Operation #%s does not exist"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Darbība %s neeksistē"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Darbība %s ir nederīga"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Pārbaude %s nepastāv"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Pārbaude %s ir nederīga"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Pārbaude #%s nepastāv"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Darbplūsma"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Atvērt dokumentāciju"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Pievienot kārtulu grupas"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Īss kārtulas apraksts"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Pievienot kārtulu"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Atiestatīt"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Saglabāt"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Saglabā..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Ielādē …"
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Veiksmīgi saglabāts"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Faila MIME tips"

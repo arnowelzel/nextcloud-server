@@ -1,0 +1,942 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: shaolin123 <shaonick@mail.com>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/nextcloud/teams/64236/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "清除映射失败。"
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "未能删除服务器配置"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "配置无效：不允许匿名绑定。"
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "配置有效，连接成功！"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr "配置有效但绑定失败。请检查服务器设置和认证信息。"
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr "配置无效。更多细节请查看日志。"
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "未指定操作"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "未指定配置文件"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "未指定数据"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr " 无法设定配置文件 %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "操作不存在"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "LDAP用户和组"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "更新..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "非常弱的密码"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "弱密码"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "一般的密码"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "不错的密码"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "很好的密码"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Base DN似乎错了"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "测试配置..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "配置错误"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "配置未完成"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "配置完成"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "选择分组"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "选择对象类型"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "凭据错误，请检查凭据。"
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "无法自动识别，请指定一个端口。"
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr "无法自动识别DN，请检查凭证，主机和端口。"
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "无法探测Base DN，请手动输入。"
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. 服务器"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "基础DN中未能找到指定对象，请检查。"
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "超过1000个可用目录条目。"
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "基础DN中的可用条目"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr "发生错误。请检查基本DN，以及连接设置和凭据。"
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "您真的想要删除当前服务器配置吗？"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "确认删除"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "映射清除成功！"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "清除映射时发生错误。"
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr "禁止匿名绑定。请提供有效的用户DN和密码。"
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "LDAP操作错误。匿名绑定可能不会被允许。"
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr "保存失败。请确保数据库正在运行。继续前将重新载入。"
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr "切换模式将启用自动LDAP查询。根据您的LDAP规模，可能需要一段时间。是否继续切换模式？"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "切换模式"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "选择属性"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr "找不到用户。请检查您的登录属性和用户名。有效过滤（复制和粘贴命令行验证）："
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "用户已找到，设置已验证。"
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr "如返回结果太多可考虑进一步缩小搜索范围，仅返回的第一个用户有效。"
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr "发生未指定的错误。请检查设置和日志。"
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr "搜索的筛选条件无效，可能是由于不完全开闭括号的句法的问题，请检查。"
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr "LDAP/ AD连接错误，请检查主机，端口和凭证。"
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr "该%uid占位符缺失。它将在LDAP/ AD登录名查询时进行替换。"
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "请提供登录名以测试"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr "该组框被禁用，因为LDAP/ AD服务器不支持memberOf。"
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "密码更改出错。提示："
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "请使用新密码登录"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "您的密码将在明天过期"
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "您的明码将在今天过期"
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "您的密码会在%n天后过期"
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD 整合"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "发现 %s 个群组"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "发现 %s 个用户"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr "无法检测到用户的显示名称属性。请在高级LDAP设置中指定。"
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "无法找到所需的功能"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "无效的主机"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "测试配置"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "帮助"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "满足这些条件组在%s可供选择："
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "只有这些对象类："
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "仅从这些组："
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "搜索分组"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "可选分组"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "已选分组"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "编辑LDAP查询"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP筛选:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "该筛选条件指定哪些LDAP组有权访问%s的实例。"
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "验证设置和统计组"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr "登录时,%s将查找基于以下属性的用户："
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP/AD用户名:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr "允许登录LDAP / AD用户名，这是“uid”或“sAMAccountName”，并将被检测到。"
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP/AD邮箱地址："
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr "允许根据电子邮件属性登录。 允许“mail”和“mailPrimaryAddress”。"
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "其他属性："
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr "定义登录时采用的过滤规则。登录时用 \"%%uid\" 替换用户名。例如：\"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "测试登录名"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "验证设置"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1.服务器"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s.服务器"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "增加一个新的配置"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "当前配置复制到新目录"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "删除当前配置"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "主机"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr "您可以省略协议前缀，但如果您要求使用SSL，请确保附加 ldaps:// 前缀"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "端口"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "检测端口"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "User DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"客户端使用的DN必须与绑定的相同，比如uid=agent,dc=example,dc=com\n"
+"如需匿名访问，将DN和密码保留为空"
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "密码"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "启用匿名访问，将DN和密码保留为空"
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "保存凭据"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "每行一个基本判别名"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr "您可以在高级选项卡里为用户和组指定Base DN"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "检测基础DN"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "测试基础DN"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr "避免自动LDAP请求。用于更精确的设置，但需要一些LDAP知识。"
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "手动输入LDAP筛选条件(建议用于大型目录)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "列表搜索用户受到标准约束:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"对于用户最常用的对象类为organizationalPerson，person，user和inetOrgPerson。如果你不确定选择哪些对象类，请咨询您的目录管理员。"
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr "该筛选条件指定哪些LDAP用户有权访问%s的实例。"
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "验证设置和统计用户"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "保存中"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "返回"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "继续"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "请更新您的密码。"
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "发生了一个内部错误。"
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "请重试，或联系您的管理员。"
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "当前密码"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "新密码"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "更新密码"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "密码错误。是否重置？"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "密码错误。"
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "取消！"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "服务器"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "用户"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "登录属性"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "群组"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "专家"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "高级"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr "<b>警告：</b> PHP LDAP 模块未安装，后端将无法工作。请请求您的系统管理员安装该模块。"
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "连接设置"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "现行配置"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "当反选后，此配置将被忽略。"
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "备份 (镜像) 主机"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr "给出一个可选的备份主机。它必须为主 LDAP/AD 服务器的一个镜像。"
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "备份 (镜像) 端口"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "禁用主服务器"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "只能连接到复制服务器"
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "关闭SSL证书验证"
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr "不推荐，只用于测试！如果连接只使用此选项工作，导入您的%s服务器LDAP服务器的SSL证书。"
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "缓存存活时间"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "以秒计。修改将清空缓存。"
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "目录设置"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "用户显示名称字段"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr "用来生成用户的显示名称的 LDAP 属性。"
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "第二用户显示名称字段"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr "可选项。LDAP属性被添加到显示名称的括号内。例如»John Doe (john.doe@example.org)«。"
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "基础用户树"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "每行一个用户基准判别名"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "用户搜索属性"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "可选;每行一个属性"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "组显示名称字段"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr "用来生成组的显示名称的 LDAP 属性。"
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "基础组树"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "每行一个群组基准判别名"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "群组搜索属性"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "组成员关联"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "动态组成员URL"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr "LDAP组对象属性，包含用于确定属于该组对象的LDAP搜索URL。(空设置禁用动态组成员的功能。)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "嵌套组"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr "当选择后，包含组的组将启用。(只有当组成员属性包含DNs时有效。)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "页块大小"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr "用于在LDAP搜索返回如用户或组枚举结果时进行分页显示。 (设置它为0时，禁止在这些情况下分页LDAP搜索。)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "每个用户可以更改 LDAP 密码"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"允许LDAP用户更改其密码，并允许超级管理员和组管理员更改LDAP用户的密码。 仅在LDAP服务器上相应配置访问控制策略时有效。 "
+"由于密码以纯文本形式发送到LDAP服务器，因此必须使用传输加密，并在LDAP服务器上配置散列密码。"
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(新的密码将以纯文本形式发送到 LDAP)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "默认的密码规则DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr "用于密码过期处理的默认密码策略的DN。只有当LDAP密码修改并且用户启用的情况下有效，仅支持OpenLDAP。留空以禁用密码过期处理。"
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "特殊属性"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "配额字段"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr "指定一个 LDAP/AD 属性。留空，则使用用户名称（默认）。"
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "默认配额"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr "覆盖配额域中没有配额设置的LDAP用户的默认配额。"
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "电邮字段"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr "从LDAP属性设置用户的电子邮件。留空则采用为默认行为。"
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "用户主目录命名规则"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr "指定一个 LDAP/AD 属性。留空，则使用用户名称（默认）。"
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "内部用户名"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"默认情况下将从UUID属性创建内部用户名。将确保用户名是唯一的字符，并且不需要转换。 内部用户名，只允许使用这些字符：[a-zA-Z0-9 _。@ - "
+"]。 其他字符被替换为它们的ASCII对应或简单地被忽略。如果出现重复，将添加或增加一个数字。 内部用户名用于在内部标识用户。 "
+"它是用户主文件夹的默认名称。 它也是远程URL的一部分，例如对于所有* DAV 服务。 使用此设置，可以覆盖默认行为。 默认行为为空， "
+"则更改只会对新映射 (已添加) 的LDAP用户有效。"
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "内部用户名属性："
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "超越UUID检测"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"ownCloud 默认会自动检测 UUID 属性。UUID 属性用来无误地识别 LDAP 用户和组。同时，如果上面没有特别设置，内部用户名也基于 "
+"UUID 创建。也可以覆盖设置，直接指定一个属性。但一定要确保指定的属性取得的用户和组是唯一的。留空，则执行默认操作。更改只影响新映射 (或增加) 的 "
+"LDAP 用户和组。"
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "用户UUID属性："
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "组的UUID属性:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "用户名-LDAP用户映射"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"用户名用于存储和分配数据 (元)。为了准确地识别和确认用户，每个用户都有一个内部用户名。这需要一个 ownCloud 用户名到 LDAP "
+"用户的映射。创建的用户名被映射到 LDAP 用户的 UUID。此外，DN 也会被缓存，以减少 LDAP 连接，但它不用于识别。DN "
+"的变化会被监视到。内部用户名会被用于所有地方。清除映射将导致一片混乱。清除映射不是常用的设置，它会影响到所有的 LDAP "
+"配置！千万不要在正式环境中清除映射，只有在测试或试验时才这样做。"
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "清除用户-LDAP用户映射"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "清除组用户-LDAP级映射"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr "该%uid占位符缺失。它将在LDAP/ AD登录名查询时进行替换。"
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "验证设置和统计组"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "添加一个新的空白配置"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr "可以忽略协议，但如要使用SSL，则需以ldaps://开头"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>警告：</b> 应用 user_ldap 和 user_webdavauth 之间不兼容。您可能遭遇未预料的行为。请让系统管理员禁用其中一个。"
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "字节数"

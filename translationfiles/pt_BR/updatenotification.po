@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Flávio Veras <flaviove@gmail.com>, 2016\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/nextcloud/teams/64236/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: js/admin.js:47
+msgid "Could not start updater, please try the manual update"
+msgstr "Não foi possível iniciar o atualizador, tente a atualização manual"
+
+#: js/notification.js:17
+msgid "{version} is available. Get more information on how to update."
+msgstr ""
+"{version} está disponível. Obtenha mais informações sobre como atualizar."
+
+#: lib/AppInfo/Application.php:80
+msgid "Update notifications"
+msgstr "Notificações de atualização"
+
+#: lib/Controller/AdminController.php:83
+msgid "Channel updated"
+msgstr "Canal atualizado"
+
+#: lib/Notification/Notifier.php:102
+#, php-format
+msgid ""
+"The update server could not be reached since %d days to check for new "
+"updates."
+msgstr ""
+"O servidor de atualização não foi encontrado já há %d dias para verificar "
+"por novas atualizações."
+
+#: lib/Notification/Notifier.php:103
+msgid "Please check the Nextcloud and server log files for errors."
+msgstr "Verifique se há erros nos arquivos de log do servidor e do Nextcloud "
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid "Update to %1$s is available."
+msgstr "Atualização para %1$s está disponível."
+
+#: lib/Notification/Notifier.php:121
+#, php-format
+msgid "Update for %1$s to version %2$s is available."
+msgstr "Atualização de %1$s para versão %2$s está disponível."
+
+#: lib/Notification/Notifier.php:122
+#, php-format
+msgid "Update for {app} to version %s is available."
+msgstr "Atualização para {app} para a versão %s está disponível."
+
+#: templates/admin.php:27
+#, php-format
+msgid "A new version is available: %s"
+msgstr "Uma nova versão está disponível: %s"
+
+#: templates/admin.php:29
+msgid "Open updater"
+msgstr "Abrir atualizador"
+
+#: templates/admin.php:32
+msgid "Download now"
+msgstr "Baixar agora"
+
+#: templates/admin.php:35
+msgid "The update check is not yet finished. Please refresh the page."
+msgstr "A verificação de atualização ainda não acabou. Atualize a página."
+
+#: templates/admin.php:37
+msgid "Your version is up to date."
+msgstr "Sua versão está atualizada."
+
+#: templates/admin.php:38
+#, php-format
+msgid "Checked on %s"
+msgstr "Verificada em %s"
+
+#: templates/admin.php:44
+msgid "A non-default update server is in use to be checked for updates:"
+msgstr ""
+"Um servidor de atualização não padrão está sendo verificado por "
+"atualizações:"
+
+#: templates/admin.php:51
+msgid "Update channel:"
+msgstr "Atualizar para:"
+
+#: templates/admin.php:61
+msgid ""
+"You can always update to a newer version / experimental channel. But you can"
+" never downgrade to a more stable channel."
+msgstr ""
+"Você pode atualizar para uma versão mais nova ou experimental. No entanto, "
+"nunca poderá voltar para uma versão estável ou antiga."
+
+#: templates/admin.php:62
+msgid ""
+"Note that after a new release it can take some time before it shows up here."
+" We roll out new versions spread out over time to our users and sometimes "
+"skip a version when issues are found."
+msgstr ""
+"Observe que após uma nova versão pode levar um tempo até aparecer aqui. "
+"Lançamos novas versões distribuídas ao longo do tempo para nossos usuários e"
+" às vezes pulamos uma versão quando problemas são encontrados."
+
+#: templates/admin.php:67
+msgid "Notify members of the following groups about available updates:"
+msgstr ""
+"Notificar membros dos seguintes grupos sobre atualizações disponíveis:"
+
+#: templates/admin.php:70
+msgid "Only notification for app updates are available."
+msgstr "Só está disponível notificação para atualizações de aplicativos."
+
+#: templates/admin.php:71
+msgid ""
+"The selected update channel makes dedicated notifications for the server "
+"obsolete."
+msgstr ""
+"A atualização selecionada fornece notificações dedicadas para o servidor "
+"desatualizado."
+
+#: templates/admin.php:72
+msgid "The selected update channel does not support updates of the server."
+msgstr ""
+"A atualização selecionada não fornece suporte a atualizações do servidor."

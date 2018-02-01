@@ -1,0 +1,1050 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2016\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "ბმების წაშლის დროს მოხდა შეცდომა."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "შეცდომა სერვერის კონფიგურაციის წაშლისას"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "არასწორი კონფიგურაცია: ანონიმური კავშირები არაა დაშვებული."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "სწორი კონფიგურაცია, კავშირი დამყარებულია!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"სწორი კონფიგურაცია, თუმცა მიბმა ვერ მოხერხდა. გთხოვთ შეამოწმოთ სერვერის "
+"კონფიგურაცია და უფლებამოსილებები."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr "არასწორი კონფიგურაცია. დეტალებისთვის გთხოვთ გადახედოთ ლოგებს."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "ქმედება არ იყო სპეციფირებული"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "კონფიგურაცია არ იყო სპეციფირებული"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "მონაცემები არ იყო სპეციფირებული"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "კონფიგურაციის %s დაყენება ვერ მოხერხდა"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "ქმედება არ არსებობს"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "LDAP მომხმარებლის და ჯგუფის ბექენდი"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "განხილვა …"
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "ძალიან სუსტი პაროლი"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "სუსტი პაროლი"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "ნორმალური პაროლი"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "კარგი პაროლი"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "ძლიერი პაროლი"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "საბაზისო DN როგორც ჩანს არასწორია"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "კონფიგურაციის შემოწმება…"
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "კონფიგურაცია არასწორია"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "კონფიგურაცია არასრულია"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "კონფიგურაცია კარგია"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "ჯგუფების არჩევა"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "ობიექტის კლასების არჩევა"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "გთხოვთ გადაამოწმოთ უფლებამოსილებები, როგორც ჩანს ისინი არასწორია."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "გთხოვთ მიუთითოთ პორტი, მისი ავტო-აღმოჩენა ვერ ხერხდება."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"საბაზისო DN-ის ავტო-აღმოჩენა ვერ ხერხდება, გთხოვთ გადახედოთ "
+"უფლებამოსილებებს, ჰოსტს და პორტს."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "საბაზისო DN-ის აღმოჩენა ვერ ხერხდება, გთხოვთ ხელით მიუთითოთ ის."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. სერვერი"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "მოცემულ საბაზისო DN-ში ობიექტი ვერ იქნა ნაპოვნი. გთხოვთ გადახედოთ."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "ხელმისაწვდომია 1000-ზე მეტი დირექტორია."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "მითითებულ საბაზისო DN-ში შენატანები ხელმისაწვდომია"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"გამოჩნდა შეცდომა. გთხოვთ შეამოწმოთ საბაზისო DN, ასევე კავშირის და "
+"უფლებამოსილებების კონფიგურაცია."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "ნამდვილად გსურთ სერვერის მიმდინარე პარამეტრების წაშლა?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "წაშლის დადასტურება"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "ბმები წარმატებით გასუფთავდა!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "ბმების გასუფთავებისას წარმოიშვა შეცდომა."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"ანონიმური მიბმა ხელმისაწვდომი არაა. გთხოვთ მოგვაწოდოთ მომხმარებელი DN და "
+"პაროლი."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "LDAP ოპერაციების შეცდომა. ანონიმური მიბმა შეიძლება არ იყოს დაშვებული."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"შენახვა ვერ მოხერხდა. გთხოვთ დარწმუნდეთ, რომ მონაცემთა ბაზა ოპერაციაშია. "
+"გაგრძელებამდე განაახლეთ გვერდი."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"რეჟიმის შეცვლა აამოქმედებს ავტომატურ LDAP პასუხის მოთხოვნას. თქვენი LDAP-ის "
+"ზომასთან დამოკიდებულებით ამან შეიძლება გასტანოს გარკვეულ პერიოდს. მაინც "
+"გსურთ რეჟიმის შეცვლა?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "რეჟიმის შეცვლა"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "ატრიბუტების არჩევა"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"მომხმარებელი ნაპოვნი ვერ იქნა. გთხოვთ შეამოწმოთ თქვენი ლოგინის ატრიბუტები და"
+" მომხმარებლის სახელი. ეფექტური ფილტრი (command-line ვალიდაციისთვის "
+"დასაკოპირებლად და ჩასასმელად): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "მომხმარებელი ნაპოვნია და პარამეტრები დამოწმებულია."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"შეამოკლეთ საძიებო მნიშვნელობები, მან მოიცვა ბევრი მომხმარებელი, მხოლოდ "
+"პირველი მათგანი გაივლის ავტორიზაციას."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr ""
+"გამოჩნდა არასპეციფირებული შეცდომა. გთხოვთ შეამოწმოთ ლოგი და პარამეტრები."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"ძიების ფილტრი არასწორია, ეს შესაძლოა გამოეწვიათ ისეთ სინტაქსის პრობლემებს, "
+"როგორებიცაა გახსნილი და დახურული ფრჩხილების არაჯერადი რაოდენობა. გთხოვთ "
+"გადახედოთ."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"LDAP / AD-სთან გამოჩნდა კავშირის პრობლემა, გთხოვთ შეამოწმოთ ჰოსტი, პორტი და "
+"უფლებამოსილებები."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"\"%u\" ადგილი არაა მითითებული. LDAP / AD პასუხის მოთხოვნისას, ის ჩანაცვლებულ"
+" იქნება ლოგინის სახელით."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "ტესტისთვის გთხოვთ მიუთითოთ ლოგინის სახელი"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"ჯგუფის ყუთი გაითიშა, LDAP / AD სერვერს არ აქვს memberOf-ის მხარდაჭერა."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "პაროლის ცვლილება უარყოფილ იქნა. მითითება:"
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "გთხოვთ გაიაროთ ავტორიზაცია ახალი პაროლით"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "თქვენი პაროლი გაუქმდება ხვალ."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "თქვენი პაროლი გაუქმდება დღეს."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "თქვენი პაროლი გაუქმდება %n დღეში."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD ინტეგრაცია"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "ნაპოვნა %s ჯგუფი"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "ნაპოვნია %s მომხმარებელი"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"მომხმარებლის დისპლეის სახელის ატრიბუტის აღმოჩენა ვერ მოხერხდა. გთხოვთ LDAP-"
+"ის პარამეტრებში თქვენით დააყენოთ ის."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "მოთხოვნილი ფუნქციონალის პოვნა ვერ მოხერხდა"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "არასწორი ჰოსტი"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "კავშირის შემოწმება"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "დახმარება"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "ჯგუფები ამ კრიტერიუმით ხელმისაწვდომია %s-ში:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "მხოლოდ ამ ობიექტის კლასებიდან:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "მხოლოდ ამ ჯგუფებიდან:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "ჯგუფების ძიება"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "ხელმისაწვდომი ჯგუფები"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "არჩეული ჯგუფები"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "LDAP შეკითხვის ცვლილება"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP ფილტრი:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "ფილტრი აზუსტებს თუ რომელ LDAP ჯგუფებს ექნებათ წვდომა %s ინსტანციაზე."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "დაამოწმეთ პარამეტრები და დათვალეთ ჯგუფები"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr "ავტორიზაციისას, %s იპოვის მოხმარებელს შემდეგი ატრიბუტების მიხედვით:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP / AD მომხმარებელი:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"LDAP / AD მომხმარებლზე იძლევა ავტორიზაციის უფლებას, მომხმარებელი ან "
+"\"uid\"-ია ან \"sAMAaccountName\", ის იქნება აღმოჩენილი."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP / AD ელ-ფოსტის მისამართი:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+"ელ-ფოსტის ატრიბუტზე ავტორიზაციის ნების დართვა. დაშვებულია \"mail\" და "
+"\"mailPrimaryAddress\"."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "სხვა ატრიბუტები:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"ავტორიზაციის მცდელობისას საზღვრავს მიღების ფილტრს. \"%%uid\" ავტორიზაციის "
+"ქმედებაში ანაცვლებს მომხმარებლის სახელს. მაგალითი: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "შემოწმების ლოგინის სახელი"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "პარამეტრების დამოწმება"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. სერვერი"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. სერვერი:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "ახალი კონფიგურაციის დამატება"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "ამჟამინდელი კონფიგურაციის კოპირება ახალი დირექტორიის ბმაში"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "ამჟამინდელი კონფიგურაციის გაუქმება"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "ჰოსტი"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"იმ შემთხვევაში, თუ არ საჭიროებთ SSL-ს, შეგიზლიათ გამოტოვოთ პროტოკოლი. სხვა "
+"შემთხვევაში, დაიწყეთ ldaps://"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "პორტი"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "პორტის აღმოჩენა"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "მომხმარებლის DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"მომხმარებლის DN რომელთანაც უნდა მოხდეს დაკავშირება მოხდება შემდეგნაირად მაგ:"
+" uid=agent,dc=example,dc=com. ხოლო ანონიმური დაშვებისთვის, დატოვეთ DN–ის და "
+"პაროლის ველები ცარიელი."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "პაროლი"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "ანონიმური დაშვებისთვის, დატოვეთ DN–ის და პაროლის ველები ცარიელი."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "უფლებამოსილებების შენახვა"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "ერთი საწყისი DN ერთ ხაზზე"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"თქვენ შეგიძლიათ მიუთითოთ საწყისი DN მომხმარებლებისთვის და ჯგუფებისთვის "
+"დამატებით ტაბში"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "საბაზისო DN-ის აღმოჩენა"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "საბაზისო DN-ის შემოწმება"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"თავს არიდებს ავტომატურ LDAP მოთხოვნებს. უკეტესია დიდი მოწყობებისთვის, მაგრამ"
+" საჭიროებს LDAP-ის გარკვეულ ცოდნას."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "მიუთითეთ LDAP ფილტრები ხელით (რეკომენდირებულია დიდი დირექტრიებისთვის)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "მოხმარებლების ძიება და ჩამოთვლა შეზღუდულია შემდეგი კრიტერიუმებით:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"მომხმარებლისთვის ყველაზე ხშირად გამოყენებული ობიექტის კლასებია "
+"organizationalPerson, person, user, და inetOrgPerson. თუ არ ხართ "
+"დარწმუნებული, რომელი ობიექტი აირჩიოთ, სთხოვეთ კონსულტაცია თქვენი დირექტორიის"
+" ადმინისტრატორს."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+"ეს ფილტრი საზღვრავს LDAP-ის თუ რომელ მომხმარებლებს ექნებათ წვდომა %s "
+"ინსტანციაზე."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "დაამოწმეთ პარამეტრები და მომხმარებლების რაოდენობა"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "მიმდინარეობს შენახვა"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "უკან"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "გაგრძელება"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "გთხოვთ განაახლოთ თქვენი პაროლი."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "წარმოიშვა შიდა შეცდომა."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "გთხოვთ სცადოთ ახლიდან ან დაუკავშირდეთ თქვენს ადმინისტრატორს."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "ამჟამინდელი პაროლი"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "ახალი პაროლი"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "პაროლის განახლება"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "არასწორი პაროლი. აღვადგინოთ?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "არასწორი პაროლი."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "უარყოფა"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "სერვერი"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "მომხმარებლები"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "ავტორიზაციის ატრიბუტები"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "ჯგუფები"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "ექსპერტი"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "დამატებითი ფუნქციები"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>გაფრთხილება:</b> PHP LDAP მოდული არ არის ინსტალირებული, ბექენდი არ "
+"იმუშავებს. თხოვეთ თქვენს ადმინისტრატორს დააყენებინოთ ის."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "კავშირის პარამეტრები"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "კონფიგურაცია აქტიურია"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "როცა გადანიშნულია, ეს კონფიგურაცია გამოტოვებული იქნება."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "ბექაფ  (რეპლიკა)  ჰოსტი"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"მიუთითეთ რაიმე ბექაფ ჰოსტი. ის უნდა იყოს ძირითადი LDAP/AD სერვერის რეპლიკა."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "ბექაფ (რეპლიკა) პორტი"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "გამორთეთ ძირითადი სერვერი"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "მოხოლოდ დაუკავშირდეს რეპლიკა სერვერს."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "გამორთეთ SSL სერთიფიკატის ვალიდაცია."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"არაა რეკომენდირებული, გამოიყენეთ მხოლოდ შემოწმებისთვის. თუ კავშირი მუშაობს "
+"მხოლოდ ამ პარამეტრით, LDAP სერვერის SSL სერტიფიკატი დააიმპორრტეთ თქვენს %s "
+"სერვერზე."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "ქეშის სიცოცხლის ხანგრძლივობა"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "წამებში. ცვლილება ასუფთავებს ქეშს."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "დირექტორიის პარამეტრები"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "მომხმარებლის დისპლეის სახელის ველი"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+"LDAP ატრიბუტი რომელიც გამოყენებულ იქნება მომხმარებლის დისპლეის სახელის "
+"დასაგენერირებლად."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "მეორე მომხმარებლის დისპლეის სახელის ველი"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"არაა სავალდებულო. LDAP ატრიბუტი რომელიც ფრჩხილებში იქნება დამატებული "
+"დისპლეის სახელზე. შედეგია მაგ.: »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "ძირითად მომხმარებელთა სია"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "ერთი მომხმარებლის საწყისი DN ერთ ხაზზე"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "მომხმარებლის ძებნის ატრიბუტი"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "ოფციონალური; თითო ატრიბუტი თითო ხაზზე"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "ჯგუფის დისპლეის სახელის ფილდი"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr ""
+"LDAP ატრიბუტი რომელიც გამოყენებულ იქნება ჯგუფის დისპლეის სახელის "
+"გენერაციისთვის."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "ძირითად ჯგუფთა სია"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "ერთი ჯგუფის საწყისი DN ერთ ხაზზე"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "ჯგუფური ძებნის ატრიბუტი"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "ჯგუფის წევრობის ასოციაცია"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "დინამიური ჯგუფის წევრის URL"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"LDAP ატრიბუტი ამ ჯგუფის ობიექტზე მოიცავს LDAP-ის ძიების URL-ს რომელიც "
+"საზღვრავს თუ რა ობიქეტები მიეკუთვნება ჯგუფს. (ცარიელი პარამეტრი თიშავს "
+"დინამიური ჯგუფის წევობის ფუნქციონალს.)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "წყობილი ჯგუფები"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"როდესაც ჩართულია, მხარდაჭერილია ჯგუფები, რომლებსაც გააჩნიათ ჯგუფები. (მხოლოდ"
+" მუშაობს თუ ჯგუფის წევრის ატრიბუტი მოიცავს DN-ს.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "ხდება ნაჭრების ზომის პეიჯინგი"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"ნაჭრების ზომა რომელიც გამოიყენება იმ LDAP-ის ძიებების გვერდობლივი "
+"გადამისამართებისთვის, რომლებიც აბრუნებენ მოცულობით შედეგებს როგორებიცაა "
+"მომხმარებლების ან ჯგუფების ჩამონათვალი. (0-ზე დაყენება ასეთ სიტუაციებში "
+"თიშავს LDAP-ის გვერდით გადამისამართებას.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "LDAP პაროლის ცვილების ჩართვა ყოველ წევრზე"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"მიეცით უფლება LDAP-ის წევრებს შეცვალონ თავიანთი პაროლები და მიეცით უფლება "
+"სუპერ ადმინისტრატორებსა და ჯგუფის ადმინისტრატორებს შეცვალონ თავიანთი LDAP "
+"მომხმარებლების პაროლები. მოქმედებს მხოლოდ მაშინ როდესაც, წვდომის კონტროლის "
+"პირობები შეთანხმებით კონფიგურირებია LDAP სერვერზე. იმის გამო, რომ პაროლები "
+"LDAP სერვერზე იგზავნება ჩვეულებრივი ტექსტის სახით, ტრანსპორტის შიფრაზია უნდა"
+" იყოს გამოყენებული და LDAP-ის სერვერზე კონფიგურირებული უნდა იყოს პაროლის "
+"ჰეშირება."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(ახალი პაროლი გაგზავნილია LDAP-ზე ჩვეულებრივი ტექსტის ფორმატში)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "საწყისი პაროლის პირობის DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"საწყისი პაროლის DN პოლიტიკა, რომელიც გამოყენებულ იქნება პაროლის გაუქმების "
+"დასარეგულირებლად. მოქმედებს მხოლოდ მაშინ, როდესაც LDAP პაროლების ცვლილება "
+"თითო მომხმარებელზე მოქმედია და მხარდაჭერილია მხოლოდ OpenLDAP-ის მიერ. "
+"დატოვეთ ცარიელი თუ გსურთ პაროლის გაუქმების რეგულაციის გათიშვა."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "სპეციალური ატრიბუტები"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "კვოტას ველი"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"დატოვეთ ცარიელი მომხმარებლის საწყისი კვოტისთვის. სხვა შემთხვევაში მიუთითეთ "
+"LDAP/AD ატრიბუტი"
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "საწყისი კვოტა"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"საწყისი LDAP-ის კვოტის შეცვლა LDAP მომხმარებლებისთვის რომლებისთვისაც კვოტა "
+"ველის მეშვეობით არაა განსაზღვრული."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "ელ-ფოსტის ველი"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"დააყენეთ მომხმარებლის ელ-ფოსტის მისამართი მათი LDAP ატრიბუტიდან. საწყისი "
+"ქცევისთვის დატოვეთ ცარიელი."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "მომხმარებლის Home დირექტორიის სახელების დარქმევის წესი"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"დატოვეთ ცარიელი მომხმარებლის სახელი (საწყისი). სხვა შემთხვევაში, მიუთითეთ "
+"LDAP/AD ატრიბუტი."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "შიდა მომხმარებლის სახელი"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"საწყისი კონფიგურაციით შიდა მომხმარებლის სახელი შეიქმნება UUID ატრიბუტისგან. "
+"ეს იძლევა გარანტიას, რომ მომხმარებლის სახელი იქნება უნიკალური და ნიშნების "
+"კონვერტაცია არ იქნება საჭირო. შიდა მომხმარებლის სახელს ააქვს შეზღუდვა, "
+"მხოლოდ ეს ნიშნებია დაშვებული: [ a-zA-Z0-9_.@- ]. სხვა ნიშნები ჩანაცვლებულია "
+"შესაბამისი ASCII ნიშნებით ან იშლებიან. უთანხმოებისას ხდება ციფრის "
+"დამატება/მომატება. შიდა მომხმარებლის სახელი გამოყენებულია მომხმარებლის შიდა "
+"იდენტიფიკაციისთვის. ის ასევე მომხმარებლის სახლის დირექტორიის საწყისი "
+"სახელია. აგრეთვე ის ნაწილია დისტანციური URL-ების, მაგალითად ყველა *DAV "
+"სერვისისთვის. ამ პარამეტრით, საწყისი ქცევის ფორმა შეიძლება შეიცვალოს. "
+"საწყისი ქცევის ფორმისთვის დატოვეთ ცარიელი. ცვილებებს გავლენა ექნებათ მხოლოდ "
+"ახლად მიბმულ (დამატებულ) LDAP მომხმარებლებზე."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "შიდა მომხმარებლის ატრიბუტი:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "ჩანაცვლება UUID აღმოჩენაზე"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"საწყისი პარამეტრით, UUID ატრიბუტი ავტომატურად დგინდება. UUID ატრიბუტი "
+"გამოიყენება LDAP-ის მომხმარებლების და ჯგუფების ეჭვგარეშე ამოცნობისთვის. იმ "
+"შემთხვევაში თუ არაა სპეციფირებული, შიდა მომხმარებელი ასევე შეიქმნება UUID-"
+"იდან გამომდინარე. შეგიძლიათ ამ პარამეტრის შეცვლა და სასურველი ატრიბუტის "
+"მითითება. აუცილებელია დარწმუნეთ, რომ თქვენი არჩეული ატრიბუტი მიიღცევა "
+"ჯგუფებისთვისაც და მომხმარებლებისთვისაც და უნიკალურია. საწყისი ქცევის "
+"ფორმისთვის დატოვეთ ცარიელი. ცვილებებს გავლენა ექნებათ მხოლოდ ახლად მიბმულ "
+"(დამატებულ) LDAP მომხმარებლებზე და ჯგუფებზე."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "UUID ატირბუტი მომხმარებლებისთვის:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "UUID ატრიბუტი ჯგუფებისთვის:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Username-LDAP მომხმარებლის ბმები"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"მომხმარებლების სახელები გამოიყენება (მეტა) მონაცემების შესანახად და "
+"დასანიშნად. ზუსტი იდენტიფიკაციისა და ამოზნობისთვის, ყოველ LDAP-ის "
+"მომხმარებელს ექნება შიდა მომხმარებელი. ეს საჭიროებს ბმას მომხმარებელსა და "
+"LDAP-ის სახელს შორის. შექმნილი მომხმარებელი ებმება LDAP-ის მომხმარებელის "
+"UUID-ს. LDAP-თან ინტერაქციის შესამცირებლად, დამატებითად კეშირდება DN, მაგრამ"
+" არ ხდება მისი მოხმარება იდენტიფიკაციისთვის. ბმების გასუფთავება ბევრ ადგილას"
+" დატოვებს კვალს. ბმების გასუფთავება არაა კონფიგურაციასთან მგრძნობიარე, ის "
+"მოქმედებს ყველა LDAP-ის კონფიგურაციაზე! არასდროს გაასუფთავოთ ბმები საწარმოო "
+"გარემოში, მოიხმარეთ ეს მხოლოდ შემოწმების ან ექსპერიმენტისთვის."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Username-LDAP მომხმარებლის ბმების გასუფთავება"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Groupname-LDAP ჯგუფის ბმების გასუფთავება"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"\"%u\" ადგილი არაა მითითებული. LDAP / AD პასუხის მოთხოვნისას ის ჩანაცვლებულ "
+"იქნება ლოგინის სახელით."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "დაამოწმეთ პარამეტრები და დათვალეთ ჯგუფები"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "დაამტეთ ახალი და ცარიელი კონფიგურაცია"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"იმ შემთხვევაში, თუ არ საჭიროებთ SSL-ს, შეგიზლიათ გამოტოვოთ პროტოკოლი. სხვა "
+"შემთხვევაში, დაიწყეთ ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>გაფრთხილება:</b> აპლიკაციები user_ldap და user_webdavauth არაა თავსებადი."
+" შესაძლოა შეგვხდეთ მოულოდნელი ქმედება. გთხოვთ სთხოვოთ თქვენი სისტემის "
+"ადმინისტრატორს ერთ-ერთის გათიშვა."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "ბაიტებში"

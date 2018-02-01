@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Miko-Matias Grönvall <matias.gronvall@gmail.com>, 2017\n"
+"Language-Team: Finnish (Finland) (https://www.transifex.com/nextcloud/teams/64236/fi_FI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Tunnisteet"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Päivitys"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Luo"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Valitse tunniste…"
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Tunnisteella merkityt tiedostot"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Valitse suodatettavat tunnisteet"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Tunnisteita ei löytynyt"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Valitse suodatettavat tunnisteet"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Tiedostoja ei löytynyt valituilla tunnisteilla"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "Järjestelmätunniste %1$s lisättiin"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "Järjestelmätunniste {systemtag} lisättiin"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s lisäsi järjestelmätunnisteen %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} lisäsi järjestelmätunnisteen {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Järjestelmätunniste %1$s poistettiin"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Järjestelmätunniste {systemtag} poistettiin"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s poisti järjestelmätunnisteen %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} poisti järjestelmätunnisteen {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Loit järjestelmätunnisteen %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Loit järjestelmätunnisteen {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s loi järjestelmätunnisteen %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} loi järjestelmätunnisteen {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Poistit järjestelmätunnisteen %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Poistit järjestelmätunnisteen {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s poisti järjestelmätunnisteen %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} poisti järjestelmätunnisteen {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Päivitit järjestelmätunnisteen %2$s tunnisteeksi %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"Päivitit järjestelmätunnisteen {oldsystemtag} tunnisteeksi  {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s päivitti järjestelmätunnisteen %3$s tunnisteeksi %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"{actor} päivitti järjestelmätunnisteen {oldsystemtag} tunnisteeksi "
+"{newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Lisäsit järjestelmätunnisteen %2$s tiedostoon %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Lisäsit järjestelmätunnisteen {systemtag} tiedostoon {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s lisäsi järjestelmätunnisteen %3$s tiedostoon %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} lisäsi järjestelmätunnisteen {systemtag} tiedostoon {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Poistit järjestelmätunnisteen %2$s tiedostosta %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Poistit järjestelmätunnisteen {systemtag} tiedostosta {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s poisti järjestelmätunnisteen %3$s tiedostosta %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} poisti järjestelmätunnisteen {systemtag} tiedostosta {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (rajoitettu)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (näkymätön)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "Tiedoston <strong>järjestelmätunnisteita</strong> on muokattu"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "Yhteistyölliset tunnisteet"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"Luo ja muokkaa yhteisiä tunnisteita. Nämä tunnisteet vaikuttavat kaikkiin "
+"käyttäjiin."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "Valitse tunniste ..."
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Nimi"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Poista"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Julkinen"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Rajoitettu"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "Näkymätön"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Palauta"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Täällä ei ole tiedostoja"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Ei kohteita tässä kansiossa"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Koko"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Muokattu"

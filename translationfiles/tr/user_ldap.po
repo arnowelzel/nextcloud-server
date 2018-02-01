@@ -1,0 +1,1049 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Morris Jobke <hey@morrisjobke.de>, 2016\n"
+"Language-Team: Turkish (https://www.transifex.com/nextcloud/teams/64236/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Eşleştirmeler temizlenemedi."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Sunucu yapılandırması silinemedi"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Yapılandırma geçersiz: Adsız bağlantı kurulmasına izin verilmiyor."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Yapılandırma geçerli, bağlantı kuruldu."
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Yapılandırma geçerli ancak bağlantı kurulamadı. Lütfen sunucu ayarları ve "
+"kimlik doğrulama bilgilerini denetleyin."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+"Yapılandırma geçersiz. Lütfen ayrıntılı bilgi almak için günlüklere bakın."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Hehrangi bir işlem belirtilmemiş"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Herhangi bir yapılandırma belirtilmemiş"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Herhangi bir veri belirtilmemiş"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "%s yapılandırması ayarlanamadı"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "İşlem bulunamadı"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "LDAP kullanıcı ve grup arka yüzü"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Yenileniyor..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Parola çok zayıf"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Parola zayıf"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Parola idare eder"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Parola iyi"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Parola güçlü"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Base DN yanlış gibi görünüyor"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Yapılandırma sınanıyor..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Yapılandırma yanlış"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Yapılandırma tamamlanmamış"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Yapılandırma tamamlanmış"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Grupları seçin"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Nesne sınıflarını seçin"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Lütfen kimlik doğrulama bilgilerini denetleyin, yanlış görünüyor."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Lütfen kapı numarasını belirtin. Otomatik olarak algılanamadı."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"Base DN otomatik olarak algılanamadı. Lütfen kimlik doğrulama bilgilerini, "
+"sunucu ve kapı numarasını gözden geçirin."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "Base DN algılanamadı. Lütfen el ile yazın."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Sunucu"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr ""
+"Belirtilen Base DN içerisinde herhangi bir nesne bulunamadı. Lütfen gözden "
+"geçirin."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Kullanılabilecek 1000'den fazla dizin kaydı var."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "kayıt belirtilen Base DN üzerinde var"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Bir sorun çıktı. Lütfen Base DN ile birlikte bağlantı ayarlarını ve kimlik "
+"doğrulama bilgilerini denetleyin."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Geçerli sunucu yapılandırmasını silmek istediğinizden emin misiniz?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Silmeyi Onaylıyorum"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Eşleştirmeler temizlendi!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Eşleşmeler temizlenirken sorun çıktı."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"Anonim atamaya izin verilmiyor. Lütfen bir Kullanıcı DN ve Parola belirtin."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "LDAP işleminde sorun çıktı. Anonim bağlamaya izin verilmiyor."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Kaydedilemedi. Veritabanının çalışıyor olduğundan emin olun. Devam etmeden "
+"yeniden yükleyin."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Kipi değiştirmek otomatik LDAP sorgularını etkinleştirir. LDAP sisteminizin "
+"boyutlarına göre bu işlem uzun sürebilir. Kipi yine de değiştirmek istiyor "
+"musunuz?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Kip değişimi"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Öznitelikleri seçin"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Kullanıcı bulunamadı. Lütfen oturum açma özniteliklerini ve kullanıcı adını "
+"denetleyin. Etkin süzgeç (komut satırı doğrulamasında kullanmak için "
+"kopyalayıp yapıştırın): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Kullanıcı bulundu ve ayarlar doğrulandı."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Çok sayıda kullanıcı bulunduğundan ve yalnız birinci kullanıcı oturum "
+"açabileceğinden arama ölçütlerinizi sıkılaştırmayı deneyin."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr "Bilinmeyen bir sorun çıktı. Lütfen günlüğü ve ayarları denetleyin."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Arama süzgeci, açılmış ve kapatılmış parantez sayılarının eşit olmaması gibi"
+" bir söz dizimi sorunu nedeniyle geçersiz. Lütfen gözden geçirin."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"LDAP / AD için bir bağlantı sorunu çıktı. Lütfen istemci, kapı numarası ve "
+"kimlik doğrulama bilgilerini denetleyin."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"LDAP / AD sorgularında kullanıcı adı ile değiştirilecek \"%uid\" yer "
+"belirleyicisi eksik. "
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Lütfen deneme için kullanılacak bir kullanıcı adı yazın"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"LDAP / AD sunucusu memberOf parametresini desteklemediğinden grup kutusu "
+"devre dışı."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Parola değişimi reddedildi. İpucu:"
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Lütfen yeni parolanız ile oturum açın"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Parolanızın süresi yarın dolacak."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Parolanızın süresi bugün dolacak."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "Parolanızın süresi %n gün içinde dolacak."
+msgstr[1] "Parolanızın süresi %n gün içinde dolacak."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD bütünleştirmesi"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "%s grup bulundu"
+msgstr[1] "%s grup bulundu"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "%s kullanıcı bulundu"
+msgstr[1] "%s kullanıcı bulundu"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Görüntülenecek kullanıcı adı özniteliği algılanamadı. Lütfen gelişmiş LDAP "
+"ayarları bölümünden siz belirtin."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "İstenilen özellik bulunamadı"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Sunucu Geçersiz"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Yapılandırmayı Sına"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Yardım"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "%s içinde bu ölçüte uygun gruplar var:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Yalnız şu nesne sınıflarına:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Yalnız şu gruplardan:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Grup arama"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Kullanılabilecek gruplar"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Seçilmiş gruplar"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "LDAP Sorgusunu Düzenle"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP Süzgeci:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "Süzgeçte %s kopyasına erişebilecek LDAP grupları belirtilir."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Ayarları doğrula ve grupları say"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr ""
+"Oturum açılırken, %s, aşağıdaki özniteliklere bağlı kullanıcıyı bulur:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP / AD Kullanıcı Adı:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"LDAP / AD kullanıcı adı ile oturum açılmasını sağlar. Kullanıcı adı \"uid\" "
+"ya da \"sAMAccountName\" olabilir ve algılanır."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP / AD E-posta Adresi:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+"E-posta adresi ile oturum açılmasını sağlar. \"mail\" ve "
+"\"mailPrimaryAddress\" kullanılabilir."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Diğer Öznitelikler:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"Oturum açma girişiminde uygulanacak süzgeci tanımlar. Oturum açma işleminde "
+"\"%%uid\" kullanıcı adı ile değiştirilir. Örnek: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Kullanıcı adını sına"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Ayarları doğrula"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Sunucu"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. Sunucu:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Yeni bir yapılandırma ekle"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Geçerli yapılandırmayı yeni dizin bağlamasına kopyala"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Geçerli yapılandırmayı sil"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Sunucu"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"SSL gerekmiyorsa iletişim kuralı belirtilmeyebilir. Gerekiyorsa ldaps:// ile"
+" başlayın"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Kapı Numarası"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Kapı Numarasını Algıla"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "Kullanıcı DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"Yapılacak bağlama için iİstemci kullanıcısının DN değeri. Örnek: "
+"uid=agent,dc=ornek,dc=com. Anonim erişim için DN ve Parolayı boş bırakın."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Parola"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Anonim erişim için DN ve Parolayı boş bırakın."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "Kimlik Doğrulama Bilgilerini Kaydet"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Her satıra bir Base DN yazın"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr "Gelişmiş sekmesinde, kullanıcı ve gruplar için Base DN belirtilebilir"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Base DN Algıla"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Base DN Sına"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Otomatik LDAP isteklerinden kaçınılsın. Büyük kurulumlar için daha iyidir "
+"ancak LDAP bilgisi gerektirir."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "LDAP süzgeçlerini el ile yazın (büyük dizinler için önerilir)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "Kullanıcı listeleme ve arama şu ölçütü göre kısıtlanmış:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"Kullanıcılar için ortak olarak en çok organizationalPerson, person, user ve "
+"inetOrgPerson nesne sınıfları kullanılır. Hangi nesne sınıfını "
+"seçeceğinizden emin değilseniz lütfen dizin yöneticinize danışın."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr "Süzgeç, %s kopyasına erişmesi gereken LDAP kullanıcılarını belirtir."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Ayarları doğrula ve kullanıcıları say"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Kaydediliyor"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Geri"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Devam"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Lütfen parolanızı yenileyin."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "İçeride bir sorun çıktı."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Lütfen yeniden deneyin ya da yöneticinizle görüşün."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Geçerli parola"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Yeni parola"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Parolayı yenile"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Parola yanlış. Sıfırlamak ister misiniz?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Parola yanlış."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "İptal"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Sunucu"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Oturum Açma Öznitelikleri"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Gruplar"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Uzman"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Uyarı:</b> PHP LDAP modülü kurulmamış, arka uç çalışmayacak. Lütfen "
+"kurulumu için sistem yöneticinizle görüşün."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Bağlantı Ayarları"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Yapılandırma Etkin"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Bu seçenek işaretli değilse, bu yapılandırma atlanır."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Yedek (Replika) Sunucu"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"İsteğe bağlı olarak bir yedekleme sunucusu belirtin. Ana LDAP/AD sunucusunun"
+" kopyası olmalıdır."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Yedek (Replika) Kapı Numarası"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Ana Sunucuyu Devre Dışı Bırak"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Yalnız yedek sunucuya bağlanılsın."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "SSL sertifika doğrulaması kullanılmasın."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Önerilmez, yalnız deneme amacıyla için kullanın! Bağlantı yalnız bu seçenek "
+"etkinleştirildiğinde çalışıyorsa LDAP sunucusunun SSL sertifikasını %s "
+"sunucuzun içine aktarın."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "Ön Bellek Time-To-Live Değeri"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "saniye cinsinden. Değişiklik ön belleği temizler."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Dizin Ayarları"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Görüntülenecek Kullanıcı Adı Alanı"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+"Görüntülenecek kullanıcı adını oluşturmak için kullanılacak LDAP özniteliği."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "2. Görüntülenecek Kullanıcı Adı Alanı"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"İsteğe bağlı. Görüntülenecek ada parantez içinde eklenecek LDAP özniteliği. "
+"Örnek sonuç: »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "Temel Kullanıcı Ağacı"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "Her Satıra Bir Kullanıcı Base DN"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Kullanıcı Arama Öznitelikleri"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "İsteğe bağlı; her satıra bir öznitelik"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Görüntülenecek Grup Adı Alanı"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr ""
+"Görüntülenecek grup adını oluşturmak için kullanılacak LDAP özniteliği."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "Temel Grup Ağacı"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "Her Satıra Bir Grup Base DN"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Grup Arama Öznitelikleri"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Grup-Üye İlişkisi"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "Devingen Grup Üye Adresi"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"Bu grup nesneleri üzerindeki LDAP özniteliği, grupa hangi nesnelerin ait "
+"olduğunu bulan bir LDAP arama adresi içeriyor (Seçenek boş bırakıldığında "
+"dinamik grup üyeliği özelliği devre dışı kalır)."
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "İç İçe Gruplar"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"Bu seçenek etkinleştirildiğinde, gruplar içinde gruplar desteklenir (Yalnız "
+"grup üyesi özniteliği DN içeriyorsa çalışır)."
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "Sayfalandırma yığın boyutu"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"Yığın boyutu, kullanıcı ya da grup listeleri gibi, çok sayıda sonuç "
+"verebilen sayfalandırılmış LDAP aramaları için kullanılır (0 olarak "
+"ayarlandığında bu durumlarda sayfalandırılmış LDAP aramaları devre dışı "
+"kalır)."
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Kullanıcılar LDAP parolalarını değiştirebilsin"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+" Bu seçenek etkinleştirildiğinde, LDAP kullanıcıları kendi parolalarını "
+"değiştirebilir ve Süper Yöneticiler ile Grup Yöneticileri kendi LDAP "
+"kullanıcılarının parolalarını değiştirebilir. Yalnız erişim denetimi "
+"ilkeleri LDAP sunucuya uygun olarak yapılandırılmış ise çalışır. Parolalar "
+"LDAp sunucuya düz metin biçiminde aktarıldığından, LDAP sunucu üzerinde "
+"aktarım şifrelemesi ve parola karması kullanılmalıdır."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Yeni parola LDAP üzerine düz metin olarak gönderildi)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "Varsayılan parola ilkesi DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"Parola süresinin sona erme işlemleri için kullanılacak varsayılan parola "
+"ilkesi için DN. Yalnız her kullanıcı için LDAP parola değişikliği "
+"etkinleştirilmiş ise çalışır ve yalnız OpenLDAP tarafından desteklenir. "
+"Parola süresi sona erme işlemlerini devre dışı bırakmak için boş bırakın."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Özel Öznitelikler"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Kota Alanı"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Kullanıcının varsayılan kotasının kullanılması için boş bırakın ya da bir "
+"LDAP/AD özniteliği belirtin."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Varsayılan Kota"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"Kota Alanına bir kota değeri yazılmamış olan LDAP kullanıcıları için "
+"kullanılacak varsayılan kota değerini yazın."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "E-posta Alanı"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Kullanıcı varsayılan e-posta adresinin kullanılması için boş bırakın ya da "
+"bir LDAP/AD özniteliği belirtin."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Kullanıcı Ana Klasörünü Adlandırma Kuralı"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Kullanıcı adının kullanılması için boş bırakın (varsayılan) ya da bir "
+"LDAP/AD özniteliği belirtin."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "İç Kullanıcı Adı"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"Varsayılan olarak, iç kullanıcı adı UUID özniteliğinden oluşturulur. Böylece"
+" kullanıcı adının eşsiz olması ve dönüştürülmesi gereken karakterler "
+"içermediğinden emin olunur. İç kullanıcı adında kısıtlaması yalnız şu "
+"karakterleri kullanılabilir: [ a-zA-Z0-9_.@- ]. Diğer karakterler ASCII "
+"karşılıklarına dönüştürülür ya da yok sayılır. Çakışmalarda ada bir sayı "
+"eklenir. İç kullanıcı adı bir kullanıcıyı içsel olarak belirlemeye yarar. "
+"Aynı zamanda kullanıcı ana klasörünün varsayılan adı olarak da kullanılır. "
+"İnternet adreslerinin, örneğin *DAV servislerinin bir parçasıdır. Bu seçenek"
+" ile varsayılan davranış değiştirilebilir. Varsayılan davranışı kullanmak "
+"için boş bırakın. Değişiklikler yalnız yeni eşleştirilecek (eklenecek) LDAP "
+"kullanıcılarını etkiler."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "İç Kullanıcı Adı Özniteliği:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "UUID algılamasını değiştir"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"Varsayılan olarak, UUID özniteliği otomatik olarak algılanır. UUID "
+"özniteliği LDAP kullanıcı ve gruplarını kesin olarak belirlemek için "
+"kullanılır. Yukarıda başka türlü belirtilmemişse, bu UUID için bir iç "
+"kullanıcı adı oluşturulur. Bu ayarı değiştirerek istenilen bir öznitelik "
+"belirtilebilir. Ancak istenilen özniteliğin eşsiz olduğundan ve hem "
+"kullanıcı hem de gruplar tarafından kullanıldığından emin olunmalıdır. "
+"Varsayılan davranış için boş bırakın. Değişiklikler yalnız yeni eşleştirilen"
+" (eklenen) LDAP kullanıcı ve gruplarını etkiler."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "Kullanıcılar için UUID Özniteliği:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "Gruplar için UUID Özniteliği:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Kullanıcı Adı-LDAP Kullanıcısı Eşleştirme"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"Kullanıcı adları, (üst) veri depolaması ve ataması için kullanılır. "
+"Kullanıcıları kesin olarak belirlemek ve algılamak için, her LDAP "
+"kullanıcısına bir iç kullanıcı verilir. Bu kullanıcı adı ile LDAP "
+"kullanıcısının eşleştirilmesi gerekir. Oluşturulan kullanıcı adı LDAP "
+"kullanıcısının UUID değeri ile eşleştirilir. Bunun yanında LDAP etkileşimini"
+" azaltmak için DN ön belleğe alınır ancak bu işlem kimlik belirleme için "
+"kullanılmaz. DN üzerinde yapılan değişiklikler aktarılır. İç kullanıcı her "
+"yerde kullanıldığından, bir eşleştirmeyi kaldırmak pek çok yerde kalıntılar "
+"bırakır. Eşleştirmeleri kaldırmak yalnız yapılandırmaya bağlı değildir, tüm "
+"LDAP yapılandırmalarını etkiler! Üretim ortamında eşleştirmeleri asla "
+"kaldırmayın, yalnız sınama ya da deney aşamalarında kullanın."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Kullanıcı Adı-LDAP Kullanıcısı Eşleştirmesini Kaldır"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Grup Adı-LDAP Grubu Eşleştirmesini Kaldır"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"LDAP / AD sorgularında kullanıcı adı ile değiştirilecek %uid yer "
+"belirleyicisi eksik. "
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Ayarları doğrula ve grupları say"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Yeni ve boş bir yapılandırma ekle"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"SSL gerekmiyorsa iletişim kuralı belirtilmeyebilir. Gerekiyorsa ldaps:// ile"
+" başlayın"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Uyarı:</b> user_ldap ve user_webdavauth uygulamaları uyumlu değil. "
+"Beklenmedik bir davranışla karşılaşabilirsiniz. Lütfen ikisinden birini "
+"devre dışı bırakmak için sistem yöneticinizle görüşün."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "bayt cinsinden"

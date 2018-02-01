@@ -1,0 +1,966 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>, 2016\n"
+"Language-Team: Korean (https://www.transifex.com/nextcloud/teams/64236/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "매핑을 비울 수 없습니다."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "서버 설정을 삭제할 수 없습니다."
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "설정 잘못됨: 익명 바인딩이 허용되지 않습니다."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "설정 올바름, 연결되었습니다!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr "설정이 올바르지만 바인딩이 실패했습니다. 서버 설정과 인증 정보를 확인하십시오."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr "설정이 잘못되었습니다. 더 자세한 정보를 보려면 로그를 참조하십시오."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "동작이 지정되지 않음"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "설정이 지정되지 않음"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "데이터가 지정되지 않음"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr " 설정 %s을(를) 지정할 수 없음"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "동작이 존재하지 않음"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "LDAP 사용자 및 그룹 백엔드"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "갱신 중 …"
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "매우 약한 암호"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "약한 암호"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "그저 그런 암호"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "좋은 암호"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "매우 좋은 암호"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "기본 DN이 올바르지 않습니다"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "설정 시험 중…"
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "설정 올바르지 않음"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "설정 불완전함"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "설정 올바름"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "그룹 선택"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "객체 클래스 선택"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "인증 정보가 잘못된 것 같습니다. 다시 확인해 주십시오."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "포트를 자동으로 감지할 수 없습니다. 포트를 입력해 주십시오."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr "기본 DN을 자동으로 감지할 수 없습니다. 인증 정보, 호스트, 포트를 다시 확인하십시오."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "기본 DN을 자동으로 감지할 수 없습니다. 직접 입력하십시오."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. 서버"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "입력한 기본 DN에서 객체를 찾을 수 없습니다. 다시 입력하십시오."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "디렉터리 항목이 1,000개 이상 존재합니다."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "개(지정한 DN의 기본 항목 수)"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr "오류가 발생했습니다. 기본 DN, 연결 설정, 인증 정보를 확인하십시오."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "현재 서버 설정을 지우시겠습니까?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "삭제 확인"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "매핑을 삭제했습니다!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "매핑을 삭제하는 중 오류가 발생했습니다."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr "익명 연결은 허용되지 않습니다. 사용자 DN과 암호를 입력하십시오."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "LDAP 작업 오류입니다. 익명 연결이 비활성화 되었을 수 있습니다."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr "저장할 수 없습니다. 데이터베이스 상태를 확인하십시오. 계속하기 전에 새로 고치십시오."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"모드를 전환하면 자동 LDAP 질의를 활성화합니다. LDAP 크기에 따라서 시간이 걸릴 수도 있습니다. 모드를 전환하시겠습니까?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "모드 전환"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "속성 선택"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"사용자를 찾을 수 없습니다. 로그인 속성과 사용자 이름을 확인하십시오. 사용한 필터(명령행에서 검증하려면 복사 및 붙여넣기):"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "사용자를 찾았고 설정을 확인했습니다."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr "검색 범위를 좁히십시오. 현재 설정으로 여러 사용자가 검색되었으며, 최초의 사용자만 로그인할 수 있습니다."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr "지정하지 않은 오류가 발생했습니다. 로그와 설정을 확인하십시오."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr "검색 필터가 잘못되었습니다. 열고 닫는 괄호 쌍이 맞지 않을 수도 있습니다. 확인 후 수정하십시오."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr "LDAP/AD 연결 오류가 발생했습니다. 호스트, 포트, 인증 정보를 확인하십시오."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr "\"%uid\" 자리 비움자가 없습니다. LDAP/AD에 조회할 때 로그인 이름으로 대체됩니다."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "테스트할 로그인 사용자 이름을 입력하십시오"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr "LDAP/AD 서버에서 memberOf를 지원하지 않아서 그룹 상자를 비활성화합니다."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "암호 변경이 거부되었습니다. 힌트:"
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "새 암호로 로그인하십시오"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "내 암호가 내일 만료됩니다."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "내 암호가 오늘 만료됩니다."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "내 암호가 %n일 후 만료됩니다."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP/AD 통합"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "그룹 %s개 찾음"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "사용자 %s명 찾음"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr "사용자 표시 이름 속성을 찾을 수 없습니다. 고급 LDAP 설정에서 직접 지정하십시오."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "필요한 기능을 찾을 수 없음"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "잘못된 호스트"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "설정 시험"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "도움말"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "이 조건을 만족하는 그룹은 %s에 있습니다:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "다음 객체 클래스만:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "다음 그룹만:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "그룹 검색"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "사용 가능한 그룹"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "선택한 그룹"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "LDAP 질의 편집"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP 필터:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "이 필터는 %s에 접근할 수 있는 LDAP 그룹을 설정합니다."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "설정을 확인하고 그룹 개수 세기"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr "로그인할 때 %s에서 다음 속성을 기반으로 사용자를 찾습니다:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP/AD 사용자 이름:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"LDAP/AD 사용자 이름으로 로그인하는 것을 허용합니다. \"uid\" 및 \"sAMAccountName\" 중 하나이며 자동으로 "
+"감지합니다."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP/AD 이메일 주소:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr "이메일 속성으로 로그인하는 것을 허용합니다. \"mail\" 및 \"mailPrimaryAddress\"를 사용할 수 있습니다."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "기타 속성:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"로그인을 시도했을 때 적용할 필터를 지정합니다. \"%%uid\"는 로그인을 시도한 사용자 이름으로 대체됩니다. 예: "
+"\"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "로그인 이름 테스트"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "설정 검사"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. 서버"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. 서버:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "새 설정 추가"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "현재 설정을 새 디렉터리 바인딩으로 복사"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "현재 설정 삭제"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "호스트"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr "SSL이 필요한 경우가 아니라면 프로토콜을 입력하지 않아도 됩니다. SSL이 필요한 경우 ldaps:// 주소를 입력하십시오"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "포트"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "포트 감지"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "사용자 DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"바인딩 작업을 수행할 클라이언트 사용자 DN입니다. 예를 들어서 uid=agent,dc=example,dc=com입니다. 익명 접근을 "
+"허용하려면 DN과 암호를 비워 두십시오."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "암호"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "익명 접근을 허용하려면 DN과 암호를 비워 두십시오."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "인증 정보 저장"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "기본 DN을 한 줄에 하나씩 입력하십시오"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr "고급 탭에서 사용자 및 그룹에 대한 기본 DN을 지정할 수 있습니다."
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "기본 DN 감지"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "기본 DN 시험"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr "자동 LDAP 요청을 줄입니다. 대형 사이트에서 유용하지만 LDAP에 관한 지식이 필요합니다."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "수동으로 LDAP 필터 입력(대형 사이트에 추천)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "다음 조건으로 사용자 조회 및 검색 제한:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"일반적인 객체 클래스는 organizationalPerson, person, user, inetOrgPerson입니다. 어떤 객체 "
+"클래스를 사용해야 할 지 모르겠으면 디렉터리 서비스 관리자에게 연락하십시오."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr "이 필터는 %s에 접근할 수 있는 LDAP 사용자를 설정합니다."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "설정을 확인하고 사용자 수 계산"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "저장 중"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "뒤로"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "계속"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "암호를 갱신하십시오."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "내부 오류가 발생했습니다."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "다시 시도하거나 관리자에게 연락하십시오."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "현재 암호"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "새 암호"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "암호 갱신"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "암호가 잘못되었습니다. 초기화하시겠습니까?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "암호가 잘못되었습니다."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "취소"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "서버"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "사용자"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "로그인 속성"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "그룹"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "전문가"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "고급"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>경고:</b> PHP LDAP 모듈이 비활성화되어 있거나 설치되어 있지 않습니다. 백엔드를 사용할 수 없습니다. 시스템 관리자에게 "
+"설치를 요청하십시오."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "연결 설정"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "구성 활성"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "선택하지 않으면 이 설정을 무시합니다."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "백업(복제) 호스트"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr "추가적인 백업 호스트를 지정합니다. 기본 LDAP/AD 서버의 복사본이어야 합니다."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "백업(복제) 포트"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "주 서버 비활성화"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "복제 서버에만 연결합니다."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "SSL 인증서 유효성 검사를 해제합니다."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"테스트 목적으로만 사용하십시오! 이 옵션을 사용해야만 연결할 수 있으면 %s 서버에 LDAP 서버의 SSL 인증서를 설치하십시오."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "캐시 유지 시간"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "초 단위입니다. 항목 변경 시 캐시가 갱신됩니다."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "디렉터리 설정"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "사용자의 표시 이름 필드"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr "사용자 표시 이름을 생성할 때 사용할 LDAP 속성입니다."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "보조 사용자 표시 이름 필드"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"선택 사항입니다. 괄호 안에 추가로 표시할 정보를 포함하는 LDAP 속성입니다. 예: "
+"홍길동(gildong.hong@example.org)"
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "기본 사용자 트리"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "사용자 DN을 한 줄에 하나씩 입력하십시오"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "사용자 검색 속성"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "추가적, 한 줄에 하나의 속성을 입력하십시오"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "그룹의 표시 이름 필드"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr "그룹 표시 이름을 생성할 때 사용할 LDAP 속성입니다."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "기본 그룹 트리"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "그룹 기본 DN을 한 줄에 하나씩 입력하십시오"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "그룹 검색 속성"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "그룹-구성원 연결"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "동적 그룹 구성원 URL"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"그룹에 포함될 객체를 결정하는 LDAP 검색 URL을 포함하는 그룹 객체의 LDAP 속성입니다.(비워 두면 동적 그룹 구성원 기능을 "
+"사용하지 않습니다.)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "그룹 안의 그룹"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr "이 설정을 사용하면 그룹 안의 그룹을 지원합니다.(그룹 구성원 속성이 DN을 포함하는 경우에만 사용 가능)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "페이지 청크 크기"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"사용자와 그룹 목록 가져오기와 같은 다량의 결과를 반환하는 페이지를 지정한 LDAP 검색에 사용할 청크 크기입니다.(0으로 설정하면 "
+"이러한 검색을 할 때 페이지를 사용하지 않습니다.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "사용자별 LDAP 암호 변경 허용"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"LDAP 사용자가 암호를 변경하고 수퍼 관리자 및 그룹 관리자가 LDAP 사용자의 암호를 변경할 수 있도록 허용합니다. LDAP 서버의 "
+"접근 제어가 올바르게 설정되어 있어야 작동합니다. LDAP 서버에 평문으로 암호가 전송되기 때문에 전송 계층 암호화가 설정되어 있어야 "
+"하며 LDAP 서버에 암호 해시가 설정되어 있어야 합니다."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(새 암호가 LDAP 서버에 평문으로 전송됨)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "기본 암호 정책 DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"암호 만료 처리에 사용할 기본 암호 정책 DN입니다. 사용자별 LDAP 암호 변경이 활성화되어 있어야 하며 OpenLDAP에서만 "
+"동작합니다. 암호 만료 처리를 사용하지 않으려면 비워 두십시오."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "특수 속성"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "할당량 필드"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr "사용자의 기본 할당량을 사용하려면 비워 두십시오. 할당량 설정이 필요하면 LDAP/AD 속성을 지정하십시오."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "기본 할당량"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr "할당량 필드에 할당량이 설정되지 않은 LDAP 사용자를 위한 기본 할당량입니다."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "이메일 필드"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr "LDAP 속성에서 사용자의 이메일을 설정합니다. 기본 행동을 사용하려면 비워 두십시오."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "사용자 홈 폴더 이름 규칙"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr "사용자 이름을 사용하려면 비워 두십시오(기본값). 기타 경우 LDAP/AD 속성을 지정하십시오."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "내부 사용자 이름"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"기본적으로 내부 사용자 이름은 UUID 속성에서 생성됩니다. 이를 통해서 사용자 이름이 유일하며 문자를 변환할 필요가 없도록 합니다. "
+"내부 사용자 이름에는 다음 글자만 사용할 수 있습니다: [a-zA-Z0-9_.@-] 다른 모든 글자는 ASCII에 해당하는 글자로 "
+"대체되거나 생략됩니다. 충돌이 발생할 경우 숫자가 추가로 붙거나 증가합니다. 내부 사용자 이름은 사용자를 내부에서 식별하는 데에도 "
+"사용되며, 사용자 홈 폴더의 기본 이름입니다. 모든 *DAV 서비스 등에 사용되는 URL의 일부이기도 합니다. 이 설정을 사용하면 기본 "
+"행동을 사용자 정의할 수 있으며, 비워 두면 기본값을 사용합니다. 변경 사항은 새로 매핑 및 추가된 LDAP 사용자에게만 적용됩니다."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "내부 사용자 이름 속성:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "UUID 확인 재정의"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"기본적으로 UUID 속성은 자동적으로 감지됩니다. UUID 속성은 LDAP 사용자와 그룹을 정확히 식별하는 데 사용됩니다. 지정하지 않은"
+" 경우 내부 사용자 이름은 UUID를 기반으로 생성됩니다. 이 설정을 다시 정의하고 임의의 속성을 지정할 수 있습니다. 사용자와 그룹 "
+"모두에게 속성을 적용할 수 있고 중복된 값이 없는지 확인하십시오. 비워 두면 기본 설정을 사용합니다. 새로 추가되거나 매핑된 LDAP "
+"사용자와 그룹에만 적용됩니다."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "사용자 UUID 속성:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "그룹 UUID 속성:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "사용자 이름-LDAP 사용자 매핑"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"사용자 이름은 (메타)데이터를 저장하고 할당하는 데 사용됩니다. 사용자를 정확히 식별하기 위해서 모든 LDAP 사용자는 내부 사용자 "
+"이름을 갖고 있습니다. 이 정보에 접근하려면 사용자 이름과 LDAP 사용자 사이의 연결을 알아야 합니다. 생성된 사용자 이름은 LDAP "
+"사용자의 UUID에 연결됩니다. LDAP에 연결하는 횟수를 줄이기 위하여 DN을 캐시에 저장하지만, 식별에는 사용하지 않습니다. DN이 "
+"변경되었을 때 변경 사항이 적용됩니다. 내부 사용자 이름은 항상 사용됩니다. 매핑을 비우면 과거 매핑의 흔적이 남습니다. 매핑을 비우는 "
+"것은 설정에 관계 없이 적용되므로 모든 LDAP 설정에 영향을 줍니다! 테스트 및 실험 단계에서만 매핑을 비우고, 상용 환경에서는 매핑을"
+" 비우지 마십시오."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "사용자 이름-LDAP 사용자 매핑 비우기"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "그룹 이름-LDAP 그룹 매핑 비우기"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr "%uid 자리 비움자가 존재하지 않습니다. LDAP/AD에 조회할 때 로그인 사용자 이름으로 대체됩니다."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "설정을 확인하고 그룹 수 계산"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "새 빈 설정 추가"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr "SSL을 사용하지 않으면 프로토콜을 입력하지 않아도 됩니다. SSL을 사용하려면 ldaps://를 입력하십시오."
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>경고:</b> user_ldap, user_webdavauth 앱은 서로 호환되지 않습니다. 예상하지 못한 행동을 할 수도 "
+"있습니다. 시스템 관리자에게 연락하여 둘 중 하나의 앱의 사용을 중단하십시오."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "바이트 단위"

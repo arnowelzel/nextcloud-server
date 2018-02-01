@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ldm Public <ldmpub@gmail.com>, 2016\n"
+"Language-Team: French (https://www.transifex.com/nextcloud/teams/64236/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: /app/apps/files_trashbin/ajax/delete.php:85
+#, php-format
+msgid "Couldn't delete %s permanently"
+msgstr "Impossible de supprimer %s définitivement"
+
+#: /app/apps/files_trashbin/ajax/undelete.php:90
+#, php-format
+msgid "Couldn't restore %s"
+msgstr "Impossible de restaurer %s"
+
+#: /app/apps/files_trashbin/appinfo/app.php:38
+#: /app/apps/files_trashbin/js/filelist.js:44
+#: /app/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Deleted files"
+msgstr "Fichiers supprimés"
+
+#: /app/apps/files_trashbin/js/app.js:49
+#: /app/apps/files_trashbin/templates/index.php:36
+msgid "Restore"
+msgstr "Restaurer"
+
+#: /app/apps/files_trashbin/js/app.js:71
+#: /app/apps/files_trashbin/templates/index.php:40
+#: /app/apps/files_trashbin/templates/index.php:49
+msgid "Delete"
+msgstr "Supprimer"
+
+#: /app/apps/files_trashbin/js/app.js:77 /app/apps/files_trashbin/js/app.js:78
+msgid "Delete permanently"
+msgstr "Supprimer de façon définitive"
+
+#: /app/apps/files_trashbin/js/filelist.js:145
+#: /app/apps/files_trashbin/js/filelist.js:190
+#: /app/apps/files_trashbin/js/filelist.js:240
+msgid "Error"
+msgstr "Erreur"
+
+#: /app/apps/files_trashbin/js/filelist.js:338
+msgid "This operation is forbidden"
+msgstr "Cette opération est interdite"
+
+#: /app/apps/files_trashbin/js/filelist.js:346
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Ce répertoire n'est pas disponible. Consultez les logs ou contactez votre "
+"administrateur"
+
+#: /app/apps/files_trashbin/lib/Trashbin.php:908
+#: /app/apps/files_trashbin/lib/Trashbin.php:910
+msgid "restored"
+msgstr "restauré"
+
+#: /app/apps/files_trashbin/templates/index.php:9
+msgid "No deleted files"
+msgstr "Aucun fichier supprimé"
+
+#: /app/apps/files_trashbin/templates/index.php:10
+msgid "You will be able to recover deleted files from here"
+msgstr "Ici, vous verrez et pourrez restaurer vos fichiers supprimés"
+
+#: /app/apps/files_trashbin/templates/index.php:17
+msgid "No entries found in this folder"
+msgstr "Aucune entrée trouvée dans ce dossier"
+
+#: /app/apps/files_trashbin/templates/index.php:27
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: /app/apps/files_trashbin/templates/index.php:32
+msgid "Name"
+msgstr "Nom"
+
+#: /app/apps/files_trashbin/templates/index.php:46
+msgid "Deleted"
+msgstr "Effacé"

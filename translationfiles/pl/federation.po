@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Valdnet Valdnet <valdnet@gmail.com>, 2016\n"
+"Language-Team: Polish (https://www.transifex.com/nextcloud/teams/64236/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "Dodano do listy zaufanych serwerów."
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "Serwer znajduje się już na liście zaufanych serwerów."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Nie znaleziono stowarzyszonego serwera"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "Nie można dodać serwera"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "Zaufane serwery"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"Stowarzyszenie pozwala łączyć się z innymi zaufanymi użytkownikami i "
+"wymieniać się z nimi katalogami. Na przykład, może  to być wykorzystane do "
+"autouzupełniania w dzieleniu się ze stowarzyszonym użytkownikiem."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr ""
+"Dodaj serwer automatycznie po pomyślnym utworzeniu stowarzyszonego udziału."
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ Dodaj zaufany serwer"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "Zaufany serwer"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "Dodaj"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "Stowarzyszenia"

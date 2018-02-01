@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TVDavidsan, 2016\n"
+"Language-Team: French (https://www.transifex.com/nextcloud/teams/64236/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "Ajouté à la liste des serveurs de confiance"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "Le serveur est déjà dans la liste des serveurs de confiance."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Aucun serveur avec lequel fédérer n'a été trouvé"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "Impossible d'ajouter le serveur"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "Serveurs de confiance"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"Une fédération vous permet de vous connecter avec d'autres serveurs de "
+"confiance pour échanger la liste des utilisateurs. Par exemple, ce sera "
+"utilisé pour auto-compléter les utilisateurs externes lors du partage "
+"fédéré."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr ""
+"Ajouter un serveur automatiquement une fois que le partage a été créé avec "
+"succès"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ Ajouter un serveur de confiance"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "Serveur de confiance"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "Ajouter"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "Fédération"

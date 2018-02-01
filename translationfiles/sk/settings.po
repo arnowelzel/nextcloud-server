@@ -1,0 +1,2237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: holdenger <holden42@gmail.com>, 2017\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/nextcloud/teams/64236/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: Activity/Provider.php:97
+msgid "{actor} changed your password"
+msgstr "{actor} zmenil Vaše heslo"
+
+#: Activity/Provider.php:99
+msgid "You changed your password"
+msgstr "Zmenili ste si heslo"
+
+#: Activity/Provider.php:101
+msgid "Your password was reset by an administrator"
+msgstr "Vaše heslo bolo resetované administrátorom"
+
+#: Activity/Provider.php:104
+msgid "{actor} changed your email address"
+msgstr "{actor} zmenil Vašu emailovú adresu"
+
+#: Activity/Provider.php:106
+msgid "You changed your email address"
+msgstr "Zmenili ste si emailovú adresu"
+
+#: Activity/Provider.php:108
+msgid "Your email address was changed by an administrator"
+msgstr "Vaša emailová adresa bola zmenená administrátorom"
+
+#: Activity/SecurityFilter.php:60 Activity/SecuritySetting.php:51
+#: templates/settings/personal/security.php:35
+msgid "Security"
+msgstr "Zabezpečenie"
+
+#: Activity/SecurityProvider.php:61
+#, php-format
+msgid "You successfully logged in using two-factor authentication (%1$s)"
+msgstr "Úspešne ste sa prihlásili pomocou dvoj-faktorovej autentizácie (%1$s)"
+
+#: Activity/SecurityProvider.php:72
+#, php-format
+msgid "A login attempt using two-factor authentication failed (%1$s)"
+msgstr ""
+"Pokus o prihlásenie s použitím dvoj-faktorovej autentizácie zlyhal (%1$s)"
+
+#: Activity/Setting.php:54
+msgid "Your <strong>password</strong> or <strong>email</strong> was modified"
+msgstr "Vaše <strong>heslo</strong> alebo <strong>email</strong> bolo zmenené"
+
+#: Controller/AppSettingsController.php:146 js/apps.js:44
+msgid "Your apps"
+msgstr "Vaše aplikácie"
+
+#: Controller/AppSettingsController.php:147
+msgid "Updates"
+msgstr "Aktualizácie"
+
+#: Controller/AppSettingsController.php:148 js/apps.js:45
+msgid "Enabled apps"
+msgstr "Povolené aplikácie"
+
+#: Controller/AppSettingsController.php:149 js/apps.js:46
+msgid "Disabled apps"
+msgstr "Zakázané aplikácie"
+
+#: Controller/AppSettingsController.php:150
+msgid "App bundles"
+msgstr "Aplikačné balíky"
+
+#: Controller/ChangePasswordController.php:108
+msgid "Wrong password"
+msgstr "Nesprávne heslo"
+
+#: Controller/ChangePasswordController.php:136 js/admin.js:127 js/admin.js:190
+#: js/admin.js:210
+msgid "Saved"
+msgstr "Uložené"
+
+#: Controller/ChangePasswordController.php:156
+msgid "No user supplied"
+msgstr "Nebol uvedený používateľ"
+
+#: Controller/ChangePasswordController.php:165
+#: Controller/ChangePasswordController.php:262
+#: Controller/ChangePasswordController.php:273 js/settings/personalInfo.js:185
+#: js/settings/personalInfo.js:200
+msgid "Unable to change password"
+msgstr "Zmena hesla sa nepodarila"
+
+#: Controller/ChangePasswordController.php:179
+#: Controller/UsersController.php:544 Controller/UsersController.php:611
+#: Controller/UsersController.php:935 ajax/setquota.php:56
+msgid "Authentication error"
+msgstr "Chyba autentifikácie"
+
+#: Controller/ChangePasswordController.php:229
+msgid ""
+"Please provide an admin recovery password; otherwise, all user data will be "
+"lost."
+msgstr ""
+"Zadajte administrátorské heslo pre obnovu, inak budú všetky používateľské "
+"dáta stratené."
+
+#: Controller/ChangePasswordController.php:236
+msgid ""
+"Wrong admin recovery password. Please check the password and try again."
+msgstr ""
+"Chybné administrátorské heslo pre obnovu. Skontrolujte správnosť hesla a "
+"skúste to znovu."
+
+#: Controller/ChangePasswordController.php:255
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"updated."
+msgstr ""
+"Backend nepodporuje zmenu hesla, ale šifrovací kľúč používateľa bol zmenený."
+
+#: Controller/CheckSetupController.php:201
+msgid ""
+"installing and updating apps via the app store or Federated Cloud Sharing"
+msgstr ""
+"Inštalovať a aktualizovať aplikácia pomocou obchodu alebo Zdieľaného "
+"Cloudového Úložiska"
+
+#: Controller/CheckSetupController.php:203
+msgid "Federated Cloud Sharing"
+msgstr "Sprístupnenie prostredníctvom Federated Cloud"
+
+#: Controller/CheckSetupController.php:213
+#: Controller/CheckSetupController.php:227
+#, php-format
+msgid ""
+"cURL is using an outdated %s version (%s). Please update your operating "
+"system or features such as %s will not work reliably."
+msgstr ""
+"cURL používa zastaralú %sverziu (%s).  Prosím aktualizujte si operačný "
+"systém pretože %snebude fungovať spoľahlivo."
+
+#: Controller/EncryptionController.php:147
+#, php-format
+msgid "A problem occurred, please check your log files (Error: %s)"
+msgstr "Nastala chyba, skontrolujte prosím váš log súbor (Chyba: %s)"
+
+#: Controller/EncryptionController.php:155
+msgid "Migration Completed"
+msgstr "Migrácia ukončená"
+
+#: Controller/GroupsController.php:106
+msgid "Group already exists."
+msgstr "Skupina už existuje."
+
+#: Controller/GroupsController.php:124
+msgid "Unable to add group."
+msgstr "Nie je možné pridať skupinu."
+
+#: Controller/GroupsController.php:155
+msgid "Unable to delete group."
+msgstr "Nie je možné zmazať skupinu."
+
+#: Controller/MailSettingsController.php:129
+msgid "Invalid SMTP password."
+msgstr "Nesprávne heslo pre SMTP"
+
+#: Controller/MailSettingsController.php:154
+msgid "Email setting test"
+msgstr "Test nastavení emailu"
+
+#: Controller/MailSettingsController.php:156
+#, php-format
+msgid "Well done, %s!"
+msgstr "Dobrá práca, %s!"
+
+#: Controller/MailSettingsController.php:157
+msgid ""
+"If you received this email, the email configuration seems to be correct."
+msgstr "Ak ste prijali tento email, emailová konfigurácia sa zdá byť správna."
+
+#: Controller/MailSettingsController.php:165
+msgid "Email could not be sent. Check your mail server log"
+msgstr "Nepodarilo sa odoslať email.  Skontrolujte log Vášho mail servera"
+
+#: Controller/MailSettingsController.php:169
+#, php-format
+msgid ""
+"A problem occurred while sending the email. Please revise your settings. "
+"(Error: %s)"
+msgstr ""
+"Vyskytol sa problém pri odosielaní emailu. Prosím, znovu skontrolujte svoje "
+"nastavenia. (Chyba: %s)"
+
+#: Controller/MailSettingsController.php:173
+msgid "You need to set your user email before being able to send test emails."
+msgstr ""
+"Musíte nastaviť svoj po​​užívateľský email, než budete môcť odoslať "
+"testovací email."
+
+#: Controller/UsersController.php:394 Controller/UsersController.php:770
+#: Controller/UsersController.php:997
+msgid "Invalid mail address"
+msgstr "Neplatná emailová adresa"
+
+#: Controller/UsersController.php:420
+msgid "No valid group selected"
+msgstr "Nebola zvolená platná skupina"
+
+#: Controller/UsersController.php:430
+msgid "A user with that name already exists."
+msgstr "Používateľ s týmto menom už existuje."
+
+#: Controller/UsersController.php:441
+msgid "To send a password link to the user an email address is required."
+msgstr ""
+"Pre odoslanie linky pre nastavenie hesla používateľovi sa vyžaduje emailová "
+"adresa."
+
+#: Controller/UsersController.php:461 Controller/UsersController.php:509
+msgid "Unable to create user."
+msgstr "Nie je možné vytvoriť používateľa."
+
+#: Controller/UsersController.php:532 Controller/UsersController.php:569
+msgid "Unable to delete user."
+msgstr "Nie je možné zmazať používateľa."
+
+#: Controller/UsersController.php:586
+msgid "Error while enabling user."
+msgstr "Chyba pri povoľovaní používateľa."
+
+#: Controller/UsersController.php:588
+msgid "Error while disabling user."
+msgstr "Chyba pri zakázaní používateľa."
+
+#: Controller/UsersController.php:672
+msgid ""
+"In order to verify your Twitter account, post the following tweet on Twitter"
+" (please make sure to post it without any line breaks):"
+msgstr ""
+"Ak chcete overiť svoj Twitter účet, napíšte nasledujúci tweet (uistite sa, "
+"že ho zasielate bez zalomenia riadkov):"
+
+#: Controller/UsersController.php:680
+msgid ""
+"In order to verify your Website, store the following content in your web-"
+"root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the"
+" complete text is in one line):"
+msgstr ""
+"Pre verifikáciu vašich webových stránok uložte nasledujúci obsah v koreňovom"
+" adresári webovej stránky v umiestnení '.well-"
+"known/CloudIdVerificationCode.txt' (uistite sa, že bol text vložený ako "
+"jediný riadok)"
+
+#: Controller/UsersController.php:814
+msgid "Settings saved"
+msgstr "Nastavenia uložené"
+
+#: Controller/UsersController.php:849
+msgid "Unable to change full name"
+msgstr "Nemožno zmeniť meno a priezvisko"
+
+#: Controller/UsersController.php:861
+msgid "Unable to change email address"
+msgstr "Nemožno zmeniť emailovú adresu"
+
+#: Controller/UsersController.php:949
+msgid "Your full name has been changed."
+msgstr "Vaše meno a priezvisko bolo zmenené."
+
+#: Controller/UsersController.php:985
+msgid "Forbidden"
+msgstr "Zakázané"
+
+#: Controller/UsersController.php:1009
+msgid "Invalid user"
+msgstr "Neplatný používateľ"
+
+#: Controller/UsersController.php:1022
+msgid "Unable to change mail address"
+msgstr "Nemožno zmeniť emailovú adresu"
+
+#: Controller/UsersController.php:1040
+msgid "Email saved"
+msgstr "Email uložený"
+
+#: Hooks.php:108
+#, php-format
+msgid "%1$s changed your password on %2$s."
+msgstr "%1$szmenil Vaše heslo na %2$s"
+
+#: Hooks.php:112
+#, php-format
+msgid "Your password on %s was changed."
+msgstr "Vaše heslo na %sbolo zmenené."
+
+#: Hooks.php:117
+#, php-format
+msgid "Your password on %s was reset by an administrator."
+msgstr "Vaše heslo na %sbolo resetované administrátorom."
+
+#: Hooks.php:130
+#, php-format
+msgid "Password for %1$s changed on %2$s"
+msgstr "Heslo pre %1$sbolo zmenené na %2$s"
+
+#: Hooks.php:132
+#, php-format
+msgid "Password changed for %s"
+msgstr "Heslo zmenené pre %s"
+
+#: Hooks.php:133 Hooks.php:203
+msgid "If you did not request this, please contact an administrator."
+msgstr "Ak ste to nevyžadovali, prosím kontaktujte administrátora."
+
+#: Hooks.php:177
+#, php-format
+msgid "%1$s changed your email address on %2$s."
+msgstr "%1$szmenil Vašu emailovú adresu na %2$s"
+
+#: Hooks.php:181
+#, php-format
+msgid "Your email address on %s was changed."
+msgstr "Vaša emailová adresa na %sbola zmenená."
+
+#: Hooks.php:186
+#, php-format
+msgid "Your email address on %s was changed by an administrator."
+msgstr "Vaša emailová adresa na %s bola zmenená administrátorom."
+
+#: Hooks.php:200
+#, php-format
+msgid "Email address for %1$s changed on %2$s"
+msgstr "Emailová adresa pre %1$szmenená na %2$s"
+
+#: Hooks.php:202
+#, php-format
+msgid "Email address changed for %s"
+msgstr "Emailová adresa zmenená pre %s"
+
+#: Hooks.php:205
+#, php-format
+msgid "The new email address is %s"
+msgstr "Nová emailová adresa je %s"
+
+#: Mailer/NewUserMailHelper.php:132
+#, php-format
+msgid "Your %s account was created"
+msgstr "Váš účet %s bol vytvorený"
+
+#: Mailer/NewUserMailHelper.php:135
+msgid "Welcome aboard"
+msgstr "Vitajte na palube"
+
+#: Mailer/NewUserMailHelper.php:137
+#, php-format
+msgid "Welcome aboard %s"
+msgstr "Vitajte na palube %s"
+
+#: Mailer/NewUserMailHelper.php:139
+#, php-format
+msgid "Welcome to your %s account, you can add, protect, and share your data."
+msgstr ""
+"Vitajte vo vašom %s účte, môžete pridávať, chrániť a zdieľať svoje dáta."
+
+#: Mailer/NewUserMailHelper.php:140
+#, php-format
+msgid "Your username is: %s"
+msgstr "Vaše používateľské meno je: %s"
+
+#: Mailer/NewUserMailHelper.php:142
+msgid "Set your password"
+msgstr "Nastavte si heslo"
+
+#: Mailer/NewUserMailHelper.php:144
+#, php-format
+msgid "Go to %s"
+msgstr "Prejsť na %s"
+
+#: Mailer/NewUserMailHelper.php:149
+msgid "Install Client"
+msgstr "Inštalácia klienta"
+
+#: ajax/disableapp.php:30 ajax/enableapp.php:33 ajax/setquota.php:39
+#: ajax/togglesubadmins.php:32 ajax/uninstallapp.php:31
+msgid "Password confirmation is required"
+msgstr "Vyžaduje sa overenie heslom"
+
+#: ajax/uninstallapp.php:54
+msgid "Couldn't remove app."
+msgstr "Nemožno odstrániť aplikáciu."
+
+#: ajax/updateapp.php:57
+msgid "Couldn't update app."
+msgstr "Nemožno aktualizovať aplikáciu."
+
+#: js/admin.js:10
+msgid "Are you really sure you want add {domain} as trusted domain?"
+msgstr "Ste si istí, že chcete pridať {domain} medzi dôveryhodné domény?"
+
+#: js/admin.js:13
+msgid "Add trusted domain"
+msgstr "Pridať dôveryhodnú doménu"
+
+#: js/admin.js:76
+msgid "Migration in progress. Please wait until the migration is finished"
+msgstr "Prebieha migrácia. Počkajte prosím, kým sa skončí"
+
+#: js/admin.js:80
+msgid "Migration started …"
+msgstr "Migrácia spustená ..."
+
+#: js/admin.js:130
+msgid "Not saved"
+msgstr "Neuložené"
+
+#: js/admin.js:229
+msgid "Sending…"
+msgstr "Odosielam..."
+
+#: js/admin.js:235
+msgid "Email sent"
+msgstr "Email odoslaný"
+
+#: js/apps.js:15 js/apps.js:821
+msgid "Official"
+msgstr "Oficiálny"
+
+#: js/apps.js:26 templates/apps.php:67 templates/apps.php:187
+msgid "All"
+msgstr "Všetky"
+
+#: js/apps.js:144 templates/apps.php:74 templates/apps.php:180
+#, php-format, javascript-format
+msgid "Update to %s"
+msgstr "Aktualizovať na %s"
+
+#: js/apps.js:160 templates/apps.php:209
+msgid "No apps found for your version"
+msgstr "Aplikácie pre vašu verziu sa nenašli"
+
+#: js/apps.js:166
+msgid "The app will be downloaded from the app store"
+msgstr "Aplikácia bude stiahnutá z obchodu"
+
+#: js/apps.js:172
+msgid ""
+"Official apps are developed by and within the community. They offer central "
+"functionality and are ready for production use."
+msgstr ""
+"Oficiálne aplikácie sú vyvíjané komunitou.  Poskytujú centrálnu "
+"funkcionalitu a sú pripravené pre produkčné nasadenie."
+
+#: js/apps.js:177
+msgid ""
+"Approved apps are developed by trusted developers and have passed a cursory "
+"security check. They are actively maintained in an open code repository and "
+"their maintainers deem them to be stable for casual to normal use."
+msgstr ""
+"Schválené aplikácie sú vyvíjané dôveryhodnými vývojármi a prešli zbežnou "
+"kontrolou bezpečnosti.  Sú aktívne udržiavané v otvorenom repozitári a ich "
+"udržovatelia ich považujú za stabilné pre bežné použitie."
+
+#: js/apps.js:182
+msgid ""
+"This app is not checked for security issues and is new or known to be "
+"unstable. Install at your own risk."
+msgstr ""
+"Táto aplikácia nie je skontrolovaná na bezpečnostné chyby, je nová, alebo "
+"patrí medzi nestabilné. Inštalácia na vlastné riziko."
+
+#: js/apps.js:372
+msgid "Disabling app …"
+msgstr "Vypínanie aplikácie ..."
+
+#: js/apps.js:382 js/apps.js:384 js/apps.js:436
+msgid "Error while disabling app"
+msgstr "Chyba pri zakázaní aplikácie"
+
+#: js/apps.js:388 js/apps.js:466 js/users/users.js:959 templates/apps.php:79
+#: templates/apps.php:182
+msgid "Disable"
+msgstr "Zakázať"
+
+#: js/apps.js:406 js/apps.js:440 js/apps.js:503 js/apps.js:517 js/apps.js:531
+#: js/users/users.js:961 templates/apps.php:81 templates/apps.php:189
+msgid "Enable"
+msgstr "Zapnúť"
+
+#: js/apps.js:417
+msgid "Enabling app …"
+msgstr "Povoľujem aplikáciu …"
+
+#: js/apps.js:434 js/apps.js:500 js/apps.js:524 js/apps.js:526
+msgid "Error while enabling app"
+msgstr "Chyba pri povoľovaní aplikácie"
+
+#: js/apps.js:497
+msgid ""
+"Error: This app can not be enabled because it makes the server unstable"
+msgstr "Chyba: aplikáciu nie je možné povoliť, lebo naruší stabilitu servera"
+
+#: js/apps.js:511
+msgid "Error: Could not disable broken app"
+msgstr "Chyba: nebolo možné zakázať poškodenú aplikáciu"
+
+#: js/apps.js:514
+msgid "Error while disabling broken app"
+msgstr "Nastala chyba počas zakazovania poškodenej aplikácie"
+
+#: js/apps.js:539
+msgid "App up to date"
+msgstr ""
+
+#: js/apps.js:545
+msgid "Upgrading …"
+msgstr ""
+
+#: js/apps.js:552
+msgid "Could not upgrade app"
+msgstr ""
+
+#: js/apps.js:557
+msgid "Updated"
+msgstr "Aktualizované"
+
+#: js/apps.js:585
+msgid "Removing …"
+msgstr "Odstraňujem ..."
+
+#: js/apps.js:588
+msgid "Could not remove app"
+msgstr ""
+
+#: js/apps.js:589 templates/apps.php:76 templates/apps.php:192
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: js/apps.js:731
+msgid ""
+"The app has been enabled but needs to be upgraded. You will be redirected to"
+" the upgrade page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:733
+msgid "App upgrade"
+msgstr ""
+
+#: js/apps.js:826
+msgid "Approved"
+msgstr "Schválené"
+
+#: js/apps.js:831
+msgid "Experimental"
+msgstr "Experimentálny"
+
+#: js/apps.js:842
+msgid "No apps found for {query}"
+msgstr "Žiadna aplikácia nebola nájdená pre {query}"
+
+#: js/apps.js:943 templates/apps.php:41
+msgid "Enable all"
+msgstr "Povoliť všetko"
+
+#: js/authtoken_view.js:39
+msgid "Allow filesystem access"
+msgstr "Povoliť prístup ku súborovému systému"
+
+#: js/authtoken_view.js:42
+msgid "Disconnect"
+msgstr "Odpojiť"
+
+#: js/authtoken_view.js:42
+msgid "Revoke"
+msgstr "Odvolať"
+
+#: js/authtoken_view.js:134
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: js/authtoken_view.js:135
+msgid "Edge"
+msgstr "Edge"
+
+#: js/authtoken_view.js:136
+msgid "Firefox"
+msgstr "Firefox"
+
+#: js/authtoken_view.js:137
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: js/authtoken_view.js:138
+msgid "Safari"
+msgstr "Safari"
+
+#: js/authtoken_view.js:139
+msgid "Google Chrome for Android"
+msgstr "Google Chrome pre Android"
+
+#: js/authtoken_view.js:140
+msgid "iPhone iOS"
+msgstr "iPhone iOS"
+
+#: js/authtoken_view.js:141
+msgid "iPad iOS"
+msgstr "iPad iOS"
+
+#: js/authtoken_view.js:142
+msgid "iOS Client"
+msgstr "iOS Klient"
+
+#: js/authtoken_view.js:143
+msgid "Android Client"
+msgstr "Android Klient"
+
+#: js/authtoken_view.js:150
+msgid "Sync client - {os}"
+msgstr "Sync client - {os}"
+
+#: js/authtoken_view.js:167
+msgid "This session"
+msgstr "Táto relácia"
+
+#: js/authtoken_view.js:233 js/authtoken_view.js:246 js/authtoken_view.js:268
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: js/authtoken_view.js:240
+msgid "Copied!"
+msgstr "Skopírované!"
+
+#: js/authtoken_view.js:254
+msgid "Not supported!"
+msgstr "Nie je podporované!"
+
+#: js/authtoken_view.js:256
+msgid "Press ⌘-C to copy."
+msgstr "Stlač ⌘-C pre skopírovanie."
+
+#: js/authtoken_view.js:258
+msgid "Press Ctrl-C to copy."
+msgstr "Stlač Ctrl-C pre skopírovanie."
+
+#: js/authtoken_view.js:290
+msgid "Error while loading browser sessions and device tokens"
+msgstr "Chyba pri načítavaní relácií prehliadača a tokenov zariadení"
+
+#: js/authtoken_view.js:324
+msgid "Error while creating device token"
+msgstr "Chyba pri vytváraní tokenov zariadenia"
+
+#: js/authtoken_view.js:382
+msgid "Error while deleting the token"
+msgstr "Chyba pri mazaní tokenu"
+
+#: js/certificates.js:35 js/certificates.js:63
+msgid "An error occurred. Please upload an ASCII-encoded PEM certificate."
+msgstr "Vyskytla sa chyba. Nahrajte prosím PEM certifikát v ASCII kódovaní."
+
+#: js/certificates.js:47
+msgid "Valid until {date}"
+msgstr "Platný do {date}"
+
+#: js/certificates.js:52 js/certificates.js:53 templates/certificates.php:27
+#: templates/certificates.php:28 templates/users/part.userlist.php:78
+msgid "Delete"
+msgstr "Zmazať"
+
+#: js/federationscopemenu.js:49
+msgid "Local"
+msgstr "Lokálny"
+
+#: js/federationscopemenu.js:49
+msgid "Private"
+msgstr "Súkromný"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to local users"
+msgstr "Viditeľné iba pre lokálnych používateľov"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to you"
+msgstr "Viditeľné iba pre seba"
+
+#: js/federationscopemenu.js:56
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: js/federationscopemenu.js:57
+msgid "Visible to local users and to trusted servers"
+msgstr "Viditeľné pre lokálnych používateľov a dôveryhodné servery"
+
+#: js/federationscopemenu.js:63
+msgid "Public"
+msgstr "Verejné"
+
+#: js/federationscopemenu.js:64
+msgid "Will be synced to a global and public address book"
+msgstr "Bude synchronizované s globálnym a verejným adresárom"
+
+#: js/federationsettingsview.js:171
+msgid "Verify"
+msgstr "Overiť"
+
+#: js/federationsettingsview.js:177 js/settings/personalInfo.js:239
+msgid "Verifying …"
+msgstr "Overovanie ..."
+
+#: js/settings/personalInfo.js:291
+msgid ""
+"An error occured while changing your language. Please reload the page and "
+"try again."
+msgstr ""
+"Počas zmeny jazyka sa vyskytla chyba. Prosím obnovte stránku a skúste znova."
+
+#: js/settings/personalInfo.js:338
+msgid "Select a profile picture"
+msgstr "Vybrať avatara"
+
+#: js/settings/personalInfo.js:391
+msgid "Very weak password"
+msgstr "Veľmi slabé heslo"
+
+#: js/settings/personalInfo.js:392
+msgid "Weak password"
+msgstr "Slabé heslo"
+
+#: js/settings/personalInfo.js:393
+msgid "So-so password"
+msgstr "Priemerné heslo"
+
+#: js/settings/personalInfo.js:394
+msgid "Good password"
+msgstr "Dobré heslo"
+
+#: js/settings/personalInfo.js:395
+msgid "Strong password"
+msgstr "Silné heslo"
+
+#: js/settings.js:30 templates/settings/personal/personal.info.php:309
+#: templates/users/part.createuser.php:13 templates/users/part.userlist.php:9
+msgid "Groups"
+msgstr "Skupiny"
+
+#: js/users/deleteHandler.js:208
+msgid "Unable to delete {objName}"
+msgstr "Nemožno vymazať {objName}"
+
+#: js/users/groups.js:150 js/users/groups.js:258
+msgid "Error creating group: {message}"
+msgstr "Chyba pri vytváraní skupiny: {message}"
+
+#: js/users/groups.js:259
+msgid "A valid group name must be provided"
+msgstr "Musíte zadať platný názov skupiny"
+
+#: js/users/groups.js:287
+msgid "deleted {groupName}"
+msgstr "vymazaná {groupName}"
+
+#: js/users/groups.js:288 js/users/users.js:350
+msgid "undo"
+msgstr "vrátiť"
+
+#: js/users/users.js:118
+msgid "{size} used"
+msgstr "{size} použité"
+
+#: js/users/users.js:153
+msgid "never"
+msgstr "nikdy"
+
+#: js/users/users.js:349
+msgid "deleted {userName}"
+msgstr "vymazané {userName}"
+
+#: js/users/users.js:418
+msgid "No user found for <strong>{pattern}</strong>"
+msgstr "<strong>{pattern}</strong> nenašlo žiadnych používateľov"
+
+#: js/users/users.js:476
+msgid "Unable to add user to group {group}"
+msgstr "Nie je možné pridať používateľa do skupiny {group}"
+
+#: js/users/users.js:480
+msgid "Unable to remove user from group {group}"
+msgstr "Nie je možné odstrániť používateľa zo skupiny {group}"
+
+#: js/users/users.js:499 templates/users/part.grouplist.php:5
+#: templates/users/part.grouplist.php:8
+msgid "Add group"
+msgstr "Pridať skupinu"
+
+#: js/users/users.js:591
+msgid "Invalid quota value \"{val}\""
+msgstr "Neplatná hodnota kvóty \"{val}\""
+
+#: js/users/users.js:639 js/users/users.js:700
+msgid "no group"
+msgstr "nie je v skupine"
+
+#: js/users/users.js:749
+msgid "Password successfully changed"
+msgstr "Heslo úspešne zmenené"
+
+#: js/users/users.js:775
+msgid ""
+"Changing the password will result in data loss, because data recovery is not"
+" available for this user"
+msgstr ""
+"Zmena hesla bude mať za následok stratu dát, pretože obnova dát nie je k "
+"dispozícii pre tohto používateľa"
+
+#: js/users/users.js:888
+msgid "Could not change the users email"
+msgstr "Nemožno zmeniť email používateľa"
+
+#: js/users/users.js:992 js/users/users.js:1002
+msgid "Error while changing status of {user}"
+msgstr "Chyba pri zmene stavu používateľa {user}"
+
+#: js/users/users.js:1033
+msgid "A valid username must be provided"
+msgstr "Musíte zadať platné používateľské meno"
+
+#: js/users/users.js:1032 js/users/users.js:1038 js/users/users.js:1047
+#: js/users/users.js:1089
+msgid "Error creating user: {message}"
+msgstr "Chyba pri vytváraní používateľa: {message}"
+
+#: js/users/users.js:1039
+msgid "A valid password must be provided"
+msgstr "Musíte zadať platné heslo"
+
+#: js/users/users.js:1048
+msgid "A valid email must be provided"
+msgstr "Musíte zadať platnú emailovú adresu"
+
+#: templates/apps.php:32 templates/apps.php:136
+msgid "Developer documentation"
+msgstr "Dokumentácia vývojára"
+
+#: templates/apps.php:59
+msgid "View in store"
+msgstr "Zobraz v obchode"
+
+#: templates/apps.php:66
+msgid "Limit to groups"
+msgstr "Povoľ len pre skupiny"
+
+#: templates/apps.php:111
+#, php-format
+msgid "by %s"
+msgstr "od %s"
+
+#: templates/apps.php:113
+#, php-format
+msgid "%s-licensed"
+msgstr "%s-licencovaný"
+
+#: templates/apps.php:121
+msgid "Documentation:"
+msgstr "Dokumentácia:"
+
+#: templates/apps.php:124 templates/help.php:7
+msgid "User documentation"
+msgstr "Príručka používateľa"
+
+#: templates/apps.php:130
+msgid "Admin documentation"
+msgstr "Príručka administrátora"
+
+#: templates/apps.php:143
+msgid "Visit website"
+msgstr "Navštíviť webstránku"
+
+#: templates/apps.php:147
+msgid "Report a bug"
+msgstr "Nahlásiť chybu"
+
+#: templates/apps.php:150
+msgid "Show description …"
+msgstr "Zobraziť popis …"
+
+#: templates/apps.php:151
+msgid "Hide description …"
+msgstr "Skryť popis …"
+
+#: templates/apps.php:154
+msgid "This app has an update available."
+msgstr "Pre túto aplikáciu je dostupná aktualizácia."
+
+#: templates/apps.php:159
+msgid ""
+"This app has no minimum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+"Pre túto aplikáciu nie je zadaná minimálna verzia Nextcloudu. Toto v "
+"budúcnosti spôsobí chybu."
+
+#: templates/apps.php:164
+msgid ""
+"This app has no maximum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+"Pre túto aplikáciu nie je zadaná maximálna verzia Nextcloudu. Toto v "
+"budúcnosti spôsobí chybu."
+
+#: templates/apps.php:171
+msgid ""
+"This app cannot be installed because the following dependencies are not "
+"fulfilled:"
+msgstr ""
+"Túto aplikáciu nemožno nainštalovať, pretože nie sú splnené nasledovné "
+"závislosti:"
+
+#: templates/apps.php:185
+msgid "Enable only for specific groups"
+msgstr "Povoliť len pre vybrané skupiny"
+
+#: templates/certificates.php:2
+msgid "SSL Root Certificates"
+msgstr "Koreňové certifikáty SSL"
+
+#: templates/certificates.php:6
+msgid "Common Name"
+msgstr "Bežný názov"
+
+#: templates/certificates.php:7
+msgid "Valid until"
+msgstr "Platný do"
+
+#: templates/certificates.php:8
+msgid "Issued By"
+msgstr "Vydal"
+
+#: templates/certificates.php:19
+#, php-format
+msgid "Valid until %s"
+msgstr "Platný do %s"
+
+#: templates/certificates.php:40
+msgid "Import root certificate"
+msgstr "Importovať koreňový certifikát"
+
+#: templates/help.php:13
+msgid "Administrator documentation"
+msgstr "Príručka administrátora"
+
+#: templates/help.php:20
+msgid "Online documentation"
+msgstr "Online príručka"
+
+#: templates/help.php:25
+msgid "Forum"
+msgstr "Fórum"
+
+#: templates/help.php:32
+msgid "Getting help"
+msgstr "Získať pomoc"
+
+#: templates/help.php:39
+msgid "Commercial support"
+msgstr "Komerčná podpora"
+
+#: templates/settings/admin/additional-mail.php:28
+#: templates/settings/admin/additional-mail.php:35
+msgid "None"
+msgstr "Žiadny"
+
+#: templates/settings/admin/additional-mail.php:29
+msgid "Login"
+msgstr "Prihlásenie"
+
+#: templates/settings/admin/additional-mail.php:30
+msgid "Plain"
+msgstr "Neformátovaný"
+
+#: templates/settings/admin/additional-mail.php:31
+msgid "NT LAN Manager"
+msgstr "NT LAN Manager"
+
+#: templates/settings/admin/additional-mail.php:36
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: templates/settings/admin/additional-mail.php:37
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: templates/settings/admin/additional-mail.php:55
+msgid "Email server"
+msgstr "Email server"
+
+#: templates/settings/admin/additional-mail.php:57
+#: templates/settings/admin/encryption.php:32
+#: templates/settings/admin/server.php:180
+#: templates/settings/admin/sharing.php:32
+msgid "Open documentation"
+msgstr "Otvoriť dokumentáciu"
+
+#: templates/settings/admin/additional-mail.php:59
+msgid ""
+"It is important to set up this server to be able to send emails, like for "
+"password reset and notifications."
+msgstr ""
+"Je dôležité nastaviť aby server vedel odosielať emaily, napríklad pre "
+"nastavenie hesla a notifikácie."
+
+#: templates/settings/admin/additional-mail.php:63
+msgid "Send mode"
+msgstr "Mód odosielania"
+
+#: templates/settings/admin/additional-mail.php:76
+msgid "Encryption"
+msgstr "Šifrovanie"
+
+#: templates/settings/admin/additional-mail.php:91
+msgid "From address"
+msgstr "Z adresy"
+
+#: templates/settings/admin/additional-mail.php:92
+msgid "mail"
+msgstr "email"
+
+#: templates/settings/admin/additional-mail.php:99
+msgid "Authentication method"
+msgstr "Autentifikačná metóda"
+
+#: templates/settings/admin/additional-mail.php:112
+msgid "Authentication required"
+msgstr "Vyžaduje sa overenie"
+
+#: templates/settings/admin/additional-mail.php:116
+msgid "Server address"
+msgstr "Adresa servera"
+
+#: templates/settings/admin/additional-mail.php:120
+msgid "Port"
+msgstr "Port"
+
+#: templates/settings/admin/additional-mail.php:126
+msgid "Credentials"
+msgstr "Prihlasovanie údaje"
+
+#: templates/settings/admin/additional-mail.php:127
+msgid "SMTP Username"
+msgstr "SMTP používateľské meno"
+
+#: templates/settings/admin/additional-mail.php:130
+msgid "SMTP Password"
+msgstr "SMTP heslo"
+
+#: templates/settings/admin/additional-mail.php:131
+msgid "Store credentials"
+msgstr "Ukladať prihlasovacie údaje"
+
+#: templates/settings/admin/additional-mail.php:136
+msgid "Test email settings"
+msgstr "Nastavenia testovacieho emailu"
+
+#: templates/settings/admin/additional-mail.php:137
+msgid "Send email"
+msgstr "Odoslať email"
+
+#: templates/settings/admin/encryption.php:30
+msgid "Server-side encryption"
+msgstr "Šifrovanie na serveri"
+
+#: templates/settings/admin/encryption.php:34
+msgid ""
+"Server-side encryption makes it possible to encrypt files which are uploaded"
+" to this server. This comes with limitations like a performance penalty, so "
+"enable this only if needed."
+msgstr ""
+"Šifrovanie na strane servera umožňuje zašifrovať súbory, ktoré sú na tento "
+"server nahrávané. To prináša obmedzenia ako napr. výkonnostné obmedzenie, "
+"takže to povoľte len ak je to naozaj potrebné."
+
+#: templates/settings/admin/encryption.php:40
+msgid "Enable server-side encryption"
+msgstr "Povoliť šifrovanie na serveri"
+
+#: templates/settings/admin/encryption.php:44
+msgid "Please read carefully before activating server-side encryption: "
+msgstr "Prečítajte prosím pozorne pred použitím šifrovania na serveri:"
+
+#: templates/settings/admin/encryption.php:46
+msgid ""
+"Once encryption is enabled, all files uploaded to the server from that point"
+" forward will be encrypted at rest on the server. It will only be possible "
+"to disable encryption at a later date if the active encryption module "
+"supports that function, and all pre-conditions (e.g. setting a recover key) "
+"are met."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:47
+msgid ""
+"Encryption alone does not guarantee security of the system. Please see "
+"documentation for more information about how the encryption app works, and "
+"the supported use cases."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:48
+msgid "Be aware that encryption always increases the file size."
+msgstr "Majte na vedomí, že šifrovanie vždy zväčší veľkosť súborov."
+
+#: templates/settings/admin/encryption.php:49
+msgid ""
+"It is always good to create regular backups of your data, in case of "
+"encryption make sure to backup the encryption keys along with your data."
+msgstr ""
+"Je dobré vytvárať pravidelné zálohy vašich dát, uistite sa, že v prípade "
+"šifrovania spolu s vašimi dátami zálohujete aj šifrovacie kľúče."
+
+#: templates/settings/admin/encryption.php:52
+msgid "This is the final warning: Do you really want to enable encryption?"
+msgstr "Toto je posledné varovanie: Vážne si prajete povoliť šifrovanie?"
+
+#: templates/settings/admin/encryption.php:54
+msgid "Enable encryption"
+msgstr "Povoliť šifrovanie"
+
+#: templates/settings/admin/encryption.php:61
+msgid ""
+"No encryption module loaded, please enable an encryption module in the app "
+"menu."
+msgstr ""
+"Nebol načítaný žiadny šifrovací modul, povoľte prosím šifrovací modul v menu"
+" aplikácií."
+
+#: templates/settings/admin/encryption.php:63
+msgid "Select default encryption module:"
+msgstr "Vybrať predvolený šifrovací modul:"
+
+#: templates/settings/admin/encryption.php:82
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
+"run 'occ encryption:migrate'"
+msgstr ""
+
+#: templates/settings/admin/encryption.php:84
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one."
+msgstr ""
+"Musíte preniesť svoje šifrovacie kľúče zo starej verzie šifrovania (ownCloud"
+" <= 8.0) na novú."
+
+#: templates/settings/admin/encryption.php:86
+msgid "Start migration"
+msgstr "Začať migráciu"
+
+#: templates/settings/admin/server.php:30
+msgid "Security & setup warnings"
+msgstr "Bezpečnosť a nastavenia upozornení"
+
+#: templates/settings/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Tricks section and the documentation"
+" for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:38
+msgid ""
+"PHP does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+"Zdá sa že PHP nie je nastavené korektne na získanie premenných prostredia.  "
+"Test s getenv(\"PATH\") vráti prázdnu odpoveď."
+
+#: templates/settings/admin/server.php:39
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation documentation ↗</a> for PHP configuration notes and"
+" the PHP configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/settings/admin/server.php:48
+msgid ""
+"The Read-Only config has been enabled. This prevents setting some "
+"configurations via the web-interface. Furthermore, the file needs to be made"
+" writable manually for every update."
+msgstr ""
+"Konfigurácia je nastavená len na čítanie. Toto znemožňuje urobiť niektoré "
+"nastavenia prostredníctvom webového rozhrania. Okrem toho, súbor musí byť "
+"zapisovanie ručne povolené pre každú aktualizáciu."
+
+#: templates/settings/admin/server.php:57
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+"PHP je zjavne nastavené, aby odstraňovalo bloky vloženej dokumentácie. To "
+"zneprístupní niekoľko základných aplikácií."
+
+#: templates/settings/admin/server.php:58
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"To je pravdepodobne spôsobené cache/akcelerátorom ako napr. Zend OPcache "
+"alebo eAccelerator."
+
+#: templates/settings/admin/server.php:67
+msgid ""
+"Your database does not run with \"READ COMMITTED\" transaction isolation "
+"level. This can cause problems when multiple actions are executed in "
+"parallel."
+msgstr ""
+
+#: templates/settings/admin/server.php:76
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"it is recommended to update to a newer %1$s version."
+msgstr ""
+
+#: templates/settings/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. It is strongly recommended to enable "
+"this module to get the best results with MIME type detection."
+msgstr ""
+"Chýba PHP modul 'fileinfo'. Dôrazne doporučujeme ho povoliť pre dosiahnutie "
+"najlepších výsledkov zisťovania MIME-typu."
+
+#: templates/settings/admin/server.php:94
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:105
+msgid "System locale can not be set to a one which supports UTF-8."
+msgstr "Nie je možné nastaviť znakovú sadu, ktorá podporuje UTF-8."
+
+#: templates/settings/admin/server.php:109
+msgid ""
+"This means that there might be problems with certain characters in "
+"filenames."
+msgstr ""
+
+#: templates/settings/admin/server.php:113
+#, php-format
+msgid ""
+"It is strongly proposed to install the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+"Dôrazne doporučujeme nainštalovať na váš systém požadované balíčky "
+"podporujúce jednu z nasledovných znakových sád: %s."
+
+#: templates/settings/admin/server.php:122
+#, php-format
+msgid ""
+"If your installation is not installed at the root of the domain and uses "
+"system Cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+"Inštalácia mimo koreňový priečinok domény a používanie systémového príkazu "
+"cron môže spôsobiť problém s generovaním správnej URL. Pre zabránenie týmto "
+"chybám nastavte prosím správnu cestu v svojom config.php súbore pre hodnotu "
+"\"overwrite.cli.url\" (Doporučujeme: \"%s\")"
+
+#: templates/settings/admin/server.php:130
+msgid ""
+"It was not possible to execute the cron job via CLI. The following technical"
+" errors have appeared:"
+msgstr "Nebolo možné spustiť úlohu na pozadí pomocou CLI.  Toto sú chyby:"
+
+#: templates/settings/admin/server.php:149
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/settings/admin/server.php:153
+msgid "All checks passed."
+msgstr "Všetky kontroly prešli úspešne."
+
+#: templates/settings/admin/server.php:158
+msgid "Background jobs"
+msgstr "Úlohy na pozadí"
+
+#: templates/settings/admin/server.php:166
+#, php-format
+msgid "Last job ran %s."
+msgstr "Úloha naposledy prebehla %s."
+
+#: templates/settings/admin/server.php:171
+#, php-format
+msgid "Last job execution ran %s. Something seems wrong."
+msgstr "Úloha naposledy prebehla %s. Zdá sa, že niečo nie je v poriadku."
+
+#: templates/settings/admin/server.php:176
+msgid "Background job didn’t run yet!"
+msgstr "Úloha na pozadí ešte nebežala!"
+
+#: templates/settings/admin/server.php:183
+msgid ""
+"For optimal performance it's important to configure background jobs "
+"correctly. For bigger instances 'Cron' is the recommended setting. Please "
+"see the documentation for more information."
+msgstr ""
+"Pre optimálny výkon je dôležité nakonfigurovať úlohy na pozadí správne.  Pre"
+" väčšie inštancie sa odporúča 'Cron'.  Viac informácií je možné nájsť v "
+"dokumentácii."
+
+#: templates/settings/admin/server.php:190
+msgid "Execute one task with each page loaded"
+msgstr "Vykonať jednu úlohu s každým načítaní stránky"
+
+#: templates/settings/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over HTTP."
+msgstr ""
+"cron.php je zaregistrované v službe webcron a zavolá cron.php každých 15 "
+"minút cez HTTP."
+
+#: templates/settings/admin/server.php:209
+msgid "Use system cron service to call the cron.php file every 15 minutes."
+msgstr ""
+"Použiť systémovú službu cron na spúšťanie súboru cron.php každých 15 minút."
+
+#: templates/settings/admin/server.php:211
+#, php-format
+msgid "The cron.php needs to be executed by the system user \"%s\"."
+msgstr "Je potrebné, aby cron.php bol spustený systémovým používateľom \"%s\"."
+
+#: templates/settings/admin/server.php:216
+msgid ""
+"To run this you need the PHP POSIX extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+"Pre spustenie potrebujete mať rozšírenie PHP POSIX.  Viac detailov v "
+"{linkstart}PHP dokumentácii{linkend}."
+
+#: templates/settings/admin/server.php:225
+msgid "Version"
+msgstr "Verzia"
+
+#: templates/settings/admin/sharing.php:30
+msgid "Sharing"
+msgstr "Sprístupňovanie"
+
+#: templates/settings/admin/sharing.php:34
+msgid ""
+"As admin you can fine-tune the sharing behavior. Please see the "
+"documentation for more information."
+msgstr ""
+"Ako administrátor môžete nastaviť správanie sprístupňovania.  Pre viac "
+"informácií pozrite dokumentáciu."
+
+#: templates/settings/admin/sharing.php:38
+msgid "Allow apps to use the Share API"
+msgstr "Povoliť aplikáciám používať API pre sprístupňovanie"
+
+#: templates/settings/admin/sharing.php:43
+msgid "Allow users to share via link"
+msgstr "Povoliť používateľom sprístupňovanie obsahu pomocou odkazov"
+
+#: templates/settings/admin/sharing.php:49
+msgid "Allow public uploads"
+msgstr "Povoliť verejné nahrávanie súborov"
+
+#: templates/settings/admin/sharing.php:52
+msgid "Always ask for a password"
+msgstr "Vždy vyžadovať heslo"
+
+#: templates/settings/admin/sharing.php:55
+msgid "Enforce password protection"
+msgstr "Vynútiť ochranu heslom"
+
+#: templates/settings/admin/sharing.php:59
+msgid "Set default expiration date"
+msgstr "Nastaviť predvolený dátum expirácie"
+
+#: templates/settings/admin/sharing.php:63
+msgid "Expire after "
+msgstr "Platnosť do"
+
+#: templates/settings/admin/sharing.php:66
+msgid "days"
+msgstr "dni"
+
+#: templates/settings/admin/sharing.php:69
+msgid "Enforce expiration date"
+msgstr "Vynútiť dátum expirácie"
+
+#: templates/settings/admin/sharing.php:74
+msgid "Allow resharing"
+msgstr "Povoliť sprístupňovanie ďalej"
+
+#: templates/settings/admin/sharing.php:79
+msgid "Allow sharing with groups"
+msgstr "Povoliť sprístupnenie so skupinami"
+
+#: templates/settings/admin/sharing.php:84
+msgid "Restrict users to only share with users in their groups"
+msgstr "Povoliť používateľom sprístupňovanie obsahu len v rámci ich skupiny"
+
+#: templates/settings/admin/sharing.php:89
+msgid "Exclude groups from sharing"
+msgstr "Nesprístupniť obsah skupinám"
+
+#: templates/settings/admin/sharing.php:94
+msgid ""
+"These groups will still be able to receive shares, but not to initiate them."
+msgstr ""
+"Tieto skupiny nebudú mocť sprístupňovať obsah, môžu však stále čítať "
+"sprístupnené súbory"
+
+#: templates/settings/admin/sharing.php:99
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username or email address needs to be entered."
+msgstr ""
+"Umožni automatické dopĺňanie používateľského mena pri sprístupňovaní.  Ak je"
+" vypnuté, musí byť zadané celé meno alebo emailová adresa používateľa."
+
+#: templates/settings/admin/sharing.php:104
+msgid ""
+"Show disclaimer text on the public link upload page. (Only shown when the "
+"file list is hidden.)"
+msgstr ""
+
+#: templates/settings/admin/sharing.php:107
+msgid ""
+"This text will be shown on the public link upload page when the file list is"
+" hidden."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:30
+msgid "Tips & tricks"
+msgstr "Tipy a triky"
+
+#: templates/settings/admin/tipstricks.php:31
+msgid ""
+"There are a lot of features and config switches available to optimally "
+"customize and use this instance. Here are some pointers for more "
+"information."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:38
+msgid ""
+"SQLite is currently being used as the backend database. For larger "
+"installations we recommend that you switch to a different database backend."
+msgstr ""
+"Ako databáza je použitá SQLite. Pre veľké inštalácie odporúčame prejsť na "
+"inú databázu."
+
+#: templates/settings/admin/tipstricks.php:39
+msgid ""
+"This is particularly recommended when using the desktop client for file "
+"synchronisation."
+msgstr ""
+"Toto odporúčame najmä pri používaní klientských aplikácií na synchronizáciu "
+"s desktopom."
+
+#: templates/settings/admin/tipstricks.php:40
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:43
+msgid "How to do backups"
+msgstr "Ako vytvárať zálohy"
+
+#: templates/settings/admin/tipstricks.php:44
+msgid "Advanced monitoring"
+msgstr "Pokročilé sledovanie"
+
+#: templates/settings/admin/tipstricks.php:45
+msgid "Performance tuning"
+msgstr "Ladenie výkonu"
+
+#: templates/settings/admin/tipstricks.php:46
+msgid "Improving the config.php"
+msgstr "Zlepšenie config.php"
+
+#: templates/settings/admin/tipstricks.php:47
+msgid "Theming"
+msgstr "Vzhľady tém"
+
+#: templates/settings/admin/tipstricks.php:48
+msgid "Check the security of your Nextcloud over our security scan"
+msgstr ""
+"Skontrolujte bezpečnosť Vášho Nextcloud-u s pomocou bezpečnostného scan-u"
+
+#: templates/settings/admin/tipstricks.php:49
+msgid "Hardening and security guidance"
+msgstr "Sprievodca vylepšením bezpečnosti"
+
+#: templates/settings/frame.php:33
+msgid "Personal"
+msgstr "Osobné"
+
+#: templates/settings/frame.php:60
+msgid "Administration"
+msgstr "Administrácia"
+
+#: templates/settings/personal/personal.info.php:47
+#: templates/settings/personal/personal.info.php:58
+#, php-format
+msgid "You are using <strong>%s</strong> of <strong>%s</strong>"
+msgstr "Využívate <strong>%s</strong> z <strong>%s</strong>"
+
+#: templates/settings/personal/personal.info.php:50
+#: templates/settings/personal/personal.info.php:61
+#, php-format
+msgid ""
+"You are using <strong>%s</strong> of <strong>%s</strong> (<strong>%s "
+"%%</strong>)"
+msgstr ""
+"Využívate <strong>%s</strong> z <strong>%s</strong>(<strong>%s%%</strong>)"
+
+#: templates/settings/personal/personal.info.php:73
+msgid "Profile picture"
+msgstr "Avatar"
+
+#: templates/settings/personal/personal.info.php:81
+msgid "Upload new"
+msgstr "Nahrať nový"
+
+#: templates/settings/personal/personal.info.php:82
+msgid "Select from Files"
+msgstr "Vybrať zo súborov"
+
+#: templates/settings/personal/personal.info.php:83
+msgid "Remove image"
+msgstr "Zmazať obrázok"
+
+#: templates/settings/personal/personal.info.php:85
+msgid "png or jpg, max. 20 MB"
+msgstr "png alebo jpg, max. 20 MB"
+
+#: templates/settings/personal/personal.info.php:87
+msgid "Picture provided by original account"
+msgstr "Obrázok poskytnutý originálnym účtom"
+
+#: templates/settings/personal/personal.info.php:93
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: templates/settings/personal/personal.info.php:94
+msgid "Choose as profile picture"
+msgstr "Použiť ako obrázok avatara"
+
+#: templates/settings/personal/personal.info.php:109
+#: templates/users/part.userlist.php:6
+msgid "Full name"
+msgstr "Meno a priezvisko"
+
+#: templates/settings/personal/personal.info.php:119
+msgid "No display name set"
+msgstr "Zobrazované meno nie je nastavené"
+
+#: templates/settings/personal/personal.info.php:131
+#: templates/users/part.userlist.php:8
+msgid "Email"
+msgstr "Email"
+
+#: templates/settings/personal/personal.info.php:153
+msgid "Your email address"
+msgstr "Vaša emailová adresa"
+
+#: templates/settings/personal/personal.info.php:158
+msgid "No email address set"
+msgstr "Emailová adresa nie je nastavená"
+
+#: templates/settings/personal/personal.info.php:161
+msgid "For password reset and notifications"
+msgstr "Na znovu-nastavenie hesla a upozornenia"
+
+#: templates/settings/personal/personal.info.php:172
+msgid "Phone number"
+msgstr "Telefónne číslo"
+
+#: templates/settings/personal/personal.info.php:179
+msgid "Your phone number"
+msgstr "Vaše telefónne číslo"
+
+#: templates/settings/personal/personal.info.php:192
+msgid "Address"
+msgstr "Adresa"
+
+#: templates/settings/personal/personal.info.php:198
+msgid "Your postal address"
+msgstr "Vaša poštová adresa"
+
+#: templates/settings/personal/personal.info.php:212
+msgid "Website"
+msgstr "Webstránka"
+
+#: templates/settings/personal/personal.info.php:238
+#: templates/settings/personal/personal.info.php:285
+msgid ""
+"It can take up to 24 hours before the account is displayed as verified."
+msgstr "Môže trvať až 24 hodín než sa účet zobrazí ako overený."
+
+#: templates/settings/personal/personal.info.php:244
+msgid "Link https://…"
+msgstr "Linka https://…"
+
+#: templates/settings/personal/personal.info.php:259
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/settings/personal/personal.info.php:291
+msgid "Twitter handle @…"
+msgstr "Prezývka na Twitteri @…"
+
+#: templates/settings/personal/personal.info.php:310
+msgid "You are member of the following groups:"
+msgstr "Ste členom nasledovných skupín:"
+
+#: templates/settings/personal/personal.info.php:323
+#: templates/settings/personal/personal.info.php:325
+msgid "Language"
+msgstr "Jazyk"
+
+#: templates/settings/personal/personal.info.php:343
+msgid "Help translate"
+msgstr "Pomôcť s prekladom"
+
+#: templates/settings/personal/personal.info.php:354
+#: templates/settings/personal/security.php:62
+#: templates/users/part.createuser.php:8 templates/users/part.userlist.php:7
+msgid "Password"
+msgstr "Heslo"
+
+#: templates/settings/personal/personal.info.php:357
+#: templates/settings/personal/personal.info.php:359
+msgid "Current password"
+msgstr "Aktuálne heslo"
+
+#: templates/settings/personal/personal.info.php:363
+#: templates/settings/personal/personal.info.php:365
+msgid "New password"
+msgstr "Nové heslo"
+
+#: templates/settings/personal/personal.info.php:371
+msgid "Change password"
+msgstr "Zmeniť heslo"
+
+#: templates/settings/personal/security.php:36
+msgid "Web, desktop and mobile clients currently logged in to your account."
+msgstr ""
+"Weboví, desktopoví, alebo mobilní klienti práve prihlásení na váš účet."
+
+#: templates/settings/personal/security.php:40
+msgid "Device"
+msgstr "Zariadenie"
+
+#: templates/settings/personal/security.php:41
+msgid "Last activity"
+msgstr "Posledná aktivita"
+
+#: templates/settings/personal/security.php:49
+msgid "App name"
+msgstr "Názov aplikácie"
+
+#: templates/settings/personal/security.php:50
+msgid "Create new app password"
+msgstr "Vytvoriť nové heslo aplikácie"
+
+#: templates/settings/personal/security.php:54
+msgid "Use the credentials below to configure your app or device."
+msgstr ""
+"Pre konfiguráciu vašej aplikácie, alebo zariadenia použite nižšie uvedené "
+"prihlasovacie údaje."
+
+#: templates/settings/personal/security.php:55
+msgid "For security reasons this password will only be shown once."
+msgstr "Z dôvodu bezpečnosti toto heslo bude zobrazené iba jeden krát."
+
+#: templates/settings/personal/security.php:58
+#: templates/users/part.createuser.php:4 templates/users/part.userlist.php:5
+msgid "Username"
+msgstr "Používateľské meno"
+
+#: templates/settings/personal/security.php:65
+msgid "Done"
+msgstr "Hotovo"
+
+#: templates/settings.development.notice.php:15
+msgid ""
+"Developed by the {communityopen}Nextcloud community{linkclose}, the "
+"{githubopen}source code{linkclose} is licensed under the "
+"{licenseopen}AGPL{linkclose}."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+"
+msgstr "Sleduj nás na Google₊"
+
+#: templates/settings.development.notice.php:52
+msgid "Like our Facebook page"
+msgstr "Sleduj nás na Facebook-u"
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter"
+msgstr "Sleduj nás na Twitter-i"
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog"
+msgstr "Pozri si náš blog"
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter"
+msgstr "Prihlás sa na odber noviniek emailom"
+
+#: templates/users/main.php:41
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: templates/users/main.php:51
+msgid "Show storage location"
+msgstr "Zobraziť umiestnenie úložiska"
+
+#: templates/users/main.php:58
+msgid "Show user backend"
+msgstr "Zobraziť backend používateľa"
+
+#: templates/users/main.php:65
+msgid "Show last login"
+msgstr "Zobraziť posledné prihlásenie"
+
+#: templates/users/main.php:72
+msgid "Show email address"
+msgstr "Zobraziť emailovú adresu"
+
+#: templates/users/main.php:79
+msgid "Send email to new user"
+msgstr "Odoslať email novému používateľovi"
+
+#: templates/users/main.php:83
+msgid ""
+"When the password of a new user is left empty, an activation email with a "
+"link to set the password is sent."
+msgstr ""
+"Ak je heslo pre nového používateľa prázdne, odošle sa aktivačný email s "
+"linkou na nastavenie hesla."
+
+#: templates/users/part.createuser.php:11
+msgid "E-Mail"
+msgstr "email"
+
+#: templates/users/part.createuser.php:14
+msgid "Create"
+msgstr "Vytvoriť"
+
+#: templates/users/part.createuser.php:20
+msgid "Admin Recovery Password"
+msgstr "Obnovenie hesla administrátora"
+
+#: templates/users/part.createuser.php:21
+#: templates/users/part.createuser.php:22
+msgid ""
+"Enter the recovery password in order to recover the users files during "
+"password change"
+msgstr "Zadajte heslo pre obnovenie súborov používateľa pri zmene hesla"
+
+#: templates/users/part.grouplist.php:18
+msgid "Everyone"
+msgstr "Všetci"
+
+#: templates/users/part.grouplist.php:31
+msgid "Admins"
+msgstr "Administrátori"
+
+#: templates/users/part.grouplist.php:43
+msgid "Disabled"
+msgstr "Zakázaný"
+
+#: templates/users/part.setquota.php:3
+msgid "Default quota"
+msgstr "Predvolená kvóta"
+
+#: templates/users/part.setquota.php:5 templates/users/part.userlist.php:46
+msgid "Please enter storage quota (ex: \"512 MB\" or \"12 GB\")"
+msgstr "Prosím zadajte kvótu úložného priestoru (napr.: \"512 MB​​\" alebo \"12 GB\")"
+
+#: templates/users/part.setquota.php:7 templates/users/part.setquota.php:30
+#: templates/users/part.userlist.php:51
+msgid "Unlimited"
+msgstr "Nelimitované"
+
+#: templates/users/part.setquota.php:22 templates/users/part.userlist.php:59
+msgid "Other"
+msgstr "Iné"
+
+#: templates/users/part.userlist.php:11
+msgid "Group admin for"
+msgstr "Administrátor skupiny pre"
+
+#: templates/users/part.userlist.php:13
+msgid "Quota"
+msgstr "Kvóta"
+
+#: templates/users/part.userlist.php:14
+msgid "Storage location"
+msgstr "Umiestnenie úložiska"
+
+#: templates/users/part.userlist.php:15
+msgid "User backend"
+msgstr "Backend používateľa"
+
+#: templates/users/part.userlist.php:16
+msgid "Last login"
+msgstr "Posledné prihlásenie"
+
+#: templates/users/part.userlist.php:27
+msgid "change full name"
+msgstr "zmeniť meno a priezvisko"
+
+#: templates/users/part.userlist.php:31
+msgid "set new password"
+msgstr "nastaviť nové heslo"
+
+#: templates/users/part.userlist.php:35
+msgid "change email address"
+msgstr "zmeniť emailovú adresu"
+
+#: templates/users/part.userlist.php:48
+msgid "Default"
+msgstr "Predvolené"
+
+#: Controller/AppSettingsController.php:131 js/apps.js:43
+msgid "Enabled"
+msgstr ""
+
+#: Controller/AppSettingsController.php:132 js/apps.js:44
+msgid "Not enabled"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:220
+msgid ""
+"Please provide an admin recovery password, otherwise all user data will be "
+"lost"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:246
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"successfully updated."
+msgstr ""
+
+#: Controller/MailSettingsController.php:154
+msgid "test email settings"
+msgstr ""
+
+#: Controller/PersonalController.php:85
+msgid "Invalid request"
+msgstr ""
+
+#: ajax/togglegroups.php:44
+msgid "Admins can't remove themself from the admin group"
+msgstr ""
+
+#: ajax/togglegroups.php:72
+#, php-format
+msgid "Unable to add user to group %s"
+msgstr ""
+
+#: ajax/togglegroups.php:78
+#, php-format
+msgid "Unable to remove user from group %s"
+msgstr ""
+
+#: js/admin.js:223
+msgid "Sending..."
+msgstr ""
+
+#: js/apps.js:127 js/apps.js:424
+msgid "You have %n app update pending"
+msgid_plural "You have %n app updates pending"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: js/apps.js:398
+msgid "Updating...."
+msgstr ""
+
+#: js/apps.js:405
+msgid "Error while updating app"
+msgstr ""
+
+#: js/apps.js:437
+msgid "Uninstalling ...."
+msgstr ""
+
+#: js/apps.js:440
+msgid "Error while uninstalling app"
+msgstr ""
+
+#: js/apps.js:441
+msgid "Uninstall"
+msgstr ""
+
+#: js/apps.js:523
+msgid ""
+"The app has been enabled but needs to be updated. You will be redirected to "
+"the update page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:525
+msgid "App update"
+msgstr ""
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: personal.php:87
+msgid "__language_name__"
+msgstr ""
+
+#: personal.php:203
+msgid "Personal info"
+msgstr ""
+
+#: personal.php:204 templates/personal.php:268
+msgid "Sessions"
+msgstr ""
+
+#: personal.php:205 templates/personal.php:284
+msgid "App passwords"
+msgstr ""
+
+#: personal.php:206
+msgid "Sync clients"
+msgstr ""
+
+#: templates/admin/additional-mail.php:60
+msgid "This is used for sending out notifications."
+msgstr ""
+
+#: templates/admin/server.php:37
+msgid ""
+"php does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/admin/server.php:38
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation documentation ↗</a> for php configuration notes and"
+" the php configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/admin/server.php:56
+msgid ""
+"PHP is apparently setup to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/admin/server.php:75
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"we recommend updating to a newer %1$s version."
+msgstr ""
+
+#: templates/admin/server.php:84
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with mime-type detection."
+msgstr ""
+
+#: templates/admin/server.php:93
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/admin/server.php:108
+msgid ""
+"This means that there might be problems with certain characters in file "
+"names."
+msgstr ""
+
+#: templates/admin/server.php:112
+#, php-format
+msgid ""
+"We strongly suggest installing the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/admin/server.php:121
+#, php-format
+msgid ""
+"If your installation is not installed in the root of the domain and uses "
+"system cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/admin/server.php:129
+msgid ""
+"It was not possible to execute the cronjob via CLI. The following technical "
+"errors have appeared:"
+msgstr ""
+
+#: templates/admin/server.php:148
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/admin/server.php:157
+msgid "Cron"
+msgstr ""
+
+#: templates/admin/server.php:166
+#, php-format
+msgid "Last cron job execution: %s."
+msgstr ""
+
+#: templates/admin/server.php:171
+#, php-format
+msgid "Last cron job execution: %s. Something seems wrong."
+msgstr ""
+
+#: templates/admin/server.php:176
+msgid "Cron was not executed yet!"
+msgstr ""
+
+#: templates/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over http."
+msgstr ""
+
+#: templates/admin/server.php:209
+msgid "Use system's cron service to call the cron.php file every 15 minutes."
+msgstr ""
+
+#: templates/admin/server.php:216
+msgid ""
+"To run this you need the PHP posix extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#: templates/admin/sharing.php:96
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username needs to be entered."
+msgstr ""
+
+#: templates/admin/tipstricks.php:39
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/apps.php:139
+msgid "Uninstall app"
+msgstr ""
+
+#: templates/email.new_user.php:14
+#, php-format
+msgid ""
+"Hey there,<br><br>just letting you know that you now have a %s "
+"account.<br><br>Your username: <strong>%s</strong><br>Access it: <strong><a "
+"href=\"%s\">%s</a></strong><br><br>"
+msgstr ""
+
+#. TRANSLATORS term at the end of a mail
+#: templates/email.new_user.php:17 templates/email.new_user_plain_text.php:5
+msgid "Cheers!"
+msgstr ""
+
+#: templates/email.new_user_plain_text.php:2
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"just letting you know that you now have a %s account.\n"
+"\n"
+"Your username: %s\n"
+"Access it: %s\n"
+"\n"
+msgstr ""
+
+#: templates/personal.php:106
+msgid "For password recovery and notifications"
+msgstr ""
+
+#: templates/personal.php:150
+msgid "Your website"
+msgstr ""
+
+#: templates/personal.php:163
+msgid "Your Twitter handle"
+msgstr ""
+
+#: templates/personal.php:235
+msgid "Get the apps to sync your files"
+msgstr ""
+
+#: templates/personal.php:238
+msgid "Desktop client"
+msgstr ""
+
+#: templates/personal.php:242
+msgid "Android app"
+msgstr ""
+
+#: templates/personal.php:246
+msgid "iOS app"
+msgstr ""
+
+#: templates/personal.php:259
+msgid ""
+"If you want to support the project {contributeopen}join "
+"development{linkclose} or {contributeopen}spread the word{linkclose}!"
+msgstr ""
+
+#: templates/personal.php:263
+msgid "Show First Run Wizard again"
+msgstr ""
+
+#: templates/personal.php:285
+msgid ""
+"Passcodes that give an app or device permissions to access your account."
+msgstr ""
+
+#: templates/personal.php:289
+msgid "Name"
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google Plus!"
+msgstr ""
+
+#: templates/settings.development.notice.php:52
+msgid "Like our facebook page!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Subscribe to our twitter channel!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Subscribe to our news feed!"
+msgstr ""
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter!"
+msgstr ""
+
+#: templates/users/main.php:58
+msgid "Show last log in"
+msgstr ""
+
+#: templates/users/part.grouplist.php:12
+msgid "Group name"
+msgstr ""
+
+#: js/apps.js:567
+msgid "Error while removing app"
+msgstr ""
+
+#: personal.php:203
+msgid "Verifying"
+msgstr ""
+
+#: templates/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Ticks section and the documentation "
+"for more information."
+msgstr ""
+
+#: templates/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with MIME type detection."
+msgstr ""
+
+#: templates/personal.php:361
+msgid ""
+"Web, desktop, mobile clients and app specific passwords that currently have "
+"access to your account."
+msgstr ""
+
+#: templates/personal.php:375
+msgid ""
+"Here you can generate individual passwords for apps so you don’t have to "
+"give out your password. You can revoke them individually too."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog!"
+msgstr ""

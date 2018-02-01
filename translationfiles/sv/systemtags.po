@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Garry Holmqvist Birkehorn <garry@stridig.se>, 2016\n"
+"Language-Team: Swedish (https://www.transifex.com/nextcloud/teams/64236/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Taggar"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Uppdatera"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Skapa"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Välj tagg..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Taggade filer"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Välj taggar att filtrera med"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Inga taggar hittades"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Vänligen välj taggar att filtrera med"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Inga filer hittades för de valda taggarna"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "La till systemtagg %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "La till systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s la till systemtagg %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} la till systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Tog bort systemtagg %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Tog bort systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s tog bort systemtagg %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} tog bort systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Du skapade systemtagg %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Du skapade systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s skapade systemtagg %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} skapade systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Du raderade systemtagg %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Du raderade systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s raderade systemtagg %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} raderade systemtagg {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Du uppdaterade systemtagg %2$s till %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "Du uppdaterade systemtagg {oldsystemtag} till {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s uppdaterade systemtagg %3$s till %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "{actor} uppdaterade systemtagg {oldsystemtag} till {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Du la till systemtagg %2$s på %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Du la till systemtagg {systemtag} på {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s la till systemtagg %3$s på %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} la till systemtagg {systemtag} på {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Du tog bort systemtagg %2$s från %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Du tog bort systemtagg {systemtag} från {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s tog bort systemtagg %3$s från %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} tog bort systemtagg {systemtag} från {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (begränsad)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (osynlig)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "<strong>Systemtaggar</strong> för en fil har blivit ändrade"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "Samverkande taggar"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"Skapa och redigera samverkanstaggar. Dessa taggar påverkar alla användare."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "Välj tagg ..."
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Namn"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Radera"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Offentlig"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Begränsad"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "Osynlig"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Återställ"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Inga filer här inne"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Ingenting hittades i denna mapp"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Storlek"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Modifierad"

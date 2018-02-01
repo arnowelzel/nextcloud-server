@@ -1,0 +1,2153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 黃彥儒 <r1235613@gmail.com>, 2017\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/nextcloud/teams/64236/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Activity/Provider.php:97
+msgid "{actor} changed your password"
+msgstr "{actor} 變更了您的密碼"
+
+#: Activity/Provider.php:99
+msgid "You changed your password"
+msgstr "您已變更您的密碼"
+
+#: Activity/Provider.php:101
+msgid "Your password was reset by an administrator"
+msgstr "您的密碼已被管理員重設"
+
+#: Activity/Provider.php:104
+msgid "{actor} changed your email address"
+msgstr "{actor} 變更了您的電子郵件地址"
+
+#: Activity/Provider.php:106
+msgid "You changed your email address"
+msgstr "您已更改您的電子郵件地址"
+
+#: Activity/Provider.php:108
+msgid "Your email address was changed by an administrator"
+msgstr "您的電子郵件已被管理員變更"
+
+#: Activity/SecurityFilter.php:60 Activity/SecuritySetting.php:51
+#: templates/settings/personal/security.php:35
+msgid "Security"
+msgstr "安全性"
+
+#: Activity/SecurityProvider.php:61
+#, php-format
+msgid "You successfully logged in using two-factor authentication (%1$s)"
+msgstr "你已成功使用兩步驟驗證進行登入 (%1$s)"
+
+#: Activity/SecurityProvider.php:72
+#, php-format
+msgid "A login attempt using two-factor authentication failed (%1$s)"
+msgstr "使用兩步驟驗證登入失敗 (%1$s)"
+
+#: Activity/Setting.php:54
+msgid "Your <strong>password</strong> or <strong>email</strong> was modified"
+msgstr "你的 <strong>密碼</strong> 或 <strong>email</strong> 已更動。"
+
+#: Controller/AppSettingsController.php:146 js/apps.js:44
+msgid "Your apps"
+msgstr "您的應用程式"
+
+#: Controller/AppSettingsController.php:147
+msgid "Updates"
+msgstr "更新"
+
+#: Controller/AppSettingsController.php:148 js/apps.js:45
+msgid "Enabled apps"
+msgstr "已啓用應用程式"
+
+#: Controller/AppSettingsController.php:149 js/apps.js:46
+msgid "Disabled apps"
+msgstr "已停用應用程式"
+
+#: Controller/AppSettingsController.php:150
+msgid "App bundles"
+msgstr "應用程式套裝"
+
+#: Controller/ChangePasswordController.php:108
+msgid "Wrong password"
+msgstr "密碼錯誤"
+
+#: Controller/ChangePasswordController.php:136 js/admin.js:127 js/admin.js:190
+#: js/admin.js:210
+msgid "Saved"
+msgstr "已儲存"
+
+#: Controller/ChangePasswordController.php:156
+msgid "No user supplied"
+msgstr "未提供使用者"
+
+#: Controller/ChangePasswordController.php:165
+#: Controller/ChangePasswordController.php:262
+#: Controller/ChangePasswordController.php:273 js/settings/personalInfo.js:185
+#: js/settings/personalInfo.js:200
+msgid "Unable to change password"
+msgstr "無法修改密碼"
+
+#: Controller/ChangePasswordController.php:179
+#: Controller/UsersController.php:544 Controller/UsersController.php:611
+#: Controller/UsersController.php:935 ajax/setquota.php:56
+msgid "Authentication error"
+msgstr "認證錯誤"
+
+#: Controller/ChangePasswordController.php:229
+msgid ""
+"Please provide an admin recovery password; otherwise, all user data will be "
+"lost."
+msgstr "請提供一個admin管理者恢復密碼，否則將會失去所有使用者資料。"
+
+#: Controller/ChangePasswordController.php:236
+msgid ""
+"Wrong admin recovery password. Please check the password and try again."
+msgstr "錯誤的管理者還原密碼"
+
+#: Controller/ChangePasswordController.php:255
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"updated."
+msgstr "使用者資料後端不支援變更密碼，但使用者的加密金鑰已經更新。"
+
+#: Controller/CheckSetupController.php:201
+msgid ""
+"installing and updating apps via the app store or Federated Cloud Sharing"
+msgstr "透過應用程式中心或是聯盟式雲端分享來安裝、更新應用程式"
+
+#: Controller/CheckSetupController.php:203
+msgid "Federated Cloud Sharing"
+msgstr "聯盟式雲端分享"
+
+#: Controller/CheckSetupController.php:213
+#: Controller/CheckSetupController.php:227
+#, php-format
+msgid ""
+"cURL is using an outdated %s version (%s). Please update your operating "
+"system or features such as %s will not work reliably."
+msgstr "cURL 使用的 %s 版本已經過期 (%s)，請您更新您的作業系統，否則功能如 %s 可能無法正常運作"
+
+#: Controller/EncryptionController.php:147
+#, php-format
+msgid "A problem occurred, please check your log files (Error: %s)"
+msgstr "出現問題，請您檢查您的記錄檔（錯誤：%s）"
+
+#: Controller/EncryptionController.php:155
+msgid "Migration Completed"
+msgstr "遷移已完成"
+
+#: Controller/GroupsController.php:106
+msgid "Group already exists."
+msgstr "群組已存在"
+
+#: Controller/GroupsController.php:124
+msgid "Unable to add group."
+msgstr "無法新增群組"
+
+#: Controller/GroupsController.php:155
+msgid "Unable to delete group."
+msgstr "無法刪除群組"
+
+#: Controller/MailSettingsController.php:129
+msgid "Invalid SMTP password."
+msgstr "無效的 SMTP 密碼"
+
+#: Controller/MailSettingsController.php:154
+msgid "Email setting test"
+msgstr "測試郵件設定"
+
+#: Controller/MailSettingsController.php:156
+#, php-format
+msgid "Well done, %s!"
+msgstr "太棒了， %s!"
+
+#: Controller/MailSettingsController.php:157
+msgid ""
+"If you received this email, the email configuration seems to be correct."
+msgstr "如果你收到這封 email，代表 email 設定是正確的。"
+
+#: Controller/MailSettingsController.php:165
+msgid "Email could not be sent. Check your mail server log"
+msgstr "郵件無法寄出，請查閱郵件伺服器記錄檔"
+
+#: Controller/MailSettingsController.php:169
+#, php-format
+msgid ""
+"A problem occurred while sending the email. Please revise your settings. "
+"(Error: %s)"
+msgstr "寄出郵件時發生問題，請檢查您的設定（錯誤訊息：%s）"
+
+#: Controller/MailSettingsController.php:173
+msgid "You need to set your user email before being able to send test emails."
+msgstr "在寄出測試郵件前您需要設定信箱位址"
+
+#: Controller/UsersController.php:394 Controller/UsersController.php:770
+#: Controller/UsersController.php:997
+msgid "Invalid mail address"
+msgstr "無效的 email 地址"
+
+#: Controller/UsersController.php:420
+msgid "No valid group selected"
+msgstr "無效的群組"
+
+#: Controller/UsersController.php:430
+msgid "A user with that name already exists."
+msgstr "同名的使用者已經存在"
+
+#: Controller/UsersController.php:441
+msgid "To send a password link to the user an email address is required."
+msgstr "要寄出密碼連結給使用者之前需要設定一組 email 位址"
+
+#: Controller/UsersController.php:461 Controller/UsersController.php:509
+msgid "Unable to create user."
+msgstr "無法建立使用者"
+
+#: Controller/UsersController.php:532 Controller/UsersController.php:569
+msgid "Unable to delete user."
+msgstr "無法移除使用者"
+
+#: Controller/UsersController.php:586
+msgid "Error while enabling user."
+msgstr "啟用使用者時發生錯誤"
+
+#: Controller/UsersController.php:588
+msgid "Error while disabling user."
+msgstr "停用使用者時發生錯誤"
+
+#: Controller/UsersController.php:672
+msgid ""
+"In order to verify your Twitter account, post the following tweet on Twitter"
+" (please make sure to post it without any line breaks):"
+msgstr "為了驗證您的推特帳號，請在推特上發佈下列推文（請確認推文內容沒有斷行）："
+
+#: Controller/UsersController.php:680
+msgid ""
+"In order to verify your Website, store the following content in your web-"
+"root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the"
+" complete text is in one line):"
+msgstr ""
+"為了驗證您的網站，請將下列內容存至您網站的根目錄下路徑為：\".well-known/CloudIdVerificationCode.txt\" "
+"的檔案（請確保全文以一行的格式儲存）"
+
+#: Controller/UsersController.php:814
+msgid "Settings saved"
+msgstr "設定已儲存"
+
+#: Controller/UsersController.php:849
+msgid "Unable to change full name"
+msgstr "無法變更全名"
+
+#: Controller/UsersController.php:861
+msgid "Unable to change email address"
+msgstr "無法變更電子郵件地址"
+
+#: Controller/UsersController.php:949
+msgid "Your full name has been changed."
+msgstr "您的全名已變更"
+
+#: Controller/UsersController.php:985
+msgid "Forbidden"
+msgstr "存取被拒"
+
+#: Controller/UsersController.php:1009
+msgid "Invalid user"
+msgstr "無效的使用者"
+
+#: Controller/UsersController.php:1022
+msgid "Unable to change mail address"
+msgstr "無法更改 email 地址"
+
+#: Controller/UsersController.php:1040
+msgid "Email saved"
+msgstr "Email 已儲存"
+
+#: Hooks.php:108
+#, php-format
+msgid "%1$s changed your password on %2$s."
+msgstr "%1$s 在 %2$s 時更改了您的密碼"
+
+#: Hooks.php:112
+#, php-format
+msgid "Your password on %s was changed."
+msgstr "你在 %s 的密碼已變更"
+
+#: Hooks.php:117
+#, php-format
+msgid "Your password on %s was reset by an administrator."
+msgstr "您在 %s 的密碼已被管理員重設"
+
+#: Hooks.php:130
+#, php-format
+msgid "Password for %1$s changed on %2$s"
+msgstr "%1$s 在 %2$s 的密碼已變更"
+
+#: Hooks.php:132
+#, php-format
+msgid "Password changed for %s"
+msgstr "%s 的密碼已變更"
+
+#: Hooks.php:133 Hooks.php:203
+msgid "If you did not request this, please contact an administrator."
+msgstr "如果你未發送此請求 ，請聯絡系統管理員"
+
+#: Hooks.php:177
+#, php-format
+msgid "%1$s changed your email address on %2$s."
+msgstr "%1$s變更了您在 %2$s 的電子郵件地址"
+
+#: Hooks.php:181
+#, php-format
+msgid "Your email address on %s was changed."
+msgstr "您在 %s 的電子郵件地址已變更"
+
+#: Hooks.php:186
+#, php-format
+msgid "Your email address on %s was changed by an administrator."
+msgstr "您在 %s 的電子郵件地址已被管理員變更"
+
+#: Hooks.php:200
+#, php-format
+msgid "Email address for %1$s changed on %2$s"
+msgstr "%1$s 的電子郵件地址在 %2$s 變更"
+
+#: Hooks.php:202
+#, php-format
+msgid "Email address changed for %s"
+msgstr "%s 的電子郵件地址已變更"
+
+#: Hooks.php:205
+#, php-format
+msgid "The new email address is %s"
+msgstr "新的電子郵件地址為 %s"
+
+#: Mailer/NewUserMailHelper.php:132
+#, php-format
+msgid "Your %s account was created"
+msgstr "您的 %s 帳號已經建立"
+
+#: Mailer/NewUserMailHelper.php:135
+msgid "Welcome aboard"
+msgstr "歡迎加入"
+
+#: Mailer/NewUserMailHelper.php:137
+#, php-format
+msgid "Welcome aboard %s"
+msgstr "歡迎加入 %s"
+
+#: Mailer/NewUserMailHelper.php:139
+#, php-format
+msgid "Welcome to your %s account, you can add, protect, and share your data."
+msgstr "歡迎使用您的 %s 帳戶，您可以加入、保存、分享您的資料"
+
+#: Mailer/NewUserMailHelper.php:140
+#, php-format
+msgid "Your username is: %s"
+msgstr "您的使用者名稱為： %s"
+
+#: Mailer/NewUserMailHelper.php:142
+msgid "Set your password"
+msgstr "設定您的密碼"
+
+#: Mailer/NewUserMailHelper.php:144
+#, php-format
+msgid "Go to %s"
+msgstr "前往 %s"
+
+#: Mailer/NewUserMailHelper.php:149
+msgid "Install Client"
+msgstr "安裝客戶端程式"
+
+#: ajax/disableapp.php:30 ajax/enableapp.php:33 ajax/setquota.php:39
+#: ajax/togglesubadmins.php:32 ajax/uninstallapp.php:31
+msgid "Password confirmation is required"
+msgstr "需要密碼確認"
+
+#: ajax/uninstallapp.php:54
+msgid "Couldn't remove app."
+msgstr "無法移除應用程式"
+
+#: ajax/updateapp.php:57
+msgid "Couldn't update app."
+msgstr "無法更新應用程式"
+
+#: js/admin.js:10
+msgid "Are you really sure you want add {domain} as trusted domain?"
+msgstr "您確定要新增 {domain} 為信任的網域？"
+
+#: js/admin.js:13
+msgid "Add trusted domain"
+msgstr "新增信任的網域"
+
+#: js/admin.js:76
+msgid "Migration in progress. Please wait until the migration is finished"
+msgstr "資料搬移中，請耐心等候直到資料搬移結束"
+
+#: js/admin.js:80
+msgid "Migration started …"
+msgstr "開始遷移…"
+
+#: js/admin.js:130
+msgid "Not saved"
+msgstr "未儲存"
+
+#: js/admin.js:229
+msgid "Sending…"
+msgstr "傳送中…"
+
+#: js/admin.js:235
+msgid "Email sent"
+msgstr "Email 已寄出"
+
+#: js/apps.js:15 js/apps.js:821
+msgid "Official"
+msgstr "官方"
+
+#: js/apps.js:26 templates/apps.php:67 templates/apps.php:187
+msgid "All"
+msgstr "所有"
+
+#: js/apps.js:144 templates/apps.php:74 templates/apps.php:180
+#, php-format, javascript-format
+msgid "Update to %s"
+msgstr "更新到 %s"
+
+#: js/apps.js:160 templates/apps.php:209
+msgid "No apps found for your version"
+msgstr "沒有找到適合您的版本的應用程式"
+
+#: js/apps.js:166
+msgid "The app will be downloaded from the app store"
+msgstr "將會從應用程式商店下載這個應用程式"
+
+#: js/apps.js:172
+msgid ""
+"Official apps are developed by and within the community. They offer central "
+"functionality and are ready for production use."
+msgstr "官方應用程序是由社區內部和內部開發的。 它們提供核心功能，並可在正式成品使用。"
+
+#: js/apps.js:177
+msgid ""
+"Approved apps are developed by trusted developers and have passed a cursory "
+"security check. They are actively maintained in an open code repository and "
+"their maintainers deem them to be stable for casual to normal use."
+msgstr ""
+"審查通過的應用程式經由可信任的開發人員所設計，並且經過一連串的安全測試，他們在開放的程式庫中維護這些應用程式，而且確保這些應用程式能穩定運作"
+
+#: js/apps.js:182
+msgid ""
+"This app is not checked for security issues and is new or known to be "
+"unstable. Install at your own risk."
+msgstr "這個新應用程式並沒有經過安全檢測，可能會是不穩定的，如果您要安裝的話，風險自行負責。"
+
+#: js/apps.js:372
+msgid "Disabling app …"
+msgstr "正在停用應用程式…"
+
+#: js/apps.js:382 js/apps.js:384 js/apps.js:436
+msgid "Error while disabling app"
+msgstr "停用應用程式錯誤"
+
+#: js/apps.js:388 js/apps.js:466 js/users/users.js:959 templates/apps.php:79
+#: templates/apps.php:182
+msgid "Disable"
+msgstr "停用"
+
+#: js/apps.js:406 js/apps.js:440 js/apps.js:503 js/apps.js:517 js/apps.js:531
+#: js/users/users.js:961 templates/apps.php:81 templates/apps.php:189
+msgid "Enable"
+msgstr "啟用"
+
+#: js/apps.js:417
+msgid "Enabling app …"
+msgstr "啟用中…"
+
+#: js/apps.js:434 js/apps.js:500 js/apps.js:524 js/apps.js:526
+msgid "Error while enabling app"
+msgstr "啟用應用程式錯誤"
+
+#: js/apps.js:497
+msgid ""
+"Error: This app can not be enabled because it makes the server unstable"
+msgstr "錯誤：此應用程序無法啟用，因為它造成伺服器不穩定"
+
+#: js/apps.js:511
+msgid "Error: Could not disable broken app"
+msgstr "錯誤：無法停用損毀的應用程式"
+
+#: js/apps.js:514
+msgid "Error while disabling broken app"
+msgstr "停用損毀的應用時發生錯誤"
+
+#: js/apps.js:539
+msgid "App up to date"
+msgstr ""
+
+#: js/apps.js:545
+msgid "Upgrading …"
+msgstr ""
+
+#: js/apps.js:552
+msgid "Could not upgrade app"
+msgstr ""
+
+#: js/apps.js:557
+msgid "Updated"
+msgstr "已更新"
+
+#: js/apps.js:585
+msgid "Removing …"
+msgstr "移除中…"
+
+#: js/apps.js:588
+msgid "Could not remove app"
+msgstr ""
+
+#: js/apps.js:589 templates/apps.php:76 templates/apps.php:192
+msgid "Remove"
+msgstr "移除"
+
+#: js/apps.js:731
+msgid ""
+"The app has been enabled but needs to be upgraded. You will be redirected to"
+" the upgrade page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:733
+msgid "App upgrade"
+msgstr ""
+
+#: js/apps.js:826
+msgid "Approved"
+msgstr "審查通過"
+
+#: js/apps.js:831
+msgid "Experimental"
+msgstr "實驗性質"
+
+#: js/apps.js:842
+msgid "No apps found for {query}"
+msgstr "沒有符合 {query} 的應用程式"
+
+#: js/apps.js:943 templates/apps.php:41
+msgid "Enable all"
+msgstr "全部啟用"
+
+#: js/authtoken_view.js:39
+msgid "Allow filesystem access"
+msgstr "允許檔案系統的存取"
+
+#: js/authtoken_view.js:42
+msgid "Disconnect"
+msgstr "中斷連線"
+
+#: js/authtoken_view.js:42
+msgid "Revoke"
+msgstr "撤銷"
+
+#: js/authtoken_view.js:134
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: js/authtoken_view.js:135
+msgid "Edge"
+msgstr "Edge"
+
+#: js/authtoken_view.js:136
+msgid "Firefox"
+msgstr "Firefox"
+
+#: js/authtoken_view.js:137
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: js/authtoken_view.js:138
+msgid "Safari"
+msgstr "Safari"
+
+#: js/authtoken_view.js:139
+msgid "Google Chrome for Android"
+msgstr "Google Chrome for Android"
+
+#: js/authtoken_view.js:140
+msgid "iPhone iOS"
+msgstr "iPhone iOS"
+
+#: js/authtoken_view.js:141
+msgid "iPad iOS"
+msgstr "iPad iOS"
+
+#: js/authtoken_view.js:142
+msgid "iOS Client"
+msgstr "iOS 客戶端"
+
+#: js/authtoken_view.js:143
+msgid "Android Client"
+msgstr "Android 客戶端"
+
+#: js/authtoken_view.js:150
+msgid "Sync client - {os}"
+msgstr "同步客戶端 - {os}"
+
+#: js/authtoken_view.js:167
+msgid "This session"
+msgstr "目前的工作階段"
+
+#: js/authtoken_view.js:233 js/authtoken_view.js:246 js/authtoken_view.js:268
+msgid "Copy"
+msgstr "複製"
+
+#: js/authtoken_view.js:240
+msgid "Copied!"
+msgstr "已複製"
+
+#: js/authtoken_view.js:254
+msgid "Not supported!"
+msgstr "不支援！"
+
+#: js/authtoken_view.js:256
+msgid "Press ⌘-C to copy."
+msgstr "按下 ⌘-C 來複製"
+
+#: js/authtoken_view.js:258
+msgid "Press Ctrl-C to copy."
+msgstr "按下 Ctrl-C 來複製"
+
+#: js/authtoken_view.js:290
+msgid "Error while loading browser sessions and device tokens"
+msgstr "在載入瀏覽器階段與裝置 token 時發生錯誤"
+
+#: js/authtoken_view.js:324
+msgid "Error while creating device token"
+msgstr "建立裝置 token 時發生錯誤"
+
+#: js/authtoken_view.js:382
+msgid "Error while deleting the token"
+msgstr "刪除 token 時發生錯誤"
+
+#: js/certificates.js:35 js/certificates.js:63
+msgid "An error occurred. Please upload an ASCII-encoded PEM certificate."
+msgstr "發生錯誤，請您上傳 ASCII 編碼的 PEM 憑證"
+
+#: js/certificates.js:47
+msgid "Valid until {date}"
+msgstr "{date} 前有效"
+
+#: js/certificates.js:52 js/certificates.js:53 templates/certificates.php:27
+#: templates/certificates.php:28 templates/users/part.userlist.php:78
+msgid "Delete"
+msgstr "刪除"
+
+#: js/federationscopemenu.js:49
+msgid "Local"
+msgstr "本地"
+
+#: js/federationscopemenu.js:49
+msgid "Private"
+msgstr "私人的"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to local users"
+msgstr "僅本地用戶可見"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to you"
+msgstr "僅你可見"
+
+#: js/federationscopemenu.js:56
+msgid "Contacts"
+msgstr "聯絡人"
+
+#: js/federationscopemenu.js:57
+msgid "Visible to local users and to trusted servers"
+msgstr "僅本地用戶與信任的伺服器可見"
+
+#: js/federationscopemenu.js:63
+msgid "Public"
+msgstr "公開"
+
+#: js/federationscopemenu.js:64
+msgid "Will be synced to a global and public address book"
+msgstr "將會同步到全域公開的通訊錄"
+
+#: js/federationsettingsview.js:171
+msgid "Verify"
+msgstr "驗證"
+
+#: js/federationsettingsview.js:177 js/settings/personalInfo.js:239
+msgid "Verifying …"
+msgstr "驗證中…"
+
+#: js/settings/personalInfo.js:291
+msgid ""
+"An error occured while changing your language. Please reload the page and "
+"try again."
+msgstr "變更語言時發生錯誤，請重新整理頁面後重試"
+
+#: js/settings/personalInfo.js:338
+msgid "Select a profile picture"
+msgstr "選擇大頭貼照"
+
+#: js/settings/personalInfo.js:391
+msgid "Very weak password"
+msgstr "密碼強度非常弱"
+
+#: js/settings/personalInfo.js:392
+msgid "Weak password"
+msgstr "密碼強度弱"
+
+#: js/settings/personalInfo.js:393
+msgid "So-so password"
+msgstr "密碼強度普通"
+
+#: js/settings/personalInfo.js:394
+msgid "Good password"
+msgstr "密碼強度佳"
+
+#: js/settings/personalInfo.js:395
+msgid "Strong password"
+msgstr "密碼強度極佳"
+
+#: js/settings.js:30 templates/settings/personal/personal.info.php:309
+#: templates/users/part.createuser.php:13 templates/users/part.userlist.php:9
+msgid "Groups"
+msgstr "群組"
+
+#: js/users/deleteHandler.js:208
+msgid "Unable to delete {objName}"
+msgstr "無法刪除 {objName}"
+
+#: js/users/groups.js:150 js/users/groups.js:258
+msgid "Error creating group: {message}"
+msgstr "建立群組錯誤：{message}"
+
+#: js/users/groups.js:259
+msgid "A valid group name must be provided"
+msgstr "必須提供一個有效的群組名稱"
+
+#: js/users/groups.js:287
+msgid "deleted {groupName}"
+msgstr "已刪除 {groupName}"
+
+#: js/users/groups.js:288 js/users/users.js:350
+msgid "undo"
+msgstr "復原"
+
+#: js/users/users.js:118
+msgid "{size} used"
+msgstr "{size} 已使用"
+
+#: js/users/users.js:153
+msgid "never"
+msgstr "永不"
+
+#: js/users/users.js:349
+msgid "deleted {userName}"
+msgstr "刪除 {userName}"
+
+#: js/users/users.js:418
+msgid "No user found for <strong>{pattern}</strong>"
+msgstr "沒有找到符合 <strong>{pattern}</strong> 的使用者"
+
+#: js/users/users.js:476
+msgid "Unable to add user to group {group}"
+msgstr "無法將使用者加至群組 {group}"
+
+#: js/users/users.js:480
+msgid "Unable to remove user from group {group}"
+msgstr "無法自群組 {group} 中移除使用者"
+
+#: js/users/users.js:499 templates/users/part.grouplist.php:5
+#: templates/users/part.grouplist.php:8
+msgid "Add group"
+msgstr "新增群組"
+
+#: js/users/users.js:591
+msgid "Invalid quota value \"{val}\""
+msgstr "無效的空間限額設定值 \"{val}\""
+
+#: js/users/users.js:639 js/users/users.js:700
+msgid "no group"
+msgstr "沒有群組"
+
+#: js/users/users.js:749
+msgid "Password successfully changed"
+msgstr "成功變更密碼"
+
+#: js/users/users.js:775
+msgid ""
+"Changing the password will result in data loss, because data recovery is not"
+" available for this user"
+msgstr "更改密碼會造成資料遺失，因為資料復原的功能無法在這個使用者使用"
+
+#: js/users/users.js:888
+msgid "Could not change the users email"
+msgstr "無法變更使用者電子郵件信箱"
+
+#: js/users/users.js:992 js/users/users.js:1002
+msgid "Error while changing status of {user}"
+msgstr "變更使用者 {user} 的狀態出錯"
+
+#: js/users/users.js:1033
+msgid "A valid username must be provided"
+msgstr "必須提供一個有效的用戶名"
+
+#: js/users/users.js:1032 js/users/users.js:1038 js/users/users.js:1047
+#: js/users/users.js:1089
+msgid "Error creating user: {message}"
+msgstr "建立使用者錯誤：{message}"
+
+#: js/users/users.js:1039
+msgid "A valid password must be provided"
+msgstr "一定要提供一個有效的密碼"
+
+#: js/users/users.js:1048
+msgid "A valid email must be provided"
+msgstr "必須提供一個有效的電子郵件地址"
+
+#: templates/apps.php:32 templates/apps.php:136
+msgid "Developer documentation"
+msgstr "開發者說明文件"
+
+#: templates/apps.php:59
+msgid "View in store"
+msgstr "在商店中檢視"
+
+#: templates/apps.php:66
+msgid "Limit to groups"
+msgstr "限制給特定群組"
+
+#: templates/apps.php:111
+#, php-format
+msgid "by %s"
+msgstr "由 %s"
+
+#: templates/apps.php:113
+#, php-format
+msgid "%s-licensed"
+msgstr "%s 授權"
+
+#: templates/apps.php:121
+msgid "Documentation:"
+msgstr "說明文件："
+
+#: templates/apps.php:124 templates/help.php:7
+msgid "User documentation"
+msgstr "用戶說明文件"
+
+#: templates/apps.php:130
+msgid "Admin documentation"
+msgstr "管理者文件"
+
+#: templates/apps.php:143
+msgid "Visit website"
+msgstr "開啟網站"
+
+#: templates/apps.php:147
+msgid "Report a bug"
+msgstr "回報問題"
+
+#: templates/apps.php:150
+msgid "Show description …"
+msgstr "顯示描述"
+
+#: templates/apps.php:151
+msgid "Hide description …"
+msgstr "隱藏描述"
+
+#: templates/apps.php:154
+msgid "This app has an update available."
+msgstr "此應用程式有可用的更新"
+
+#: templates/apps.php:159
+msgid ""
+"This app has no minimum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+
+#: templates/apps.php:164
+msgid ""
+"This app has no maximum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+
+#: templates/apps.php:171
+msgid ""
+"This app cannot be installed because the following dependencies are not "
+"fulfilled:"
+msgstr "這個應用程式無法被安裝，因為欠缺下列相依套件："
+
+#: templates/apps.php:185
+msgid "Enable only for specific groups"
+msgstr "僅對特定的群組啟用"
+
+#: templates/certificates.php:2
+msgid "SSL Root Certificates"
+msgstr "SSL 根憑證"
+
+#: templates/certificates.php:6
+msgid "Common Name"
+msgstr "Common Name"
+
+#: templates/certificates.php:7
+msgid "Valid until"
+msgstr "到期日"
+
+#: templates/certificates.php:8
+msgid "Issued By"
+msgstr "發行者："
+
+#: templates/certificates.php:19
+#, php-format
+msgid "Valid until %s"
+msgstr "有效至 %s"
+
+#: templates/certificates.php:40
+msgid "Import root certificate"
+msgstr "匯入根憑證"
+
+#: templates/help.php:13
+msgid "Administrator documentation"
+msgstr "管理者說明文件"
+
+#: templates/help.php:20
+msgid "Online documentation"
+msgstr "線上說明文件"
+
+#: templates/help.php:25
+msgid "Forum"
+msgstr "論壇"
+
+#: templates/help.php:32
+msgid "Getting help"
+msgstr "取得協助"
+
+#: templates/help.php:39
+msgid "Commercial support"
+msgstr "商用支援"
+
+#: templates/settings/admin/additional-mail.php:28
+#: templates/settings/admin/additional-mail.php:35
+msgid "None"
+msgstr "無"
+
+#: templates/settings/admin/additional-mail.php:29
+msgid "Login"
+msgstr "登入"
+
+#: templates/settings/admin/additional-mail.php:30
+msgid "Plain"
+msgstr "Plain"
+
+#: templates/settings/admin/additional-mail.php:31
+msgid "NT LAN Manager"
+msgstr "NT LAN Manager"
+
+#: templates/settings/admin/additional-mail.php:36
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: templates/settings/admin/additional-mail.php:37
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: templates/settings/admin/additional-mail.php:55
+msgid "Email server"
+msgstr "郵件伺服器"
+
+#: templates/settings/admin/additional-mail.php:57
+#: templates/settings/admin/encryption.php:32
+#: templates/settings/admin/server.php:180
+#: templates/settings/admin/sharing.php:32
+msgid "Open documentation"
+msgstr "開啟說明文件"
+
+#: templates/settings/admin/additional-mail.php:59
+msgid ""
+"It is important to set up this server to be able to send emails, like for "
+"password reset and notifications."
+msgstr "設定伺服器可以寄送電子郵件非常重要，使用者通知和密碼重設將會需要"
+
+#: templates/settings/admin/additional-mail.php:63
+msgid "Send mode"
+msgstr "寄送模式"
+
+#: templates/settings/admin/additional-mail.php:76
+msgid "Encryption"
+msgstr "加密"
+
+#: templates/settings/admin/additional-mail.php:91
+msgid "From address"
+msgstr "寄件地址"
+
+#: templates/settings/admin/additional-mail.php:92
+msgid "mail"
+msgstr "電子郵件"
+
+#: templates/settings/admin/additional-mail.php:99
+msgid "Authentication method"
+msgstr "認證方式"
+
+#: templates/settings/admin/additional-mail.php:112
+msgid "Authentication required"
+msgstr "需要認證"
+
+#: templates/settings/admin/additional-mail.php:116
+msgid "Server address"
+msgstr "伺服器位址"
+
+#: templates/settings/admin/additional-mail.php:120
+msgid "Port"
+msgstr "連接埠"
+
+#: templates/settings/admin/additional-mail.php:126
+msgid "Credentials"
+msgstr "帳密"
+
+#: templates/settings/admin/additional-mail.php:127
+msgid "SMTP Username"
+msgstr "SMTP 帳號"
+
+#: templates/settings/admin/additional-mail.php:130
+msgid "SMTP Password"
+msgstr "SMTP 密碼"
+
+#: templates/settings/admin/additional-mail.php:131
+msgid "Store credentials"
+msgstr "儲存帳密"
+
+#: templates/settings/admin/additional-mail.php:136
+msgid "Test email settings"
+msgstr "測試郵件設定"
+
+#: templates/settings/admin/additional-mail.php:137
+msgid "Send email"
+msgstr "寄送郵件"
+
+#: templates/settings/admin/encryption.php:30
+msgid "Server-side encryption"
+msgstr "伺服器端加密"
+
+#: templates/settings/admin/encryption.php:34
+msgid ""
+"Server-side encryption makes it possible to encrypt files which are uploaded"
+" to this server. This comes with limitations like a performance penalty, so "
+"enable this only if needed."
+msgstr "伺服器端加密可以加密所有上傳到此伺服器的檔案，但這會讓檔案操作時間增加，降低效能，請審慎評估後再啟用。"
+
+#: templates/settings/admin/encryption.php:40
+msgid "Enable server-side encryption"
+msgstr "啟用伺服器端加密"
+
+#: templates/settings/admin/encryption.php:44
+msgid "Please read carefully before activating server-side encryption: "
+msgstr "在您啟動伺服器端加密之前，請仔細閱讀："
+
+#: templates/settings/admin/encryption.php:46
+msgid ""
+"Once encryption is enabled, all files uploaded to the server from that point"
+" forward will be encrypted at rest on the server. It will only be possible "
+"to disable encryption at a later date if the active encryption module "
+"supports that function, and all pre-conditions (e.g. setting a recover key) "
+"are met."
+msgstr "一旦加密模式啟動，從各地上傳到伺服器端的檔案都會被加密，若日後要停用加密，需要加密模組的支援，而且所有的設定（例如：還原金鑰）都正確"
+
+#: templates/settings/admin/encryption.php:47
+msgid ""
+"Encryption alone does not guarantee security of the system. Please see "
+"documentation for more information about how the encryption app works, and "
+"the supported use cases."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:48
+msgid "Be aware that encryption always increases the file size."
+msgstr "請注意，加密一定會增加檔案的大小"
+
+#: templates/settings/admin/encryption.php:49
+msgid ""
+"It is always good to create regular backups of your data, in case of "
+"encryption make sure to backup the encryption keys along with your data."
+msgstr "定時備份您的資料沒有壞處，若您有啟用加密，請確保您也有備份加密金鑰"
+
+#: templates/settings/admin/encryption.php:52
+msgid "This is the final warning: Do you really want to enable encryption?"
+msgstr "這是最後的警告：請問您真的要開啟加密模式？"
+
+#: templates/settings/admin/encryption.php:54
+msgid "Enable encryption"
+msgstr "啟用加密"
+
+#: templates/settings/admin/encryption.php:61
+msgid ""
+"No encryption module loaded, please enable an encryption module in the app "
+"menu."
+msgstr "沒有載入加密模組，請您在應用程式清單中啟用加密模組"
+
+#: templates/settings/admin/encryption.php:63
+msgid "Select default encryption module:"
+msgstr "選擇預設的加密模組："
+
+#: templates/settings/admin/encryption.php:82
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
+"run 'occ encryption:migrate'"
+msgstr ""
+" 您需要遷移您的加密金鑰從舊版的加密 (ownCloud <= 8.0) 到新版，請啟用「預設加密模組」並執行 'occ "
+"encryption:migrate'"
+
+#: templates/settings/admin/encryption.php:84
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one."
+msgstr " 您需要遷移您的加密金鑰從舊版的加密 (ownCloud <= 8.0) 到新版"
+
+#: templates/settings/admin/encryption.php:86
+msgid "Start migration"
+msgstr "開始遷移"
+
+#: templates/settings/admin/server.php:30
+msgid "Security & setup warnings"
+msgstr "安全及設定警告"
+
+#: templates/settings/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Tricks section and the documentation"
+" for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:38
+msgid ""
+"PHP does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/settings/admin/server.php:39
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation documentation ↗</a> for PHP configuration notes and"
+" the PHP configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/settings/admin/server.php:48
+msgid ""
+"The Read-Only config has been enabled. This prevents setting some "
+"configurations via the web-interface. Furthermore, the file needs to be made"
+" writable manually for every update."
+msgstr "「唯讀設定檔」已經啟用，這樣可以防止來自網頁端的設定操作，每次需要更改設定時，都需要手動將設定檔暫時改為可讀寫。"
+
+#: templates/settings/admin/server.php:57
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/settings/admin/server.php:58
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr "這大概是由快取或是加速器像是 Zend OPcache, eAccelerator 造成的"
+
+#: templates/settings/admin/server.php:67
+msgid ""
+"Your database does not run with \"READ COMMITTED\" transaction isolation "
+"level. This can cause problems when multiple actions are executed in "
+"parallel."
+msgstr ""
+
+#: templates/settings/admin/server.php:76
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"it is recommended to update to a newer %1$s version."
+msgstr ""
+
+#: templates/settings/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. It is strongly recommended to enable "
+"this module to get the best results with MIME type detection."
+msgstr ""
+
+#: templates/settings/admin/server.php:94
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:105
+msgid "System locale can not be set to a one which supports UTF-8."
+msgstr "無法設定為一個支援 UTF-8 的系統語系"
+
+#: templates/settings/admin/server.php:109
+msgid ""
+"This means that there might be problems with certain characters in "
+"filenames."
+msgstr ""
+
+#: templates/settings/admin/server.php:113
+#, php-format
+msgid ""
+"It is strongly proposed to install the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/settings/admin/server.php:122
+#, php-format
+msgid ""
+"If your installation is not installed at the root of the domain and uses "
+"system Cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/settings/admin/server.php:130
+msgid ""
+"It was not possible to execute the cron job via CLI. The following technical"
+" errors have appeared:"
+msgstr ""
+
+#: templates/settings/admin/server.php:149
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/settings/admin/server.php:153
+msgid "All checks passed."
+msgstr "所有檢查正常"
+
+#: templates/settings/admin/server.php:158
+msgid "Background jobs"
+msgstr "背景工作"
+
+#: templates/settings/admin/server.php:166
+#, php-format
+msgid "Last job ran %s."
+msgstr "上次背景工作執行於 %s"
+
+#: templates/settings/admin/server.php:171
+#, php-format
+msgid "Last job execution ran %s. Something seems wrong."
+msgstr "上次背景工作執行於 %s ，似乎有點問題"
+
+#: templates/settings/admin/server.php:176
+msgid "Background job didn’t run yet!"
+msgstr "背景工作從未執行！"
+
+#: templates/settings/admin/server.php:183
+msgid ""
+"For optimal performance it's important to configure background jobs "
+"correctly. For bigger instances 'Cron' is the recommended setting. Please "
+"see the documentation for more information."
+msgstr "為了獲得最佳的效能，設定背景工作非常重要，對於比較大的服務來說，建議使用 Cron 設定，請查閱說明文件以獲得更多資訊。"
+
+#: templates/settings/admin/server.php:190
+msgid "Execute one task with each page loaded"
+msgstr "每個頁面載入時執行"
+
+#: templates/settings/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over HTTP."
+msgstr "cron.php 已經在一個 webcron 服務中註冊，每 15 分鐘將會透過 HTTP 呼叫 cron.php"
+
+#: templates/settings/admin/server.php:209
+msgid "Use system cron service to call the cron.php file every 15 minutes."
+msgstr "使用系統的 cron 服務來每隔 15 分鐘呼叫 cron.php"
+
+#: templates/settings/admin/server.php:211
+#, php-format
+msgid "The cron.php needs to be executed by the system user \"%s\"."
+msgstr "cron.php 必須由系統使用者 \"%s\" 來執行"
+
+#: templates/settings/admin/server.php:216
+msgid ""
+"To run this you need the PHP POSIX extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr "要執行這個，您需要 PHP POSIX 擴充元件，請查閱 {linkstart}PHP 說明文件{linkend} 以獲得更多細節。"
+
+#: templates/settings/admin/server.php:225
+msgid "Version"
+msgstr "版本"
+
+#: templates/settings/admin/sharing.php:30
+msgid "Sharing"
+msgstr "分享"
+
+#: templates/settings/admin/sharing.php:34
+msgid ""
+"As admin you can fine-tune the sharing behavior. Please see the "
+"documentation for more information."
+msgstr "系統管理員可以微調分享行為，請查閱說明文件以獲得更多資訊。"
+
+#: templates/settings/admin/sharing.php:38
+msgid "Allow apps to use the Share API"
+msgstr "允許 apps 使用分享 API"
+
+#: templates/settings/admin/sharing.php:43
+msgid "Allow users to share via link"
+msgstr "允許使用者透過連結分享"
+
+#: templates/settings/admin/sharing.php:49
+msgid "Allow public uploads"
+msgstr "允許公開上傳"
+
+#: templates/settings/admin/sharing.php:52
+msgid "Always ask for a password"
+msgstr "總是詢問密碼"
+
+#: templates/settings/admin/sharing.php:55
+msgid "Enforce password protection"
+msgstr "強制分享連結使用密碼保護"
+
+#: templates/settings/admin/sharing.php:59
+msgid "Set default expiration date"
+msgstr "設定預設到期日"
+
+#: templates/settings/admin/sharing.php:63
+msgid "Expire after "
+msgstr "在什麼時候過期"
+
+#: templates/settings/admin/sharing.php:66
+msgid "days"
+msgstr "天"
+
+#: templates/settings/admin/sharing.php:69
+msgid "Enforce expiration date"
+msgstr "強制分享連結設定到期日"
+
+#: templates/settings/admin/sharing.php:74
+msgid "Allow resharing"
+msgstr "允許轉貼分享"
+
+#: templates/settings/admin/sharing.php:79
+msgid "Allow sharing with groups"
+msgstr "允許與群組分享"
+
+#: templates/settings/admin/sharing.php:84
+msgid "Restrict users to only share with users in their groups"
+msgstr "限制使用者只能分享給群組裡的其他使用者"
+
+#: templates/settings/admin/sharing.php:89
+msgid "Exclude groups from sharing"
+msgstr "禁止特定群組分享檔案"
+
+#: templates/settings/admin/sharing.php:94
+msgid ""
+"These groups will still be able to receive shares, but not to initiate them."
+msgstr "這些群組仍然能接受其他人的分享，但是沒有辦法發起分享"
+
+#: templates/settings/admin/sharing.php:99
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username or email address needs to be entered."
+msgstr "允許使用者名稱自動補齊在分享對話框，如果停用這個功能，必須輸入完整的使用者名稱或電子郵件地址"
+
+#: templates/settings/admin/sharing.php:104
+msgid ""
+"Show disclaimer text on the public link upload page. (Only shown when the "
+"file list is hidden.)"
+msgstr "在公開的檔案連結和上傳頁面顯示免責聲明（只有在檔案清單隱藏的時候才會顯示）"
+
+#: templates/settings/admin/sharing.php:107
+msgid ""
+"This text will be shown on the public link upload page when the file list is"
+" hidden."
+msgstr "這段文字會在公開檔案上傳頁面檔案清單被隱藏的時候顯示"
+
+#: templates/settings/admin/tipstricks.php:30
+msgid "Tips & tricks"
+msgstr "技巧和提示"
+
+#: templates/settings/admin/tipstricks.php:31
+msgid ""
+"There are a lot of features and config switches available to optimally "
+"customize and use this instance. Here are some pointers for more "
+"information."
+msgstr "這裡有很多功能和設定選項讓您客製化您的服務，以下有一些建議和提示"
+
+#: templates/settings/admin/tipstricks.php:38
+msgid ""
+"SQLite is currently being used as the backend database. For larger "
+"installations we recommend that you switch to a different database backend."
+msgstr "目前您的後端資料庫使用 SQLite，在大型服務當中，我們建議您使用其他的資料庫後端。"
+
+#: templates/settings/admin/tipstricks.php:39
+msgid ""
+"This is particularly recommended when using the desktop client for file "
+"synchronisation."
+msgstr "若您使用桌面客戶端來同步，尤其建議您更換"
+
+#: templates/settings/admin/tipstricks.php:40
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+"若要遷移至另一個資料庫，請使用命令列工具： 'occ db:convert-type' ，或是查閱<a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"%s\">說明文件</a>。"
+
+#: templates/settings/admin/tipstricks.php:43
+msgid "How to do backups"
+msgstr "如何備份"
+
+#: templates/settings/admin/tipstricks.php:44
+msgid "Advanced monitoring"
+msgstr "進階監控"
+
+#: templates/settings/admin/tipstricks.php:45
+msgid "Performance tuning"
+msgstr "效能調校"
+
+#: templates/settings/admin/tipstricks.php:46
+msgid "Improving the config.php"
+msgstr "改進 config.php"
+
+#: templates/settings/admin/tipstricks.php:47
+msgid "Theming"
+msgstr "佈景主題"
+
+#: templates/settings/admin/tipstricks.php:48
+msgid "Check the security of your Nextcloud over our security scan"
+msgstr "使用我們的掃描服務來檢查您 Nextcloud 的安全性"
+
+#: templates/settings/admin/tipstricks.php:49
+msgid "Hardening and security guidance"
+msgstr "增強安全指南"
+
+#: templates/settings/frame.php:33
+msgid "Personal"
+msgstr "個人"
+
+#: templates/settings/frame.php:60
+msgid "Administration"
+msgstr "管理"
+
+#: templates/settings/personal/personal.info.php:47
+#: templates/settings/personal/personal.info.php:58
+#, php-format
+msgid "You are using <strong>%s</strong> of <strong>%s</strong>"
+msgstr "您正在使用 <strong>%s</strong> ，共有 <strong>%s</strong>"
+
+#: templates/settings/personal/personal.info.php:50
+#: templates/settings/personal/personal.info.php:61
+#, php-format
+msgid ""
+"You are using <strong>%s</strong> of <strong>%s</strong> (<strong>%s "
+"%%</strong>)"
+msgstr ""
+"您正在使用 <strong>%s</strong> ，共有 <strong>%s</strong>（<strong>%s %%</strong>）"
+
+#: templates/settings/personal/personal.info.php:73
+msgid "Profile picture"
+msgstr "大頭貼照"
+
+#: templates/settings/personal/personal.info.php:81
+msgid "Upload new"
+msgstr "上傳新的"
+
+#: templates/settings/personal/personal.info.php:82
+msgid "Select from Files"
+msgstr "從雲端檔案選擇"
+
+#: templates/settings/personal/personal.info.php:83
+msgid "Remove image"
+msgstr "移除圖片"
+
+#: templates/settings/personal/personal.info.php:85
+msgid "png or jpg, max. 20 MB"
+msgstr "png 或 jpg ，最大 20 MB"
+
+#: templates/settings/personal/personal.info.php:87
+msgid "Picture provided by original account"
+msgstr "原本的帳戶提供的圖片"
+
+#: templates/settings/personal/personal.info.php:93
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/settings/personal/personal.info.php:94
+msgid "Choose as profile picture"
+msgstr "設定為大頭貼照"
+
+#: templates/settings/personal/personal.info.php:109
+#: templates/users/part.userlist.php:6
+msgid "Full name"
+msgstr "全名"
+
+#: templates/settings/personal/personal.info.php:119
+msgid "No display name set"
+msgstr "未設定顯示名稱"
+
+#: templates/settings/personal/personal.info.php:131
+#: templates/users/part.userlist.php:8
+msgid "Email"
+msgstr "信箱"
+
+#: templates/settings/personal/personal.info.php:153
+msgid "Your email address"
+msgstr "您的電子郵件信箱"
+
+#: templates/settings/personal/personal.info.php:158
+msgid "No email address set"
+msgstr "未設定電子郵件信箱"
+
+#: templates/settings/personal/personal.info.php:161
+msgid "For password reset and notifications"
+msgstr "用於密碼重設和通知信件"
+
+#: templates/settings/personal/personal.info.php:172
+msgid "Phone number"
+msgstr "電話號碼"
+
+#: templates/settings/personal/personal.info.php:179
+msgid "Your phone number"
+msgstr "您的電話號碼"
+
+#: templates/settings/personal/personal.info.php:192
+msgid "Address"
+msgstr "地址"
+
+#: templates/settings/personal/personal.info.php:198
+msgid "Your postal address"
+msgstr "您的郵遞地址"
+
+#: templates/settings/personal/personal.info.php:212
+msgid "Website"
+msgstr "網站"
+
+#: templates/settings/personal/personal.info.php:238
+#: templates/settings/personal/personal.info.php:285
+msgid ""
+"It can take up to 24 hours before the account is displayed as verified."
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:244
+msgid "Link https://…"
+msgstr "連結 https://..."
+
+#: templates/settings/personal/personal.info.php:259
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/settings/personal/personal.info.php:291
+msgid "Twitter handle @…"
+msgstr "Twitter 用戶名 @..."
+
+#: templates/settings/personal/personal.info.php:310
+msgid "You are member of the following groups:"
+msgstr "您的帳號屬於這些群組："
+
+#: templates/settings/personal/personal.info.php:323
+#: templates/settings/personal/personal.info.php:325
+msgid "Language"
+msgstr "語言"
+
+#: templates/settings/personal/personal.info.php:343
+msgid "Help translate"
+msgstr "幫助翻譯"
+
+#: templates/settings/personal/personal.info.php:354
+#: templates/settings/personal/security.php:62
+#: templates/users/part.createuser.php:8 templates/users/part.userlist.php:7
+msgid "Password"
+msgstr "密碼"
+
+#: templates/settings/personal/personal.info.php:357
+#: templates/settings/personal/personal.info.php:359
+msgid "Current password"
+msgstr "目前密碼"
+
+#: templates/settings/personal/personal.info.php:363
+#: templates/settings/personal/personal.info.php:365
+msgid "New password"
+msgstr "新密碼"
+
+#: templates/settings/personal/personal.info.php:371
+msgid "Change password"
+msgstr "變更密碼"
+
+#: templates/settings/personal/security.php:36
+msgid "Web, desktop and mobile clients currently logged in to your account."
+msgstr "目前登入您的帳號的網頁、桌面和行動裝置客戶端"
+
+#: templates/settings/personal/security.php:40
+msgid "Device"
+msgstr "裝置"
+
+#: templates/settings/personal/security.php:41
+msgid "Last activity"
+msgstr "上次活動"
+
+#: templates/settings/personal/security.php:49
+msgid "App name"
+msgstr "應用程式名稱"
+
+#: templates/settings/personal/security.php:50
+msgid "Create new app password"
+msgstr "建立新的應用程式密碼"
+
+#: templates/settings/personal/security.php:54
+msgid "Use the credentials below to configure your app or device."
+msgstr "請使用下方的登入資訊來設定您的應用程式或是裝置"
+
+#: templates/settings/personal/security.php:55
+msgid "For security reasons this password will only be shown once."
+msgstr "基於安全性考量，這個密碼只會顯示一次"
+
+#: templates/settings/personal/security.php:58
+#: templates/users/part.createuser.php:4 templates/users/part.userlist.php:5
+msgid "Username"
+msgstr "使用者名稱"
+
+#: templates/settings/personal/security.php:65
+msgid "Done"
+msgstr "完成"
+
+#: templates/settings.development.notice.php:15
+msgid ""
+"Developed by the {communityopen}Nextcloud community{linkclose}, the "
+"{githubopen}source code{linkclose} is licensed under the "
+"{licenseopen}AGPL{linkclose}."
+msgstr ""
+"由 {communityopen}Nextcloud 社群{linkclose}開發，{githubopen}原始碼{linkclose}以 "
+"{licenseopen}AGPL 授權{linkclose}釋出"
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+"
+msgstr "在 Google+ 上面追蹤我們"
+
+#: templates/settings.development.notice.php:52
+msgid "Like our Facebook page"
+msgstr "到我們的 Facebook 頁面按讚"
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter"
+msgstr "在 Twitter 上面追蹤我們"
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog"
+msgstr "逛逛我們的部落格"
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter"
+msgstr "訂閱我們的電子報"
+
+#: templates/users/main.php:41
+msgid "Settings"
+msgstr "設定"
+
+#: templates/users/main.php:51
+msgid "Show storage location"
+msgstr "顯示儲存位置"
+
+#: templates/users/main.php:58
+msgid "Show user backend"
+msgstr "顯示使用者資料後端"
+
+#: templates/users/main.php:65
+msgid "Show last login"
+msgstr "顯示上次登入時間"
+
+#: templates/users/main.php:72
+msgid "Show email address"
+msgstr "顯示電子郵件信箱"
+
+#: templates/users/main.php:79
+msgid "Send email to new user"
+msgstr "寄送郵件給新用戶"
+
+#: templates/users/main.php:83
+msgid ""
+"When the password of a new user is left empty, an activation email with a "
+"link to set the password is sent."
+msgstr ""
+
+#: templates/users/part.createuser.php:11
+msgid "E-Mail"
+msgstr "電子郵件"
+
+#: templates/users/part.createuser.php:14
+msgid "Create"
+msgstr "建立"
+
+#: templates/users/part.createuser.php:20
+msgid "Admin Recovery Password"
+msgstr "管理者復原密碼"
+
+#: templates/users/part.createuser.php:21
+#: templates/users/part.createuser.php:22
+msgid ""
+"Enter the recovery password in order to recover the users files during "
+"password change"
+msgstr "為了修改密碼時能夠取回使用者資料，請輸入另一組還原用密碼"
+
+#: templates/users/part.grouplist.php:18
+msgid "Everyone"
+msgstr "所有人"
+
+#: templates/users/part.grouplist.php:31
+msgid "Admins"
+msgstr "管理者"
+
+#: templates/users/part.grouplist.php:43
+msgid "Disabled"
+msgstr "已停用"
+
+#: templates/users/part.setquota.php:3
+msgid "Default quota"
+msgstr "預設儲存容量限制"
+
+#: templates/users/part.setquota.php:5 templates/users/part.userlist.php:46
+msgid "Please enter storage quota (ex: \"512 MB\" or \"12 GB\")"
+msgstr "請輸入儲存容量限制（例如 \"512 MB\" 或是 \"12 GB\"）"
+
+#: templates/users/part.setquota.php:7 templates/users/part.setquota.php:30
+#: templates/users/part.userlist.php:51
+msgid "Unlimited"
+msgstr "無限制"
+
+#: templates/users/part.setquota.php:22 templates/users/part.userlist.php:59
+msgid "Other"
+msgstr "其他"
+
+#: templates/users/part.userlist.php:11
+msgid "Group admin for"
+msgstr "群組管理員"
+
+#: templates/users/part.userlist.php:13
+msgid "Quota"
+msgstr "容量限制"
+
+#: templates/users/part.userlist.php:14
+msgid "Storage location"
+msgstr "儲存位址"
+
+#: templates/users/part.userlist.php:15
+msgid "User backend"
+msgstr "使用者資料後端"
+
+#: templates/users/part.userlist.php:16
+msgid "Last login"
+msgstr ""
+
+#: templates/users/part.userlist.php:27
+msgid "change full name"
+msgstr "變更全名"
+
+#: templates/users/part.userlist.php:31
+msgid "set new password"
+msgstr "設定新密碼"
+
+#: templates/users/part.userlist.php:35
+msgid "change email address"
+msgstr "更改電子郵件地址"
+
+#: templates/users/part.userlist.php:48
+msgid "Default"
+msgstr "預設"
+
+#: Controller/AppSettingsController.php:131 js/apps.js:43
+msgid "Enabled"
+msgstr ""
+
+#: Controller/AppSettingsController.php:132 js/apps.js:44
+msgid "Not enabled"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:220
+msgid ""
+"Please provide an admin recovery password, otherwise all user data will be "
+"lost"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:246
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"successfully updated."
+msgstr ""
+
+#: Controller/MailSettingsController.php:154
+msgid "test email settings"
+msgstr ""
+
+#: Controller/PersonalController.php:85
+msgid "Invalid request"
+msgstr ""
+
+#: ajax/togglegroups.php:44
+msgid "Admins can't remove themself from the admin group"
+msgstr ""
+
+#: ajax/togglegroups.php:72
+#, php-format
+msgid "Unable to add user to group %s"
+msgstr ""
+
+#: ajax/togglegroups.php:78
+#, php-format
+msgid "Unable to remove user from group %s"
+msgstr ""
+
+#: js/admin.js:223
+msgid "Sending..."
+msgstr ""
+
+#: js/apps.js:127 js/apps.js:424
+msgid "You have %n app update pending"
+msgid_plural "You have %n app updates pending"
+msgstr[0] ""
+
+#: js/apps.js:398
+msgid "Updating...."
+msgstr ""
+
+#: js/apps.js:405
+msgid "Error while updating app"
+msgstr ""
+
+#: js/apps.js:437
+msgid "Uninstalling ...."
+msgstr ""
+
+#: js/apps.js:440
+msgid "Error while uninstalling app"
+msgstr ""
+
+#: js/apps.js:441
+msgid "Uninstall"
+msgstr ""
+
+#: js/apps.js:523
+msgid ""
+"The app has been enabled but needs to be updated. You will be redirected to "
+"the update page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:525
+msgid "App update"
+msgstr ""
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: personal.php:87
+msgid "__language_name__"
+msgstr ""
+
+#: personal.php:203
+msgid "Personal info"
+msgstr ""
+
+#: personal.php:204 templates/personal.php:268
+msgid "Sessions"
+msgstr ""
+
+#: personal.php:205 templates/personal.php:284
+msgid "App passwords"
+msgstr ""
+
+#: personal.php:206
+msgid "Sync clients"
+msgstr ""
+
+#: templates/admin/additional-mail.php:60
+msgid "This is used for sending out notifications."
+msgstr ""
+
+#: templates/admin/server.php:37
+msgid ""
+"php does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/admin/server.php:38
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation documentation ↗</a> for php configuration notes and"
+" the php configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/admin/server.php:56
+msgid ""
+"PHP is apparently setup to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/admin/server.php:75
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"we recommend updating to a newer %1$s version."
+msgstr ""
+
+#: templates/admin/server.php:84
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with mime-type detection."
+msgstr ""
+
+#: templates/admin/server.php:93
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/admin/server.php:108
+msgid ""
+"This means that there might be problems with certain characters in file "
+"names."
+msgstr ""
+
+#: templates/admin/server.php:112
+#, php-format
+msgid ""
+"We strongly suggest installing the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/admin/server.php:121
+#, php-format
+msgid ""
+"If your installation is not installed in the root of the domain and uses "
+"system cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/admin/server.php:129
+msgid ""
+"It was not possible to execute the cronjob via CLI. The following technical "
+"errors have appeared:"
+msgstr ""
+
+#: templates/admin/server.php:148
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/admin/server.php:157
+msgid "Cron"
+msgstr ""
+
+#: templates/admin/server.php:166
+#, php-format
+msgid "Last cron job execution: %s."
+msgstr ""
+
+#: templates/admin/server.php:171
+#, php-format
+msgid "Last cron job execution: %s. Something seems wrong."
+msgstr ""
+
+#: templates/admin/server.php:176
+msgid "Cron was not executed yet!"
+msgstr ""
+
+#: templates/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over http."
+msgstr ""
+
+#: templates/admin/server.php:209
+msgid "Use system's cron service to call the cron.php file every 15 minutes."
+msgstr ""
+
+#: templates/admin/server.php:216
+msgid ""
+"To run this you need the PHP posix extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#: templates/admin/sharing.php:96
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username needs to be entered."
+msgstr ""
+
+#: templates/admin/tipstricks.php:39
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/apps.php:139
+msgid "Uninstall app"
+msgstr ""
+
+#: templates/email.new_user.php:14
+#, php-format
+msgid ""
+"Hey there,<br><br>just letting you know that you now have a %s "
+"account.<br><br>Your username: <strong>%s</strong><br>Access it: <strong><a "
+"href=\"%s\">%s</a></strong><br><br>"
+msgstr ""
+
+#. TRANSLATORS term at the end of a mail
+#: templates/email.new_user.php:17 templates/email.new_user_plain_text.php:5
+msgid "Cheers!"
+msgstr ""
+
+#: templates/email.new_user_plain_text.php:2
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"just letting you know that you now have a %s account.\n"
+"\n"
+"Your username: %s\n"
+"Access it: %s\n"
+"\n"
+msgstr ""
+
+#: templates/personal.php:106
+msgid "For password recovery and notifications"
+msgstr ""
+
+#: templates/personal.php:150
+msgid "Your website"
+msgstr ""
+
+#: templates/personal.php:163
+msgid "Your Twitter handle"
+msgstr ""
+
+#: templates/personal.php:235
+msgid "Get the apps to sync your files"
+msgstr ""
+
+#: templates/personal.php:238
+msgid "Desktop client"
+msgstr ""
+
+#: templates/personal.php:242
+msgid "Android app"
+msgstr ""
+
+#: templates/personal.php:246
+msgid "iOS app"
+msgstr ""
+
+#: templates/personal.php:259
+msgid ""
+"If you want to support the project {contributeopen}join "
+"development{linkclose} or {contributeopen}spread the word{linkclose}!"
+msgstr ""
+
+#: templates/personal.php:263
+msgid "Show First Run Wizard again"
+msgstr ""
+
+#: templates/personal.php:285
+msgid ""
+"Passcodes that give an app or device permissions to access your account."
+msgstr ""
+
+#: templates/personal.php:289
+msgid "Name"
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google Plus!"
+msgstr ""
+
+#: templates/settings.development.notice.php:52
+msgid "Like our facebook page!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Subscribe to our twitter channel!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Subscribe to our news feed!"
+msgstr ""
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter!"
+msgstr ""
+
+#: templates/users/main.php:58
+msgid "Show last log in"
+msgstr ""
+
+#: templates/users/part.grouplist.php:12
+msgid "Group name"
+msgstr ""
+
+#: js/apps.js:567
+msgid "Error while removing app"
+msgstr ""
+
+#: personal.php:203
+msgid "Verifying"
+msgstr ""
+
+#: templates/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Ticks section and the documentation "
+"for more information."
+msgstr ""
+
+#: templates/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with MIME type detection."
+msgstr ""
+
+#: templates/personal.php:361
+msgid ""
+"Web, desktop, mobile clients and app specific passwords that currently have "
+"access to your account."
+msgstr ""
+
+#: templates/personal.php:375
+msgid ""
+"Here you can generate individual passwords for apps so you don’t have to "
+"give out your password. You can revoke them individually too."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog!"
+msgstr ""

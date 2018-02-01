@@ -1,0 +1,1066 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alexander Muravya <asm@virtalab.net>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/nextcloud/teams/64236/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Не удалось очистить соответствия."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Не удалось удалить конфигурацию сервера"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Неверная конфигурация: анонимное связывание не разрешается."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Конфигурация настроена верно, связь установлена!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Конфигурация настроена верно, но связывание не удалось. Проверьте настройки "
+"сервера и реквизиты доступа."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+"Неверная конфигурация. Просмотрите журналы для получения дополнительных "
+"сведений."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Действие не указано"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Конфигурация не указана"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Нет данных"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "Невозможно создать конфигурацию %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "Действия не существует"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "Интерфейс пользователей и групп LDAP"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Обновление…"
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Очень слабый пароль"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Слабый пароль"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Так себе пароль"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Хороший пароль"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Надёжный пароль"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "База поиска DN по всей видимости указана неправильно"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Проверка конфигурации..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Конфигурация некорректна"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Конфигурация не завершена"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Конфигурация в порядке"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Выберите группы"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Выберите объектные классы"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Пожалуйста проверьте учетный данные, возможно они не верны."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Пожалуйста укажите порт, он не может быть определен автоматически."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"База поиска не может быть определена автоматически, пожалуйста перепроверьте"
+" учетные данные, адрес и порт."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "Не возможно обнаружить Base DN, пожалуйста задайте в ручную."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "Сервер {nthServer}."
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "Не найдено объектов в Base DN. Пожалуйста перепроверьте."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "В каталоге доступно более 1,000 записей."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "элементов доступно в предоставленном базовом DN"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Произошла ошибка. Пожалуйста проверьте базу поиска DN, а также настройки "
+"подключения и учетные данные."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Вы действительно хотите удалить существующую конфигурацию сервера?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Подтверждение удаления"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Соответствия успешно очищены!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Ошибка при очистке соответствий."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"Анонимная связь не разрешается. Пожалуйста укажите DN пользователя и пароль."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "Ошибка операций LDAP. Возможно анонимная связь не разрешена."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Не удается произвести сохранение. Пожалуйста убедитесь, что база данных "
+"функционирует. Перезагрузитесь перед продолжением."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Переключение режима задействует автоматические запросы LDAP. В зависимости "
+"от размера LDAP это может занять много времени. Вы все еще желаете "
+"переключить режим?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Переключение режима"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Выберите атрибуты"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Пользователь не найден. Проверьте данные для входа и имя пользователя.  "
+"Действующий фильтр (для копирования и вставки при проверке в командой "
+"строке): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Пользователь найден и настройки проверены."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Подумайте о сужении поиска, поскольку он охватывает многих пользователей, но"
+" только первый из которых сможет войти в систему."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr "Произошла неуказанная ошибка.  Проверьте настройки и журнал."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Некорректный фильтр поиска, возможно из-за синтаксических проблем, таких как"
+" несоответствие открывающих и закрывающих скобок. Пожалуйста проверьте."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"Произошла ошибка подключения к LDAP / AD, пожалуйста проверьте настройки "
+"подключения и учетные данные."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"Отсутствует заполнитель «%uid». Он будет заменен на логин при запросе к LDAP"
+" / AD."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Пожалуйста укажите логин для проверки"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"Настройка групп была отключена, так как сервер LDAP / AD не поддерживает "
+"memberOf."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Смена пароля отклонена. Подсказка:"
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Войдите в систему со своим новым паролем"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Завтра истекает срок действия пароля."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Сегодня истекает срок действия пароля."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "Срок действия пароля истекает через %n день."
+msgstr[1] "Срок действия пароля истекает через %n дня."
+msgstr[2] "Срок действия пароля истекает через %n дней."
+msgstr[3] "Срок действия пароля истекает через %n день."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "Интеграция LDAP / AD"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "%s группа найдена"
+msgstr[1] "%s группы найдены"
+msgstr[2] "%s групп найдено"
+msgstr[3] "%s групп найдено"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "%s пользователь найден"
+msgstr[1] "%s пользователя найдено"
+msgstr[2] "%s пользователей найдено"
+msgstr[3] "%s пользователей найдено"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Не удалось автоматически определить атрибут, содержащий отображаемое имя "
+"пользователя. Зайдите в расширенные настройки LDAP и укажите его вручную."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "Не удается найти требуемую функциональность"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Некорректный адрес сервера"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Проверить конфигурацию"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Помощь"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "Группы, отвечающие этим критериям доступны в %s:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Только эти классы объектов:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Только из этих групп:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Поиск групп"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Доступные группы"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Выбранные группы"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "Изменить запрос LDAP"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "Фильтр LDAP:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr ""
+"Этот фильтр определяет какие LDAP группы должны иметь доступ к экземпляру "
+"%s."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Проверить настройки и пересчитать группы"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr "При входе, %s будет искать пользователя по следующим атрибутам:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "Имя пользователя LDAP/AD:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"Позволяет вход в LDAP / AD с помощью имени пользователя, которое может "
+"определяться как «uid», так и «sAMAccountName»."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "Адрес email LDAP / AD:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+"Позволяет вход с помощью адреса email. Разрешены аттрибуты «mail» и "
+"«mailPrimaryAddress»."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Другие атрибуты:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"Определяет фильтр для применения при попытке входа.  «%% uid» заменяет имя "
+"пользователя для входа в систему. Например: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Проверить логин"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Проверить настройки"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "Сервер 1."
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "Сервер %s:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Добавить новую конфигурацию"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Копировать текущую конфигурацию в новую связь с каталогом"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Удалить текущую конфигурацию"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Сервер"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"Можно пренебречь протоколом, только если не требуется использование SSL. В "
+"этом случае укажите ldaps://"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Порт"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Определить порт"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "DN пользователя"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"DN пользователя, под которым выполняется подключение, например, "
+"uid=agent,dc=example,dc=com. Для анонимного доступа оставьте DN и пароль "
+"пустыми."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Для анонимного доступа оставьте DN и пароль пустыми."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "Сохранить учётные данные"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "По одной базе поиска (Base DN) в строке."
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"Вы можете задать Base DN для пользователей и групп на вкладке "
+"\"Расширенные\""
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Определить базу поиска DN"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Проверить базу поиска DN"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Избегает отправки автоматических запросов LDAP. Эта опция подходит для "
+"крупных проектов, но требует некоторых знаний LDAP."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "Ввести LDAP фильтры вручную (рекомендуется для больших каталогов)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "Слушаются и ищутся пользователи, ограниченные этими критериями:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"Наиболее частые классы объектов для пользователей organizationalPerson, "
+"person, user и inetOrgPerson. Если вы не уверены какой класс объектов "
+"выбрать, пожалуйста обратитесь к администратору."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+"Этот фильтр указывает, какие пользователи LDAP должны иметь доступ к "
+"экземпляру %s."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Проверить настройки и пересчитать пользователей"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Сохраняется"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Назад"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Продолжить"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Обновите свой пароль."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Произошла внутренняя ошибка."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Попробуйте ещё раз или свяжитесь с вашим администратором."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Текущий пароль"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Новый пароль"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Обновление пароля"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Неправильный пароль. Сбросить его?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Неправильный пароль."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Отмена"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Сервер"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Пользователи"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Учетные данные"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Группы"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Эксперт"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Предупреждение:</b> Модуль LDAP для PHP не установлен, бэкенд не будет "
+"работать. Пожалуйста, попросите вашего системного администратора его "
+"установить. "
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Настройки подключения"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Конфигурация активна"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Когда галочка снята, эта конфигурация будет пропущена."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Адрес резервного сервера"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Укажите дополнительный резервный сервер. Он должен быть репликой главного "
+"LDAP/AD сервера."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Порт резервного сервера"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Отключить главный сервер"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Подключаться только к резервному серверу"
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Отключить проверку сертификата SSL."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Не рекомендуется, используйте только в режиме тестирования! Если соединение "
+"работает только с этой опцией, импортируйте на ваш сервер %s SSL-сертификат "
+"сервера LDAP."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "Время хранения кэша (TTL)"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "в секундах. Изменение очистит кэш."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Настройки каталога"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Поле отображаемого имени пользователя"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+"Атрибут LDAP, который используется для генерации отображаемого имени "
+"пользователя."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "Вторичное поле отображаемого имени пользователя"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"Не обязательно. Атрибут LDAP, который будет добавляться к отображаемому "
+"имени в скобках. Например, »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "База дерева пользователей"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "По одной базовому DN пользователей в строке."
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Атрибуты поиска пользователей"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Опционально; один атрибут в строке"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Поле отображаемого имени группы"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr ""
+"Атрибут LDAP, который используется для генерации отображаемого имени группы."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "База дерева групп"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "По одной базовому DN групп в строке."
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Атрибуты поиска групп"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Ассоциация Группа-Участник"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "URL участников динамической группы"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"Атрибут LDAP для объектов группы, который определяет по какому URL ведется "
+"поиск принадлежности к группе. (Пустое значение отключает функциональность "
+"динамического участия в группах)."
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Вложенные группы"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"При включении, активируется поддержка групп, содержащих другие группы. "
+"(Работает только если атрибут член группы содержит DN.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "Страничный размер блоков"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"ChunkSize используется в страничных поисках LDAP которые могут возвращать "
+"громоздкие результаты, как например списки пользователей или групп. "
+"(Установка значения в \"0\" отключает страничный поиск LDAP для таких "
+"ситуаций.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Позволить пользователю изменять пароль LDAP"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"Позволить пользователям менять свои пароли LDAP и позволить Супер "
+"Администраторам и Администраторам Групп менять пароли своих пользователей "
+"LDAP. Работает только в случае, когда политики управления доступом настроены"
+" соответствующим образом на сервере LDAP. Поскольку пароли пересылаются "
+"простым текстом на сервер LDAP,  необходимо использовать шифрование канала "
+"передачи и хеширование паролей на сервере LDAP."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Новый пароль отправлен в LDAP простым текстом)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "Политики DN пароля по умолчанию"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"Политики DN пароля по умолчанию, которая будет использоваться для обработки "
+"истечения срока действия пароля. Работает только тогда, когда включены "
+"изменения пароля LDAP для каждого пользователя и поддерживается только "
+"OpenLDAP. Оставьте пустым, чтобы отключить обработку истечения срока "
+"действия пароля."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Специальные атрибуты"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Поле квоты"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Оставьте пустым для использования квоты по умолчанию. Иначе укажите атрибут "
+"LDAP/AD."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Квота по умолчанию"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"Переопределить стандартную квоту для пользователей LDAP, у которых не "
+"указано значение в поле «Квота»."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "Поле адреса email"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Устанавливать адрес email пользователя из атрибута LDAP. Оставьте поле "
+"пустым для поведения по умолчанию."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Правило именования домашнего каталога пользователя"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Оставьте пустым для использования имени пользователя (по умолчанию). Иначе "
+"укажите атрибут LDAP/AD."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Внутреннее имя пользователя"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"По умолчанию внутреннее имя пользователя будет создано из атрибута UUID. Это"
+" даёт гарантию того, что имя пользователя уникально и символы не нужно "
+"конвертировать. Внутреннее имя пользователя имеет ограничение на то, что "
+"только эти символы допустимы: [ a-zA-Z0-9_.@- ]. Другие символы замещаются "
+"их корреспондирующими символами ASCII или же просто отбрасываются. При "
+"коллизиях добавляется или увеличивается номер. Внутреннее имя пользователя "
+"используется для идентификации пользователя внутри системы. Также это по "
+"умолчанию имя для домашней папки пользователя. Также это часть адресов URL, "
+"например для всех служб *DAV. С помощью этой установки, поведение по "
+"умолчанию может быть изменено. Оставьте его пустым для поведения по "
+"умолчанию. Изменения будут иметь эффект только для вновь спроецированных "
+"(добавленных) пользователей LDAP. "
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "Атрибут для внутреннего имени:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Переопределить нахождение UUID"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"По умолчанию ownCloud определяет атрибут UUID автоматически. Этот атрибут "
+"используется для того, чтобы достоверно идентифицировать пользователей и "
+"группы LDAP. Также на основании атрибута UUID создается внутреннее имя "
+"пользователя, если выше не указано иначе. Вы можете переопределить эту "
+"настройку и указать свой атрибут по выбору. Вы должны удостовериться, что "
+"выбранный вами атрибут может быть выбран для пользователей и групп, а также "
+"то, что он уникальный. Оставьте поле пустым для поведения по умолчанию. "
+"Изменения вступят в силу только для новых подключенных (добавленных) "
+"пользователей и групп LDAP."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "UUID-атрибуты для пользователей:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "UUID-атрибуты для групп:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Соответствия Имя-Пользователь LDAP"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"ownCloud использует имена пользователей для хранения и назначения "
+"метаданных. Для точной идентификации и распознавания пользователей, каждый "
+"пользователь LDAP будет иметь свое внутреннее имя пользователя. Это требует "
+"привязки имени пользователя ownCloud к пользователю LDAP. При создании имя "
+"пользователя назначается идентификатору UUID пользователя LDAP. Помимо этого"
+" кешируется DN для уменьшения числа обращений к LDAP, однако он не "
+"используется для идентификации. Если DN был изменён, то изменения будут "
+"найдены. Внутреннее имя ownCloud используется повсеместно в ownCloud. После "
+"сброса привязок в базе могут сохраниться остатки старой информации. Сброс "
+"привязок не привязан к конфигурации, он повлияет на все LDAP подключения! Ни"
+" в коем случае не рекомендуется сбрасывать привязки если система уже "
+"находится в эксплуатации, только на этапе тестирования."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Очистить соответствия Имя-Пользователь LDAP"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Очистить соответствия Группа-Группа LDAP"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"Отсутствует заполнитель %uid. Он будет заменен на логин при запросе к LDAP /"
+" AD."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Проверить настройки и пересчитать группы"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Добавить новую и пустую конфигурацию"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"Можно пренебречь протоколом, за исключением использования SSL. В этом случае"
+" укажите ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Предупреждение:</b> Приложения user_ldap и user_webdavauth несовместимы. "
+"Вы можете наблюдать некорректное поведение. Пожалуйста, попросите вашего "
+"системного администратора отключить одно из них."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "в байтах"

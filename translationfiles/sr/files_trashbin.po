@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2016\n"
+"Language-Team: Serbian (https://www.transifex.com/nextcloud/teams/64236/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /app/apps/files_trashbin/ajax/delete.php:85
+#, php-format
+msgid "Couldn't delete %s permanently"
+msgstr "Не могу заувек да обришем %s"
+
+#: /app/apps/files_trashbin/ajax/undelete.php:90
+#, php-format
+msgid "Couldn't restore %s"
+msgstr "Не могу да вратим %s"
+
+#: /app/apps/files_trashbin/appinfo/app.php:38
+#: /app/apps/files_trashbin/js/filelist.js:44
+#: /app/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Deleted files"
+msgstr "Обрисани фајлови"
+
+#: /app/apps/files_trashbin/js/app.js:49
+#: /app/apps/files_trashbin/templates/index.php:36
+msgid "Restore"
+msgstr "Врати"
+
+#: /app/apps/files_trashbin/js/app.js:71
+#: /app/apps/files_trashbin/templates/index.php:40
+#: /app/apps/files_trashbin/templates/index.php:49
+msgid "Delete"
+msgstr "Обриши"
+
+#: /app/apps/files_trashbin/js/app.js:77 /app/apps/files_trashbin/js/app.js:78
+msgid "Delete permanently"
+msgstr "Обриши заувек"
+
+#: /app/apps/files_trashbin/js/filelist.js:145
+#: /app/apps/files_trashbin/js/filelist.js:190
+#: /app/apps/files_trashbin/js/filelist.js:240
+msgid "Error"
+msgstr "Грешка"
+
+#: /app/apps/files_trashbin/js/filelist.js:338
+msgid "This operation is forbidden"
+msgstr "Ова радња је забрањена"
+
+#: /app/apps/files_trashbin/js/filelist.js:346
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Овај директоријум није доступан. Проверите записнике или контактирајте "
+"администратора"
+
+#: /app/apps/files_trashbin/lib/Trashbin.php:908
+#: /app/apps/files_trashbin/lib/Trashbin.php:910
+msgid "restored"
+msgstr "враћено"
+
+#: /app/apps/files_trashbin/templates/index.php:9
+msgid "No deleted files"
+msgstr "Нема обрисаних фајлова"
+
+#: /app/apps/files_trashbin/templates/index.php:10
+msgid "You will be able to recover deleted files from here"
+msgstr "Одавде ћете моћи да повратите обрисане фајлове"
+
+#: /app/apps/files_trashbin/templates/index.php:17
+msgid "No entries found in this folder"
+msgstr "Нема ничега у овој фасцикли"
+
+#: /app/apps/files_trashbin/templates/index.php:27
+msgid "Select all"
+msgstr "Означи све"
+
+#: /app/apps/files_trashbin/templates/index.php:32
+msgid "Name"
+msgstr "Назив"
+
+#: /app/apps/files_trashbin/templates/index.php:46
+msgid "Deleted"
+msgstr "Обрисано"

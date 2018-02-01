@@ -1,0 +1,1701 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /app/core/Controller/AvatarController.php:178
+msgid "Please select a file."
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:182
+#: /app/core/Controller/AvatarController.php:210
+msgid "File is too big"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:189
+msgid "The selected file is not an image."
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:198
+msgid "The selected file cannot be read."
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:219
+msgid "Invalid file provided"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:226
+msgid "No image or file provided"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:241
+msgid "Unknown filetype"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:253
+msgid "Invalid image"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:259
+#: /app/core/Controller/AvatarController.php:275
+#: /app/core/Controller/AvatarController.php:343
+msgid "An error occurred. Please contact your admin."
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:288
+#: /app/core/Controller/AvatarController.php:325
+msgid "No temporary profile picture available, try again"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:313
+msgid "No crop data provided"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:318
+msgid "No valid crop data provided"
+msgstr ""
+
+#: /app/core/Controller/AvatarController.php:339
+msgid "Crop is not square"
+msgstr ""
+
+#: /app/core/Controller/ClientFlowLoginController.php:136
+msgid "State token does not match"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:136
+#: /app/core/Controller/LostController.php:223
+#: /app/core/Controller/LostController.php:256
+msgid "Password reset is disabled"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:171
+#: /app/core/Controller/LostController.php:179
+#: /app/core/Controller/LostController.php:184
+#: /app/core/Controller/LostController.php:193
+msgid "Couldn't reset password because the token is invalid"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:189
+msgid "Couldn't reset password because the token is expired"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:294
+msgid ""
+"Could not send reset email because there is no email address for this "
+"username. Please contact your administrator."
+msgstr ""
+
+#: /app/core/Controller/LostController.php:319
+msgid "Password reset"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:322
+msgid ""
+"Click the following button to reset your password. If you have not requested "
+"the password reset, then ignore this email."
+msgstr ""
+
+#: /app/core/Controller/LostController.php:323
+msgid ""
+"Click the following link to reset your password. If you have not requested "
+"the password reset, then ignore this email."
+msgstr ""
+
+#: /app/core/Controller/LostController.php:327
+msgid "Reset your password"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:336
+#, php-format
+msgid "%s password reset"
+msgstr ""
+
+#: /app/core/Controller/LostController.php:343 /app/core/js/lostpassword.js:3
+msgid "Couldn't send reset email. Please contact your administrator."
+msgstr ""
+
+#: /app/core/Controller/LostController.php:363
+msgid "Couldn't send reset email. Please make sure your username is correct."
+msgstr ""
+
+#: /app/core/ajax/update.php:44
+msgid "Preparing update"
+msgstr ""
+
+#: /app/core/ajax/update.php:76 /app/core/ajax/update.php:80
+#: /app/core/ajax/update.php:122
+#, php-format
+msgid "[%d / %d]: %s"
+msgstr ""
+
+#: /app/core/ajax/update.php:87
+msgid "Repair warning: "
+msgstr ""
+
+#: /app/core/ajax/update.php:90
+msgid "Repair error: "
+msgstr ""
+
+#: /app/core/ajax/update.php:100 /app/core/templates/update.use-cli.php:8
+msgid ""
+"Please use the command line updater because automatic updating is disabled "
+"in the config.php."
+msgstr ""
+
+#: /app/core/ajax/update.php:127
+#, php-format
+msgid "[%d / %d]: Checking table %s"
+msgstr ""
+
+#: /app/core/ajax/update.php:140
+msgid "Turned on maintenance mode"
+msgstr ""
+
+#: /app/core/ajax/update.php:143
+msgid "Turned off maintenance mode"
+msgstr ""
+
+#: /app/core/ajax/update.php:146
+msgid "Maintenance mode is kept active"
+msgstr ""
+
+#: /app/core/ajax/update.php:149
+msgid "Updating database schema"
+msgstr ""
+
+#: /app/core/ajax/update.php:152
+msgid "Updated database"
+msgstr ""
+
+#: /app/core/ajax/update.php:155
+msgid ""
+"Checking whether the database schema can be updated (this can take a long "
+"time depending on the database size)"
+msgstr ""
+
+#: /app/core/ajax/update.php:158
+msgid "Checked database schema update"
+msgstr ""
+
+#: /app/core/ajax/update.php:161
+msgid "Checking updates of apps"
+msgstr ""
+
+#: /app/core/ajax/update.php:164
+#, php-format
+msgid "Checking for update of app \"%s\" in appstore"
+msgstr ""
+
+#: /app/core/ajax/update.php:167
+#, php-format
+msgid "Update app \"%s\" from appstore"
+msgstr ""
+
+#: /app/core/ajax/update.php:170
+#, php-format
+msgid "Checked for update of app \"%s\" in appstore"
+msgstr ""
+
+#: /app/core/ajax/update.php:173
+#, php-format
+msgid ""
+"Checking whether the database schema for %s can be updated (this can take a "
+"long time depending on the database size)"
+msgstr ""
+
+#: /app/core/ajax/update.php:176
+msgid "Checked database schema update for apps"
+msgstr ""
+
+#: /app/core/ajax/update.php:179
+#, php-format
+msgid "Updated \"%s\" to %s"
+msgstr ""
+
+#: /app/core/ajax/update.php:193
+msgid "Set log level to debug"
+msgstr ""
+
+#: /app/core/ajax/update.php:196
+msgid "Reset log level"
+msgstr ""
+
+#: /app/core/ajax/update.php:199
+msgid "Starting code integrity check"
+msgstr ""
+
+#: /app/core/ajax/update.php:202
+msgid "Finished code integrity check"
+msgstr ""
+
+#: /app/core/ajax/update.php:215
+#, php-format
+msgid "%s (3rdparty)"
+msgstr ""
+
+#: /app/core/ajax/update.php:218
+#, php-format
+msgid "%s (incompatible)"
+msgstr ""
+
+#: /app/core/ajax/update.php:223
+#, php-format
+msgid "Following apps have been disabled: %s"
+msgstr ""
+
+#: /app/core/ajax/update.php:226
+msgid "Already up to date"
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:29
+msgid "Search contacts …"
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:36
+msgid "No contacts found"
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:40
+msgid "Show all contacts …"
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:49
+msgid "There was an error loading your contacts"
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:513
+msgid "Loading your contacts …"
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:515
+msgid "Looking for {term} …"
+msgstr ""
+
+#: /app/core/js/integritycheck-failed-notification.js:25
+msgid ""
+"<a href=\"{docUrl}\">There were problems with the code integrity check. More "
+"information…</a>"
+msgstr ""
+
+#: /app/core/js/jquery.contactsmenu.js:67
+#: /app/core/js/jquery.contactsmenu.js:86
+msgid "No action available"
+msgstr ""
+
+#: /app/core/js/jquery.contactsmenu.js:88
+msgid "Error fetching contact actions"
+msgstr ""
+
+#: /app/core/js/js.js:628
+msgid "Settings"
+msgstr ""
+
+#: /app/core/js/js.js:781
+msgid "Connection to server lost"
+msgstr ""
+
+#: /app/core/js/js.js:804
+msgid "Problem loading page, reloading in %n second"
+msgid_plural "Problem loading page, reloading in %n seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/core/js/js.js:978
+msgid "Saving..."
+msgstr ""
+
+#: /app/core/js/js.js:1169
+msgid "Dismiss"
+msgstr ""
+
+#: /app/core/js/js.js:1695
+msgid "This action requires you to confirm your password"
+msgstr ""
+
+#: /app/core/js/js.js:1697
+msgid "Authentication required"
+msgstr ""
+
+#: /app/core/js/js.js:1704 /app/core/js/sharedialoglinkshareview.js:429
+#: /app/core/templates/installation.php:49
+#: /app/core/templates/installation.php:52 /app/core/templates/login.php:48
+#: /app/core/templates/login.php:51
+#: /app/core/templates/loginflow/authpicker.php:50
+msgid "Password"
+msgstr ""
+
+#: /app/core/js/js.js:1711 /app/core/js/oc-dialogs.js:615
+msgid "Cancel"
+msgstr ""
+
+#: /app/core/js/js.js:1712 /app/core/templates/layout.user.php:165
+msgid "Confirm"
+msgstr ""
+
+#: /app/core/js/js.js:1737
+msgid "Failed to authenticate, try again"
+msgstr ""
+
+#: /app/core/js/js.js:1890
+msgid "seconds ago"
+msgstr ""
+
+#: /app/core/js/login.js:18
+msgid "Logging in …"
+msgstr ""
+
+#: /app/core/js/lostpassword.js:5
+msgid ""
+"The link to reset your password has been sent to your email. If you do not "
+"receive it within a reasonable amount of time, check your spam/junk folders."
+"<br>If it is not there ask your local administrator."
+msgstr ""
+
+#: /app/core/js/lostpassword.js:7
+msgid ""
+"Your files are encrypted. There will be no way to get your data back after "
+"your password is reset.<br />If you are not sure what to do, please contact "
+"your administrator before you continue. <br />Do you really want to continue?"
+msgstr ""
+
+#: /app/core/js/lostpassword.js:10
+msgid "I know what I'm doing"
+msgstr ""
+
+#: /app/core/js/lostpassword.js:13
+msgid "Password can not be changed. Please contact your administrator."
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:136 /app/core/js/oc-dialogs.js:302
+msgid "No"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:144 /app/core/js/oc-dialogs.js:311
+msgid "Yes"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:195
+msgid "No files in here"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:241
+msgid "Choose"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:276
+msgid "Error loading file picker template: {error}"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:329
+msgid "OK"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:349
+msgid "Error loading message template: {error}"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:564
+msgid "read-only"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:581
+msgid "{count} file conflict"
+msgid_plural "{count} file conflicts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/core/js/oc-dialogs.js:595
+msgid "One file conflict"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:601
+msgid "New Files"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:602
+msgid "Already existing files"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:604
+msgid "Which files do you want to keep?"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:605
+msgid ""
+"If you select both versions, the copied file will have a number added to its "
+"name."
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:625
+msgid "Continue"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:680 /app/core/js/oc-dialogs.js:694
+msgid "(all selected)"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:683 /app/core/js/oc-dialogs.js:698
+msgid "({count} selected)"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:710
+msgid "Error loading file exists template"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:821
+msgid "Pending"
+msgstr ""
+
+#: /app/core/js/setup.js:119
+msgid "Very weak password"
+msgstr ""
+
+#: /app/core/js/setup.js:120
+msgid "Weak password"
+msgstr ""
+
+#: /app/core/js/setup.js:121
+msgid "So-so password"
+msgstr ""
+
+#: /app/core/js/setup.js:122
+msgid "Good password"
+msgstr ""
+
+#: /app/core/js/setup.js:123
+msgid "Strong password"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:29
+msgid ""
+"Your web server is not yet set up properly to allow file synchronization "
+"because the WebDAV interface seems to be broken."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:69
+msgid ""
+"Your web server is not set up properly to resolve \"{url}\". Further "
+"information can be found in our <a target=\"_blank\" rel=\"noreferrer\" href="
+"\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:97
+msgid ""
+"This server has no working Internet connection: Multiple endpoints could not "
+"be reached. This means that some of the features like mounting external "
+"storage, notifications about updates or installation of third-party apps "
+"will not work. Accessing files remotely and sending of notification emails "
+"might not work, either. We suggest to enable Internet connection for this "
+"server if you want to have all features."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:103
+msgid ""
+"No memory cache has been configured. To enhance your performance please "
+"configure a memcache if available. Further information can be found in our "
+"<a target=\"_blank\" rel=\"noreferrer\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:109
+msgid ""
+"/dev/urandom is not readable by PHP which is highly discouraged for security "
+"reasons. Further information can be found in our <a target=\"_blank\" rel="
+"\"noreferrer\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:121
+msgid ""
+"You are currently running PHP {version}. We encourage you to upgrade your "
+"PHP version to take advantage of <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"{phpLink}\">performance and security updates provided by the PHP "
+"Group</a> as soon as your distribution supports it."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:127
+msgid ""
+"The reverse proxy headers configuration is incorrect, or you are accessing "
+"Nextcloud from a trusted proxy. If you are not accessing Nextcloud from a "
+"trusted proxy, this is a security issue and can allow an attacker to spoof "
+"their IP address as visible to Nextcloud. Further information can be found "
+"in our <a target=\"_blank\" rel=\"noreferrer\" href="
+"\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:133
+msgid ""
+"Memcached is configured as distributed cache, but the wrong PHP module "
+"\"memcache\" is installed. \\OC\\Memcache\\Memcached only supports "
+"\"memcached\" and not \"memcache\". See the <a target=\"_blank\" rel="
+"\"noreferrer\" href=\"{wikiLink}\">memcached wiki about both modules</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:141
+msgid ""
+"Some files have not passed the integrity check. Further information on how "
+"to resolve this issue can be found in our <a target=\"_blank\" rel="
+"\"noreferrer\" href=\"{docLink}\">documentation</a>. (<a href="
+"\"{codeIntegrityDownloadEndpoint}\">List of invalid files…</a> / <a href="
+"\"{rescanEndpoint}\">Rescan…</a>)"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:155
+msgid ""
+"The PHP OPcache is not properly configured. <a target=\"_blank\" rel="
+"\"noreferrer\" href=\"{docLink}\">For better performance we recommend</a> to "
+"use following settings in the <code>php.ini</code>:"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:167
+msgid ""
+"The PHP function \"set_time_limit\" is not available. This could result in "
+"scripts being halted mid-execution, breaking your installation. We strongly "
+"recommend enabling this function."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:173 /app/core/js/setupchecks.js:269
+#: /app/core/js/setupchecks.js:315
+msgid "Error occurred while checking server setup"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:224
+msgid ""
+"Your data directory and your files are probably accessible from the "
+"Internet. The .htaccess file is not working. It is strongly recommended that "
+"you configure your web server in a way that the data directory is no longer "
+"accessible or you move the data directory outside the web server document "
+"root."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:262
+msgid ""
+"The \"{header}\" HTTP header is not configured to equal to \"{expected}\". "
+"This is a potential security or privacy risk and we recommend adjusting this "
+"setting."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:303
+msgid ""
+"The \"Strict-Transport-Security\" HTTP header is not configured to at least "
+"\"{seconds}\" seconds. For enhanced security we recommend enabling HSTS as "
+"described in our <a href=\"{docUrl}\" rel=\"noreferrer\">security tips</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:309
+msgid ""
+"You are accessing this site via HTTP. We strongly suggest you configure your "
+"server to require using HTTPS instead as described in our <a href="
+"\"{docUrl}\">security tips</a>."
+msgstr ""
+
+#: /app/core/js/share.js:144 /app/core/js/share.js:297
+#: /app/core/js/share.js:311
+msgid "Shared"
+msgstr ""
+
+#: /app/core/js/share.js:303
+msgid "Shared with {recipients}"
+msgstr ""
+
+#: /app/core/js/sharedialogexpirationview.js:117
+msgid "Error setting expiration date"
+msgstr ""
+
+#: /app/core/js/sharedialogexpirationview.js:137
+msgid ""
+"The public link will expire no later than {days} days after it is created"
+msgstr ""
+
+#: /app/core/js/sharedialogexpirationview.js:151
+#: /app/core/js/sharedialogshareelistview.js:266
+msgid "Set expiration date"
+msgstr ""
+
+#: /app/core/js/sharedialogexpirationview.js:152
+msgid "Expiration"
+msgstr ""
+
+#: /app/core/js/sharedialogexpirationview.js:153
+msgid "Expiration date"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:19
+msgid "Choose a password for the public link"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:20
+msgid "Choose a password for the public link or press the \"Enter\" key"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:183
+msgid "Copied!"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:190
+#: /app/core/js/sharedialoglinkshareview.js:216
+#: /app/core/js/sharedialoglinkshareview.js:417
+#: /app/core/js/sharedialoglinkshareview.js:456
+msgid "Copy"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:201
+msgid "Not supported!"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:203
+msgid "Press ⌘-C to copy."
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:205
+msgid "Press Ctrl-C to copy."
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:355
+msgid "Resharing is not allowed"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:408
+msgid "Share to {name}"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:426
+msgid "Share link"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:427
+msgid "Link"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:428
+#: /app/core/js/sharedialogshareelistview.js:267
+msgid "Password protect"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:437
+msgid "Allow editing"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:438
+msgid "Email link to person"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:439
+msgid "Send"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:442
+msgid "Allow upload and editing"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:443
+msgid "Read only"
+msgstr ""
+
+#: /app/core/js/sharedialoglinkshareview.js:444
+#: /app/core/js/sharedialogshareelistview.js:265
+msgid "File drop (upload only)"
+msgstr ""
+
+#: /app/core/js/sharedialogresharerinfoview.js:79
+msgid "Shared with you and the group {group} by {owner}"
+msgstr ""
+
+#: /app/core/js/sharedialogresharerinfoview.js:88
+msgid "Shared with you by {owner}"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:18
+msgid "Choose a password for the mail share"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:45
+msgid "{{shareInitiatorDisplayName}} shared via link"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:198
+#: /app/core/js/sharedialogshareelistview.js:207
+msgid "group"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:200
+#: /app/core/js/sharedialogshareelistview.js:209
+msgid "remote"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:202
+#: /app/core/js/sharedialogshareelistview.js:211
+msgid "email"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:221
+msgid "shared by {sharer}"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:259
+#: /app/core/js/sharedialogshareelistview.js:316
+msgid "Unshare"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:260
+msgid "Can reshare"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:261
+msgid "Can edit"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:262
+msgid "Can create"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:263
+msgid "Can change"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:264
+msgid "Can delete"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:268
+msgid "Access control"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:478
+msgid "Could not unshare"
+msgstr ""
+
+#: /app/core/js/sharedialogshareelistview.js:653
+#: /app/core/js/sharedialogshareelistview.js:680
+#: /app/core/js/shareitemmodel.js:225
+msgid "Error while sharing"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:81
+msgid "Share details could not be loaded for this item."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:150
+msgid "At least {count} character is needed for autocompletion"
+msgid_plural "At least {count} characters are needed for autocompletion"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/core/js/sharedialogview.js:294
+msgid ""
+"This list is maybe truncated - please refine your search term to see more "
+"results."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:299
+msgid "No users or groups found for {search}"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:301
+msgid "No users found for {search}"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:322
+msgid "An error occurred. Please try again"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:331
+msgid "{sharee} (group)"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:333
+msgid "{sharee} (remote)"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:335
+msgid "{sharee} (email)"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:337
+msgid "{sharee} ({type}, {owner})"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:417
+msgid "Share"
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:470
+msgid ""
+"Share with other people by entering a user or group, a federated cloud ID or "
+"an email address."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:474
+msgid ""
+"Share with other people by entering a user or group or a federated cloud ID."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:478
+msgid ""
+"Share with other people by entering a user or group or an email address."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:490
+msgid "Name or email address..."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:493
+msgid "Name or federated cloud ID..."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:496
+msgid "Name, federated cloud ID or email address..."
+msgstr ""
+
+#: /app/core/js/sharedialogview.js:499
+msgid "Name..."
+msgstr ""
+
+#: /app/core/js/shareitemmodel.js:216 /app/core/js/shareitemmodel.js:251
+#: /app/core/templates/installation.php:15
+msgid "Error"
+msgstr ""
+
+#: /app/core/js/shareitemmodel.js:260
+msgid "Error removing share"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtags.js:28
+msgid "Non-existing tag #{tag}"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtags.js:39
+msgid "restricted"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtags.js:43
+msgid "invisible"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtags.js:47
+msgid "({scope})"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:152
+msgid "Delete"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:153
+#: /app/core/js/systemtags/systemtagsinputfield.js:317
+msgid "Rename"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:407
+msgid "Collaborative tags"
+msgstr ""
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:452
+msgid "No tags found"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:33
+#: /app/core/js/tests/specs/l10nSpec.js:36
+msgid "unknown text"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:39
+#: /app/core/js/tests/specs/l10nSpec.js:157
+msgid "Hello world!"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:43
+#: /app/core/js/tests/specs/l10nSpec.js:66
+msgid "sunny"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:43
+msgid "Hello {name}, the weather is {weather}"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:48
+#: /app/core/js/tests/specs/l10nSpec.js:53
+msgid "Hello {name}"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:58
+msgid "<strong>These are your search results<script>alert(1)</script></strong>"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:67
+msgid "new"
+msgstr ""
+
+#: /app/core/js/tests/specs/l10nSpec.js:73
+#: /app/core/js/tests/specs/l10nSpec.js:76
+#: /app/core/js/tests/specs/l10nSpec.js:79
+#: /app/core/js/tests/specs/l10nSpec.js:82
+#: /app/core/js/tests/specs/l10nSpec.js:92
+#: /app/core/js/tests/specs/l10nSpec.js:95
+#: /app/core/js/tests/specs/l10nSpec.js:98
+#: /app/core/js/tests/specs/l10nSpec.js:101
+msgid "download %n file"
+msgid_plural "download %n files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/core/js/update.js:34
+msgid ""
+"The update is in progress, leaving this page might interrupt the process in "
+"some environments."
+msgstr ""
+
+#: /app/core/js/update.js:39
+msgid "Update to {version}"
+msgstr ""
+
+#: /app/core/js/update.js:57
+msgid "An error occurred."
+msgstr ""
+
+#: /app/core/js/update.js:60
+msgid "Please reload the page."
+msgstr ""
+
+#: /app/core/js/update.js:75
+msgid ""
+"The update was unsuccessful. For more information <a href=\"{url}\">check "
+"our forum post</a> covering this issue."
+msgstr ""
+
+#: /app/core/js/update.js:77
+msgid ""
+"The update was unsuccessful. Please report this issue to the <a href="
+"\"https://github.com/nextcloud/server/issues\" target=\"_blank\">Nextcloud "
+"community</a>."
+msgstr ""
+
+#: /app/core/js/update.js:94
+msgid "Continue to Nextcloud"
+msgstr ""
+
+#: /app/core/js/update.js:119
+msgid "The update was successful. Redirecting you to Nextcloud in %n second."
+msgid_plural ""
+"The update was successful. Redirecting you to Nextcloud in %n seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/core/search/js/search.js:132
+msgid "Searching other places"
+msgstr ""
+
+#: /app/core/search/js/search.js:220
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr ""
+
+#: /app/core/search/js/search.js:224
+msgid "{count} search result in another folder"
+msgid_plural "{count} search results in other folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/core/strings.php:26
+msgid "Personal"
+msgstr ""
+
+#: /app/core/strings.php:27
+msgid "Users"
+msgstr ""
+
+#: /app/core/strings.php:28 /app/core/templates/layout.user.php:58
+msgid "Apps"
+msgstr ""
+
+#: /app/core/strings.php:29
+msgid "Admin"
+msgstr ""
+
+#: /app/core/strings.php:30
+msgid "Help"
+msgstr ""
+
+#: /app/core/templates/403.php:14
+msgid "Access forbidden"
+msgstr ""
+
+#: /app/core/templates/404.php:20
+msgid "File not found"
+msgstr ""
+
+#: /app/core/templates/404.php:21
+msgid "The specified document has not been found on the server."
+msgstr ""
+
+#: /app/core/templates/404.php:22
+#, php-format
+msgid "You can click here to return to %s."
+msgstr ""
+
+#: /app/core/templates/exception.php:8
+msgid "Internal Server Error"
+msgstr ""
+
+#: /app/core/templates/exception.php:9
+msgid ""
+"The server encountered an internal error and was unable to complete your "
+"request."
+msgstr ""
+
+#: /app/core/templates/exception.php:10
+msgid ""
+"Please contact the server administrator if this error reappears multiple "
+"times, please include the technical details below in your report."
+msgstr ""
+
+#: /app/core/templates/exception.php:11
+msgid "More details can be found in the server log."
+msgstr ""
+
+#: /app/core/templates/exception.php:14
+msgid "Technical details"
+msgstr ""
+
+#: /app/core/templates/exception.php:16
+#, php-format
+msgid "Remote Address: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:17
+#, php-format
+msgid "Request ID: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:19
+#, php-format
+msgid "Type: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:20
+#, php-format
+msgid "Code: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:21
+#, php-format
+msgid "Message: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:22
+#, php-format
+msgid "File: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:23
+#, php-format
+msgid "Line: %s"
+msgstr ""
+
+#: /app/core/templates/exception.php:29
+msgid "Trace"
+msgstr ""
+
+#: /app/core/templates/installation.php:30
+msgid "Security warning"
+msgstr ""
+
+#: /app/core/templates/installation.php:31
+msgid ""
+"Your data directory and files are probably accessible from the internet "
+"because the .htaccess file does not work."
+msgstr ""
+
+#: /app/core/templates/installation.php:33
+#, php-format
+msgid ""
+"For information how to properly configure your server, please see the <a "
+"href=\"%s\" target=\"_blank\" rel=\"noreferrer\">documentation</a>."
+msgstr ""
+
+#: /app/core/templates/installation.php:39
+msgid "Create an <strong>admin account</strong>"
+msgstr ""
+
+#: /app/core/templates/installation.php:42
+#: /app/core/templates/installation.php:45
+#: /app/core/templates/loginflow/authpicker.php:45
+#: /app/core/templates/loginflow/authpicker.php:46
+msgid "Username"
+msgstr ""
+
+#: /app/core/templates/installation.php:60
+msgid "Storage & database"
+msgstr ""
+
+#: /app/core/templates/installation.php:67
+msgid "Data folder"
+msgstr ""
+
+#: /app/core/templates/installation.php:80
+msgid "Configure the database"
+msgstr ""
+
+#: /app/core/templates/installation.php:85
+#, php-format
+msgid "Only %s is available."
+msgstr ""
+
+#: /app/core/templates/installation.php:86
+msgid ""
+"Install and activate additional PHP modules to choose other database types."
+msgstr ""
+
+#: /app/core/templates/installation.php:88
+msgid "For more details check out the documentation."
+msgstr ""
+
+#: /app/core/templates/installation.php:104
+#: /app/core/templates/installation.php:106
+msgid "Database user"
+msgstr ""
+
+#: /app/core/templates/installation.php:112
+#: /app/core/templates/installation.php:115
+msgid "Database password"
+msgstr ""
+
+#: /app/core/templates/installation.php:120
+#: /app/core/templates/installation.php:122
+msgid "Database name"
+msgstr ""
+
+#: /app/core/templates/installation.php:130
+#: /app/core/templates/installation.php:132
+msgid "Database tablespace"
+msgstr ""
+
+#: /app/core/templates/installation.php:139
+#: /app/core/templates/installation.php:141
+msgid "Database host"
+msgstr ""
+
+#: /app/core/templates/installation.php:146
+msgid ""
+"Please specify the port number along with the host name (e.g., "
+"localhost:5432)."
+msgstr ""
+
+#: /app/core/templates/installation.php:155
+msgid "Performance warning"
+msgstr ""
+
+#: /app/core/templates/installation.php:156
+msgid "SQLite will be used as database."
+msgstr ""
+
+#: /app/core/templates/installation.php:157
+msgid ""
+"For larger installations we recommend to choose a different database backend."
+msgstr ""
+
+#: /app/core/templates/installation.php:158
+msgid ""
+"Especially when using the desktop client for file syncing the use of SQLite "
+"is discouraged."
+msgstr ""
+
+#: /app/core/templates/installation.php:164
+msgid "Finish setup"
+msgstr ""
+
+#: /app/core/templates/installation.php:164
+msgid "Finishing …"
+msgstr ""
+
+#: /app/core/templates/installation.php:168
+msgid "Need help?"
+msgstr ""
+
+#: /app/core/templates/installation.php:169
+msgid "See the documentation"
+msgstr ""
+
+#: /app/core/templates/layout.noscript.warning.php:7
+msgid ""
+"This application requires JavaScript for correct operation. Please "
+"{linkstart}enable JavaScript{linkend} and reload the page."
+msgstr ""
+
+#: /app/core/templates/layout.user.php:87
+msgid "More apps"
+msgstr ""
+
+#: /app/core/templates/layout.user.php:119
+msgid "Search"
+msgstr ""
+
+#: /app/core/templates/layout.user.php:162
+msgid "This action requires you to confirm your password:"
+msgstr ""
+
+#: /app/core/templates/layout.user.php:164
+msgid "Confirm your password"
+msgstr ""
+
+#: /app/core/templates/login.php:15
+msgid "Server side authentication failed!"
+msgstr ""
+
+#: /app/core/templates/login.php:16
+msgid "Please contact your administrator."
+msgstr ""
+
+#: /app/core/templates/login.php:26
+msgid "An internal error occurred."
+msgstr ""
+
+#: /app/core/templates/login.php:27
+msgid "Please try again or contact your administrator."
+msgstr ""
+
+#: /app/core/templates/login.php:39 /app/core/templates/login.php:43
+msgid "Username or email"
+msgstr ""
+
+#: /app/core/templates/login.php:56
+msgid "Wrong password. Reset it?"
+msgstr ""
+
+#: /app/core/templates/login.php:60
+msgid "Wrong password."
+msgstr ""
+
+#: /app/core/templates/login.php:64
+msgid "Log in"
+msgstr ""
+
+#: /app/core/templates/login.php:73
+msgid "Stay logged in"
+msgstr ""
+
+#: /app/core/templates/login.php:85
+msgid "Alternative Logins"
+msgstr ""
+
+#: /app/core/templates/loginflow/authpicker.php:32
+#, php-format
+msgid "You are about to grant \"%s\" access to your %s account."
+msgstr ""
+
+#: /app/core/templates/loginflow/authpicker.php:39
+#: /app/core/templates/loginflow/authpicker.php:53
+msgid "Grant access"
+msgstr ""
+
+#: /app/core/templates/loginflow/authpicker.php:49
+msgid "App token"
+msgstr ""
+
+#: /app/core/templates/loginflow/authpicker.php:58
+msgid "Alternative login using app token"
+msgstr ""
+
+#: /app/core/templates/loginflow/redirect.php:30
+msgid "Redirecting …"
+msgstr ""
+
+#: /app/core/templates/lostpassword/resetpassword.php:32
+msgid "New password"
+msgstr ""
+
+#: /app/core/templates/lostpassword/resetpassword.php:33
+msgid "New Password"
+msgstr ""
+
+#: /app/core/templates/lostpassword/resetpassword.php:35
+msgid "Reset password"
+msgstr ""
+
+#: /app/core/templates/twofactorselectchallenge.php:2
+msgid "Two-factor authentication"
+msgstr ""
+
+#: /app/core/templates/twofactorselectchallenge.php:3
+msgid ""
+"Enhanced security is enabled for your account. Please authenticate using a "
+"second factor."
+msgstr ""
+
+#: /app/core/templates/twofactorselectchallenge.php:22
+#: /app/core/templates/twofactorshowchallenge.php:25
+msgid "Cancel log in"
+msgstr ""
+
+#: /app/core/templates/twofactorselectchallenge.php:29
+#: /app/core/templates/twofactorshowchallenge.php:32
+msgid "Use backup code"
+msgstr ""
+
+#: /app/core/templates/twofactorshowchallenge.php:20
+msgid "Error while validating your second factor"
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:5
+msgid "You are accessing the server from an untrusted domain."
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:8
+msgid ""
+"Please contact your administrator. If you are an administrator of this "
+"instance, configure the \"trusted_domains\" setting in config/config.php. An "
+"example configuration is provided in config/config.sample.php."
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:10
+msgid ""
+"Depending on your configuration, as an administrator you might also be able "
+"to use the button below to trust this domain."
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:14
+#, php-format
+msgid "Add \"%s\" as trusted domain"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:4
+msgid "App update required"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:6
+#, php-format
+msgid "%s will be updated to version %s"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:11
+msgid "These apps will be updated:"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:21
+msgid "These incompatible apps will be disabled:"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:31
+#, php-format
+msgid "The theme %s has been disabled."
+msgstr ""
+
+#: /app/core/templates/update.admin.php:35
+msgid ""
+"Please make sure that the database, the config folder and the data folder "
+"have been backed up before proceeding."
+msgstr ""
+
+#: /app/core/templates/update.admin.php:37
+msgid "Start update"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:40
+msgid ""
+"To avoid timeouts with larger installations, you can instead run the "
+"following command from your installation directory:"
+msgstr ""
+
+#: /app/core/templates/update.admin.php:52
+msgid "Detailed logs"
+msgstr ""
+
+#: /app/core/templates/update.use-cli.php:3
+msgid "Update needed"
+msgstr ""
+
+#: /app/core/templates/update.use-cli.php:6
+msgid ""
+"Please use the command line updater because you have a big instance with "
+"more than 50 users."
+msgstr ""
+
+#: /app/core/templates/update.use-cli.php:11
+#, php-format
+msgid ""
+"For help, see the  <a target=\"_blank\" rel=\"noreferrer\" href=\"%s"
+"\">documentation</a>."
+msgstr ""
+
+#: /app/core/templates/update.use-cli.php:17
+msgid ""
+"I know that if I continue doing the update via web UI has the risk, that the "
+"request runs into a timeout and could cause data loss, but I have a backup "
+"and know how to restore my instance in case of a failure."
+msgstr ""
+
+#: /app/core/templates/update.use-cli.php:18
+msgid "Upgrade via web on my own risk"
+msgstr ""
+
+#: /app/core/templates/update.user.php:3
+#, php-format
+msgid ""
+"This %s instance is currently in maintenance mode, which may take a while."
+msgstr ""
+
+#: /app/core/templates/update.user.php:4
+#, php-format
+msgid "This page will refresh itself when the %s instance is available again."
+msgstr ""
+
+#: /app/core/templates/update.user.php:5
+msgid ""
+"Contact your system administrator if this message persists or appeared "
+"unexpectedly."
+msgstr ""
+
+#: /app/core/templates/update.user.php:6
+msgid "Thank you for your patience."
+msgstr ""
+
+#: /app/core/js/lostpassword.js:89
+msgid "Sending email …"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:284 /app/core/js/oc-dialogs.js:974
+msgid "Move"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:973
+msgid "Copy to {folder}"
+msgstr ""
+
+#: /app/core/js/oc-dialogs.js:974
+msgid "Move to {folder}"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:29
+msgid ""
+"Your web server is not yet properly set up to allow file synchronization, "
+"because the WebDAV interface seems to be broken."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:69
+msgid ""
+"Your web server is not properly set up to resolve \"{url}\". Further "
+"information can be found in the <a target=\"_blank\" rel=\"noreferrer "
+"noopener\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:97
+msgid ""
+"This server has no working Internet connection: Multiple endpoints could not "
+"be reached. This means that some of the features like mounting external "
+"storage, notifications about updates or installation of third-party apps "
+"will not work. Accessing files remotely and sending of notification emails "
+"might not work, either. Establish a connection from this server to the "
+"Internet to enjoy all features."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:103
+msgid ""
+"No memory cache has been configured. To enhance performance, please "
+"configure a memcache, if available. Further information can be found in the "
+"<a target=\"_blank\" rel=\"noreferrer noopener\" href="
+"\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:109
+msgid ""
+"/dev/urandom is not readable by PHP which is highly discouraged for security "
+"reasons. Further information can be found in the <a target=\"_blank\" rel="
+"\"noreferrer noopener\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:121
+msgid ""
+"You are currently running PHP {version}. Upgrade your PHP version to take "
+"advantage of <a target=\"_blank\" rel=\"noreferrer noopener\" href="
+"\"{phpLink}\">performance and security updates provided by the PHP Group</a> "
+"as soon as your distribution supports it."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:127
+msgid ""
+"You are currently running PHP 5.6. The current major version of Nextcloud is "
+"the last that is supported on PHP 5.6. It is recommended to upgrade the PHP "
+"version to 7.0+ to be able to upgrade to Nextcloud 14."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:133
+msgid ""
+"The reverse proxy header configuration is incorrect, or you are accessing "
+"Nextcloud from a trusted proxy. If not, this is a security issue and can "
+"allow an attacker to spoof their IP address as visible to the Nextcloud. "
+"Further information can be found in the <a target=\"_blank\" rel="
+"\"noreferrer noopener\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:139
+msgid ""
+"Memcached is configured as distributed cache, but the wrong PHP module "
+"\"memcache\" is installed. \\OC\\Memcache\\Memcached only supports "
+"\"memcached\" and not \"memcache\". See the <a target=\"_blank\" rel="
+"\"noreferrer noopener\" href=\"{wikiLink}\">memcached wiki about both "
+"modules</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:147
+msgid ""
+"Some files have not passed the integrity check. Further information on how "
+"to resolve this issue can be found in the <a target=\"_blank\" rel="
+"\"noreferrer noopener\" href=\"{docLink}\">documentation</a>. (<a href="
+"\"{codeIntegrityDownloadEndpoint}\">List of invalid files…</a> / <a href="
+"\"{rescanEndpoint}\">Rescan…</a>)"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:161
+msgid ""
+"The PHP OPcache is not properly configured. <a target=\"_blank\" rel="
+"\"noreferrer noopener\" href=\"{docLink}\">For better performance it is "
+"recommended</a> to use the following settings in the <code>php.ini</code>:"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:173
+msgid ""
+"The PHP function \"set_time_limit\" is not available. This could result in "
+"scripts being halted mid-execution, breaking your installation. Enabling "
+"this function is strongly recommended."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:181
+msgid ""
+"Your PHP does not have freetype support. This will result in broken profile "
+"pictures and settings interface."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:239
+msgid ""
+"Your data directory and files are probably accessible from the Internet. "
+"The .htaccess file is not working. It is strongly recommended that you "
+"configure your web server so that the data directory is no longer "
+"accessible, or move the data directory outside the web server document root."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:276
+msgid ""
+"The \"{header}\" HTTP header is not set to \"{expected}\". This is a "
+"potential security or privacy risk, as it is recommended to adjust this "
+"setting accordingly."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:278
+msgid ""
+"The \"{header}\" HTTP header is not set to \"{expected}\". Some features "
+"might not work correctly, as it is recommended to adjust this setting "
+"accordingly."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:322
+msgid ""
+"The \"Strict-Transport-Security\" HTTP header is not set to at least "
+"\"{seconds}\" seconds. For enhanced security, it is recommended to enable "
+"HSTS as described in the <a href=\"{docUrl}\" rel=\"noreferrer noopener"
+"\">security tips</a>."
+msgstr ""
+
+#: /app/core/js/setupchecks.js:328
+msgid ""
+"Accessing site insecurely via HTTP. You are strongly adviced to set up your "
+"server to require HTTPS instead, as described in the <a href="
+"\"{docUrl}\">security tips</a>."
+msgstr ""
+
+#: /app/core/js/share.js:252
+msgid "Shared with"
+msgstr ""
+
+#: /app/core/js/share.js:309
+msgid "Shared by"
+msgstr ""
+
+#: /app/core/templates/exception.php:9
+msgid "The server was unable to complete your request."
+msgstr ""
+
+#: /app/core/templates/exception.php:10
+msgid ""
+"If this happens again, please send the technical details below to the server "
+"administrator."
+msgstr ""
+
+#: /app/core/templates/installation.php:33
+#, php-format
+msgid ""
+"For information how to properly configure your server, please see the <a "
+"href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">documentation</a>."
+msgstr ""
+
+#: /app/core/templates/layout.user.php:103
+msgid "Reset search"
+msgstr ""
+
+#: /app/core/templates/login.php:86
+msgid "Forgot password?"
+msgstr ""
+
+#: /app/core/templates/login.php:89
+msgid "Back to log in"
+msgstr ""
+
+#: /app/core/templates/loginflow/authpicker.php:31
+msgid "Account access"
+msgstr ""
+
+#: /app/core/templates/loginflow/authpicker.php:33
+#, php-format
+msgid "You are about to grant %s access to your %s account."
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:4
+msgid "Access through untrusted domain"
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:7
+msgid ""
+"Please contact your administrator. If you are an administrator, edit the "
+"\"trusted_domains\" setting in config/config.php like the example in config."
+"sample.php."
+msgstr ""
+
+#: /app/core/templates/untrustedDomain.php:10
+msgid ""
+"Depending on your configuration, this button could also work to trust the "
+"domain:"
+msgstr ""
+
+#: /app/core/templates/update.use-cli.php:11
+#, php-format
+msgid ""
+"For help, see the  <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"%s"
+"\">documentation</a>."
+msgstr ""
+
+#: /app/core/js/contactsmenu.js:50
+msgid "Could not load your contacts"
+msgstr ""
+
+#: /app/core/js/setupchecks.js:181
+msgid ""
+"Your PHP does not have FreeType support, resulting in breakage of profile "
+"pictures and the settings interface."
+msgstr ""
+
+#: /app/core/templates/login.php:67
+msgid ""
+"We have detected multiple invalid login attempts from your IP. Therefore "
+"your next login is throttled up to 30 seconds."
+msgstr ""

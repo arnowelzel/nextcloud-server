@@ -1,0 +1,1162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2016\n"
+"Language-Team: Serbian (https://www.transifex.com/nextcloud/teams/64236/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /app/lib/base.php:249 /app/lib/base.php:256
+msgid "Cannot write into \"config\" directory!"
+msgstr "Не могу да уписујем у „config“ директоријум!"
+
+#: /app/lib/base.php:250
+msgid ""
+"This can usually be fixed by giving the webserver write access to the config"
+" directory"
+msgstr ""
+"Ово се обично може средити давањем права веб серверу да пише у директоријум "
+"са подешавањима"
+
+#: /app/lib/base.php:252
+#, php-format
+msgid "See %s"
+msgstr "Погледајте %s"
+
+#: /app/lib/base.php:257 /app/lib/private/legacy/util.php:752
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the config"
+" directory. See %s"
+msgstr ""
+"Ово се обично може средити давањем права писања веб серверу за директоријум "
+"са подешавањима. Погледајте %s"
+
+#: /app/lib/base.php:386
+msgid ""
+"The files of the app %$1s were not replaced correctly. Make sure it is a "
+"version compatible with the server."
+msgstr ""
+"Фајлови апликације „%$1s“ нису правилно замењени. Проверите да ли је верзија"
+" компатибилна са сервером."
+
+#: /app/lib/base.php:742
+msgid "Sample configuration detected"
+msgstr "Откривен је пример подешавања"
+
+#: /app/lib/base.php:743
+msgid ""
+"It has been detected that the sample configuration has been copied. This can"
+" break your installation and is unsupported. Please read the documentation "
+"before performing changes on config.php"
+msgstr ""
+"Откривено је да је прекопиран пример подешавања. Ово може покварити "
+"инсталацију и није подржано. Прочитајте документацију пре вршења промена у "
+"фајлу config.php"
+
+#: /app/lib/private/Activity/EventMerger.php:205
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s и %2$s"
+
+#: /app/lib/private/Activity/EventMerger.php:211
+#, php-format
+msgid "%1$s, %2$s and %3$s"
+msgstr "%1$s, %2$s и %3$s"
+
+#: /app/lib/private/Activity/EventMerger.php:217
+#, php-format
+msgid "%1$s, %2$s, %3$s and %4$s"
+msgstr "%1$s, %2$s, %3$s и %4$s"
+
+#: /app/lib/private/Activity/EventMerger.php:223
+#, php-format
+msgid "%1$s, %2$s, %3$s, %4$s and %5$s"
+msgstr "%1$s, %2$s, %3$s, %4$s и %5$s"
+
+#: /app/lib/private/App/AppStore/Bundles/EducationBundle.php:32
+msgid "Education Edition"
+msgstr "Образовно издање"
+
+#: /app/lib/private/App/AppStore/Bundles/EnterpriseBundle.php:32
+msgid "Enterprise bundle"
+msgstr "Комплет за предузећа"
+
+#: /app/lib/private/App/AppStore/Bundles/GroupwareBundle.php:32
+msgid "Groupware bundle"
+msgstr "Комплет за радне тимове"
+
+#: /app/lib/private/App/AppStore/Bundles/SocialSharingBundle.php:32
+msgid "Social sharing bundle"
+msgstr "Комплет за друштвене мреже"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:143
+#, php-format
+msgid "PHP %s or higher is required."
+msgstr "Потребан је PHP %s или новији."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:149
+#, php-format
+msgid "PHP with a version lower than %s is required."
+msgstr "Потребна је PHP верзија старија од верзије %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:155
+#, php-format
+msgid "%sbit or higher PHP required."
+msgstr "Потребна је верзија PHP-а једнака или већа од верзије %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:183
+#, php-format
+msgid "Following databases are supported: %s"
+msgstr "Подржане су следеће базе података: %s"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:212
+#, php-format
+msgid "The command line tool %s could not be found"
+msgstr "Алатку командне линије „%s“ није могуће пронаћи"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:239
+#, php-format
+msgid "The library %s is not available."
+msgstr "Библиотека „%s“ није доступна."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:247
+#, php-format
+msgid ""
+"Library %s with a version higher than %s is required - available version %s."
+msgstr ""
+"Потребна је библиотека „%s“ верзије веће од %s - доступна верзија је %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:254
+#, php-format
+msgid ""
+"Library %s with a version lower than %s is required - available version %s."
+msgstr ""
+"Потребна је библиотека „%s“ верзије ниже од %s - доступна верзија је %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:286
+#, php-format
+msgid "Following platforms are supported: %s"
+msgstr "Подржане су следеће платформе: %s"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:319
+#, php-format
+msgid "Server version %s or higher is required."
+msgstr "Потребна је верзија сервера %s или виша."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:324
+#, php-format
+msgid "Server version %s or lower is required."
+msgstr "Потребна је верзија сервера %s или нижа."
+
+#: /app/lib/private/Avatar.php:144
+msgid "Unknown filetype"
+msgstr "Непознат тип фајла"
+
+#: /app/lib/private/Avatar.php:148
+msgid "Invalid image"
+msgstr "Неисправна слика"
+
+#: /app/lib/private/Avatar.php:152
+msgid "Avatar image is not square"
+msgstr "Слика аватара није квадратна"
+
+#: /app/lib/private/DateTimeFormatter.php:161
+msgid "today"
+msgstr "данас"
+
+#: /app/lib/private/DateTimeFormatter.php:164
+msgid "tomorrow"
+msgstr "сутра"
+
+#: /app/lib/private/DateTimeFormatter.php:166
+msgid "yesterday"
+msgstr "јуче"
+
+#: /app/lib/private/DateTimeFormatter.php:170
+msgid "in %n day"
+msgid_plural "in %n days"
+msgstr[0] "за %n дан"
+msgstr[1] "за %n дана"
+msgstr[2] "за %n дана"
+
+#: /app/lib/private/DateTimeFormatter.php:172
+msgid "%n day ago"
+msgid_plural "%n days ago"
+msgstr[0] "пре %n дан"
+msgstr[1] "пре %n дана"
+msgstr[2] "пре %n дана"
+
+#: /app/lib/private/DateTimeFormatter.php:176
+msgid "next month"
+msgstr "следећег месеца"
+
+#: /app/lib/private/DateTimeFormatter.php:178
+msgid "last month"
+msgstr "прошлог месеца"
+
+#: /app/lib/private/DateTimeFormatter.php:182
+msgid "in %n month"
+msgid_plural "in %n months"
+msgstr[0] "за %n месец"
+msgstr[1] "за %n месеца"
+msgstr[2] "за %n месеци"
+
+#: /app/lib/private/DateTimeFormatter.php:184
+msgid "%n month ago"
+msgid_plural "%n months ago"
+msgstr[0] "пре %n месец"
+msgstr[1] "пре %n месеца"
+msgstr[2] "пре %n месеци"
+
+#: /app/lib/private/DateTimeFormatter.php:188
+msgid "next year"
+msgstr "следеће године"
+
+#: /app/lib/private/DateTimeFormatter.php:190
+msgid "last year"
+msgstr "прошле године"
+
+#: /app/lib/private/DateTimeFormatter.php:194
+msgid "in %n year"
+msgid_plural "in %n years"
+msgstr[0] "за %n годину"
+msgstr[1] "за %n године"
+msgstr[2] "за %n година"
+
+#: /app/lib/private/DateTimeFormatter.php:196
+msgid "%n year ago"
+msgid_plural "%n years ago"
+msgstr[0] "пре %n годину"
+msgstr[1] "пре %n године"
+msgstr[2] "пре %n година"
+
+#: /app/lib/private/DateTimeFormatter.php:248
+msgid "in %n hour"
+msgid_plural "in %n hours"
+msgstr[0] "за %n сат"
+msgstr[1] "за %n сата"
+msgstr[2] "за %n сати"
+
+#: /app/lib/private/DateTimeFormatter.php:250
+msgid "%n hour ago"
+msgid_plural "%n hours ago"
+msgstr[0] "пре %n сат"
+msgstr[1] "пре %n сата"
+msgstr[2] "пре %n сати"
+
+#: /app/lib/private/DateTimeFormatter.php:254
+msgid "in %n minute"
+msgid_plural "in %n minutes"
+msgstr[0] "за %n минут"
+msgstr[1] "за %n минута"
+msgstr[2] "за %n минута"
+
+#: /app/lib/private/DateTimeFormatter.php:256
+msgid "%n minute ago"
+msgid_plural "%n minutes ago"
+msgstr[0] "пре %n минут"
+msgstr[1] "пре %n минута"
+msgstr[2] "пре %n минута"
+
+#: /app/lib/private/DateTimeFormatter.php:260
+msgid "in a few seconds"
+msgstr "за пар секунди"
+
+#: /app/lib/private/DateTimeFormatter.php:262
+msgid "seconds ago"
+msgstr "пре неколико секунди"
+
+#: /app/lib/private/Encryption/Manager.php:198
+#, php-format
+msgid ""
+"Module with ID: %s does not exist. Please enable it in your apps settings or"
+" contact your administrator."
+msgstr ""
+"Модул са идентификацијом: %s не постоји. Омогућите га у подешавањима "
+"апликација или контактирајте администратора."
+
+#: /app/lib/private/Files/View.php:1827
+msgid "File name is a reserved word"
+msgstr "Назив фајла је резервисана реч"
+
+#: /app/lib/private/Files/View.php:1830
+msgid "File name contains at least one invalid character"
+msgstr "Назив фајла садржи бар један недозвољен знак"
+
+#: /app/lib/private/Files/View.php:1833
+msgid "File name is too long"
+msgstr "Назив фајла је предугачак"
+
+#: /app/lib/private/Files/View.php:1836
+msgid "Dot files are not allowed"
+msgstr "Фајлови са почетном тачком нису дозвољени"
+
+#: /app/lib/private/Files/View.php:1839
+msgid "Empty filename is not allowed"
+msgstr "Празан назив није дозвољен"
+
+#: /app/lib/private/Installer.php:114
+#, php-format
+msgid "App \"%s\" cannot be installed because appinfo file cannot be read."
+msgstr ""
+"Апликација \"%s\" не може бити инсталирана јер appinfo фајл не може да се "
+"прочита."
+
+#: /app/lib/private/Installer.php:124
+#, php-format
+msgid ""
+"App \"%s\" cannot be installed because it is not compatible with this "
+"version of the server."
+msgstr ""
+"Апликација \"%s\" не може бити инсталирана јер није компатибилна са овом "
+"верзијом сервера."
+
+#: /app/lib/private/Mail/EMailTemplate.php:597
+msgid "This is an automatically sent email, please do not reply."
+msgstr "Ово је аутоматски генерисана порука, не одговарајте на њу."
+
+#: /app/lib/private/NavigationManager.php:168
+msgid "Help"
+msgstr "Помоћ"
+
+#: /app/lib/private/NavigationManager.php:182
+msgid "Apps"
+msgstr "Апликације"
+
+#: /app/lib/private/NavigationManager.php:192
+msgid "Settings"
+msgstr "Поставке"
+
+#: /app/lib/private/NavigationManager.php:204
+msgid "Log out"
+msgstr "Одјава"
+
+#: /app/lib/private/NavigationManager.php:216
+msgid "Users"
+msgstr "Корисници"
+
+#: /app/lib/private/Server.php:919 /app/lib/private/legacy/json.php:123
+msgid "Unknown user"
+msgstr "Непознат корисник"
+
+#: /app/lib/private/Settings/Admin/Server.php:92
+msgid "APCu"
+msgstr "APCu"
+
+#: /app/lib/private/Settings/Admin/Server.php:93
+msgid "Redis"
+msgstr "Redis"
+
+#: /app/lib/private/Settings/Manager.php:229
+msgid "Basic settings"
+msgstr "Основне поставке"
+
+#: /app/lib/private/Settings/Manager.php:230
+msgid "Sharing"
+msgstr "Дељење"
+
+#: /app/lib/private/Settings/Manager.php:231
+#: /app/lib/private/Settings/Manager.php:349
+msgid "Security"
+msgstr "Безбедност"
+
+#: /app/lib/private/Settings/Manager.php:232
+msgid "Encryption"
+msgstr "Шифровање"
+
+#: /app/lib/private/Settings/Manager.php:233
+#: /app/lib/private/Settings/Manager.php:355
+msgid "Additional settings"
+msgstr "Додатне поставке"
+
+#: /app/lib/private/Settings/Manager.php:234
+msgid "Tips & tricks"
+msgstr "Савети и трикови"
+
+#: /app/lib/private/Settings/Manager.php:348
+msgid "Personal info"
+msgstr "Лични подаци"
+
+#: /app/lib/private/Settings/Manager.php:350
+msgid "Sync clients"
+msgstr "Клијенти у синхронизацији"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:108
+msgid "Unlimited"
+msgstr "Неограничено"
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:210
+msgid "__language_name__"
+msgstr "Српски"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:271
+msgid "Verifying"
+msgstr "Проверавам"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:274
+msgid "Verifying …"
+msgstr "Проверавам ..."
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:277
+msgid "Verify"
+msgstr "Провери"
+
+#: /app/lib/private/Setup/AbstractDatabase.php:71
+#: /app/lib/private/Setup/OCI.php:57
+#, php-format
+msgid "%s enter the database username and name."
+msgstr "%s унеси корисничко име базе података и име."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:73
+#: /app/lib/private/Setup/OCI.php:59
+#, php-format
+msgid "%s enter the database username."
+msgstr "%s унеси корисничко име базе података."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:75
+#: /app/lib/private/Setup/OCI.php:61
+#, php-format
+msgid "%s enter the database name."
+msgstr "%s унеси име базе података."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:78
+#, php-format
+msgid "%s you may not use dots in the database name"
+msgstr "%s не можете користити тачке у имену базе података"
+
+#: /app/lib/private/Setup/OCI.php:72
+msgid "Oracle connection could not be established"
+msgstr "Веза са базом података Oracle не може бити успостављена"
+
+#: /app/lib/private/Setup/OCI.php:79
+msgid "Oracle username and/or password not valid"
+msgstr "Oracle корисничко име и/или лозинка нису исправни"
+
+#: /app/lib/private/Setup/PostgreSQL.php:104
+msgid "PostgreSQL username and/or password not valid"
+msgstr "PostgreSQL корисничко име и/или лозинка нису исправни"
+
+#: /app/lib/private/Setup/PostgreSQL.php:105
+msgid "You need to enter details of an existing account."
+msgstr "Потребно је да унесете детаље постојећег налога."
+
+#: /app/lib/private/Setup.php:234
+#, php-format
+msgid ""
+"Mac OS X is not supported and %s will not work properly on this platform. "
+"Use it at your own risk! "
+msgstr ""
+"Мек ОС Икс није подржан и %s неће радити исправно на овој платформи. "
+"Користите га на сопствени ризик!"
+
+#: /app/lib/private/Setup.php:238
+msgid ""
+"For the best results, please consider using a GNU/Linux server instead."
+msgstr "За најбоље резултате, размотрите употребу ГНУ/Линукс сервера."
+
+#: /app/lib/private/Setup.php:245
+#, php-format
+msgid ""
+"It seems that this %s instance is running on a 32-bit PHP environment and "
+"the open_basedir has been configured in php.ini. This will lead to problems "
+"with files over 4 GB and is highly discouraged."
+msgstr ""
+"Изгледа да %s ради у 32-битном PHP окружењу а open_basedir је подешен у "
+"php.ini фајлу. То може довести до проблема са фајловима већим од 4 GB, те "
+"стога није препоручљиво."
+
+#: /app/lib/private/Setup.php:249
+msgid ""
+"Please remove the open_basedir setting within your php.ini or switch to "
+"64-bit PHP."
+msgstr ""
+"Уклоните open_basedir поставку из php.ini фајла или пређите на 64-битни PHP."
+
+#: /app/lib/private/Setup.php:276
+msgid "Set an admin username."
+msgstr "Поставите име за администратора."
+
+#: /app/lib/private/Setup.php:279
+msgid "Set an admin password."
+msgstr "Поставите лозинку за администратора."
+
+#: /app/lib/private/Setup.php:300
+#, php-format
+msgid "Can't create or write into the data directory %s"
+msgstr "Не могу креирати или уписивати у директоријум података %s"
+
+#: /app/lib/private/Share/Helper.php:257
+msgid "Invalid Federated Cloud ID"
+msgstr "Неисправан ИД Здруженог облака"
+
+#: /app/lib/private/Share/Share.php:365
+msgid ""
+"Sharing %s failed, because the backend does not allow shares from type %i"
+msgstr ""
+"Дељење %s није успело зато што позадина не дозвољава дељење од типа %i"
+
+#: /app/lib/private/Share/Share.php:386
+#, php-format
+msgid "Sharing %s failed, because the file does not exist"
+msgstr "Дељење %s није успело зато што фајл не постоји"
+
+#: /app/lib/private/Share/Share.php:393
+#: /app/lib/private/Share20/Manager.php:276
+#, php-format
+msgid "You are not allowed to share %s"
+msgstr "Није вам дозвољено да делите %s"
+
+#: /app/lib/private/Share/Share.php:438
+#, php-format
+msgid "Sharing %s failed, because you can not share with yourself"
+msgstr "Дељење %s није успело зато што не можете да делите са самим собом"
+
+#: /app/lib/private/Share/Share.php:444
+#, php-format
+msgid "Sharing %s failed, because the user %s does not exist"
+msgstr "Дељење %s није успело зато што не постоји корисник %s"
+
+#: /app/lib/private/Share/Share.php:465
+#, php-format
+msgid ""
+"Sharing %s failed, because the user %s is not a member of any groups that %s"
+" is a member of"
+msgstr ""
+"Дељење %s није успело зато што корисник %s није члан ниједне групе чији је "
+"%s члан"
+
+#: /app/lib/private/Share/Share.php:478 /app/lib/private/Share/Share.php:520
+#: /app/lib/private/Share/Share.php:626
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Дељење %s није успело зато што се ова ставка већ дели са %s"
+
+#: /app/lib/private/Share/Share.php:490
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with user %s"
+msgstr ""
+"Дељење %s није успело зато што се ова ставка већ дели са корисником %s"
+
+#: /app/lib/private/Share/Share.php:498
+#, php-format
+msgid "Sharing %s failed, because the group %s does not exist"
+msgstr "Дељење %s није успело зато што не постоји група %s"
+
+#: /app/lib/private/Share/Share.php:508
+#, php-format
+msgid "Sharing %s failed, because %s is not a member of the group %s"
+msgstr "Дељење %s није успело зато што %s није члан групе %s"
+
+#: /app/lib/private/Share/Share.php:587
+msgid ""
+"You need to provide a password to create a public link, only protected links"
+" are allowed"
+msgstr ""
+"Морате да обезбедите лозинку за креирање јавне везе, дозвољене су само "
+"заштићене везе"
+
+#: /app/lib/private/Share/Share.php:615
+#, php-format
+msgid "Sharing %s failed, because sharing with links is not allowed"
+msgstr "Дељење %s није успело зато што дељење са везама није дозвољено"
+
+#: /app/lib/private/Share/Share.php:637
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Није дозвољено да направите здружено дељење са истим корисником"
+
+#: /app/lib/private/Share/Share.php:656
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable."
+msgstr ""
+"Дељење %s није успело, није могуће пронаћи %s, можда сервер тренутно није "
+"доступан."
+
+#: /app/lib/private/Share/Share.php:664
+#, php-format
+msgid "Share type %s is not valid for %s"
+msgstr "Тип фајла за дељење %s није исправан за %s"
+
+#: /app/lib/private/Share/Share.php:770
+#, php-format
+msgid ""
+"Cannot set expiration date. Shares cannot expire later than %s after they "
+"have been shared"
+msgstr ""
+"Не могу поставити датум трајања. Дељења не могу истицати касније од %s пошто"
+" су активирана"
+
+#: /app/lib/private/Share/Share.php:778
+msgid "Cannot set expiration date. Expiration date is in the past"
+msgstr ""
+"Не могу поставити датум трајања. Датум трајања употребе је у прошлости"
+
+#: /app/lib/private/Share/Share.php:879
+#, php-format
+msgid "Sharing backend %s must implement the interface OCP\\Share_Backend"
+msgstr ""
+"Позадина дељења %s мора користити корисничко окружење OCP\\Share_Backend"
+
+#: /app/lib/private/Share/Share.php:886
+#, php-format
+msgid "Sharing backend %s not found"
+msgstr "Позадина за дељење %s није пронађена"
+
+#: /app/lib/private/Share/Share.php:892
+#, php-format
+msgid "Sharing backend for %s not found"
+msgstr "Позадина за дељење за %s није пронађена"
+
+#: /app/lib/private/Share/Share.php:1695
+#, php-format
+msgid "Sharing failed, because the user %s is the original sharer"
+msgstr "Дељење није успело, зато што је корисник %s већ оригинални делилац"
+
+#: /app/lib/private/Share/Share.php:1707
+#, php-format
+msgid ""
+"Sharing %s failed, because the permissions exceed permissions granted to %s"
+msgstr ""
+"Дељење %s није успело зато што дозволе превазилазе дозволе гарантоване за %s"
+
+#: /app/lib/private/Share/Share.php:1739
+#, php-format
+msgid "Sharing %s failed, because resharing is not allowed"
+msgstr "Дељење %s није успело зато што даље дељење није дозвољено"
+
+#: /app/lib/private/Share/Share.php:1753
+#, php-format
+msgid ""
+"Sharing %s failed, because the sharing backend for %s could not find its "
+"source"
+msgstr ""
+"Дељење %s није успело зато што позадина дељења за %s није могла да нађе "
+"извор"
+
+#: /app/lib/private/Share/Share.php:1767
+#, php-format
+msgid ""
+"Sharing %s failed, because the file could not be found in the file cache"
+msgstr "Дељење %s није успело зато што фајл није нађен у кешу фајлова"
+
+#: /app/lib/private/Share20/Manager.php:298
+#, php-format
+msgid "Can’t increase permissions of %s"
+msgstr "Не могу да повећам дозволе за %s"
+
+#: /app/lib/private/Share20/Manager.php:314
+msgid "Files can’t be shared with delete permissions"
+msgstr "Фајлови не могу бити дељени са дозволама за брисање"
+
+#: /app/lib/private/Share20/Manager.php:318
+msgid "Files can’t be shared with create permissions"
+msgstr "Фајлови не могу бити дељени са дозволама за креирање"
+
+#: /app/lib/private/Share20/Manager.php:344
+msgid "Expiration date is in the past"
+msgstr "Датум истека је у прошлости"
+
+#: /app/lib/private/Share20/Manager.php:373
+#, php-format
+msgid "Can’t set expiration date more than %s days in the future"
+msgstr "Не могу да поставим датум истека више од %s дана у будућност"
+
+#: /app/lib/private/Share20/Manager.php:732
+#: /app/lib/private/Share20/Manager.php:734
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s подели „%s“ са вама"
+
+#: /app/lib/private/Share20/Manager.php:735
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s поделио „%s“ са Вама."
+
+#: /app/lib/private/Share20/Manager.php:738
+msgid "Click the button below to open it."
+msgstr "Кликните дугме испод да га отворите."
+
+#: /app/lib/private/Share20/Manager.php:742
+#, php-format
+msgid "Open »%s«"
+msgstr "Отвори „%s“"
+
+#: /app/lib/private/Share20/Manager.php:751
+#, php-format
+msgid "%s via %s"
+msgstr "%s путем %s"
+
+#: /app/lib/private/Share20/Manager.php:1210
+#: /app/lib/private/Share20/Manager.php:1230
+msgid "The requested share does not exist anymore"
+msgstr "Захтевано дељење више не постоји"
+
+#: /app/lib/private/Tags.php:282
+#, php-format
+msgid "Could not find category \"%s\""
+msgstr "Не могу да пронађем категорију „%s“."
+
+#: /app/lib/private/Template/JSConfigHelper.php:160
+msgid "Sunday"
+msgstr "Недеља"
+
+#: /app/lib/private/Template/JSConfigHelper.php:161
+msgid "Monday"
+msgstr "Понедељак"
+
+#: /app/lib/private/Template/JSConfigHelper.php:162
+msgid "Tuesday"
+msgstr "Уторак"
+
+#: /app/lib/private/Template/JSConfigHelper.php:163
+msgid "Wednesday"
+msgstr "Среда"
+
+#: /app/lib/private/Template/JSConfigHelper.php:164
+msgid "Thursday"
+msgstr "Четвртак"
+
+#: /app/lib/private/Template/JSConfigHelper.php:165
+msgid "Friday"
+msgstr "Петак"
+
+#: /app/lib/private/Template/JSConfigHelper.php:166
+msgid "Saturday"
+msgstr "Субота"
+
+#: /app/lib/private/Template/JSConfigHelper.php:169
+msgid "Sun."
+msgstr "Нед"
+
+#: /app/lib/private/Template/JSConfigHelper.php:170
+msgid "Mon."
+msgstr "Пон"
+
+#: /app/lib/private/Template/JSConfigHelper.php:171
+msgid "Tue."
+msgstr "Уто"
+
+#: /app/lib/private/Template/JSConfigHelper.php:172
+msgid "Wed."
+msgstr "Сре"
+
+#: /app/lib/private/Template/JSConfigHelper.php:173
+msgid "Thu."
+msgstr "Чет"
+
+#: /app/lib/private/Template/JSConfigHelper.php:174
+msgid "Fri."
+msgstr "Пет"
+
+#: /app/lib/private/Template/JSConfigHelper.php:175
+msgid "Sat."
+msgstr "Суб"
+
+#: /app/lib/private/Template/JSConfigHelper.php:178
+msgid "Su"
+msgstr "Не"
+
+#: /app/lib/private/Template/JSConfigHelper.php:179
+msgid "Mo"
+msgstr "По"
+
+#: /app/lib/private/Template/JSConfigHelper.php:180
+msgid "Tu"
+msgstr "Ут"
+
+#: /app/lib/private/Template/JSConfigHelper.php:181
+msgid "We"
+msgstr "Ср"
+
+#: /app/lib/private/Template/JSConfigHelper.php:182
+msgid "Th"
+msgstr "Че"
+
+#: /app/lib/private/Template/JSConfigHelper.php:183
+msgid "Fr"
+msgstr "Пе"
+
+#: /app/lib/private/Template/JSConfigHelper.php:184
+msgid "Sa"
+msgstr "Су"
+
+#: /app/lib/private/Template/JSConfigHelper.php:187
+msgid "January"
+msgstr "Јануар"
+
+#: /app/lib/private/Template/JSConfigHelper.php:188
+msgid "February"
+msgstr "Фебруар"
+
+#: /app/lib/private/Template/JSConfigHelper.php:189
+msgid "March"
+msgstr "Март"
+
+#: /app/lib/private/Template/JSConfigHelper.php:190
+msgid "April"
+msgstr "Април"
+
+#: /app/lib/private/Template/JSConfigHelper.php:191
+msgid "May"
+msgstr "Мај"
+
+#: /app/lib/private/Template/JSConfigHelper.php:192
+msgid "June"
+msgstr "Јун"
+
+#: /app/lib/private/Template/JSConfigHelper.php:193
+msgid "July"
+msgstr "Јул"
+
+#: /app/lib/private/Template/JSConfigHelper.php:194
+msgid "August"
+msgstr "Август"
+
+#: /app/lib/private/Template/JSConfigHelper.php:195
+msgid "September"
+msgstr "Септембар"
+
+#: /app/lib/private/Template/JSConfigHelper.php:196
+msgid "October"
+msgstr "Октобар"
+
+#: /app/lib/private/Template/JSConfigHelper.php:197
+msgid "November"
+msgstr "Новембар"
+
+#: /app/lib/private/Template/JSConfigHelper.php:198
+msgid "December"
+msgstr "Децембар"
+
+#: /app/lib/private/Template/JSConfigHelper.php:201
+msgid "Jan."
+msgstr "Јан."
+
+#: /app/lib/private/Template/JSConfigHelper.php:202
+msgid "Feb."
+msgstr "Феб."
+
+#: /app/lib/private/Template/JSConfigHelper.php:203
+msgid "Mar."
+msgstr "Мар."
+
+#: /app/lib/private/Template/JSConfigHelper.php:204
+msgid "Apr."
+msgstr "Апр."
+
+#: /app/lib/private/Template/JSConfigHelper.php:205
+msgid "May."
+msgstr "Мај."
+
+#: /app/lib/private/Template/JSConfigHelper.php:206
+msgid "Jun."
+msgstr "Јун."
+
+#: /app/lib/private/Template/JSConfigHelper.php:207
+msgid "Jul."
+msgstr "Јул."
+
+#: /app/lib/private/Template/JSConfigHelper.php:208
+msgid "Aug."
+msgstr "Авг."
+
+#: /app/lib/private/Template/JSConfigHelper.php:209
+msgid "Sep."
+msgstr "Сеп."
+
+#: /app/lib/private/Template/JSConfigHelper.php:210
+msgid "Oct."
+msgstr "Окт."
+
+#: /app/lib/private/Template/JSConfigHelper.php:211
+msgid "Nov."
+msgstr "Нов."
+
+#: /app/lib/private/Template/JSConfigHelper.php:212
+msgid "Dec."
+msgstr "Дец."
+
+#: /app/lib/private/User/Manager.php:314
+msgid ""
+"Only the following characters are allowed in a username: \"a-z\", \"A-Z\", "
+"\"0-9\", and \"_.@-'\""
+msgstr ""
+"У корисничком имену су дозвољени само следећи карактери: \"a-z\", \"A-Z\", "
+"\"0-9\", and \"_.@-'\""
+
+#: /app/lib/private/User/Manager.php:319
+msgid "A valid username must be provided"
+msgstr "Морате унети исправно корисничко име"
+
+#: /app/lib/private/User/Manager.php:323
+msgid "Username contains whitespace at the beginning or at the end"
+msgstr "Корисничко име садржи белине на почетку или на крају"
+
+#: /app/lib/private/User/Manager.php:327
+msgid "Username must not consist of dots only"
+msgstr "Корисничко име не могу бити само тачке"
+
+#: /app/lib/private/User/Manager.php:331
+msgid "A valid password must be provided"
+msgstr "Морате унети исправну лозинку"
+
+#: /app/lib/private/User/Manager.php:336
+msgid "The username is already being used"
+msgstr "Корисничко име се већ користи"
+
+#: /app/lib/private/User/Manager.php:342
+msgid "Could not create user"
+msgstr "Не могу да направим корисника"
+
+#: /app/lib/private/User/Session.php:349
+msgid "User disabled"
+msgstr "Корисник онемогућен"
+
+#: /app/lib/private/User/Session.php:374
+msgid "Login canceled by app"
+msgstr "Пријава отказана од стране апликације"
+
+#: /app/lib/private/legacy/app.php:1152
+#, php-format
+msgid ""
+"App \"%s\" cannot be installed because the following dependencies are not "
+"fulfilled: %s"
+msgstr ""
+"Апликација „%s“ не може бити инсталирана јер следеће зависности нису "
+"испуњене: %s"
+
+#: /app/lib/private/legacy/defaults.php:68
+msgid "a safe home for all your data"
+msgstr "сигурно место за све Ваше податке"
+
+#: /app/lib/private/legacy/files.php:181
+msgid "File is currently busy, please try again later"
+msgstr "Фајл је тренутно заузет, покушајте поново касније"
+
+#: /app/lib/private/legacy/files.php:186 /app/lib/private/legacy/files.php:192
+msgid "Can't read file"
+msgstr "Не могу да читам фајл"
+
+#: /app/lib/private/legacy/json.php:62
+msgid "Application is not enabled"
+msgstr "Апликација није укључена"
+
+#: /app/lib/private/legacy/json.php:78 /app/lib/private/legacy/json.php:109
+#: /app/lib/private/legacy/json.php:143
+msgid "Authentication error"
+msgstr "Грешка при провери идентитета"
+
+#: /app/lib/private/legacy/json.php:96
+msgid "Token expired. Please reload page."
+msgstr "Жетон је истекао. Поново учитајте страницу."
+
+#: /app/lib/private/legacy/util.php:741
+msgid "No database drivers (sqlite, mysql, or postgresql) installed."
+msgstr "Нема драјвера базе података (скулајт, мајскул или постгрескул)."
+
+#: /app/lib/private/legacy/util.php:751
+msgid "Cannot write into \"config\" directory"
+msgstr "Не могу уписивати у директоријуму „config“"
+
+#: /app/lib/private/legacy/util.php:765
+msgid "Cannot write into \"apps\" directory"
+msgstr "Не могу уписивати у директоријуму „apps“"
+
+#: /app/lib/private/legacy/util.php:766
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the apps "
+"directory or disabling the appstore in the config file. See %s"
+msgstr ""
+"Ово се обично може поправити тако што веб серверу дате приступ уписа за "
+"директоријум где су апликације или тако што онемогућите продавницу у config "
+"фајлу. Видети %s"
+
+#: /app/lib/private/legacy/util.php:780
+msgid "Cannot create \"data\" directory"
+msgstr "Не могу да направим \"data\" директоријум"
+
+#: /app/lib/private/legacy/util.php:781
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the root "
+"directory. See %s"
+msgstr ""
+"Ово се обично може поправити тако што веб серверу дате право уписа за корени"
+" директоријуму. Видети %s"
+
+#: /app/lib/private/legacy/util.php:787
+#, php-format
+msgid ""
+"Permissions can usually be fixed by giving the webserver write access to the"
+" root directory. See %s."
+msgstr ""
+"Привилегије се обично могу поправити тако што веб серверу дате право уписа "
+"за корени директоријуму. Видети %s"
+
+#: /app/lib/private/legacy/util.php:800
+#, php-format
+msgid "Setting locale to %s failed"
+msgstr "Постављање локалитета на %s није успело"
+
+#: /app/lib/private/legacy/util.php:803
+msgid ""
+"Please install one of these locales on your system and restart your "
+"webserver."
+msgstr ""
+"Инсталирајте неки од ових локалитета на ваш систем и поново покрените веб "
+"сервер."
+
+#: /app/lib/private/legacy/util.php:844
+msgid "Please ask your server administrator to install the module."
+msgstr "Замолите администратора вашег сервера да инсталира тај модул."
+
+#: /app/lib/private/legacy/util.php:890
+#, php-format
+msgid "PHP module %s not installed."
+msgstr "PHP модул %s није инсталиран."
+
+#: /app/lib/private/legacy/util.php:900
+#, php-format
+msgid "PHP setting \"%s\" is not set to \"%s\"."
+msgstr "PHP поставка „%s“ није постављена на „%s“."
+
+#: /app/lib/private/legacy/util.php:901
+msgid "Adjusting this setting in php.ini will make Nextcloud run again"
+msgstr ""
+"Некстклауд ће прорадити поново када прилагодите ово подашавање у php.ini "
+"фајлу"
+
+#: /app/lib/private/legacy/util.php:917
+#, php-format
+msgid "mbstring.func_overload is set to \"%s\" instead of the expected value \"0\""
+msgstr ""
+"mbstring.func_overload је постављено на „%s“ уместо на очекивану вредност "
+"„0“"
+
+#: /app/lib/private/legacy/util.php:918
+msgid ""
+"To fix this issue set <code>mbstring.func_overload</code> to <code>0</code> "
+"in your php.ini"
+msgstr ""
+"Да би решили овај проблем поставите <code>mbstring.func_overload</code> на "
+"<code>0</code> у фајлу php.ini"
+
+#: /app/lib/private/legacy/util.php:931
+#, php-format
+msgid "libxml2 2.7.0 is at least required. Currently %s is installed."
+msgstr "Потребан је бар libxml2 2.7.0. Тренутно је инсталиран %s."
+
+#: /app/lib/private/legacy/util.php:932
+msgid ""
+"To fix this issue update your libxml2 version and restart your web server."
+msgstr ""
+"Да поправите овај проблем, ажурирајте верзију библиотеке libxml2 и "
+"рестартујте веб сервер."
+
+#: /app/lib/private/legacy/util.php:938
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+"PHP је очигледно подешен да склања уметнуте doc блокове. То ће учинити "
+"неколико кључних апликација недоступним."
+
+#: /app/lib/private/legacy/util.php:939
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"Ово је вероватно изазвано кешом или акцелератором као што су ЗендОПкеш или "
+"еАкцелератор."
+
+#: /app/lib/private/legacy/util.php:945
+msgid "PHP modules have been installed, but they are still listed as missing?"
+msgstr "PHP модули су инсталирани али се и даље воде као недостајући?"
+
+#: /app/lib/private/legacy/util.php:946
+msgid "Please ask your server administrator to restart the web server."
+msgstr "Замолите вашег администратора сервера да поново покрене веб сервер."
+
+#: /app/lib/private/legacy/util.php:976
+msgid "PostgreSQL >= 9 required"
+msgstr "Захтеван је ПостгреСкул >= 9"
+
+#: /app/lib/private/legacy/util.php:977
+msgid "Please upgrade your database version"
+msgstr "Надоградите ваше издање базе"
+
+#: /app/lib/private/legacy/util.php:1002
+msgid ""
+"Please change the permissions to 0770 so that the directory cannot be listed"
+" by other users."
+msgstr ""
+"Промените дозволе у 0770 како директоријуми не би могли бити излистани од "
+"стране других корисника."
+
+#: /app/lib/private/legacy/util.php:1011
+msgid "Your data directory is readable by other users"
+msgstr "Директоријум са подацима је читљив од стране других корисника система"
+
+#: /app/lib/private/legacy/util.php:1031
+msgid "Your data directory must be an absolute path"
+msgstr "Директоријум са подацима мора бити апсолутна путања"
+
+#: /app/lib/private/legacy/util.php:1032
+msgid "Check the value of \"datadirectory\" in your configuration"
+msgstr "Проверите податак за \"datadirectory\" у вашој конфигурацији"
+
+#: /app/lib/private/legacy/util.php:1037
+msgid "Your data directory is invalid"
+msgstr "Директоријум са подацима није исправан"
+
+#: /app/lib/private/legacy/util.php:1038
+msgid ""
+"Ensure there is a file called \".ocdata\" in the root of the data directory."
+msgstr ""
+"Уверите се да фајл \".ocdata\" постоји у корену директоријума са подацима."
+
+#: /app/lib/public/Files/LockNotAcquiredException.php:49
+#, php-format
+msgid "Could not obtain lock type %d on \"%s\"."
+msgstr "Не могу да остварим закључаност %d за „%s“."
+
+#: /app/lib/public/Files/StorageAuthException.php:40
+#, php-format
+msgid "Storage unauthorized. %s"
+msgstr "Складиште није овлашћено. %s"
+
+#: /app/lib/public/Files/StorageBadConfigException.php:40
+#, php-format
+msgid "Storage incomplete configuration. %s"
+msgstr "Непотпуна конфигурација складишта. %s"
+
+#: /app/lib/public/Files/StorageConnectionException.php:40
+#, php-format
+msgid "Storage connection error. %s"
+msgstr "Грешка приликом повезивања на складиште. %s"
+
+#: /app/lib/public/Files/StorageNotAvailableException.php:63
+msgid "Storage is temporarily not available"
+msgstr "Складиште привремено није  доступно"
+
+#: /app/lib/public/Files/StorageTimeoutException.php:40
+#, php-format
+msgid "Storage connection timeout. %s"
+msgstr "Прекорачено време за повезивање на складиште. %s"

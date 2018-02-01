@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2016\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "ტეგები"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "განახლება"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "შექმნა"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "ტეგის არჩევა…"
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "დატაგული ფაილები"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "ფილტრაციისთვის აირჩიეთ ტეგები"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "ტეგები ვერ მოიძებნა"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "ფილტრაციისთვის გთხოვთ აირჩიოთ ტეგები"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "არჩეული ტეგების მიხედვით ფაილების პოვნა ვერ მოხერხდა"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "სისტემური ტეგის დამატება %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "სისტემური ტეგის დამატება {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr " %1$s მომხმარებელმა დაამატა სისტემური ტეგი %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} მომხმარებელმა დაამატა სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "გაუქმდა სისტემური ტეგი %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "გაუქმდა სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s მომხმარებელმა გააუქმა სისტემური ტეგი %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} მომხმარებელმა გააუქმა სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "თქვენ შექმენით სისტემური ტეგი %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "თქვენ შექმენით სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s მომხმარებელმა შექმნა სისტემური ტეგი %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} მომხმარებლემა შექმნმა სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "თქვენ გააუქმეთ სისტემური ტეგი %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "თქვენ გააუქმეთ სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s მომხმარებელმა გააუქმა სისტემური ტეგი %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} მომხმარებელმა გააუქმა სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "სისტემური ტეგი %2$s განაახლეთ %1$s-ზე"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "სისტემური ტეგი {oldsystemtag} განაახლეთ {newsystemtag}-ზე"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s მომხმარებელმა სისტემური ტეგი %3$s განაახლა %2$s-ზე"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"{actor} მომხმარებელმა სისტემური ტეგი {oldsystemtag} განაახლა "
+"{newsystemtag}-ზე"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "თქვენ %1$s ფაილს დაუმატეთ სისტემური ტეგი %2$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "თქვენ {file} ფაილს დაუმატეთ სისტემური ტეგი {systemtag}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s მომხმარებელმა სისტემური ტეგი %3$s დაუმატა ფაილს %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} მომხმარებელმა სისტემური ტეგი {systemtag} დაუმატა ფაილს {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "თქვენ სისტემური ტეგი %2$s მოაშორეთ ფაილს %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "თქვენ სისტემური ტეგი {systemtag} მოაშორეთ ფაილს {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s მომხმარებელმა სისტემური ტეგი %3$s მოაშორა ფაილს %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} მომხმარებელმა სისტემური ტეგი {systemtag} მოაშორა ფაილს {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (აკრძალული)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (უჩინარი)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "<strong>სისტემური ტეგები</strong> ფაილისთვის შეიცვალა"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "თანამშრომლობის ტეგები"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"შეგიძლიათ შექმნათ და შეცვალოთ თანამშრომლობის ტეგები. ეს ტეგები ეხება ყველა "
+"მომხმარებელს."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "ტეგის არჩევა …"
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "სახელი"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "გაუქმება"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "ღია"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "აკრძალული"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "უჩინარი"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "საწყის მდომგარეობაში დაბრუნება"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "აქ ფაილები არაა"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "ამ დირექტორიაში შენატანების მოძებნა ვერ მოხერხდა"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "ზომა"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "შეცვლილია"

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2017\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ajax/rollbackVersion.php:40
+#, php-format
+msgid "Could not revert: %s"
+msgstr "ვერ მოხერხდა უკან დაბრუნება: %s"
+
+#: js/versionstabview.js:78
+msgid "Versions"
+msgstr "ვერსიები"
+
+#: js/versionstabview.js:136
+msgid "Failed to revert {file} to revision {timestamp}."
+msgstr "ფაილის {file} დაბრუნება რევიზიაზე {timestamp} ვერ ხერხდება."
+
+#: js/versionstabview.js:220
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n ბაიტი"
+
+#: js/versionstabview.js:225
+msgid "Restore"
+msgstr "აღდგენა"
+
+#: js/versionstabview.js:235
+msgid "No earlier versions available"
+msgstr "წინა ვერსიები ხელმისაწვდომი არაა"
+
+#: js/versionstabview.js:236
+msgid "More versions …"
+msgstr "მეტი ვერსია …"
+
+#: js/versionstabview.js:232
+msgid "No versions available"
+msgstr "ვერსიები ხელმიუწვდომელია"
+
+#: js/versionstabview.js:233
+msgid "More versions..."
+msgstr "მეტი ვერსია…"

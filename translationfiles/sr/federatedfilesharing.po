@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Branko Kokanovic <branko@kokanovic.org>, 2017\n"
+"Language-Team: Serbian (https://www.transifex.com/nextcloud/teams/64236/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Здружено дељење"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Да ли желите да додате удаљено дељење {name} од {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Удаљено дељење"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Лозинка удаљеног дељења"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Одустани"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Додај удаљено дељење"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Копирај"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Копирано!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Није подржано!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Притисните ⌘-C за копирање."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Притисните Ctrl-C за копирање."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Неисправан ИД Здруженог облака"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Сервер-сервер дељење није подржано на овом серверу"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Не могу да успоставим здружено дељење."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr "Не могу да успоставим здружено дељење, можда лозинка не ваља."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Послат захтев за здружено дељење, добићете позивницу. Проверавајте "
+"обавештења."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Име тачке монтирања садржи неисправне карактере."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Није дозвољено да направите здружено дељење са власником."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Неисправан или SSL сертификат без поверења"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Удаљено дељење не може да провери Ваш идентитет, можда лозинка није исправна"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Складиште није исправно"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Здружено дељење додато"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Не могу да додам удаљено дељење"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Дељење %s није успело зато што се ова ставка већ дели са %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Није дозвољено да се направи здружено дељење са истим корисником"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Фајл је већ дељен са %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"Дељење %s није успело, не могу да нађем %s, можда сервер тренутно није "
+"доступан или користи самопотписани сертификат."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Не могу да пронађем дељење"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "Примили сте \"%3$s\" као удаљено дељење од %1$s (у име %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr "Примили сте {share} као удаљено дељење од {user} (у име {behalf})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Примили сте \"%3$s\" као удаљено дељење од %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Примили сте {share} као удаљено дељење од {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Прихвати"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Одбиј"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "Дели са мном преко мог #Некстклауд Здруженог облака, види %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Дели са мном преко мог #Некстклауд Здруженог облака"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Дељење"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Здружено дељење у облаку"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Отвори документацију"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Подеси како људи деле фајлове између сервера."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "Дозвољава корисницима овог сервера да шаљу дељења на друге сервере"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Дозвољава корисницима овог сервера да примају дељења са других сервера"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Тражи кориснике и у глобалним и јавним именицима"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Дозволи корисницима да објаве своје податке у јавне и глобалне именике"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Здружени облак"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Можете делите ствари са било ким ко користи Некстклауд, Оунклауд или Пидио. "
+"Само унесите њихов ИД Здруженог Облака у дијалог за дељење. ИД изгледа нешто"
+" попут person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "ИД вашег здруженог облака:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Поделите да би Ваши пријатељи могли да деле са Вама:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Додај на свој веб сајт"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Дели са мном преко Некстклауда"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "ХТМЛ кôд:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Претражи кориснике у глобалним и јавним именицима и дозволи да локални "
+"корисници објављују њихове податке"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Дели:"

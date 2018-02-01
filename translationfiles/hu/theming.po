@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: H P <bashman@hpacc.hu>, 2017\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/nextcloud/teams/64236/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/settings-admin.js:42
+msgid "Loading preview…"
+msgstr "Előnézet betöltése..."
+
+#: js/settings-admin.js:58 lib/Controller/ThemingController.php:185
+#: lib/Controller/ThemingController.php:207
+#: lib/Controller/ThemingController.php:309
+#: lib/Controller/ThemingController.php:349
+#: tests/Controller/ThemingControllerTest.php:310
+msgid "Saved"
+msgstr "Mentve!"
+
+#: js/settings-admin.js:84
+msgid "Admin"
+msgstr "Adminisztrátor"
+
+#: js/settings-admin.js:94
+msgid "a safe home for all your data"
+msgstr "biztonságos hely az adataid számára"
+
+#: lib/Controller/ThemingController.php:138
+msgid "The given name is too long"
+msgstr "A bevitt név túl hosszú"
+
+#: lib/Controller/ThemingController.php:148
+msgid "The given web address is too long"
+msgstr "A bevitt webcím túl hosszú"
+
+#: lib/Controller/ThemingController.php:158
+msgid "The given slogan is too long"
+msgstr "A bevitt szlogen túl hosszú"
+
+#: lib/Controller/ThemingController.php:168
+msgid "The given color is invalid"
+msgstr "A bevitt szín érvénytelen"
+
+#: lib/Controller/ThemingController.php:217
+msgid "There is no error, the file uploaded with success"
+msgstr "Nincs hiba, a feltöltés sikeres"
+
+#: lib/Controller/ThemingController.php:218
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"A feltöltés mérete meghaladja a php.ini upload_max_filesize direktívájában "
+"meghatározottat."
+
+#: lib/Controller/ThemingController.php:219
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"A HTML-ben megadott MAX_FILE_SIZE méretét meghaladja a feltöltés mérete"
+
+#: lib/Controller/ThemingController.php:220
+msgid "The uploaded file was only partially uploaded"
+msgstr "Csak részben került feltöltésre a fájl"
+
+#: lib/Controller/ThemingController.php:221
+msgid "No file was uploaded"
+msgstr "Nincs feltöltött fájl"
+
+#: lib/Controller/ThemingController.php:222
+msgid "Missing a temporary folder"
+msgstr "Átmeneti mappa hiányzik"
+
+#: lib/Controller/ThemingController.php:223
+msgid "Failed to write file to disk."
+msgstr "Lemezre írás sikertelen."
+
+#: lib/Controller/ThemingController.php:224
+msgid "A PHP extension stopped the file upload."
+msgstr "Egy PHP kiterjesztés megakadályozta a feltöltést."
+
+#: lib/Controller/ThemingController.php:227
+msgid "No file uploaded"
+msgstr "Nincs fájl feltöltve"
+
+#: lib/Controller/ThemingController.php:262
+#: lib/Controller/ThemingController.php:280
+msgid "Unsupported image type"
+msgstr "Nem támogatott képtípus"
+
+#: lib/Settings/Admin.php:70
+msgid "You are already using a custom theme"
+msgstr "Már egyedi témát használ"
+
+#: lib/Settings/Section.php:63 templates/settings-admin.php:30
+msgid "Theming"
+msgstr "Témázás"
+
+#: templates/settings-admin.php:31
+msgid ""
+"Theming makes it possible to easily customize the look and feel of your "
+"instance and supported clients. This will be visible for all users."
+msgstr ""
+"A témák lehetőve teszik, hogy könnyedén személyre szabja a kinézetét az "
+"oldalnak, és a támogatott klienseknek. Ez minden felhasználó számára látható"
+" lesz."
+
+#: templates/settings-admin.php:43 templates/settings-admin.php:44
+msgid "Name"
+msgstr "Név"
+
+#: templates/settings-admin.php:45 templates/settings-admin.php:52
+#: templates/settings-admin.php:59 templates/settings-admin.php:66
+#: templates/settings-admin.php:75 templates/settings-admin.php:84
+msgid "Reset to default"
+msgstr "Visszaállítás eredetire"
+
+#: templates/settings-admin.php:50
+msgid "Web address"
+msgstr "Webcím"
+
+#: templates/settings-admin.php:51
+msgid "Web address https://…"
+msgstr "Webcím https://..."
+
+#: templates/settings-admin.php:57 templates/settings-admin.php:58
+msgid "Slogan"
+msgstr "Szlogen"
+
+#: templates/settings-admin.php:64
+msgid "Color"
+msgstr "Szín"
+
+#: templates/settings-admin.php:72
+msgid "Logo"
+msgstr "Logó"
+
+#: templates/settings-admin.php:74
+msgid "Upload new logo"
+msgstr "Új logó feltöltése"
+
+#: templates/settings-admin.php:81
+msgid "Login image"
+msgstr "Bejelentkező kép"
+
+#: templates/settings-admin.php:83
+msgid "Upload new login background"
+msgstr "Új bejelentkező kép feltöltése"
+
+#: templates/settings-admin.php:85
+msgid "Remove background image"
+msgstr "Háttérkép eltávolítása"
+
+#: templates/settings-admin.php:96
+msgid ""
+"Install the Imagemagick PHP extension with support for SVG images to "
+"automatically generate favicons based on the uploaded logo and color."
+msgstr ""
+"Telepítsd az Imagemagick PHP kiterjesztést SVG kép támogatással a feltöltött"
+" logóból és színből való automatikus favikon generáláshoz."
+
+#: templates/settings-admin.php:41 templates/settings-admin.php:48
+#: templates/settings-admin.php:55 templates/settings-admin.php:62
+#: templates/settings-admin.php:71 templates/settings-admin.php:80
+msgid "reset to default"
+msgstr "Visszaállítás alapértelmezettre"
+
+#: templates/settings-admin.php:77
+msgid "Log in image"
+msgstr "Bejelentkező kép"

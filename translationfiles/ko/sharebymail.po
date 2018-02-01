@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>, 2017\n"
+"Language-Team: Korean (https://www.transifex.com/nextcloud/teams/64236/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "%1$s 님과 공유함"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "{email} 님과 공유함"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "%2$s 님이 %1$s 님과 공유함"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "{actor} 님이 {email} 님과 공유함"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr "이메일 공유 암호를 %1$s(으)로 보냄"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr "이메일 공유 암호를 {email}(으)로 보냄"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr "이메일 공유 암호를 내게 보냄"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "%2$s 님과 %1$s을(를) 이메일로 공유함"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "{email} 님과 {file}을(를) 이메일로 공유함"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s 님이 %2$s 님과 %1$s을(를) 이메일로 공유함"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} 님이 {email} 님과 {file}을(를) 이메일로 공유함"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "%1$s에 접근할 수 있는 암호를 %2$s(으)로 보냄"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr "{file}에 접근할 수 있는 암호를 {email}(으)로 보냄"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "%1$s에 접근할 수 있는 암호를 내게 보냄"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "{file}에 접근할 수 있는 암호를 내게 보냄"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr "%s을(를) 공유할 수 없음, 이 항목이 이미 %s 님과 공유됨"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr "자동 생성된 암호를 이메일로 보낼 수 없습니다. 개인 설정에서 올바른 이메일 주소를 입력한 다음 다시 시도하십시오."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "이메일로 공유를 보낼 수 없음"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s 님이 %s을(를) 공유함"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s 님이 %s을(를) 공유했습니다."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "아래 단추를 눌러서 열 수 있습니다."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "%s 열기"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s(%s 경유)"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s 님이 %s을(를) 공유했습니다.\n"
+"접근할 수 있는 링크가 포함된 별도의 이메일을 같이 전송했습니다.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr "%s 님이 %s을(를) 공유했습니다. 접근할 수 있는 링크가 포함된 별도의 이메일을 같이 전송했습니다."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "%s에 접근할 수 있는 암호를 %s 님이 보냄"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "%s에 접근할 수 있는 암호"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "다음 암호로 보호되어 있습니다: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"%s을(를) %s 님과 공유했습니다. 공유 정보를 이메일로 전송했습니다. %s 관리자의 보안 정책에 의하여 각각 공유 항목은 암호로 "
+"보호되어야 하며, 해당 암호를 직접 이메일로 보낼 수 없습니다. 수신자에게 이 암호를 다른 방법으로 직접 전달하십시오."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "%s에 접근할 수 있는 암호를 %s 님과 공유함"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "다음은 암호입니다: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr "공유 대화 상자에서 언제든지 다른 암호를 선택할 수 있습니다."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "공유를 찾을 수 없음"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "이메일로 공유"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr "파일이나 폴더를 공유하는 개인화된 링크를 이메일 주소를 통해서 공유합니다."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "이메일로 암호 보내기"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "암호 보호 강제"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "이메일로 공유를 보낼 수 없음"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s 님이 %s을(를) 공유함(%s 님 대신)"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "이메일을 생성할 수 없음"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"안녕하세요,\n"
+"\n"
+"%s 님이 여러분과 %s을(를) 공유했습니다(%s 님 대신).\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"안녕하세요,\n"
+"\n"
+"%s 님이 여러분과 %s을(를) 공유했습니다.\n"
+"\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "감사합니다!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"안녕하세요,<br><br>%s 님이 여러분과 <a href=\"%s\">%s</a>을(를) 공유했습니다(%s 님 대신).<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "안녕하세요,<br><br>%s 님이 여러분과 <a href=\"%s\">%s</a>을(를) 공유했습니다.<br><br>"

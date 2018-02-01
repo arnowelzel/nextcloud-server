@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Morris Jobke <hey@morrisjobke.de>, 2016\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/nextcloud/teams/64236/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: /app/apps/files_trashbin/ajax/delete.php:85
+#, php-format
+msgid "Couldn't delete %s permanently"
+msgstr "Nelze trvale odstranit %s"
+
+#: /app/apps/files_trashbin/ajax/undelete.php:90
+#, php-format
+msgid "Couldn't restore %s"
+msgstr "Nelze obnovit %s"
+
+#: /app/apps/files_trashbin/appinfo/app.php:38
+#: /app/apps/files_trashbin/js/filelist.js:44
+#: /app/apps/files_trashbin/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Deleted files"
+msgstr "Odstraněné soubory"
+
+#: /app/apps/files_trashbin/js/app.js:49
+#: /app/apps/files_trashbin/templates/index.php:36
+msgid "Restore"
+msgstr "Obnovit"
+
+#: /app/apps/files_trashbin/js/app.js:71
+#: /app/apps/files_trashbin/templates/index.php:40
+#: /app/apps/files_trashbin/templates/index.php:49
+msgid "Delete"
+msgstr "Smazat"
+
+#: /app/apps/files_trashbin/js/app.js:77 /app/apps/files_trashbin/js/app.js:78
+msgid "Delete permanently"
+msgstr "Trvale odstranit"
+
+#: /app/apps/files_trashbin/js/filelist.js:145
+#: /app/apps/files_trashbin/js/filelist.js:190
+#: /app/apps/files_trashbin/js/filelist.js:240
+msgid "Error"
+msgstr "Chyba"
+
+#: /app/apps/files_trashbin/js/filelist.js:338
+msgid "This operation is forbidden"
+msgstr "Tato operace je zakázána"
+
+#: /app/apps/files_trashbin/js/filelist.js:346
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Tento adresář není dostupný, zkontrolujte prosím logy nebo kontaktujte svého"
+" správce systému"
+
+#: /app/apps/files_trashbin/lib/Trashbin.php:908
+#: /app/apps/files_trashbin/lib/Trashbin.php:910
+msgid "restored"
+msgstr "obnoveno"
+
+#: /app/apps/files_trashbin/templates/index.php:9
+msgid "No deleted files"
+msgstr "Žádné smazané soubory"
+
+#: /app/apps/files_trashbin/templates/index.php:10
+msgid "You will be able to recover deleted files from here"
+msgstr "Odtud budete moci obnovovat odstraněné soubory"
+
+#: /app/apps/files_trashbin/templates/index.php:17
+msgid "No entries found in this folder"
+msgstr "V tomto adresáři nebylo nic nalezeno"
+
+#: /app/apps/files_trashbin/templates/index.php:27
+msgid "Select all"
+msgstr "Vybrat vše"
+
+#: /app/apps/files_trashbin/templates/index.php:32
+msgid "Name"
+msgstr "Název"
+
+#: /app/apps/files_trashbin/templates/index.php:46
+msgid "Deleted"
+msgstr "Smazáno"

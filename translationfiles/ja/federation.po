@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: YANO Tetsu <tetuyano+transi@gmail.com>, 2016\n"
+"Language-Team: Japanese (Japan) (https://www.transifex.com/nextcloud/teams/64236/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "信頼済サーバーとしてリストに登録済"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "信頼済サーバーとして既に登録されています。"
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Nextcloud 連携サーバーはありません。"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "サーバーを追加できませんでした"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "信頼済サーバー"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr "連携では他の信頼済サーバーとユーザーリストをやり取りすること許可します。例えば、連携共有時で他のサーバーのユーザーのIDを自動補完します。"
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr "追加するサーバーは自動的に統合され、共有が追加されました"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ 信頼済サーバーに追加"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "信頼済サーバー"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "追加"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "連携"

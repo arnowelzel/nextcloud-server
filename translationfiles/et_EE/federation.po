@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: elder one, 2017\n"
+"Language-Team: Estonian (Estonia) (https://www.transifex.com/nextcloud/teams/64236/et_EE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et_EE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "Usaldatud serverite nimekirja lisatud"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "Server on juba usaldatud serverite nimekirjas."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Serverit millega liituda ei leitud"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "Serveri lisamine ebaõnnestus"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "Usaldatud serverid"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"Liitumine lubab sul ühenduse luua teiste usaldusväärsete serveritega, et "
+"kasutajaid jagada. Näiteks saab seda rakendada liitunud serverite väliste "
+"kasutajanimede automaatseks täitmiseks."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr "Lisa server automaatselt niipea kui liitjagamine õnnestus"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ Lisa usaldatud server"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "Usaldatud server"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "Lisa"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "Liit"

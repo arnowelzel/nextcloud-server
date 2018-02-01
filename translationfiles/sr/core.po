@@ -1,0 +1,1659 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zlatko Turčan <zlaya.t@gmail.com>, 2017\n"
+"Language-Team: Serbian (https://www.transifex.com/nextcloud/teams/64236/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /app/core/Controller/AvatarController.php:173
+msgid "Please select a file."
+msgstr "Изаберите фајл."
+
+#: /app/core/Controller/AvatarController.php:177
+#: /app/core/Controller/AvatarController.php:205
+msgid "File is too big"
+msgstr "Фајл је превелик"
+
+#: /app/core/Controller/AvatarController.php:184
+msgid "The selected file is not an image."
+msgstr "Изабрани фајл није слика."
+
+#: /app/core/Controller/AvatarController.php:193
+msgid "The selected file cannot be read."
+msgstr "Није могуће читати изабрани фајл."
+
+#: /app/core/Controller/AvatarController.php:214
+msgid "Invalid file provided"
+msgstr "Понуђени фајл није исправан"
+
+#: /app/core/Controller/AvatarController.php:221
+msgid "No image or file provided"
+msgstr "Нису понуђени ни слика ни фајл"
+
+#: /app/core/Controller/AvatarController.php:236
+msgid "Unknown filetype"
+msgstr "Непознат тип фајла"
+
+#: /app/core/Controller/AvatarController.php:248
+msgid "Invalid image"
+msgstr "Неисправна слика"
+
+#: /app/core/Controller/AvatarController.php:254
+#: /app/core/Controller/AvatarController.php:270
+#: /app/core/Controller/AvatarController.php:340
+msgid "An error occurred. Please contact your admin."
+msgstr "Дошло је до грешке. Контактирајте администратора."
+
+#: /app/core/Controller/AvatarController.php:283
+#: /app/core/Controller/AvatarController.php:321
+msgid "No temporary profile picture available, try again"
+msgstr "Нема привремене слике профила. Покушајте поново"
+
+#: /app/core/Controller/AvatarController.php:309
+msgid "No crop data provided"
+msgstr "Нема података о опсецању"
+
+#: /app/core/Controller/AvatarController.php:314
+msgid "No valid crop data provided"
+msgstr "Нема исправних података о опсецању"
+
+#: /app/core/Controller/AvatarController.php:336
+msgid "Crop is not square"
+msgstr "Опсецање није квадратног облика"
+
+#: /app/core/Controller/ClientFlowLoginController.php:141
+msgid "State token does not match"
+msgstr "Стање жетона се не слаже"
+
+#: /app/core/Controller/LostController.php:137
+#: /app/core/Controller/LostController.php:224
+#: /app/core/Controller/LostController.php:257
+msgid "Password reset is disabled"
+msgstr "Ресетовање лозинке није омогућено"
+
+#: /app/core/Controller/LostController.php:172
+#: /app/core/Controller/LostController.php:180
+#: /app/core/Controller/LostController.php:185
+#: /app/core/Controller/LostController.php:194
+msgid "Couldn't reset password because the token is invalid"
+msgstr "Није могуће ресетовање лозинке јер je жетон неважећи"
+
+#: /app/core/Controller/LostController.php:190
+msgid "Couldn't reset password because the token is expired"
+msgstr "Није могуће ресетовање лозинке јер је жетон истекао"
+
+#: /app/core/Controller/LostController.php:295
+msgid ""
+"Could not send reset email because there is no email address for this "
+"username. Please contact your administrator."
+msgstr ""
+"Није могуће послати е-пошту за ресетовање лозинке јер није подешена адреса "
+"е-поште за овог корисника. Контактирајте администратора."
+
+#: /app/core/Controller/LostController.php:319
+#, php-format
+msgid "%s password reset"
+msgstr "%s лозинка ресетована"
+
+#: /app/core/Controller/LostController.php:321
+msgid "Password reset"
+msgstr "Ресетовање лозинке"
+
+#: /app/core/Controller/LostController.php:324
+msgid ""
+"Click the following button to reset your password. If you have not requested"
+" the password reset, then ignore this email."
+msgstr ""
+"Кликните следеће дугме за ресетовање лозинке. Ако нисте тражили ресетовање "
+"лозинке, занемарите ову поруку."
+
+#: /app/core/Controller/LostController.php:325
+msgid ""
+"Click the following link to reset your password. If you have not requested "
+"the password reset, then ignore this email."
+msgstr ""
+"Кликните следећу везу за ресетовање лозинке. Ако нисте тражили ресетовање "
+"лозинке, занемарите ову поруку."
+
+#: /app/core/Controller/LostController.php:329
+msgid "Reset your password"
+msgstr "Ресетуј лозинку"
+
+#: /app/core/Controller/LostController.php:343 /app/core/js/lostpassword.js:3
+msgid "Couldn't send reset email. Please contact your administrator."
+msgstr ""
+"Не могу да пошаљем поруку за ресетовање. Контактирајте администратора."
+
+#: /app/core/Controller/LostController.php:357
+#: /app/core/Controller/LostController.php:366
+#: /app/core/Controller/LostController.php:372
+msgid "Couldn't send reset email. Please make sure your username is correct."
+msgstr ""
+"Не могу да пошаљем поруку за ресетовање. Проверите да ли је корисничко име "
+"исправно."
+
+#: /app/core/ajax/update.php:45
+msgid "Preparing update"
+msgstr "Припремам ажурирање"
+
+#: /app/core/ajax/update.php:81 /app/core/ajax/update.php:85
+#: /app/core/ajax/update.php:127
+#, php-format
+msgid "[%d / %d]: %s"
+msgstr "[%d / %d]: %s"
+
+#: /app/core/ajax/update.php:92
+msgid "Repair warning: "
+msgstr "Упозорење о поправци :"
+
+#: /app/core/ajax/update.php:95
+msgid "Repair error: "
+msgstr "Грешка поправке:"
+
+#: /app/core/ajax/update.php:105 /app/core/templates/update.use-cli.php:8
+msgid ""
+"Please use the command line updater because automatic updating is disabled "
+"in the config.php."
+msgstr ""
+"Ажурирање урадите преко командне линије јер је аутоматско ажурирање "
+"онемогућено у config.php."
+
+#: /app/core/ajax/update.php:132
+#, php-format
+msgid "[%d / %d]: Checking table %s"
+msgstr "[%d / %d]: Проверавам табелу %s"
+
+#: /app/core/ajax/update.php:145
+msgid "Turned on maintenance mode"
+msgstr "Режим одржавања укључен"
+
+#: /app/core/ajax/update.php:148
+msgid "Turned off maintenance mode"
+msgstr "Режим одржавања искључен"
+
+#: /app/core/ajax/update.php:151
+msgid "Maintenance mode is kept active"
+msgstr "Режим одржавања се држи активним"
+
+#: /app/core/ajax/update.php:154
+msgid "Updating database schema"
+msgstr "Освежава се шема базе података"
+
+#: /app/core/ajax/update.php:157
+msgid "Updated database"
+msgstr "База података ажурирана"
+
+#: /app/core/ajax/update.php:160
+msgid ""
+"Checking whether the database schema can be updated (this can take a long "
+"time depending on the database size)"
+msgstr ""
+"Провера да ли шема базе података може да се ажурира (ово може потрајати, у "
+"зависности колика је база)"
+
+#: /app/core/ajax/update.php:163
+msgid "Checked database schema update"
+msgstr "Проверено ажурирање шеме базе података"
+
+#: /app/core/ajax/update.php:166
+msgid "Checking updates of apps"
+msgstr "Проверавам ажурирања апликација"
+
+#: /app/core/ajax/update.php:169
+#, php-format
+msgid "Checking for update of app \"%s\" in appstore"
+msgstr "Проверавам ажурирања апликације „%s“ у продавници"
+
+#: /app/core/ajax/update.php:172
+#, php-format
+msgid "Update app \"%s\" from appstore"
+msgstr "Ажурирај апликацију „%s“ из продавнице"
+
+#: /app/core/ajax/update.php:175
+#, php-format
+msgid "Checked for update of app \"%s\" in appstore"
+msgstr "Проверено ажурирање апликације \"%s\" у продавници"
+
+#: /app/core/ajax/update.php:178
+#, php-format
+msgid ""
+"Checking whether the database schema for %s can be updated (this can take a "
+"long time depending on the database size)"
+msgstr ""
+"Провера да ли шема база за %s може бити ажурирана (ово може да потраје, у "
+"зависности колика је база)"
+
+#: /app/core/ajax/update.php:181
+msgid "Checked database schema update for apps"
+msgstr "Проверено ажурирање шеме базе података за апликације"
+
+#: /app/core/ajax/update.php:184
+#, php-format
+msgid "Updated \"%s\" to %s"
+msgstr "„%s“ ажуриран на %s"
+
+#: /app/core/ajax/update.php:195
+msgid "Set log level to debug"
+msgstr "Постави ниво уписа у дневник на дебаговање"
+
+#: /app/core/ajax/update.php:198
+msgid "Reset log level"
+msgstr "Поништи ниво уписа у дневник"
+
+#: /app/core/ajax/update.php:201
+msgid "Starting code integrity check"
+msgstr "Почиње провера интегритета кода"
+
+#: /app/core/ajax/update.php:204
+msgid "Finished code integrity check"
+msgstr "Завршена провера интегритета кода"
+
+#: /app/core/ajax/update.php:221
+#, php-format
+msgid "%s (incompatible)"
+msgstr "%s (некомпатибилан)"
+
+#: /app/core/ajax/update.php:226
+#, php-format
+msgid "Following apps have been disabled: %s"
+msgstr "Следеће апликације су онемогућене: %s"
+
+#: /app/core/ajax/update.php:229
+msgid "Already up to date"
+msgstr "Већ има последњу верзију"
+
+#: /app/core/js/contactsmenu.js:29 /app/core/js/contactsmenu.js:30
+msgid "Search contacts …"
+msgstr "Претражи контакте ..."
+
+#: /app/core/js/contactsmenu.js:37
+msgid "No contacts found"
+msgstr "Контакти нису нађени"
+
+#: /app/core/js/contactsmenu.js:41
+msgid "Show all contacts …"
+msgstr "Прикажи све контакте ..."
+
+#: /app/core/js/contactsmenu.js:50
+msgid "Could not load your contacts"
+msgstr "Не могу да учитам Ваше контакте"
+
+#: /app/core/js/contactsmenu.js:514
+msgid "Loading your contacts …"
+msgstr "Учитавам контакте ..."
+
+#: /app/core/js/contactsmenu.js:516
+msgid "Looking for {term} …"
+msgstr "Тражим {term} …"
+
+#: /app/core/js/integritycheck-failed-notification.js:25
+msgid ""
+"<a href=\"{docUrl}\">There were problems with the code integrity check. More"
+" information…</a>"
+msgstr ""
+"<a href=\"{docUrl}\">Догодила се грешка приликом провере интегритета кода. "
+"Више информација...</a>"
+
+#: /app/core/js/jquery.contactsmenu.js:67
+#: /app/core/js/jquery.contactsmenu.js:86
+msgid "No action available"
+msgstr "Нема доступне радње"
+
+#: /app/core/js/jquery.contactsmenu.js:88
+msgid "Error fetching contact actions"
+msgstr "Грешка приликом дохватања акција над контактима"
+
+#: /app/core/js/js.js:629
+msgid "Settings"
+msgstr "Поставке"
+
+#: /app/core/js/js.js:782
+msgid "Connection to server lost"
+msgstr "Изгубљена је веза са сервером"
+
+#: /app/core/js/js.js:805
+msgid "Problem loading page, reloading in %n second"
+msgid_plural "Problem loading page, reloading in %n seconds"
+msgstr[0] "Грешка приликом учитавања стране, пробам поново за %n секунду"
+msgstr[1] "Грешка приликом учитавања стране, пробам поново за %n секунде"
+msgstr[2] "Грешка приликом учитавања стране, пробам поново за %n секунди"
+
+#: /app/core/js/js.js:979
+msgid "Saving..."
+msgstr "Чувам..."
+
+#: /app/core/js/js.js:1170
+msgid "Dismiss"
+msgstr "Откажи"
+
+#: /app/core/js/js.js:1702 /app/core/templates/layout.user.php:142
+msgid "This action requires you to confirm your password"
+msgstr "Ова радња захтева да потврдите лозинку"
+
+#: /app/core/js/js.js:1704
+msgid "Authentication required"
+msgstr "Неопходна провера идентитета"
+
+#: /app/core/js/js.js:1711 /app/core/js/sharedialoglinkshareview.js:429
+#: /app/core/templates/installation.php:49
+#: /app/core/templates/installation.php:52 /app/core/templates/login.php:48
+#: /app/core/templates/login.php:51
+#: /app/core/templates/loginflow/authpicker.php:54
+msgid "Password"
+msgstr "Лозинка"
+
+#: /app/core/js/js.js:1718 /app/core/js/oc-dialogs.js:663
+msgid "Cancel"
+msgstr "Одустани"
+
+#: /app/core/js/js.js:1719 /app/core/templates/layout.user.php:146
+msgid "Confirm"
+msgstr "Потврди"
+
+#: /app/core/js/js.js:1744
+msgid "Failed to authenticate, try again"
+msgstr "Неуспешна провера идентитета, покушајте поново"
+
+#: /app/core/js/js.js:1897
+msgid "seconds ago"
+msgstr "пре пар секунди"
+
+#: /app/core/js/login.js:21
+msgid "Logging in …"
+msgstr "Пријављивање ..."
+
+#: /app/core/js/lostpassword.js:5
+msgid ""
+"The link to reset your password has been sent to your email. If you do not "
+"receive it within a reasonable amount of time, check your spam/junk "
+"folders.<br>If it is not there ask your local administrator."
+msgstr ""
+"Веза за ресетовање лозинке је послата на вашу е-пошту. Ако је не примите "
+"ускоро, проверите фасцикле за нежељену пошту.<br>Ако није ни тамо, "
+"контактирајте вашег администратора."
+
+#: /app/core/js/lostpassword.js:7
+msgid ""
+"Your files are encrypted. There will be no way to get your data back after "
+"your password is reset.<br />If you are not sure what to do, please contact "
+"your administrator before you continue. <br />Do you really want to "
+"continue?"
+msgstr ""
+"Ваши фајлови су шифровани. Не постоји ниједан начин да се Ваши подаци "
+"поврате ако се лозинка сад ресетује.<br /> Уколико нисте сигурни шта да "
+"радите, контактирајте Вашег администратора пре него што наставите.<br /> Да "
+"ли стварно желите да наставите?"
+
+#: /app/core/js/lostpassword.js:10
+msgid "I know what I'm doing"
+msgstr "Знам шта радим"
+
+#: /app/core/js/lostpassword.js:13
+msgid "Password can not be changed. Please contact your administrator."
+msgstr "Лозинка се не може променити. Контактирајте администратора."
+
+#: /app/core/js/lostpassword.js:28 /app/core/templates/login.php:73
+#: /app/core/templates/lostpassword/resetpassword.php:35
+msgid "Reset password"
+msgstr "Ресетуј лозинку"
+
+#: /app/core/js/lostpassword.js:89
+msgid "Sending email …"
+msgstr "Слање е-поште…"
+
+#: /app/core/js/oc-dialogs.js:142 /app/core/js/oc-dialogs.js:350
+msgid "No"
+msgstr "Не"
+
+#: /app/core/js/oc-dialogs.js:150 /app/core/js/oc-dialogs.js:359
+msgid "Yes"
+msgstr "Да"
+
+#: /app/core/js/oc-dialogs.js:207
+msgid "No files in here"
+msgstr "Овде нема фајлова"
+
+#: /app/core/js/oc-dialogs.js:270
+msgid "Choose"
+msgstr "Изаберите"
+
+#: /app/core/js/oc-dialogs.js:277 /app/core/js/oc-dialogs.js:973
+#: /app/core/js/sharedialoglinkshareview.js:190
+#: /app/core/js/sharedialoglinkshareview.js:216
+#: /app/core/js/sharedialoglinkshareview.js:417
+#: /app/core/js/sharedialoglinkshareview.js:456
+msgid "Copy"
+msgstr "Копирај"
+
+#: /app/core/js/oc-dialogs.js:284 /app/core/js/oc-dialogs.js:974
+msgid "Move"
+msgstr "Премести"
+
+#: /app/core/js/oc-dialogs.js:324
+msgid "Error loading file picker template: {error}"
+msgstr "Грешка при учитавању шаблона бирача фајлова: {error}"
+
+#: /app/core/js/oc-dialogs.js:377
+msgid "OK"
+msgstr "У реду"
+
+#: /app/core/js/oc-dialogs.js:397
+msgid "Error loading message template: {error}"
+msgstr "Грешка при учитавању шаблона поруке: {error}"
+
+#: /app/core/js/oc-dialogs.js:612
+msgid "read-only"
+msgstr "само-за-читање"
+
+#: /app/core/js/oc-dialogs.js:629
+msgid "{count} file conflict"
+msgid_plural "{count} file conflicts"
+msgstr[0] "{count} сукоб фајлова"
+msgstr[1] "{count} сукоба фајлова"
+msgstr[2] "{count} сукоба фајлова"
+
+#: /app/core/js/oc-dialogs.js:643
+msgid "One file conflict"
+msgstr "Један сукоб фајлова"
+
+#: /app/core/js/oc-dialogs.js:649
+msgid "New Files"
+msgstr "Нови фајлови"
+
+#: /app/core/js/oc-dialogs.js:650
+msgid "Already existing files"
+msgstr "Постојећи фајлови"
+
+#: /app/core/js/oc-dialogs.js:652
+msgid "Which files do you want to keep?"
+msgstr "Које фајлове желите да задржите?"
+
+#: /app/core/js/oc-dialogs.js:653
+msgid ""
+"If you select both versions, the copied file will have a number added to its"
+" name."
+msgstr ""
+"Ако изаберете обе верзије, копираном фајлу ће бити додат број у називу."
+
+#: /app/core/js/oc-dialogs.js:673
+msgid "Continue"
+msgstr "Настави"
+
+#: /app/core/js/oc-dialogs.js:728 /app/core/js/oc-dialogs.js:742
+msgid "(all selected)"
+msgstr "(све изабрано)"
+
+#: /app/core/js/oc-dialogs.js:731 /app/core/js/oc-dialogs.js:746
+msgid "({count} selected)"
+msgstr "(изабрано: {count})"
+
+#: /app/core/js/oc-dialogs.js:758
+msgid "Error loading file exists template"
+msgstr "Грешка при учитавању шаблона „Фајл постоји“"
+
+#: /app/core/js/oc-dialogs.js:869
+msgid "Pending"
+msgstr "На чекању"
+
+#: /app/core/js/oc-dialogs.js:973
+msgid "Copy to {folder}"
+msgstr "Копирај у {folder}"
+
+#: /app/core/js/oc-dialogs.js:974
+msgid "Move to {folder}"
+msgstr "Премести у {folder}"
+
+#: /app/core/js/setup.js:119
+msgid "Very weak password"
+msgstr "Веома слаба лозинка"
+
+#: /app/core/js/setup.js:120
+msgid "Weak password"
+msgstr "Слаба лозинка"
+
+#: /app/core/js/setup.js:121
+msgid "So-so password"
+msgstr "Осредња лозинка"
+
+#: /app/core/js/setup.js:122
+msgid "Good password"
+msgstr "Добра лозинка"
+
+#: /app/core/js/setup.js:123
+msgid "Strong password"
+msgstr "Јака лозинка"
+
+#: /app/core/js/setupchecks.js:29
+msgid ""
+"Your web server is not yet properly set up to allow file synchronization, "
+"because the WebDAV interface seems to be broken."
+msgstr ""
+"Ваш сервер није правилно подешен да омогући синхронизацију фајлова. Изгледа "
+"да је ВебДАВ сучеље покварено."
+
+#: /app/core/js/setupchecks.js:69
+msgid ""
+"Your web server is not properly set up to resolve \"{url}\". Further "
+"information can be found in the <a target=\"_blank\" rel=\"noreferrer "
+"noopener\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+"Ваш сервер није правилно подешен да разлучи \"{url}\". Можете наћи више "
+"информација у <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"{docLink}\">документацији</a>."
+
+#: /app/core/js/setupchecks.js:97
+msgid ""
+"This server has no working Internet connection: Multiple endpoints could not"
+" be reached. This means that some of the features like mounting external "
+"storage, notifications about updates or installation of third-party apps "
+"will not work. Accessing files remotely and sending of notification emails "
+"might not work, either. Establish a connection from this server to the "
+"Internet to enjoy all features."
+msgstr ""
+"Овај сервер нема интернет конекцију: немогуће је доћи до више интернет "
+"крајњих тачака. Ово значи да неке могућности као што су качење спољних "
+"складишта, обавештења о ажурирањима или инсталација апликација треће стране "
+"неће радити. Приступање фајловима споља и слање обавештења е-поштом исто "
+"тако може да не ради. Омогућите интернет конекцију на овом серверу ако "
+"желите да уживате у свим могућностима."
+
+#: /app/core/js/setupchecks.js:103
+msgid ""
+"No memory cache has been configured. To enhance performance, please "
+"configure a memcache, if available. Further information can be found in the "
+"<a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"{docLink}\">documentation</a>."
+msgstr ""
+"Нисте подесили меморијски кеш. Да побољшате перформансе, подесите меморијски"
+" кеш, ако је доступан. Више информација има у <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{docLink}\">документацији</a>."
+
+#: /app/core/js/setupchecks.js:109
+msgid ""
+"/dev/urandom is not readable by PHP which is highly discouraged for security"
+" reasons. Further information can be found in the <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+"PHP не може да чита /dev/urandom. Ово се баш не препоручује из сигурносних "
+"разлога. Можете наћи више информација у <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{docLink}\">документацији</a>."
+
+#: /app/core/js/setupchecks.js:121
+msgid ""
+"You are currently running PHP {version}. Upgrade your PHP version to take "
+"advantage of <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"{phpLink}\">performance and security updates provided by the PHP "
+"Group</a> as soon as your distribution supports it."
+msgstr ""
+"Тренутно користите {version} верзију PHP-а. Надоградите PHP верзију да "
+"искористите сва <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"{phpLink}\">безбедоносна ажурирања и побољшања брзине које обезбеђује"
+" PHP група</a>, чим Ваша дистрибуција почне да је подржава."
+
+#: /app/core/js/setupchecks.js:127
+msgid ""
+"You are currently running PHP 5.6. The current major version of Nextcloud is"
+" the last that is supported on PHP 5.6. It is recommended to upgrade the PHP"
+" version to 7.0+ to be able to upgrade to Nextcloud 14."
+msgstr ""
+"Тренутно користите PHP верзију 5.6. Тренутна главна верзија Некстклауда је "
+"последња која подржава PHP 5.6. Препорука је да пређете на PHP верзију 7.0+ "
+"да бисте могли да ажурирате Некстклауд на верзију 14."
+
+#: /app/core/js/setupchecks.js:133
+msgid ""
+"The reverse proxy header configuration is incorrect, or you are accessing "
+"Nextcloud from a trusted proxy. If not, this is a security issue and can "
+"allow an attacker to spoof their IP address as visible to the Nextcloud. "
+"Further information can be found in the <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{docLink}\">documentation</a>."
+msgstr ""
+"Или подешавање обрнутих прокси заглавља није исправно, или приступате "
+"Некстклауду преко проксија од поверења. Ако то не радите, ово је "
+"безбедоносни проблем и може омогућити нападачу да лажира да је његова IP "
+"адреса видљива Некстклауду. Више информација о овоме има у <a "
+"target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"{docLink}\">документацији</a>."
+
+#: /app/core/js/setupchecks.js:139
+msgid ""
+"Memcached is configured as distributed cache, but the wrong PHP module "
+"\"memcache\" is installed. \\OC\\Memcache\\Memcached only supports "
+"\"memcached\" and not \"memcache\". See the <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{wikiLink}\">memcached wiki about both "
+"modules</a>."
+msgstr ""
+"Memcached је подешен као дистрибуирани кеш, али је инсталиран погрешни PHP "
+"модуле \"memcache\". \\OC\\Memcache\\Memcached подржава само \"memcached\" "
+"модул, а не и \"memcache\".  Погледајте <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{wikiLink}\">memcached вики о оба "
+"модула</a>."
+
+#: /app/core/js/setupchecks.js:147
+msgid ""
+"Some files have not passed the integrity check. Further information on how "
+"to resolve this issue can be found in the <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{docLink}\">documentation</a>. (<a "
+"href=\"{codeIntegrityDownloadEndpoint}\">List of invalid files…</a> / <a "
+"href=\"{rescanEndpoint}\">Rescan…</a>)"
+msgstr ""
+"Неки фајлови нису прошли проверу интегритета. Даљње информације о томе како "
+"да решите овај проблем се могу наћи у <a target=\"_blank\" rel=\"noreferrer "
+"noopener\" href=\"{docLink}\">документацији</a>. (<a "
+"href=\"{codeIntegrityDownloadEndpoint}\">Списак неисправних фајлова</a>/<a "
+"href=\"{rescanEndpoint}\">Скенирај поново…</a>)"
+
+#: /app/core/js/setupchecks.js:161
+msgid ""
+"The PHP OPcache is not properly configured. <a target=\"_blank\" "
+"rel=\"noreferrer noopener\" href=\"{docLink}\">For better performance it is "
+"recommended</a> to use the following settings in the <code>php.ini</code>:"
+msgstr ""
+"PHP OPcache није подешен исправно. <a target=\"_blank\" rel=\"noreferrer "
+"noopener\" href=\"{docLink}\">За боље перформансе предлаже се</a> да "
+"користите следећа подешавања у <code>php.ini</code> фајлу:"
+
+#: /app/core/js/setupchecks.js:173
+msgid ""
+"The PHP function \"set_time_limit\" is not available. This could result in "
+"scripts being halted mid-execution, breaking your installation. Enabling "
+"this function is strongly recommended."
+msgstr ""
+"PHP функција \"set_time_limit\" није доступна. Ово може да узрокује да се "
+"скрипте закоче у сред извршавања, и тако покваре инсталацију. Препоручује се"
+" да омогућите ову функцију."
+
+#: /app/core/js/setupchecks.js:181
+msgid ""
+"Your PHP does not have FreeType support, resulting in breakage of profile "
+"pictures and the settings interface."
+msgstr ""
+"Ваша PHP инсталација нема подршку за FreeType. Ово ће довести до неисправних"
+" профилних слика и неисправног интерфејса за подешавања."
+
+#: /app/core/js/setupchecks.js:188 /app/core/js/setupchecks.js:288
+#: /app/core/js/setupchecks.js:334
+msgid "Error occurred while checking server setup"
+msgstr "Дошло је до грешке при провери поставки сервера"
+
+#: /app/core/js/setupchecks.js:239
+msgid ""
+"Your data directory and files are probably accessible from the Internet. The"
+" .htaccess file is not working. It is strongly recommended that you "
+"configure your web server so that the data directory is no longer "
+"accessible, or move the data directory outside the web server document root."
+msgstr ""
+"Ваша фасцикла са подацима и фајлови су вероватно доступни са интернета. "
+".htaccess фајл не ради. Препоручујемо да подесите Ваш веб сервер тако да је "
+"фасцикла са подацима ван фасцикле кореног документа веб сервера."
+
+#: /app/core/js/setupchecks.js:276
+msgid ""
+"The \"{header}\" HTTP header is not set to \"{expected}\". This is a "
+"potential security or privacy risk, as it is recommended to adjust this "
+"setting accordingly."
+msgstr ""
+"HTTP заглавље „{header}“ није подешено као „{expected}“. Ово потенцијално "
+"угрожава безбедност и приватност и препоручује се да подесите ову поставку."
+
+#: /app/core/js/setupchecks.js:278
+msgid ""
+"The \"{header}\" HTTP header is not set to \"{expected}\". Some features "
+"might not work correctly, as it is recommended to adjust this setting "
+"accordingly."
+msgstr ""
+"HTTP заглавље „{header}“ није подешено као „{expected}“. Неке функције можда"
+" неће радити исправно, па препоручује се да подесите ову поставку."
+
+#: /app/core/js/setupchecks.js:322
+msgid ""
+"The \"Strict-Transport-Security\" HTTP header is not set to at least "
+"\"{seconds}\" seconds. For enhanced security, it is recommended to enable "
+"HSTS as described in the <a href=\"{docUrl}\" rel=\"noreferrer "
+"noopener\">security tips</a>."
+msgstr ""
+"\"Strict-Transport-Security\" HTTP заглавље није подешено да буде бар "
+"\"{seconds}\" секунди. За додатну сигурност, предлаже се да омогућите HSTS "
+"као што је описано у <a href=\"{docUrl}\" rel=\"noreferrer "
+"noopener\">сигурносним саветима</a>."
+
+#: /app/core/js/setupchecks.js:328
+msgid ""
+"Accessing site insecurely via HTTP. You are strongly adviced to set up your "
+"server to require HTTPS instead, as described in the <a "
+"href=\"{docUrl}\">security tips</a>."
+msgstr ""
+"Приступање сајту преко HTTP-а. Препоручује се да подесите Ваш сервер да "
+"захтева HTTPS као што је описано у <a href=\"{docUrl}\">безбедоносним "
+"саветима</a>."
+
+#: /app/core/js/share.js:144 /app/core/js/share.js:306
+#: /app/core/js/share.js:324
+msgid "Shared"
+msgstr "Дељено"
+
+#: /app/core/js/share.js:252
+msgid "Shared with"
+msgstr "Дељено са"
+
+#: /app/core/js/share.js:309
+msgid "Shared by"
+msgstr "Поделио"
+
+#: /app/core/js/sharedialogexpirationview.js:117
+msgid "Error setting expiration date"
+msgstr "Грешка при постављању датума истека"
+
+#: /app/core/js/sharedialogexpirationview.js:137
+msgid ""
+"The public link will expire no later than {days} days after it is created"
+msgstr "Јавна веза ће престати да важи {days} дана након стварања"
+
+#: /app/core/js/sharedialogexpirationview.js:151
+#: /app/core/js/sharedialogshareelistview.js:266
+msgid "Set expiration date"
+msgstr "Постави датум истека"
+
+#: /app/core/js/sharedialogexpirationview.js:152
+msgid "Expiration"
+msgstr "Истиче"
+
+#: /app/core/js/sharedialogexpirationview.js:153
+#: /app/core/js/sharedialogshareelistview.js:269
+msgid "Expiration date"
+msgstr "Датум истека"
+
+#: /app/core/js/sharedialoglinkshareview.js:19
+msgid "Choose a password for the public link"
+msgstr "Унесите лозинку за јавну везу"
+
+#: /app/core/js/sharedialoglinkshareview.js:20
+msgid "Choose a password for the public link or press the \"Enter\" key"
+msgstr "Унесите лозинку за јавну везу или притисните \"Ентер\""
+
+#: /app/core/js/sharedialoglinkshareview.js:183
+msgid "Copied!"
+msgstr "Копирано!"
+
+#: /app/core/js/sharedialoglinkshareview.js:201
+msgid "Not supported!"
+msgstr "Није подржано!"
+
+#: /app/core/js/sharedialoglinkshareview.js:203
+msgid "Press ⌘-C to copy."
+msgstr "Притисни ⌘-C за копирање."
+
+#: /app/core/js/sharedialoglinkshareview.js:205
+msgid "Press Ctrl-C to copy."
+msgstr "Притисни Ctrl-C за копирање."
+
+#: /app/core/js/sharedialoglinkshareview.js:355
+msgid "Resharing is not allowed"
+msgstr "Поновно дељење није дозвољено"
+
+#: /app/core/js/sharedialoglinkshareview.js:408
+msgid "Share to {name}"
+msgstr "Подели са {name}"
+
+#: /app/core/js/sharedialoglinkshareview.js:426
+msgid "Share link"
+msgstr "Веза дељења"
+
+#: /app/core/js/sharedialoglinkshareview.js:427
+msgid "Link"
+msgstr "Веза"
+
+#: /app/core/js/sharedialoglinkshareview.js:428
+#: /app/core/js/sharedialogshareelistview.js:267
+msgid "Password protect"
+msgstr "Заштићено лозинком"
+
+#: /app/core/js/sharedialoglinkshareview.js:437
+msgid "Allow editing"
+msgstr "Дозволи уређивање"
+
+#: /app/core/js/sharedialoglinkshareview.js:438
+msgid "Email link to person"
+msgstr "Пошаљи е-поштом"
+
+#: /app/core/js/sharedialoglinkshareview.js:439
+msgid "Send"
+msgstr "Пошаљи"
+
+#: /app/core/js/sharedialoglinkshareview.js:442
+msgid "Allow upload and editing"
+msgstr "Дозволи отпремање и уређивање"
+
+#: /app/core/js/sharedialoglinkshareview.js:443
+msgid "Read only"
+msgstr "Само за читање"
+
+#: /app/core/js/sharedialoglinkshareview.js:444
+#: /app/core/js/sharedialogshareelistview.js:265
+msgid "File drop (upload only)"
+msgstr "Превлачење фајлова (само за отпремање)"
+
+#: /app/core/js/sharedialogresharerinfoview.js:79
+msgid "Shared with you and the group {group} by {owner}"
+msgstr "{owner} дели са вама и са групом {group}."
+
+#: /app/core/js/sharedialogresharerinfoview.js:90
+msgid "Shared with you by {owner}"
+msgstr "{owner} дели са вама"
+
+#: /app/core/js/sharedialogshareelistview.js:18
+msgid "Choose a password for the mail share"
+msgstr "Изаберите лозинку за дељење е-поштом"
+
+#: /app/core/js/sharedialogshareelistview.js:45
+msgid "{{shareInitiatorDisplayName}} shared via link"
+msgstr "{{shareInitiatorDisplayName}} је поделио преко везе"
+
+#: /app/core/js/sharedialogshareelistview.js:198
+#: /app/core/js/sharedialogshareelistview.js:207
+msgid "group"
+msgstr "група"
+
+#: /app/core/js/sharedialogshareelistview.js:200
+#: /app/core/js/sharedialogshareelistview.js:209
+msgid "remote"
+msgstr "удаљени"
+
+#: /app/core/js/sharedialogshareelistview.js:202
+#: /app/core/js/sharedialogshareelistview.js:211
+msgid "email"
+msgstr "е-пошта"
+
+#: /app/core/js/sharedialogshareelistview.js:221
+msgid "shared by {sharer}"
+msgstr "поделио је {sharer}"
+
+#: /app/core/js/sharedialogshareelistview.js:259
+#: /app/core/js/sharedialogshareelistview.js:318
+msgid "Unshare"
+msgstr "Укини дељење"
+
+#: /app/core/js/sharedialogshareelistview.js:260
+msgid "Can reshare"
+msgstr "Може да дели даље"
+
+#: /app/core/js/sharedialogshareelistview.js:261
+msgid "Can edit"
+msgstr "Може да мења"
+
+#: /app/core/js/sharedialogshareelistview.js:262
+msgid "Can create"
+msgstr "Може да направи"
+
+#: /app/core/js/sharedialogshareelistview.js:263
+msgid "Can change"
+msgstr "Може да мења"
+
+#: /app/core/js/sharedialogshareelistview.js:264
+msgid "Can delete"
+msgstr "Може да брише"
+
+#: /app/core/js/sharedialogshareelistview.js:268
+msgid "Access control"
+msgstr "Контрола приступа"
+
+#: /app/core/js/sharedialogshareelistview.js:480
+msgid "Could not unshare"
+msgstr "Не могу да укинем дељење"
+
+#: /app/core/js/sharedialogshareelistview.js:650
+#: /app/core/js/sharedialogshareelistview.js:677
+#: /app/core/js/shareitemmodel.js:225
+msgid "Error while sharing"
+msgstr "Грешка при дељењу"
+
+#: /app/core/js/sharedialogview.js:81
+msgid "Share details could not be loaded for this item."
+msgstr "Не могу да учитам детаље дељења за ову ставку."
+
+#: /app/core/js/sharedialogview.js:150
+msgid "At least {count} character is needed for autocompletion"
+msgid_plural "At least {count} characters are needed for autocompletion"
+msgstr[0] "Најмање {count} слово је потребно за аутокомплетирање"
+msgstr[1] "Најмање {count} слова је потребно за аутокомплетирање"
+msgstr[2] "Најмање {count} слова је потребно за аутокомплетирање"
+
+#: /app/core/js/sharedialogview.js:294
+msgid ""
+"This list is maybe truncated - please refine your search term to see more "
+"results."
+msgstr ""
+"Ова листа је можда скраћена - претражите опет користећи мало специфичније "
+"изразе да бисте добили још резултата."
+
+#: /app/core/js/sharedialogview.js:299
+msgid "No users or groups found for {search}"
+msgstr "Није нађен ниједан корисник ни група за претрагу {search}"
+
+#: /app/core/js/sharedialogview.js:301
+msgid "No users found for {search}"
+msgstr "Није нађен ниједан корисник за претрагу {search}"
+
+#: /app/core/js/sharedialogview.js:322
+msgid "An error occurred. Please try again"
+msgstr "Дошло је до грешке. Покушајте поново"
+
+#: /app/core/js/sharedialogview.js:331
+msgid "{sharee} (group)"
+msgstr "{sharee} (група)"
+
+#: /app/core/js/sharedialogview.js:333
+msgid "{sharee} (remote)"
+msgstr "{sharee} (удаљено)"
+
+#: /app/core/js/sharedialogview.js:335
+msgid "{sharee} (email)"
+msgstr "{sharee} (е-пошта)"
+
+#: /app/core/js/sharedialogview.js:337
+msgid "{sharee} ({type}, {owner})"
+msgstr "{sharee} ({type}, {owner})"
+
+#: /app/core/js/sharedialogview.js:417
+msgid "Share"
+msgstr "Дели"
+
+#: /app/core/js/sharedialogview.js:470
+msgid ""
+"Share with other people by entering a user or group, a federated cloud ID or"
+" an email address."
+msgstr ""
+"Делите са другим људима тако што унесете корисника, групу, ID здруженог "
+"облака или адресу е-поште. "
+
+#: /app/core/js/sharedialogview.js:474
+msgid ""
+"Share with other people by entering a user or group or a federated cloud ID."
+msgstr ""
+"Делите са другим људима тако што унесете корисника, групу или ID здруженог "
+"облака."
+
+#: /app/core/js/sharedialogview.js:478
+msgid ""
+"Share with other people by entering a user or group or an email address."
+msgstr "Делите са другим људима тако што унесете корисника или групу."
+
+#: /app/core/js/sharedialogview.js:490
+msgid "Name or email address..."
+msgstr "Име или адреса е-поште..."
+
+#: /app/core/js/sharedialogview.js:493
+msgid "Name or federated cloud ID..."
+msgstr "Име или ID здруженог облака..."
+
+#: /app/core/js/sharedialogview.js:496
+msgid "Name, federated cloud ID or email address..."
+msgstr "Име, ID здруженог облака или адреса е-поште..."
+
+#: /app/core/js/sharedialogview.js:499
+msgid "Name..."
+msgstr "Име..."
+
+#: /app/core/js/shareitemmodel.js:216 /app/core/js/shareitemmodel.js:251
+#: /app/core/templates/error.php:2 /app/core/templates/installation.php:15
+msgid "Error"
+msgstr "Грешка"
+
+#: /app/core/js/shareitemmodel.js:260
+msgid "Error removing share"
+msgstr "Грешка при уклањању дељења"
+
+#: /app/core/js/systemtags/systemtags.js:28
+msgid "Non-existing tag #{tag}"
+msgstr "Непостојећа ознака #{tag}"
+
+#: /app/core/js/systemtags/systemtags.js:39
+msgid "restricted"
+msgstr "ограничен"
+
+#: /app/core/js/systemtags/systemtags.js:43
+msgid "invisible"
+msgstr "невидљив"
+
+#: /app/core/js/systemtags/systemtags.js:47
+msgid "({scope})"
+msgstr "({scope})"
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:152
+msgid "Delete"
+msgstr "Обриши"
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:153
+#: /app/core/js/systemtags/systemtagsinputfield.js:317
+msgid "Rename"
+msgstr "Преименуј"
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:407
+msgid "Collaborative tags"
+msgstr "Групне ознаке"
+
+#: /app/core/js/systemtags/systemtagsinputfield.js:452
+msgid "No tags found"
+msgstr "Ознаке нису нађене"
+
+#: /app/core/js/tests/specs/l10nSpec.js:33
+#: /app/core/js/tests/specs/l10nSpec.js:36
+msgid "unknown text"
+msgstr "непознат текст"
+
+#: /app/core/js/tests/specs/l10nSpec.js:39
+#: /app/core/js/tests/specs/l10nSpec.js:157
+msgid "Hello world!"
+msgstr "Здраво свете!"
+
+#: /app/core/js/tests/specs/l10nSpec.js:43
+#: /app/core/js/tests/specs/l10nSpec.js:66
+msgid "sunny"
+msgstr "сунчано"
+
+#: /app/core/js/tests/specs/l10nSpec.js:43
+msgid "Hello {name}, the weather is {weather}"
+msgstr "Здраво {name}, време је {weather}"
+
+#: /app/core/js/tests/specs/l10nSpec.js:48
+#: /app/core/js/tests/specs/l10nSpec.js:53
+msgid "Hello {name}"
+msgstr "Здраво {name}"
+
+#: /app/core/js/tests/specs/l10nSpec.js:58
+msgid ""
+"<strong>These are your search results<script>alert(1)</script></strong>"
+msgstr ""
+"<strong>Ово су резултати Ваше претраге<script>alert(1)</script></strong>"
+
+#: /app/core/js/tests/specs/l10nSpec.js:67
+msgid "new"
+msgstr "ново"
+
+#: /app/core/js/tests/specs/l10nSpec.js:73
+#: /app/core/js/tests/specs/l10nSpec.js:76
+#: /app/core/js/tests/specs/l10nSpec.js:79
+#: /app/core/js/tests/specs/l10nSpec.js:82
+#: /app/core/js/tests/specs/l10nSpec.js:92
+#: /app/core/js/tests/specs/l10nSpec.js:95
+#: /app/core/js/tests/specs/l10nSpec.js:98
+#: /app/core/js/tests/specs/l10nSpec.js:101
+msgid "download %n file"
+msgid_plural "download %n files"
+msgstr[0] "преузми %n фајл"
+msgstr[1] "преузми %n фајла"
+msgstr[2] "преузми %n фајлова"
+
+#: /app/core/js/update.js:34
+msgid ""
+"The update is in progress, leaving this page might interrupt the process in "
+"some environments."
+msgstr ""
+"Ажурирање је у току. У неким окружењима, напуштање ове стране може да "
+"прекине овај процес."
+
+#: /app/core/js/update.js:39
+msgid "Update to {version}"
+msgstr "Ажурирај на {version}"
+
+#: /app/core/js/update.js:57
+msgid "An error occurred."
+msgstr "Дошло је до грешке."
+
+#: /app/core/js/update.js:60
+msgid "Please reload the page."
+msgstr "Поново учитајте страницу."
+
+#: /app/core/js/update.js:75
+msgid ""
+"The update was unsuccessful. For more information <a href=\"{url}\">check "
+"our forum post</a> covering this issue."
+msgstr ""
+"Ажурирање није успело. За више информација <a href=\"{url}\">проверите нашу "
+"објаву на форуму</a> која обрађује ову тему."
+
+#: /app/core/js/update.js:77
+msgid ""
+"The update was unsuccessful. Please report this issue to the <a "
+"href=\"https://github.com/nextcloud/server/issues\" "
+"target=\"_blank\">Nextcloud community</a>."
+msgstr ""
+"Ажурирање није успело. Молимо пријавите овај проблем <a "
+"href=\"https://github.com/nextcloud/server/issues\" "
+"target=\"_blank\">Некстклауд заједници</a>."
+
+#: /app/core/js/update.js:94
+msgid "Continue to Nextcloud"
+msgstr "Наставите на Некстклауд"
+
+#: /app/core/js/update.js:119
+msgid "The update was successful. Redirecting you to Nextcloud in %n second."
+msgid_plural ""
+"The update was successful. Redirecting you to Nextcloud in %n seconds."
+msgstr[0] "Надоградња је била успешна. Враћање на Некстклауд за %n секунду."
+msgstr[1] "Надоградња је била успешна. Враћање на Некстклауд за %n секунде."
+msgstr[2] "Ажурирање је било успешно. Враћање на Некстклауд за %n секунди."
+
+#: /app/core/search/js/search.js:132
+msgid "Searching other places"
+msgstr "Претражујем остала места"
+
+#: /app/core/search/js/search.js:220
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr "Нема резултата претраге у осталим фасциклама за {tag}{filter}{endtag}"
+
+#: /app/core/search/js/search.js:224
+msgid "{count} search result in another folder"
+msgid_plural "{count} search results in other folders"
+msgstr[0] "{count} резултат претраге у осталим фасциклама"
+msgstr[1] "{count} резултата претраге у осталим фасциклама"
+msgstr[2] "{count} резултата претраге у осталим фасциклама"
+
+#: /app/core/strings.php:26
+msgid "Personal"
+msgstr "Лично"
+
+#: /app/core/strings.php:27
+msgid "Users"
+msgstr "Корисници"
+
+#: /app/core/strings.php:28 /app/core/templates/layout.user.php:39
+msgid "Apps"
+msgstr "Апликације"
+
+#: /app/core/strings.php:29
+msgid "Admin"
+msgstr "Администрација"
+
+#: /app/core/strings.php:30
+msgid "Help"
+msgstr "Помоћ"
+
+#: /app/core/templates/403.php:14
+msgid "Access forbidden"
+msgstr "Забрањен приступ"
+
+#: /app/core/templates/404.php:20
+msgid "File not found"
+msgstr "Фајл није нађен"
+
+#: /app/core/templates/404.php:21
+msgid "The specified document has not been found on the server."
+msgstr "Наведени документ није нађен на серверу."
+
+#: /app/core/templates/404.php:22
+#, php-format
+msgid "You can click here to return to %s."
+msgstr "Кликните овде да се вратите на %s."
+
+#: /app/core/templates/exception.php:8
+msgid "Internal Server Error"
+msgstr "Унутрашња грешка сервера"
+
+#: /app/core/templates/exception.php:9
+msgid "The server was unable to complete your request."
+msgstr "Сервер не може да обради Ваш захтев."
+
+#: /app/core/templates/exception.php:10
+msgid ""
+"If this happens again, please send the technical details below to the server"
+" administrator."
+msgstr ""
+"Ако се ово понови, пошаљите техниче детаље испод администратору овог "
+"сервера."
+
+#: /app/core/templates/exception.php:11
+msgid "More details can be found in the server log."
+msgstr "Више детаља се може наћи у дневнику сервера."
+
+#: /app/core/templates/exception.php:13
+msgid "Technical details"
+msgstr "Технички детаљи"
+
+#: /app/core/templates/exception.php:15
+#, php-format
+msgid "Remote Address: %s"
+msgstr "Удаљена адреса: %s"
+
+#: /app/core/templates/exception.php:16
+#, php-format
+msgid "Request ID: %s"
+msgstr "ID захтева: %s"
+
+#: /app/core/templates/exception.php:18
+#, php-format
+msgid "Type: %s"
+msgstr "Тип: %s"
+
+#: /app/core/templates/exception.php:19
+#, php-format
+msgid "Code: %s"
+msgstr "Кôд: %s"
+
+#: /app/core/templates/exception.php:20
+#, php-format
+msgid "Message: %s"
+msgstr "Порука: %s"
+
+#: /app/core/templates/exception.php:21
+#, php-format
+msgid "File: %s"
+msgstr "Фајл: %s"
+
+#: /app/core/templates/exception.php:22
+#, php-format
+msgid "Line: %s"
+msgstr "Линија: %s"
+
+#: /app/core/templates/exception.php:28
+msgid "Trace"
+msgstr "Траг"
+
+#: /app/core/templates/installation.php:30
+msgid "Security warning"
+msgstr "Безбедносно упозорење"
+
+#: /app/core/templates/installation.php:31
+msgid ""
+"Your data directory and files are probably accessible from the internet "
+"because the .htaccess file does not work."
+msgstr ""
+"Ваш директоријум са подацима и фајлови су вероватно доступни са интернета "
+"јер .htaccess не ради."
+
+#: /app/core/templates/installation.php:33
+#, php-format
+msgid ""
+"For information how to properly configure your server, please see the <a "
+"href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">documentation</a>."
+msgstr ""
+"За информације како да правилно подесите Ваш сервер, погледајте <a "
+"href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">документацију</a>."
+
+#: /app/core/templates/installation.php:39
+msgid "Create an <strong>admin account</strong>"
+msgstr "Направи <strong>административни налог</strong>"
+
+#: /app/core/templates/installation.php:42
+#: /app/core/templates/installation.php:45
+#: /app/core/templates/loginflow/authpicker.php:49
+#: /app/core/templates/loginflow/authpicker.php:50
+msgid "Username"
+msgstr "Корисничко име"
+
+#: /app/core/templates/installation.php:60
+msgid "Storage & database"
+msgstr "Складиште и база података"
+
+#: /app/core/templates/installation.php:67
+msgid "Data folder"
+msgstr "Фасцикла за податке"
+
+#: /app/core/templates/installation.php:80
+msgid "Configure the database"
+msgstr "Подешавање базе"
+
+#: /app/core/templates/installation.php:85
+#, php-format
+msgid "Only %s is available."
+msgstr "Само %s је доступна."
+
+#: /app/core/templates/installation.php:86
+msgid ""
+"Install and activate additional PHP modules to choose other database types."
+msgstr ""
+"Инсталирајте и активирајте додатне PHP модуле за одабир других база "
+"података."
+
+#: /app/core/templates/installation.php:88
+msgid "For more details check out the documentation."
+msgstr "За више детаља погледајте документацију."
+
+#: /app/core/templates/installation.php:104
+#: /app/core/templates/installation.php:106
+msgid "Database user"
+msgstr "Корисник базе"
+
+#: /app/core/templates/installation.php:112
+#: /app/core/templates/installation.php:115
+msgid "Database password"
+msgstr "Лозинка базе"
+
+#: /app/core/templates/installation.php:120
+#: /app/core/templates/installation.php:122
+msgid "Database name"
+msgstr "Назив базе"
+
+#: /app/core/templates/installation.php:130
+#: /app/core/templates/installation.php:132
+msgid "Database tablespace"
+msgstr "Радни простор базе података"
+
+#: /app/core/templates/installation.php:139
+#: /app/core/templates/installation.php:141
+msgid "Database host"
+msgstr "Домаћин базе"
+
+#: /app/core/templates/installation.php:146
+msgid ""
+"Please specify the port number along with the host name (e.g., "
+"localhost:5432)."
+msgstr "Наведите и број порта у имену домаћина (нпр. localhost:5432)."
+
+#: /app/core/templates/installation.php:155
+msgid "Performance warning"
+msgstr "Упозорење о перформансама"
+
+#: /app/core/templates/installation.php:156
+msgid "SQLite will be used as database."
+msgstr "СКуЛајт ће бити коришћен за базу података."
+
+#: /app/core/templates/installation.php:157
+msgid ""
+"For larger installations we recommend to choose a different database "
+"backend."
+msgstr "За веће инсталације препоручујемо да изаберете другу базу података."
+
+#: /app/core/templates/installation.php:158
+msgid ""
+"Especially when using the desktop client for file syncing the use of SQLite "
+"is discouraged."
+msgstr ""
+"Нарочито ако се користи клијент у десктоп окружењу, коришћење СКуЛајта није "
+"препоручљиво."
+
+#: /app/core/templates/installation.php:164
+msgid "Finish setup"
+msgstr "Заврши подешавање"
+
+#: /app/core/templates/installation.php:164
+msgid "Finishing …"
+msgstr "Завршавам…"
+
+#: /app/core/templates/installation.php:168
+msgid "Need help?"
+msgstr "Треба Вам помоћ?"
+
+#: /app/core/templates/installation.php:169
+msgid "See the documentation"
+msgstr "Погледајте документацију"
+
+#: /app/core/templates/layout.noscript.warning.php:7
+msgid ""
+"This application requires JavaScript for correct operation. Please "
+"{linkstart}enable JavaScript{linkend} and reload the page."
+msgstr ""
+"Ова апликација захтева Јава скрипт за исправан рад. {linkstart}Омогућите "
+"Јава скрипт{linkend} и поново учитајте страницу."
+
+#: /app/core/templates/layout.user.php:66
+msgid "More apps"
+msgstr "Још апликација"
+
+#: /app/core/templates/layout.user.php:98
+msgid "Search"
+msgstr "Претражи"
+
+#: /app/core/templates/layout.user.php:103
+msgid "Reset search"
+msgstr "Ресетуј претрагу"
+
+#: /app/core/templates/layout.user.php:144
+msgid "Confirm your password"
+msgstr "Потврдите лозинку"
+
+#: /app/core/templates/login.php:15
+msgid "Server side authentication failed!"
+msgstr "Потврда идентитета на серверу није успела!"
+
+#: /app/core/templates/login.php:16
+msgid "Please contact your administrator."
+msgstr "Контактирајте вашег администратора."
+
+#: /app/core/templates/login.php:26
+msgid "An internal error occurred."
+msgstr "Догодила се унутрашња грешка. "
+
+#: /app/core/templates/login.php:27
+msgid "Please try again or contact your administrator."
+msgstr "Покушајте поново или контактирајте вашег администратора."
+
+#: /app/core/templates/login.php:39 /app/core/templates/login.php:43
+msgid "Username or email"
+msgstr "Корисничко име или адреса е-поште"
+
+#: /app/core/templates/login.php:55
+msgid "Log in"
+msgstr "Пријава"
+
+#: /app/core/templates/login.php:61
+msgid "Wrong password."
+msgstr "Погрешна лозинка."
+
+#: /app/core/templates/login.php:67
+msgid ""
+"We have detected multiple invalid login attempts from your IP. Therefore "
+"your next login is throttled up to 30 seconds."
+msgstr ""
+"Приметили смо више неисправних покушаја пријава са Ваше IP адресе. Следећа "
+"пријава ће бити могућа тек за 30 секунди."
+
+#: /app/core/templates/login.php:86
+msgid "Stay logged in"
+msgstr "Останите пријављени"
+
+#: /app/core/templates/login.php:92
+msgid "Forgot password?"
+msgstr "Заборавили сте лозинку?"
+
+#: /app/core/templates/login.php:95
+msgid "Back to log in"
+msgstr "Назад на пријаву"
+
+#: /app/core/templates/login.php:109
+msgid "Alternative Logins"
+msgstr "Алтернативне пријаве"
+
+#: /app/core/templates/loginflow/authpicker.php:31
+msgid "Account access"
+msgstr "Приступ налогу"
+
+#: /app/core/templates/loginflow/authpicker.php:33
+#, php-format
+msgid "You are about to grant %s access to your %s account."
+msgstr "Управо ћете одобрити %s приступ Вашем %s налогу."
+
+#: /app/core/templates/loginflow/authpicker.php:43
+#: /app/core/templates/loginflow/authpicker.php:57
+msgid "Grant access"
+msgstr "Одобри приступ"
+
+#: /app/core/templates/loginflow/authpicker.php:53
+msgid "App token"
+msgstr "Апликативни жетон"
+
+#: /app/core/templates/loginflow/authpicker.php:62
+msgid "Alternative login using app token"
+msgstr "Алтернативна пријава коришћењем апликативног жетона"
+
+#: /app/core/templates/loginflow/redirect.php:30
+msgid "Redirecting …"
+msgstr "Преусмеравање ..."
+
+#: /app/core/templates/lostpassword/resetpassword.php:32
+msgid "New password"
+msgstr "Нова лозинка"
+
+#: /app/core/templates/lostpassword/resetpassword.php:33
+msgid "New Password"
+msgstr "Нова лозинка"
+
+#: /app/core/templates/twofactorselectchallenge.php:2
+msgid "Two-factor authentication"
+msgstr "Двофакторска провера идентитека"
+
+#: /app/core/templates/twofactorselectchallenge.php:3
+msgid ""
+"Enhanced security is enabled for your account. Please authenticate using a "
+"second factor."
+msgstr ""
+"Повећана сигурност је омогућена за овај налог. Проверите идентитет и другим "
+"фактором."
+
+#: /app/core/templates/twofactorselectchallenge.php:22
+#: /app/core/templates/twofactorshowchallenge.php:25
+msgid "Cancel log in"
+msgstr "Поништите пријаву"
+
+#: /app/core/templates/twofactorselectchallenge.php:29
+#: /app/core/templates/twofactorshowchallenge.php:32
+msgid "Use backup code"
+msgstr "Користите резервни кôд"
+
+#: /app/core/templates/twofactorshowchallenge.php:20
+msgid "Error while validating your second factor"
+msgstr "Грешка при провери Вашег другог фактора"
+
+#: /app/core/templates/untrustedDomain.php:4
+msgid "Access through untrusted domain"
+msgstr "Приступ кроз небезбедни домен"
+
+#: /app/core/templates/untrustedDomain.php:7
+msgid ""
+"Please contact your administrator. If you are an administrator, edit the "
+"\"trusted_domains\" setting in config/config.php like the example in "
+"config.sample.php."
+msgstr ""
+"Контактирајте Вашег администратора. Ако сте Ви администратор, измените "
+"\"trusted_domains\" подешавање у config/config.php као у примеру "
+"config.sample.php."
+
+#: /app/core/templates/untrustedDomain.php:10
+msgid ""
+"Depending on your configuration, this button could also work to trust the "
+"domain:"
+msgstr ""
+"У зависности од Ваше конфигурације, овим дугметом може да послужи да почнете"
+" да верујете овом домену:"
+
+#: /app/core/templates/untrustedDomain.php:14
+#, php-format
+msgid "Add \"%s\" as trusted domain"
+msgstr "Додај „%s“ као поуздан домен"
+
+#: /app/core/templates/update.admin.php:4
+msgid "App update required"
+msgstr "Потребно ажурирање апликације"
+
+#: /app/core/templates/update.admin.php:6
+#, php-format
+msgid "%s will be updated to version %s"
+msgstr "%s ће бити ажурирана на верзију %s"
+
+#: /app/core/templates/update.admin.php:11
+msgid "These apps will be updated:"
+msgstr "Следеће апликације ће бити ажуриране:"
+
+#: /app/core/templates/update.admin.php:21
+msgid "These incompatible apps will be disabled:"
+msgstr "Следеће некомпатибилне апликације ће бити онемогућене:"
+
+#: /app/core/templates/update.admin.php:31
+#, php-format
+msgid "The theme %s has been disabled."
+msgstr "Тема %s је онемогућена."
+
+#: /app/core/templates/update.admin.php:35
+msgid ""
+"Please make sure that the database, the config folder and the data folder "
+"have been backed up before proceeding."
+msgstr ""
+"Проверите да ли сте направили резервну копију фасцикли са подешавањима и "
+"подацима пре него што наставите."
+
+#: /app/core/templates/update.admin.php:37
+msgid "Start update"
+msgstr "Почни ажурирање"
+
+#: /app/core/templates/update.admin.php:40
+msgid ""
+"To avoid timeouts with larger installations, you can instead run the "
+"following command from your installation directory:"
+msgstr ""
+"Да избегнете прекорачење времена одзива на већим инсталацијама, можете "
+"покренути следећу команду у инсталационом директоријуму:"
+
+#: /app/core/templates/update.admin.php:52
+msgid "Detailed logs"
+msgstr "Детаљни дневници"
+
+#: /app/core/templates/update.use-cli.php:3
+msgid "Update needed"
+msgstr "Потребно је ажурирање"
+
+#: /app/core/templates/update.use-cli.php:6
+msgid ""
+"Please use the command line updater because you have a big instance with "
+"more than 50 users."
+msgstr ""
+"Молимо користите ажурирање из конзоле пошто имате велики сервер са више од "
+"50 корисника."
+
+#: /app/core/templates/update.use-cli.php:11
+#, php-format
+msgid ""
+"For help, see the  <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation</a>."
+msgstr ""
+"За помоћ, погледајте <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">документацију</a>."
+
+#: /app/core/templates/update.use-cli.php:17
+msgid ""
+"I know that if I continue doing the update via web UI has the risk, that the"
+" request runs into a timeout and could cause data loss, but I have a backup "
+"and know how to restore my instance in case of a failure."
+msgstr ""
+"Свестан сам да уколико наставим ажурирање преко веба да постоји ризик да "
+"захтеву истекне време за извршење и да то може да изазове губитак података, "
+"али имам резервну копију и знам како да је повратим у случају грешака."
+
+#: /app/core/templates/update.use-cli.php:18
+msgid "Upgrade via web on my own risk"
+msgstr "Надогради преко веба на сопствену одговорност"
+
+#: /app/core/templates/update.user.php:3
+#, php-format
+msgid ""
+"This %s instance is currently in maintenance mode, which may take a while."
+msgstr "Овај %s је тренутно у режиму одржавања што може потрајати."
+
+#: /app/core/templates/update.user.php:4
+#, php-format
+msgid "This page will refresh itself when the %s instance is available again."
+msgstr "Ова страница ће се сама освежити када %s постане поново доступан."
+
+#: /app/core/templates/update.user.php:5
+msgid ""
+"Contact your system administrator if this message persists or appeared "
+"unexpectedly."
+msgstr ""
+"Контактирајте администратора ако се порука понавља или се неочекивано "
+"појавила."
+
+#: /app/core/templates/update.user.php:6
+msgid "Thank you for your patience."
+msgstr "Хвала Вам на стрпљењу."

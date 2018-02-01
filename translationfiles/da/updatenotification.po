@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nick Bakkegaard <nickbakkegaard@gmail.com>, 2017\n"
+"Language-Team: Danish (https://www.transifex.com/nextcloud/teams/64236/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:47
+msgid "Could not start updater, please try the manual update"
+msgstr ""
+"Kunne ikke starte opdateringen, prøv venligst med en manual opdatering"
+
+#: js/notification.js:17
+msgid "{version} is available. Get more information on how to update."
+msgstr ""
+"{version} er tilgængelig. Få mere information om hvordan du opdaterer."
+
+#: lib/AppInfo/Application.php:80
+msgid "Update notifications"
+msgstr "Opdaterings notifikationer"
+
+#: lib/Controller/AdminController.php:83
+msgid "Channel updated"
+msgstr "Kanal opdateret"
+
+#: lib/Notification/Notifier.php:102
+#, php-format
+msgid ""
+"The update server could not be reached since %d days to check for new "
+"updates."
+msgstr ""
+"Har ikke været forbundet til opdateringsserveren i %d dage for at tjekke "
+"efter nye opdateringer."
+
+#: lib/Notification/Notifier.php:103
+msgid "Please check the Nextcloud and server log files for errors."
+msgstr "Tjek venligst Nextcloud server log for fejl."
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid "Update to %1$s is available."
+msgstr "Opdatering til %1$s er tilgængelig."
+
+#: lib/Notification/Notifier.php:121
+#, php-format
+msgid "Update for %1$s to version %2$s is available."
+msgstr "Opdatering af %1$s til version %2$s er tilgængelig."
+
+#: lib/Notification/Notifier.php:122
+#, php-format
+msgid "Update for {app} to version %s is available."
+msgstr "Opdatering af {app} til version %s er tilgængelig."
+
+#: templates/admin.php:27
+#, php-format
+msgid "A new version is available: %s"
+msgstr "Der er en ny version tligængelig: %s"
+
+#: templates/admin.php:29
+msgid "Open updater"
+msgstr "Åbn for opdatering"
+
+#: templates/admin.php:32
+msgid "Download now"
+msgstr "Hent nu"
+
+#: templates/admin.php:35
+msgid "The update check is not yet finished. Please refresh the page."
+msgstr "Opdateringstjek er ikke færdigt. Genindlæs venligst siden."
+
+#: templates/admin.php:37
+msgid "Your version is up to date."
+msgstr "Du har seneste version."
+
+#: templates/admin.php:38
+#, php-format
+msgid "Checked on %s"
+msgstr "Tjekket per %s"
+
+#: templates/admin.php:44
+msgid "A non-default update server is in use to be checked for updates:"
+msgstr ""
+"En ikke standard opdateringsserver bliver brugt for at tjekke efter "
+"opdateringer:"
+
+#: templates/admin.php:51
+msgid "Update channel:"
+msgstr "Opdatér kanal:"
+
+#: templates/admin.php:61
+msgid ""
+"You can always update to a newer version / experimental channel. But you can"
+" never downgrade to a more stable channel."
+msgstr ""
+"Du kan altid opdatere til en nyere version / eksperimentel kanal. Men du kan"
+" aldrig nedgradere til en mere stabil kanal"
+
+#: templates/admin.php:62
+msgid ""
+"Note that after a new release it can take some time before it shows up here."
+" We roll out new versions spread out over time to our users and sometimes "
+"skip a version when issues are found."
+msgstr ""
+"Bemærk at efter en ny udgivelse kan det tage noget tid før den bliver vist "
+"her. Vi udruller nye opdateringer spredt ud og nogle gange springer man "
+"versioner over hvis der bliver fundet fejl i dem."
+
+#: templates/admin.php:67
+msgid "Notify members of the following groups about available updates:"
+msgstr "Meddel brugere fra følgende gruppe om tilgængelige opdateringer: "
+
+#: templates/admin.php:70
+msgid "Only notification for app updates are available."
+msgstr "Kun notifikation for app opdateringer tilgængelige."
+
+#: templates/admin.php:71
+msgid ""
+"The selected update channel makes dedicated notifications for the server "
+"obsolete."
+msgstr ""
+"Den valgte kanal lave dedikerede notifikationer for serveren ligegyldige."
+
+#: templates/admin.php:72
+msgid "The selected update channel does not support updates of the server."
+msgstr "Den valgte opdateringskanal understøtter ikke opdatering af serveren."

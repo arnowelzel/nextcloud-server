@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Florian Duclot, 2016\n"
+"Language-Team: French (https://www.transifex.com/nextcloud/teams/64236/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Mise à jour"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Créer"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Sélectionner une étiquette…"
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Fichiers étiquetés"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Sélectionner les étiquettes à filtrer"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Aucune étiquette trouvée"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Veuillez sélectionner les étiquettes à filtrer"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Aucun fichier pour les étiquettes sélectionnées"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "Étiquette collaborative %1$s ajoutée"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "Étiquette collaborative {systemtag} ajoutée"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s a ajouté l'étiquette collaborative %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} a ajouté l'étiquette collaborative {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Étiquette collaborative %1$s supprimée"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Étiquette collaborative {systemtag} supprimée"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s a supprimé l'étiquette collaborative %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} a supprimé l'étiquette collaborative {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Vous avez créé l'étiquette collaborative %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Vous avez créé l'étiquette collaborative {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s a créé l'étiquette collaborative %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} a créé l'étiquette collaborative {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Vous avez supprimé l'étiquette collaborative %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Vous avez supprimé l'étiquette collaborative {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s a supprimé l'étiquette collaborative %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} a supprimé l'étiquette collaborative {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Vous avez renommé l'étiquette collaborative %2$s en %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"Vous avez renommé l'étiquette collaborative {oldsystemtag} en {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s a renommé l'étiquette collaborative %3$s en %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"{actor} a renommé l'étiquette collaborative {oldsystemtag} en {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Vous avez ajouté l'étiquette collaborative %2$s à %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Vous avez ajouté l'étiquette collaborative {systemtag} à {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s a ajouté l'étiquette collaborative %3$s à %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} a ajouté l'étiquette collaborative {systemtag} à {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Vous avez retiré l'étiquette collaborative %2$s de %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Vous avez retiré l'étiquette collaborative {systemtag} de {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s a supprimé l'étiquette collaborative %3$s de %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} a retiré l'étiquette collaborative {systemtag} de {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (restreint)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (invisible)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr ""
+"<strong>Les étiquettes collaboratives</strong> pour un fichier ont été "
+"modifiées"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "Étiquettes collaboratives "
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"Créer et modifier des étiquettes collaboratives. Ces étiquettes vont "
+"affecter tous les utilisateurs."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "Sélectionner une étiquette…"
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Nom"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Public"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Restreint"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "Invisible"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Aucun fichier"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Aucune entrée trouvée dans ce dossier"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Taille"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Modifié"

@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Daiva Cesynė <d.tautkute@gmail.com>, 2017\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/nextcloud/teams/64236/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Žymės"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Atnaujinti"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Sukurti"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Pasirinkti žymę..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Žymėti failai"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Pasirinkite žymes, pagal kurias filtruoti"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Nerasta jokių žymių"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Prašome pasirinkti žymes, pagal kurias filtruoti"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Pasirinktai žymei, nerasti jokie failai."
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "Pridėta sistemos žymė %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "Pridėta sistemos žymė {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s pridėjo sistemos žymę %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} pridėjo sistemos žymę {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Pašalinta sistemos žymė %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Pašalinta sistemos žymė {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s pašalino sistemos žymę %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} pašalino sistemos žymę {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Jūs sukūrėte sistemos žymę %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Jūs sukūrėte sistemos žymę {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s sukūrė sistemos žymę %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} sukūrė sistemos žymę {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Jūs ištrynėte sistemos žymę %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Jūs ištrynėte sistemos žymę {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s ištrynė sistemos žymę %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} ištrynė sistemos žymę {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Jūs atnaujinote sistemos žymę %2$s į %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "Jūs atnaujinote sistemos žymę {oldsystemtag} į {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s atnaujino sistemos žymę %3$s į %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr "{actor} atnaujino sistemos žymę {oldsystemtag} į {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Jūs pridėjote sistemos žymę %2$s prie %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Jūs pridėjote sistemos žymę {systemtag} prie {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s pridėjo sistemos žymę %3$s prie %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} pridėjo sistemos žymę {systemtag} prie {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Jūs pašalinote sistemos žymę %2$s nuo %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Jūs pašalinote sistemos žymę {systemtag} nuo {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s pašalino sistemos žymę %3$s nuo %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} pašalino sistemos žymę {systemtag} nuo {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (ribotas)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (nematomas)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "Failo <strong>sistemos žymės</strong> buvo pakeistos."
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "Bendradarbiavimo žymės"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"Sukurti ir redaguoti bendradarbiavimo žymes. Šios žymės įtakoja visus "
+"naudotojus."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "Pasirinkite žymę…"
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Viešai"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Apribotas"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "Nematoma"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Atstatyti"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Čia nėra failų"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Nerasta įrašų šiame aplanke"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Dydis"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Pakeista"

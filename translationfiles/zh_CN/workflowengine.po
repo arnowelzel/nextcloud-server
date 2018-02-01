@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fuchai li <13911872377@139.com>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/nextcloud/teams/64236/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "已保存"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "保存失败:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "文件MIME类型"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "是"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "不是"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "匹配"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "不匹配"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "例子: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "文件大小 (上传)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "小于"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "小于等于"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "大于等于"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "大于"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "文件系统标签"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "标记为"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "未标记为"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "选择标签..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "要求远程地址"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "匹配 IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "不匹配IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "匹配IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "不匹配IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "请求时间"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "之间"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "不在之间"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "开始"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "结束"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "选择时区"
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "请求URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "预定义URL"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "文件WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "请求用户代理"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "同步客户端"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android 客户端"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS 客户端"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "桌面客户端"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "用户组成员资格"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "是成员"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "不是成员"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "给定的运算符无效"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "给定的正则表达式无效"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "给定的文件大小无效"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "给定的标签ID无效"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "给定的IP范围无效"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "填写的IP范围不是有效的IPv4格式"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "填写的IP范围不是有效的IPv6格式"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "给定的时间范围无效"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "给定的开始时间无效"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "输入的截止时间无效"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "输入的群组不存在"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "检查%s是不可用或者不存在"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "操作 %s 不存在"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "操作 %s 不存在"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "操作 %s 无效"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "检查%s不存在"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "检查%s是不可用"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "检查#%s是不存在"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "工作流"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "打开文档"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "添加规则组"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "短规则说明"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "添加规则"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "重置"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "保存"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "保存中..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "加载中"
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "保存成功"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "文件MIME类型"

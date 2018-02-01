@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alexander Muravya <asm@virtalab.net>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/nextcloud/teams/64236/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: js/settings-admin.js:42
+msgid "Loading preview…"
+msgstr "Загружается предпросмотр…"
+
+#: js/settings-admin.js:58 lib/Controller/ThemingController.php:185
+#: lib/Controller/ThemingController.php:207
+#: lib/Controller/ThemingController.php:309
+#: lib/Controller/ThemingController.php:349
+#: tests/Controller/ThemingControllerTest.php:310
+msgid "Saved"
+msgstr "Сохранено"
+
+#: js/settings-admin.js:84
+msgid "Admin"
+msgstr "Администратор"
+
+#: js/settings-admin.js:94
+msgid "a safe home for all your data"
+msgstr "надёжный дом для всех ваших данных"
+
+#: lib/Controller/ThemingController.php:138
+msgid "The given name is too long"
+msgstr "Указанное название слишком длинное"
+
+#: lib/Controller/ThemingController.php:148
+msgid "The given web address is too long"
+msgstr "Указанный веб адрес слишком длинный"
+
+#: lib/Controller/ThemingController.php:158
+msgid "The given slogan is too long"
+msgstr "Указанный слоган слишком длинный"
+
+#: lib/Controller/ThemingController.php:168
+msgid "The given color is invalid"
+msgstr "Задан неправильный цвет"
+
+#: lib/Controller/ThemingController.php:217
+msgid "There is no error, the file uploaded with success"
+msgstr "Файл загружен успешно. Ошибок нет."
+
+#: lib/Controller/ThemingController.php:218
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"Размер загруженного файла превышает установленный предел upload_max_filesize"
+" в php.ini:"
+
+#: lib/Controller/ThemingController.php:219
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Размер загруженного файла превышает установленный предел MAX_FILE_SIZE в "
+"HTML-форме"
+
+#: lib/Controller/ThemingController.php:220
+msgid "The uploaded file was only partially uploaded"
+msgstr "Файл загружен лишь частично"
+
+#: lib/Controller/ThemingController.php:221
+msgid "No file was uploaded"
+msgstr "Не было загружено ни одного файла"
+
+#: lib/Controller/ThemingController.php:222
+msgid "Missing a temporary folder"
+msgstr "Отсутствует временный каталог"
+
+#: lib/Controller/ThemingController.php:223
+msgid "Failed to write file to disk."
+msgstr "Ошибка записи на диск."
+
+#: lib/Controller/ThemingController.php:224
+msgid "A PHP extension stopped the file upload."
+msgstr "PHP прервало загрузку файла."
+
+#: lib/Controller/ThemingController.php:227
+msgid "No file uploaded"
+msgstr "Нет загруженных файлов"
+
+#: lib/Controller/ThemingController.php:262
+#: lib/Controller/ThemingController.php:280
+msgid "Unsupported image type"
+msgstr "Неподдерживаемый тип изображения"
+
+#: lib/Settings/Admin.php:70
+msgid "You are already using a custom theme"
+msgstr "Вы уже используете настраиваемую тему"
+
+#: lib/Settings/Section.php:63 templates/settings-admin.php:30
+msgid "Theming"
+msgstr "Темы оформления"
+
+#: templates/settings-admin.php:31
+msgid ""
+"Theming makes it possible to easily customize the look and feel of your "
+"instance and supported clients. This will be visible for all users."
+msgstr ""
+"Темы оформление позволяют легко настроить внешний вид вашего сервера и "
+"поддерживаемых клиентов. Это будет доступно для всех пользователей."
+
+#: templates/settings-admin.php:43 templates/settings-admin.php:44
+msgid "Name"
+msgstr "Название"
+
+#: templates/settings-admin.php:45 templates/settings-admin.php:52
+#: templates/settings-admin.php:59 templates/settings-admin.php:66
+#: templates/settings-admin.php:75 templates/settings-admin.php:84
+msgid "Reset to default"
+msgstr "Сбросить изменения"
+
+#: templates/settings-admin.php:50
+msgid "Web address"
+msgstr "Веб адрес"
+
+#: templates/settings-admin.php:51
+msgid "Web address https://…"
+msgstr "Веб адрес  https://…"
+
+#: templates/settings-admin.php:57 templates/settings-admin.php:58
+msgid "Slogan"
+msgstr "Слоган"
+
+#: templates/settings-admin.php:64
+msgid "Color"
+msgstr "Цвет"
+
+#: templates/settings-admin.php:72
+msgid "Logo"
+msgstr "Логотип"
+
+#: templates/settings-admin.php:74
+msgid "Upload new logo"
+msgstr "Загрузить новый логотип"
+
+#: templates/settings-admin.php:81
+msgid "Login image"
+msgstr "Изображение экрана входа в систему"
+
+#: templates/settings-admin.php:83
+msgid "Upload new login background"
+msgstr "Загрузить новый фон для экрана входа в систему"
+
+#: templates/settings-admin.php:85
+msgid "Remove background image"
+msgstr "Убрать фоновое изображение "
+
+#: templates/settings-admin.php:96
+msgid ""
+"Install the Imagemagick PHP extension with support for SVG images to "
+"automatically generate favicons based on the uploaded logo and color."
+msgstr ""
+"Для автоматической генерации favicon на основе загруженного логотипа и цвета"
+" нужно установить PHP расширение Imagemagick  с поддержкой изображений SVG "
+
+#: templates/settings-admin.php:41 templates/settings-admin.php:48
+#: templates/settings-admin.php:55 templates/settings-admin.php:62
+#: templates/settings-admin.php:71 templates/settings-admin.php:80
+msgid "reset to default"
+msgstr "сброс до настроек по-умолчанию"
+
+#: templates/settings-admin.php:77
+msgid "Log in image"
+msgstr "Изображение экрана входа в систему"

@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Chris <biuro@cyberlabs.pl>, 2017\n"
+"Language-Team: Polish (https://www.transifex.com/nextcloud/teams/64236/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: appinfo/app.php:72 js/app.js:36 js/systemtagsinfoviewtoggleview.js:25
+msgid "Tags"
+msgstr "Etykiety"
+
+#: js/admin.js:119
+msgid "Update"
+msgstr "Uaktualnij"
+
+#: js/admin.js:124 templates/admin.php:56
+msgid "Create"
+msgstr "Utwórz"
+
+#: js/admin.js:134
+msgid "Select tag…"
+msgstr "Wybierz etykietę..."
+
+#: js/systemtagsfilelist.js:30
+msgid "Tagged files"
+msgstr "Otagowane pliki"
+
+#: js/systemtagsfilelist.js:88
+msgid "Select tags to filter by"
+msgstr "Wybierz tagi do filtru"
+
+#: js/systemtagsfilelist.js:156
+msgid "No tags found"
+msgstr "Nie znaleziono etykiet"
+
+#: js/systemtagsfilelist.js:213
+msgid "Please select tags to filter by"
+msgstr "Proszę wybrać tagi do filtrów"
+
+#: js/systemtagsfilelist.js:217
+msgid "No files found for the selected tags"
+msgstr "Nie znaleziono plików dla wybranych etykiet"
+
+#: lib/Activity/Provider.php:118
+#, php-format
+msgid "Added system tag %1$s"
+msgstr "Dodano etykietę systemową %1$s"
+
+#: lib/Activity/Provider.php:121
+msgid "Added system tag {systemtag}"
+msgstr "Dodano etykietę systemową  {systemtag}"
+
+#: lib/Activity/Provider.php:125
+#, php-format
+msgid "%1$s added system tag %2$s"
+msgstr "%1$s dodał/-a etykietę systemową %2$s"
+
+#: lib/Activity/Provider.php:129
+msgid "{actor} added system tag {systemtag}"
+msgstr "{actor} dodał/-a etykietę systemową {systemtag}"
+
+#: lib/Activity/Provider.php:136
+#, php-format
+msgid "Removed system tag %1$s"
+msgstr "Usunięto etykietę systemową %1$s"
+
+#: lib/Activity/Provider.php:139
+msgid "Removed system tag {systemtag}"
+msgstr "Usunięto etykietą systemową {systemtag}"
+
+#: lib/Activity/Provider.php:143
+#, php-format
+msgid "%1$s removed system tag %2$s"
+msgstr "%1$s usunął/-ęła etykietę systemową %2$s"
+
+#: lib/Activity/Provider.php:147
+msgid "{actor} removed system tag {systemtag}"
+msgstr "{actor} usunął/-ęła etykietę systemową {systemtag}"
+
+#: lib/Activity/Provider.php:176
+#, php-format
+msgid "You created system tag %1$s"
+msgstr "Utworzyłeś/-aś etykietę systemową %1$s"
+
+#: lib/Activity/Provider.php:179
+msgid "You created system tag {systemtag}"
+msgstr "Utworzyłeś/-aś etykietę systemową {systemtag}"
+
+#: lib/Activity/Provider.php:181
+#, php-format
+msgid "%1$s created system tag %2$s"
+msgstr "%1$s utworzył/-a etykiete systemową %2$s"
+
+#: lib/Activity/Provider.php:185
+msgid "{actor} created system tag {systemtag}"
+msgstr "{actor} utworzył/-a etykietę systemową {systemtag}"
+
+#: lib/Activity/Provider.php:189
+#, php-format
+msgid "You deleted system tag %1$s"
+msgstr "Skasowałeś/-aś etykietę systemową %1$s"
+
+#: lib/Activity/Provider.php:192
+msgid "You deleted system tag {systemtag}"
+msgstr "Usunąłeś-/ał etykietę systemową {systemtag}"
+
+#: lib/Activity/Provider.php:194
+#, php-format
+msgid "%1$s deleted system tag %2$s"
+msgstr "%1$s usunął/-ęła  etykietę systemą %2$s"
+
+#: lib/Activity/Provider.php:198
+msgid "{actor} deleted system tag {systemtag}"
+msgstr "{actor} usunął/-ęła etykietę systemową {systemtag}"
+
+#: lib/Activity/Provider.php:202
+#, php-format
+msgid "You updated system tag %2$s to %1$s"
+msgstr "Zaktualizowałeś/-aś etykietę systemową %2$s do %1$s"
+
+#: lib/Activity/Provider.php:206
+msgid "You updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"Zaktualizowałeś/-aś etykietę systemową {oldsystemtag} do {newsystemtag}"
+
+#: lib/Activity/Provider.php:208
+#, php-format
+msgid "%1$s updated system tag %3$s to %2$s"
+msgstr "%1$s zaktualizował/-a etykietę systemową %3$s do %2$s"
+
+#: lib/Activity/Provider.php:213
+msgid "{actor} updated system tag {oldsystemtag} to {newsystemtag}"
+msgstr ""
+"{actor} zaktualizował/-a etykietę systemową {oldsystemtag} do {newsystemtag}"
+
+#: lib/Activity/Provider.php:217
+#, php-format
+msgid "You added system tag %2$s to %1$s"
+msgstr "Dodałeś/-aś etykietę systemową %2$s do %1$s"
+
+#: lib/Activity/Provider.php:221
+msgid "You added system tag {systemtag} to {file}"
+msgstr "Dodałeś/-aś etykietę systemową {systemtag} do {file}"
+
+#: lib/Activity/Provider.php:223
+#, php-format
+msgid "%1$s added system tag %3$s to %2$s"
+msgstr "%1$s dodał/-a etykiete systemową %3$s do %2$s"
+
+#: lib/Activity/Provider.php:228
+msgid "{actor} added system tag {systemtag} to {file}"
+msgstr "{actor} dodał/-a etykiete systemową {systemtag} do {file}"
+
+#: lib/Activity/Provider.php:232
+#, php-format
+msgid "You removed system tag %2$s from %1$s"
+msgstr "Usunąłeś/-ęłaś etykiete systemową %2$s z %1$s"
+
+#: lib/Activity/Provider.php:236
+msgid "You removed system tag {systemtag} from {file}"
+msgstr "Usunąłeś/-ęłaś etykietę systemową {systemtag} z {file}"
+
+#: lib/Activity/Provider.php:238
+#, php-format
+msgid "%1$s removed system tag %3$s from %2$s"
+msgstr "%1$s usunął/-ęła etykietę systemową %3$s z %2$s"
+
+#: lib/Activity/Provider.php:243
+msgid "{actor} removed system tag {systemtag} from {file}"
+msgstr "{actor} usunął/-ęła etykietę systemową {systemtag} z {file}"
+
+#: lib/Activity/Provider.php:326
+#, php-format
+msgid "%s (restricted)"
+msgstr "%s (ograniczony)"
+
+#: lib/Activity/Provider.php:328
+#, php-format
+msgid "%s (invisible)"
+msgstr "%s (niewidoczny)"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>System tags</strong> for a file have been modified"
+msgstr "<strong>Etykieta systemowa</strong> dla pliku została zmieniona"
+
+#: templates/admin.php:35
+msgid "Collaborative tags"
+msgstr "Wspólne etykiety"
+
+#: templates/admin.php:36
+msgid "Create and edit collaborative tags. These tags affect all users."
+msgstr ""
+"Utwórz i edytuj tagi współpracy. Te tagi mają wpływ na wszystkich "
+"użytkowników."
+
+#: templates/admin.php:38
+msgid "Select tag …"
+msgstr "Wybierz tag ..."
+
+#: templates/admin.php:42 templates/list.php:21
+msgid "Name"
+msgstr "Nazwa"
+
+#: templates/admin.php:45
+msgid "Delete"
+msgstr "Usuń"
+
+#: templates/admin.php:51
+msgid "Public"
+msgstr "Publiczne"
+
+#: templates/admin.php:52
+msgid "Restricted"
+msgstr "Ograniczone"
+
+#: templates/admin.php:53
+msgid "Invisible"
+msgstr "Niewidoczne"
+
+#: templates/admin.php:57
+msgid "Reset"
+msgstr "Reset"
+
+#: templates/list.php:6
+msgid "No files in here"
+msgstr "Brak plików"
+
+#: templates/list.php:12
+msgid "No entries found in this folder"
+msgstr "Brak wpisów w tym folderze"
+
+#: templates/list.php:25
+msgid "Size"
+msgstr "Rozmiar"
+
+#: templates/list.php:28
+msgid "Modified"
+msgstr "Modyfikacja"

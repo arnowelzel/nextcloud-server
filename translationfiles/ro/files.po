@@ -1,0 +1,699 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Gabriel Ioan <gabi@years.ro>, 2016\n"
+"Language-Team: Romanian (https://www.transifex.com/nextcloud/teams/64236/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: /app/apps/files/ajax/list.php:88 /app/apps/files/js/filelist.js:1758
+msgid "Storage is temporarily not available"
+msgstr "Spațiu de stocare este indisponibil temporar"
+
+#: /app/apps/files/ajax/list.php:96
+msgid "Storage invalid"
+msgstr "Spațiu de stocare invalid"
+
+#: /app/apps/files/ajax/list.php:104
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+
+#: /app/apps/files/appinfo/app.php:48
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:147
+msgid "All files"
+msgstr "Toate fișierele"
+
+#: /app/apps/files/appinfo/app.php:58 /app/apps/files/js/recentfilelist.js:36
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:158
+msgid "Recent"
+msgstr "Recente"
+
+#: /app/apps/files/js/app.js:57
+msgid "File could not be found"
+msgstr "Fișierul nu a fost găsit"
+
+#: /app/apps/files/js/breadcrumb.js:225
+msgid "Home"
+msgstr "Acasă"
+
+#: /app/apps/files/js/detailsview.js:114
+msgid "Close"
+msgstr "Închide"
+
+#: /app/apps/files/js/favoritesfilelist.js:31
+#: /app/apps/files/lib/Activity/Filter/Favorites.php:80
+#: /app/apps/files/lib/Controller/ViewController.php:168
+msgid "Favorites"
+msgstr "Favorite"
+
+#: /app/apps/files/js/file-upload.js:516 /app/apps/files/js/filelist.js:2473
+#: /app/apps/files/js/filelist.js:2491 /app/apps/files/js/filelist.js:2497
+msgid "Could not create folder \"{dir}\""
+msgstr "Nu s-a putut crea directorul \"{dir}\""
+
+#: /app/apps/files/js/file-upload.js:599
+msgid "Upload cancelled."
+msgstr "Încărcare anulată."
+
+#: /app/apps/files/js/file-upload.js:879
+msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
+msgstr ""
+"Nu se poate încărca {filename} deoarece este un director sau are mărimea de "
+"0 octeți"
+
+#: /app/apps/files/js/file-upload.js:898
+msgid ""
+"Not enough free space, you are uploading {size1} but only {size2} is left"
+msgstr ""
+"Spațiu liber insuficient, încărcați {size1} însă doar {size2} disponibil "
+"rămas"
+
+#: /app/apps/files/js/file-upload.js:970
+msgid "Target folder \"{dir}\" does not exist any more"
+msgstr "Directorul \"{dir}\" nu mai există"
+
+#: /app/apps/files/js/file-upload.js:974
+#: /app/apps/files/js/file-upload.js:1185
+msgid "Not enough free space"
+msgstr "Spațiu insuficient"
+
+#: /app/apps/files/js/file-upload.js:1042
+#: /app/apps/files/js/file-upload.js:1094 /app/apps/files/templates/list.php:5
+msgid "Uploading …"
+msgstr "Încărcare..."
+
+#: /app/apps/files/js/file-upload.js:1044 /app/apps/files/templates/list.php:5
+msgid "…"
+msgstr "..."
+
+#: /app/apps/files/js/file-upload.js:1099
+msgid "{loadedSize} of {totalSize} ({bitrate})"
+msgstr "{loadedSize} din {totalSize} ({bitrate})"
+
+#: /app/apps/files/js/file-upload.js:1188
+msgid "Target folder does not exist any more"
+msgstr "Directorul destinație nu mai există"
+
+#: /app/apps/files/js/file-upload.js:1190
+msgid "Error when assembling chunks, status code {status}"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:384
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: /app/apps/files/js/fileactions.js:586 /app/apps/files/templates/list.php:60
+msgid "Download"
+msgstr "Descarcă"
+
+#: /app/apps/files/js/fileactions.js:616
+msgid "Rename"
+msgstr "Redenumește"
+
+#: /app/apps/files/js/fileactions.js:628 /app/apps/files/templates/list.php:56
+msgid "Move or copy"
+msgstr "Mută sau copiază"
+
+#: /app/apps/files/js/fileactions.js:634 /app/apps/files/js/filelist.js:801
+msgid "Target folder"
+msgstr "Directorul destinație"
+
+#: /app/apps/files/js/fileactions.js:654 /app/apps/files/templates/list.php:64
+#: /app/apps/files/templates/list.php:75
+#: /app/apps/files/templates/recentlist.php:32
+#: /app/apps/files/templates/simplelist.php:31
+msgid "Delete"
+msgstr "Șterge"
+
+#: /app/apps/files/js/fileactions.js:656
+msgid "Disconnect storage"
+msgstr "Deconectează stocarea"
+
+#: /app/apps/files/js/fileactions.js:658
+msgid "Unshare"
+msgstr "Nu mai partaja"
+
+#: /app/apps/files/js/fileinfomodel.js:115
+msgid "Could not load info for file \"{file}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:47
+#: /app/apps/files/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Files"
+msgstr "Fișiere"
+
+#: /app/apps/files/js/filelist.js:407
+msgid "Details"
+msgstr "Detalii"
+
+#: /app/apps/files/js/filelist.js:1238
+msgid "Select"
+msgstr "Alege"
+
+#: /app/apps/files/js/filelist.js:1332 /app/apps/files/js/filesummary.js:234
+#: /app/apps/files/js/filesummary.js:271
+msgid "Pending"
+msgstr "În așteptare"
+
+#: /app/apps/files/js/filelist.js:1354
+msgid "Unable to determine date"
+msgstr "Nu s-a putut determina data"
+
+#: /app/apps/files/js/filelist.js:1739
+msgid "This operation is forbidden"
+msgstr "Operațiunea este interzisă"
+
+#: /app/apps/files/js/filelist.js:1747
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+"Acest director nu este disponibil, te rugăm verifică logurile sau "
+"contactează un administrator"
+
+#: /app/apps/files/js/filelist.js:2087
+msgid "Could not move \"{file}\", target exists"
+msgstr ""
+"Nu s-a putut muta fișierul \"{file}\", există deja un altul cu același nume "
+"în directorul destinație"
+
+#: /app/apps/files/js/filelist.js:2091
+msgid "Could not move \"{file}\""
+msgstr "Nu s-a putut muta fișierul \"{file}\""
+
+#: /app/apps/files/js/filelist.js:2152
+msgid "Could not copy \"{file}\", target exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2156
+msgid "Could not copy \"{file}\""
+msgstr "Nu s-a putut copia \"{file}\""
+
+#: /app/apps/files/js/filelist.js:2180 /app/apps/files/js/filelist.js:2187
+msgid "Copied {origin} inside {destination}"
+msgstr "S-a copiat {origin} în {destination}"
+
+#: /app/apps/files/js/filelist.js:2194
+msgid "Copied {origin} and {nbfiles} other files inside {destination}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2263 /app/apps/files/js/newfilemenu.js:150
+msgid "{newName} already exists"
+msgstr "{newName} există deja"
+
+#: /app/apps/files/js/filelist.js:2318
+msgid "Could not rename \"{fileName}\", it does not exist any more"
+msgstr "Nu s-a putut redenumi \"{fileName}\", fișierul nu mai există"
+
+#: /app/apps/files/js/filelist.js:2327
+msgid ""
+"The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+"Numele \"{targetName}\" este deja folosit în directorul \"{dir}\". Alege un "
+"nume diferit."
+
+#: /app/apps/files/js/filelist.js:2338
+msgid "Could not rename \"{fileName}\""
+msgstr "Nu s-a putut redenumi \"{fileName}\""
+
+#: /app/apps/files/js/filelist.js:2423 /app/apps/files/js/filelist.js:2434
+#: /app/apps/files/js/filelist.js:2554
+msgid "Could not create file \"{file}\""
+msgstr "Nu s-a putut crea fișierul \"{file}\""
+
+#: /app/apps/files/js/filelist.js:2430
+msgid "Could not create file \"{file}\" because it already exists"
+msgstr ""
+"Nu s-a putut crea fișierul \"{file}\" deoarece există deja unul cu același "
+"nume"
+
+#: /app/apps/files/js/filelist.js:2484
+msgid "Could not create folder \"{dir}\" because it already exists"
+msgstr ""
+"Nu s-a putut crea directorul \"{dir}\" deoarece există deja unul cu același "
+"nume"
+
+#: /app/apps/files/js/filelist.js:2664
+msgid "Error deleting file \"{fileName}\"."
+msgstr "Eroare la ștergerea fișierului \"{fileName}\"."
+
+#: /app/apps/files/js/filelist.js:2800
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2841
+#: /app/apps/files/js/mainfileinfodetailview.js:188
+#: /app/apps/files/templates/list.php:52
+#: /app/apps/files/templates/recentlist.php:20
+#: /app/apps/files/templates/simplelist.php:22
+msgid "Name"
+msgstr "Nume"
+
+#: /app/apps/files/js/filelist.js:2842
+#: /app/apps/files/js/mainfileinfodetailview.js:193
+#: /app/apps/files/templates/list.php:70
+#: /app/apps/files/templates/recentlist.php:25
+#: /app/apps/files/templates/simplelist.php:26
+msgid "Size"
+msgstr "Mărime"
+
+#: /app/apps/files/js/filelist.js:2843
+#: /app/apps/files/js/mainfileinfodetailview.js:196
+#: /app/apps/files/templates/list.php:73
+#: /app/apps/files/templates/recentlist.php:29
+#: /app/apps/files/templates/simplelist.php:29
+msgid "Modified"
+msgstr "Modificat"
+
+#: /app/apps/files/js/filelist.js:2851 /app/apps/files/js/filesummary.js:231
+msgid "%n folder"
+msgid_plural "%n folders"
+msgstr[0] "%n director"
+msgstr[1] "%n directoare"
+msgstr[2] "%n directoare"
+
+#: /app/apps/files/js/filelist.js:2852 /app/apps/files/js/filesummary.js:232
+msgid "%n file"
+msgid_plural "%n files"
+msgstr[0] "%n fișier"
+msgstr[1] "%n fișiere"
+msgstr[2] "%n fișiere"
+
+#: /app/apps/files/js/filelist.js:2859 /app/apps/files/js/filesummary.js:207
+msgid "{dirs} and {files}"
+msgstr "{dirs} și {files}"
+
+#: /app/apps/files/js/filelist.js:2867 /app/apps/files/js/filesummary.js:233
+msgid "including %n hidden"
+msgid_plural "including %n hidden"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: /app/apps/files/js/filelist.js:2955 /app/apps/files/templates/list.php:14
+msgid "You don’t have permission to upload or create files here"
+msgstr "Nu aveți permisiunea de a încărca sau crea fișiere aici"
+
+#: /app/apps/files/js/filelist.js:3052
+msgid "Uploading %n file"
+msgid_plural "Uploading %n files"
+msgstr[0] "Se încarcă %n fișier."
+msgstr[1] "Se încarcă %n fișiere."
+msgstr[2] "Se încarcă %n fișiere."
+
+#: /app/apps/files/js/filelist.js:3208
+msgid "New"
+msgstr "Nou"
+
+#: /app/apps/files/js/files.js:100
+msgid "{used} of {quota} used"
+msgstr "{used} din {quota} folosiți"
+
+#: /app/apps/files/js/files.js:102
+msgid "{used} used"
+msgstr "{used} folosiți"
+
+#: /app/apps/files/js/files.js:134
+msgid "\"{name}\" is an invalid file name."
+msgstr "\"{name}\" este un nume de fișier nevalid."
+
+#: /app/apps/files/js/files.js:136
+msgid "File name cannot be empty."
+msgstr "Numele fișierului nu poate rămâne gol."
+
+#: /app/apps/files/js/files.js:138
+msgid "\"/\" is not allowed inside a file name."
+msgstr ""
+
+#: /app/apps/files/js/files.js:140
+msgid "\"{name}\" is not an allowed filetype"
+msgstr "\"{name}\" "
+
+#: /app/apps/files/js/files.js:155
+msgid ""
+"Storage of {owner} is full, files can not be updated or synced anymore!"
+msgstr ""
+"Spațiul de stocare pentru {owner} este plin, fișierele nu mai pot fi "
+"incărcate sau sincronizate!"
+
+#: /app/apps/files/js/files.js:161
+msgid "Your storage is full, files can not be updated or synced anymore!"
+msgstr ""
+"Spațiul de stocare este plin, fișierele nu mai pot fi actualizate sau "
+"sincronizate!"
+
+#: /app/apps/files/js/files.js:168
+msgid "Storage of {owner} is almost full ({usedSpacePercent}%)"
+msgstr ""
+"Spațiul de stocare pentru {owner} este aproape plin ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/files.js:179
+msgid "Your storage is almost full ({usedSpacePercent}%)"
+msgstr "Spațiul de stocare este aproape plin ({usedSpacePercent}%)"
+
+#: /app/apps/files/js/filesummary.js:258
+msgid "matches '{filter}'"
+msgid_plural "match '{filter}'"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: /app/apps/files/js/gotoplugin.js:36
+msgid "View in folder"
+msgstr ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:100
+msgid "Copied!"
+msgstr "S-a copiat!"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:106
+#: /app/apps/files/js/mainfileinfodetailview.js:204
+msgid ""
+"Copy direct link (only works for users who have access to this file/folder)"
+msgstr ""
+"Copiază link direct (funcționeză numai pentru utilizatorii care au acces la "
+"acest fișier/director)"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:190
+msgid "Path"
+msgstr "Cale"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:195
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n octet"
+msgstr[1] "%n octeți"
+msgstr[2] "%n octeți"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Favorited"
+msgstr "Adăugate la favorite"
+
+#: /app/apps/files/js/mainfileinfodetailview.js:201
+msgid "Favorite"
+msgstr "Favorit"
+
+#: /app/apps/files/js/newfilemenu.js:68 /app/apps/files/js/newfilemenu.js:69
+msgid "New folder"
+msgstr "Un nou dosar"
+
+#: /app/apps/files/js/newfilemenu.js:227
+msgid "Upload file"
+msgstr "Încarcă fișier"
+
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Not favorited"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:96
+msgid "Remove from favorites"
+msgstr "Șterge din favorite"
+
+#: /app/apps/files/js/tagsplugin.js:103
+msgid "Add to favorites"
+msgstr "Adaugă la favorite"
+
+#: /app/apps/files/js/tagsplugin.js:259
+msgid "An error occurred while trying to update the tags"
+msgstr "A apărut o eroare în timpul actualizării etichetelor"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:102
+msgid "Added to favorites"
+msgstr "Adaugat la favorite"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:109
+msgid "Removed from favorites"
+msgstr "Șters din favorite"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:132
+msgid "You added {file} to your favorites"
+msgstr "Ai adaugat {file} în favorite"
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:139
+msgid "You removed {file} from your favorites"
+msgstr "Ai șters {file} din favorite"
+
+#: /app/apps/files/lib/Activity/Filter/FileChanges.php:61
+msgid "File changes"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:115
+msgid "Created by {user}"
+msgstr "Creat de {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:122
+msgid "Changed by {user}"
+msgstr "Modificat de {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:129
+msgid "Deleted by {user}"
+msgstr "Șters de {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:136
+msgid "Restored by {user}"
+msgstr "Restaurat de {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:138
+msgid "Renamed by {user}"
+msgstr "Redenumit de {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:145
+msgid "Moved by {user}"
+msgstr "Mutat de {user}"
+
+#: /app/apps/files/lib/Activity/Provider.php:157
+#: /app/apps/files/lib/Activity/Provider.php:262
+msgid "\"remote user\""
+msgstr "\"utilizator la distanță\""
+
+#: /app/apps/files/lib/Activity/Provider.php:176
+msgid "You created {file}"
+msgstr "Ai creat {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:183
+msgid "{user} created {file}"
+msgstr "{user} a creat {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:190
+msgid "{file} was created in a public folder"
+msgstr "{file} a fost creat într-un director public "
+
+#: /app/apps/files/lib/Activity/Provider.php:197
+msgid "You changed {file}"
+msgstr "Ai modificat {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:204
+msgid "{user} changed {file}"
+msgstr "{user} a modificat {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:211
+msgid "You deleted {file}"
+msgstr "Ai șters {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:218
+msgid "{user} deleted {file}"
+msgstr "{user} a șters {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:225
+msgid "You restored {file}"
+msgstr "Ai restaurat {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:227
+msgid "{user} restored {file}"
+msgstr "{user} a restaurat {file}"
+
+#: /app/apps/files/lib/Activity/Provider.php:229
+msgid "You renamed {oldfile} to {newfile}"
+msgstr "Ai redenumit {oldfile} în {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:236
+msgid "{user} renamed {oldfile} to {newfile}"
+msgstr "{user} a redenumit {oldfile} în {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:243
+msgid "You moved {oldfile} to {newfile}"
+msgstr "Ai mutat{oldfile} în {newfile}"
+
+#: /app/apps/files/lib/Activity/Provider.php:250
+msgid "{user} moved {oldfile} to {newfile}"
+msgstr "{user} a mutat {oldfile} în {newfile}"
+
+#: /app/apps/files/lib/Activity/Settings/FavoriteAction.php:55
+msgid ""
+"A file has been added to or removed from your <strong>favorites</strong>"
+msgstr "Un fișier a fost adăugat în sau șters din <strong>favorites</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileChanged.php:55
+msgid ""
+"A file or folder has been <strong>changed</strong> or "
+"<strong>renamed</strong>"
+msgstr ""
+"Un fișier sau director a fost <strong>modificat</strong> sau "
+"<strong>redenumit</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileCreated.php:55
+msgid "A new file or folder has been <strong>created</strong>"
+msgstr "Un nou fișier sau director a fost <strong>creat</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileDeleted.php:55
+msgid "A file or folder has been <strong>deleted</strong>"
+msgstr "Un fișier sau director a fost <strong>șters</strong>"
+
+#: /app/apps/files/lib/Activity/Settings/FileFavorite.php:55
+msgid ""
+"Limit notifications about creation and changes to your <strong>favorite "
+"files</strong> <em>(Stream only)</em>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileRestored.php:55
+msgid "A file or folder has been <strong>restored</strong>"
+msgstr "Un fișier sau dosar a fost <strong>restaurat</strong>"
+
+#: /app/apps/files/lib/Controller/ViewController.php:181
+msgid "Unlimited"
+msgstr ""
+
+#: /app/apps/files/lib/Helper.php:53
+#, php-format
+msgid "Upload (max. %s)"
+msgstr "Încarcă (max. %s)"
+
+#: /app/apps/files/templates/admin.php:4
+msgid "File handling"
+msgstr "Manipulare fișiere"
+
+#: /app/apps/files/templates/admin.php:5
+msgid "Maximum upload size"
+msgstr "Dimensiune maximă admisă la încărcare"
+
+#: /app/apps/files/templates/admin.php:10
+msgid "max. possible: "
+msgstr "max. posibil:"
+
+#: /app/apps/files/templates/admin.php:15
+msgid "Save"
+msgstr "Salvează"
+
+#: /app/apps/files/templates/admin.php:16
+msgid "With PHP-FPM it might take 5 minutes for changes to be applied."
+msgstr "Cu PHP-FPM poate dura 5 minute pentru a aplica schimbările.."
+
+#: /app/apps/files/templates/admin.php:18
+msgid "Missing permissions to edit from here."
+msgstr "Nu ai permisiuni pentru a edita aici."
+
+#: /app/apps/files/templates/appnavigation.php:21
+#, php-format
+msgid "%s of %s used"
+msgstr "%s din %s folosiți"
+
+#: /app/apps/files/templates/appnavigation.php:23
+#, php-format
+msgid "%s used"
+msgstr "%s folosiți"
+
+#: /app/apps/files/templates/appnavigation.php:35
+msgid "Settings"
+msgstr "Setări"
+
+#: /app/apps/files/templates/appnavigation.php:41
+msgid "Show hidden files"
+msgstr "Arată fișierele ascunse"
+
+#: /app/apps/files/templates/appnavigation.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files/templates/appnavigation.php:45
+#, php-format
+msgid ""
+"Use this address to <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">access your Files via WebDAV</a>"
+msgstr ""
+"Folosește această adresă <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">pentru a accesa Fișierele prin WebDAV</a>"
+
+#: /app/apps/files/templates/list.php:8
+msgid "Cancel upload"
+msgstr "Anulează încărcarea"
+
+#: /app/apps/files/templates/list.php:31
+msgid "No files in here"
+msgstr "Niciun fișier aici"
+
+#: /app/apps/files/templates/list.php:32
+msgid "Upload some content or sync with your devices!"
+msgstr "Încarcă ceva conținut sau sincronizează cu dispozitivele tale!"
+
+#: /app/apps/files/templates/list.php:37
+#: /app/apps/files/templates/recentlist.php:10
+#: /app/apps/files/templates/simplelist.php:13
+msgid "No entries found in this folder"
+msgstr "Niciun element găsit în acest director"
+
+#: /app/apps/files/templates/list.php:47
+msgid "Select all"
+msgstr "Selectează tot"
+
+#: /app/apps/files/templates/list.php:91
+msgid "Upload too large"
+msgstr "Fișierul încărcat este prea mare"
+
+#: /app/apps/files/templates/list.php:93
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+"Fișierele pe care încerci să le încarci depășesc limita de încărcare maximă "
+"admisă pe acest server."
+
+#: /app/apps/files/templates/simplelist.php:5
+msgid "No favorites yet"
+msgstr "Nu aveți favorite încă"
+
+#: /app/apps/files/templates/simplelist.php:6
+msgid "Files and folders you mark as favorite will show up here"
+msgstr ""
+"FIșierele și directoarele pe care le marchezi ca favorite vor apărea aici"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:180
+msgid "Shared with you"
+msgstr "Partajat cu tine"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:191
+msgid "Shared with others"
+msgstr "Partajat cu alții"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:202
+msgid "Shared by link"
+msgstr "Partajat prin link"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:213
+msgid "Tags"
+msgstr "Etichete"
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:224
+msgid "Deleted files"
+msgstr "Fișiere șterse"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:111
+msgid "Text file"
+msgstr "Fișier text"
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:112
+msgid "New text file.txt"
+msgstr "New text file.txt"

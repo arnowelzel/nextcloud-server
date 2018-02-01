@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nafie Shehu <nafie.shehu@gmail.com>, 2017\n"
+"Language-Team: Albanian (https://www.transifex.com/nextcloud/teams/64236/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "E ruajtur"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Ruajtja dështoi:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Skedari i tipit MIME"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "është"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "nuk është"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "përputhje"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "nuk përputhet"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Për shembull: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Madhësia e skedarit (ngarko)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "më pak"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "më pak ose e barabartë"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "më e madhe ose e barabartë"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "më e madhe"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Etiketë e skedarit të sistemit"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "është e etiketuar me"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "nuk është e etiketuar me"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Zgjidh etiketën..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Adresa e kërkesës remote"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "përputhet me IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "nuk përputhet me IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "përputhet me IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "nuk përputhet me IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Koha e kërkesës"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "midis"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "nuk është midis"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Fillim"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Mbarim"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Zgjidh brezin kohorë"
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Kërko URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "URL të paracaktuara"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Skedarët WebDAV "
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Kërko agjentin përdorues"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Klient të sinkronizuar"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Klient Android"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "Klient IOS"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Klient Desktop"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Anëtarësia në grupet e përdoruesit"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "është anëtarë i"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "nuk është anëtarë i"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Operatori i dhënë nuk është i vlefshëm"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Shprehja e rregullt e dhënë është e pavlefshme"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Madhësia e dhënë e skedarit është e pavlefshme"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Id-ja e dhënë e etiketës është e pavlefshme"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Rangu i dhënë i IP është i pavlefshëm"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Rangu i dhënë i IP nuk është i vlefshëm për IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Rangu i dhënë i IP nuk është i vlefshëm për IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Hapsira kohore e dhënë është e pavlefshme"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Koha e fillimit është e pavlefshme"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Koha e mbarimit është e pavlefshme"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Grupi i dhënë nuk ekziston"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Kontrolli %s është i pavlefshëm ose nuk ekziston"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Operacioni #%s nuk ekziston"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Operacioni %s nuk ekziston"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Operacioni %s është i pavlefshëm"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Kontrolli %s nuk ekziston"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Kontrolli %s është i pavlefshëm"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Kontrolli #%s nuk ekziston"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Rrjedha e punëve"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Dokumentacion i hapur"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Shto rregull grupi"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Përshkrim i shkurtër i rregullit"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Shto rregull"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Rivendos"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Ruaj"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Duke u ruajtur..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Po ngarkohet..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "U ruajt me sukses"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Tipi mime i skedarëve"

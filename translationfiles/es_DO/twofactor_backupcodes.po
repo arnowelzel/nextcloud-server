@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Javier Llamas <s_llamasj@globalhitss.com>, 2017\n"
+"Language-Team: Spanish (Dominican Republic) (https://www.transifex.com/nextcloud/teams/64236/es_DO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_DO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/settingsview.js:11
+msgid "Generate backup codes"
+msgstr "Generar los códigos de respaldo"
+
+#: js/settingsview.js:15
+msgid ""
+"Backup codes have been generated. {{used}} of {{total}} codes have been "
+"used."
+msgstr ""
+"Los códigos de respaldo han sido generados. Se han usado {{used}} de "
+"{{total}} códigos."
+
+#: js/settingsview.js:17
+msgid ""
+"These are your backup codes. Please save and/or print them as you will not "
+"be able to read the codes again later"
+msgstr ""
+"Estos son tus códigos de respaldo. Por favor resguárdalos y/o imprímelos ya "
+"que no podrás leerlos otra vez después."
+
+#: js/settingsview.js:23
+msgid "Save backup codes"
+msgstr "Guardar códigos de respaldo"
+
+#: js/settingsview.js:24
+msgid "Print backup codes"
+msgstr "Imprimir códigos de respaldo"
+
+#: js/settingsview.js:28
+msgid "Regenerate backup codes"
+msgstr "Regenerar códigos de respaldo"
+
+#: js/settingsview.js:31
+msgid ""
+"If you regenerate backup codes, you automatically invalidate old codes."
+msgstr ""
+"Si regeneras los códigos de respaldo, automáticamente invalidarás los "
+"anteriores. "
+
+#: js/settingsview.js:184
+msgid "An error occurred while generating your backup codes"
+msgstr "Se presentó un error al generar tus códigos de respaldo. "
+
+#: js/settingsview.js:196 js/settingsview.js:197
+msgid "Nextcloud backup codes"
+msgstr "Códigos de respaldo de Nextcloud"
+
+#: lib/Activity/Provider.php:63
+msgid "You created two-factor backup codes for your account"
+msgstr "Creaste códigos de respaldo de dos factores para tu cuenta"
+
+#: lib/Provider/BackupCodesProvider.php:74 templates/challenge.php:6
+msgid "Backup code"
+msgstr "Código de respaldo"
+
+#: lib/Provider/BackupCodesProvider.php:83
+msgid "Use backup code"
+msgstr "Usa el código de respaldo"
+
+#: templates/personal.php:10
+msgid "Second-factor backup codes"
+msgstr "Códigos de respaldo del segundo factor"

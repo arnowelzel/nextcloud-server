@@ -1,0 +1,1171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: gas_85, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/nextcloud/teams/64236/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: /app/lib/base.php:249 /app/lib/base.php:256
+msgid "Cannot write into \"config\" directory!"
+msgstr "Запись в каталог «config» невозможна!"
+
+#: /app/lib/base.php:250
+msgid ""
+"This can usually be fixed by giving the webserver write access to the config"
+" directory"
+msgstr ""
+"Обычно это можно исправить, предоставив веб-серверу права на запись в "
+"каталог конфигурации"
+
+#: /app/lib/base.php:252
+#, php-format
+msgid "See %s"
+msgstr "Смотрите %s"
+
+#: /app/lib/base.php:257 /app/lib/private/legacy/util.php:752
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the config"
+" directory. See %s"
+msgstr ""
+"Обычно это можно исправить, предоставив веб-серверу права на запись в "
+"каталог конфигурации. Смотрите %s"
+
+#: /app/lib/base.php:386
+msgid ""
+"The files of the app %$1s were not replaced correctly. Make sure it is a "
+"version compatible with the server."
+msgstr ""
+"Файлы приложения %$1s не заменены корректно. Проверьте что его версия "
+"совместима с версией сервера."
+
+#: /app/lib/base.php:742
+msgid "Sample configuration detected"
+msgstr "Обнаружена конфигурация из примера"
+
+#: /app/lib/base.php:743
+msgid ""
+"It has been detected that the sample configuration has been copied. This can"
+" break your installation and is unsupported. Please read the documentation "
+"before performing changes on config.php"
+msgstr ""
+"Была обнаружена конфигурация из примера. Такая конфигурация не "
+"поддерживается и может повредить вашей системе. Прочтите документацию перед "
+"внесением изменений в файл config.php"
+
+#: /app/lib/private/Activity/EventMerger.php:205
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s и %2$s"
+
+#: /app/lib/private/Activity/EventMerger.php:211
+#, php-format
+msgid "%1$s, %2$s and %3$s"
+msgstr "%1$s, %2$s и %3$s"
+
+#: /app/lib/private/Activity/EventMerger.php:217
+#, php-format
+msgid "%1$s, %2$s, %3$s and %4$s"
+msgstr "%1$s, %2$s, %3$s и %4$s"
+
+#: /app/lib/private/Activity/EventMerger.php:223
+#, php-format
+msgid "%1$s, %2$s, %3$s, %4$s and %5$s"
+msgstr "%1$s, %2$s, %3$s, %4$s и %5$s"
+
+#: /app/lib/private/App/AppStore/Bundles/EducationBundle.php:32
+msgid "Education Edition"
+msgstr "Образовательная редакция"
+
+#: /app/lib/private/App/AppStore/Bundles/EnterpriseBundle.php:32
+msgid "Enterprise bundle"
+msgstr "Корпоративный пакет"
+
+#: /app/lib/private/App/AppStore/Bundles/GroupwareBundle.php:32
+msgid "Groupware bundle"
+msgstr "Пакет для групп"
+
+#: /app/lib/private/App/AppStore/Bundles/SocialSharingBundle.php:32
+msgid "Social sharing bundle"
+msgstr "Пакет для соц. сетей"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:143
+#, php-format
+msgid "PHP %s or higher is required."
+msgstr "Требуется PHP версии %s или выше."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:149
+#, php-format
+msgid "PHP with a version lower than %s is required."
+msgstr "Требуется PHP версии ниже %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:155
+#, php-format
+msgid "%sbit or higher PHP required."
+msgstr "Требуется PHP с разрядностью %s бит или более."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:183
+#, php-format
+msgid "Following databases are supported: %s"
+msgstr "Поддерживаются следующие СУБД: %s"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:212
+#, php-format
+msgid "The command line tool %s could not be found"
+msgstr "Утилита командной строки %s не найдена"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:239
+#, php-format
+msgid "The library %s is not available."
+msgstr "Библиотека %s недоступна."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:247
+#, php-format
+msgid ""
+"Library %s with a version higher than %s is required - available version %s."
+msgstr "Требуется библиотека %s версии не меньше %s, установлена версия %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:254
+#, php-format
+msgid ""
+"Library %s with a version lower than %s is required - available version %s."
+msgstr "Требуется библиотека %s версии не выше %s, установлена версия %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:286
+#, php-format
+msgid "Following platforms are supported: %s"
+msgstr "Поддерживаются следующие платформы: %s"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:319
+#, php-format
+msgid "Server version %s or higher is required."
+msgstr "Требуется сервер версии %s или выше."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:324
+#, php-format
+msgid "Server version %s or lower is required."
+msgstr "Требуется сервер версии %s или ниже."
+
+#: /app/lib/private/Avatar.php:144
+msgid "Unknown filetype"
+msgstr "Неизвестный тип файла"
+
+#: /app/lib/private/Avatar.php:148
+msgid "Invalid image"
+msgstr "Изображение повреждено"
+
+#: /app/lib/private/Avatar.php:152
+msgid "Avatar image is not square"
+msgstr "Изображение аватара не квадратное"
+
+#: /app/lib/private/DateTimeFormatter.php:161
+msgid "today"
+msgstr "сегодня"
+
+#: /app/lib/private/DateTimeFormatter.php:164
+msgid "tomorrow"
+msgstr "завтра"
+
+#: /app/lib/private/DateTimeFormatter.php:166
+msgid "yesterday"
+msgstr "вчера"
+
+#: /app/lib/private/DateTimeFormatter.php:170
+msgid "in %n day"
+msgid_plural "in %n days"
+msgstr[0] "через %n день"
+msgstr[1] "через %n дня"
+msgstr[2] "через %n дней"
+msgstr[3] "через %n день"
+
+#: /app/lib/private/DateTimeFormatter.php:172
+msgid "%n day ago"
+msgid_plural "%n days ago"
+msgstr[0] "%n день назад"
+msgstr[1] "%n дня назад"
+msgstr[2] "%n дней назад"
+msgstr[3] "%n дней назад"
+
+#: /app/lib/private/DateTimeFormatter.php:176
+msgid "next month"
+msgstr "следующий месяц"
+
+#: /app/lib/private/DateTimeFormatter.php:178
+msgid "last month"
+msgstr "в прошлом месяце"
+
+#: /app/lib/private/DateTimeFormatter.php:182
+msgid "in %n month"
+msgid_plural "in %n months"
+msgstr[0] "через %n месяц"
+msgstr[1] "через %n месяца"
+msgstr[2] "через %n месяцев"
+msgstr[3] "через %n месяц"
+
+#: /app/lib/private/DateTimeFormatter.php:184
+msgid "%n month ago"
+msgid_plural "%n months ago"
+msgstr[0] "%n месяц назад"
+msgstr[1] "%n месяца назад"
+msgstr[2] "%n месяцев назад"
+msgstr[3] "%n месяцев назад"
+
+#: /app/lib/private/DateTimeFormatter.php:188
+msgid "next year"
+msgstr "следующий год"
+
+#: /app/lib/private/DateTimeFormatter.php:190
+msgid "last year"
+msgstr "в прошлом году"
+
+#: /app/lib/private/DateTimeFormatter.php:194
+msgid "in %n year"
+msgid_plural "in %n years"
+msgstr[0] "через %n год"
+msgstr[1] "через %n года"
+msgstr[2] "через %n лет"
+msgstr[3] "через %n год"
+
+#: /app/lib/private/DateTimeFormatter.php:196
+msgid "%n year ago"
+msgid_plural "%n years ago"
+msgstr[0] "%n год назад"
+msgstr[1] "%n года назад"
+msgstr[2] "%n лет назад"
+msgstr[3] "%n лет назад"
+
+#: /app/lib/private/DateTimeFormatter.php:248
+msgid "in %n hour"
+msgid_plural "in %n hours"
+msgstr[0] "через %n час"
+msgstr[1] "через %n часа"
+msgstr[2] "через %n часов"
+msgstr[3] "через %n час"
+
+#: /app/lib/private/DateTimeFormatter.php:250
+msgid "%n hour ago"
+msgid_plural "%n hours ago"
+msgstr[0] "%n час назад"
+msgstr[1] "%n часа назад"
+msgstr[2] "%n часов назад"
+msgstr[3] "%n часов назад"
+
+#: /app/lib/private/DateTimeFormatter.php:254
+msgid "in %n minute"
+msgid_plural "in %n minutes"
+msgstr[0] "через %n минуту"
+msgstr[1] "через %n минуты"
+msgstr[2] "через %n минут"
+msgstr[3] "через %n минуту"
+
+#: /app/lib/private/DateTimeFormatter.php:256
+msgid "%n minute ago"
+msgid_plural "%n minutes ago"
+msgstr[0] "%n минута назад"
+msgstr[1] "%n минуты назад"
+msgstr[2] "%n минут назад"
+msgstr[3] "%n минут назад"
+
+#: /app/lib/private/DateTimeFormatter.php:260
+msgid "in a few seconds"
+msgstr "через несколько секунд"
+
+#: /app/lib/private/DateTimeFormatter.php:262
+msgid "seconds ago"
+msgstr "менее минуты"
+
+#: /app/lib/private/Encryption/Manager.php:198
+#, php-format
+msgid ""
+"Module with ID: %s does not exist. Please enable it in your apps settings or"
+" contact your administrator."
+msgstr ""
+"Модуль с ID «%s» не существует. Включите его в настройках приложений или "
+"обратитесь к администратору."
+
+#: /app/lib/private/Files/View.php:1827
+msgid "File name is a reserved word"
+msgstr "Имя файла является зарезервированным словом"
+
+#: /app/lib/private/Files/View.php:1830
+msgid "File name contains at least one invalid character"
+msgstr "Имя файла содержит по крайней мере один некорректный символ"
+
+#: /app/lib/private/Files/View.php:1833
+msgid "File name is too long"
+msgstr "Имя файла слишком длинное."
+
+#: /app/lib/private/Files/View.php:1836
+msgid "Dot files are not allowed"
+msgstr "Файлы начинающиеся с точки не допускаются"
+
+#: /app/lib/private/Files/View.php:1839
+msgid "Empty filename is not allowed"
+msgstr "Пустое имя файла не допускается"
+
+#: /app/lib/private/Installer.php:114
+#, php-format
+msgid "App \"%s\" cannot be installed because appinfo file cannot be read."
+msgstr ""
+"Приложение «%s» не может быть установлено, так как файл с информацией о "
+"приложении не может быть прочтен."
+
+#: /app/lib/private/Installer.php:124
+#, php-format
+msgid ""
+"App \"%s\" cannot be installed because it is not compatible with this "
+"version of the server."
+msgstr ""
+"Приложение «%s» не может быть установлено, потому что оно несовместимо с "
+"этой версией сервера"
+
+#: /app/lib/private/Mail/EMailTemplate.php:597
+msgid "This is an automatically sent email, please do not reply."
+msgstr ""
+"Это соощение отправлено автоматически, пожалуйста, не отвечайте на него."
+
+#: /app/lib/private/NavigationManager.php:168
+msgid "Help"
+msgstr "Помощь"
+
+#: /app/lib/private/NavigationManager.php:182
+msgid "Apps"
+msgstr "Приложения"
+
+#: /app/lib/private/NavigationManager.php:192
+msgid "Settings"
+msgstr "Настройки"
+
+#: /app/lib/private/NavigationManager.php:204
+msgid "Log out"
+msgstr "Выйти"
+
+#: /app/lib/private/NavigationManager.php:216
+msgid "Users"
+msgstr "Пользователи"
+
+#: /app/lib/private/Server.php:919 /app/lib/private/legacy/json.php:123
+msgid "Unknown user"
+msgstr "Неизвестный пользователь"
+
+#: /app/lib/private/Settings/Admin/Server.php:92
+msgid "APCu"
+msgstr "APCu"
+
+#: /app/lib/private/Settings/Admin/Server.php:93
+msgid "Redis"
+msgstr "Redis"
+
+#: /app/lib/private/Settings/Manager.php:229
+msgid "Basic settings"
+msgstr "Основные настройки"
+
+#: /app/lib/private/Settings/Manager.php:230
+msgid "Sharing"
+msgstr "Общий доступ"
+
+#: /app/lib/private/Settings/Manager.php:231
+#: /app/lib/private/Settings/Manager.php:349
+msgid "Security"
+msgstr "Безопасность"
+
+#: /app/lib/private/Settings/Manager.php:232
+msgid "Encryption"
+msgstr "Шифрование"
+
+#: /app/lib/private/Settings/Manager.php:233
+#: /app/lib/private/Settings/Manager.php:355
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+#: /app/lib/private/Settings/Manager.php:234
+msgid "Tips & tricks"
+msgstr "Советы и трюки"
+
+#: /app/lib/private/Settings/Manager.php:348
+msgid "Personal info"
+msgstr "Личная информация"
+
+#: /app/lib/private/Settings/Manager.php:350
+msgid "Sync clients"
+msgstr "Клиенты синхронизации"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:108
+msgid "Unlimited"
+msgstr "Неограничено"
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:210
+msgid "__language_name__"
+msgstr "Русский"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:271
+msgid "Verifying"
+msgstr "Производится проверка"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:274
+msgid "Verifying …"
+msgstr "Производится проверка…"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:277
+msgid "Verify"
+msgstr "Проверить"
+
+#: /app/lib/private/Setup/AbstractDatabase.php:71
+#: /app/lib/private/Setup/OCI.php:57
+#, php-format
+msgid "%s enter the database username and name."
+msgstr "%s укажите имя пользователя и название для базы данных."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:73
+#: /app/lib/private/Setup/OCI.php:59
+#, php-format
+msgid "%s enter the database username."
+msgstr "%s введите имя пользователя базы данных."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:75
+#: /app/lib/private/Setup/OCI.php:61
+#, php-format
+msgid "%s enter the database name."
+msgstr "%s введите имя базы данных."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:78
+#, php-format
+msgid "%s you may not use dots in the database name"
+msgstr "%s Вы не можете использовать точки в имени базы данных"
+
+#: /app/lib/private/Setup/OCI.php:72
+msgid "Oracle connection could not be established"
+msgstr "Соединение с Oracle не может быть установлено"
+
+#: /app/lib/private/Setup/OCI.php:79
+msgid "Oracle username and/or password not valid"
+msgstr "Неверное имя пользователя и/или пароль Oracle"
+
+#: /app/lib/private/Setup/PostgreSQL.php:104
+msgid "PostgreSQL username and/or password not valid"
+msgstr "Неверное имя пользователя и/или пароль PostgreSQL"
+
+#: /app/lib/private/Setup/PostgreSQL.php:105
+msgid "You need to enter details of an existing account."
+msgstr "Необходимо уточнить данные существующего акаунта."
+
+#: /app/lib/private/Setup.php:234
+#, php-format
+msgid ""
+"Mac OS X is not supported and %s will not work properly on this platform. "
+"Use it at your own risk! "
+msgstr ""
+"Mac OS X не поддерживается и %s может работать некорректно на данной "
+"платформе. Используйте на свой страх и риск!"
+
+#: /app/lib/private/Setup.php:238
+msgid ""
+"For the best results, please consider using a GNU/Linux server instead."
+msgstr ""
+"Для достижения наилучших результатов, рассмотрите вариант использования "
+"сервера на GNU/Linux."
+
+#: /app/lib/private/Setup.php:245
+#, php-format
+msgid ""
+"It seems that this %s instance is running on a 32-bit PHP environment and "
+"the open_basedir has been configured in php.ini. This will lead to problems "
+"with files over 4 GB and is highly discouraged."
+msgstr ""
+"Кажется что экземпляр этого %s работает в 32-битной среде PHP и в php.ini "
+"был настроен open_basedir. Это приведёт к проблемам с файлами более 4 ГБ и "
+"настоятельно не рекомендуется."
+
+#: /app/lib/private/Setup.php:249
+msgid ""
+"Please remove the open_basedir setting within your php.ini or switch to "
+"64-bit PHP."
+msgstr ""
+"Пожалуйста, удалите директиву open_basedir из файла php.ini или смените PHP "
+"на 64-разрядную сборку."
+
+#: /app/lib/private/Setup.php:276
+msgid "Set an admin username."
+msgstr "Задать имя пользователя для администратора."
+
+#: /app/lib/private/Setup.php:279
+msgid "Set an admin password."
+msgstr "Задать пароль для admin."
+
+#: /app/lib/private/Setup.php:300
+#, php-format
+msgid "Can't create or write into the data directory %s"
+msgstr "Невозможно создать или записать в каталог данных %s"
+
+#: /app/lib/private/Share/Helper.php:257
+msgid "Invalid Federated Cloud ID"
+msgstr "Неверный ID в объединении облачных хранилищ."
+
+#: /app/lib/private/Share/Share.php:365
+msgid ""
+"Sharing %s failed, because the backend does not allow shares from type %i"
+msgstr ""
+"Не удалось поделиться %s, так как механизм хранения не допускает публикации "
+"из элементов типа %i"
+
+#: /app/lib/private/Share/Share.php:386
+#, php-format
+msgid "Sharing %s failed, because the file does not exist"
+msgstr "Не удалось поделиться %s, файл не существует"
+
+#: /app/lib/private/Share/Share.php:393
+#: /app/lib/private/Share20/Manager.php:276
+#, php-format
+msgid "You are not allowed to share %s"
+msgstr "Вам не разрешено делиться %s"
+
+#: /app/lib/private/Share/Share.php:438
+#, php-format
+msgid "Sharing %s failed, because you can not share with yourself"
+msgstr "Не удалось поделиться %s. Вы не можете поделиться с самим собой."
+
+#: /app/lib/private/Share/Share.php:444
+#, php-format
+msgid "Sharing %s failed, because the user %s does not exist"
+msgstr "Не удалось поделиться %s, пользователь %s не существует."
+
+#: /app/lib/private/Share/Share.php:465
+#, php-format
+msgid ""
+"Sharing %s failed, because the user %s is not a member of any groups that %s"
+" is a member of"
+msgstr ""
+"Не удалось поделиться %s, так как пользователь %s не состоит в какой-либо "
+"группе, в которой состоит %s"
+
+#: /app/lib/private/Share/Share.php:478 /app/lib/private/Share/Share.php:520
+#: /app/lib/private/Share/Share.php:626
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+"Не удалось поделиться %s, пользователь %s уже имеет доступ к этому элементу"
+
+#: /app/lib/private/Share/Share.php:490
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with user %s"
+msgstr ""
+"Не удалось поделиться %s, так как элемент находится в общем доступе у %s"
+
+#: /app/lib/private/Share/Share.php:498
+#, php-format
+msgid "Sharing %s failed, because the group %s does not exist"
+msgstr "Не удалось поделиться %s, группа %s не существует"
+
+#: /app/lib/private/Share/Share.php:508
+#, php-format
+msgid "Sharing %s failed, because %s is not a member of the group %s"
+msgstr ""
+"Не удалось поделиться %s, пользователь %s не является членом группы %s"
+
+#: /app/lib/private/Share/Share.php:587
+msgid ""
+"You need to provide a password to create a public link, only protected links"
+" are allowed"
+msgstr ""
+"Вам нужно задать пароль для создания публичной ссылки. Разрешены только "
+"защищённые ссылки"
+
+#: /app/lib/private/Share/Share.php:615
+#, php-format
+msgid "Sharing %s failed, because sharing with links is not allowed"
+msgstr "Не удалось поделиться %s, открытие доступа по ссылке запрещено"
+
+#: /app/lib/private/Share/Share.php:637
+msgid "Not allowed to create a federated share with the same user"
+msgstr ""
+"Не допускается создание федеративного общего ресурса с тем же пользователем"
+
+#: /app/lib/private/Share/Share.php:656
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable."
+msgstr ""
+"Не удалось поделиться %s, не удалось найти %s, возможно, сервер не доступен."
+
+#: /app/lib/private/Share/Share.php:664
+#, php-format
+msgid "Share type %s is not valid for %s"
+msgstr "Тип общего доступа %s недопустим для %s"
+
+#: /app/lib/private/Share/Share.php:770
+#, php-format
+msgid ""
+"Cannot set expiration date. Shares cannot expire later than %s after they "
+"have been shared"
+msgstr ""
+"Невозможно установить дату истечения. Общие ресурсы не могут устареть позже "
+"%s с момента их публикации."
+
+#: /app/lib/private/Share/Share.php:778
+msgid "Cannot set expiration date. Expiration date is in the past"
+msgstr "Невозможно установить дату окончания. Дата окончания в прошлом."
+
+#: /app/lib/private/Share/Share.php:879
+#, php-format
+msgid "Sharing backend %s must implement the interface OCP\\Share_Backend"
+msgstr ""
+"Бэкенд общего доступа %s должен реализовывать интерфейс OCP\\Share_Backend"
+
+#: /app/lib/private/Share/Share.php:886
+#, php-format
+msgid "Sharing backend %s not found"
+msgstr "Бэкенд общего доступа %s не найден"
+
+#: /app/lib/private/Share/Share.php:892
+#, php-format
+msgid "Sharing backend for %s not found"
+msgstr "Бэкенд общего доступа для %s не найден"
+
+#: /app/lib/private/Share/Share.php:1695
+#, php-format
+msgid "Sharing failed, because the user %s is the original sharer"
+msgstr ""
+"Не удалось поделиться, потому что пользователь %s владелец этого элемента"
+
+#: /app/lib/private/Share/Share.php:1707
+#, php-format
+msgid ""
+"Sharing %s failed, because the permissions exceed permissions granted to %s"
+msgstr ""
+"Не удалось поделиться %s, права превышают предоставленные права доступа %s"
+
+#: /app/lib/private/Share/Share.php:1739
+#, php-format
+msgid "Sharing %s failed, because resharing is not allowed"
+msgstr "Не удалось поделиться %s, повторное открытие доступа запрещено"
+
+#: /app/lib/private/Share/Share.php:1753
+#, php-format
+msgid ""
+"Sharing %s failed, because the sharing backend for %s could not find its "
+"source"
+msgstr "Не удалось поделиться %s, бэкенд общего доступа не нашел путь до %s"
+
+#: /app/lib/private/Share/Share.php:1767
+#, php-format
+msgid ""
+"Sharing %s failed, because the file could not be found in the file cache"
+msgstr "Не удалось поделиться %s, элемент не найден в файловом кеше."
+
+#: /app/lib/private/Share20/Manager.php:298
+#, php-format
+msgid "Can’t increase permissions of %s"
+msgstr "Невозможно увеличить права доступа для %s"
+
+#: /app/lib/private/Share20/Manager.php:314
+msgid "Files can’t be shared with delete permissions"
+msgstr "Файлы не могут иметь общий доступ с правами на удаление"
+
+#: /app/lib/private/Share20/Manager.php:318
+msgid "Files can’t be shared with create permissions"
+msgstr "Файлы не могут иметь общий доступ с правами на создание"
+
+#: /app/lib/private/Share20/Manager.php:344
+msgid "Expiration date is in the past"
+msgstr "Дата окончания срока действия уже прошла"
+
+#: /app/lib/private/Share20/Manager.php:373
+#, php-format
+msgid "Can’t set expiration date more than %s days in the future"
+msgstr "Невозможно установить дату окончания срока действия более %s дней"
+
+#: /app/lib/private/Share20/Manager.php:732
+#: /app/lib/private/Share20/Manager.php:734
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s поделился »%s« с вами"
+
+#: /app/lib/private/Share20/Manager.php:735
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s поделился »%s« с вами."
+
+#: /app/lib/private/Share20/Manager.php:738
+msgid "Click the button below to open it."
+msgstr "Для открытия нажмите на кнопку ниже."
+
+#: /app/lib/private/Share20/Manager.php:742
+#, php-format
+msgid "Open »%s«"
+msgstr "Открыть »%s«"
+
+#: /app/lib/private/Share20/Manager.php:751
+#, php-format
+msgid "%s via %s"
+msgstr "%s через %s"
+
+#: /app/lib/private/Share20/Manager.php:1210
+#: /app/lib/private/Share20/Manager.php:1230
+msgid "The requested share does not exist anymore"
+msgstr "Запрошенный общий ресурс более не существует."
+
+#: /app/lib/private/Tags.php:282
+#, php-format
+msgid "Could not find category \"%s\""
+msgstr "Категория «%s»  не найдена"
+
+#: /app/lib/private/Template/JSConfigHelper.php:160
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: /app/lib/private/Template/JSConfigHelper.php:161
+msgid "Monday"
+msgstr "Понедельник"
+
+#: /app/lib/private/Template/JSConfigHelper.php:162
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: /app/lib/private/Template/JSConfigHelper.php:163
+msgid "Wednesday"
+msgstr "Среда"
+
+#: /app/lib/private/Template/JSConfigHelper.php:164
+msgid "Thursday"
+msgstr "Четверг"
+
+#: /app/lib/private/Template/JSConfigHelper.php:165
+msgid "Friday"
+msgstr "Пятница"
+
+#: /app/lib/private/Template/JSConfigHelper.php:166
+msgid "Saturday"
+msgstr "Суббота"
+
+#: /app/lib/private/Template/JSConfigHelper.php:169
+msgid "Sun."
+msgstr "Вс."
+
+#: /app/lib/private/Template/JSConfigHelper.php:170
+msgid "Mon."
+msgstr "Пн."
+
+#: /app/lib/private/Template/JSConfigHelper.php:171
+msgid "Tue."
+msgstr "Вт."
+
+#: /app/lib/private/Template/JSConfigHelper.php:172
+msgid "Wed."
+msgstr "Ср."
+
+#: /app/lib/private/Template/JSConfigHelper.php:173
+msgid "Thu."
+msgstr "Чт."
+
+#: /app/lib/private/Template/JSConfigHelper.php:174
+msgid "Fri."
+msgstr "Пт."
+
+#: /app/lib/private/Template/JSConfigHelper.php:175
+msgid "Sat."
+msgstr "Сб."
+
+#: /app/lib/private/Template/JSConfigHelper.php:178
+msgid "Su"
+msgstr "Вс"
+
+#: /app/lib/private/Template/JSConfigHelper.php:179
+msgid "Mo"
+msgstr "Пн"
+
+#: /app/lib/private/Template/JSConfigHelper.php:180
+msgid "Tu"
+msgstr "Вт"
+
+#: /app/lib/private/Template/JSConfigHelper.php:181
+msgid "We"
+msgstr "Ср"
+
+#: /app/lib/private/Template/JSConfigHelper.php:182
+msgid "Th"
+msgstr "Чт"
+
+#: /app/lib/private/Template/JSConfigHelper.php:183
+msgid "Fr"
+msgstr "Пт"
+
+#: /app/lib/private/Template/JSConfigHelper.php:184
+msgid "Sa"
+msgstr "Сб"
+
+#: /app/lib/private/Template/JSConfigHelper.php:187
+msgid "January"
+msgstr "Январь"
+
+#: /app/lib/private/Template/JSConfigHelper.php:188
+msgid "February"
+msgstr "Февраль"
+
+#: /app/lib/private/Template/JSConfigHelper.php:189
+msgid "March"
+msgstr "Март"
+
+#: /app/lib/private/Template/JSConfigHelper.php:190
+msgid "April"
+msgstr "Апрель"
+
+#: /app/lib/private/Template/JSConfigHelper.php:191
+msgid "May"
+msgstr "Май"
+
+#: /app/lib/private/Template/JSConfigHelper.php:192
+msgid "June"
+msgstr "Июнь"
+
+#: /app/lib/private/Template/JSConfigHelper.php:193
+msgid "July"
+msgstr "Июль"
+
+#: /app/lib/private/Template/JSConfigHelper.php:194
+msgid "August"
+msgstr "Август"
+
+#: /app/lib/private/Template/JSConfigHelper.php:195
+msgid "September"
+msgstr "Сентябрь"
+
+#: /app/lib/private/Template/JSConfigHelper.php:196
+msgid "October"
+msgstr "Октябрь"
+
+#: /app/lib/private/Template/JSConfigHelper.php:197
+msgid "November"
+msgstr "Ноябрь"
+
+#: /app/lib/private/Template/JSConfigHelper.php:198
+msgid "December"
+msgstr "Декабрь"
+
+#: /app/lib/private/Template/JSConfigHelper.php:201
+msgid "Jan."
+msgstr "Янв."
+
+#: /app/lib/private/Template/JSConfigHelper.php:202
+msgid "Feb."
+msgstr "Фев."
+
+#: /app/lib/private/Template/JSConfigHelper.php:203
+msgid "Mar."
+msgstr "Мар."
+
+#: /app/lib/private/Template/JSConfigHelper.php:204
+msgid "Apr."
+msgstr "Апр."
+
+#: /app/lib/private/Template/JSConfigHelper.php:205
+msgid "May."
+msgstr "Май"
+
+#: /app/lib/private/Template/JSConfigHelper.php:206
+msgid "Jun."
+msgstr "Июн."
+
+#: /app/lib/private/Template/JSConfigHelper.php:207
+msgid "Jul."
+msgstr "Июл."
+
+#: /app/lib/private/Template/JSConfigHelper.php:208
+msgid "Aug."
+msgstr "Авг."
+
+#: /app/lib/private/Template/JSConfigHelper.php:209
+msgid "Sep."
+msgstr "Сен."
+
+#: /app/lib/private/Template/JSConfigHelper.php:210
+msgid "Oct."
+msgstr "Окт."
+
+#: /app/lib/private/Template/JSConfigHelper.php:211
+msgid "Nov."
+msgstr "Нояб."
+
+#: /app/lib/private/Template/JSConfigHelper.php:212
+msgid "Dec."
+msgstr "Дек."
+
+#: /app/lib/private/User/Manager.php:314
+msgid ""
+"Only the following characters are allowed in a username: \"a-z\", \"A-Z\", "
+"\"0-9\", and \"_.@-'\""
+msgstr ""
+"В составе имени пользователя допускаются следующие символы: «a–z», «A–Z», "
+"«0–9» и «_.@-'»"
+
+#: /app/lib/private/User/Manager.php:319
+msgid "A valid username must be provided"
+msgstr "Укажите допустимое имя пользователя"
+
+#: /app/lib/private/User/Manager.php:323
+msgid "Username contains whitespace at the beginning or at the end"
+msgstr "Имя пользователя содержит пробел в начале или в конце"
+
+#: /app/lib/private/User/Manager.php:327
+msgid "Username must not consist of dots only"
+msgstr "Имя пользователя должно состоять не только из точек"
+
+#: /app/lib/private/User/Manager.php:331
+msgid "A valid password must be provided"
+msgstr "Укажите допустимый пароль"
+
+#: /app/lib/private/User/Manager.php:336
+msgid "The username is already being used"
+msgstr "Имя пользователя уже используется"
+
+#: /app/lib/private/User/Manager.php:342
+msgid "Could not create user"
+msgstr "Не удалось создать пользователя"
+
+#: /app/lib/private/User/Session.php:349
+msgid "User disabled"
+msgstr "Пользователь отключен"
+
+#: /app/lib/private/User/Session.php:374
+msgid "Login canceled by app"
+msgstr "Вход отменен приложением"
+
+#: /app/lib/private/legacy/app.php:1152
+#, php-format
+msgid ""
+"App \"%s\" cannot be installed because the following dependencies are not "
+"fulfilled: %s"
+msgstr ""
+"Приложение «%s» не может быть установлено, так как следующие зависимости не "
+"выполнены: %s"
+
+#: /app/lib/private/legacy/defaults.php:68
+msgid "a safe home for all your data"
+msgstr "надёжный дом для всех ваших данных"
+
+#: /app/lib/private/legacy/files.php:181
+msgid "File is currently busy, please try again later"
+msgstr "Файл в данный момент используется, повторите попытку позже."
+
+#: /app/lib/private/legacy/files.php:186 /app/lib/private/legacy/files.php:192
+msgid "Can't read file"
+msgstr "Не удается прочитать файл"
+
+#: /app/lib/private/legacy/json.php:62
+msgid "Application is not enabled"
+msgstr "Приложение не разрешено"
+
+#: /app/lib/private/legacy/json.php:78 /app/lib/private/legacy/json.php:109
+#: /app/lib/private/legacy/json.php:143
+msgid "Authentication error"
+msgstr "Ошибка аутентификации"
+
+#: /app/lib/private/legacy/json.php:96
+msgid "Token expired. Please reload page."
+msgstr "Токен просрочен. Перезагрузите страницу."
+
+#: /app/lib/private/legacy/util.php:741
+msgid "No database drivers (sqlite, mysql, or postgresql) installed."
+msgstr "Не установлены драйвера баз данных (sqlite, mysql или postgresql)"
+
+#: /app/lib/private/legacy/util.php:751
+msgid "Cannot write into \"config\" directory"
+msgstr "Запись в каталог «config» невозможна"
+
+#: /app/lib/private/legacy/util.php:765
+msgid "Cannot write into \"apps\" directory"
+msgstr "Запись в каталог «app» невозможна"
+
+#: /app/lib/private/legacy/util.php:766
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the apps "
+"directory or disabling the appstore in the config file. See %s"
+msgstr ""
+"Обычно это можно исправить, предоставив веб-серверу права на запись в "
+"каталог приложений или отключив магазин приложений в файле конфигурации. "
+"Смотрите %s"
+
+#: /app/lib/private/legacy/util.php:780
+msgid "Cannot create \"data\" directory"
+msgstr "Невозможно создать каталог «data»"
+
+#: /app/lib/private/legacy/util.php:781
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the root "
+"directory. See %s"
+msgstr ""
+"Обычно это можно исправить, предоставив веб-серверу права на запись в "
+"корневой каталог. Смотрите %s"
+
+#: /app/lib/private/legacy/util.php:787
+#, php-format
+msgid ""
+"Permissions can usually be fixed by giving the webserver write access to the"
+" root directory. See %s."
+msgstr ""
+"Разрешения обычно можно исправить, предоставив веб-серверу право на запись в"
+" корневой каталог. Смотрите %s."
+
+#: /app/lib/private/legacy/util.php:800
+#, php-format
+msgid "Setting locale to %s failed"
+msgstr "Установка локали %s не удалась"
+
+#: /app/lib/private/legacy/util.php:803
+msgid ""
+"Please install one of these locales on your system and restart your "
+"webserver."
+msgstr ""
+"Установите один из этих языковых пакетов на вашу систему и перезапустите "
+"веб-сервер."
+
+#: /app/lib/private/legacy/util.php:844
+msgid "Please ask your server administrator to install the module."
+msgstr "Пожалуйста, попростите администратора сервера установить модуль."
+
+#: /app/lib/private/legacy/util.php:890
+#, php-format
+msgid "PHP module %s not installed."
+msgstr "Не установлен PHP-модуль %s."
+
+#: /app/lib/private/legacy/util.php:900
+#, php-format
+msgid "PHP setting \"%s\" is not set to \"%s\"."
+msgstr "Параметру PHP «%s» не присвоено значение «%s»."
+
+#: /app/lib/private/legacy/util.php:901
+msgid "Adjusting this setting in php.ini will make Nextcloud run again"
+msgstr "Настройка этого параметра в php.ini поможет Nextcloud работать снова"
+
+#: /app/lib/private/legacy/util.php:917
+#, php-format
+msgid "mbstring.func_overload is set to \"%s\" instead of the expected value \"0\""
+msgstr "mbstring.func_overload установлен в «%s», при этом требуется «0»"
+
+#: /app/lib/private/legacy/util.php:918
+msgid ""
+"To fix this issue set <code>mbstring.func_overload</code> to <code>0</code> "
+"in your php.ini"
+msgstr ""
+"Чтобы исправить эту проблему установите параметр "
+"<code>mbstring.func_overload</code> в значение <code>0</code> в php.ini"
+
+#: /app/lib/private/legacy/util.php:931
+#, php-format
+msgid "libxml2 2.7.0 is at least required. Currently %s is installed."
+msgstr ""
+"Требуется как минимум libxml2 версии 2.7.0. На данный момент установлена %s."
+
+#: /app/lib/private/legacy/util.php:932
+msgid ""
+"To fix this issue update your libxml2 version and restart your web server."
+msgstr ""
+"Для исправления этой ошибки обновите версию libxml2 и перезапустите ваш веб-"
+"сервер."
+
+#: /app/lib/private/legacy/util.php:938
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+"Очевидно, PHP настроен на вычищение блоков встроенной документации. Это "
+"сделает несколько центральных приложений недоступными."
+
+#: /app/lib/private/legacy/util.php:939
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"Возможно это вызвано кешем/ускорителем вроде Zend OPcache или eAccelerator."
+
+#: /app/lib/private/legacy/util.php:945
+msgid "PHP modules have been installed, but they are still listed as missing?"
+msgstr ""
+"Модули PHP были установлены, но они все еще перечислены как недостающие?"
+
+#: /app/lib/private/legacy/util.php:946
+msgid "Please ask your server administrator to restart the web server."
+msgstr "Пожалуйста, попросите вашего администратора перезапустить веб-сервер."
+
+#: /app/lib/private/legacy/util.php:976
+msgid "PostgreSQL >= 9 required"
+msgstr "Требуется PostgreSQL >= 9"
+
+#: /app/lib/private/legacy/util.php:977
+msgid "Please upgrade your database version"
+msgstr "Обновите базу данных"
+
+#: /app/lib/private/legacy/util.php:1002
+msgid ""
+"Please change the permissions to 0770 so that the directory cannot be listed"
+" by other users."
+msgstr ""
+"Измените права доступа на 0770, чтобы другие пользователи не могли получить "
+"список файлов этого каталога."
+
+#: /app/lib/private/legacy/util.php:1011
+msgid "Your data directory is readable by other users"
+msgstr "Каталог данных доступен для чтения другим пользователям"
+
+#: /app/lib/private/legacy/util.php:1031
+msgid "Your data directory must be an absolute path"
+msgstr "Каталог данных должен быть указан в виде абсолютного пути"
+
+#: /app/lib/private/legacy/util.php:1032
+msgid "Check the value of \"datadirectory\" in your configuration"
+msgstr "Проверьте значение «datadirectory» в настройках."
+
+#: /app/lib/private/legacy/util.php:1037
+msgid "Your data directory is invalid"
+msgstr "Каталог данных не верен"
+
+#: /app/lib/private/legacy/util.php:1038
+msgid ""
+"Ensure there is a file called \".ocdata\" in the root of the data directory."
+msgstr "Убедитесь, что в корне каталога данных присутствует файл «.ocdata»."
+
+#: /app/lib/public/Files/LockNotAcquiredException.php:49
+#, php-format
+msgid "Could not obtain lock type %d on \"%s\"."
+msgstr "Не удалось получить блокировку типа %d для «%s»"
+
+#: /app/lib/public/Files/StorageAuthException.php:40
+#, php-format
+msgid "Storage unauthorized. %s"
+msgstr "Хранилище неавторизовано. %s"
+
+#: /app/lib/public/Files/StorageBadConfigException.php:40
+#, php-format
+msgid "Storage incomplete configuration. %s"
+msgstr "Неполная конфигурация хранилища.  %s"
+
+#: /app/lib/public/Files/StorageConnectionException.php:40
+#, php-format
+msgid "Storage connection error. %s"
+msgstr "Ошибка подключения к хранилищу. %s"
+
+#: /app/lib/public/Files/StorageNotAvailableException.php:63
+msgid "Storage is temporarily not available"
+msgstr "Хранилище временно недоступно"
+
+#: /app/lib/public/Files/StorageTimeoutException.php:40
+#, php-format
+msgid "Storage connection timeout. %s"
+msgstr "Истекло время ожидания подключения к хранилищу. %s"

@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Maider Likona Santamarina <pisoni@gisa-elkartea.org>, 2017\n"
+"Language-Team: Basque (https://www.transifex.com/nextcloud/teams/64236/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Filter/Calendar.php:57
+msgid "Calendar"
+msgstr "Egutegia"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Filter/Todo.php:57
+msgid "Todos"
+msgstr "Egitekoak"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Base.php:91
+#: /app/apps/dav/lib/CalDAV/Calendar.php:56
+msgid "Personal"
+msgstr "Pertsonala"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:98
+msgid "{actor} created calendar {calendar}"
+msgstr "{actor}-k sortutako egutegia: {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:100
+msgid "You created calendar {calendar}"
+msgstr "{calendar} egutegia sortu duzu"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:102
+msgid "{actor} deleted calendar {calendar}"
+msgstr "{actor}-k  {calendar} egutegia borratu du"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:104
+msgid "You deleted calendar {calendar}"
+msgstr "{calendar} egutegia borratu duzu"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:106
+msgid "{actor} updated calendar {calendar}"
+msgstr "{actor} -k  {calendar} egutegia eguneratu du"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:108
+msgid "You updated calendar {calendar}"
+msgstr "{calendar} egutegia eguneratu duzu "
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:111
+msgid "You shared calendar {calendar} as public link"
+msgstr ""
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:113
+msgid "You removed public link for calendar {calendar}"
+msgstr ""
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:116
+msgid "{actor} shared calendar {calendar} with you"
+msgstr "{actor} -k zurekin {calendar} egutegia partekatu du"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:118
+msgid "You shared calendar {calendar} with {user}"
+msgstr "{calendar} egutegia {user} erabiltzailearekin partekatu duzu"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:120
+msgid "{actor} shared calendar {calendar} with {user}"
+msgstr "{actor} -k {calendar} egutegia {user}-rekin partekatu du"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:122
+msgid "{actor} unshared calendar {calendar} from you"
+msgstr ""
+"{actor} zurekin partekatzen zuen {calendar} egutegia partekatzeari utzi dio"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:124
+msgid "You unshared calendar {calendar} from {user}"
+msgstr ""
+"Partekatzen zenuen {calendar} egutegia {user} -rekin partekatzeari utzi "
+"diozu "
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:126
+msgid "{actor} unshared calendar {calendar} from {user}"
+msgstr ""
+"{actor} {user} erabiltzailearekin partekatzen zuen  {calendar} egutegia "
+"partekatzeari utzi dio"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:128
+msgid "{actor} unshared calendar {calendar} from themselves"
+msgstr "{actor} {calendar} egutegia partekatzeari utzi dio bere buruarekin"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:131
+msgid "You shared calendar {calendar} with group {group}"
+msgstr "{calendar} egutegia {group} taldearekin partekatu duz"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:133
+msgid "{actor} shared calendar {calendar} with group {group}"
+msgstr "{actor} {group} taldearekin {calendar} egutegia partekatu du"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:135
+msgid "You unshared calendar {calendar} from group {group}"
+msgstr "{group} taldearekin {calendar} egutegia partekatzeari utzi dio."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:137
+msgid "{actor} unshared calendar {calendar} from group {group}"
+msgstr ""
+"{actor}-rk  {group} taldearekin {calendar} egutegia partekatzeari utzi dio."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:92
+msgid "{actor} created event {event} in calendar {calendar}"
+msgstr "{actor} {event} jarduera {calendar} egutegian sortu du."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:94
+msgid "You created event {event} in calendar {calendar}"
+msgstr "{calendar} egutegia {event} jarduera sortu duzu"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:96
+msgid "{actor} deleted event {event} from calendar {calendar}"
+msgstr "{actor}-rk {event} jarduera {calendar} egutegitik borratu du"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:98
+msgid "You deleted event {event} from calendar {calendar}"
+msgstr "{event} jarduera {calendar} egutegitik borratu duzu"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:100
+msgid "{actor} updated event {event} in calendar {calendar}"
+msgstr "{actor}-rek {event} jarduera {calendar} egutegian eguneratu da"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:102
+msgid "You updated event {event} in calendar {calendar}"
+msgstr "{event} jarduera {calendar} egutegian eguneratu duzu "
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:52
+msgid "{actor} created todo {todo} in list {calendar}"
+msgstr "{actor}-rek {calendar} zerrendan {todo} ekintza sortu du."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:54
+msgid "You created todo {todo} in list {calendar}"
+msgstr "{calendar} zerrendan {todo} ekintza sortu duzu."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:56
+msgid "{actor} deleted todo {todo} from list {calendar}"
+msgstr "{actor}-rek {calendar} zerrendan {todo} zeregina borratu du."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:58
+msgid "You deleted todo {todo} from list {calendar}"
+msgstr " {calendar} zerrendan {todo} zeregina borratu duzu."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:60
+msgid "{actor} updated todo {todo} in list {calendar}"
+msgstr "{actor}-rek {calendar} zerrendan {todo} zeregina eguneratu du."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:62
+msgid "You updated todo {todo} in list {calendar}"
+msgstr "{calendar} zerrendan {todo} zeregina eguneratu duzu."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:65
+msgid "{actor} solved todo {todo} in list {calendar}"
+msgstr "{actor}-rek {calendar} zerrendan {todo} zeregina bukatu du."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:67
+msgid "You solved todo {todo} in list {calendar}"
+msgstr " {calendar} zerrendan {todo} zeregina bukatu duzu."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:69
+msgid "{actor} reopened todo {todo} in list {calendar}"
+msgstr "{actor}-rek {calendar} zerrendan {todo} zeregina birreki du."
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:71
+msgid "You reopened todo {todo} in list {calendar}"
+msgstr "{calendar} zerrendan {todo} zeregina birreki duzu. "
+
+#: /app/apps/dav/lib/CalDAV/Activity/Setting/Calendar.php:55
+msgid "A <strong>calendar</strong> was modified"
+msgstr "Egutegia aldatu da"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Setting/Event.php:55
+msgid "A calendar <strong>event</strong> was modified"
+msgstr "Egutegiaren zeregin bat aldatu da"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Setting/Todo.php:55
+msgid "A calendar <strong>todo</strong> was modified"
+msgstr "Egutegiaren zeregin bat aldatu da"
+
+#: /app/apps/dav/lib/CalDAV/Calendar.php:52
+msgid "Contact birthdays"
+msgstr "Urtebetetze kontaktua"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:212
+#, php-format
+msgid "%s via %s"
+msgstr ""
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:424
+msgid "Invitation canceled"
+msgstr "Gonbidapena ezeztatua"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:424
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:428
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:432
+#, php-format
+msgid "Hello %s,"
+msgstr "Kaixo 1%s,"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:425
+#, php-format
+msgid "The meeting »%s« with %s was canceled."
+msgstr "1%s-rekin duzun » 1%s « bilera ezeztatu da"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:428
+msgid "Invitation updated"
+msgstr "Gonbidapena eguneratu da"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:429
+#, php-format
+msgid "The meeting »%s« with %s was updated."
+msgstr ""
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:432
+#, php-format
+msgid "%s invited you to »%s«"
+msgstr "1%s-k »1%s«-ra gonbidatu zaitu"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:446
+msgid "When:"
+msgstr "Noiz:"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:450
+msgid "Where:"
+msgstr "Non:"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:454
+msgid "Description:"
+msgstr "Deskribapena:"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:458
+msgid "Link:"
+msgstr "Esteka:"
+
+#: /app/apps/dav/lib/CardDAV/AddressBook.php:53
+msgid "Contacts"
+msgstr "Kontaktuak"
+
+#: /app/apps/dav/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "WebDAV"
+msgstr ""
+
+#: /app/apps/dav/templates/exception.php:28
+msgid "Technical details"
+msgstr "Xehetasun teknikoak"
+
+#: /app/apps/dav/templates/exception.php:30
+#, php-format
+msgid "Remote Address: %s"
+msgstr "Urruneko helbidea: 1%s"
+
+#: /app/apps/dav/templates/exception.php:31
+#, php-format
+msgid "Request ID: %s"
+msgstr "Eskatutako ID: 1%s"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:32
+msgid "CalDAV server"
+msgstr "CalDAV zerbitzaria"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:36
+msgid "Send invitations to attendees"
+msgstr "Gonbidatutakoei gonbidapenak bidali"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:38
+msgid "Please make sure to properly set up the email settings above."
+msgstr "Mesedez, eposta ezarpenak ondo zehaztuta daudela ziurta ezazu"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:43
+msgid "Automatically generate a birthday calendar"
+msgstr ""
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:45
+msgid "Birthday calendars will be generated by a background job."
+msgstr ""
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:46
+msgid ""
+"Hence they will not be available immediately after enabling but will show up"
+" after some time."
+msgstr ""

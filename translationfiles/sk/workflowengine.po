@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: holdenger <holden42@gmail.com>, 2017\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/nextcloud/teams/64236/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Uložené"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Ukladanie neúspešné:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "MIME typ súboru"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "je"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "nie je"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "súhlasí"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "nesúhlasí"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Napríklad: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Veľkosť súboru (upload)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "menej"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "menej alebo rovné"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "viac alebo rovné"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "viac"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Štítok súborového systému"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "je označený"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "nie je označený"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Vyber štítok..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Vyžiadať vzdialenú adresu"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "súhlasí s IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "nesúhlasí s IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "súhlasí s IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "nesúhlasí s IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Čas požiadavky"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "medzi"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "nie je medzi"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Začiatok"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Koniec"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Vybrať časové pásmo..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Vyžiadať URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Preddefinované URL"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "WebDAV súbory"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "User agent požiadavky"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Synchronizovať klientov"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android klient"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS klient"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Desktopový klient"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Členstvo v skupine používateľov"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "Je členom"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "Nie je členom"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Zadaný operátor je neplatný"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Zadaný regulárny výraz je neplatný"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Zadaná veľkosť súboru je neplatná"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Zadaný identifikátor štítku je neplatný"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Zadaný rozsah IP je neplatný"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Zadaný IP rozsah nie je platný pre IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Zadaný IP rozsah nie je platný pre IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Zadané časové rozpätie nie je platné"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Zadaný čas začatia nie je platný"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Zadaný čas ukončenia nie je platný"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Zadaná skupina neexistuje"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Kontrola %s je neplatná alebo neexistuje"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Operácia #%s neexistuje"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Operácia %s neexistuje"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Operácia #%s nie je platná"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Kontrola %s neexistuje"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Kontrola %s je neplatná"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Kontrola #%s neexistuje"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Systém práce"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Otvoriť dokumentáciu"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Pridať skupinu pravidiel"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Zobraziť popis pravidla"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Pridať pravidlo"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Vynulovať"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Uložiť"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Ukladá sa..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Načítava sa..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Úspešne uložené"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Mime typ súboru"

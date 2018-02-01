@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Efstratios Misinezis <stratos.misinezis@gmail.com>, 2017\n"
+"Language-Team: Greek (https://www.transifex.com/nextcloud/teams/64236/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "Λείπει το κλειδί επαναφοράς κωδικού"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "Παρακαλώ επαναλάβετε το κλειδί επαναφοράς κωδικού"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+"Ο επαναλαμβανόμενος κωδικός πρόσβασης ανάκτησης δεν ταιριάζει με τον "
+"παρεχόμενο κωδικό πρόσβασης κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "Επιτυχής ενεργοποίηση κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"Αποτυχία ενεργοποίησης κλειδιού ανάκτησης. Παρακαλώ ελέγξτε τον κωδικό του "
+"κλειδιού ανάκτησής σας!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "Επιτυχής απενεργοποίηση κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"Αποτυχία απενεργοποίησης κλειδιού ανάκτησης. Παρακαλώ ελέγξτε τον κωδικό του"
+" κλειδιού ανάκτησής σας!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "Ελλιπείς παράμετροι"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "Παρακαλώ παρέχετε τον παλιό κωδικό επαναφοράς"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "Παρακαλώ παρέχετε ένα νέο κωδικό επαναφοράς"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "Παρακαλώ επαναλάβετε το νέο κωδικό επαναφοράς"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "Ο κωδικός αλλάχτηκε επιτυχώς."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr "Αποτυχία αλλαγής κωδικού ίσως ο παλιός κωδικός να μην ήταν σωστός."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "Κλειδί ανάκτησης απενεργοποιημένο"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "Κλειδί ανάκτησης ενεργοποιημένο"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+"Αδυναμία ενεργοποίησης κλειδιού ανάκτησης, παρακαλούμε προσπαθήστε αργότερα "
+"ή επικοινωνήστε με το διαχειριστή σας"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "Αποτυχία ενημέρωσης του  προσωπικού κλειδιού πρόσβασης"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "Το παλαιό συνθηματικό δεν είναι σωστό, παρακαλώ δοκιμάστε ξανά."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr "Το τρέχον συνθηματικό δεν είναι σωστό, παρακαλώ δοκιμάστε ξανά."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "Το Προσωπικό κλειδί πρόσβασης ενημερώθηκε επιτυχώς"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"Πρέπει να μεταφέρετε τα κλειδιά κρυπτογράφησής σας από την παλιά "
+"κρυπτογράφηση (ownCloud <= 8.0) στην καινούρια. Παρακαλούμε εκτελέστε την "
+"εντολή 'occ encryption:migrate' ή επικοινωνήστε με το διαχειριστή σας."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+"Άκυρο προσωπικό κλειδί για την εφαρμογή κρυπτογράφησης. Παρακαλώ ενημερώστε "
+"τον κωδικό του προσωπικού κλειδιού σας στις προσωπικές ρυθμίσεις για να "
+"επανακτήσετε πρόσβαση στα κρυπτογραφημένα σας αρχεία."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+"Η εφαρμογή κρυπτογράφησης είναι ενεργοποιημένη αλλά τα κλειδιά σας δεν έχουν"
+" αρχικοποιηθεί. Πραγματοποιήστε έξοδο και είσοδο στην εφαρμογή εκ νέου."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+"Παρακαλούμε ενεργοποιήστε την κρυπτογράφηση στον διακομιστή, στις ρυθμίσεις "
+"διαχειριστή για να χρησιμοποιήσετε την κρυπτογράφηση"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr "Η εφαρμογή κρυπτογράφησης είναι ενεργοποιημένη και έτοιμη"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "Κακή υπογραφή"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "Ελλιπής υπογραφή"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "κωδικός μιας χρήσης για κρυπτογράφηση στο διακομιστή"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"Δεν ήταν δυνατό να αποκρυπτογραφηθεί αυτό το αρχείο, πιθανόν πρόκειται για "
+"κοινόχρηστο αρχείο. Παρακαλώ ζητήστε από τον ιδιοκτήτη του αρχείου να το "
+"ξαναμοιραστεί μαζί σας."
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"Αδυναμία ανάγνωσης αυτού του αρχείου, πιθανό να είναι διαμοιραζόμενο αρχείο."
+" Παρακαλώ ρωτήστε τον κάτοχο του αρχείου να το διαμοιράσει ξανά μαζί σας."
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr "Προεπιλεγμένη μονάδα κρυπτογράφησης"
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"Χαίρετε,\n"
+"\n"
+"ο διαχειριστής ενεργοποίηση την κρυπτογράφηση στο διακομιστή. Τα αρχεία σας κρυπτογραφήθηκαν με τον κωδικό '%s'.\n"
+"\n"
+"Παρακαλούμε συνδεθείτε στη διεπαφή ιστού, πηγαίνετε στην ενότητα 'μονάδα βασικής κρυπτογράφησης' στις προσωπικές σας ρυθμίσεις και ενημερώστε τον κωδικό κρυπτογράφησης εισάγοντας αυτό τον κωδικό στο πεδίο 'παλιός κωδικός σύνδεσης' και τον τωρινό σας κωδικό σύνδεσης.\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "Ο διαμοιρασμός θα λήξει σε %s."
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "Χαιρετισμούς!"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"Χαίρετε,<br><br>ο διαχειριστής ενεργοποίησε την κρυπτογράφηση στο "
+"διακομιστή. Τα αρχεία σας κρυπτογραφήθηκαν με τον κωδικό "
+"<strong>%s</strong>.<br><br>Παρακαλούμε συνδεθείτε στη διεπαφή ιστού, "
+"πηγαίνετε στην ενότητα \"μονάδα βασικής κρυπτογράφησης\" τωνπ ροσωπικών σας "
+"ρυθμίσεων και ενημερώστε τον κωδικό κρυπτογράφησης εισάγοντας αυτό τον "
+"κωδικό στο πεδίο \"παλιός κωδικός σύνδεσης\" και τον τωρινό σας κωδικό "
+"σύνδεσης."
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+"Η εφαρμογή κρυπτογράφησης είναι ενεργοποιημένη αλλά τα κλειδιά σας δεν έχουν"
+" καταγραφεί, παρακαλώ αποσυνδεθείτε και επανασυνδεθείτε."
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "Κρυπτογράφηση του κεντρικού χώρου αποθήκευσης"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"Η ενεργοποίηση αυτή της επιλογής κρυπτογραφεί όλα τα αρχεία που βρίσκονται "
+"στον κύριο αποθηκευτικό χώρο, αλλιώς μόνο τα αρχεία σε εξωτερικούς "
+"αποθηκευτικούς χώρους θα κρυπτογραφηθούν."
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "Ενεργοποίηση κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "Απενεργοποίηση κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"Το κλειδί ανάκτησης είναι ένα επιπλέον κλειδί κρυπτογράφησης που "
+"χρησιμοποιείται για να κρυπτογραφήσει αρχεία. Επιτρέπει την ανάκτηση των "
+"αρχείων ενός χρήστη αν αυτός/αυτή ξεχάσει τον κωδικό πρόσβασης."
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "Επαναφορά κωδικού κλειδιού"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "Επαναλάβετε τον κωδικό του κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "Αλλαγή κλειδιού επαναφοράς κωδικού:"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "Παλιός κωδικός κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "Νέος κωδικός κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "Επαναλάβετε το νέο κωδικό κλειδιού ανάκτησης"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "Αλλαγή Κωδικού Πρόσβασης"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr "Βασική μονάδα κρυπτογράφησης"
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"Ο κωδικός του ιδιωτικού κλειδιού σας δεν ταιριάζει πλέον με τον κωδικό "
+"σύνδεσής σας."
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+"Ορίστε τον παλιό σας κωδικό ιδιωτικού κλειδιού στον τρέχοντα κωδικό "
+"σύνδεσης."
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+"Εάν δεν θυμάστε τον παλιό σας κωδικό μπορείτε να ζητήσετε από τον "
+"διαχειριστή σας να επανακτήσει τα αρχεία σας."
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "Παλαιό συνθηματικό εισόδου"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "Τρέχον συνθηματικό πρόσβασης"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "Ενημέρωση Προσωπικού Κλειδού Πρόσβασης"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "Ενεργοποιήστε την ανάκτηση κωδικού πρόσβασης"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"Η ενεργοποίηση αυτής της επιλογής θα σας επιτρέψει να επανακτήσετε πρόσβαση "
+"στα κρυπτογραφημένα σας αρχεία σε περίπτωση απώλειας του κωδικού σας"
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"

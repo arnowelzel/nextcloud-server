@@ -1,0 +1,1172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: mehturt <mehturt@gmail.com>, 2017\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/nextcloud/teams/64236/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: /app/lib/base.php:249 /app/lib/base.php:256
+msgid "Cannot write into \"config\" directory!"
+msgstr "Nie je možné zapisovat do priečinka \"config\"!"
+
+#: /app/lib/base.php:250
+msgid ""
+"This can usually be fixed by giving the webserver write access to the config"
+" directory"
+msgstr ""
+"To je zvyčajne možné opraviť tým, že udelíte webovému serveru oprávnenie na "
+"zápis do priečinka s konfiguráciou."
+
+#: /app/lib/base.php:252
+#, php-format
+msgid "See %s"
+msgstr "Pozri %s"
+
+#: /app/lib/base.php:257 /app/lib/private/legacy/util.php:752
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the config"
+" directory. See %s"
+msgstr ""
+"To je zvyčajne možné opraviť tým, že udelíte webovému serveru oprávnenie na "
+"zápis do adresára s konfiguráciou. Viď %s"
+
+#: /app/lib/base.php:386
+msgid ""
+"The files of the app %$1s were not replaced correctly. Make sure it is a "
+"version compatible with the server."
+msgstr ""
+"Súbory aplikácie %$1s nebolo možné úspešne nahradiť. Uistite sa, že verzia "
+"je kompatibilná s verziou servera."
+
+#: /app/lib/base.php:742
+msgid "Sample configuration detected"
+msgstr "Detekovaná bola vzorová konfigurácia"
+
+#: /app/lib/base.php:743
+msgid ""
+"It has been detected that the sample configuration has been copied. This can"
+" break your installation and is unsupported. Please read the documentation "
+"before performing changes on config.php"
+msgstr ""
+"Zistilo sa, že konfigurácia bola skopírovaná zo vzorových súborov. Takáto "
+"konfigurácia nie je podporovaná a môže poškodiť vašu inštaláciu. Prečítajte "
+"si dokumentáciu pred vykonaním zmien v config.php"
+
+#: /app/lib/private/Activity/EventMerger.php:205
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s a %2$s"
+
+#: /app/lib/private/Activity/EventMerger.php:211
+#, php-format
+msgid "%1$s, %2$s and %3$s"
+msgstr "%1$s, %2$s a %3$s"
+
+#: /app/lib/private/Activity/EventMerger.php:217
+#, php-format
+msgid "%1$s, %2$s, %3$s and %4$s"
+msgstr "%1$s, %2$s, %3$s a %4$s"
+
+#: /app/lib/private/Activity/EventMerger.php:223
+#, php-format
+msgid "%1$s, %2$s, %3$s, %4$s and %5$s"
+msgstr "%1$s, %2$s, %3$s, %4$s a %5$s"
+
+#: /app/lib/private/App/AppStore/Bundles/EducationBundle.php:32
+msgid "Education Edition"
+msgstr "Edícia pre výuku"
+
+#: /app/lib/private/App/AppStore/Bundles/EnterpriseBundle.php:32
+msgid "Enterprise bundle"
+msgstr "Enterprise balíček"
+
+#: /app/lib/private/App/AppStore/Bundles/GroupwareBundle.php:32
+msgid "Groupware bundle"
+msgstr "Balíček groupware"
+
+#: /app/lib/private/App/AppStore/Bundles/SocialSharingBundle.php:32
+msgid "Social sharing bundle"
+msgstr "Balíček sociálneho zdieľania"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:143
+#, php-format
+msgid "PHP %s or higher is required."
+msgstr "Požadovaná verzia PHP %s alebo vyššia."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:149
+#, php-format
+msgid "PHP with a version lower than %s is required."
+msgstr "PHP je vyžadované vo vyššej verzii ako %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:155
+#, php-format
+msgid "%sbit or higher PHP required."
+msgstr "%sbit alebo vyššie PHP je vyžadované."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:183
+#, php-format
+msgid "Following databases are supported: %s"
+msgstr "Podporované sú tieto databázy: %s"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:212
+#, php-format
+msgid "The command line tool %s could not be found"
+msgstr "Nástroj príkazového riadka %s nebol nájdený"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:239
+#, php-format
+msgid "The library %s is not available."
+msgstr "Knižnica %s je nedostupná."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:247
+#, php-format
+msgid ""
+"Library %s with a version higher than %s is required - available version %s."
+msgstr ""
+"Požadovaná je knižnica %s vo vyššej verzii ako %s - dostupná verzia %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:254
+#, php-format
+msgid ""
+"Library %s with a version lower than %s is required - available version %s."
+msgstr ""
+"Požadovaná je knižnica %s v nižšej verzii ako %s - dostupná verzia %s."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:286
+#, php-format
+msgid "Following platforms are supported: %s"
+msgstr "Podporované sú nasledovné systémy: %s"
+
+#: /app/lib/private/App/DependencyAnalyzer.php:319
+#, php-format
+msgid "Server version %s or higher is required."
+msgstr "Je vyžadovaná verzia servera %s alebo vyššia."
+
+#: /app/lib/private/App/DependencyAnalyzer.php:324
+#, php-format
+msgid "Server version %s or lower is required."
+msgstr "Je vyžadovaná verzia servera %s alebo nižšia."
+
+#: /app/lib/private/Avatar.php:144
+msgid "Unknown filetype"
+msgstr "Neznámy typ súboru"
+
+#: /app/lib/private/Avatar.php:148
+msgid "Invalid image"
+msgstr "Chybný obrázok"
+
+#: /app/lib/private/Avatar.php:152
+msgid "Avatar image is not square"
+msgstr "Obrázok avatara nie je štvorcový"
+
+#: /app/lib/private/DateTimeFormatter.php:161
+msgid "today"
+msgstr "dnes"
+
+#: /app/lib/private/DateTimeFormatter.php:164
+msgid "tomorrow"
+msgstr "zajtra"
+
+#: /app/lib/private/DateTimeFormatter.php:166
+msgid "yesterday"
+msgstr "včera"
+
+#: /app/lib/private/DateTimeFormatter.php:170
+msgid "in %n day"
+msgid_plural "in %n days"
+msgstr[0] "o %n deň"
+msgstr[1] "o %n dni"
+msgstr[2] "o %n dní"
+
+#: /app/lib/private/DateTimeFormatter.php:172
+msgid "%n day ago"
+msgid_plural "%n days ago"
+msgstr[0] "včera"
+msgstr[1] "pred %n dňami"
+msgstr[2] "pred %n dňami"
+
+#: /app/lib/private/DateTimeFormatter.php:176
+msgid "next month"
+msgstr "budúci mesiac"
+
+#: /app/lib/private/DateTimeFormatter.php:178
+msgid "last month"
+msgstr "minulý mesiac"
+
+#: /app/lib/private/DateTimeFormatter.php:182
+msgid "in %n month"
+msgid_plural "in %n months"
+msgstr[0] "o %n mesiac "
+msgstr[1] "o %n mesiace"
+msgstr[2] "o %n mesiacov"
+
+#: /app/lib/private/DateTimeFormatter.php:184
+msgid "%n month ago"
+msgid_plural "%n months ago"
+msgstr[0] "pred %n mesiacom"
+msgstr[1] "pred %n mesiacmi"
+msgstr[2] "pred %n mesiacmi"
+
+#: /app/lib/private/DateTimeFormatter.php:188
+msgid "next year"
+msgstr "budúci rok"
+
+#: /app/lib/private/DateTimeFormatter.php:190
+msgid "last year"
+msgstr "minulý rok"
+
+#: /app/lib/private/DateTimeFormatter.php:194
+msgid "in %n year"
+msgid_plural "in %n years"
+msgstr[0] "o %n rok"
+msgstr[1] "o %n roky"
+msgstr[2] "o %n rokov"
+
+#: /app/lib/private/DateTimeFormatter.php:196
+msgid "%n year ago"
+msgid_plural "%n years ago"
+msgstr[0] "vlani"
+msgstr[1] "pred %n rokmi"
+msgstr[2] "pred %n rokmi"
+
+#: /app/lib/private/DateTimeFormatter.php:248
+msgid "in %n hour"
+msgid_plural "in %n hours"
+msgstr[0] "o %n hodinu"
+msgstr[1] "o %n hodiny"
+msgstr[2] "o %n hodín"
+
+#: /app/lib/private/DateTimeFormatter.php:250
+msgid "%n hour ago"
+msgid_plural "%n hours ago"
+msgstr[0] "pred %n hodinou"
+msgstr[1] "pred %n hodinami"
+msgstr[2] "pred %n hodinami"
+
+#: /app/lib/private/DateTimeFormatter.php:254
+msgid "in %n minute"
+msgid_plural "in %n minutes"
+msgstr[0] "o %n minútu"
+msgstr[1] "o %n minúty"
+msgstr[2] "o %n minút"
+
+#: /app/lib/private/DateTimeFormatter.php:256
+msgid "%n minute ago"
+msgid_plural "%n minutes ago"
+msgstr[0] "pred %n minútou"
+msgstr[1] "pred %n minútami"
+msgstr[2] "pred %n minútami"
+
+#: /app/lib/private/DateTimeFormatter.php:260
+msgid "in a few seconds"
+msgstr "o pár sekúnd"
+
+#: /app/lib/private/DateTimeFormatter.php:262
+msgid "seconds ago"
+msgstr "pred sekundami"
+
+#: /app/lib/private/Encryption/Manager.php:198
+#, php-format
+msgid ""
+"Module with ID: %s does not exist. Please enable it in your apps settings or"
+" contact your administrator."
+msgstr ""
+"Modul s ID: %s neexistuje. Povoľte ho prosím vo vašom nastavení aplikácií "
+"alebo kontaktujte správcu."
+
+#: /app/lib/private/Files/View.php:1827
+msgid "File name is a reserved word"
+msgstr "Názov súboru je rezervované slovo."
+
+#: /app/lib/private/Files/View.php:1830
+msgid "File name contains at least one invalid character"
+msgstr "Názov súboru obsahuje nepovolené znaky."
+
+#: /app/lib/private/Files/View.php:1833
+msgid "File name is too long"
+msgstr "Meno súboru je veľmi dlhé."
+
+#: /app/lib/private/Files/View.php:1836
+msgid "Dot files are not allowed"
+msgstr "Názov súboru začínajúci bodkou nie je povolený."
+
+#: /app/lib/private/Files/View.php:1839
+msgid "Empty filename is not allowed"
+msgstr "Prázdny názov súboru nie je povolený"
+
+#: /app/lib/private/Installer.php:114
+#, php-format
+msgid "App \"%s\" cannot be installed because appinfo file cannot be read."
+msgstr ""
+"Aplikáciu \"%s\" nie je možné nainštalovať, lebo nebolo možné načítať súbor "
+"s informáciami o aplikácií."
+
+#: /app/lib/private/Installer.php:124
+#, php-format
+msgid ""
+"App \"%s\" cannot be installed because it is not compatible with this "
+"version of the server."
+msgstr ""
+"Aplikácia \"%s\" nie je kompatibilná s verziou servera, preto nemôže byť "
+"nainštalovaná."
+
+#: /app/lib/private/Mail/EMailTemplate.php:597
+msgid "This is an automatically sent email, please do not reply."
+msgstr "Toto je automaticky odosielaný e-mail, prosím, neodpovedajte."
+
+#: /app/lib/private/NavigationManager.php:168
+msgid "Help"
+msgstr "Pomoc"
+
+#: /app/lib/private/NavigationManager.php:182
+msgid "Apps"
+msgstr "Aplikácie"
+
+#: /app/lib/private/NavigationManager.php:192
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: /app/lib/private/NavigationManager.php:204
+msgid "Log out"
+msgstr "Odhlásiť sa"
+
+#: /app/lib/private/NavigationManager.php:216
+msgid "Users"
+msgstr "Používatelia"
+
+#: /app/lib/private/Server.php:919 /app/lib/private/legacy/json.php:123
+msgid "Unknown user"
+msgstr "Neznámy používateľ"
+
+#: /app/lib/private/Settings/Admin/Server.php:92
+msgid "APCu"
+msgstr "APCu"
+
+#: /app/lib/private/Settings/Admin/Server.php:93
+msgid "Redis"
+msgstr "Redis"
+
+#: /app/lib/private/Settings/Manager.php:229
+msgid "Basic settings"
+msgstr "Základné nastavenia"
+
+#: /app/lib/private/Settings/Manager.php:230
+msgid "Sharing"
+msgstr "Sprístupnenie"
+
+#: /app/lib/private/Settings/Manager.php:231
+#: /app/lib/private/Settings/Manager.php:349
+msgid "Security"
+msgstr "Zabezpečenie"
+
+#: /app/lib/private/Settings/Manager.php:232
+msgid "Encryption"
+msgstr "Šifrovanie"
+
+#: /app/lib/private/Settings/Manager.php:233
+#: /app/lib/private/Settings/Manager.php:355
+msgid "Additional settings"
+msgstr "Ďalšie nastavenia"
+
+#: /app/lib/private/Settings/Manager.php:234
+msgid "Tips & tricks"
+msgstr "Tipy a triky"
+
+#: /app/lib/private/Settings/Manager.php:348
+msgid "Personal info"
+msgstr "Osobné informácie"
+
+#: /app/lib/private/Settings/Manager.php:350
+msgid "Sync clients"
+msgstr "Klienti synchronizácie"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:108
+msgid "Unlimited"
+msgstr "Neobmedzené"
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:210
+msgid "__language_name__"
+msgstr "Slovenčina"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:271
+msgid "Verifying"
+msgstr "Overovanie"
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:274
+msgid "Verifying …"
+msgstr "Overovanie ..."
+
+#: /app/lib/private/Settings/Personal/PersonalInfo.php:277
+msgid "Verify"
+msgstr "Overiť"
+
+#: /app/lib/private/Setup/AbstractDatabase.php:71
+#: /app/lib/private/Setup/OCI.php:57
+#, php-format
+msgid "%s enter the database username and name."
+msgstr "%s zadajte používateľské meno a meno databázy"
+
+#: /app/lib/private/Setup/AbstractDatabase.php:73
+#: /app/lib/private/Setup/OCI.php:59
+#, php-format
+msgid "%s enter the database username."
+msgstr "Zadajte používateľské meno %s databázy."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:75
+#: /app/lib/private/Setup/OCI.php:61
+#, php-format
+msgid "%s enter the database name."
+msgstr "Zadajte názov databázy pre %s databázy."
+
+#: /app/lib/private/Setup/AbstractDatabase.php:78
+#, php-format
+msgid "%s you may not use dots in the database name"
+msgstr "V názve databázy %s nemôžete používať bodky"
+
+#: /app/lib/private/Setup/OCI.php:72
+msgid "Oracle connection could not be established"
+msgstr "Nie je možné pripojiť sa k Oracle"
+
+#: /app/lib/private/Setup/OCI.php:79
+msgid "Oracle username and/or password not valid"
+msgstr "Používateľské meno a/alebo heslo pre Oracle databázu je neplatné"
+
+#: /app/lib/private/Setup/PostgreSQL.php:104
+msgid "PostgreSQL username and/or password not valid"
+msgstr "Používateľské meno a/alebo heslo pre PostgreSQL databázu je neplatné"
+
+#: /app/lib/private/Setup/PostgreSQL.php:105
+msgid "You need to enter details of an existing account."
+msgstr "Musíte zadať údaje existujúceho účtu."
+
+#: /app/lib/private/Setup.php:234
+#, php-format
+msgid ""
+"Mac OS X is not supported and %s will not work properly on this platform. "
+"Use it at your own risk! "
+msgstr ""
+"Mac OS X nie je podporovaný a %s nebude správne fungovať na tejto platforme."
+" Použite ho na vlastné riziko!"
+
+#: /app/lib/private/Setup.php:238
+msgid ""
+"For the best results, please consider using a GNU/Linux server instead."
+msgstr ""
+"Pre dosiahnutie najlepších výsledkov, prosím zvážte použitie GNU/Linux "
+"servera."
+
+#: /app/lib/private/Setup.php:245
+#, php-format
+msgid ""
+"It seems that this %s instance is running on a 32-bit PHP environment and "
+"the open_basedir has been configured in php.ini. This will lead to problems "
+"with files over 4 GB and is highly discouraged."
+msgstr ""
+"Zdá sa, že táto inštancia %s beží v 32-bitovom prostredí PHP a v php.ini "
+"bola nastavená voľba open_basedir. To bude zdrojom problémov so súbormi "
+"väčšími ako 4GB a dôrazne sa neodporúča."
+
+#: /app/lib/private/Setup.php:249
+msgid ""
+"Please remove the open_basedir setting within your php.ini or switch to "
+"64-bit PHP."
+msgstr ""
+"Prosím, odstráňte nastavenie open_basedir vo vašom php.ini alebo prejdite na"
+" 64-bit PHP."
+
+#: /app/lib/private/Setup.php:276
+msgid "Set an admin username."
+msgstr "Zadajte používateľské meno administrátora."
+
+#: /app/lib/private/Setup.php:279
+msgid "Set an admin password."
+msgstr "Zadajte heslo administrátora."
+
+#: /app/lib/private/Setup.php:300
+#, php-format
+msgid "Can't create or write into the data directory %s"
+msgstr "Nemožno vytvoriť alebo zapisovať do priečinka dát %s"
+
+#: /app/lib/private/Share/Helper.php:257
+msgid "Invalid Federated Cloud ID"
+msgstr "Neplatné združené Cloud ID"
+
+#: /app/lib/private/Share/Share.php:365
+msgid ""
+"Sharing %s failed, because the backend does not allow shares from type %i"
+msgstr "Sprístupnenie %s zlyhalo, backend nepodporuje typ sprístupnenia %i"
+
+#: /app/lib/private/Share/Share.php:386
+#, php-format
+msgid "Sharing %s failed, because the file does not exist"
+msgstr "Nie je možné sprístupniť %s, súbor neexistuje"
+
+#: /app/lib/private/Share/Share.php:393
+#: /app/lib/private/Share20/Manager.php:276
+#, php-format
+msgid "You are not allowed to share %s"
+msgstr "Nemôžete sprístupniť %s"
+
+#: /app/lib/private/Share/Share.php:438
+#, php-format
+msgid "Sharing %s failed, because you can not share with yourself"
+msgstr ""
+"Sprístupnenie %s zlyhalo, nieje možné sprístupniť obsah so sebou samým"
+
+#: /app/lib/private/Share/Share.php:444
+#, php-format
+msgid "Sharing %s failed, because the user %s does not exist"
+msgstr "Sprístupnenie %s zlyhalo, používateľ %s neexistuje"
+
+#: /app/lib/private/Share/Share.php:465
+#, php-format
+msgid ""
+"Sharing %s failed, because the user %s is not a member of any groups that %s"
+" is a member of"
+msgstr ""
+"Sprístupnenie %s zlyhalo, používateľ %s nie je členom žiadnej skupiny "
+"spoločnej s používateľom %s"
+
+#: /app/lib/private/Share/Share.php:478 /app/lib/private/Share/Share.php:520
+#: /app/lib/private/Share/Share.php:626
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Sprístupnenie %s zlyhalo, pretože táto položka už je prístupná pre %s"
+
+#: /app/lib/private/Share/Share.php:490
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with user %s"
+msgstr ""
+"Sprístupnenie %s zlyhalo, táto položka už je používateľovi %s prístupná"
+
+#: /app/lib/private/Share/Share.php:498
+#, php-format
+msgid "Sharing %s failed, because the group %s does not exist"
+msgstr "Sprístupnenie %s zlyhalo, skupina %s neexistuje"
+
+#: /app/lib/private/Share/Share.php:508
+#, php-format
+msgid "Sharing %s failed, because %s is not a member of the group %s"
+msgstr "Sprístupnenie %s zlyhalo, %s nie je členom skupiny %s"
+
+#: /app/lib/private/Share/Share.php:587
+msgid ""
+"You need to provide a password to create a public link, only protected links"
+" are allowed"
+msgstr ""
+"Musíte zadať heslo ak chcete vytvoriť verejný odkaz, lebo iba odkazy "
+"chránené heslom sú povolené"
+
+#: /app/lib/private/Share/Share.php:615
+#, php-format
+msgid "Sharing %s failed, because sharing with links is not allowed"
+msgstr ""
+"%s nie je možné sprístupniť, sprístupnenie prostredníctvom odkazu nie je "
+"povolené"
+
+#: /app/lib/private/Share/Share.php:637
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Nie je možné vytvoriť združené sprístupnenie so sebou samým"
+
+#: /app/lib/private/Share/Share.php:656
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable."
+msgstr ""
+"Sprístupňovanie %s zlyhalo, nepodarilo sa nájsť %s, možno je server dočasne "
+"nedostupný."
+
+#: /app/lib/private/Share/Share.php:664
+#, php-format
+msgid "Share type %s is not valid for %s"
+msgstr "Typ sprístupnenia %s nie je možný pre %s"
+
+#: /app/lib/private/Share/Share.php:770
+#, php-format
+msgid ""
+"Cannot set expiration date. Shares cannot expire later than %s after they "
+"have been shared"
+msgstr "Sprístupnenie nemôže byť ukončené skôr, ako po %s dňoch."
+
+#: /app/lib/private/Share/Share.php:778
+msgid "Cannot set expiration date. Expiration date is in the past"
+msgstr ""
+"Nie je možné nastaviť dátum konca platnosti. Dátum konca platnosti je v "
+"minulosti."
+
+#: /app/lib/private/Share/Share.php:879
+#, php-format
+msgid "Sharing backend %s must implement the interface OCP\\Share_Backend"
+msgstr ""
+"Backend pre sprístupnenie %s musí implementovať rozhranie OCP\\Share_Backend"
+
+#: /app/lib/private/Share/Share.php:886
+#, php-format
+msgid "Sharing backend %s not found"
+msgstr "Backend sprístupnenia %s nebol nájdený"
+
+#: /app/lib/private/Share/Share.php:892
+#, php-format
+msgid "Sharing backend for %s not found"
+msgstr "Backend sprístupnenia pre %s nebol nájdený"
+
+#: /app/lib/private/Share/Share.php:1695
+#, php-format
+msgid "Sharing failed, because the user %s is the original sharer"
+msgstr ""
+"Sprístupnenie zlyhalo, pretože používateľ %s je pôvodný spoločný používateľ"
+
+#: /app/lib/private/Share/Share.php:1707
+#, php-format
+msgid ""
+"Sharing %s failed, because the permissions exceed permissions granted to %s"
+msgstr ""
+"Sprístupnenie %s zlyhalo, pretože povolenia prekračujú povolenia udelené %s"
+
+#: /app/lib/private/Share/Share.php:1739
+#, php-format
+msgid "Sharing %s failed, because resharing is not allowed"
+msgstr "Nie je možné sprístupniť %s ďalším osobám"
+
+#: /app/lib/private/Share/Share.php:1753
+#, php-format
+msgid ""
+"Sharing %s failed, because the sharing backend for %s could not find its "
+"source"
+msgstr "Sprístupnenie %s zlyhalo, backend nenašiel zdrojový %s"
+
+#: /app/lib/private/Share/Share.php:1767
+#, php-format
+msgid ""
+"Sharing %s failed, because the file could not be found in the file cache"
+msgstr ""
+"Sprístupnenie %s zlyhalo, pretože súbor sa nenachádza vo vyrovnávacej pamäti"
+" súborov"
+
+#: /app/lib/private/Share20/Manager.php:298
+#, php-format
+msgid "Can’t increase permissions of %s"
+msgstr "Nie je možné navýšiť oprávnenia pre %s"
+
+#: /app/lib/private/Share20/Manager.php:314
+msgid "Files can’t be shared with delete permissions"
+msgstr "Súbory nie je možné sprístupňovať s oprávneniami na odstránenie"
+
+#: /app/lib/private/Share20/Manager.php:318
+msgid "Files can’t be shared with create permissions"
+msgstr "Súbory nie je možné sprístupňovať s oprávneniami na vytváranie"
+
+#: /app/lib/private/Share20/Manager.php:344
+msgid "Expiration date is in the past"
+msgstr "Dátum konca platnosti je v minulosti"
+
+#: /app/lib/private/Share20/Manager.php:373
+#, php-format
+msgid "Can’t set expiration date more than %s days in the future"
+msgstr ""
+"Nie je možné nastaviť dátum konca platnosti viac ako %s dní v budúcnosti"
+
+#: /app/lib/private/Share20/Manager.php:732
+#: /app/lib/private/Share20/Manager.php:734
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s vám sprístupnil »%s«"
+
+#: /app/lib/private/Share20/Manager.php:735
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s vám sprístupnil »%s«"
+
+#: /app/lib/private/Share20/Manager.php:738
+msgid "Click the button below to open it."
+msgstr "Pre otvorenie klienta kliknite na tlačítko nižšie."
+
+#: /app/lib/private/Share20/Manager.php:742
+#, php-format
+msgid "Open »%s«"
+msgstr "Otvoriť »%s«"
+
+#: /app/lib/private/Share20/Manager.php:751
+#, php-format
+msgid "%s via %s"
+msgstr "%s cez %s"
+
+#: /app/lib/private/Share20/Manager.php:1210
+#: /app/lib/private/Share20/Manager.php:1230
+msgid "The requested share does not exist anymore"
+msgstr "Požadované sprístupnenie už neexistuje"
+
+#: /app/lib/private/Tags.php:282
+#, php-format
+msgid "Could not find category \"%s\""
+msgstr "Nemožno nájsť danú kategóriu \"%s\""
+
+#: /app/lib/private/Template/JSConfigHelper.php:160
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#: /app/lib/private/Template/JSConfigHelper.php:161
+msgid "Monday"
+msgstr "Pondelok"
+
+#: /app/lib/private/Template/JSConfigHelper.php:162
+msgid "Tuesday"
+msgstr "Utorok"
+
+#: /app/lib/private/Template/JSConfigHelper.php:163
+msgid "Wednesday"
+msgstr "Streda"
+
+#: /app/lib/private/Template/JSConfigHelper.php:164
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#: /app/lib/private/Template/JSConfigHelper.php:165
+msgid "Friday"
+msgstr "Piatok"
+
+#: /app/lib/private/Template/JSConfigHelper.php:166
+msgid "Saturday"
+msgstr "Sobota"
+
+#: /app/lib/private/Template/JSConfigHelper.php:169
+msgid "Sun."
+msgstr "Ned."
+
+#: /app/lib/private/Template/JSConfigHelper.php:170
+msgid "Mon."
+msgstr "Pon."
+
+#: /app/lib/private/Template/JSConfigHelper.php:171
+msgid "Tue."
+msgstr "Uto."
+
+#: /app/lib/private/Template/JSConfigHelper.php:172
+msgid "Wed."
+msgstr "Str."
+
+#: /app/lib/private/Template/JSConfigHelper.php:173
+msgid "Thu."
+msgstr "Štv."
+
+#: /app/lib/private/Template/JSConfigHelper.php:174
+msgid "Fri."
+msgstr "Pia."
+
+#: /app/lib/private/Template/JSConfigHelper.php:175
+msgid "Sat."
+msgstr "Sob."
+
+#: /app/lib/private/Template/JSConfigHelper.php:178
+msgid "Su"
+msgstr "Ne"
+
+#: /app/lib/private/Template/JSConfigHelper.php:179
+msgid "Mo"
+msgstr "Po"
+
+#: /app/lib/private/Template/JSConfigHelper.php:180
+msgid "Tu"
+msgstr "Ut"
+
+#: /app/lib/private/Template/JSConfigHelper.php:181
+msgid "We"
+msgstr "St"
+
+#: /app/lib/private/Template/JSConfigHelper.php:182
+msgid "Th"
+msgstr "Št"
+
+#: /app/lib/private/Template/JSConfigHelper.php:183
+msgid "Fr"
+msgstr "Pi"
+
+#: /app/lib/private/Template/JSConfigHelper.php:184
+msgid "Sa"
+msgstr "So"
+
+#: /app/lib/private/Template/JSConfigHelper.php:187
+msgid "January"
+msgstr "Január"
+
+#: /app/lib/private/Template/JSConfigHelper.php:188
+msgid "February"
+msgstr "Február"
+
+#: /app/lib/private/Template/JSConfigHelper.php:189
+msgid "March"
+msgstr "Marec"
+
+#: /app/lib/private/Template/JSConfigHelper.php:190
+msgid "April"
+msgstr "Apríl"
+
+#: /app/lib/private/Template/JSConfigHelper.php:191
+msgid "May"
+msgstr "Máj"
+
+#: /app/lib/private/Template/JSConfigHelper.php:192
+msgid "June"
+msgstr "Jún"
+
+#: /app/lib/private/Template/JSConfigHelper.php:193
+msgid "July"
+msgstr "Júl"
+
+#: /app/lib/private/Template/JSConfigHelper.php:194
+msgid "August"
+msgstr "August"
+
+#: /app/lib/private/Template/JSConfigHelper.php:195
+msgid "September"
+msgstr "September"
+
+#: /app/lib/private/Template/JSConfigHelper.php:196
+msgid "October"
+msgstr "Október"
+
+#: /app/lib/private/Template/JSConfigHelper.php:197
+msgid "November"
+msgstr "November"
+
+#: /app/lib/private/Template/JSConfigHelper.php:198
+msgid "December"
+msgstr "December"
+
+#: /app/lib/private/Template/JSConfigHelper.php:201
+msgid "Jan."
+msgstr "Jan."
+
+#: /app/lib/private/Template/JSConfigHelper.php:202
+msgid "Feb."
+msgstr "Feb."
+
+#: /app/lib/private/Template/JSConfigHelper.php:203
+msgid "Mar."
+msgstr "Mar."
+
+#: /app/lib/private/Template/JSConfigHelper.php:204
+msgid "Apr."
+msgstr "Apr."
+
+#: /app/lib/private/Template/JSConfigHelper.php:205
+msgid "May."
+msgstr "Máj."
+
+#: /app/lib/private/Template/JSConfigHelper.php:206
+msgid "Jun."
+msgstr "Jún."
+
+#: /app/lib/private/Template/JSConfigHelper.php:207
+msgid "Jul."
+msgstr "Júl."
+
+#: /app/lib/private/Template/JSConfigHelper.php:208
+msgid "Aug."
+msgstr "Aug."
+
+#: /app/lib/private/Template/JSConfigHelper.php:209
+msgid "Sep."
+msgstr "Sep."
+
+#: /app/lib/private/Template/JSConfigHelper.php:210
+msgid "Oct."
+msgstr "Okt."
+
+#: /app/lib/private/Template/JSConfigHelper.php:211
+msgid "Nov."
+msgstr "Nov."
+
+#: /app/lib/private/Template/JSConfigHelper.php:212
+msgid "Dec."
+msgstr "Dec."
+
+#: /app/lib/private/User/Manager.php:314
+msgid ""
+"Only the following characters are allowed in a username: \"a-z\", \"A-Z\", "
+"\"0-9\", and \"_.@-'\""
+msgstr ""
+"V mene používateľa je možné použiť iba nasledovné znaky: \"a-z\", \"A-Z\", "
+"\"0-9\", and \"_.@-'\""
+
+#: /app/lib/private/User/Manager.php:319
+msgid "A valid username must be provided"
+msgstr "Musíte zadať platné používateľské meno"
+
+#: /app/lib/private/User/Manager.php:323
+msgid "Username contains whitespace at the beginning or at the end"
+msgstr "Meno používateľa obsahuje na začiatku, alebo na konci medzeru"
+
+#: /app/lib/private/User/Manager.php:327
+msgid "Username must not consist of dots only"
+msgstr "Používateľské meno sa nesmie skladať len z bodiek"
+
+#: /app/lib/private/User/Manager.php:331
+msgid "A valid password must be provided"
+msgstr "Musíte zadať platné heslo"
+
+#: /app/lib/private/User/Manager.php:336
+msgid "The username is already being used"
+msgstr "Meno používateľa je už použité"
+
+#: /app/lib/private/User/Manager.php:342
+msgid "Could not create user"
+msgstr "Nepodarilo sa vytvoriť používateľa"
+
+#: /app/lib/private/User/Session.php:349
+msgid "User disabled"
+msgstr "Používateľ zakázaný"
+
+#: /app/lib/private/User/Session.php:374
+msgid "Login canceled by app"
+msgstr "Prihlásenie bolo zrušené aplikáciou"
+
+#: /app/lib/private/legacy/app.php:1152
+#, php-format
+msgid ""
+"App \"%s\" cannot be installed because the following dependencies are not "
+"fulfilled: %s"
+msgstr ""
+"Aplikáciu \"%s\" nie je možné inštalovať, pretože nie sú splnené nasledovné "
+"závislosti: %s"
+
+#: /app/lib/private/legacy/defaults.php:68
+msgid "a safe home for all your data"
+msgstr "bezpečný domov pre všetky vaše dáta"
+
+#: /app/lib/private/legacy/files.php:181
+msgid "File is currently busy, please try again later"
+msgstr "Súbor sa práve používa, skúste prosím neskôr"
+
+#: /app/lib/private/legacy/files.php:186 /app/lib/private/legacy/files.php:192
+msgid "Can't read file"
+msgstr "Nemožno čítať súbor."
+
+#: /app/lib/private/legacy/json.php:62
+msgid "Application is not enabled"
+msgstr "Aplikácia nie je zapnutá"
+
+#: /app/lib/private/legacy/json.php:78 /app/lib/private/legacy/json.php:109
+#: /app/lib/private/legacy/json.php:143
+msgid "Authentication error"
+msgstr "Chyba autentifikácie"
+
+#: /app/lib/private/legacy/json.php:96
+msgid "Token expired. Please reload page."
+msgstr "Token vypršal. Obnovte, prosím, stránku."
+
+#: /app/lib/private/legacy/util.php:741
+msgid "No database drivers (sqlite, mysql, or postgresql) installed."
+msgstr ""
+"Ovládače databázy (sqlite, mysql, alebo postgresql) nie sú nainštalované."
+
+#: /app/lib/private/legacy/util.php:751
+msgid "Cannot write into \"config\" directory"
+msgstr "Nie je možné zapisovať do priečinka \"config\""
+
+#: /app/lib/private/legacy/util.php:765
+msgid "Cannot write into \"apps\" directory"
+msgstr "Nie je možné zapisovať do priečinka \"apps\""
+
+#: /app/lib/private/legacy/util.php:766
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the apps "
+"directory or disabling the appstore in the config file. See %s"
+msgstr ""
+"Toto je zvyčajne možné opraviť tým, že udelíte webovému serveru oprávnenie "
+"na zápis do priečinka aplikácií alebo vypnete obchod s aplikáciami v "
+"konfiguračnom súbore. Viď %s"
+
+#: /app/lib/private/legacy/util.php:780
+msgid "Cannot create \"data\" directory"
+msgstr "Nie je možné vytvoriť priečinok \"data\""
+
+#: /app/lib/private/legacy/util.php:781
+#, php-format
+msgid ""
+"This can usually be fixed by giving the webserver write access to the root "
+"directory. See %s"
+msgstr ""
+"To je zvyčajne možné opraviť tým, že udelíte webovému serveru oprávnenie na "
+"zápis do koreňového adresára. Viď %s"
+
+#: /app/lib/private/legacy/util.php:787
+#, php-format
+msgid ""
+"Permissions can usually be fixed by giving the webserver write access to the"
+" root directory. See %s."
+msgstr ""
+"Oprávnenia je zvyčajne možné opraviť tým, že udelíte webovému serveru "
+"oprávnenie na zápis do koreňového priečinka. Viď %s."
+
+#: /app/lib/private/legacy/util.php:800
+#, php-format
+msgid "Setting locale to %s failed"
+msgstr "Nastavenie locale na %s zlyhalo"
+
+#: /app/lib/private/legacy/util.php:803
+msgid ""
+"Please install one of these locales on your system and restart your "
+"webserver."
+msgstr ""
+"Prosím, nainštalujte si aspoň jeden z týchto jazykov so svojho systému a "
+"reštartujte webserver."
+
+#: /app/lib/private/legacy/util.php:844
+msgid "Please ask your server administrator to install the module."
+msgstr "Prosím, požiadajte administrátora vášho servera o inštaláciu modulu."
+
+#: /app/lib/private/legacy/util.php:890
+#, php-format
+msgid "PHP module %s not installed."
+msgstr "PHP modul %s nie je nainštalovaný."
+
+#: /app/lib/private/legacy/util.php:900
+#, php-format
+msgid "PHP setting \"%s\" is not set to \"%s\"."
+msgstr "Voľba PHP „%s“ nie je nastavená na „%s“."
+
+#: /app/lib/private/legacy/util.php:901
+msgid "Adjusting this setting in php.ini will make Nextcloud run again"
+msgstr ""
+"Použitím týchto nastavení v php.ini dovolí Nextcloudu sa znova spustiť"
+
+#: /app/lib/private/legacy/util.php:917
+#, php-format
+msgid "mbstring.func_overload is set to \"%s\" instead of the expected value \"0\""
+msgstr ""
+"mbstring.func_overload je nastavený na \"%s\", namiesto predpokladanej "
+"hodnoty \"0\""
+
+#: /app/lib/private/legacy/util.php:918
+msgid ""
+"To fix this issue set <code>mbstring.func_overload</code> to <code>0</code> "
+"in your php.ini"
+msgstr ""
+"Oprava problému spočíva v nastavení <code>mbstring.func_overload</code> na "
+"<code>0</code> vo vašom php.ini"
+
+#: /app/lib/private/legacy/util.php:931
+#, php-format
+msgid "libxml2 2.7.0 is at least required. Currently %s is installed."
+msgstr ""
+"Vyžadovaná verzia libxml2 je 2.7.0 a vyššia. Momentálne je nainštalovaná "
+"verzia %s."
+
+#: /app/lib/private/legacy/util.php:932
+msgid ""
+"To fix this issue update your libxml2 version and restart your web server."
+msgstr ""
+"Pre vyriešenie tohto problému aktualizujte prosím verziu libxml2 a "
+"reštartujte webový server."
+
+#: /app/lib/private/legacy/util.php:938
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+"PHP je zjavne nastavené, aby odstraňovalo bloky vloženej dokumentácie. To "
+"zneprístupní niekoľko základných aplikácií."
+
+#: /app/lib/private/legacy/util.php:939
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"To je pravdepodobne spôsobené cache/akcelerátorom ako napr. Zend OPcache "
+"alebo eAccelerator."
+
+#: /app/lib/private/legacy/util.php:945
+msgid "PHP modules have been installed, but they are still listed as missing?"
+msgstr "PHP moduly boli nainštalované, ale stále sa tvária, že chýbajú?"
+
+#: /app/lib/private/legacy/util.php:946
+msgid "Please ask your server administrator to restart the web server."
+msgstr ""
+"Prosím, požiadajte administrátora vášho servera o reštartovanie webového "
+"servera."
+
+#: /app/lib/private/legacy/util.php:976
+msgid "PostgreSQL >= 9 required"
+msgstr "Vyžadované PostgreSQL >= 9"
+
+#: /app/lib/private/legacy/util.php:977
+msgid "Please upgrade your database version"
+msgstr "Prosím, aktualizujte verziu svojej databázy"
+
+#: /app/lib/private/legacy/util.php:1002
+msgid ""
+"Please change the permissions to 0770 so that the directory cannot be listed"
+" by other users."
+msgstr ""
+"Prosím, zmeňte oprávnenia na 0770, aby tento priečinok nemohli ostatní "
+"používatelia otvoriť."
+
+#: /app/lib/private/legacy/util.php:1011
+msgid "Your data directory is readable by other users"
+msgstr "Váš priečinok s dátami je prístupný na čítanie ostatným používateľom"
+
+#: /app/lib/private/legacy/util.php:1031
+msgid "Your data directory must be an absolute path"
+msgstr "Priečinok s dátami musí byť zadaný ako absolútna cesta"
+
+#: /app/lib/private/legacy/util.php:1032
+msgid "Check the value of \"datadirectory\" in your configuration"
+msgstr "Skontrolujte hodnotu \"datadirectory\" vo vašej konfigurácii"
+
+#: /app/lib/private/legacy/util.php:1037
+msgid "Your data directory is invalid"
+msgstr "Priečinok s dátami je neplatný"
+
+#: /app/lib/private/legacy/util.php:1038
+msgid ""
+"Ensure there is a file called \".ocdata\" in the root of the data directory."
+msgstr ""
+"Uistite sa, že v koreňovom adresári sa nachádza súbor s názvom \".ocdata\"."
+
+#: /app/lib/public/Files/LockNotAcquiredException.php:49
+#, php-format
+msgid "Could not obtain lock type %d on \"%s\"."
+msgstr "Nepodarilo sa získať zámok typu %d na „%s“."
+
+#: /app/lib/public/Files/StorageAuthException.php:40
+#, php-format
+msgid "Storage unauthorized. %s"
+msgstr "Úložisko neoverené. %s"
+
+#: /app/lib/public/Files/StorageBadConfigException.php:40
+#, php-format
+msgid "Storage incomplete configuration. %s"
+msgstr "Neplatná konfigurácia úložiska. %s"
+
+#: /app/lib/public/Files/StorageConnectionException.php:40
+#, php-format
+msgid "Storage connection error. %s"
+msgstr "Chyba pripojenia k úložisku. %s"
+
+#: /app/lib/public/Files/StorageNotAvailableException.php:63
+msgid "Storage is temporarily not available"
+msgstr "Úložisko je dočasne nedostupné"
+
+#: /app/lib/public/Files/StorageTimeoutException.php:40
+#, php-format
+msgid "Storage connection timeout. %s"
+msgstr "Vypršanie pripojenia k úložisku. %s"

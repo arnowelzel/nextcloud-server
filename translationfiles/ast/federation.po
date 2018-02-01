@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: enolp <enolp@softastur.org>, 2017\n"
+"Language-Team: Asturian (https://www.transifex.com/nextcloud/teams/64236/ast/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "Amestóse al llistáu de sirvidores d'enfotu"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "El sirvidor yá ta nel llistáu de sirvidores d'enfotu."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "Nun s'alcontró dengún sirvidor col que federase"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "Nun pudo amestase'l sirvidor"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "Sirvidores d'enfotu"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"La federación permítete coneutar con otros sirvidores d'enfotu pa "
+"intercambiar el direutoriu d'usuarios. Por exemplu, esto usaráse p'auto-"
+"completar usuarios esternos y compatir de mou federáu."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr ""
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ Amestar sirvidor d'enfotu"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "Sirvidor d'enfotu"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "Amestar"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "Federación"

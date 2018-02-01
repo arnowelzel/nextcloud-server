@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2016\n"
+"Language-Team: Icelandic (https://www.transifex.com/nextcloud/teams/64236/is/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Deiling milli þjóna (skýjasambandssameign)"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Viltu bæta við fjartengdri sameign {name} frá {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Fjartengd sameign"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Lykilorð fjartengdrar sameignar"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Bæta við fjartengdri sameign"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Afrita"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Afritað!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Ekki stutt!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Ýttu á ⌘-C til að afrita."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Ýttu á Ctrl-C til að afrita."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Ógilt skýjasambandsauðkenni (Federated Cloud ID)"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Deiling frá þjóni til þjóns er ekki virk á þessum þjóni"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Gat ekki bætt við skýjasambandssameign."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Gat ekki bætt við skýjasambandssameign, hugsanlega var lykilorðið ekki rétt."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Sendi beiðni um skýjasambandssameign, þú munt fá boðskort. Athugaðu skilaboð"
+" til þín."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Heiti tengipunktsins inniheldur ógilda stafi."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Ekki er heimilt að búa til skýjasambandssameign með eigandanum."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Ógilt eða vantreyst SSL-skilríki"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr "Gat ekki auðkennt á fjartengdri sameign, lykilorð gæti verið rangt"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Geymslan er ekki gild"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Bætti við skýjasambandssameign"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Gat ekki bætt við fjartengdri sameign"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Deiling %s mistókst, því þessu atriði er þegar deilt með %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Ekki er heimilt að búa til skýjasambandssameign með sama notanda"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Skránni er þegar deilt með %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"Deiling %s mistókst, gat ekki fundið %s, hugsanlega er þjónninn ekki "
+"tiltækur í augnablikinu eða að hann notar sjálfundirritað skilríki."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Gat ekki fundið sameign"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "Þú tókst við \"%3$s\" sem fjartengdri sameign frá %1$s (fyrir hönd %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Þú tókst við {share} sem fjartengdri sameign frá {user} (fyrir hönd "
+"{behalf})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Þú tókst við \"%3$s\" sem fjartengdri sameign frá %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Þú tókst við {share} sem fjartengdri sameign frá {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Samþykkja"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Hafna"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Deila með mér í gegnum víðværa skýjasambandsauðkennið mitt #Nextcloud "
+"Federated Cloud ID, sjá %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr ""
+"Deila með mér í gegnum víðværa skýjasambandsauðkennið mitt #Nextcloud "
+"Federated Cloud ID"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Deiling"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Deiling með skýjasambandi"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Opna hjálparskjöl"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Stilltu hvernig fólk getur deilt á milli þjóna."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "Leyfa notendum á þessum þjóni að senda sameignir til annarra þjóna"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Leyfa notendum á þessum þjóni að taka á móti sameignum frá öðrum þjónum"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Leita að notendum í víðværri og opinberri vistfangaskrá"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Leifa notendum að birta gögnin sín í víðværri og opinberri vistfangaskrá"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Skýjasamband (federated)"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Þú getur deilt með hverjum þeim sem notar Nextcloud, ownCloud eða Pydio! "
+"Settu bara skýjasambandsauðkennið þeirra (Federated Cloud ID) inn í "
+"deilingargluggann. Það lítur út svipað og einstaklingur@tölvuský.dæmi.is"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Skýjasambandsauðkennið þitt (Federated Cloud ID):"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Deildu þessu svo að vinir þínir geti deilt skrám með þér:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Bæta við vefsvæðið þitt"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Deila með mér í gegnum Nextcloud"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML-kóði:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Leita að notendum í víðværri og opinberri vistfangaskrá og leyfa staðværum "
+"notendum að birta gögnin sín"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Deila því:"

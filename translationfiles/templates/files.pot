@@ -1,0 +1,682 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /app/apps/files/ajax/list.php:84 /app/apps/files/js/filelist.js:1676
+msgid "Storage is temporarily not available"
+msgstr ""
+
+#: /app/apps/files/ajax/list.php:92
+msgid "Storage invalid"
+msgstr ""
+
+#: /app/apps/files/ajax/list.php:100
+msgid "Unknown error"
+msgstr ""
+
+#: /app/apps/files/appinfo/app.php:47
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:141
+msgid "All files"
+msgstr ""
+
+#: /app/apps/files/appinfo/app.php:57 /app/apps/files/js/recentfilelist.js:36
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:151
+msgid "Recent"
+msgstr ""
+
+#: /app/apps/files/js/app.js:57
+msgid "File could not be found"
+msgstr ""
+
+#: /app/apps/files/js/breadcrumb.js:186
+msgid "Home"
+msgstr ""
+
+#: /app/apps/files/js/detailsview.js:132
+msgid "Close"
+msgstr ""
+
+#: /app/apps/files/js/favoritesfilelist.js:31
+#: /app/apps/files/lib/Activity/Filter/Favorites.php:78
+#: /app/apps/files/lib/Controller/ViewController.php:168
+msgid "Favorites"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:465 /app/apps/files/js/filelist.js:2267
+#: /app/apps/files/js/filelist.js:2285 /app/apps/files/js/filelist.js:2291
+msgid "Could not create folder \"{dir}\""
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:548
+msgid "Upload cancelled."
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:821
+msgid "Unable to upload {filename} as it is a directory or has 0 bytes"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:840
+msgid ""
+"Not enough free space, you are uploading {size1} but only {size2} is left"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:911
+msgid "Target folder \"{dir}\" does not exist any more"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:915
+msgid "Not enough free space"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:974 /app/apps/files/js/file-upload.js:1026
+#: /app/apps/files/templates/list.php:5
+msgid "Uploading …"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:976 /app/apps/files/templates/list.php:5
+msgid "…"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:1031
+msgid "{loadedSize} of {totalSize} ({bitrate})"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:378
+msgid "Actions"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:580 /app/apps/files/templates/list.php:52
+msgid "Download"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:610
+msgid "Rename"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:622
+msgid "Move"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:628
+msgid "Target folder"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:643 /app/apps/files/templates/list.php:63
+#: /app/apps/files/templates/recentlist.php:32
+#: /app/apps/files/templates/simplelist.php:31
+#: /app/apps/files/templates/simplelist.php:32
+msgid "Delete"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:645
+msgid "Disconnect storage"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:647
+msgid "Unshare"
+msgstr ""
+
+#: /app/apps/files/js/fileinfomodel.js:115
+msgid "Could not load info for file \"{file}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:47
+#: /app/apps/files/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "Files"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:405
+msgid "Details"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1178
+msgid "Select"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1258 /app/apps/files/js/filesummary.js:234
+#: /app/apps/files/js/filesummary.js:271
+msgid "Pending"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1280
+msgid "Unable to determine date"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1657
+msgid "This operation is forbidden"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1665
+msgid ""
+"This directory is unavailable, please check the logs or contact the "
+"administrator"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1990
+msgid "Could not move \"{file}\", target exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:1994
+msgid "Could not move \"{file}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2057 /app/apps/files/js/newfilemenu.js:150
+msgid "{newName} already exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2112
+msgid "Could not rename \"{fileName}\", it does not exist any more"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2121
+msgid ""
+"The name \"{targetName}\" is already used in the folder \"{dir}\". Please "
+"choose a different name."
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2132
+msgid "Could not rename \"{fileName}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2217 /app/apps/files/js/filelist.js:2228
+#: /app/apps/files/js/filelist.js:2348
+msgid "Could not create file \"{file}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2224
+msgid "Could not create file \"{file}\" because it already exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2278
+msgid "Could not create folder \"{dir}\" because it already exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2459
+msgid "Error deleting file \"{fileName}\"."
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2588
+msgid "No search results in other folders for {tag}{filter}{endtag}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2629
+#: /app/apps/files/js/mainfileinfodetailview.js:167
+#: /app/apps/files/templates/list.php:48
+#: /app/apps/files/templates/recentlist.php:20
+#: /app/apps/files/templates/simplelist.php:22
+msgid "Name"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2630
+#: /app/apps/files/js/mainfileinfodetailview.js:172
+#: /app/apps/files/templates/list.php:58
+#: /app/apps/files/templates/recentlist.php:25
+#: /app/apps/files/templates/simplelist.php:26
+msgid "Size"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2631
+#: /app/apps/files/js/mainfileinfodetailview.js:175
+#: /app/apps/files/templates/list.php:61
+#: /app/apps/files/templates/recentlist.php:29
+#: /app/apps/files/templates/simplelist.php:29
+msgid "Modified"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2639 /app/apps/files/js/filesummary.js:231
+msgid "%n folder"
+msgid_plural "%n folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/apps/files/js/filelist.js:2640 /app/apps/files/js/filesummary.js:232
+msgid "%n file"
+msgid_plural "%n files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/apps/files/js/filelist.js:2647 /app/apps/files/js/filesummary.js:207
+msgid "{dirs} and {files}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2655 /app/apps/files/js/filesummary.js:233
+msgid "including %n hidden"
+msgid_plural "including %n hidden"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/apps/files/js/filelist.js:2723 /app/apps/files/templates/list.php:12
+msgid "You don’t have permission to upload or create files here"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2820
+msgid "Uploading %n file"
+msgid_plural "Uploading %n files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/apps/files/js/filelist.js:2974
+msgid "New"
+msgstr ""
+
+#: /app/apps/files/js/files.js:101
+msgid "\"{name}\" is an invalid file name."
+msgstr ""
+
+#: /app/apps/files/js/files.js:103
+msgid "File name cannot be empty."
+msgstr ""
+
+#: /app/apps/files/js/files.js:105
+msgid "\"{name}\" is not an allowed filetype"
+msgstr ""
+
+#: /app/apps/files/js/files.js:120
+msgid "Storage of {owner} is full, files can not be updated or synced anymore!"
+msgstr ""
+
+#: /app/apps/files/js/files.js:126
+msgid "Your storage is full, files can not be updated or synced anymore!"
+msgstr ""
+
+#: /app/apps/files/js/files.js:133
+msgid "Storage of {owner} is almost full ({usedSpacePercent}%)"
+msgstr ""
+
+#: /app/apps/files/js/files.js:144
+msgid "Your storage is almost full ({usedSpacePercent}%)"
+msgstr ""
+
+#: /app/apps/files/js/filesummary.js:258
+msgid "matches '{filter}'"
+msgid_plural "match '{filter}'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/apps/files/js/gotoplugin.js:36
+msgid "View in folder"
+msgstr ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:169
+msgid "Path"
+msgstr ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:174
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:180
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Favorited"
+msgstr ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:180
+#: /app/apps/files/js/tagsplugin.js:49 /app/apps/files/js/tagsplugin.js:90
+msgid "Favorite"
+msgstr ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:183
+msgid ""
+"Copy direct link (only works for users who have access to this file/folder)"
+msgstr ""
+
+#: /app/apps/files/js/newfilemenu.js:68 /app/apps/files/js/newfilemenu.js:69
+msgid "New folder"
+msgstr ""
+
+#: /app/apps/files/js/newfilemenu.js:227
+msgid "Upload file"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:240
+msgid "An error occurred while trying to update the tags"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:100
+msgid "Added to favorites"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:107
+msgid "Removed from favorites"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:130
+msgid "You added {file} to your favorites"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/FavoriteProvider.php:137
+msgid "You removed {file} from your favorites"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Filter/FileChanges.php:59
+msgid "File changes"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:112
+msgid "Created by {user}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:119
+msgid "Changed by {user}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:126
+msgid "Deleted by {user}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:133
+msgid "Restored by {user}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:135
+msgid "Renamed by {user}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:142
+msgid "Moved by {user}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:154
+#: /app/apps/files/lib/Activity/Provider.php:259
+msgid "\"remote user\""
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:173
+msgid "You created {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:180
+msgid "{user} created {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:187
+msgid "{file} was created in a public folder"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:194
+msgid "You changed {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:201
+msgid "{user} changed {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:208
+msgid "You deleted {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:215
+msgid "{user} deleted {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:222
+msgid "You restored {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:224
+msgid "{user} restored {file}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:226
+msgid "You renamed {oldfile} to {newfile}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:233
+msgid "{user} renamed {oldfile} to {newfile}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:240
+msgid "You moved {oldfile} to {newfile}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Provider.php:247
+msgid "{user} moved {oldfile} to {newfile}"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FavoriteAction.php:53
+msgid ""
+"A file has been added to or removed from your <strong>favorites</strong>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileChanged.php:53
+msgid ""
+"A file or folder has been <strong>changed</strong> or <strong>renamed</"
+"strong>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileCreated.php:53
+msgid "A new file or folder has been <strong>created</strong>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileDeleted.php:53
+msgid "A new file or folder has been <strong>deleted</strong>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileFavorite.php:53
+msgid ""
+"Limit notifications about creation and changes to your <strong>favorite "
+"files</strong> <em>(Stream only)</em>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileRestored.php:53
+msgid "A new file or folder has been <strong>restored</strong>"
+msgstr ""
+
+#: /app/apps/files/lib/Controller/ViewController.php:181
+msgid "Unlimited"
+msgstr ""
+
+#: /app/apps/files/lib/Helper.php:52
+#, php-format
+msgid "Upload (max. %s)"
+msgstr ""
+
+#: /app/apps/files/templates/admin.php:4
+msgid "File handling"
+msgstr ""
+
+#: /app/apps/files/templates/admin.php:5
+msgid "Maximum upload size"
+msgstr ""
+
+#: /app/apps/files/templates/admin.php:10
+msgid "max. possible: "
+msgstr ""
+
+#: /app/apps/files/templates/admin.php:15
+msgid "Save"
+msgstr ""
+
+#: /app/apps/files/templates/admin.php:16
+msgid "With PHP-FPM it might take 5 minutes for changes to be applied."
+msgstr ""
+
+#: /app/apps/files/templates/admin.php:18
+msgid "Missing permissions to edit from here."
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:10
+#, php-format
+msgid "%s of %s used"
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:12
+#, php-format
+msgid "%s used"
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:33
+msgid "Settings"
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:39
+msgid "Show hidden files"
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:41
+msgid "WebDAV"
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:43
+#, php-format
+msgid ""
+"Use this address to <a href=\"%s\" target=\"_blank\" rel=\"noreferrer"
+"\">access your Files via WebDAV</a>"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:29
+msgid "No files in here"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:30
+msgid "Upload some content or sync with your devices!"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:35
+#: /app/apps/files/templates/recentlist.php:10
+#: /app/apps/files/templates/simplelist.php:13
+msgid "No entries found in this folder"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:46
+msgid "Select all"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:79
+msgid "Upload too large"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:81
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr ""
+
+#: /app/apps/files/templates/simplelist.php:5
+msgid "No favorites yet"
+msgstr ""
+
+#: /app/apps/files/templates/simplelist.php:6
+msgid "Files and folders you mark as favorite will show up here"
+msgstr ""
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:171
+msgid "Shared with you"
+msgstr ""
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:181
+msgid "Shared with others"
+msgstr ""
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:191
+msgid "Shared by link"
+msgstr ""
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:201
+msgid "Tags"
+msgstr ""
+
+#: /app/apps/files/tests/Controller/ViewControllerTest.php:211
+msgid "Deleted files"
+msgstr ""
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:111
+msgid "Text file"
+msgstr ""
+
+#: /app/apps/files/tests/js/newfilemenuSpec.js:112
+msgid "New text file.txt"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:1188
+msgid "Target folder does not exist any more"
+msgstr ""
+
+#: /app/apps/files/js/file-upload.js:1190
+msgid "Error when assembling chunks, status code {status}"
+msgstr ""
+
+#: /app/apps/files/js/fileactions.js:628 /app/apps/files/templates/list.php:56
+msgid "Move or copy"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2141
+msgid "Could not copy \"{file}\", target exists"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2145
+msgid "Could not copy \"{file}\""
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2169 /app/apps/files/js/filelist.js:2176
+msgid "Copied {origin} inside {destination}"
+msgstr ""
+
+#: /app/apps/files/js/filelist.js:2183
+msgid "Copied {origin} and {nbfiles} other files inside {destination}"
+msgstr ""
+
+#: /app/apps/files/js/files.js:100
+msgid "{used} of {quota} used"
+msgstr ""
+
+#: /app/apps/files/js/files.js:102
+msgid "{used} used"
+msgstr ""
+
+#: /app/apps/files/js/files.js:138
+msgid "\"/\" is not allowed inside a file name."
+msgstr ""
+
+#: /app/apps/files/js/mainfileinfodetailview.js:100
+msgid "Copied!"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:49
+msgid "Not favorited"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:96
+msgid "Remove from favorites"
+msgstr ""
+
+#: /app/apps/files/js/tagsplugin.js:103
+msgid "Add to favorites"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileDeleted.php:55
+msgid "A file or folder has been <strong>deleted</strong>"
+msgstr ""
+
+#: /app/apps/files/lib/Activity/Settings/FileRestored.php:55
+msgid "A file or folder has been <strong>restored</strong>"
+msgstr ""
+
+#: /app/apps/files/templates/appnavigation.php:45
+#, php-format
+msgid ""
+"Use this address to <a href=\"%s\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">access your Files via WebDAV</a>"
+msgstr ""
+
+#: /app/apps/files/templates/list.php:8
+msgid "Cancel upload"
+msgstr ""

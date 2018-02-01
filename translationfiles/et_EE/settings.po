@@ -1,0 +1,2171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: J N <jurks666@gmail.com>, 2017\n"
+"Language-Team: Estonian (Estonia) (https://www.transifex.com/nextcloud/teams/64236/et_EE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et_EE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Activity/Provider.php:97
+msgid "{actor} changed your password"
+msgstr "{actor} muutis sinu parooli"
+
+#: Activity/Provider.php:99
+msgid "You changed your password"
+msgstr "Sa muutsid oma parooli"
+
+#: Activity/Provider.php:101
+msgid "Your password was reset by an administrator"
+msgstr "Administraator lähtestas sinu parooli"
+
+#: Activity/Provider.php:104
+msgid "{actor} changed your email address"
+msgstr "{actor} muutis sinu e-posti aadressi"
+
+#: Activity/Provider.php:106
+msgid "You changed your email address"
+msgstr "Sa muutsid oma e-posti aadressi"
+
+#: Activity/Provider.php:108
+msgid "Your email address was changed by an administrator"
+msgstr "Administraator muutis sinu e-posti aadressi"
+
+#: Activity/SecurityFilter.php:60 Activity/SecuritySetting.php:51
+#: templates/settings/personal/security.php:35
+msgid "Security"
+msgstr "Turvalisus"
+
+#: Activity/SecurityProvider.php:61
+#, php-format
+msgid "You successfully logged in using two-factor authentication (%1$s)"
+msgstr ""
+
+#: Activity/SecurityProvider.php:72
+#, php-format
+msgid "A login attempt using two-factor authentication failed (%1$s)"
+msgstr ""
+
+#: Activity/Setting.php:54
+msgid "Your <strong>password</strong> or <strong>email</strong> was modified"
+msgstr ""
+"Sinu <strong>parooli</strong> või <strong>e-posti aadressi</strong> muudeti"
+
+#: Controller/AppSettingsController.php:146 js/apps.js:44
+msgid "Your apps"
+msgstr "Sinu rakendused"
+
+#: Controller/AppSettingsController.php:147
+msgid "Updates"
+msgstr "Uuendused"
+
+#: Controller/AppSettingsController.php:148 js/apps.js:45
+msgid "Enabled apps"
+msgstr "Lubatud rakendused"
+
+#: Controller/AppSettingsController.php:149 js/apps.js:46
+msgid "Disabled apps"
+msgstr "Keelatud rakendused"
+
+#: Controller/AppSettingsController.php:150
+msgid "App bundles"
+msgstr "Rakenduste kogumikud"
+
+#: Controller/ChangePasswordController.php:108
+msgid "Wrong password"
+msgstr "Vale parool"
+
+#: Controller/ChangePasswordController.php:136 js/admin.js:127 js/admin.js:190
+#: js/admin.js:210
+msgid "Saved"
+msgstr "Salvestatud"
+
+#: Controller/ChangePasswordController.php:156
+msgid "No user supplied"
+msgstr "Kasutajat ei sisestatud"
+
+#: Controller/ChangePasswordController.php:165
+#: Controller/ChangePasswordController.php:262
+#: Controller/ChangePasswordController.php:273 js/settings/personalInfo.js:185
+#: js/settings/personalInfo.js:200
+msgid "Unable to change password"
+msgstr "Ei suuda parooli muuta"
+
+#: Controller/ChangePasswordController.php:179
+#: Controller/UsersController.php:544 Controller/UsersController.php:611
+#: Controller/UsersController.php:935 ajax/setquota.php:56
+msgid "Authentication error"
+msgstr "Autentimise viga"
+
+#: Controller/ChangePasswordController.php:229
+msgid ""
+"Please provide an admin recovery password; otherwise, all user data will be "
+"lost."
+msgstr ""
+
+#: Controller/ChangePasswordController.php:236
+msgid ""
+"Wrong admin recovery password. Please check the password and try again."
+msgstr ""
+"Vale administraatori taasteparool. Palun kontrolli parooli ning proovi "
+"uuesti."
+
+#: Controller/ChangePasswordController.php:255
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"updated."
+msgstr ""
+
+#: Controller/CheckSetupController.php:201
+msgid ""
+"installing and updating apps via the app store or Federated Cloud Sharing"
+msgstr ""
+"Paigaldan ja uuendan rakendusi läbi rakenduste poe või liitpilve jagamise"
+
+#: Controller/CheckSetupController.php:203
+msgid "Federated Cloud Sharing"
+msgstr "Jagamine liitpilves"
+
+#: Controller/CheckSetupController.php:213
+#: Controller/CheckSetupController.php:227
+#, php-format
+msgid ""
+"cURL is using an outdated %s version (%s). Please update your operating "
+"system or features such as %s will not work reliably."
+msgstr ""
+
+#: Controller/EncryptionController.php:147
+#, php-format
+msgid "A problem occurred, please check your log files (Error: %s)"
+msgstr "Ilmnes viga, palun kontrollige logifaile. (Viga: %s)"
+
+#: Controller/EncryptionController.php:155
+msgid "Migration Completed"
+msgstr "Kolimine on lõpetatud"
+
+#: Controller/GroupsController.php:106
+msgid "Group already exists."
+msgstr "Grupp on juba olemas."
+
+#: Controller/GroupsController.php:124
+msgid "Unable to add group."
+msgstr "Gruppi lisamine ebaõnnestus."
+
+#: Controller/GroupsController.php:155
+msgid "Unable to delete group."
+msgstr "Grupi kustutamineebaõnnestus."
+
+#: Controller/MailSettingsController.php:129
+msgid "Invalid SMTP password."
+msgstr "Vale SMTP parool."
+
+#: Controller/MailSettingsController.php:154
+msgid "Email setting test"
+msgstr "E-posti sätete kontroll"
+
+#: Controller/MailSettingsController.php:156
+#, php-format
+msgid "Well done, %s!"
+msgstr "Suurepärane, %s!"
+
+#: Controller/MailSettingsController.php:157
+msgid ""
+"If you received this email, the email configuration seems to be correct."
+msgstr "Kui saite selle kirja, näib e-posti seadistus õige."
+
+#: Controller/MailSettingsController.php:165
+msgid "Email could not be sent. Check your mail server log"
+msgstr "E-posti ei saanud saata. Kontrollige oma meiliserveri logi"
+
+#: Controller/MailSettingsController.php:169
+#, php-format
+msgid ""
+"A problem occurred while sending the email. Please revise your settings. "
+"(Error: %s)"
+msgstr "E-posti saatmisel ilmnes viga. Palun kontrollige seadeid. (Viga: %s)"
+
+#: Controller/MailSettingsController.php:173
+msgid "You need to set your user email before being able to send test emails."
+msgstr "Pead seadistama oma e-postienne kui on võimalik saata test-kirju."
+
+#: Controller/UsersController.php:394 Controller/UsersController.php:770
+#: Controller/UsersController.php:997
+msgid "Invalid mail address"
+msgstr "Vigane e-posti aadress"
+
+#: Controller/UsersController.php:420
+msgid "No valid group selected"
+msgstr ""
+
+#: Controller/UsersController.php:430
+msgid "A user with that name already exists."
+msgstr "Selle nimega kasutaja on juba olemas."
+
+#: Controller/UsersController.php:441
+msgid "To send a password link to the user an email address is required."
+msgstr "Kasutajale parooli saatmiseks on vaja e-posti aadressi."
+
+#: Controller/UsersController.php:461 Controller/UsersController.php:509
+msgid "Unable to create user."
+msgstr "Kasutaja loomine ebaõnnestus."
+
+#: Controller/UsersController.php:532 Controller/UsersController.php:569
+msgid "Unable to delete user."
+msgstr "Kasutaja kustutamine ebaõnnestus."
+
+#: Controller/UsersController.php:586
+msgid "Error while enabling user."
+msgstr "Viga kasutaja lubamisel."
+
+#: Controller/UsersController.php:588
+msgid "Error while disabling user."
+msgstr "Viga kasutaja keelamisel."
+
+#: Controller/UsersController.php:672
+msgid ""
+"In order to verify your Twitter account, post the following tweet on Twitter"
+" (please make sure to post it without any line breaks):"
+msgstr ""
+
+#: Controller/UsersController.php:680
+msgid ""
+"In order to verify your Website, store the following content in your web-"
+"root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the"
+" complete text is in one line):"
+msgstr ""
+
+#: Controller/UsersController.php:814
+msgid "Settings saved"
+msgstr "Seaded salvestatud"
+
+#: Controller/UsersController.php:849
+msgid "Unable to change full name"
+msgstr "Täispika nime muutmine ebaõnnestus"
+
+#: Controller/UsersController.php:861
+msgid "Unable to change email address"
+msgstr "E-posti aadressi muutmine ebaõnnestus"
+
+#: Controller/UsersController.php:949
+msgid "Your full name has been changed."
+msgstr "Sinu täispikk nimi on muudetud."
+
+#: Controller/UsersController.php:985
+msgid "Forbidden"
+msgstr "Keelatud"
+
+#: Controller/UsersController.php:1009
+msgid "Invalid user"
+msgstr "Vigane kasutaja"
+
+#: Controller/UsersController.php:1022
+msgid "Unable to change mail address"
+msgstr "E-posti aadressi muutmine ebaõnnestus"
+
+#: Controller/UsersController.php:1040
+msgid "Email saved"
+msgstr "Kiri on salvestatud"
+
+#: Hooks.php:108
+#, php-format
+msgid "%1$s changed your password on %2$s."
+msgstr ""
+
+#: Hooks.php:112
+#, php-format
+msgid "Your password on %s was changed."
+msgstr "Sinu %s parool muudeti."
+
+#: Hooks.php:117
+#, php-format
+msgid "Your password on %s was reset by an administrator."
+msgstr "Administraator lähtestas sinu %s parooli."
+
+#: Hooks.php:130
+#, php-format
+msgid "Password for %1$s changed on %2$s"
+msgstr ""
+
+#: Hooks.php:132
+#, php-format
+msgid "Password changed for %s"
+msgstr ""
+
+#: Hooks.php:133 Hooks.php:203
+msgid "If you did not request this, please contact an administrator."
+msgstr "Kui sa pole seda taotlenud, võta ühendust administraatoriga."
+
+#: Hooks.php:177
+#, php-format
+msgid "%1$s changed your email address on %2$s."
+msgstr ""
+
+#: Hooks.php:181
+#, php-format
+msgid "Your email address on %s was changed."
+msgstr "Sinu %s e-posti aadressi muudeti."
+
+#: Hooks.php:186
+#, php-format
+msgid "Your email address on %s was changed by an administrator."
+msgstr "Administraator muutis sinu %s e-posti aadressi."
+
+#: Hooks.php:200
+#, php-format
+msgid "Email address for %1$s changed on %2$s"
+msgstr ""
+
+#: Hooks.php:202
+#, php-format
+msgid "Email address changed for %s"
+msgstr ""
+
+#: Hooks.php:205
+#, php-format
+msgid "The new email address is %s"
+msgstr ""
+
+#: Mailer/NewUserMailHelper.php:132
+#, php-format
+msgid "Your %s account was created"
+msgstr "Sinu %s konto on loodud"
+
+#: Mailer/NewUserMailHelper.php:135
+msgid "Welcome aboard"
+msgstr "Tere tulemast"
+
+#: Mailer/NewUserMailHelper.php:137
+#, php-format
+msgid "Welcome aboard %s"
+msgstr "Tere tulemast %s"
+
+#: Mailer/NewUserMailHelper.php:139
+#, php-format
+msgid "Welcome to your %s account, you can add, protect, and share your data."
+msgstr ""
+
+#: Mailer/NewUserMailHelper.php:140
+#, php-format
+msgid "Your username is: %s"
+msgstr "Sinu kasutajanimi on: %s"
+
+#: Mailer/NewUserMailHelper.php:142
+msgid "Set your password"
+msgstr "Määra oma parool"
+
+#: Mailer/NewUserMailHelper.php:144
+#, php-format
+msgid "Go to %s"
+msgstr "Mine %s"
+
+#: Mailer/NewUserMailHelper.php:149
+msgid "Install Client"
+msgstr "Paigalda kliendiprogramm"
+
+#: ajax/disableapp.php:30 ajax/enableapp.php:33 ajax/setquota.php:39
+#: ajax/togglesubadmins.php:32 ajax/uninstallapp.php:31
+msgid "Password confirmation is required"
+msgstr "Parooli kinnitus on vajalik"
+
+#: ajax/uninstallapp.php:54
+msgid "Couldn't remove app."
+msgstr "Ei suutnud rakendit eemaldada."
+
+#: ajax/updateapp.php:57
+msgid "Couldn't update app."
+msgstr "Rakenduse uuendamine ebaõnnestus."
+
+#: js/admin.js:10
+msgid "Are you really sure you want add {domain} as trusted domain?"
+msgstr ""
+
+#: js/admin.js:13
+msgid "Add trusted domain"
+msgstr "Lis ausaldusväärne domeen"
+
+#: js/admin.js:76
+msgid "Migration in progress. Please wait until the migration is finished"
+msgstr "Kolimine on käimas. Palun oota, kuni see on lõpetatud"
+
+#: js/admin.js:80
+msgid "Migration started …"
+msgstr "Kolimist on alustatud ..."
+
+#: js/admin.js:130
+msgid "Not saved"
+msgstr "Ei ole salvestatud"
+
+#: js/admin.js:229
+msgid "Sending…"
+msgstr "Saadan..."
+
+#: js/admin.js:235
+msgid "Email sent"
+msgstr "E-kiri on saadetud"
+
+#: js/apps.js:15 js/apps.js:821
+msgid "Official"
+msgstr "Ametlik"
+
+#: js/apps.js:26 templates/apps.php:67 templates/apps.php:187
+msgid "All"
+msgstr "Kõik"
+
+#: js/apps.js:144 templates/apps.php:74 templates/apps.php:180
+#, php-format, javascript-format
+msgid "Update to %s"
+msgstr "Uuenda versioonile %s"
+
+#: js/apps.js:160 templates/apps.php:209
+msgid "No apps found for your version"
+msgstr "Sinu versiooni jaoks ei leitud ühtegi rakendust"
+
+#: js/apps.js:166
+msgid "The app will be downloaded from the app store"
+msgstr ""
+
+#: js/apps.js:172
+msgid ""
+"Official apps are developed by and within the community. They offer central "
+"functionality and are ready for production use."
+msgstr ""
+
+#: js/apps.js:177
+msgid ""
+"Approved apps are developed by trusted developers and have passed a cursory "
+"security check. They are actively maintained in an open code repository and "
+"their maintainers deem them to be stable for casual to normal use."
+msgstr ""
+
+#: js/apps.js:182
+msgid ""
+"This app is not checked for security issues and is new or known to be "
+"unstable. Install at your own risk."
+msgstr ""
+
+#: js/apps.js:372
+msgid "Disabling app …"
+msgstr "Keelan rakendust ..."
+
+#: js/apps.js:382 js/apps.js:384 js/apps.js:436
+msgid "Error while disabling app"
+msgstr "Viga rakenduse keelamisel"
+
+#: js/apps.js:388 js/apps.js:466 js/users/users.js:959 templates/apps.php:79
+#: templates/apps.php:182
+msgid "Disable"
+msgstr "Lülita välja"
+
+#: js/apps.js:406 js/apps.js:440 js/apps.js:503 js/apps.js:517 js/apps.js:531
+#: js/users/users.js:961 templates/apps.php:81 templates/apps.php:189
+msgid "Enable"
+msgstr "Lülita sisse"
+
+#: js/apps.js:417
+msgid "Enabling app …"
+msgstr "Luban rakendust ..."
+
+#: js/apps.js:434 js/apps.js:500 js/apps.js:524 js/apps.js:526
+msgid "Error while enabling app"
+msgstr "Viga rakenduse lubamisel"
+
+#: js/apps.js:497
+msgid ""
+"Error: This app can not be enabled because it makes the server unstable"
+msgstr ""
+
+#: js/apps.js:511
+msgid "Error: Could not disable broken app"
+msgstr ""
+
+#: js/apps.js:514
+msgid "Error while disabling broken app"
+msgstr ""
+
+#: js/apps.js:539
+msgid "App up to date"
+msgstr ""
+
+#: js/apps.js:545
+msgid "Upgrading …"
+msgstr ""
+
+#: js/apps.js:552
+msgid "Could not upgrade app"
+msgstr ""
+
+#: js/apps.js:557
+msgid "Updated"
+msgstr "Uuendatud"
+
+#: js/apps.js:585
+msgid "Removing …"
+msgstr "Eemaldan ..."
+
+#: js/apps.js:588
+msgid "Could not remove app"
+msgstr ""
+
+#: js/apps.js:589 templates/apps.php:76 templates/apps.php:192
+msgid "Remove"
+msgstr "Eemalda"
+
+#: js/apps.js:731
+msgid ""
+"The app has been enabled but needs to be upgraded. You will be redirected to"
+" the upgrade page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:733
+msgid "App upgrade"
+msgstr ""
+
+#: js/apps.js:826
+msgid "Approved"
+msgstr "Heaks kiidetud"
+
+#: js/apps.js:831
+msgid "Experimental"
+msgstr "Katsetusjärgus"
+
+#: js/apps.js:842
+msgid "No apps found for {query}"
+msgstr ""
+
+#: js/apps.js:943 templates/apps.php:41
+msgid "Enable all"
+msgstr "Luba kõik"
+
+#: js/authtoken_view.js:39
+msgid "Allow filesystem access"
+msgstr "Luba juurdepääs failisüsteemile"
+
+#: js/authtoken_view.js:42
+msgid "Disconnect"
+msgstr "Ühenda lahti"
+
+#: js/authtoken_view.js:42
+msgid "Revoke"
+msgstr "Tühista"
+
+#: js/authtoken_view.js:134
+msgid "Internet Explorer"
+msgstr ""
+
+#: js/authtoken_view.js:135
+msgid "Edge"
+msgstr ""
+
+#: js/authtoken_view.js:136
+msgid "Firefox"
+msgstr ""
+
+#: js/authtoken_view.js:137
+msgid "Google Chrome"
+msgstr ""
+
+#: js/authtoken_view.js:138
+msgid "Safari"
+msgstr ""
+
+#: js/authtoken_view.js:139
+msgid "Google Chrome for Android"
+msgstr ""
+
+#: js/authtoken_view.js:140
+msgid "iPhone iOS"
+msgstr ""
+
+#: js/authtoken_view.js:141
+msgid "iPad iOS"
+msgstr ""
+
+#: js/authtoken_view.js:142
+msgid "iOS Client"
+msgstr ""
+
+#: js/authtoken_view.js:143
+msgid "Android Client"
+msgstr ""
+
+#: js/authtoken_view.js:150
+msgid "Sync client - {os}"
+msgstr ""
+
+#: js/authtoken_view.js:167
+msgid "This session"
+msgstr "See sessioon"
+
+#: js/authtoken_view.js:233 js/authtoken_view.js:246 js/authtoken_view.js:268
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: js/authtoken_view.js:240
+msgid "Copied!"
+msgstr "Kopeeritud!"
+
+#: js/authtoken_view.js:254
+msgid "Not supported!"
+msgstr "Pole toetatud!"
+
+#: js/authtoken_view.js:256
+msgid "Press ⌘-C to copy."
+msgstr "Kopeerimiseks vajuta ⌘ + C."
+
+#: js/authtoken_view.js:258
+msgid "Press Ctrl-C to copy."
+msgstr "Kopeerimiseks vajuta Ctrl + C."
+
+#: js/authtoken_view.js:290
+msgid "Error while loading browser sessions and device tokens"
+msgstr ""
+
+#: js/authtoken_view.js:324
+msgid "Error while creating device token"
+msgstr ""
+
+#: js/authtoken_view.js:382
+msgid "Error while deleting the token"
+msgstr ""
+
+#: js/certificates.js:35 js/certificates.js:63
+msgid "An error occurred. Please upload an ASCII-encoded PEM certificate."
+msgstr ""
+
+#: js/certificates.js:47
+msgid "Valid until {date}"
+msgstr "Kehtib kuni {date}"
+
+#: js/certificates.js:52 js/certificates.js:53 templates/certificates.php:27
+#: templates/certificates.php:28 templates/users/part.userlist.php:78
+msgid "Delete"
+msgstr "Kustuta"
+
+#: js/federationscopemenu.js:49
+msgid "Local"
+msgstr "Kohalik"
+
+#: js/federationscopemenu.js:49
+msgid "Private"
+msgstr "Privaatne"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to local users"
+msgstr "Ainult nähtav kohalikele kasutajatele"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to you"
+msgstr "Ainult sinule nähtav"
+
+#: js/federationscopemenu.js:56
+msgid "Contacts"
+msgstr "Kontaktid"
+
+#: js/federationscopemenu.js:57
+msgid "Visible to local users and to trusted servers"
+msgstr "Nähtav kohelikele kasutajatele ja usaldatud serveritele"
+
+#: js/federationscopemenu.js:63
+msgid "Public"
+msgstr "Avalik"
+
+#: js/federationscopemenu.js:64
+msgid "Will be synced to a global and public address book"
+msgstr ""
+
+#: js/federationsettingsview.js:171
+msgid "Verify"
+msgstr "Kontrolli"
+
+#: js/federationsettingsview.js:177 js/settings/personalInfo.js:239
+msgid "Verifying …"
+msgstr "Kontrollin ..."
+
+#: js/settings/personalInfo.js:291
+msgid ""
+"An error occured while changing your language. Please reload the page and "
+"try again."
+msgstr ""
+"Keele vahetamisel ilmnes viga. Palun taasilaadi leht ja proovi uuesti."
+
+#: js/settings/personalInfo.js:338
+msgid "Select a profile picture"
+msgstr "Vali profiili pilt"
+
+#: js/settings/personalInfo.js:391
+msgid "Very weak password"
+msgstr "Väga nõrk parool"
+
+#: js/settings/personalInfo.js:392
+msgid "Weak password"
+msgstr "Nõrk parool"
+
+#: js/settings/personalInfo.js:393
+msgid "So-so password"
+msgstr "Enam-vähem sobiv parool"
+
+#: js/settings/personalInfo.js:394
+msgid "Good password"
+msgstr "Hea parool"
+
+#: js/settings/personalInfo.js:395
+msgid "Strong password"
+msgstr "Väga hea parool"
+
+#: js/settings.js:30 templates/settings/personal/personal.info.php:309
+#: templates/users/part.createuser.php:13 templates/users/part.userlist.php:9
+msgid "Groups"
+msgstr "Grupid"
+
+#: js/users/deleteHandler.js:208
+msgid "Unable to delete {objName}"
+msgstr "Ei suuda kustutada {objName}"
+
+#: js/users/groups.js:150 js/users/groups.js:258
+msgid "Error creating group: {message}"
+msgstr "Tõrge grupi loomisel: {message}"
+
+#: js/users/groups.js:259
+msgid "A valid group name must be provided"
+msgstr "Sisesta nõuetele vastav grupi nimi"
+
+#: js/users/groups.js:287
+msgid "deleted {groupName}"
+msgstr "kustutatud {groupName}"
+
+#: js/users/groups.js:288 js/users/users.js:350
+msgid "undo"
+msgstr "tagasi"
+
+#: js/users/users.js:118
+msgid "{size} used"
+msgstr "{size} kasutatud"
+
+#: js/users/users.js:153
+msgid "never"
+msgstr "mitte kunagi"
+
+#: js/users/users.js:349
+msgid "deleted {userName}"
+msgstr "kustutatud {userName}"
+
+#: js/users/users.js:418
+msgid "No user found for <strong>{pattern}</strong>"
+msgstr ""
+
+#: js/users/users.js:476
+msgid "Unable to add user to group {group}"
+msgstr "Kasutajat ei saa lisada gruppi {group}"
+
+#: js/users/users.js:480
+msgid "Unable to remove user from group {group}"
+msgstr "Kasutajat ei saa eemaldada grupist {group}"
+
+#: js/users/users.js:499 templates/users/part.grouplist.php:5
+#: templates/users/part.grouplist.php:8
+msgid "Add group"
+msgstr "Lisa grupp"
+
+#: js/users/users.js:591
+msgid "Invalid quota value \"{val}\""
+msgstr "Vigane mahupiiri väärtus \"{val}\""
+
+#: js/users/users.js:639 js/users/users.js:700
+msgid "no group"
+msgstr ""
+
+#: js/users/users.js:749
+msgid "Password successfully changed"
+msgstr "Parool edukalt vahetatud"
+
+#: js/users/users.js:775
+msgid ""
+"Changing the password will result in data loss, because data recovery is not"
+" available for this user"
+msgstr ""
+"Parooli vahetamine toob kaasa andmekao, sest selle kasutaja andmete "
+"taastamine pole võimalik"
+
+#: js/users/users.js:888
+msgid "Could not change the users email"
+msgstr "Kasutaja e-posti muutmine ebaõnnestus"
+
+#: js/users/users.js:992 js/users/users.js:1002
+msgid "Error while changing status of {user}"
+msgstr "Kasutaja {user} staatuse muutmine ebaõnnestus"
+
+#: js/users/users.js:1033
+msgid "A valid username must be provided"
+msgstr "Sisesta nõuetele vastav kasutajatunnus"
+
+#: js/users/users.js:1032 js/users/users.js:1038 js/users/users.js:1047
+#: js/users/users.js:1089
+msgid "Error creating user: {message}"
+msgstr "Kasutaja loomine ebaõnnestus: {message}"
+
+#: js/users/users.js:1039
+msgid "A valid password must be provided"
+msgstr "Sisesta nõuetele vastav parool"
+
+#: js/users/users.js:1048
+msgid "A valid email must be provided"
+msgstr "Sisesta kehtiv e-posti aadress"
+
+#: templates/apps.php:32 templates/apps.php:136
+msgid "Developer documentation"
+msgstr "Arendaja dokumentatsioon"
+
+#: templates/apps.php:59
+msgid "View in store"
+msgstr ""
+
+#: templates/apps.php:66
+msgid "Limit to groups"
+msgstr "Luba gruppidele"
+
+#: templates/apps.php:111
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: templates/apps.php:113
+#, php-format
+msgid "%s-licensed"
+msgstr ""
+
+#: templates/apps.php:121
+msgid "Documentation:"
+msgstr "Dokumentatsioon:"
+
+#: templates/apps.php:124 templates/help.php:7
+msgid "User documentation"
+msgstr "Kasutaja dokumentatsioon"
+
+#: templates/apps.php:130
+msgid "Admin documentation"
+msgstr "Administraatori dokumentatsioon"
+
+#: templates/apps.php:143
+msgid "Visit website"
+msgstr "Külasta veebisaiti"
+
+#: templates/apps.php:147
+msgid "Report a bug"
+msgstr "Teata veast"
+
+#: templates/apps.php:150
+msgid "Show description …"
+msgstr "Näita kirjeldist ..."
+
+#: templates/apps.php:151
+msgid "Hide description …"
+msgstr "Peida kirjeldus ..."
+
+#: templates/apps.php:154
+msgid "This app has an update available."
+msgstr "Sellel rakendusel on uuendus saadaval"
+
+#: templates/apps.php:159
+msgid ""
+"This app has no minimum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+
+#: templates/apps.php:164
+msgid ""
+"This app has no maximum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+
+#: templates/apps.php:171
+msgid ""
+"This app cannot be installed because the following dependencies are not "
+"fulfilled:"
+msgstr ""
+
+#: templates/apps.php:185
+msgid "Enable only for specific groups"
+msgstr "Luba ainult kindlad grupid"
+
+#: templates/certificates.php:2
+msgid "SSL Root Certificates"
+msgstr "SLL Juur sertifikaadid"
+
+#: templates/certificates.php:6
+msgid "Common Name"
+msgstr "Üldnimetus"
+
+#: templates/certificates.php:7
+msgid "Valid until"
+msgstr "Kehtib kuni"
+
+#: templates/certificates.php:8
+msgid "Issued By"
+msgstr "Välja antud"
+
+#: templates/certificates.php:19
+#, php-format
+msgid "Valid until %s"
+msgstr "Kehtib kuni %s"
+
+#: templates/certificates.php:40
+msgid "Import root certificate"
+msgstr "Impordi root sertifikaat"
+
+#: templates/help.php:13
+msgid "Administrator documentation"
+msgstr "Administraatori dokumentatsioon"
+
+#: templates/help.php:20
+msgid "Online documentation"
+msgstr "Võrgus olev dokumentatsioon"
+
+#: templates/help.php:25
+msgid "Forum"
+msgstr "Foorum"
+
+#: templates/help.php:32
+msgid "Getting help"
+msgstr "Abi saamine"
+
+#: templates/help.php:39
+msgid "Commercial support"
+msgstr "Tasuline kasutajatugi"
+
+#: templates/settings/admin/additional-mail.php:28
+#: templates/settings/admin/additional-mail.php:35
+msgid "None"
+msgstr "Pole"
+
+#: templates/settings/admin/additional-mail.php:29
+msgid "Login"
+msgstr "Logi sisse"
+
+#: templates/settings/admin/additional-mail.php:30
+msgid "Plain"
+msgstr "Tavatekst"
+
+#: templates/settings/admin/additional-mail.php:31
+msgid "NT LAN Manager"
+msgstr "NT LAN Manager"
+
+#: templates/settings/admin/additional-mail.php:36
+msgid "SSL/TLS"
+msgstr ""
+
+#: templates/settings/admin/additional-mail.php:37
+msgid "STARTTLS"
+msgstr ""
+
+#: templates/settings/admin/additional-mail.php:55
+msgid "Email server"
+msgstr "E-kirjade server"
+
+#: templates/settings/admin/additional-mail.php:57
+#: templates/settings/admin/encryption.php:32
+#: templates/settings/admin/server.php:180
+#: templates/settings/admin/sharing.php:32
+msgid "Open documentation"
+msgstr "Ava dokumentatsioon"
+
+#: templates/settings/admin/additional-mail.php:59
+msgid ""
+"It is important to set up this server to be able to send emails, like for "
+"password reset and notifications."
+msgstr ""
+
+#: templates/settings/admin/additional-mail.php:63
+msgid "Send mode"
+msgstr "Saatmise viis"
+
+#: templates/settings/admin/additional-mail.php:76
+msgid "Encryption"
+msgstr "Krüpteerimine"
+
+#: templates/settings/admin/additional-mail.php:91
+msgid "From address"
+msgstr "Saatja aadress"
+
+#: templates/settings/admin/additional-mail.php:92
+msgid "mail"
+msgstr "e-mail"
+
+#: templates/settings/admin/additional-mail.php:99
+msgid "Authentication method"
+msgstr "Autentimise meetod"
+
+#: templates/settings/admin/additional-mail.php:112
+msgid "Authentication required"
+msgstr "Autentimine on vajalik"
+
+#: templates/settings/admin/additional-mail.php:116
+msgid "Server address"
+msgstr "Serveri aadress"
+
+#: templates/settings/admin/additional-mail.php:120
+msgid "Port"
+msgstr "Port"
+
+#: templates/settings/admin/additional-mail.php:126
+msgid "Credentials"
+msgstr "Kasutajatunnused"
+
+#: templates/settings/admin/additional-mail.php:127
+msgid "SMTP Username"
+msgstr "SMTP kasutajatunnus"
+
+#: templates/settings/admin/additional-mail.php:130
+msgid "SMTP Password"
+msgstr "SMTP parool"
+
+#: templates/settings/admin/additional-mail.php:131
+msgid "Store credentials"
+msgstr "Säilita kasutajaandmed"
+
+#: templates/settings/admin/additional-mail.php:136
+msgid "Test email settings"
+msgstr "Testi e-posti seadeid"
+
+#: templates/settings/admin/additional-mail.php:137
+msgid "Send email"
+msgstr "Saada kiri"
+
+#: templates/settings/admin/encryption.php:30
+msgid "Server-side encryption"
+msgstr "Serveripoolne krüpteerimine"
+
+#: templates/settings/admin/encryption.php:34
+msgid ""
+"Server-side encryption makes it possible to encrypt files which are uploaded"
+" to this server. This comes with limitations like a performance penalty, so "
+"enable this only if needed."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:40
+msgid "Enable server-side encryption"
+msgstr "Luba serveripoolne krüpteerimine"
+
+#: templates/settings/admin/encryption.php:44
+msgid "Please read carefully before activating server-side encryption: "
+msgstr ""
+
+#: templates/settings/admin/encryption.php:46
+msgid ""
+"Once encryption is enabled, all files uploaded to the server from that point"
+" forward will be encrypted at rest on the server. It will only be possible "
+"to disable encryption at a later date if the active encryption module "
+"supports that function, and all pre-conditions (e.g. setting a recover key) "
+"are met."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:47
+msgid ""
+"Encryption alone does not guarantee security of the system. Please see "
+"documentation for more information about how the encryption app works, and "
+"the supported use cases."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:48
+msgid "Be aware that encryption always increases the file size."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:49
+msgid ""
+"It is always good to create regular backups of your data, in case of "
+"encryption make sure to backup the encryption keys along with your data."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:52
+msgid "This is the final warning: Do you really want to enable encryption?"
+msgstr ""
+
+#: templates/settings/admin/encryption.php:54
+msgid "Enable encryption"
+msgstr "Luba krüpteerimine"
+
+#: templates/settings/admin/encryption.php:61
+msgid ""
+"No encryption module loaded, please enable an encryption module in the app "
+"menu."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:63
+msgid "Select default encryption module:"
+msgstr "Määra vaikimisi krüpteerimise moodul:"
+
+#: templates/settings/admin/encryption.php:82
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
+"run 'occ encryption:migrate'"
+msgstr ""
+
+#: templates/settings/admin/encryption.php:84
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one."
+msgstr ""
+
+#: templates/settings/admin/encryption.php:86
+msgid "Start migration"
+msgstr "Alusta kolimist"
+
+#: templates/settings/admin/server.php:30
+msgid "Security & setup warnings"
+msgstr "Turva- ja paigalduse hoiatused"
+
+#: templates/settings/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Tricks section and the documentation"
+" for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:38
+msgid ""
+"PHP does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/settings/admin/server.php:39
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation documentation ↗</a> for PHP configuration notes and"
+" the PHP configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/settings/admin/server.php:48
+msgid ""
+"The Read-Only config has been enabled. This prevents setting some "
+"configurations via the web-interface. Furthermore, the file needs to be made"
+" writable manually for every update."
+msgstr ""
+
+#: templates/settings/admin/server.php:57
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/settings/admin/server.php:58
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"See on tõenäoliselt põhjustatud puhver/kiirendist nagu Zend OPcache või "
+"eAccelerator."
+
+#: templates/settings/admin/server.php:67
+msgid ""
+"Your database does not run with \"READ COMMITTED\" transaction isolation "
+"level. This can cause problems when multiple actions are executed in "
+"parallel."
+msgstr ""
+
+#: templates/settings/admin/server.php:76
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"it is recommended to update to a newer %1$s version."
+msgstr ""
+
+#: templates/settings/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. It is strongly recommended to enable "
+"this module to get the best results with MIME type detection."
+msgstr ""
+
+#: templates/settings/admin/server.php:94
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:105
+msgid "System locale can not be set to a one which supports UTF-8."
+msgstr "Süsteemi lokaliseeringuks ei saa panna sellist, mis toetab UTF-8-t."
+
+#: templates/settings/admin/server.php:109
+msgid ""
+"This means that there might be problems with certain characters in "
+"filenames."
+msgstr ""
+
+#: templates/settings/admin/server.php:113
+#, php-format
+msgid ""
+"It is strongly proposed to install the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/settings/admin/server.php:122
+#, php-format
+msgid ""
+"If your installation is not installed at the root of the domain and uses "
+"system Cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/settings/admin/server.php:130
+msgid ""
+"It was not possible to execute the cron job via CLI. The following technical"
+" errors have appeared:"
+msgstr ""
+
+#: templates/settings/admin/server.php:149
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/settings/admin/server.php:153
+msgid "All checks passed."
+msgstr "Kõik kontrollid on läbitud."
+
+#: templates/settings/admin/server.php:158
+msgid "Background jobs"
+msgstr ""
+
+#: templates/settings/admin/server.php:166
+#, php-format
+msgid "Last job ran %s."
+msgstr ""
+
+#: templates/settings/admin/server.php:171
+#, php-format
+msgid "Last job execution ran %s. Something seems wrong."
+msgstr ""
+
+#: templates/settings/admin/server.php:176
+msgid "Background job didn’t run yet!"
+msgstr ""
+
+#: templates/settings/admin/server.php:183
+msgid ""
+"For optimal performance it's important to configure background jobs "
+"correctly. For bigger instances 'Cron' is the recommended setting. Please "
+"see the documentation for more information."
+msgstr ""
+
+#: templates/settings/admin/server.php:190
+msgid "Execute one task with each page loaded"
+msgstr "Käivita toiming igal lehe laadimisel"
+
+#: templates/settings/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over HTTP."
+msgstr ""
+"cron.php on registreeritud webcron teenuses, et käivitada fail cron.php iga "
+"15 minuti tagant üle http."
+
+#: templates/settings/admin/server.php:209
+msgid "Use system cron service to call the cron.php file every 15 minutes."
+msgstr ""
+"Kasuta süsteemi cron teenust, et käivitada fail cron.php iga 15 minuti "
+"järel."
+
+#: templates/settings/admin/server.php:211
+#, php-format
+msgid "The cron.php needs to be executed by the system user \"%s\"."
+msgstr "cron.php tuleb käivitada süsteemikasutaja \"%s\" poolt."
+
+#: templates/settings/admin/server.php:216
+msgid ""
+"To run this you need the PHP POSIX extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#: templates/settings/admin/server.php:225
+msgid "Version"
+msgstr "Versioon"
+
+#: templates/settings/admin/sharing.php:30
+msgid "Sharing"
+msgstr "Jagamine"
+
+#: templates/settings/admin/sharing.php:34
+msgid ""
+"As admin you can fine-tune the sharing behavior. Please see the "
+"documentation for more information."
+msgstr ""
+"Administraatorina saate jagamise valikuid täpselt seadistada. Lisateavet "
+"leiad dokumentatsioonist."
+
+#: templates/settings/admin/sharing.php:38
+msgid "Allow apps to use the Share API"
+msgstr "Luba rakendustel kasutada Share API-t"
+
+#: templates/settings/admin/sharing.php:43
+msgid "Allow users to share via link"
+msgstr "Luba kasutajatel lingiga jagamist "
+
+#: templates/settings/admin/sharing.php:49
+msgid "Allow public uploads"
+msgstr "Luba avalikud üleslaadimised"
+
+#: templates/settings/admin/sharing.php:52
+msgid "Always ask for a password"
+msgstr "Alati küsi parooli"
+
+#: templates/settings/admin/sharing.php:55
+msgid "Enforce password protection"
+msgstr "Sunni parooliga kaitsmine"
+
+#: templates/settings/admin/sharing.php:59
+msgid "Set default expiration date"
+msgstr "Määra vaikimisi aegumise kuupäev"
+
+#: templates/settings/admin/sharing.php:63
+msgid "Expire after "
+msgstr "Aegu pärast"
+
+#: templates/settings/admin/sharing.php:66
+msgid "days"
+msgstr "päeva"
+
+#: templates/settings/admin/sharing.php:69
+msgid "Enforce expiration date"
+msgstr "Sunnitud aegumise kuupäev"
+
+#: templates/settings/admin/sharing.php:74
+msgid "Allow resharing"
+msgstr "Luba edasijagamine"
+
+#: templates/settings/admin/sharing.php:79
+msgid "Allow sharing with groups"
+msgstr "Luba gruppidega jagamine"
+
+#: templates/settings/admin/sharing.php:84
+msgid "Restrict users to only share with users in their groups"
+msgstr "Luba kasutajatel jagada kasutajatega ainult oma grupi piires"
+
+#: templates/settings/admin/sharing.php:89
+msgid "Exclude groups from sharing"
+msgstr "Eemalda grupid jagamisest"
+
+#: templates/settings/admin/sharing.php:94
+msgid ""
+"These groups will still be able to receive shares, but not to initiate them."
+msgstr ""
+"Need grupid saavad vastu võtta jagamisi, kuid ise jagamisi algatada ei saa."
+
+#: templates/settings/admin/sharing.php:99
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username or email address needs to be entered."
+msgstr ""
+"Luba kasutajanime automaatne lõpetamine jagamisdialoogis. Kui see on "
+"keelatud, tuleb sisestada täielik kasutajanimi või e-posti aadress."
+
+#: templates/settings/admin/sharing.php:104
+msgid ""
+"Show disclaimer text on the public link upload page. (Only shown when the "
+"file list is hidden.)"
+msgstr ""
+"Kuva avaliku lingiga üleslaadimise lehel lahtiütluste tekst. (Kuvatakse "
+"ainult siis, kui failide loend on peidetud.)"
+
+#: templates/settings/admin/sharing.php:107
+msgid ""
+"This text will be shown on the public link upload page when the file list is"
+" hidden."
+msgstr ""
+"Seda teksti näidatakse avaliku lingiga üleslaadimise lehel kui failide loend"
+" on peidetud."
+
+#: templates/settings/admin/tipstricks.php:30
+msgid "Tips & tricks"
+msgstr "Nõuanded ja trikid"
+
+#: templates/settings/admin/tipstricks.php:31
+msgid ""
+"There are a lot of features and config switches available to optimally "
+"customize and use this instance. Here are some pointers for more "
+"information."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:38
+msgid ""
+"SQLite is currently being used as the backend database. For larger "
+"installations we recommend that you switch to a different database backend."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:39
+msgid ""
+"This is particularly recommended when using the desktop client for file "
+"synchronisation."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:40
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:43
+msgid "How to do backups"
+msgstr "Kuidas teha varukoopiaid"
+
+#: templates/settings/admin/tipstricks.php:44
+msgid "Advanced monitoring"
+msgstr "Täpsem monitooring"
+
+#: templates/settings/admin/tipstricks.php:45
+msgid "Performance tuning"
+msgstr "Kiiruse seadistamine"
+
+#: templates/settings/admin/tipstricks.php:46
+msgid "Improving the config.php"
+msgstr "config.php faili täiendamine"
+
+#: templates/settings/admin/tipstricks.php:47
+msgid "Theming"
+msgstr "Teemad"
+
+#: templates/settings/admin/tipstricks.php:48
+msgid "Check the security of your Nextcloud over our security scan"
+msgstr ""
+
+#: templates/settings/admin/tipstricks.php:49
+msgid "Hardening and security guidance"
+msgstr ""
+
+#: templates/settings/frame.php:33
+msgid "Personal"
+msgstr "Isiklik"
+
+#: templates/settings/frame.php:60
+msgid "Administration"
+msgstr "Haldus"
+
+#: templates/settings/personal/personal.info.php:47
+#: templates/settings/personal/personal.info.php:58
+#, php-format
+msgid "You are using <strong>%s</strong> of <strong>%s</strong>"
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:50
+#: templates/settings/personal/personal.info.php:61
+#, php-format
+msgid ""
+"You are using <strong>%s</strong> of <strong>%s</strong> (<strong>%s "
+"%%</strong>)"
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:73
+msgid "Profile picture"
+msgstr "Profiili pilt"
+
+#: templates/settings/personal/personal.info.php:81
+msgid "Upload new"
+msgstr "Laadi uus üles"
+
+#: templates/settings/personal/personal.info.php:82
+msgid "Select from Files"
+msgstr "Vali failidest"
+
+#: templates/settings/personal/personal.info.php:83
+msgid "Remove image"
+msgstr "Eemalda pilt"
+
+#: templates/settings/personal/personal.info.php:85
+msgid "png or jpg, max. 20 MB"
+msgstr "png või jpg, max. 20 MB"
+
+#: templates/settings/personal/personal.info.php:87
+msgid "Picture provided by original account"
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:93
+msgid "Cancel"
+msgstr "Loobu"
+
+#: templates/settings/personal/personal.info.php:94
+msgid "Choose as profile picture"
+msgstr "Vali kui profiili pilt"
+
+#: templates/settings/personal/personal.info.php:109
+#: templates/users/part.userlist.php:6
+msgid "Full name"
+msgstr "Täielik nimi"
+
+#: templates/settings/personal/personal.info.php:119
+msgid "No display name set"
+msgstr "Näidatavat nime pole veel määratud"
+
+#: templates/settings/personal/personal.info.php:131
+#: templates/users/part.userlist.php:8
+msgid "Email"
+msgstr "E-post"
+
+#: templates/settings/personal/personal.info.php:153
+msgid "Your email address"
+msgstr "Sinu e-posti aadress"
+
+#: templates/settings/personal/personal.info.php:158
+msgid "No email address set"
+msgstr "E-posti aadressi pole veel määratud"
+
+#: templates/settings/personal/personal.info.php:161
+msgid "For password reset and notifications"
+msgstr "Parooli lähestamiseks ja teadeteks"
+
+#: templates/settings/personal/personal.info.php:172
+msgid "Phone number"
+msgstr "Telefoninumber"
+
+#: templates/settings/personal/personal.info.php:179
+msgid "Your phone number"
+msgstr "Sinu telefoninumber"
+
+#: templates/settings/personal/personal.info.php:192
+msgid "Address"
+msgstr "Aadress"
+
+#: templates/settings/personal/personal.info.php:198
+msgid "Your postal address"
+msgstr "Sinu postiaadress"
+
+#: templates/settings/personal/personal.info.php:212
+msgid "Website"
+msgstr "Veebileht"
+
+#: templates/settings/personal/personal.info.php:238
+#: templates/settings/personal/personal.info.php:285
+msgid ""
+"It can take up to 24 hours before the account is displayed as verified."
+msgstr "Võib võtta kuni 24 tundi enne kui konto kuvatakse kui kinnitatud."
+
+#: templates/settings/personal/personal.info.php:244
+msgid "Link https://…"
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:259
+msgid "Twitter"
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:291
+msgid "Twitter handle @…"
+msgstr ""
+
+#: templates/settings/personal/personal.info.php:310
+msgid "You are member of the following groups:"
+msgstr "Sa oled nende gruppide liige:"
+
+#: templates/settings/personal/personal.info.php:323
+#: templates/settings/personal/personal.info.php:325
+msgid "Language"
+msgstr "Keel"
+
+#: templates/settings/personal/personal.info.php:343
+msgid "Help translate"
+msgstr "Aita tõlkida"
+
+#: templates/settings/personal/personal.info.php:354
+#: templates/settings/personal/security.php:62
+#: templates/users/part.createuser.php:8 templates/users/part.userlist.php:7
+msgid "Password"
+msgstr "Parool"
+
+#: templates/settings/personal/personal.info.php:357
+#: templates/settings/personal/personal.info.php:359
+msgid "Current password"
+msgstr "Praegune parool"
+
+#: templates/settings/personal/personal.info.php:363
+#: templates/settings/personal/personal.info.php:365
+msgid "New password"
+msgstr "Uus parool"
+
+#: templates/settings/personal/personal.info.php:371
+msgid "Change password"
+msgstr "Muuda parooli"
+
+#: templates/settings/personal/security.php:36
+msgid "Web, desktop and mobile clients currently logged in to your account."
+msgstr ""
+"Sinu kontole hetkel sisse loginud veebi-, töölaua-, ja mobiilsed kliendid."
+
+#: templates/settings/personal/security.php:40
+msgid "Device"
+msgstr "Seade"
+
+#: templates/settings/personal/security.php:41
+msgid "Last activity"
+msgstr "Viimane tegevus"
+
+#: templates/settings/personal/security.php:49
+msgid "App name"
+msgstr "Rakenduse nimi"
+
+#: templates/settings/personal/security.php:50
+msgid "Create new app password"
+msgstr "Loo uus rakenduse parool"
+
+#: templates/settings/personal/security.php:54
+msgid "Use the credentials below to configure your app or device."
+msgstr ""
+"Rakenduse või seadme konfigureerimiseks kasutage allpool toodud mandaate."
+
+#: templates/settings/personal/security.php:55
+msgid "For security reasons this password will only be shown once."
+msgstr "Turvalisuse huvides kuvatakse see parool ainult üks kord."
+
+#: templates/settings/personal/security.php:58
+#: templates/users/part.createuser.php:4 templates/users/part.userlist.php:5
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: templates/settings/personal/security.php:65
+msgid "Done"
+msgstr "Valmis"
+
+#: templates/settings.development.notice.php:15
+msgid ""
+"Developed by the {communityopen}Nextcloud community{linkclose}, the "
+"{githubopen}source code{linkclose} is licensed under the "
+"{licenseopen}AGPL{linkclose}."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+"
+msgstr ""
+
+#: templates/settings.development.notice.php:52
+msgid "Like our Facebook page"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog"
+msgstr ""
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: templates/users/main.php:41
+msgid "Settings"
+msgstr "Seaded"
+
+#: templates/users/main.php:51
+msgid "Show storage location"
+msgstr "Näita salvestusruumi asukohta"
+
+#: templates/users/main.php:58
+msgid "Show user backend"
+msgstr ""
+
+#: templates/users/main.php:65
+msgid "Show last login"
+msgstr "Näita viimast sisselogimist"
+
+#: templates/users/main.php:72
+msgid "Show email address"
+msgstr "Näita e-posti aadressi"
+
+#: templates/users/main.php:79
+msgid "Send email to new user"
+msgstr "Saada uuele kasutajale e-kiri"
+
+#: templates/users/main.php:83
+msgid ""
+"When the password of a new user is left empty, an activation email with a "
+"link to set the password is sent."
+msgstr ""
+"Kui uue kasutaja parool jäetakse määramata, saadetakse aktiveerimise kiri "
+"lingiga parooli määramiseks."
+
+#: templates/users/part.createuser.php:11
+msgid "E-Mail"
+msgstr "E-post"
+
+#: templates/users/part.createuser.php:14
+msgid "Create"
+msgstr "Lisa"
+
+#: templates/users/part.createuser.php:20
+msgid "Admin Recovery Password"
+msgstr "Admini parooli taastamine"
+
+#: templates/users/part.createuser.php:21
+#: templates/users/part.createuser.php:22
+msgid ""
+"Enter the recovery password in order to recover the users files during "
+"password change"
+msgstr ""
+"Sisesta taasteparool kasutaja failide taastamiseks paroolivahetuse käigus"
+
+#: templates/users/part.grouplist.php:18
+msgid "Everyone"
+msgstr "Igaüks"
+
+#: templates/users/part.grouplist.php:31
+msgid "Admins"
+msgstr "Haldurid"
+
+#: templates/users/part.grouplist.php:43
+msgid "Disabled"
+msgstr "Keelatud"
+
+#: templates/users/part.setquota.php:3
+msgid "Default quota"
+msgstr "Vaikimisi mahupiir"
+
+#: templates/users/part.setquota.php:5 templates/users/part.userlist.php:46
+msgid "Please enter storage quota (ex: \"512 MB\" or \"12 GB\")"
+msgstr "Palun sisesta mahupiir (nt: \"512 MB\" või \"12 GB\")"
+
+#: templates/users/part.setquota.php:7 templates/users/part.setquota.php:30
+#: templates/users/part.userlist.php:51
+msgid "Unlimited"
+msgstr "Piiramatult"
+
+#: templates/users/part.setquota.php:22 templates/users/part.userlist.php:59
+msgid "Other"
+msgstr "Muu"
+
+#: templates/users/part.userlist.php:11
+msgid "Group admin for"
+msgstr "Grupi admin"
+
+#: templates/users/part.userlist.php:13
+msgid "Quota"
+msgstr "Mahupiir"
+
+#: templates/users/part.userlist.php:14
+msgid "Storage location"
+msgstr ""
+
+#: templates/users/part.userlist.php:15
+msgid "User backend"
+msgstr ""
+
+#: templates/users/part.userlist.php:16
+msgid "Last login"
+msgstr "Viimane sisselogimine"
+
+#: templates/users/part.userlist.php:27
+msgid "change full name"
+msgstr "Muuda täispikka nime"
+
+#: templates/users/part.userlist.php:31
+msgid "set new password"
+msgstr "määra uus parool"
+
+#: templates/users/part.userlist.php:35
+msgid "change email address"
+msgstr "muuda e-posti aadressi"
+
+#: templates/users/part.userlist.php:48
+msgid "Default"
+msgstr "Vaikeväärtus"
+
+#: Controller/AppSettingsController.php:131 js/apps.js:43
+msgid "Enabled"
+msgstr ""
+
+#: Controller/AppSettingsController.php:132 js/apps.js:44
+msgid "Not enabled"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:220
+msgid ""
+"Please provide an admin recovery password, otherwise all user data will be "
+"lost"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:246
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"successfully updated."
+msgstr ""
+
+#: Controller/MailSettingsController.php:154
+msgid "test email settings"
+msgstr ""
+
+#: Controller/PersonalController.php:85
+msgid "Invalid request"
+msgstr ""
+
+#: ajax/togglegroups.php:44
+msgid "Admins can't remove themself from the admin group"
+msgstr ""
+
+#: ajax/togglegroups.php:72
+#, php-format
+msgid "Unable to add user to group %s"
+msgstr ""
+
+#: ajax/togglegroups.php:78
+#, php-format
+msgid "Unable to remove user from group %s"
+msgstr ""
+
+#: js/admin.js:223
+msgid "Sending..."
+msgstr ""
+
+#: js/apps.js:127 js/apps.js:424
+msgid "You have %n app update pending"
+msgid_plural "You have %n app updates pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/apps.js:398
+msgid "Updating...."
+msgstr ""
+
+#: js/apps.js:405
+msgid "Error while updating app"
+msgstr ""
+
+#: js/apps.js:437
+msgid "Uninstalling ...."
+msgstr ""
+
+#: js/apps.js:440
+msgid "Error while uninstalling app"
+msgstr ""
+
+#: js/apps.js:441
+msgid "Uninstall"
+msgstr ""
+
+#: js/apps.js:523
+msgid ""
+"The app has been enabled but needs to be updated. You will be redirected to "
+"the update page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:525
+msgid "App update"
+msgstr ""
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: personal.php:87
+msgid "__language_name__"
+msgstr ""
+
+#: personal.php:203
+msgid "Personal info"
+msgstr ""
+
+#: personal.php:204 templates/personal.php:268
+msgid "Sessions"
+msgstr ""
+
+#: personal.php:205 templates/personal.php:284
+msgid "App passwords"
+msgstr ""
+
+#: personal.php:206
+msgid "Sync clients"
+msgstr ""
+
+#: templates/admin/additional-mail.php:60
+msgid "This is used for sending out notifications."
+msgstr ""
+
+#: templates/admin/server.php:37
+msgid ""
+"php does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/admin/server.php:38
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation documentation ↗</a> for php configuration notes and"
+" the php configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/admin/server.php:56
+msgid ""
+"PHP is apparently setup to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/admin/server.php:75
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"we recommend updating to a newer %1$s version."
+msgstr ""
+
+#: templates/admin/server.php:84
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with mime-type detection."
+msgstr ""
+
+#: templates/admin/server.php:93
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/admin/server.php:108
+msgid ""
+"This means that there might be problems with certain characters in file "
+"names."
+msgstr ""
+
+#: templates/admin/server.php:112
+#, php-format
+msgid ""
+"We strongly suggest installing the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/admin/server.php:121
+#, php-format
+msgid ""
+"If your installation is not installed in the root of the domain and uses "
+"system cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/admin/server.php:129
+msgid ""
+"It was not possible to execute the cronjob via CLI. The following technical "
+"errors have appeared:"
+msgstr ""
+
+#: templates/admin/server.php:148
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/admin/server.php:157
+msgid "Cron"
+msgstr ""
+
+#: templates/admin/server.php:166
+#, php-format
+msgid "Last cron job execution: %s."
+msgstr ""
+
+#: templates/admin/server.php:171
+#, php-format
+msgid "Last cron job execution: %s. Something seems wrong."
+msgstr ""
+
+#: templates/admin/server.php:176
+msgid "Cron was not executed yet!"
+msgstr ""
+
+#: templates/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over http."
+msgstr ""
+
+#: templates/admin/server.php:209
+msgid "Use system's cron service to call the cron.php file every 15 minutes."
+msgstr ""
+
+#: templates/admin/server.php:216
+msgid ""
+"To run this you need the PHP posix extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#: templates/admin/sharing.php:96
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username needs to be entered."
+msgstr ""
+
+#: templates/admin/tipstricks.php:39
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/apps.php:139
+msgid "Uninstall app"
+msgstr ""
+
+#: templates/email.new_user.php:14
+#, php-format
+msgid ""
+"Hey there,<br><br>just letting you know that you now have a %s "
+"account.<br><br>Your username: <strong>%s</strong><br>Access it: <strong><a "
+"href=\"%s\">%s</a></strong><br><br>"
+msgstr ""
+
+#. TRANSLATORS term at the end of a mail
+#: templates/email.new_user.php:17 templates/email.new_user_plain_text.php:5
+msgid "Cheers!"
+msgstr ""
+
+#: templates/email.new_user_plain_text.php:2
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"just letting you know that you now have a %s account.\n"
+"\n"
+"Your username: %s\n"
+"Access it: %s\n"
+"\n"
+msgstr ""
+
+#: templates/personal.php:106
+msgid "For password recovery and notifications"
+msgstr ""
+
+#: templates/personal.php:150
+msgid "Your website"
+msgstr ""
+
+#: templates/personal.php:163
+msgid "Your Twitter handle"
+msgstr ""
+
+#: templates/personal.php:235
+msgid "Get the apps to sync your files"
+msgstr ""
+
+#: templates/personal.php:238
+msgid "Desktop client"
+msgstr ""
+
+#: templates/personal.php:242
+msgid "Android app"
+msgstr ""
+
+#: templates/personal.php:246
+msgid "iOS app"
+msgstr ""
+
+#: templates/personal.php:259
+msgid ""
+"If you want to support the project {contributeopen}join "
+"development{linkclose} or {contributeopen}spread the word{linkclose}!"
+msgstr ""
+
+#: templates/personal.php:263
+msgid "Show First Run Wizard again"
+msgstr ""
+
+#: templates/personal.php:285
+msgid ""
+"Passcodes that give an app or device permissions to access your account."
+msgstr ""
+
+#: templates/personal.php:289
+msgid "Name"
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google Plus!"
+msgstr ""
+
+#: templates/settings.development.notice.php:52
+msgid "Like our facebook page!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Subscribe to our twitter channel!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Subscribe to our news feed!"
+msgstr ""
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter!"
+msgstr ""
+
+#: templates/users/main.php:58
+msgid "Show last log in"
+msgstr ""
+
+#: templates/users/part.grouplist.php:12
+msgid "Group name"
+msgstr ""
+
+#: js/apps.js:567
+msgid "Error while removing app"
+msgstr ""
+
+#: personal.php:203
+msgid "Verifying"
+msgstr ""
+
+#: templates/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Ticks section and the documentation "
+"for more information."
+msgstr ""
+
+#: templates/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with MIME type detection."
+msgstr ""
+
+#: templates/personal.php:361
+msgid ""
+"Web, desktop, mobile clients and app specific passwords that currently have "
+"access to your account."
+msgstr ""
+
+#: templates/personal.php:375
+msgid ""
+"Here you can generate individual passwords for apps so you don’t have to "
+"give out your password. You can revoke them individually too."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog!"
+msgstr ""

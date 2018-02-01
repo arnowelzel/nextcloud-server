@@ -1,0 +1,1035 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Valentinas <fizikiukas@gmail.com>, 2017\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/nextcloud/teams/64236/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Nepavyko išvalyti sąsajų."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Nepavyko pašalinti serverio konfigūracijos"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Neteisinga konfigūracija: Anoniminis prisijungimas neleidžiamas."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Konfigūracija teisinga, ryšys užmegztas!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Konfigūracija teisinga, bet prisijungimas nepavyko. Patikrinkite serverio "
+"nustatymus ir prisijungimo duomenis."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+"Neteisinga konfigūracija. Išsamesnei informacijai, žiūrėkite žurnalus."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Nenurodytas veiksmas"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Nenurodyta jokia konfigūracija"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Nepateikta duomenų"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "Nepavyko nustatyti konfigūracijos %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "Veiksmo nėra"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr ""
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Atnaujinama ..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Labai silpnas slaptažodis"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Silpnas slaptažodis"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Neblogas slaptažodis"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Geras slaptažodis"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Stiprus slaptažodis"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Neteisinga DN šaka "
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Išbandoma konfigūracija…"
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Konfigūracija neteisinga"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Nepilna konfigūracija"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Konfigūracija gera"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Pasirinkti grupes"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Pasirinkite objektų klases"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Patikrinkite prisijungimo duomenis, jie atrodo neteisingi."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Prašome nurodyti prievadą, jo nepavyko aptikti automatiškai."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"Negalima automatiškai nustatyti DN šakos, peržiūrėkite prisijungimo "
+"duomenis, serverį ir prievadus."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "Nepavyko aptikti DN šakos, įrašykite rankiniu būdu. "
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Serveris"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "Jokie objektai nurodytoje DN šakoje nerasti. Prašome patikslinkite."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Yra prieinama daugiau nei 1000 katalogo įrašų. "
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "pasiekiami įrašai pateiktoje DN šakoje"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Įvyko klaida.  Patikrinkite DN šąką, taip pat sujungimo nustatymus ir "
+"prisijungimo duomenis."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Ar tikrai norite ištrinti dabartinę serverio konfigūraciją?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Patvirtinkite trynimą"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Susiejimai pašalinti sėkmingai!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Klaida šalinant susiejimus."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"Anoniminis prisijungimas neleidžiamas. Pateikite naudotojo DN ir slaptažodį."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "LDAP veikimo klaida. Anoniminis prisijungimas gali būti neleistinas."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Nepavyko išsaugoti. Įsitikinkite, kad duomenų bazė veikia. Prieš tęsdami - "
+"perkraukite."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Režimo pakeitimas įjungs automatines LDAP užklausas. Priklausomai nuo LDAP "
+"dydžio tai gali užtrukti. Ar tikrai norite pakeisti režimą?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Veiksenos pakeitimas"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Pasirinkite atributus"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Naudotojas nerastas. Patikrinkite savo prisijungimo atributus ir naudotojo "
+"vardą.  Veiksmingas filtras (nukopijuoti į komandinę eilutę): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Naudotojas surastas, nustatymai patikrinti."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Apsvarstykite galimybę susiaurinti paiešką, nes ji apima daug naudotojų, ir "
+"tik pirmasis iš jų galės prisijungti."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr "Įvyko nenustatyta klaida. Patikrinkite žurnalo įrašus ir nustatymus."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Paieškos filtras netinkamas, greičiausiai dėl sintaksės problemų, tokių kaip"
+" nevienodas atidarytų ir uždarų skliaustų skaičius. Prašome patikrinkite."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"Įvyko sujungimo su LDAP/ AD klaida, patikrinkite serverį, prievadus ir "
+"prisijungimo duomenis."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"Trūksta \"%u\" vietaženklio. Jis bus pakeistas prisijungimo vardu, siunčiant"
+" užklausas LDAP / AD. "
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Pateikite prisijungimo vardą, kurį norite patikrinti"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Slaptažodžio keitimas atmestas. Patarimas: "
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Prisijunkite su nauju slaptažodžiu"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Jūsų slaptažodžio galiojimo laikas pasibaigs rytoj."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Jūsų slaptažodžio galiojimo laikas baigiasi šiandien."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD integracija"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "Rasta %s grupė"
+msgstr[1] "Rastos %s grupės"
+msgstr[2] "Rastos %s grupės"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "Rastas %s naudotojas"
+msgstr[1] "Rasti %s naudotojai"
+msgstr[2] "Rasta %s naudotojų"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Nepavyko aptikti naudotojo rodomo vardo atributo. Nurodykite jį papildomuose"
+" LDAP nustatymuose."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "Nepavyko rasti pageidaujamos ypatybės"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Neteisingas serveris"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Bandyti konfigūraciją"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Pagalba"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "Grupės atitinkančios šiuos kriterijus yra pasiekiamos %s :"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Tik šios objektų klasės:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Tik iš šių grupių:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Ieškoti grupių"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Prieinamos grupės"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Pasirinktos grupės"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "Taisyti LDAP užklausą"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP filtras:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr "Filtras nurodo, kurios LDAP grupės turi turėti prieigą prie %s"
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Patikrinkite nustatymus ir suskaičiuokite grupes"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr "Prisijungiant, %s suras naudotoją, remiantis sekančiais atributais:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP / AD naudotojo vardas:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP / AD el. pašto adresas:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Kiti atributai: "
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"Apibrėžia filtrą, kuris taikomas bandant prisijungti. \"%%uid\" pakeičia "
+"naudotojo vardą prisijungimo metu. Pavyzdys: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Ištestuokite prisijungimo vardą"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Patikrinti nustatymus"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Serveris"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. Serveris:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Pridėti naują konfigūraciją"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Nukopijuokite dabartinę konfigūraciją į naują katalogų saistymą"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Ištrinti esamą konfigūraciją"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Serveris"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"Jūs galite praleisti protokolą, nebent Jums reikalingas SSL. Jei taip, "
+"pradėkite su ldaps://"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Prievadas"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Aptikti prievadą"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "Naudotojo DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"Kliento naudotojo DN, kuris turi būti naudojamas prisijungimui, pvz.: "
+"uid=agent,dc=example,dc=com. Anonimiškam prisijungimui palikite DN ir "
+"slaptažodį tuščius."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Anoniminei prieigai, palikite DN ir Slaptažodžio laukus tuščius."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr ""
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Viena DN šaka vienoje eilutėje"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"Jūs galite nurodyti naudotojų ir grupių DN šaką, papildomame pasirinkime."
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Aptikti DN šaką"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Testuoti DN šaką"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Vengia automatinių LDAP užklausų. Geriau tinka didesniems nustatymams, bet "
+"reikalingos LDAP žinios."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "Ranka įveskite LDAP filtrus (rekomenduojama dideliems katalogams)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr ""
+"Naudotojų paieška ir sąrašo pateikimas yra sukonstruota remiantis šiais "
+"kriterijais:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"Dažniausios objektų klasės vartotojams yra organizationalPerson, person, "
+"user, and inetOrgPerson. Jei nežinote, kurią objektų klasę pasirinkti "
+"susisiekite su administratoriumi."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr "Filtras nurodo, kurie LDAP naudotojai turi turėti prieigą prie %s."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Patikrinkite nustatymus ir suskaičiuokite naudotojus"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Įrašoma"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Atgal"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Tęsti"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Prašome atnaujinkite savo slaptažodį."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Įvyko vidinė klaida."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Bandykite dar kartą arba susisiekite su savo administratoriumi."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Dabartinis slaptažodis"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Naujas slaptažodis"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Atnaujintas slaptažodis"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Neteisingas slaptažodis. Atstatyti jį?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Neteisingas slaptažodis."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Serveris"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Naudotojai"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Prisijungimo atributai"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Grupės"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Ekspertai"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Išplėstiniai"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Įspėjimas:</b> PHP LDAP modelis nėra instaliuotas, serveris nedirbs. "
+"Paprašykite, kad sistemos administratorius jį įdiegtų."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Ryšio nustatymai"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Konfigūracija aktyvi"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Kai nepažymėta, ši konfigūracija bus praleista."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Atsarginės kopijos (Replica) serveris"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Nurodykite atsarginį serverį, kuris būtų pagrindinio LDAP / AD serverio "
+"kopija."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Atsarginės kopijos (Replica) prievadas"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Išjungti pagrindinį serverį"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Tik prisijungti prie reprodukcinio (replica) serverio."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Išjungti SSL liudijimo tikrinimą."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Nerekomenduojama, naudokite tik testavimui! Jei ryšys veikia, tik dėka šių "
+"nustatymų, suimportuokite savo %s serveryje LDAP serverio SSL sertifikatą."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr ""
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr ""
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Katalogo nustatymai"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Laukas Naudotojo rodomas vardas."
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr "LDAP atributas naudojamas generuoti naudotojo rodomą vardą."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "Laukas Antras naudotojo rodomas vardas"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"Neprivalomas. LDAP atributas, kuris bus pridėtas prie rodomo vardo ir "
+"atvaizduojamas skliausteliuose.  Pavyzdys: Vardenis Pavardenis "
+"(vardenis.pavardenis@pavyzdys.lt)"
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "Bazinis naudotojo medis"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "Viena naudotojo DN šaka linijoje"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Naudotojo paieškos atributai"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Papildomas; Vienas atributas vienoje eilutėje"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Laukas rodomas grupės vardas"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr "LDAP atributas naudojamas generuoti grupės rodomą vardą."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "Bazinis grupės medis"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "Viena grupės DN šaka linijoje"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Grupės paieškos atributai"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Grupės-Nario sąsaja"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "Dinaminio grupės nario URL"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"LDAP atributas, kuris grupės objektuose turi LDAP ieškos URL, nustatantį "
+"kokie objektai priklauso grupei. (Tuščias parametras išjungia dinaminės "
+"grupės narystės funkciją.)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Įdėtinės grupės"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"Kai įjungta, yra palaikomos grupes turinčios grupės.(Veikia tik, jei grupės "
+"nario atributas turi DN.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr ""
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Įjungti LDAP slaptažodžio keitimus kiekvienam naudotojui."
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"Leisti LDAP naudotojams pakeisti savo slaptažodžius ir leisti Super "
+"Administratoriams bei Grupės administratoriams pakeisti savo LDAP naudotojų "
+"slaptažodžius. Veikia tik tada, kai prieigos valdymo politika yra "
+"sukonfigūruota pagal LDAP serverį.  Kadangi slaptažodžiai  į LDAP serverį "
+"yra siunčiami atviru tekstu, todėl jame turi būti naudojamas šifravimas ir "
+"slaptažodžių maiša."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Naujas slaptažodis į LDAP yra siunčiamas kaip paprastas tekstas)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "Numatytų slaptažodžio taisyklių DN."
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"Numatytų slaptažodžio taisyklių DN, kuris bus naudojamas tvarkant "
+"slaptažodžio galiojimą.  Veikia tik tada, kai yra įjungtas LDAP vartotojo "
+"slaptažodžio keitimas ir yra palaikomas tik OpenLDAP. Palikite tuščią, jei "
+"norite išjungti slaptažodžio galiojimo tvarkymą."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Specialūs atributai"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Kvotos laukas"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Palikite tuščią, jei norite, kad galiotų numatytoji naudotojų kvota.  Kitu "
+"atveju, nurodykite LDAP/AD atributą."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Numatyta kvota"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "El. pašto laukas"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Naudotojų el. paštą nustatykite pagal jų LDAP atributą. Palikite tuščią jei "
+"norite, kad veiktų pagal numatytuosius parametrus."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Naudotojo namų aplanko pavadinimo taisyklė"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Palikite tuščią naudotojo vardui (numatytoji reikšmė).  Kitu atveju, "
+"nurodykite LDAP/AD atributą."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Vidinis naudotojo vardas"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"Pagal nutylėjimą vidinis naudotojo vardas bus sukurtas iš UUID atributo. Tai"
+" užtikrina naudotojo vardo unikalumą ir kad nereikia konvertuoti simbolių. "
+"Vidinis naudotojo vardas turi apribojimą, leidžiantį tik šiuos simbolius: "
+"[a-zA-Z0-9 _. @ -]. Kiti simboliai pakeičiami ASCII atitikmenimis arba "
+"tiesiog praleidžiami. Sutapimų konflikto atveju yra pridedamas/padidinamas "
+"skaičius. Vidinis naudotojo vardas naudojamas yra naudojamas identifikuoti "
+"naudotoją viduje. Tai kartu yra numatytasis vartotojo aplanko pavadinimas. "
+"Taip pat tai nuotolinių URL dalis, pavyzdžiui, visoms *DAV paslaugoms. "
+"Naudojant šį nustatymą, numatytoji elgsena gali būti panaikinta. Palikite "
+"tuščią, jei norite kad galiotų numatytąjį reikšmė. Pakeitimai įtakoja tik "
+"naujai priskirtiems (pridedamiems) LDAP vartotojams."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "Vidinis naudotojo vardo atributas:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Perrašyti UUID aptikimą"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"naudotojo vardasnaudotojo vardasPagal nutylėjimą, UUID atributas yra "
+"automatiškai aptinkamas. UUID atributas yra naudojamas identifikuoti LDAP "
+"vartotojus ir grupes. Taigi, vidinis naudotojo vardas bus sukurtas remiantis"
+" UUID, jei nenurodyta kitaip. Jūs galite pakeisti nustatymus ir perduoti "
+"pasirinktus atributus. Turite įsitikinti, kad jūsų pasirinktas atributas "
+"gali būti rastas tiek prie vartotojų, tiek prie grupių, ir yra unikalus. Jei"
+" norite, kad veiktų pagal numatytuosius parametrus, palikite tuščią. "
+"Pakeitimai turės įtakos tik naujai susietiems (pridedamiems) LDAP "
+"naudotojams ir grupėms."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "UUID atributas naudotojams:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "UUID atributas grupėms:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Naudotojo vardo - LDAP naudotojo sąsaja"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"Naudotojų vardai yra naudojami saugoti ir priskirti (meta) duomenis. "
+"Siekiant identifikuoti ir atpažinti naudotojus,kiekvienas LDAP naudotojas "
+"turės vidinį naudotojo vardą. Tam reikia susieti naudotojo vardą su LDAP "
+"naudotoju. Sukurtas naudotojo vardas yra susiejamas su LDAP naudotojo UUID. "
+"Papildomai DN talpinamas, kad sumažintų LDAP sąveiką, bet nenaudojamas "
+"identifikacijoje. Visur yra naudojamas vidinis naudotojo vardas. Susiejimų "
+"pašalinimas visur paliks \"pėdsaką\" ir įtakos visas LDAP konfigūracijas! "
+"Niekada susiejimų nešalinkite produkciniame serveryje."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Išvalyti naudotojo vardo - LDAP naudotojo sąsają"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Išvalyti grupės pavadinimo - LDAP naudotojo sąsają"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"Trūksta \"%u\" vietaženklio. Jis bus pakeistas prisijungimo vardu, siunčiant"
+" užklausas LDAP / AD. "
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Patikrinkite nustatymus ir suskaičiuokite grupes"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Pridėkite naują konfigūraciją"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"Jūs galite praleisti protokolą, nebent Jums reikalingas SSL. Jei taip, "
+"pradėkite su ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Įspėjimas: </b> Programėlės user_ldap ir user_webdavauth yra "
+"nesuderinami. Tai gali sukelti nepageidaujamą veikimą.  Paprašykite, kad "
+"sistemos administratorius vieną jų išjungtų."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "baitais"

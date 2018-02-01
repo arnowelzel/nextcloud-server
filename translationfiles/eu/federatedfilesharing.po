@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Maider Likona Santamarina <pisoni@gisa-elkartea.org>, 2017\n"
+"Language-Team: Basque (https://www.transifex.com/nextcloud/teams/64236/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Federatutako partekatzea"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr ""
+"{owner}@{remote}k partekatzen duen {name} urruneko partekatzea gehitu nahi "
+"duzu?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Urruneko partekatzea"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Urruneko partekatzearen pasahitza"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Ezeztatu"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Urruneko partekatzea gehitu"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Kopiatua!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Euskarririk ez!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Kopiatzeko, sakatu ⌘-C"
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Kopiatzeko, sakatu Ctrl+C"
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Federatutako Hodei ID ezegokia"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr ""
+"Zerbitzaritik zerbitzarirako elkarbanaketa ez dago gaituta zerbitzari "
+"honetan"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Ezin izan da urruneko partekatze federatua gehitu."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Ezin izan da urruneko partekatze federatua gehitu, agian pasahitza gaizki "
+"dago."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Federatutako partekatze eskaera bidali da, gonbidapena jasoko duzu. "
+"Notifikazioak begiratu."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Muntatze puntuaren izenak baliogabeko karaktereak ditu."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Ez dago baimenik jabearekin federatutako partekatzea sortzeko."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "SSL ziurtagiri baliogabea edo fidagaitza"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Ezin da urruneko partekatzearekin kautotu, pasahitza gaizki egon daiteke"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Biltegi baliogabea"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Federatutako partekatzea gehituta"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Ezin izan da urruneko partekatzea gehitu"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+"%s elkarbanatzeak huts egin du, dagoeneko %s erabiltzailearekin "
+"elkarbanatuta dagoelako"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "Ezin da erabiltzaile berdinarekin federatutako partekatzea sortu."
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Fitxategia 1%s-rekin partekatua dago iada"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"1%s partekatzeak huts egin du, ezin da 1%s topatu, agian zerbitzaria ez dago"
+" erabilgarri edo berak sinatutako ziurtagiria erabiltzen du."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Ezin da partekatzea topatu"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"2%1$s-ren \"1%3$s\" urruneko partekatze bezala jaso duzu ( 3%2$s-en ordez)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"{user}-en {share} urruneko partekatze bezala jaso duzu ({behalf} ordez)"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "2%1$s-ren \"1%3$s\" urruneko partekatze bezala jaso duzu"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "{user}-en {share} urruneko partekatze bezala jaso duzu"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Onartu"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Ezeztatu"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Nirekin partekatu #Nextcloud Federatutako Hodei IDa erabiliz, 1%s ikusi"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Nirekin partekatu #Nextcloud Federatutako Hodei IDa erabiliz, "
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Partekatzea"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Federatutako Hodei Partekatzea"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Ireki dokumentazioa"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Pertsonen zerbitzarien arteko partekatzea konfiguratu"
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Baimendu zerbitzari honetako erabiltzaileak beste zerbitzariekin "
+"partekatzera"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Baimendu zerbitzari honetako erabiltzaileak beste zerbitzarietatik "
+"partekatutakoak jasotzen"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Helbide liburu global eta publikoetak erabiltzaileak bilatu"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Erabiltzaileei bere datuak helbide-liburu publiko eta orokorrean publikatzea"
+" baimendu"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Hodei Federatua"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Nextcloud, ownCloud edo Pydio erabiltzen duen edonorrekin parteka dezakezu! "
+"Beraien Federatutako Hodei ID-a idatzi partekatzeen laukian. Honen itxura "
+"dute: pertsona@hodei.adibide.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Federatutatako Hodei ID:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Partekatu zure lagunek fitxategiak zurekin partekatzeko:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Zure webgunera gehitu"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Partekatu nirekin Nextcloud-en bidez"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML kodea:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Helbide liburu global eta publikoetan erabiltzaileak bilatu eta baimendu "
+"erabiltzaileei bere datuak publkatzea"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Partekatu:"

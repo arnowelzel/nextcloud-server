@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: J N <jurks666@gmail.com>, 2017\n"
+"Language-Team: Estonian (Estonia) (https://www.transifex.com/nextcloud/teams/64236/et_EE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et_EE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Salvestatud"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Salvestamine ebaõnnestus:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Faili MIME tüüp"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "on"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "ei ole"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "kattub"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "ei kattu"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Näide: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Faili suurus (üleslaadimine)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "väiksem"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "väiksem või võrdne"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "suurem või võrdne"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "suurem"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Faili süsteemi silt"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "on sildiga"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "ei ole sildiga"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Vali silt..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Päringu kaugaadress"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "kattub IPv4 aadressiga"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "Ei kattu IPv4 aadressiga"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "kattub IPv6 aadressiga"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "Ei kattu IPv6 aadressiga"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Päringu aeg"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "vahemikus"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "ei ole vahemikus"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Algus"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Lõpp"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Vali ajavöönd"
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Päringu URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Eelmääratletud URL-id"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "WebDAV failid"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Päringu \"user agent\""
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Kliendiprogrammid"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android klient"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS klient"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Töölaua klient"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Kasutajagrupi liige"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "on liige"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "ei ole liige"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr ""
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Antud regulaaravaldis on vigane"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Antud faili suurus on vigane"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Antud sildi ID on vigane"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Antud IP vahemik on vigane"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Antud IP vahemik ei kehti IPv4 kohta"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Antud IP vahemik ei kehti IPv6 kohta"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Antud ajavahemik on vigane"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Antud algusaeg on vigane"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Antud lõppaeg on vigane"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Antud gruppi ei leitud"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr ""
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Tegevus # %s ei leitud"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Tegevust %s ei leitud"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Tegevus %s on vigane"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr ""
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr ""
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr ""
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Töövoog"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Ava dokumentatsioon"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Lisa reegligrupp"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Reegli lühikirjeldus"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Lisa reegel"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Lähtesta"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Salvesta"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Salvestamine..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Laadimine..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Edukalt salvestatud"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Faili MIME tüüp"

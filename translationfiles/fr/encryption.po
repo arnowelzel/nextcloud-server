@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rémy J. <remy-transifex@remyj.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/nextcloud/teams/64236/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "Mot de passe de la clef de récupération manquant"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "Répétez le mot de passe de la clef de récupération"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr ""
+"Le mot de passe de la clef de récupération et sa répétition ne sont pas "
+"identiques."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "Clef de récupération activée avec succès"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"Impossible d'activer la clef de récupération. Veuillez vérifier le mot de "
+"passe de votre clé de récupération !"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "Clef de récupération désactivée avec succès"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"Impossible de désactiver la clef de récupération. Veuillez vérifier le mot "
+"de passe de votre clef de récupération !"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "Paramètres manquants"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "Veuillez entrer l'ancien mot de passe de récupération"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "Veuillez entrer un nouveau mot de passe de récupération"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "Veuillez répéter le nouveau mot de passe de récupération"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "Mot de passe modifié avec succès."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr ""
+"Erreur lors du changement de mot de passe. L'ancien mot de passe est peut-"
+"être incorrect."
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "Clé de récupération désactivée"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "Clef de récupération activée"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr ""
+"Impossible d'activer la clef de récupération. Veuillez essayer à nouveau ou "
+"contacter votre administrateur"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "Impossible de mettre à jour le mot de passe de la clef privée."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "L'ancien mot de passe est incorrect. Veuillez réessayer."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr ""
+"Le mot de passe de connexion actuel n'est pas correct, veuillez réessayer."
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "Mot de passe de la clef privée mis à jour avec succès."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"Vous devez migrer vos clés de chiffrement de l'ancienne version (ownCloud <="
+" 8.0) vers la nouvelle. Veuillez exécuter 'occ encryption:migrate' ou "
+"contacter votre administrateur"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+"Clé privée invalide pour l'application de chiffrement. Veuillez mettre à "
+"jour le mot de passe de la clef privée dans vos paramètres personnels pour "
+"récupérer l'accès à vos fichiers chiffrés."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+"L'application de chiffrement est activée mais vos clefs ne sont pas "
+"initialisées. Veuillez vous déconnecter et ensuite vous reconnecter."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+"Veuillez activer le chiffrement côté serveur dans les paramètres "
+"d'administration pour utiliser le module de cryptage."
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr "L'application de chiffrement est activée et prête"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "Mauvaise signature"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "Signature manquante"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "Mot de passe à usage unique pour le chiffrement côté serveur"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"Impossible de déchiffrer ce fichier : il s'agit probablement d'un fichier "
+"partagé. Veuillez demander au propriétaire du fichier de le partager à "
+"nouveau avec vous."
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"Impossible de lire ce fichier, il s'agit probablement d'un fichier partagé. "
+"Veuillez demander au propriétaire du fichier de le repartager avec vous.  "
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr "Module de chiffrement par défaut"
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"Bonjour,\n"
+"\n"
+"L'administrateur a activé le chiffrement sur le serveur. Vos fichiers ont été chiffrés avec le mot de passe suivant :\n"
+"\n"
+"%s\n"
+"\n"
+"Veuillez suivre ces instructions :\n"
+"\n"
+"1. Connectez-vous à l'interface web et trouvez la section \"Module de chiffrement de base d'\" dans vos paramètres personnels;\n"
+"\n"
+"2. Entrez le mot de passe fourni ci-dessus dans le champ \"Ancien mot de passe de connexion\";\n"
+"\n"
+"3. Entrez le mot de passe que vous utilisez actuellement pour vous connecter dans le champ \"Actuel mot de passe de connexion\";\n"
+"\n"
+"4. Validez en cliquant sur le bouton \"Mettre à jour le mot de passe de votre clef privée\".\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "Le partage expirera le %s."
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "À bientôt !"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"Bonjour,\n"
+"<br><br>\n"
+"L'administrateur a activé le chiffrement sur le serveur. Vos fichiers ont été chiffrés avec le mot de passe suivant :\n"
+"\n"
+"<p style=\"font-family: monospace;\"><b>%s</b></p>\n"
+"\n"
+"<p>\n"
+"Veuillez suivre ces instructions :\n"
+"<ol>\n"
+"<li>Connectez-vous à l'interface web et trouvez la section <em>\"Module de chiffrement de base d'\"</em> dans vos paramètres personnels;</li>\n"
+"<li>Entrez le mot de passe fourni ci-dessus dans le champ <em>\"Ancien mot de passe de connexion\"</em>;</li>\n"
+"<li>Entrez le mot de passe que vous utilisez actuellement pour vous connecter dans le champ <em>\"Actuel mot de passe de connexion\"</em>;</li>\n"
+"<li>Validez en cliquant sur le bouton <em>\"Mettre à jour le mot de passe de votre clef privée\"</em>.</li>\n"
+"</ol>\n"
+"</p>"
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+"L'application de chiffrement est activée mais vos clefs ne sont pas "
+"initialisées. Veuillez vous déconnecter et ensuite vous reconnecter."
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "Chiffrer l'espace de stockage principal"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"L'activation de cette option chiffre tous les fichiers du stockage "
+"principal, sinon seuls les espaces de stockage externes seront chiffrés"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "Activer la clé de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "Désactiver la clé de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"La clé de récupération est une clé supplémentaire utilisée pour chiffrer les"
+" fichiers. Elle permet de récupérer les fichiers des utilisateurs s'ils "
+"oublient leur mot de passe."
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "Mot de passe de la clef de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "Répétez le mot de passe de la clé de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "Modifier le mot de passe de la clef de récupération :"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "Ancien mot de passe de la clé de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "Nouveau mot de passe de la clé de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "Répétez le nouveau mot de passe de la clé de récupération"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "Changer de mot de passe"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr "Module de chiffrement basique"
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"Le mot de passe de votre clef privée ne correspond plus à votre mot de passe"
+" de connexion."
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+"Remplacez l'ancien mot de passe de votre clé privée par votre mot de passe "
+"de connexion actuel :"
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr ""
+"Si vous ne vous souvenez plus de votre ancien mot de passe, vous pouvez "
+"demander à votre administrateur de récupérer vos fichiers."
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "Ancien mot de passe de connexion"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "Actuel mot de passe de connexion"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "Mettre à jour le mot de passe de votre clef privée"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "Activer la récupération du mot de passe :"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"Activer cette option vous permettra d'obtenir à nouveau l'accès à vos "
+"fichiers chiffrés en cas de perte de mot de passe"
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "Activé"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "Désactivé"

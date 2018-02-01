@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Marin Kaltani <mpkaltani@gmail.com>, 2017\n"
+"Language-Team: Albanian (https://www.transifex.com/nextcloud/teams/64236/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Ndarje e federuar"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Doni që të shtoni ndarjen në remote {name} nga {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Ndarje në largësi"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Fjalëkalim ndarjeje të largët"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Anulo"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Shto shpëendarje në distancë"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Kopjo"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "U kopjua!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Nuk mbështetet!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Shtyp ⌘-C për të kopjuar."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Shtypni Ctrl-C për të kopjuar"
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "ID Federated Cloud e pavlefshme"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Shpërndarja server në server nuk është e mundësuar në këtë server"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Nuk mund të vendosej një shpërndarje e federuar."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Nuk mund të vendoset një shpërndarje e federuar, ndoshta fjalëkalimi ishte "
+"gabim."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Kërkesa Ndarja Federative u dërgua, ju do të merrni një ftesë. Kontrolloni "
+"njoftimet tuaja."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Emri mountpoint përmban karaktere të pavlefshme."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "Nuk lejohet te krijoni një shpërndarje të federuar me zotëruesin"
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Çertifikatë SSL e pavlefshme ose e dyshimtë"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Nuk mund të vërtetohej në pjesën e largët, fjalëkalimi mund të jetë i gabuar"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "memorja nuk është e vlefshme"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Ndarje e federuar u shtua"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Nuk mund të shtohet ndarja në largësi"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Ndarja për %s dështoi, ngaqë ky objekt është ndarë një herë me %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "S’i lejohet të krijojë një ndarje të federuar me të njëjtin përdorues"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Skedari është ndarë tashmë me %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"Ndarja e %s dështoi, nuk mund të gjendet %s, ndoshta serveri është për "
+"momentin i paaksesueshëm ose përdor një çertifikatë të vetë-nënshkruar"
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Nuk mund të gjenim ndarjen"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"Ju pranuat \"%3$s\" si një shpërndarje në distancë nga %1$s (në emër të "
+"%2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr "Ju "
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Ju pranuat \"%3$s\" si një shpërndarje në distancë nga %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Ju morët {share} si një ndarje të largët nga {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Pranoje"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Hidhe poshtë"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Ndani me mua përmes ID-së time për #Nextcloud Federated Cloud, shihni %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Ndani me mua përmes ID-së time për #Nextcloud Federated Cloud"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Ndarje"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Ndarje Në Re të Federuar "
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Hap dokumentimin"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Përshtatni mënyrën se si njerëzit mund të ndajnë midis serverëve."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Lejoju përdoruesve në këtë shërbyes të dërgojnë ndarje në shërbyes të tjerë"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Lejoju përdoruesve në këtë shërbyes të marrin ndarje nga shërbyes të tjerë"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Kërko librin e adresave globale dhe publike për përdoruesit"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Lejo përdoruesit të publikojnë të dhënat e tyre në një libër adresash "
+"botërore dhe globale"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Re e Federuar"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Ju mund të ndani me këdo që përdor Nextcloud, ownCloud ose Pydio! Vetëm "
+"vendosni ID e tyre të Federated Cloud në dialogun e shpërndarjeve. Duket si "
+"person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "ID-ja juaj për Re të Federuar:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Shërndajeni që miqtë tuaj mund të ndajnë skedarë me ju:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Shtojeni te sajti juaj"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Ndani me mua përmes Nextcloud-it"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "Kod HTML:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Kërko librin e adresave globale dhe publike për përdoruesit dhe lejo që "
+"përdoruesit lokal të publikojnë të dhënat e tyre"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Ndajeni:"

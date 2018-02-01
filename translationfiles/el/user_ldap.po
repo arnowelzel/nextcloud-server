@@ -1,0 +1,1017 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: eleni lainidou <elainidou@hotmail.com>, 2017\n"
+"Language-Team: Greek (https://www.transifex.com/nextcloud/teams/64236/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Αποτυχία εκκαθάρισης των αντιστοιχιών."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Αποτυχία διαγραφής ρυθμίσεων διακομιστή"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Μη έγκυρη διαμόρφωση: Δεν επιτρέπεται ανώνυμη δέσμευση."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Επιτυχής ρύθμιση, συνδεθήκατε με επιτυχία"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Έγκυρη διαμόρφωση, αλλά η σύνδεση απέτυχε. Ελέγξτε τις ρυθμίσεις διακομιστή "
+"και τα διαπιστευτήρια."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+"Μη έγκυρη διαμόρφωση. Παρακαλώ ρίξτε μια ματιά στα αρχεία καταγραφής για "
+"περισσότερες λεπτομέρειες."
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Καμμία εντολή δεν προσδιορίστηκε"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Καμμία διαμόρφωση δεν προσδιορίστηκε"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Δεν προσδιορίστηκαν δεδομένα"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "Αδυναμία ρύθμισης %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "Η ενέργεια δεν υπάρχει"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr ""
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Ανανέωση ..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Πολύ αδύναμος κωδικός πρόσβασης"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Ασθενές συνηματικό"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr ""
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Καλό συνθηματικό"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Ισχυρό συνθηματικό"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Το Base DN φαίνεται να είναι εσφαλμένο"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Γίνεται δοκιμή ρυθμίσεων..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Η διαμόρφωση είναι λανθασμένη"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Η διαμόρφωση είναι ελλιπής"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Η διαμόρφωση είναι εντάξει"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Επιλέξτε ομάδες"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Επιλογή κλάσης αντικειμένων"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Παρακαλώ ελέγξτε τα στοιχεία, φαίνεται να είναι λάθος."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Παρακαλώ ορίστε την θύρα, δεν ήταν εφικτό να εντοπιστεί αυτόματα."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"Αδυναμία ανίχνευσης Base DN, παρακαλώ αναθεωρήστε τα διαπιστευτήρια, το "
+"διακομιστή και τη θύρα."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr "Αδυναμία ανίχνευσης Base DN, παρακαλώ να το εισάγετε χειροκίνητα."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Διακομιστής"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr "Δεν βρέθηκε αντικείμενο στο δηλωθέν Base DN. Παρακαλώ αναθεωρήστε."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Είναι διαθέσιμες περισσότερες από 1.000 εγγραφές καταλόγου."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "διαθέσιμες καταχωρήσεις εντός του δηλωθέντος "
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Παρουσιάστηκε σφάλμα. Παρακαλούμε ελέγξτε το Base DN καθώς και τις ρυθμίσεις"
+" και τα διαπιστευτήρια σύνδεσης."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Θέλετε να διαγράψετε τις τρέχουσες ρυθμίσεις του διακομιστή;"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "Επιβεβαίωση Διαγραφής"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "Η εκκαθάριση αντιστοιχιών ήταν επιτυχής!"
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Σφάλμα κατά την εκκαθάριση των αντιστοιχιών."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"Η ανώνυμη δέσμευση δεν επιτρέπεται. Παρακαλούμε δώστε ένα DN χρήστη και "
+"Κωδικό Πρόσβασης."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr "Σφάλμα ενεργειών LDAP. Η ανώνυμη δέσμευση μπορεί να μην επιτρέπεται."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"Αποτυχία αποθήκευσης. Παρακαλούμε βεβαιωθείτε ότι η βάση δεδομένων "
+"λειτουργεί. Επαναφορτώστε πριν συνεχίσετε."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"Η αλλαγή της κατάστασης θα ενεργοποιήσει αυτόματα ερωτήματα LDAP. Ανάλογα με"
+" το μέγεθος του LDAP αυτό μπορεί να διαρκέσει αρκετά. Θέλετε ακόμη να "
+"αλλάξετε κατάσταση λειτουργίας;"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Αλλαγή κατάστασης"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Επιλογή χαρακτηριστικών"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Ο χρήστης βρέθηκε και οι ρυθμίσεις επιβεβαιώθηκαν."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr ""
+"Παρουσιάστηκε ακαθόριστο λάθος. Παρακαλώ ελέγξτε το αρχείο καταγραφής και "
+"τις ρυθμίσεις."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"Το φίλτρο αναζήτησης δεν είναι έγκυρο, πιθανώς λόγω συντακτικών προβλημάτων "
+"όπως μη ταίριασμα ανοίγματος και κλεισίματος αγκυλών. Παρακαλούμε διορθώστε."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"Προέκυψε σφάλμα σύνδεσης στο LDAP / AD, παρακαλούμε ελέγξτε διακομιστή θύρα "
+"και διαπιστευτήρια."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Παρακαλούμε δώστε ένα όνομα σύνδεσης για να γίνει δοκιμή"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"Το πεδίο ομάδας απενεργοποιήθηκε επειδή ο διακομιστής LDAP / AD δεν "
+"υποστηρίζει το memberOf."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr ""
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Παρακαλώ κάντε είσοδο με το νέο συνθηματικό"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "Το συνθηματικό σας θα λήξει αύριο."
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "Το συνθηματικό σας λήγει σήμερα."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "Το συνθηματικό σας θα λήξει σε %n ημέρα."
+msgstr[1] "Το συνθηματικό σας θα λήξει σε %n ημέρες."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD ενσωμάτωση"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "%s ομάδα βρέθηκε"
+msgstr[1] "%s ομάδες βρέθηκαν"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "%s χρήστης βρέθηκε"
+msgstr[1] "%s χρήστες βρέθηκαν"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "Αδυναμία εύρεσης επιθυμητού χαρακτηριστικού"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Άκυρος εξυπηρετητής"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "Δοκιμαστικές ρυθμίσεις"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr "Οι ομάδες που πληρούν τα κριτήρια είναι διαθέσιμες σε %s:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Μόνο οι κλάσεις αντικειμένων:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Μόνο από τις ομάδες:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Αναζήτηση ομάδων"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Διαθέσιμες ομάδες"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Επιλεγμένες ομάδες"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "Επεξεργασία ερωτήματος "
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "Φίλτρο LDAP:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr ""
+"Το φίλτρο καθορίζει ποιες ομάδες LDAP θα έχουν πρόσβαση στην εγκατάσταση %s."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Έλεγχος ρυθμίσεων και μέτρημα ομάδων"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr ""
+"Κατά τη σύνδεση, το %s θα βρει το χρήστη βασιζόμενος στις ακόλουθες "
+"ιδιότητες:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "Όνομα χρήστη LDAP / AD:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "Διεύθυνση ηλ. ταχυδρομείου LDAP / AD:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Άλλες Ιδιότητες:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Δοκιμή "
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Επιβεβαίωση ρυθμίσεων"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Διακομιστής"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. Διακομιστής:"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Προσθήκη νέας ρύθμισης"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Αντιγραφή της τρέχουσας διαμόρφωσης σε νέο κατάλογο"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Διαγραφή τρέχουσας διαμόρφωσης"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Διακομιστής"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Θύρα"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Ανίχνευση Θύρας"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "User DN"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"Το DN του χρήστη πελάτη με το οποίο θα πρέπει να γίνει η σύνδεση, π.χ. "
+"uid=agent,dc=example,dc=com. Για χρήση χωρίς πιστοποίηση, αφήστε το DN και "
+"τον Κωδικό κενά."
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Συνθηματικό"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Για ανώνυμη πρόσβαση, αφήστε κενά τα πεδία DN και Pasword."
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr ""
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Ένα DN Βάσης ανά γραμμή "
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"Μπορείτε να καθορίσετε το Base DN για χρήστες και ομάδες από την καρτέλα "
+"Προηγμένες ρυθμίσεις"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Ανίχνευση Base DN"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Δοκιμή "
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Αποφυγή αυτόματων αιτημάτων LDAP. Προτιμότερο για μεγαλύτερες εγκαταστάσεις,"
+" αλλά απαιτεί κάποιες γνώσεις  LDAP."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr ""
+"Εισάγετε με μη αυτόματο τρόπο φίλτρα LDAP (προτείνεται για μεγάλους "
+"καταλόγους)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr "Η εμφάνιση και αναζήτηση για χρήστες περιορίζεται από τα κριτήρια:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"Οι πιο συνηθισμένες κλάσεις αντικειμένων για τους χρήστες είναι οι "
+"organizationalPerson, person, user, και inetOrgPerson. Εάν δεν είσαστε "
+"σίγουροι πιο κλάση να επιλέξετε, παρακαλώ συμβουλευτείτε τον διαχειριστή του"
+" καταλόγου σας."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+"Το φίλτρο καθορίζει ποιοι χρήστες LDAP θα έχουν πρόσβαση στην εγκατάσταση "
+"%s."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Επαλήθευση ρυθμίσεων και καταμέτρηση χρηστών"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Αποθήκευση"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Επιστροφή"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Παρακαλούμε ανανεώτε το συνθηματικό σας."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Παρουσιάστηκε ένα εσωτερικό σφάλμα."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Παρακαλούμε δοκιμάστε ξανά ή επικοινωνήστε με τον διαχειριστή σας."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Τρέχον συνθηματικό"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Νέο συνθηματικό"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Ανανέωση συνθηματικού"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Λάθος συνθηματικο. Επαναφορά;"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Εσφαλμένο συνθηματικό."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Διακομιστής"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Χρήστες"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Ιδιότητες Σύνδεσης"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Ομάδες"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Ειδικός"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Προσοχή:</b> Το άρθρωμα PHP LDAP δεν είναι εγκατεστημένο και το σύστημα "
+"υποστήριξης δεν θα δουλέψει. Παρακαλώ ζητήστε από τον διαχειριστή συστήματος"
+" να το εγκαταστήσει."
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Ρυθμίσεις Σύνδεσης"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "Ενεργοποιηση ρυθμισεων"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Όταν δεν είναι επιλεγμένο, αυτή η ρύθμιση θα πρέπει να παραλειφθεί. "
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Δημιουργία αντιγράφων ασφαλείας (Replica) Host "
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Δώστε μια προαιρετική εφεδρική υποδοχή. Πρέπει να είναι ένα αντίγραφο του "
+"κύριου LDAP / AD διακομιστη."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Δημιουργία αντιγράφων ασφαλείας (Replica) Υποδοχη"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "Απενεργοποιηση του κεντρικου διακομιστη"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Σύνδεση μόνο με το διακομιστή-αντίγραφο."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Απενεργοποίηση επικύρωσης πιστοποιητικού SSL."
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Δεν προτείνεται, χρησιμοποιείστε το μόνο για δοκιμές! Εάν η σύνδεση "
+"λειτουργεί μόνο με αυτή την επιλογή, εισάγετε το πιστοποιητικό SSL του "
+"διακομιστή LDAP στο %s διακομιστή σας."
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "Cache Time-To-Live"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "σε δευτερόλεπτα. Μια αλλαγή αδειάζει την μνήμη cache."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Ρυθμίσεις Καταλόγου"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "Πεδίο Ονόματος Χρήστη"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+"Η ιδιότητα LDAP προς χρήση για δημιουργία του προβαλλόμενου ονόματος χρήστη."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr ""
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "Base User Tree"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "Ένα DN βάσης χρηστών ανά γραμμή"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "Χαρακτηριστικά αναζήτησης των χρηστών "
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Προαιρετικά? Ένα χαρακτηριστικό ανά γραμμή "
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "Group Display Name Field"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr ""
+"Η ιδιότητα LDAP προς χρήση για δημιουργία του προβαλλόμενου ονόματος ομάδας."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "Base Group Tree"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "Μια ομαδικη Βάση DN ανά γραμμή"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "Ομάδα Χαρακτηριστικων Αναζήτηση"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "Group-Member association"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr ""
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Φωλιασμένες ομάδες"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"Όταν ενεργοποιηθεί, οι ομάδες που περιέχουν ομάδες υποστηρίζονται. "
+"(Λειτουργεί μόνο αν το χαρακτηριστικό μέλους ομάδες περιέχει Διακεκριμένα "
+"Ονόματα.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "Μέγεθος σελιδοποίησης"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"Μέγεθος τμήματος που χρησιμοποιείται για την σελιδοποίηση αναζητήσεων LDAP "
+"που μπορεί να επιστρέψουν πολλά δεδομένα, όπως απαρίθμηση χρηστών ή ομάδων. "
+"(Η τιμή 0 απενεργοποιεί την σελιδοποίηση των αναζητήσεων LDAP σε αυτές τις "
+"περιπτώσεις.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "Ενεργοποίηση αλλαγών συνθηματικού LDAP ανά χρήστη"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr ""
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr ""
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Ειδικά Χαρακτηριστικά "
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Ποσοσταση πεδιου"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Προκαθισμενο πεδιο"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "Email τυπος"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Χρήστης Προσωπικόςφάκελος Ονομασία Κανόνας "
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Αφήστε το κενό για το όνομα χρήστη (προεπιλογή). Διαφορετικά, συμπληρώστε "
+"μία ιδιότητα LDAP/AD."
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Εσωτερικό Όνομα Χρήστη"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "Ιδιότητα Εσωτερικού Ονόματος Χρήστη:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Παράκαμψη ανίχνευσης UUID"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"Από προεπιλογή, το χαρακτηριστικό UUID εντοπίζεται αυτόματα. Το "
+"χαρακτηριστικό UUID χρησιμοποιείται για την αναγνώριση χωρίς αμφιβολία "
+"χρηστών και ομάδων LDAP. Επίσης, το εσωτερικό όνομα χρήστη θα δημιουργηθεί "
+"με βάση το UUID, εφόσον δεν ορίζεται διαφορετικά ανωτέρω. Μπορείτε να "
+"παρακάμψετε τη ρύθμιση και να ορίσετε ένα χαρακτηριστικό της επιλογής σας. "
+"Θα πρέπει να βεβαιωθείτε ότι το χαρακτηριστικό της επιλογής σας μπορεί να "
+"ληφθεί για τους χρήστες και τις ομάδες και ότι είναι μοναδικό. Αφήστε το "
+"κενό για την προεπιλεγμένη λειτουργία. Οι αλλαγές θα έχουν ισχύ μόνο σε "
+"πρόσφατα αντιστοιχισμένους (προστιθέμενους) χρήστες και ομάδες LDAP."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "Χαρακτηριστικό UUID για Χρήστες:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "Χαρακτηριστικό UUID για Ομάδες:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Αντιστοίχιση Χρηστών Όνομα Χρήστη-LDAP"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"Τα ονόματα χρηστών χρησιμοποιούνται για την αποθήκευση και τον προσδιορισμό "
+"των  (μετα) δεδομένων. Προκειμένου να προσδιοριστούν με ακρίβεια και να "
+"αναγνωριστούν οι χρήστες, κάθε χρήστης LDAP θα έχει ένα εσωτερικό όνομα. "
+"Αυτό απαιτεί μια αντιστοίχιση του ονόματος χρήστη με το χρήστη LDAP. Το "
+"όνομα χρήστη που δημιουργήθηκαν αντιστοιχίζεται στην UUID του χρήστη LDAP. "
+"Επιπροσθέτως, το DN αποθηκεύεται προσωρινά (cache) ώστε να μειωθεί η "
+"αλληλεπίδραση LDAP, αλλά δεν χρησιμοποιείται για την ταυτοποίηση. Αν το DN "
+"αλλάξει, οι αλλαγές θα εντοπιστούν. Το εσωτερικό όνομα χρήστη "
+"χρησιμοποιείται παντού. Η εκκαθάριση των αντιστοιχίσεων θα αφήσει "
+"υπολείμματα παντού. Η εκκαθάριση των αντιστοιχίσεων δεν επηρεάζεται από τη "
+"διαμόρφωση, επηρεάζει όλες τις διαμορφώσεις LDAP! Μην διαγράψετε ποτέ τις "
+"αντιστοιχίσεις σε ένα λειτουργικό περιβάλλον παρά μόνο σε δοκιμές ή σε "
+"πειραματικό στάδιο."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "Διαγραφή αντιστοίχησης Ονόματος Χρήστη LDAP-Χρήστη"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "Διαγραφή αντιστοίχησης Ονόματος Ομάδας-LDAP Ομάδας"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"Η κράτηση θέσης %uid απουσιάζει. Θα αντικατασταθεί με το όνομα σύνδεσης κατά"
+" το ερώτημα "
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Επιβεβαίωση ρυθμίσεων και καταμέτρηση ομάδων"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Προσθέτει μια νέα και κενή διαμόρφωση"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"Μπορείτε να παραλείψετε το πρωτόκολλο, εκτός αν απαιτείται SSL. Σε αυτή την "
+"περίπτωση ξεκινήστε με ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Προσοχή:</b> Οι εφαρμογές user_ldap και user_webdavauth είναι ασύμβατες. "
+"Μπορεί να αντιμετωπίσετε απρόβλεπτη συμπεριφορά. Παρακαλώ ζητήστε από τον "
+"διαχειριστή συστήματος να απενεργοποιήσει μία από αυτές."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "σε bytes"

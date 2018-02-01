@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Toon van Gerwen <translation@vgerwen.nl>, 2016\n"
+"Language-Team: Dutch (https://www.transifex.com/nextcloud/teams/64236/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Gefedereerd delens"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Wil je de externe share {name} van {owner}@{remote} toevoegen?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Externe share"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Wachtwoord externe share"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Toevoegen externe share"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Gekopieerd!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Niet ondersteund!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Druk op ⌘-C om te kopiëren."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Druk op Ctrl-C om te kopiëren."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "Ongeldige gefedereerde Cloud ID"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "Server met server delen is op deze server niet ingeschakeld"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Kon geen gefedereerde share tot stand brengen"
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Kon geen gefedereerde share tot stand brengen, misschien was het wachtwoord "
+"onjuist."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"De gefedereerde share aanvraag is verzonden, je ontvangt een uitnodiging. "
+"Controleer je meldingen."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "De naam van het mountpoint bevat ongeldige karakters."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr ""
+"Het is niet toegestaan om met de eigenaar een gefedereerde share te maken."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Ongeldig of onvertrouwd SSL-certificaat"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Kon niet authenticeren bij externe share, misschien verkeerd wachtwoord"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Opslag ongeldig"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Gefedereerd share is toegevoegd"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Kon geen externe share toevoegen"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Delen van %s is mislukt, omdat het object al wordt gedeeld met %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr ""
+"Het is niet toegestaan om een gefedereerde share met dezelfde "
+"gebruikersserver te maken"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Bestand is al gedeeld met %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"Delen van %s mislukt, kon %s niet vinden, misschien is de server niet "
+"bereikbaar of je gebruikt een zelf getekend certificaat."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Kon share niet vinden"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "Je ontving \"%3$s\" als een extern deel verzoek van %1$s (namens %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Je ontving {share} als een extern deel verzoek van {user} (namens {behalf})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Je ontving \"%3$s\" als een extern deel verzoek van %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Je ontving {share} als een extren share verzoek van {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Accepteren"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Afwijzen"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "Deel met mij via mijn #Nextcloud gefedereerde Cloud ID, zie %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Deel met mij via mijn #Nextcloud gefedereerde Cloud ID"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Delen"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Federated Cloud Sharing"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Open documentatie"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Aanpassen hoe mensen tussen servers kunnen delen."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Toestaan dat gebruikers op deze server shares sturen naar andere servers"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Toestaan dat gebruikers op deze server shares ontvangen van andere servers"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Doorzoeken van openbare adresboeken voor gebruikers"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr "Publiek maken van data met een openbaar adresboek toestaan"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Gefedereerde Cloud"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Je kunt met iedereen delen die Nextcloud, ownCloud of Pydio gebruikt! "
+"Gebruik simpelweg hun gefedereerde Cloud ID in de deel-dialoog. Het ziet "
+"eruit als iemand@cloud.voorbeeld.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Je gefedereerde Cloud ID:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Deel het, zodat anderen bestanden met jou kunnen delen:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Toevoegen aan je website"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Deel met mij via Nextcloud"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML Code:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Openbare adresboeken voor gebruikers doorzoeken en laat lokale gebruikers de"
+" data plubliceren"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Deel het:"

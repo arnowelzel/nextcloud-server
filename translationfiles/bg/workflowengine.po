@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Борислав Георгиев <borislav.al.georgiev@gmail.com>, 2018\n"
+"Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/nextcloud/teams/64236/bg_BG/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Запазено"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Запазването се провали:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Тип MIME файл"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "е"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "не е"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "съвпадения"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "не съвпада"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Пример: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Големина на файл (качване)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "по-малко"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "по-малко или равно"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "по-голямо или равно"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "по-голям"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Таг на файлова система"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "е тагнат с"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "не е тагнат с"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Избери таг..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Искане на отдалечен адрес"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr "съвпада IPv4"
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr "не съвпада IPv4"
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr "съвпада IPv6"
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr "не съвпада IPv6"
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr "Врене ба заявка"
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "между"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "не между"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Начало"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Край"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Изберете часови пояс..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "URL на заявка"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "Предефинирани URL-и"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Файлове WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Потребителски агент на заявка"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Синхронизиране на клиенти"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Android клиент"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "iOS клиент"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Клиент за настолен компютър"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr "Членство към потребителска група"
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "е член на"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "не е член на"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "Даденият оператор е невалиден"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "Даденият израз е невалиден"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "Даденият размер на файла не е валиден"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "Даденият таг код не е валиден"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "Даденият IP диапазон е невалиден"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr "Даденият IP диапазон не е валиден за IPv4"
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr "Даденият IP диапазон не е валиден за IPv6"
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr "Даденият период е невалиден"
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr "Даденият начален час е невалиден"
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr "Даденият краен час е невалиден"
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Дадената група не съществува"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr "Проверка %s не е валидна или несъществува"
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "Операция #%s не съществува"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "Операция %s не съществува"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "Операция %s е невалидна"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr "Проверка %s не съществува"
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr "Проверка %s е невалидна"
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr "Проверка #%s не съществува"
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Работен процес"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Отвори документация"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr "Добави група правила"
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Кратко описание на правило"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Добави правило"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr "Възстанови"
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Запази"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Запазване..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Зареждане..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Успешно запазен"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Разширения"

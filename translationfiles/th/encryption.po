@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Morris Jobke <hey@morrisjobke.de>, 2016\n"
+"Language-Team: Thai (Thailand) (https://www.transifex.com/nextcloud/teams/64236/th_TH/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th_TH\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:77
+msgid "Missing recovery key password"
+msgstr "รหัสกู้คืนรหัสผ่านหายไป"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:83
+msgid "Please repeat the recovery key password"
+msgstr "กรุณาใส่รหัสกู้คืนรหัสผ่าน อีกครั้ง"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:89
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:133
+msgid ""
+"Repeated recovery key password does not match the provided recovery key "
+"password"
+msgstr "ใส่รหัสกู้คืนรหัสผ่านไม่ตรงกัน"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:96
+msgid "Recovery key successfully enabled"
+msgstr "เปิดใช้งานรหัสการกู้คืนเรียบร้อยแล้ว"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:98
+msgid ""
+"Could not enable recovery key. Please check your recovery key password!"
+msgstr ""
+"ไม่สามารถเปิดใช้งานรหัสการกู้คืน กรุณาตรวจสอบรหัสผ่านคีย์การกู้คืนของคุณ!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:101
+msgid "Recovery key successfully disabled"
+msgstr "ปิดใช้งานรหัสการกู้คืนเรียบร้อยแล้ว"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:103
+msgid ""
+"Could not disable recovery key. Please check your recovery key password!"
+msgstr ""
+"ไม่สามารถปิดใช้งานรหัสการกู้คืน กรุณาตรวจสอบรหัสผ่านคีย์การกู้คืนของคุณ!"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:106
+msgid "Missing parameters"
+msgstr "ค่าพารามิเตอร์หายไป"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:118
+msgid "Please provide the old recovery password"
+msgstr "โปรดระบุรหัสผ่านการกู้คืนเก่า"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:123
+msgid "Please provide a new recovery password"
+msgstr "โปรดระบุรหัสผ่านการกู้คืนใหม่"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:128
+msgid "Please repeat the new recovery password"
+msgstr "โปรดระบุการกู้คืนรหัสผ่านใหม่ อีกครั้ง"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:144
+msgid "Password successfully changed."
+msgstr "เปลี่ยนรหัสผ่านเรียบร้อยแล้ว"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:151
+msgid "Could not change the password. Maybe the old password was not correct."
+msgstr "ไม่สามารถเปลี่ยนรหัสผ่าน บางทีรหัสผ่านเดิมอาจไม่ถูกต้อง"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:172
+msgid "Recovery Key disabled"
+msgstr "ปิดการใช้งานการกู้คืนรหัส"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:179
+msgid "Recovery Key enabled"
+msgstr "เปิดการใช้งานการกู้คืนรหัส"
+
+#: /app/apps/encryption/lib/Controller/RecoveryController.php:188
+msgid ""
+"Could not enable the recovery key, please try again or contact your "
+"administrator"
+msgstr "ไม่สามารถเปิดใช้งานการกู้คืนรหัสโปรดลองอีกครั้งหรือติดต่อผู้ดูแลระบบ"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:111
+msgid "Could not update the private key password."
+msgstr "ไม่สามารถอัพเดทรหัสการเข้ารหัสส่วนตัว"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:136
+msgid "The old password was not correct, please try again."
+msgstr "รหัสผ่านเดิมไม่ถูกต้องโปรดลองอีกครั้ง"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:139
+msgid "The current log-in password was not correct, please try again."
+msgstr "รหัสผ่านเข้าสู่ระบบในปัจจุบันไม่ถูกต้องโปรดลองอีกครั้ง"
+
+#: /app/apps/encryption/lib/Controller/SettingsController.php:145
+msgid "Private key password successfully updated."
+msgstr "อัพเดทรหัส Private key เรียบร้อยแล้ว"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:79
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please run 'occ encryption:migrate' or contact your "
+"administrator"
+msgstr ""
+"คุณจำเป็นต้องย้ายรหัสการเข้ารหัสลับของคุณจากการเข้ารหัสเก่า (ownCloud "
+"ที่มีเวอร์ชันต่ำกว่าหรือเท่ากับ 8.0) ไปเวอร์ชันใหม่ โปรดเรียกใช้ 'occ "
+"encryption:migrate' หรือติดต่อผู้ดูแลระบบ"
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:85
+msgid ""
+"Invalid private key for encryption app. Please update your private key "
+"password in your personal settings to recover access to your encrypted "
+"files."
+msgstr ""
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:92
+#: /app/apps/encryption/templates/settings-personal.php:12
+msgid ""
+"Encryption App is enabled, but your keys are not initialized. Please log-out"
+" and log-in again."
+msgstr ""
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:96
+msgid ""
+"Please enable server side encryption in the admin settings in order to use "
+"the encryption module."
+msgstr ""
+
+#: /app/apps/encryption/lib/Controller/StatusController.php:102
+msgid "Encryption app is enabled and ready"
+msgstr ""
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:485
+msgid "Bad Signature"
+msgstr "ลายเซ็นไม่ดี"
+
+#: /app/apps/encryption/lib/Crypto/Crypt.php:564
+msgid "Missing Signature"
+msgstr "ลายเซ็นขาดหายไป"
+
+#: /app/apps/encryption/lib/Crypto/EncryptAll.php:421
+msgid "one-time password for server-side-encryption"
+msgstr "รหัสผ่านเพียงครั้งเดียว สำหรับเข้ารหัสฝั่งเซิร์ฟเวอร์"
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:374
+msgid ""
+"Can not decrypt this file, probably this is a shared file. Please ask the "
+"file owner to reshare the file with you."
+msgstr ""
+"ไม่สามารถถอดรหัสไฟล์นี้ มันอาจเป็นไฟล์ที่ใช้งานร่วมกัน "
+"กรุณาถามเจ้าของไฟล์เพื่อยกเลิกการใช้งานร่วมกัน "
+
+#: /app/apps/encryption/lib/Crypto/Encryption.php:502
+msgid ""
+"Can not read this file, probably this is a shared file. Please ask the file "
+"owner to reshare the file with you."
+msgstr ""
+"ไม่สามารถอ่านไฟล์นี้ มันอาจเป็นไฟล์ที่ใช้งานร่วมกัน "
+"กรุณาสอบถามเจ้าของไฟล์เพื่อแชร์ไฟล์กับคุณ"
+
+#: /app/apps/encryption/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/apps/encryption/templates/settings-admin.php:9
+msgid "Default encryption module"
+msgstr ""
+
+#: /app/apps/encryption/templates/altmail.php:5
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"the admin enabled server-side-encryption. Your files were encrypted using the password '%s'.\n"
+"\n"
+"Please login to the web interface, go to the section 'basic encryption module' of your personal settings and update your encryption password by entering this password into the 'old log-in password' field and your current login-password.\n"
+"\n"
+msgstr ""
+"นี่คุณ<br>\n"
+"<br> \n"
+"ผู้ดูแลระบบเปิดใช้งานการเข้ารหัสฝั่งเซิร์ฟเวอร์ ไฟล์ของคุณจะถูกเข้ารหัสโดยใช้รหัสผ่าน <strong>%s</strong><br>\n"
+"<br>\n"
+"กรุณาเข้าสู่ระบบเว็บอินเตอร์เฟซไปที่ส่วน \"โมดูลการเข้ารหัสพื้นฐาน\" ของการตั้งค่าส่วนบุคคลของคุณและอัพเดทการเข้ารหัสรหัสผ่านของคุณโดย ป้อนรหัสผ่านนี้ในช่อง \"รหัสผ่านเก่าที่เข้าสู่ระบบ\" และเข้าสู่ระบบด้วยรหัสผ่านปัจจุบันของคุณ<br>\n"
+"<br>\n"
+
+#: /app/apps/encryption/templates/altmail.php:7
+#, php-format
+msgid "The share will expire on %s."
+msgstr "การแชร์จะหมดอายุในวันที่ %s"
+
+#. TRANSLATORS term at the end of a mail
+#: /app/apps/encryption/templates/altmail.php:11
+#: /app/apps/encryption/templates/mail.php:20
+msgid "Cheers!"
+msgstr "ไชโย!"
+
+#: /app/apps/encryption/templates/mail.php:18
+#, php-format
+msgid ""
+"Hey there,<br><br>the admin enabled server-side-encryption. Your files were "
+"encrypted using the password <strong>%s</strong>.<br><br>Please login to the"
+" web interface, go to the section \"basic encryption module\" of your "
+"personal settings and update your encryption password by entering this "
+"password into the \"old log-in password\" field and your current login-"
+"password.<br><br>"
+msgstr ""
+"นี่คุณ <br><br> ผู้ดูแลระบบเปิดใช้งานการเข้ารหัสฝั่งเซิร์ฟเวอร์ "
+"ไฟล์ของคุณจะถูกเข้ารหัสโดยใช้รหัสผ่าน <strong>%s</strong> "
+"<br><br>กรุณาเข้าสู่ระบบเว็บอินเตอร์เฟซไปที่ส่วน \"โมดูลการเข้ารหัสพื้นฐาน\""
+" ของการตั้งค่าส่วนบุคคลของคุณและอัพเดทการเข้ารหัสรหัสผ่านของคุณโดย "
+"ป้อนรหัสผ่านนี้ในช่อง \"รหัสผ่านเก่าที่เข้าสู่ระบบ\" "
+"และเข้าสู่ระบบด้วยรหัสผ่านปัจจุบันของคุณ<br><br>"
+
+#: /app/apps/encryption/templates/settings-admin.php:11
+msgid ""
+"Encryption app is enabled but your keys are not initialized, please log-out "
+"and log-in again"
+msgstr ""
+
+#: /app/apps/encryption/templates/settings-admin.php:16
+msgid "Encrypt the home storage"
+msgstr "การเข้ารหัสพื้นที่จัดเก็บหน้าโฮม"
+
+#: /app/apps/encryption/templates/settings-admin.php:17
+msgid ""
+"Enabling this option encrypts all files stored on the main storage, "
+"otherwise only files on external storage will be encrypted"
+msgstr ""
+"การเปิดใช้งานตัวเลือกนี้จะเข้ารหัสไฟล์ทั้งหมดที่เก็บไว้ในพื้นที่จัดเก็บข้อมูลหลัก"
+" มิฉะนั้นจะเข้ารหัสเฉพาะไฟล์ที่เป็นพื้นที่จัดเก็บข้อมูลภายนอก"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Enable recovery key"
+msgstr "เปิดใช้งานการกู้คืนรหัส"
+
+#: /app/apps/encryption/templates/settings-admin.php:22
+#: /app/apps/encryption/templates/settings-admin.php:41
+msgid "Disable recovery key"
+msgstr "ปิดใช้งานรหัสการกู้คืนรหัส"
+
+#: /app/apps/encryption/templates/settings-admin.php:26
+msgid ""
+"The recovery key is an extra encryption key that is used to encrypt files. "
+"It allows recovery of a user's files if the user forgets his or her "
+"password."
+msgstr ""
+"รหัสการกู้คืนเป็นการเข้ารหัสลับพิเศษจะใช้ในการเข้ารหัสไฟล์ "
+"มันจะช่วยเรื่องการกู้คืนไฟล์ของผู้ใช้ที่ลืมรหัสผ่าน"
+
+#: /app/apps/encryption/templates/settings-admin.php:32
+msgid "Recovery key password"
+msgstr "รหัสการกู้คืนรหัสผ่าน"
+
+#: /app/apps/encryption/templates/settings-admin.php:36
+msgid "Repeat recovery key password"
+msgstr "รหัสการกู้คืนรหัสผ่าน อีกครั้ง"
+
+#: /app/apps/encryption/templates/settings-admin.php:46
+msgid "Change recovery key password:"
+msgstr "เปลี่ยนรหัสการกู้คืนรหัสผ่าน"
+
+#: /app/apps/encryption/templates/settings-admin.php:53
+msgid "Old recovery key password"
+msgstr "รหัสการกู้คืนรหัสผ่านเก่า"
+
+#: /app/apps/encryption/templates/settings-admin.php:59
+msgid "New recovery key password"
+msgstr "รหัสการกู้คืนรหัสผ่านใหม่"
+
+#: /app/apps/encryption/templates/settings-admin.php:64
+msgid "Repeat new recovery key password"
+msgstr "รหัสการกู้คืนรหัสผ่านใหม่ อีกครั้ง"
+
+#: /app/apps/encryption/templates/settings-admin.php:69
+msgid "Change Password"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+#: /app/apps/encryption/templates/settings-personal.php:8
+msgid "Basic encryption module"
+msgstr ""
+
+#: /app/apps/encryption/templates/settings-personal.php:18
+msgid "Your private key password no longer matches your log-in password."
+msgstr ""
+"รหัสการเข้ารหัสผ่านส่วนตัวของคุณไม่ตรงกับรหัสผ่านในการเข้าสู่ระบบของคุณ"
+
+#: /app/apps/encryption/templates/settings-personal.php:21
+msgid "Set your old private key password to your current log-in password:"
+msgstr ""
+"ตั้งรหัสการเข้ารหัสผ่านส่วนตัวเก่าของคุณเพื่อเข้าสู่ระบบในปัจจุบันของคุณ:"
+
+#: /app/apps/encryption/templates/settings-personal.php:23
+msgid ""
+" If you don't remember your old password you can ask your administrator to "
+"recover your files."
+msgstr "ถ้าคุณลืมรหัสผ่านเก่าของคุณ คุณสามารถขอให้ผู้ดูแลระบบกู้คืนไฟล์ของคุณ"
+
+#: /app/apps/encryption/templates/settings-personal.php:30
+msgid "Old log-in password"
+msgstr "เข้าสู่ระบบด้วยรหัสผ่านเก่า"
+
+#: /app/apps/encryption/templates/settings-personal.php:36
+msgid "Current log-in password"
+msgstr "เข้าสู่ระบบด้วยรหัสผ่านปัจจุบัน"
+
+#: /app/apps/encryption/templates/settings-personal.php:41
+msgid "Update Private Key Password"
+msgstr "อัพเดทรหัสการเข้ารหัสผ่านส่วนตัว"
+
+#: /app/apps/encryption/templates/settings-personal.php:49
+msgid "Enable password recovery:"
+msgstr "เปิดใช้งานการกู้คืนรหัสผ่าน:"
+
+#: /app/apps/encryption/templates/settings-personal.php:52
+msgid ""
+"Enabling this option will allow you to reobtain access to your encrypted "
+"files in case of password loss"
+msgstr ""
+"การเปิดใช้งานตัวเลือกนี้จะช่วยให้คุณได้รับการเข้าถึงไฟล์ที่มีการเข้ารหัสของคุณในกรณีที่คุณลืมรหัสผ่าน"
+
+#: /app/apps/encryption/templates/settings-personal.php:61
+msgid "Enabled"
+msgstr "เปิดการใช้งาน"
+
+#: /app/apps/encryption/templates/settings-personal.php:71
+msgid "Disabled"
+msgstr "ปิดการใช้งาน"

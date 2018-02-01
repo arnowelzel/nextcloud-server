@@ -1,0 +1,2296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dachi Natsvlishvili <dachinat@gmail.com>, 2016\n"
+"Language-Team: Georgian (Georgia) (https://www.transifex.com/nextcloud/teams/64236/ka_GE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Activity/Provider.php:97
+msgid "{actor} changed your password"
+msgstr "{actor} მომხმარებელმა შეცვალა თქვენი პაროლი"
+
+#: Activity/Provider.php:99
+msgid "You changed your password"
+msgstr "თქვენ შეცვალეთ თქვენი პაროლი"
+
+#: Activity/Provider.php:101
+msgid "Your password was reset by an administrator"
+msgstr "თქვენი პაროლი ადმინისტრატორმა აღადგინა"
+
+#: Activity/Provider.php:104
+msgid "{actor} changed your email address"
+msgstr "{actor} მომხმარებელმა შეცვალა თქვენი ელ-ფოსტის მისამართი"
+
+#: Activity/Provider.php:106
+msgid "You changed your email address"
+msgstr "თქვენ შეცვალეთ თქვენი ელ-ფოსტის მისამართი"
+
+#: Activity/Provider.php:108
+msgid "Your email address was changed by an administrator"
+msgstr "თქვენი ელ-ფოსტის მისამართი ადმინისტრატორის მიერ შეიცვალა"
+
+#: Activity/SecurityFilter.php:60 Activity/SecuritySetting.php:51
+#: templates/settings/personal/security.php:35
+msgid "Security"
+msgstr "უსაფრთხოება"
+
+#: Activity/SecurityProvider.php:61
+#, php-format
+msgid "You successfully logged in using two-factor authentication (%1$s)"
+msgstr ""
+"თქვენ ორ-ფაქტორიანი აუტენტიფიკაციით წარმატებით გაიარეთ ავტორიზაცია (%1$s)"
+
+#: Activity/SecurityProvider.php:72
+#, php-format
+msgid "A login attempt using two-factor authentication failed (%1$s)"
+msgstr "ავტორიზაცია ორ-ფაქტორიანი აუტენტიფიკაციით ვერ მოხერხდა (%1$s)"
+
+#: Activity/Setting.php:54
+msgid "Your <strong>password</strong> or <strong>email</strong> was modified"
+msgstr ""
+"<strong>თქვენი პაროლი</strong> ან <strong>ელ-ფოსტის მისამართი</strong> "
+"შეიცვალა"
+
+#: Controller/AppSettingsController.php:146 js/apps.js:44
+msgid "Your apps"
+msgstr "თქვენი აპლიკაციები"
+
+#: Controller/AppSettingsController.php:147
+msgid "Updates"
+msgstr "განახლებები"
+
+#: Controller/AppSettingsController.php:148 js/apps.js:45
+msgid "Enabled apps"
+msgstr "მოქმედი აპლიკაციები"
+
+#: Controller/AppSettingsController.php:149 js/apps.js:46
+msgid "Disabled apps"
+msgstr "არამოქმედი აპლიკაციები"
+
+#: Controller/AppSettingsController.php:150
+msgid "App bundles"
+msgstr "აპლიკაციის შეკვრები"
+
+#: Controller/ChangePasswordController.php:108
+msgid "Wrong password"
+msgstr "არასწორი პაროლი"
+
+#: Controller/ChangePasswordController.php:136 js/admin.js:127 js/admin.js:190
+#: js/admin.js:210
+msgid "Saved"
+msgstr "დამახსოვრდა"
+
+#: Controller/ChangePasswordController.php:156
+msgid "No user supplied"
+msgstr "მომხმარებელი არ იქნა მოწოდებული"
+
+#: Controller/ChangePasswordController.php:165
+#: Controller/ChangePasswordController.php:262
+#: Controller/ChangePasswordController.php:273 js/settings/personalInfo.js:185
+#: js/settings/personalInfo.js:200
+msgid "Unable to change password"
+msgstr "პაროლის ცვილება შეუძლებელია"
+
+#: Controller/ChangePasswordController.php:179
+#: Controller/UsersController.php:544 Controller/UsersController.php:611
+#: Controller/UsersController.php:935 ajax/setquota.php:56
+msgid "Authentication error"
+msgstr "აუტენტიფიკაციის შეცდომა"
+
+#: Controller/ChangePasswordController.php:229
+msgid ""
+"Please provide an admin recovery password; otherwise, all user data will be "
+"lost."
+msgstr ""
+"გთხოვთ მოგვაწოდოთ ადმინისტრატორის აღდგენის პაროლი; სხვა შემთხვევაში ყველა "
+"მონაცემი დაიკარგება."
+
+#: Controller/ChangePasswordController.php:236
+msgid ""
+"Wrong admin recovery password. Please check the password and try again."
+msgstr ""
+"ადმინისტრატორის აღდგენის არასწორი პაროლი. გთხოვთ გადაამოწმოთ პაროლი და "
+"სცადოთ ახლიდან."
+
+#: Controller/ChangePasswordController.php:255
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"updated."
+msgstr ""
+"ბექენდს არ აქვს პაროლის ცვლილების მხარდაჭერა, თუმცა მომხმარებლის შიფრაციის "
+"გასაღები განახლდა."
+
+#: Controller/CheckSetupController.php:201
+msgid ""
+"installing and updating apps via the app store or Federated Cloud Sharing"
+msgstr ""
+"აპლიკაციების app store-იდან დაყენება და განახლება ან ფედერალური ქლაუდ "
+"გაზიარება"
+
+#: Controller/CheckSetupController.php:203
+msgid "Federated Cloud Sharing"
+msgstr "ფედერალური ქლაუდ გაზიარება"
+
+#: Controller/CheckSetupController.php:213
+#: Controller/CheckSetupController.php:227
+#, php-format
+msgid ""
+"cURL is using an outdated %s version (%s). Please update your operating "
+"system or features such as %s will not work reliably."
+msgstr ""
+"cURL მოძველებულია %s ვერსია (%s). გთხოვთ განაახლოთ თქვენი ოპერაციული "
+"სისტემა, წინნაღმდეგ შემთხვევაში ისეთი ფუნქციები როგორებიცაა %s კარგად არ "
+"იმუშავებენ."
+
+#: Controller/EncryptionController.php:147
+#, php-format
+msgid "A problem occurred, please check your log files (Error: %s)"
+msgstr "წარმოიშვა შეცდომა, გთხოვთ იხილოთ თქვენი ლოგ ფაილები (შეცდომა: %s)"
+
+#: Controller/EncryptionController.php:155
+msgid "Migration Completed"
+msgstr "მიგრაცია დასრულდა"
+
+#: Controller/GroupsController.php:106
+msgid "Group already exists."
+msgstr "ჯგუფი უკვე არსებობს."
+
+#: Controller/GroupsController.php:124
+msgid "Unable to add group."
+msgstr "ჯგუფის დამატება ვერ ხორციელდება."
+
+#: Controller/GroupsController.php:155
+msgid "Unable to delete group."
+msgstr "ჯგუფის წაშლა ვერ ხორციელდება."
+
+#: Controller/MailSettingsController.php:129
+msgid "Invalid SMTP password."
+msgstr "არასწორი SMTP პაროლი."
+
+#: Controller/MailSettingsController.php:154
+msgid "Email setting test"
+msgstr "ელ-ფოსტის დაყენების შემოწმება"
+
+#: Controller/MailSettingsController.php:156
+#, php-format
+msgid "Well done, %s!"
+msgstr "ყველაფერი კარგადაა, %s!"
+
+#: Controller/MailSettingsController.php:157
+msgid ""
+"If you received this email, the email configuration seems to be correct."
+msgstr ""
+"იმ შემთხვევაში თუ მიიღეთ ეს ელ-წერილი, ელ-ფოსტის კონფიგურაცია კარგად უნდა "
+"იყოს."
+
+#: Controller/MailSettingsController.php:165
+msgid "Email could not be sent. Check your mail server log"
+msgstr "ელ-წერილი ვერ იგზავნება. გთხოვთ შეამოწმოთ მეილ-სერვერის ლოგი"
+
+#: Controller/MailSettingsController.php:169
+#, php-format
+msgid ""
+"A problem occurred while sending the email. Please revise your settings. "
+"(Error: %s)"
+msgstr ""
+"ელ-წერილის გაგზავნისას წარმოიშვა შეცდომა. გთხოვთ გადახედოთ თქვენს "
+"პარამეტრებს. (შეცდომა: %s)"
+
+#: Controller/MailSettingsController.php:173
+msgid "You need to set your user email before being able to send test emails."
+msgstr ""
+"შემოწმების წერილების გაგზავნამდე, უნდა დააყენოთ თქვენი მომხმარებლის ელ-"
+"ფოსტა."
+
+#: Controller/UsersController.php:394 Controller/UsersController.php:770
+#: Controller/UsersController.php:997
+msgid "Invalid mail address"
+msgstr "არასწორი საფოსტო მისამართი"
+
+#: Controller/UsersController.php:420
+msgid "No valid group selected"
+msgstr "სწორი ჯგუფი არაა არჩეული"
+
+#: Controller/UsersController.php:430
+msgid "A user with that name already exists."
+msgstr "მომხმარებელი ამ სახელით უკვე არსებობს."
+
+#: Controller/UsersController.php:441
+msgid "To send a password link to the user an email address is required."
+msgstr ""
+"პაროლის ბმულის მომხმარებელთან გასაგზავნად აუცილებელია ელ-ფოსტის მისამართი."
+
+#: Controller/UsersController.php:461 Controller/UsersController.php:509
+msgid "Unable to create user."
+msgstr "მომხმარებლის შექმნა ვერ ხერხდება."
+
+#: Controller/UsersController.php:532 Controller/UsersController.php:569
+msgid "Unable to delete user."
+msgstr "მომხმარებლის გაუქმება ვერ ხერხდება."
+
+#: Controller/UsersController.php:586
+msgid "Error while enabling user."
+msgstr "მომხმარებლის გააქტიურება ვერ ხერხდება."
+
+#: Controller/UsersController.php:588
+msgid "Error while disabling user."
+msgstr "მომხმარებლის დეაქტივაცია ვერ ხერხდება."
+
+#: Controller/UsersController.php:672
+msgid ""
+"In order to verify your Twitter account, post the following tweet on Twitter"
+" (please make sure to post it without any line breaks):"
+msgstr ""
+"თქვენი Twitter-ის ანგარიშის დასამოწმებლად, Twitter-ზე დაპოსტეთ შემდეგი "
+"(მიაქციათ ყურადღება რომ პოსტავთ ხაზის წყვეტის გარეშე): "
+
+#: Controller/UsersController.php:680
+msgid ""
+"In order to verify your Website, store the following content in your web-"
+"root at '.well-known/CloudIdVerificationCode.txt' (please make sure that the"
+" complete text is in one line):"
+msgstr ""
+"თქვენი საიტის დასამოწმებლად, შემდეგი მოცულობა მოათავსეთ web-root-ში '.well-"
+"known/CloudIdVerificationCode.txt' ადგილას (დარწმუნდით რომ მთელი ტექსტი ერთ "
+"ხაზზეა): "
+
+#: Controller/UsersController.php:814
+msgid "Settings saved"
+msgstr "პარამეტრები შენახულია"
+
+#: Controller/UsersController.php:849
+msgid "Unable to change full name"
+msgstr "სრული სახელის ცვლილება ვერ ხერხდება"
+
+#: Controller/UsersController.php:861
+msgid "Unable to change email address"
+msgstr "ელ-ფოსტის მისამართი ვერ იცვლება"
+
+#: Controller/UsersController.php:949
+msgid "Your full name has been changed."
+msgstr "თქვენი სრული სახელი შეიცვალა."
+
+#: Controller/UsersController.php:985
+msgid "Forbidden"
+msgstr "აკრძალულია"
+
+#: Controller/UsersController.php:1009
+msgid "Invalid user"
+msgstr "არასწორი მომხმარებელი"
+
+#: Controller/UsersController.php:1022
+msgid "Unable to change mail address"
+msgstr "ელ-ფოსტის მისამართის შეცვლა ვერ ხერხდება"
+
+#: Controller/UsersController.php:1040
+msgid "Email saved"
+msgstr "ელ-ფოსტის მისამართი შენახულია"
+
+#: Hooks.php:108
+#, php-format
+msgid "%1$s changed your password on %2$s."
+msgstr "%1$s მომხმარებელმა თქვენი პაროლი შეცვალა %2$s-ზე."
+
+#: Hooks.php:112
+#, php-format
+msgid "Your password on %s was changed."
+msgstr "თქვენი პაროლი %s-ზე შეიცვალა."
+
+#: Hooks.php:117
+#, php-format
+msgid "Your password on %s was reset by an administrator."
+msgstr "თქვენი პაროლი %s-ზე ადმინისტრატორმა აღადგინა."
+
+#: Hooks.php:130
+#, php-format
+msgid "Password for %1$s changed on %2$s"
+msgstr "პაროლი %1$s-სთვის შეიცვალა %2$s-ზე"
+
+#: Hooks.php:132
+#, php-format
+msgid "Password changed for %s"
+msgstr "პაროლი %s-სთვის შეიცვალა"
+
+#: Hooks.php:133 Hooks.php:203
+msgid "If you did not request this, please contact an administrator."
+msgstr "თუ ეს არ მოგითხოვიათ, მიმართეთ ადმინისტრატორს"
+
+#: Hooks.php:177
+#, php-format
+msgid "%1$s changed your email address on %2$s."
+msgstr "%1$s მომხმარებელმა შეცვალა თქვენი ელ-ფოსტის მისამართი %2$s-ზე."
+
+#: Hooks.php:181
+#, php-format
+msgid "Your email address on %s was changed."
+msgstr "თქვენი ელ-ფოსტის მისამართი %s-ზე შეიცვალა."
+
+#: Hooks.php:186
+#, php-format
+msgid "Your email address on %s was changed by an administrator."
+msgstr "თქვენი ელ-ფოსტის მისამართი %s-ზე ადმინისტრატორმა შეცვალა."
+
+#: Hooks.php:200
+#, php-format
+msgid "Email address for %1$s changed on %2$s"
+msgstr "ელ-ფოსტის მისამართი %1$s-სთვის შეიცვალა %2$s-ზე"
+
+#: Hooks.php:202
+#, php-format
+msgid "Email address changed for %s"
+msgstr "ელ-ფოსტის მისამართი %s-სთვის შეიცვალა"
+
+#: Hooks.php:205
+#, php-format
+msgid "The new email address is %s"
+msgstr "ახალი ელ-ფოსტის მისამართია %s"
+
+#: Mailer/NewUserMailHelper.php:132
+#, php-format
+msgid "Your %s account was created"
+msgstr "თქვენი %s ანგარიში შექმნილია"
+
+#: Mailer/NewUserMailHelper.php:135
+msgid "Welcome aboard"
+msgstr "კეთილი იყოს თქვენი ბორტზე მობრძანება"
+
+#: Mailer/NewUserMailHelper.php:137
+#, php-format
+msgid "Welcome aboard %s"
+msgstr "%s, კეთილი იყოს თქვენი ბორტზე მობრძანება"
+
+#: Mailer/NewUserMailHelper.php:139
+#, php-format
+msgid "Welcome to your %s account, you can add, protect, and share your data."
+msgstr ""
+"კეთილი იყოს თქვენი %s ანგარიშში მობრძანება, შეგიძლიათ დაამატოთ, დაიცვათ და "
+"გააზიაროთ თქვენი მონაცემები."
+
+#: Mailer/NewUserMailHelper.php:140
+#, php-format
+msgid "Your username is: %s"
+msgstr "თქვენი მომხმარებლის სახელია: %s"
+
+#: Mailer/NewUserMailHelper.php:142
+msgid "Set your password"
+msgstr "დააყენეთ თქვენი პაროლი"
+
+#: Mailer/NewUserMailHelper.php:144
+#, php-format
+msgid "Go to %s"
+msgstr "გადადით %s-ზე"
+
+#: Mailer/NewUserMailHelper.php:149
+msgid "Install Client"
+msgstr "დააყენეთ კლიენტი"
+
+#: ajax/disableapp.php:30 ajax/enableapp.php:33 ajax/setquota.php:39
+#: ajax/togglesubadmins.php:32 ajax/uninstallapp.php:31
+msgid "Password confirmation is required"
+msgstr "საჭიროა პაროლის დამოწმება"
+
+#: ajax/uninstallapp.php:54
+msgid "Couldn't remove app."
+msgstr "აპლიკაციის წაშლა ვერ მოხერხდა."
+
+#: ajax/updateapp.php:57
+msgid "Couldn't update app."
+msgstr "აპლიკაციის განახლება ვერ მოხერხდა."
+
+#: js/admin.js:10
+msgid "Are you really sure you want add {domain} as trusted domain?"
+msgstr "დამდვილად გსურთ {domain}-ის დამატება სანდო დომენად?"
+
+#: js/admin.js:13
+msgid "Add trusted domain"
+msgstr "სანდო დომენის დამატება"
+
+#: js/admin.js:76
+msgid "Migration in progress. Please wait until the migration is finished"
+msgstr "მიმდინარეობს მიგრაცია. გთხოვთ დაელოდოთ მიგრაციის დასრულებას"
+
+#: js/admin.js:80
+msgid "Migration started …"
+msgstr "მიგრაცია დაიწყო …"
+
+#: js/admin.js:130
+msgid "Not saved"
+msgstr "არაა შენახული"
+
+#: js/admin.js:229
+msgid "Sending…"
+msgstr "იგზავნება…"
+
+#: js/admin.js:235
+msgid "Email sent"
+msgstr "ელ-წერილი გაიგზავნა"
+
+#: js/apps.js:15 js/apps.js:821
+msgid "Official"
+msgstr "ოფიციალური"
+
+#: js/apps.js:26 templates/apps.php:67 templates/apps.php:187
+msgid "All"
+msgstr "ყველა"
+
+#: js/apps.js:144 templates/apps.php:74 templates/apps.php:180
+#, php-format, javascript-format
+msgid "Update to %s"
+msgstr "განახლდეს %s-ზე"
+
+#: js/apps.js:160 templates/apps.php:209
+msgid "No apps found for your version"
+msgstr "აპლიკაციები თქვენი ვერსიისთვის ვერ იქნა ნაპოვნი"
+
+#: js/apps.js:166
+msgid "The app will be downloaded from the app store"
+msgstr "აპლიკაცია გადმოწერილ იქნება app store-იდან"
+
+#: js/apps.js:172
+msgid ""
+"Official apps are developed by and within the community. They offer central "
+"functionality and are ready for production use."
+msgstr ""
+"ოფიციალური აპლიკაციები განვითარებულია და მოქცეულია ჩვენს საზოგადოებაში. "
+"ისინი გთავაზობენ ცენტრალურ ფუნქციონირებას და საწარმოო გამოყენებისათვის "
+"მზადყოფნაში არიან."
+
+#: js/apps.js:177
+msgid ""
+"Approved apps are developed by trusted developers and have passed a cursory "
+"security check. They are actively maintained in an open code repository and "
+"their maintainers deem them to be stable for casual to normal use."
+msgstr ""
+"დამოწმებული აპლიკაციები განვითარებულია სანდო დეველოპერების მიერ, მათ გავლილი"
+" აქვთ მრავალი უსაფრთხოების ტესტი. ისინი აქტიურად ნარჩუნდებიან ღია კოდის "
+"საცავში და მათ შემნარჩუნებლებს მიაჩნიათ, რომ ისინი სტაბულარად მუშაობენ."
+
+#: js/apps.js:182
+msgid ""
+"This app is not checked for security issues and is new or known to be "
+"unstable. Install at your own risk."
+msgstr ""
+"აპლიკაცია არაა შემოწმებული უსაფრთხოების პრობელემებზე და ახალია, ან ცნობილია "
+"რომ არაა სტაბილური. დააყენეთ თქვენი რისკით."
+
+#: js/apps.js:372
+msgid "Disabling app …"
+msgstr "აპლიკაციის დეაქტივაცია …"
+
+#: js/apps.js:382 js/apps.js:384 js/apps.js:436
+msgid "Error while disabling app"
+msgstr "აპლიკაციის დეაქტივაციისას წარმოიქმნა შეცდომა"
+
+#: js/apps.js:388 js/apps.js:466 js/users/users.js:959 templates/apps.php:79
+#: templates/apps.php:182
+msgid "Disable"
+msgstr "გამორთვა"
+
+#: js/apps.js:406 js/apps.js:440 js/apps.js:503 js/apps.js:517 js/apps.js:531
+#: js/users/users.js:961 templates/apps.php:81 templates/apps.php:189
+msgid "Enable"
+msgstr "ჩართვა"
+
+#: js/apps.js:417
+msgid "Enabling app …"
+msgstr "აპლიკაციის ამოქმედება …"
+
+#: js/apps.js:434 js/apps.js:500 js/apps.js:524 js/apps.js:526
+msgid "Error while enabling app"
+msgstr "აპლიკაციის ამოქმედებისას წარმოიქმნა შეცდომა"
+
+#: js/apps.js:497
+msgid ""
+"Error: This app can not be enabled because it makes the server unstable"
+msgstr ""
+"შეცდომა: ეს აპლიკაცია ვერ მოქმედდება რადგანაც სერვერს ხდის არასტაბილურს"
+
+#: js/apps.js:511
+msgid "Error: Could not disable broken app"
+msgstr "შეცდომა: გაფუჭებული აპლიკაციის დეაქტივაცია ვერ მოხერხდა"
+
+#: js/apps.js:514
+msgid "Error while disabling broken app"
+msgstr "გაფუჭებული აპლიკაციის დეაქტივაციისას წარმოიშვა შეცდომა"
+
+#: js/apps.js:539
+msgid "App up to date"
+msgstr "აპლიკაცია ახალია"
+
+#: js/apps.js:545
+msgid "Upgrading …"
+msgstr "ნახლდება …"
+
+#: js/apps.js:552
+msgid "Could not upgrade app"
+msgstr "აპლიკაცია ვერ განახლდა"
+
+#: js/apps.js:557
+msgid "Updated"
+msgstr "განახლებულია"
+
+#: js/apps.js:585
+msgid "Removing …"
+msgstr "იშლება …"
+
+#: js/apps.js:588
+msgid "Could not remove app"
+msgstr "აპლიკაცია ვერ გაუქმდა"
+
+#: js/apps.js:589 templates/apps.php:76 templates/apps.php:192
+msgid "Remove"
+msgstr "წაშლა"
+
+#: js/apps.js:731
+msgid ""
+"The app has been enabled but needs to be upgraded. You will be redirected to"
+" the upgrade page in 5 seconds."
+msgstr ""
+"აპლიკაცია მოქმედია, თუმცა საჭიროებს განახლებას. განახლების გვერდზე "
+"გადამისამართდებით 5 წამში."
+
+#: js/apps.js:733
+msgid "App upgrade"
+msgstr "აპლიკაციის განახლება"
+
+#: js/apps.js:826
+msgid "Approved"
+msgstr "დამოწმებულია"
+
+#: js/apps.js:831
+msgid "Experimental"
+msgstr "ექსპერიმენტალურია"
+
+#: js/apps.js:842
+msgid "No apps found for {query}"
+msgstr "აპლიკაციები {query}-სთვის ვერ მოძებნა"
+
+#: js/apps.js:943 templates/apps.php:41
+msgid "Enable all"
+msgstr "ყველას ამოქმედება"
+
+#: js/authtoken_view.js:39
+msgid "Allow filesystem access"
+msgstr "ფაილ-სისტემაზე წვდომის მინიჭება"
+
+#: js/authtoken_view.js:42
+msgid "Disconnect"
+msgstr "კავშირის გაწყვეტა"
+
+#: js/authtoken_view.js:42
+msgid "Revoke"
+msgstr "წვდომის გაუქმება"
+
+#: js/authtoken_view.js:134
+msgid "Internet Explorer"
+msgstr "Internet Explorer-ი"
+
+#: js/authtoken_view.js:135
+msgid "Edge"
+msgstr "Edge-ი"
+
+#: js/authtoken_view.js:136
+msgid "Firefox"
+msgstr "Firefox-ი"
+
+#: js/authtoken_view.js:137
+msgid "Google Chrome"
+msgstr "Google Chrome-ი"
+
+#: js/authtoken_view.js:138
+msgid "Safari"
+msgstr "Safari"
+
+#: js/authtoken_view.js:139
+msgid "Google Chrome for Android"
+msgstr "Google Chrome Android-ისთვის"
+
+#: js/authtoken_view.js:140
+msgid "iPhone iOS"
+msgstr "iPhone iOS"
+
+#: js/authtoken_view.js:141
+msgid "iPad iOS"
+msgstr "iPad iOS"
+
+#: js/authtoken_view.js:142
+msgid "iOS Client"
+msgstr "iOS კლიენტი"
+
+#: js/authtoken_view.js:143
+msgid "Android Client"
+msgstr "Android კლიენტი"
+
+#: js/authtoken_view.js:150
+msgid "Sync client - {os}"
+msgstr "სინქ. კლიენტი - {os}"
+
+#: js/authtoken_view.js:167
+msgid "This session"
+msgstr "ეს სესია"
+
+#: js/authtoken_view.js:233 js/authtoken_view.js:246 js/authtoken_view.js:268
+msgid "Copy"
+msgstr "კოპირება"
+
+#: js/authtoken_view.js:240
+msgid "Copied!"
+msgstr "კოპირებულია"
+
+#: js/authtoken_view.js:254
+msgid "Not supported!"
+msgstr "არაა მხარდაჭერილი!"
+
+#: js/authtoken_view.js:256
+msgid "Press ⌘-C to copy."
+msgstr "კოპირებისთვის დააჭირეთ ⌘-C-ს."
+
+#: js/authtoken_view.js:258
+msgid "Press Ctrl-C to copy."
+msgstr "კოპირებისთვის დააჭირეთ Ctrl-C-ს."
+
+#: js/authtoken_view.js:290
+msgid "Error while loading browser sessions and device tokens"
+msgstr ""
+"ბრაუზერის სესიების და მოწყობილობების ტოკენების ჩატვირთვისას წარმოიშვა "
+"შეცდომა"
+
+#: js/authtoken_view.js:324
+msgid "Error while creating device token"
+msgstr "მოწყობილობის ტოკენის ჩატვირთვისას წარმოიქმნა შეცდომა"
+
+#: js/authtoken_view.js:382
+msgid "Error while deleting the token"
+msgstr "ტოკენის წაშლისას წარმოიქმნა შეცდომა"
+
+#: js/certificates.js:35 js/certificates.js:63
+msgid "An error occurred. Please upload an ASCII-encoded PEM certificate."
+msgstr ""
+"წარმოიქმნა შეცდომა. გთხოვთ ატვირთოთ ASCII-თ კოდირებული PEM სერტიფიკატი."
+
+#: js/certificates.js:47
+msgid "Valid until {date}"
+msgstr "ვარგისია {date}-მდე"
+
+#: js/certificates.js:52 js/certificates.js:53 templates/certificates.php:27
+#: templates/certificates.php:28 templates/users/part.userlist.php:78
+msgid "Delete"
+msgstr "წაშლა"
+
+#: js/federationscopemenu.js:49
+msgid "Local"
+msgstr "ლოკალური"
+
+#: js/federationscopemenu.js:49
+msgid "Private"
+msgstr "პირადი"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to local users"
+msgstr "გამოჩნდება მხოლოდ ლოკალურ მომხმარებლებთან"
+
+#: js/federationscopemenu.js:50
+msgid "Only visible to you"
+msgstr "გამოჩნდება მხოლოდ თქვენთან"
+
+#: js/federationscopemenu.js:56
+msgid "Contacts"
+msgstr "კონტაქტები"
+
+#: js/federationscopemenu.js:57
+msgid "Visible to local users and to trusted servers"
+msgstr "გამოჩნდება ლოკალურ მომხმარებლებთან და სანდო სერვერებთან"
+
+#: js/federationscopemenu.js:63
+msgid "Public"
+msgstr "ღია"
+
+#: js/federationscopemenu.js:64
+msgid "Will be synced to a global and public address book"
+msgstr "სინქრონიზაცია მოხდება გლობალურ და ღია მისამართების წიგნში"
+
+#: js/federationsettingsview.js:171
+msgid "Verify"
+msgstr "დამოწმება"
+
+#: js/federationsettingsview.js:177 js/settings/personalInfo.js:239
+msgid "Verifying …"
+msgstr "მოწმდება …"
+
+#: js/settings/personalInfo.js:291
+msgid ""
+"An error occured while changing your language. Please reload the page and "
+"try again."
+msgstr ""
+"თქვენი ენის ცვლილებისას წარმოიქმნა შეცდომა. გთხოვთ განაახლოთ გვერდი და "
+"სცადოთ ახლიდან."
+
+#: js/settings/personalInfo.js:338
+msgid "Select a profile picture"
+msgstr "აირჩიეთ პროფილის სურათი"
+
+#: js/settings/personalInfo.js:391
+msgid "Very weak password"
+msgstr "ძალიან სუსტი პაროლი"
+
+#: js/settings/personalInfo.js:392
+msgid "Weak password"
+msgstr "სუსტი პაროლი"
+
+#: js/settings/personalInfo.js:393
+msgid "So-so password"
+msgstr "ნორმალური პაროლი"
+
+#: js/settings/personalInfo.js:394
+msgid "Good password"
+msgstr "კარგი პაროლი"
+
+#: js/settings/personalInfo.js:395
+msgid "Strong password"
+msgstr "ძლიერი პაროლ"
+
+#: js/settings.js:30 templates/settings/personal/personal.info.php:309
+#: templates/users/part.createuser.php:13 templates/users/part.userlist.php:9
+msgid "Groups"
+msgstr "ჯგუფები"
+
+#: js/users/deleteHandler.js:208
+msgid "Unable to delete {objName}"
+msgstr "{objName}-ის წაშლა ვერ ხერხდება"
+
+#: js/users/groups.js:150 js/users/groups.js:258
+msgid "Error creating group: {message}"
+msgstr "ჯგუფის შექმნისას წარმოიშვა შეცდომა: {message}"
+
+#: js/users/groups.js:259
+msgid "A valid group name must be provided"
+msgstr "წარმოჩენილ უნდა იყოს სწორი ჯგუფის სახელი"
+
+#: js/users/groups.js:287
+msgid "deleted {groupName}"
+msgstr "{groupName} წაიშალა"
+
+#: js/users/groups.js:288 js/users/users.js:350
+msgid "undo"
+msgstr "დაბრუნება"
+
+#: js/users/users.js:118
+msgid "{size} used"
+msgstr "მოხმარებულია {size}"
+
+#: js/users/users.js:153
+msgid "never"
+msgstr "არასდროს"
+
+#: js/users/users.js:349
+msgid "deleted {userName}"
+msgstr "{userName} გაუქმდა"
+
+#: js/users/users.js:418
+msgid "No user found for <strong>{pattern}</strong>"
+msgstr "<strong>{pattern}</strong>-ისთვის მომხმარებელი ვერ იქნა ნაპოვნი"
+
+#: js/users/users.js:476
+msgid "Unable to add user to group {group}"
+msgstr "მოხმარებლის ჯგუფში {group} დამატება ვერ ხერხდება"
+
+#: js/users/users.js:480
+msgid "Unable to remove user from group {group}"
+msgstr "მომხმარებლის ამოშლა ჯგუფიდან {group} ვერ ხერხდება"
+
+#: js/users/users.js:499 templates/users/part.grouplist.php:5
+#: templates/users/part.grouplist.php:8
+msgid "Add group"
+msgstr "ჯგუფის დამატება"
+
+#: js/users/users.js:591
+msgid "Invalid quota value \"{val}\""
+msgstr "კვოტის არასწორი მნიშნველობა \"{val}\""
+
+#: js/users/users.js:639 js/users/users.js:700
+msgid "no group"
+msgstr "ჯგუფი არაა"
+
+#: js/users/users.js:749
+msgid "Password successfully changed"
+msgstr "პაროლი წარმატებით შეიცვალა"
+
+#: js/users/users.js:775
+msgid ""
+"Changing the password will result in data loss, because data recovery is not"
+" available for this user"
+msgstr ""
+"პაროლის შეცვლა გამოიწვევს მონაცემების დაკარგვას, რადგან მონაცემების აღდგენა "
+"ამ მომხმარებლისთვის არაა მოქმედი"
+
+#: js/users/users.js:888
+msgid "Could not change the users email"
+msgstr "მომხმარებლის ელ-ფოსტის მისამრთი ვერ შეიცვალა"
+
+#: js/users/users.js:992 js/users/users.js:1002
+msgid "Error while changing status of {user}"
+msgstr "{user}-ის სტატუსის შეცვლისას წარმოიშვა შეცდომა"
+
+#: js/users/users.js:1033
+msgid "A valid username must be provided"
+msgstr "უნდა მიუთითოთ არსებული მომხმარებლის სახელი"
+
+#: js/users/users.js:1032 js/users/users.js:1038 js/users/users.js:1047
+#: js/users/users.js:1089
+msgid "Error creating user: {message}"
+msgstr "მომხმარებლის შექმნისას წარმოიშვა შეცდომა: {message}"
+
+#: js/users/users.js:1039
+msgid "A valid password must be provided"
+msgstr "უნდა მიუთითოთ არსებული პაროლი"
+
+#: js/users/users.js:1048
+msgid "A valid email must be provided"
+msgstr "უნდა მიუთითოთ სწორი ელ-ფოსტის მისამართი"
+
+#: templates/apps.php:32 templates/apps.php:136
+msgid "Developer documentation"
+msgstr "დეველოპერის დოკუმენტაცია"
+
+#: templates/apps.php:59
+msgid "View in store"
+msgstr "იხილეთ store-ში"
+
+#: templates/apps.php:66
+msgid "Limit to groups"
+msgstr "ლიმიტი ჯგუფებზე"
+
+#: templates/apps.php:111
+#, php-format
+msgid "by %s"
+msgstr "%s-ს მიერ"
+
+#: templates/apps.php:113
+#, php-format
+msgid "%s-licensed"
+msgstr "%s-ლიცენზირებული"
+
+#: templates/apps.php:121
+msgid "Documentation:"
+msgstr "დოკუმენტაცია"
+
+#: templates/apps.php:124 templates/help.php:7
+msgid "User documentation"
+msgstr "მომხმარებლის დოკუმენტაცია"
+
+#: templates/apps.php:130
+msgid "Admin documentation"
+msgstr "ადმინისტრატორის დოკუმენტაცია"
+
+#: templates/apps.php:143
+msgid "Visit website"
+msgstr "საიტზე სტუმრობა"
+
+#: templates/apps.php:147
+msgid "Report a bug"
+msgstr "განაცხადეთ შეცდომის შესახებ"
+
+#: templates/apps.php:150
+msgid "Show description …"
+msgstr "აღწერილობის ჩვენება …"
+
+#: templates/apps.php:151
+msgid "Hide description …"
+msgstr "არწერილობის დამალვა …"
+
+#: templates/apps.php:154
+msgid "This app has an update available."
+msgstr "აპლიკაციას გააჩნია ხელმისაწვდომი განახლება."
+
+#: templates/apps.php:159
+msgid ""
+"This app has no minimum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+"ეს აპლიკაცია არ საზღვრავს Nextcloud-ის მინიმალურ ვერსიას. სამომავლოდ ეს "
+"ჩაითვლება შეცდომად."
+
+#: templates/apps.php:164
+msgid ""
+"This app has no maximum Nextcloud version assigned. This will be an error in"
+" the future."
+msgstr ""
+"ეს აპლიკაცია არ საზღვრავს Nextcloud-ის მაქსიმალურ ვერსიას. სამომავლოდ ეს "
+"ჩაითვლება შეცდომად."
+
+#: templates/apps.php:171
+msgid ""
+"This app cannot be installed because the following dependencies are not "
+"fulfilled:"
+msgstr ""
+"ეს აპლიკაცია ვერ დაყენდა რადგან შემდეგი დამოკიდებულებები არაა "
+"დაკმაყოფილებული:"
+
+#: templates/apps.php:185
+msgid "Enable only for specific groups"
+msgstr "ამოქმედება მხოლოდ სპეციფიური ჯგუფებისათვის"
+
+#: templates/certificates.php:2
+msgid "SSL Root Certificates"
+msgstr "SSL Root სერტიფიკატები"
+
+#: templates/certificates.php:6
+msgid "Common Name"
+msgstr "საზოგადო სახელი"
+
+#: templates/certificates.php:7
+msgid "Valid until"
+msgstr "ვარგისია"
+
+#: templates/certificates.php:8
+msgid "Issued By"
+msgstr "განაცხადა"
+
+#: templates/certificates.php:19
+#, php-format
+msgid "Valid until %s"
+msgstr "ვარგისია %s-მდე"
+
+#: templates/certificates.php:40
+msgid "Import root certificate"
+msgstr "Root სერტიფიკატის იმპორტი"
+
+#: templates/help.php:13
+msgid "Administrator documentation"
+msgstr "ადმინისტრატორის დოკუმენტაცია"
+
+#: templates/help.php:20
+msgid "Online documentation"
+msgstr "ონლაინ დოკუმენტაცია"
+
+#: templates/help.php:25
+msgid "Forum"
+msgstr "ფორუმი"
+
+#: templates/help.php:32
+msgid "Getting help"
+msgstr "დახმარების მიღება"
+
+#: templates/help.php:39
+msgid "Commercial support"
+msgstr "კომერციული მხარდაჭერა"
+
+#: templates/settings/admin/additional-mail.php:28
+#: templates/settings/admin/additional-mail.php:35
+msgid "None"
+msgstr "არც ერთი"
+
+#: templates/settings/admin/additional-mail.php:29
+msgid "Login"
+msgstr "ლოგინი"
+
+#: templates/settings/admin/additional-mail.php:30
+msgid "Plain"
+msgstr "ჩვეულებრივი"
+
+#: templates/settings/admin/additional-mail.php:31
+msgid "NT LAN Manager"
+msgstr "NT LAN მენეჯერი"
+
+#: templates/settings/admin/additional-mail.php:36
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: templates/settings/admin/additional-mail.php:37
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: templates/settings/admin/additional-mail.php:55
+msgid "Email server"
+msgstr "საფოსტო სერვერი"
+
+#: templates/settings/admin/additional-mail.php:57
+#: templates/settings/admin/encryption.php:32
+#: templates/settings/admin/server.php:180
+#: templates/settings/admin/sharing.php:32
+msgid "Open documentation"
+msgstr "ღია დოკუმენტაცია"
+
+#: templates/settings/admin/additional-mail.php:59
+msgid ""
+"It is important to set up this server to be able to send emails, like for "
+"password reset and notifications."
+msgstr ""
+"ამ სერვერის მოწყობა ელ-წერილების გასაგზვნად მნიშვნელოვანია, მაგ. პაროლის "
+"აღსადგენად და შეტყობინებების მისაღებად."
+
+#: templates/settings/admin/additional-mail.php:63
+msgid "Send mode"
+msgstr "გაგზავნის რეჟიმი"
+
+#: templates/settings/admin/additional-mail.php:76
+msgid "Encryption"
+msgstr "შიფრაცია"
+
+#: templates/settings/admin/additional-mail.php:91
+msgid "From address"
+msgstr "მისამართიდან"
+
+#: templates/settings/admin/additional-mail.php:92
+msgid "mail"
+msgstr "წერილი"
+
+#: templates/settings/admin/additional-mail.php:99
+msgid "Authentication method"
+msgstr "აუტენტიფიკაციის მეთოდი"
+
+#: templates/settings/admin/additional-mail.php:112
+msgid "Authentication required"
+msgstr "აუტენტიფიკაცია საჭიროებს"
+
+#: templates/settings/admin/additional-mail.php:116
+msgid "Server address"
+msgstr "სერვერის მისამართი"
+
+#: templates/settings/admin/additional-mail.php:120
+msgid "Port"
+msgstr "პორტი"
+
+#: templates/settings/admin/additional-mail.php:126
+msgid "Credentials"
+msgstr "უფლებამოსილებანი"
+
+#: templates/settings/admin/additional-mail.php:127
+msgid "SMTP Username"
+msgstr "SMTP მოხმარებლის სახელი"
+
+#: templates/settings/admin/additional-mail.php:130
+msgid "SMTP Password"
+msgstr "SMTP მომხმარებლის პაროლი"
+
+#: templates/settings/admin/additional-mail.php:131
+msgid "Store credentials"
+msgstr "უფლებამოსილებანის შენახვა"
+
+#: templates/settings/admin/additional-mail.php:136
+msgid "Test email settings"
+msgstr "ელ-ფოსტის პარამეტრების შემომება"
+
+#: templates/settings/admin/additional-mail.php:137
+msgid "Send email"
+msgstr "ელ-წერილის გაგზავნა"
+
+#: templates/settings/admin/encryption.php:30
+msgid "Server-side encryption"
+msgstr "სერვერული-მხარის შიფრაცია"
+
+#: templates/settings/admin/encryption.php:34
+msgid ""
+"Server-side encryption makes it possible to encrypt files which are uploaded"
+" to this server. This comes with limitations like a performance penalty, so "
+"enable this only if needed."
+msgstr ""
+"სერვერული-მხარის შიფრაცია იძლევა სერვერზე ატვირთული ფაილების შიფრაციის "
+"საშუალებას. ეს ფუნქცია ლიმიტს აწესებს მოქმედებაზე, ასე რომ გააქტიურედ მხოლოდ"
+" აუცილებლობისას."
+
+#: templates/settings/admin/encryption.php:40
+msgid "Enable server-side encryption"
+msgstr "სერვერული-მხარის შიფრაციის ამოქმედება"
+
+#: templates/settings/admin/encryption.php:44
+msgid "Please read carefully before activating server-side encryption: "
+msgstr ""
+"სანამ გააქტიურებთ სერვერული-მხარის შიფრაციას გთხოვთ ყურადღებით გაეცნოთ:"
+
+#: templates/settings/admin/encryption.php:46
+msgid ""
+"Once encryption is enabled, all files uploaded to the server from that point"
+" forward will be encrypted at rest on the server. It will only be possible "
+"to disable encryption at a later date if the active encryption module "
+"supports that function, and all pre-conditions (e.g. setting a recover key) "
+"are met."
+msgstr ""
+"შიფრაციის ჩართვის შემდეგ, სერვერზე ატვირთული ყველა ფაილი დაიშიფრება. იმ "
+"შემთხვევაში თუ აქტიური შიფრაციის მოდულს აქვს შიფრაციის დეაქტივაციის უნარი და"
+" ყველა წინაპირობა დაცულია (მაგ.: აღდგენის გასაღების დაყენება), სხვა დროს "
+"შეძლებთ მისი მოქმედების შეჩერებას."
+
+#: templates/settings/admin/encryption.php:47
+msgid ""
+"Encryption alone does not guarantee security of the system. Please see "
+"documentation for more information about how the encryption app works, and "
+"the supported use cases."
+msgstr ""
+"მხოლოდ შიფრაცია არ იძლევა სისტემის უსაფრთხოების გარანტიას. მეტი "
+"ინფორმაციისთვის იმაზე თუ როგორ მუშაობს შიფრაციის აპლიკაცია იხილეთ "
+"დოკუმენტაცია და გაეცანით მოხმარების შემთხვევებს."
+
+#: templates/settings/admin/encryption.php:48
+msgid "Be aware that encryption always increases the file size."
+msgstr "იცოდეთ, შიფრაცია ყოველთვის ზრდის ფაილის ზომას."
+
+#: templates/settings/admin/encryption.php:49
+msgid ""
+"It is always good to create regular backups of your data, in case of "
+"encryption make sure to backup the encryption keys along with your data."
+msgstr ""
+"ყოველთვის კარგია თქვენი მონაცემების დაზღვევა, შიფრაციის შემთხვევაში თვენს "
+"მონაცემებთან ერთად აუცილებლად დააზღვიეთ შიფრაციის გასაღებებიც."
+
+#: templates/settings/admin/encryption.php:52
+msgid "This is the final warning: Do you really want to enable encryption?"
+msgstr "ეს ბოლო გაფრთხილებაა: ნამდვილად გსურთ შიფრაციის ამოქმედება?"
+
+#: templates/settings/admin/encryption.php:54
+msgid "Enable encryption"
+msgstr "შიფრაციის ამოქმედება"
+
+#: templates/settings/admin/encryption.php:61
+msgid ""
+"No encryption module loaded, please enable an encryption module in the app "
+"menu."
+msgstr ""
+"შიფრაციის მოდული არაა ჩატვირთული, გთხოვთ აამოქმედოთ ის აპლიკაციის მენიუდან. "
+
+#: templates/settings/admin/encryption.php:63
+msgid "Select default encryption module:"
+msgstr "აირჩიეთ შიფრაციის საწყისი მოდული:"
+
+#: templates/settings/admin/encryption.php:82
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one. Please enable the \"Default encryption module\" and "
+"run 'occ encryption:migrate'"
+msgstr ""
+"საჭიროა შიფრაციის გასაღებების მიგრაცია (ownCloud <= 8.0) ახალებზე. გთხოვთ "
+"აამოქმედოთ \"საწყისი მიგრაციის მოდული\" და გაუშვათ 'occ encryption:migrate'"
+
+#: templates/settings/admin/encryption.php:84
+msgid ""
+"You need to migrate your encryption keys from the old encryption (ownCloud "
+"<= 8.0) to the new one."
+msgstr ""
+"საჭიროა შიფრაციის ძველი გასაღებების მიგრაცია (ownCloud <= 8.0) ახალებზე."
+
+#: templates/settings/admin/encryption.php:86
+msgid "Start migration"
+msgstr "მიგრაციის დაწყება"
+
+#: templates/settings/admin/server.php:30
+msgid "Security & setup warnings"
+msgstr "უსაფრთხოების და მოწყობის გაფრთხილებები"
+
+#: templates/settings/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Tricks section and the documentation"
+" for more information."
+msgstr ""
+"თქვენი ინსტანციის უსაფრთხოებისა და გამართული მოქმედებისთვის მნიშვნელოვანია "
+"ყველაფერი სწორად იყოს კონფიგურირებული. თქვენს დასახმარებლად ვატარებთ "
+"გარკვეულ ავტომატიზირებულ შემოწმებს. გთხოვთ იხილოთ რჩევებისა და ხრიკების "
+"სექცია და მეტი ინფორმაციისთვის გადახედოთ დოკუმენტაციას."
+
+#: templates/settings/admin/server.php:38
+msgid ""
+"PHP does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+"როგორც ჩანს PHP სისტემის გარემოს ცვლადების მიღებისთვის არაა სწორად "
+"მოწყობილი. ეს ტესტი getenv(\"PATH\")-ით აბრუნებს მხოლოდ ცარიელ პასუხს."
+
+#: templates/settings/admin/server.php:39
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation documentation ↗</a> for PHP configuration notes and"
+" the PHP configuration of your server, especially when using php-fpm."
+msgstr ""
+"გთხოვთ PHP-ის კონფიგურაციის ჩანაწერებისთვის და მისი სერვერზე "
+"კონფიგურაციისთვის გადახედოთ <a target=\"_blank\" rel=\"noreferrer noopener\""
+" href=\"%s\">დაყენების დოკუემნტაციას ↗</a>. ეს განსაკუთრებით საჭიროა როდესაც"
+" იყენებთ php-fpm-ს."
+
+#: templates/settings/admin/server.php:48
+msgid ""
+"The Read-Only config has been enabled. This prevents setting some "
+"configurations via the web-interface. Furthermore, the file needs to be made"
+" writable manually for every update."
+msgstr ""
+"ამოქმედდა მხოლოდ-კითხვადი კონფიუგაცია. ეს აჩერებს ვებ-ინტერფეისის მეშვეობით "
+"გარკვეული კონფიგურაციების შეცვლას. ამასთან ერთად ფაილი განახლების ყოველ "
+"ეტაპზე მოითხოვს გახდეს წერადი."
+
+#: templates/settings/admin/server.php:57
+msgid ""
+"PHP is apparently set up to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+"როგორც ჩანს PHP დაყენებულია ისე, რომ შიდა დოკუმენტური ბლოკები წაშალოს. ეს "
+"რამდენიმე მთავარ აპლიკაციას გახდის მიუწვდომელს."
+
+#: templates/settings/admin/server.php:58
+msgid ""
+"This is probably caused by a cache/accelerator such as Zend OPcache or "
+"eAccelerator."
+msgstr ""
+"ეს შესაძლოა გამოწვეული იყოს ისეთი კეშით/აქსელერატორით როგორიცაა Zend OPcache"
+" ან eAccelerator."
+
+#: templates/settings/admin/server.php:67
+msgid ""
+"Your database does not run with \"READ COMMITTED\" transaction isolation "
+"level. This can cause problems when multiple actions are executed in "
+"parallel."
+msgstr ""
+"თქვენი მონაცემთა ბაზა არ მოქმედებს \"READ COMMITTED\" ტრანზაქციის იზოლაციის "
+"დონით. ამან შეიძლება გამოიწვიოს პრობლემა, როდესაც მრავალი ქმედება შესრულდება"
+" პარალელურად."
+
+#: templates/settings/admin/server.php:76
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"it is recommended to update to a newer %1$s version."
+msgstr ""
+"%1$s დაყენებულია %2$s-ზე დაბალი ვერსიით, სტაბილურობისთვის და ხარისხიანი "
+"მოქმედების მიზნებისთვის რეკომენდირებულია განაახლოთ ახალ %1$s ვერსიამდე."
+
+#: templates/settings/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. It is strongly recommended to enable "
+"this module to get the best results with MIME type detection."
+msgstr ""
+"PHP მოდული 'fileinfo' არ არსებობს. MIME ტიპის აღმოჩენისას კარგი შედეგების "
+"მისაღებად გირჩევთ, აუცილებლად ჩართოთ ეს მოდული."
+
+#: templates/settings/admin/server.php:94
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+"ტრაზაქციული ფაილის ჩაკეტვა გათიშულია, ამან შეიძლება გამოიწვიოს გარკვეული "
+"პრობლემები. პრობლემებისგან თავის ასარიდებლად აამოქმედეთ "
+"'filelocking.enabled' config.php-ში. დამატებითი ინფორმაციისთვის იხილეთ <a "
+"target=\"_blank\" rel=\"noreferrer noopener\" href=\"%s\">დოუმენტაცია ↗</a>."
+
+#: templates/settings/admin/server.php:105
+msgid "System locale can not be set to a one which supports UTF-8."
+msgstr ""
+"სისტემური ლოკალიზაცია ვერ ყენდება ერთ-ერთ ისეთზე, რომელიც მხარს უჭერს "
+"UTF-8-ს."
+
+#: templates/settings/admin/server.php:109
+msgid ""
+"This means that there might be problems with certain characters in "
+"filenames."
+msgstr "ეს განაპირობებს ფაილის სახელში ზოგ ნიშანთან პრობლემის გამოჩენას."
+
+#: templates/settings/admin/server.php:113
+#, php-format
+msgid ""
+"It is strongly proposed to install the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+"ერთ-ერთი შემდეგ ლოკალიზაციათაგანის მხარდასაჭერად გთავაზობთ თქვნს სისტემაზე "
+"დააყენოთ აუცილებელი პაკეტები: %s."
+
+#: templates/settings/admin/server.php:122
+#, php-format
+msgid ""
+"If your installation is not installed at the root of the domain and uses "
+"system Cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+"თუ თქვენი სისტემა იყენებს კრონს და ინსტალაცია არაა დაყენებული დომენის "
+"დასაწყისში, შესაძლოა გამოჩნდეს პრობლემები URL გენერაციასთან. ამ "
+"პრობლემებისგან თავის ასარიდებლად, \"overwrite.cli.url\" პარამეტრის თქვენს "
+"config.php ფაილში მიანიჭეთ ინსტალაციის მისამართი (რეკომენდირებულია: \"%s\")"
+
+#: templates/settings/admin/server.php:130
+msgid ""
+"It was not possible to execute the cron job via CLI. The following technical"
+" errors have appeared:"
+msgstr ""
+"CLI-ით კრონ საქმის ეგზეკუცია ვერ მოხერხდა. წარმოიშვა შემდეგი ტექნიკური "
+"შეცდომები:"
+
+#: templates/settings/admin/server.php:149
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+"გთხოვთ გადაამოწმოთ <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">ინსტალაციის სახელმძღვენელოები ↗</a>, და ნახოთ თუ აღმოაჩენთ რაიმე"
+" შეცდომას ან გაფრთხილებას <a href=\"%s\">ლოგში</a>."
+
+#: templates/settings/admin/server.php:153
+msgid "All checks passed."
+msgstr "ყველა შემოწმებამ ჩაიარა დადებითად."
+
+#: templates/settings/admin/server.php:158
+msgid "Background jobs"
+msgstr "ფონური საქმეები"
+
+#: templates/settings/admin/server.php:166
+#, php-format
+msgid "Last job ran %s."
+msgstr "ბოლო საქმის გაშვება - %s."
+
+#: templates/settings/admin/server.php:171
+#, php-format
+msgid "Last job execution ran %s. Something seems wrong."
+msgstr "ბოლო საქმე გაიშვა %s. რაღაც არასწორია."
+
+#: templates/settings/admin/server.php:176
+msgid "Background job didn’t run yet!"
+msgstr "ფონური საქმე ჯერ არ გაშვებულა!"
+
+#: templates/settings/admin/server.php:183
+msgid ""
+"For optimal performance it's important to configure background jobs "
+"correctly. For bigger instances 'Cron' is the recommended setting. Please "
+"see the documentation for more information."
+msgstr ""
+"ოპტიმალური მოღვაწეობისთვის მნიშვნელოვანია ფონური საქმეების სწორი "
+"კონფიგურაცია. დიდი ინსტანციებისთვის 'კრონი' რეკომენდირებული არჩევანია. "
+"გთხოვთ მეტი ინფორმაციისთვის იხილოთ დოკუმენტაცია."
+
+#: templates/settings/admin/server.php:190
+msgid "Execute one task with each page loaded"
+msgstr "გაუშვი თითო მოქმედება ყველა ჩატვირთულ გვერდზე"
+
+#: templates/settings/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over HTTP."
+msgstr ""
+"cron.php რეგისტრირებულია ვებკრონის სერვისით რომ 15 წუთში ერთხელ HTTP-თი "
+"გაიშვას."
+
+#: templates/settings/admin/server.php:209
+msgid "Use system cron service to call the cron.php file every 15 minutes."
+msgstr "გამოიყენეთ სისტემის კრონი cron.php ფაილის გასაშვებად ყოველ 15 წუთში."
+
+#: templates/settings/admin/server.php:211
+#, php-format
+msgid "The cron.php needs to be executed by the system user \"%s\"."
+msgstr "cron.php უნდა გაუშვას სისტემურმა მოხმარებელმა \"%s\"."
+
+#: templates/settings/admin/server.php:216
+msgid ""
+"To run this you need the PHP POSIX extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+"ამის გასაშვებად საჭიროა გქონდეთ PHP POSIX გაფართოება. მეტი დეტალებისთვის "
+"იხილეთ {linkstart}PHP დოკუმენტაცია{linkend}. "
+
+#: templates/settings/admin/server.php:225
+msgid "Version"
+msgstr "ვერსია"
+
+#: templates/settings/admin/sharing.php:30
+msgid "Sharing"
+msgstr "გაზიარება"
+
+#: templates/settings/admin/sharing.php:34
+msgid ""
+"As admin you can fine-tune the sharing behavior. Please see the "
+"documentation for more information."
+msgstr ""
+"როგორც ადმინისტრატორს შეგიძლიათ გაზიარების ქცევის კორექტირება. დამატებითი "
+"ინფორმაციისთვის იხილეთ დოკუმენტაცია."
+
+#: templates/settings/admin/sharing.php:38
+msgid "Allow apps to use the Share API"
+msgstr "დაუშვი აპლიკაციების უფლება  Share API –ზე"
+
+#: templates/settings/admin/sharing.php:43
+msgid "Allow users to share via link"
+msgstr "მიეცით მოხმარებლებს ბმულით გაზიარების უფლება"
+
+#: templates/settings/admin/sharing.php:49
+msgid "Allow public uploads"
+msgstr "საქვეყნო ატვირთების დაშვება"
+
+#: templates/settings/admin/sharing.php:52
+msgid "Always ask for a password"
+msgstr "ყოველთვის მოხდეს პაროლის მოთხოვნა"
+
+#: templates/settings/admin/sharing.php:55
+msgid "Enforce password protection"
+msgstr "პროლით დაცვის იძულება"
+
+#: templates/settings/admin/sharing.php:59
+msgid "Set default expiration date"
+msgstr "დააყენეთ საწყისი ვადის ამოწურვის თარიღი"
+
+#: templates/settings/admin/sharing.php:63
+msgid "Expire after "
+msgstr "ვადის ამოწურვა"
+
+#: templates/settings/admin/sharing.php:66
+msgid "days"
+msgstr "დღე"
+
+#: templates/settings/admin/sharing.php:69
+msgid "Enforce expiration date"
+msgstr "ვადის ამოწურვის თარიღის იძულება"
+
+#: templates/settings/admin/sharing.php:74
+msgid "Allow resharing"
+msgstr "ხელახალი გაზიარების დაშვება"
+
+#: templates/settings/admin/sharing.php:79
+msgid "Allow sharing with groups"
+msgstr "ჯგუფებთან გაზიარების მხარდაჭერა"
+
+#: templates/settings/admin/sharing.php:84
+msgid "Restrict users to only share with users in their groups"
+msgstr ""
+"შეზღუდეთ მომხმარებლები გააზიარონ მომხმარებლებთან, რომლებიც მიეკუთვნებიან მათ"
+" ჯგუფებს"
+
+#: templates/settings/admin/sharing.php:89
+msgid "Exclude groups from sharing"
+msgstr "აკრძალეთ ჯგუფების გაზიარება"
+
+#: templates/settings/admin/sharing.php:94
+msgid ""
+"These groups will still be able to receive shares, but not to initiate them."
+msgstr "ეს ჯგუფები ისევ მიიღებენ გაზიარებებს, მაგრამ ვერ წამოიწყებენ მათ."
+
+#: templates/settings/admin/sharing.php:99
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username or email address needs to be entered."
+msgstr ""
+"მიეცით მომხმარებლებს ავტოდასრულების უფლება გაზიარების დიალოგებში. იმ "
+"შემთხვევაში თუ ეს ფუნქცია არაა მოქმედი, საჭირო იქნება სრული მომხმარებლის "
+"სახელის ან ელ-ფოსტის მისამართის შეყვანა."
+
+#: templates/settings/admin/sharing.php:104
+msgid ""
+"Show disclaimer text on the public link upload page. (Only shown when the "
+"file list is hidden.)"
+msgstr ""
+"პასუხისმგებლობის შეზღუდვის ტექსტის ჩვენება ღია ბმულის ატვირთვის გვერდზე. "
+"(ჩანს მხოლოდ მაშინ, როდესაც ფაილების სია დამალულია.)"
+
+#: templates/settings/admin/sharing.php:107
+msgid ""
+"This text will be shown on the public link upload page when the file list is"
+" hidden."
+msgstr ""
+"ეს ტექსტი გამოჩნდება ღია ბმულის ატვირთვის გვერდზე, როდესაც ფაილების სია "
+"დამალულია."
+
+#: templates/settings/admin/tipstricks.php:30
+msgid "Tips & tricks"
+msgstr "რჩევები და ხრიკები"
+
+#: templates/settings/admin/tipstricks.php:31
+msgid ""
+"There are a lot of features and config switches available to optimally "
+"customize and use this instance. Here are some pointers for more "
+"information."
+msgstr ""
+"ამ ინსტანციას ოპტიმიზირებულად მოწყობისა და გამოყენებისთვის მრავალი ფუნქცია "
+"და კონფიგურაციის პარამეტრია ხელმისაწვდომი. აქ რამდენიმე კურსორია მეტი "
+"ინფორმაციისთვის."
+
+#: templates/settings/admin/tipstricks.php:38
+msgid ""
+"SQLite is currently being used as the backend database. For larger "
+"installations we recommend that you switch to a different database backend."
+msgstr ""
+"ამჟამად ბექენდზე მონაცემთა ბაზად მოიხმარება SQLite. უფრო დიდი "
+"ინსტალაციებისთვის რეკომენდაციას გიწევთ აირჩიოთ სხვა მონაცემთა ბაზა."
+
+#: templates/settings/admin/tipstricks.php:39
+msgid ""
+"This is particularly recommended when using the desktop client for file "
+"synchronisation."
+msgstr ""
+"ეს კერძოდ რეკომედირებულია განსაკუთრებით მაშინ, როდესაც ფაილების "
+"სინქრონიზაციისთვის იყენებთ დესკტოპ-კლიენტს."
+
+#: templates/settings/admin/tipstricks.php:40
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+"სხვა მონაცემთა ბაზის მიგრაციისთვის გამოიყენეთ command line ხელსაწყო: 'occ db"
+":convert-type', ან იხილეთ <a target=\"_blank\" rel=\"noreferrer noopener\" "
+"href=\"%s\">დოუმენტაცია ↗</a>."
+
+#: templates/settings/admin/tipstricks.php:43
+msgid "How to do backups"
+msgstr "როგორ შევქმნათ რეზერვები"
+
+#: templates/settings/admin/tipstricks.php:44
+msgid "Advanced monitoring"
+msgstr "პროგრესიული მონიტორინგი"
+
+#: templates/settings/admin/tipstricks.php:45
+msgid "Performance tuning"
+msgstr "მოქმედების რეგულირება"
+
+#: templates/settings/admin/tipstricks.php:46
+msgid "Improving the config.php"
+msgstr "config.php-ს გაუმჯობესება"
+
+#: templates/settings/admin/tipstricks.php:47
+msgid "Theming"
+msgstr "ვიზუალური თემები"
+
+#: templates/settings/admin/tipstricks.php:48
+msgid "Check the security of your Nextcloud over our security scan"
+msgstr "შეამოწმეთ თქვენი Nextcloud ჩვენი უსფრთხოების შემოწმებით"
+
+#: templates/settings/admin/tipstricks.php:49
+msgid "Hardening and security guidance"
+msgstr "განმტკიცებისა და უსაფრთხოების სახელმძღვანელო"
+
+#: templates/settings/frame.php:33
+msgid "Personal"
+msgstr "პირადი"
+
+#: templates/settings/frame.php:60
+msgid "Administration"
+msgstr "ადმინისტრაცია"
+
+#: templates/settings/personal/personal.info.php:47
+#: templates/settings/personal/personal.info.php:58
+#, php-format
+msgid "You are using <strong>%s</strong> of <strong>%s</strong>"
+msgstr "თქვენ იყენებთ <strong>%s</strong> სულ <strong>%s</strong>-დან"
+
+#: templates/settings/personal/personal.info.php:50
+#: templates/settings/personal/personal.info.php:61
+#, php-format
+msgid ""
+"You are using <strong>%s</strong> of <strong>%s</strong> (<strong>%s "
+"%%</strong>)"
+msgstr ""
+"თქვენ იყენებთ <strong>%s</strong> სულ <strong>%s</strong>-დან "
+"(<strong>%s%%</strong>)"
+
+#: templates/settings/personal/personal.info.php:73
+msgid "Profile picture"
+msgstr "პროფილის სურათი"
+
+#: templates/settings/personal/personal.info.php:81
+msgid "Upload new"
+msgstr "ახალი ატვირთვა"
+
+#: templates/settings/personal/personal.info.php:82
+msgid "Select from Files"
+msgstr "აირჩიეთ ფაილებიდან"
+
+#: templates/settings/personal/personal.info.php:83
+msgid "Remove image"
+msgstr "სურათის წაშლა"
+
+#: templates/settings/personal/personal.info.php:85
+msgid "png or jpg, max. 20 MB"
+msgstr "png ან jpg, მაქს. 20 მბ"
+
+#: templates/settings/personal/personal.info.php:87
+msgid "Picture provided by original account"
+msgstr "სურათი ორიგინალი ანგარიშიდან"
+
+#: templates/settings/personal/personal.info.php:93
+msgid "Cancel"
+msgstr "უარყოფა"
+
+#: templates/settings/personal/personal.info.php:94
+msgid "Choose as profile picture"
+msgstr "აირჩიეთ პროფილის სურათად"
+
+#: templates/settings/personal/personal.info.php:109
+#: templates/users/part.userlist.php:6
+msgid "Full name"
+msgstr "სრული სახელი"
+
+#: templates/settings/personal/personal.info.php:119
+msgid "No display name set"
+msgstr "დისპლეი სახელი არაა დაყენებული"
+
+#: templates/settings/personal/personal.info.php:131
+#: templates/users/part.userlist.php:8
+msgid "Email"
+msgstr "ელ-ფოსტა"
+
+#: templates/settings/personal/personal.info.php:153
+msgid "Your email address"
+msgstr "თქვენი ელ-ფოსტის მისამართი"
+
+#: templates/settings/personal/personal.info.php:158
+msgid "No email address set"
+msgstr "ელ-ფოსტის მისამართი არაა დაყენებული"
+
+#: templates/settings/personal/personal.info.php:161
+msgid "For password reset and notifications"
+msgstr "პაროლის აღდგენისთვის და შეტყობინებებისთვის"
+
+#: templates/settings/personal/personal.info.php:172
+msgid "Phone number"
+msgstr "ტელეფონის ნომერი"
+
+#: templates/settings/personal/personal.info.php:179
+msgid "Your phone number"
+msgstr "თქვენი ტელეფონის ნომერი"
+
+#: templates/settings/personal/personal.info.php:192
+msgid "Address"
+msgstr "მისამართი"
+
+#: templates/settings/personal/personal.info.php:198
+msgid "Your postal address"
+msgstr "თქვენი საფოსტო მისამართი"
+
+#: templates/settings/personal/personal.info.php:212
+msgid "Website"
+msgstr "ვებ-საიტი"
+
+#: templates/settings/personal/personal.info.php:238
+#: templates/settings/personal/personal.info.php:285
+msgid ""
+"It can take up to 24 hours before the account is displayed as verified."
+msgstr ""
+"თქვენი ანგარიშის ვერიფიცირებულად გამოჩენამ შეიძლება გასტანოს 24 საათი."
+
+#: templates/settings/personal/personal.info.php:244
+msgid "Link https://…"
+msgstr "ბმული https://…"
+
+#: templates/settings/personal/personal.info.php:259
+msgid "Twitter"
+msgstr "Twitter-ი"
+
+#: templates/settings/personal/personal.info.php:291
+msgid "Twitter handle @…"
+msgstr "Twitter @…"
+
+#: templates/settings/personal/personal.info.php:310
+msgid "You are member of the following groups:"
+msgstr "თქვენ ხართ შემდეგი ჯგუფების წევრი:"
+
+#: templates/settings/personal/personal.info.php:323
+#: templates/settings/personal/personal.info.php:325
+msgid "Language"
+msgstr "ენა"
+
+#: templates/settings/personal/personal.info.php:343
+msgid "Help translate"
+msgstr "თარგმნის დახმარება"
+
+#: templates/settings/personal/personal.info.php:354
+#: templates/settings/personal/security.php:62
+#: templates/users/part.createuser.php:8 templates/users/part.userlist.php:7
+msgid "Password"
+msgstr "პაროლი"
+
+#: templates/settings/personal/personal.info.php:357
+#: templates/settings/personal/personal.info.php:359
+msgid "Current password"
+msgstr "მიმდინარე პაროლი"
+
+#: templates/settings/personal/personal.info.php:363
+#: templates/settings/personal/personal.info.php:365
+msgid "New password"
+msgstr "ახალი პაროლი"
+
+#: templates/settings/personal/personal.info.php:371
+msgid "Change password"
+msgstr "პაროლის შეცვლა"
+
+#: templates/settings/personal/security.php:36
+msgid "Web, desktop and mobile clients currently logged in to your account."
+msgstr ""
+"ვებ, დესკტოპ და მობილური კლიენტები ამჟამად ავტორიზირებული თქვენს ანგარიშზე."
+
+#: templates/settings/personal/security.php:40
+msgid "Device"
+msgstr "მოწყობილობა"
+
+#: templates/settings/personal/security.php:41
+msgid "Last activity"
+msgstr "ბოლო აქტივობა"
+
+#: templates/settings/personal/security.php:49
+msgid "App name"
+msgstr "აპლიკაციის სახელი"
+
+#: templates/settings/personal/security.php:50
+msgid "Create new app password"
+msgstr "ახალი აპლიკაციის პაროლის შექმნა"
+
+#: templates/settings/personal/security.php:54
+msgid "Use the credentials below to configure your app or device."
+msgstr ""
+"ქვემოთ მოცემული უფლებამოსილებანის გამოყენება აპლიკაციისა თუ "
+"მოწყობილობისთვის."
+
+#: templates/settings/personal/security.php:55
+msgid "For security reasons this password will only be shown once."
+msgstr "უსაფრთხოების მიზნით ეს პაროლი გამოჩნდება მხოლოდ ერთხელ."
+
+#: templates/settings/personal/security.php:58
+#: templates/users/part.createuser.php:4 templates/users/part.userlist.php:5
+msgid "Username"
+msgstr "მომხმარებლის სახელი"
+
+#: templates/settings/personal/security.php:65
+msgid "Done"
+msgstr "დასრულებულია"
+
+#: templates/settings.development.notice.php:15
+msgid ""
+"Developed by the {communityopen}Nextcloud community{linkclose}, the "
+"{githubopen}source code{linkclose} is licensed under the "
+"{licenseopen}AGPL{linkclose}."
+msgstr ""
+"განავითარა {communityopen}Nextcloud საზოგადოებამ{linkclose}, "
+"{githubopen}კოდი{linkclose} is ლიცენზირებულია {licenseopen}AGPL "
+"ლიცენზიით{linkclose}."
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+"
+msgstr "გამოგვყევით Google+-ზე"
+
+#: templates/settings.development.notice.php:52
+msgid "Like our Facebook page"
+msgstr "მოიწონეთ ჩვენი Facebook გვერდი"
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter"
+msgstr "გამოგვყევით Twitter-ზე"
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog"
+msgstr "იხილეთ ჩვენი ბლოგი"
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter"
+msgstr "გამოიწერეთ ჩვენი სიახლეები"
+
+#: templates/users/main.php:41
+msgid "Settings"
+msgstr "პარამეტრები"
+
+#: templates/users/main.php:51
+msgid "Show storage location"
+msgstr "საცავის ადგილმდებარეობის ჩვენება"
+
+#: templates/users/main.php:58
+msgid "Show user backend"
+msgstr "მომხმარებლის ბექენდის ჩვენება"
+
+#: templates/users/main.php:65
+msgid "Show last login"
+msgstr "ბოლო ავტორიზაციის ჩვენება"
+
+#: templates/users/main.php:72
+msgid "Show email address"
+msgstr "მოხმარებლის ელ-ფოსტის მისამართის ჩვენება"
+
+#: templates/users/main.php:79
+msgid "Send email to new user"
+msgstr "გაუგზავნეთ ელ-წერილი ახალ მომხმარებელს"
+
+#: templates/users/main.php:83
+msgid ""
+"When the password of a new user is left empty, an activation email with a "
+"link to set the password is sent."
+msgstr ""
+"როდესაც ახალი მომხმარებლის პაროლი არაა მითითებული, მომხმარებელს ელ-ფოსტაზე "
+"ეგზავნება აქტივაციის წერილი პროლის დაყენების ბმულით."
+
+#: templates/users/part.createuser.php:11
+msgid "E-Mail"
+msgstr "ელ-ფოსტა"
+
+#: templates/users/part.createuser.php:14
+msgid "Create"
+msgstr "შექმნა"
+
+#: templates/users/part.createuser.php:20
+msgid "Admin Recovery Password"
+msgstr "ადმინისტრატორის პაროლის განახლება"
+
+#: templates/users/part.createuser.php:21
+#: templates/users/part.createuser.php:22
+msgid ""
+"Enter the recovery password in order to recover the users files during "
+"password change"
+msgstr ""
+"მოხმარებლების პაროლის შეცვლის შემდეგ მათი ფაილების აღსადგენად შეიყვანეთ "
+"აღსადგენი პაროლი"
+
+#: templates/users/part.grouplist.php:18
+msgid "Everyone"
+msgstr "ყველა"
+
+#: templates/users/part.grouplist.php:31
+msgid "Admins"
+msgstr "ადმინისტრატორები"
+
+#: templates/users/part.grouplist.php:43
+msgid "Disabled"
+msgstr "გათიშული"
+
+#: templates/users/part.setquota.php:3
+msgid "Default quota"
+msgstr "საწყისი კვოტა"
+
+#: templates/users/part.setquota.php:5 templates/users/part.userlist.php:46
+msgid "Please enter storage quota (ex: \"512 MB\" or \"12 GB\")"
+msgstr "შეიყვანეთ მოცულობის კვოტა (მაგ.: \"512 მბ\" ან \"12 გბ\")"
+
+#: templates/users/part.setquota.php:7 templates/users/part.setquota.php:30
+#: templates/users/part.userlist.php:51
+msgid "Unlimited"
+msgstr "ულიმიტო"
+
+#: templates/users/part.setquota.php:22 templates/users/part.userlist.php:59
+msgid "Other"
+msgstr "სხვა"
+
+#: templates/users/part.userlist.php:11
+msgid "Group admin for"
+msgstr "ადმინისტრატორის შეჯგუფება"
+
+#: templates/users/part.userlist.php:13
+msgid "Quota"
+msgstr "ქვოტა"
+
+#: templates/users/part.userlist.php:14
+msgid "Storage location"
+msgstr "საცავის ადგილმდებარეობა"
+
+#: templates/users/part.userlist.php:15
+msgid "User backend"
+msgstr "მომხმარებელის ბექენდი"
+
+#: templates/users/part.userlist.php:16
+msgid "Last login"
+msgstr "ბოლო ავტორიზაცია"
+
+#: templates/users/part.userlist.php:27
+msgid "change full name"
+msgstr "სრული სახელის ცვლილება"
+
+#: templates/users/part.userlist.php:31
+msgid "set new password"
+msgstr "დააყენეთ ახალი პაროლი"
+
+#: templates/users/part.userlist.php:35
+msgid "change email address"
+msgstr "ელ-ფოსტის მისამართის ცვლილება"
+
+#: templates/users/part.userlist.php:48
+msgid "Default"
+msgstr "საწყისი პარამეტრები"
+
+#: Controller/AppSettingsController.php:131 js/apps.js:43
+msgid "Enabled"
+msgstr ""
+
+#: Controller/AppSettingsController.php:132 js/apps.js:44
+msgid "Not enabled"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:220
+msgid ""
+"Please provide an admin recovery password, otherwise all user data will be "
+"lost"
+msgstr ""
+
+#: Controller/ChangePasswordController.php:246
+msgid ""
+"Backend doesn't support password change, but the user's encryption key was "
+"successfully updated."
+msgstr ""
+
+#: Controller/MailSettingsController.php:154
+msgid "test email settings"
+msgstr ""
+
+#: Controller/PersonalController.php:85
+msgid "Invalid request"
+msgstr ""
+
+#: ajax/togglegroups.php:44
+msgid "Admins can't remove themself from the admin group"
+msgstr ""
+
+#: ajax/togglegroups.php:72
+#, php-format
+msgid "Unable to add user to group %s"
+msgstr ""
+
+#: ajax/togglegroups.php:78
+#, php-format
+msgid "Unable to remove user from group %s"
+msgstr ""
+
+#: js/admin.js:223
+msgid "Sending..."
+msgstr ""
+
+#: js/apps.js:127 js/apps.js:424
+msgid "You have %n app update pending"
+msgid_plural "You have %n app updates pending"
+msgstr[0] ""
+
+#: js/apps.js:398
+msgid "Updating...."
+msgstr ""
+
+#: js/apps.js:405
+msgid "Error while updating app"
+msgstr ""
+
+#: js/apps.js:437
+msgid "Uninstalling ...."
+msgstr ""
+
+#: js/apps.js:440
+msgid "Error while uninstalling app"
+msgstr ""
+
+#: js/apps.js:441
+msgid "Uninstall"
+msgstr ""
+
+#: js/apps.js:523
+msgid ""
+"The app has been enabled but needs to be updated. You will be redirected to "
+"the update page in 5 seconds."
+msgstr ""
+
+#: js/apps.js:525
+msgid "App update"
+msgstr ""
+
+#. TRANSLATORS this is the language name for the language switcher in the
+#. personal settings and should be the localized version
+#: personal.php:87
+msgid "__language_name__"
+msgstr ""
+
+#: personal.php:203
+msgid "Personal info"
+msgstr ""
+
+#: personal.php:204 templates/personal.php:268
+msgid "Sessions"
+msgstr ""
+
+#: personal.php:205 templates/personal.php:284
+msgid "App passwords"
+msgstr ""
+
+#: personal.php:206
+msgid "Sync clients"
+msgstr ""
+
+#: templates/admin/additional-mail.php:60
+msgid "This is used for sending out notifications."
+msgstr ""
+
+#: templates/admin/server.php:37
+msgid ""
+"php does not seem to be setup properly to query system environment "
+"variables. The test with getenv(\"PATH\") only returns an empty response."
+msgstr ""
+
+#: templates/admin/server.php:38
+#, php-format
+msgid ""
+"Please check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation documentation ↗</a> for php configuration notes and"
+" the php configuration of your server, especially when using php-fpm."
+msgstr ""
+
+#: templates/admin/server.php:56
+msgid ""
+"PHP is apparently setup to strip inline doc blocks. This will make several "
+"core apps inaccessible."
+msgstr ""
+
+#: templates/admin/server.php:75
+#, php-format
+msgid ""
+"%1$s below version %2$s is installed, for stability and performance reasons "
+"we recommend updating to a newer %1$s version."
+msgstr ""
+
+#: templates/admin/server.php:84
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with mime-type detection."
+msgstr ""
+
+#: templates/admin/server.php:93
+#, php-format
+msgid ""
+"Transactional file locking is disabled, this might lead to issues with race "
+"conditions. Enable 'filelocking.enabled' in config.php to avoid these "
+"problems. See the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a> for more information."
+msgstr ""
+
+#: templates/admin/server.php:108
+msgid ""
+"This means that there might be problems with certain characters in file "
+"names."
+msgstr ""
+
+#: templates/admin/server.php:112
+#, php-format
+msgid ""
+"We strongly suggest installing the required packages on your system to "
+"support one of the following locales: %s."
+msgstr ""
+
+#: templates/admin/server.php:121
+#, php-format
+msgid ""
+"If your installation is not installed in the root of the domain and uses "
+"system cron, there can be issues with the URL generation. To avoid these "
+"problems, please set the \"overwrite.cli.url\" option in your config.php "
+"file to the webroot path of your installation (Suggested: \"%s\")"
+msgstr ""
+
+#: templates/admin/server.php:129
+msgid ""
+"It was not possible to execute the cronjob via CLI. The following technical "
+"errors have appeared:"
+msgstr ""
+
+#: templates/admin/server.php:148
+#, php-format
+msgid ""
+"Please double check the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">installation guides ↗</a>, and check for any errors or warnings "
+"in the <a href=\"%s\">log</a>."
+msgstr ""
+
+#: templates/admin/server.php:157
+msgid "Cron"
+msgstr ""
+
+#: templates/admin/server.php:166
+#, php-format
+msgid "Last cron job execution: %s."
+msgstr ""
+
+#: templates/admin/server.php:171
+#, php-format
+msgid "Last cron job execution: %s. Something seems wrong."
+msgstr ""
+
+#: templates/admin/server.php:176
+msgid "Cron was not executed yet!"
+msgstr ""
+
+#: templates/admin/server.php:198
+msgid ""
+"cron.php is registered at a webcron service to call cron.php every 15 "
+"minutes over http."
+msgstr ""
+
+#: templates/admin/server.php:209
+msgid "Use system's cron service to call the cron.php file every 15 minutes."
+msgstr ""
+
+#: templates/admin/server.php:216
+msgid ""
+"To run this you need the PHP posix extension. See {linkstart}PHP "
+"documentation{linkend} for more details."
+msgstr ""
+
+#: templates/admin/sharing.php:96
+msgid ""
+"Allow username autocompletion in share dialog. If this is disabled the full "
+"username needs to be entered."
+msgstr ""
+
+#: templates/admin/tipstricks.php:39
+#, php-format
+msgid ""
+"To migrate to another database use the command line tool: 'occ db:convert-"
+"type', or see the <a target=\"_blank\" rel=\"noreferrer\" "
+"href=\"%s\">documentation ↗</a>."
+msgstr ""
+
+#: templates/apps.php:139
+msgid "Uninstall app"
+msgstr ""
+
+#: templates/email.new_user.php:14
+#, php-format
+msgid ""
+"Hey there,<br><br>just letting you know that you now have a %s "
+"account.<br><br>Your username: <strong>%s</strong><br>Access it: <strong><a "
+"href=\"%s\">%s</a></strong><br><br>"
+msgstr ""
+
+#. TRANSLATORS term at the end of a mail
+#: templates/email.new_user.php:17 templates/email.new_user_plain_text.php:5
+msgid "Cheers!"
+msgstr ""
+
+#: templates/email.new_user_plain_text.php:2
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"just letting you know that you now have a %s account.\n"
+"\n"
+"Your username: %s\n"
+"Access it: %s\n"
+"\n"
+msgstr ""
+
+#: templates/personal.php:106
+msgid "For password recovery and notifications"
+msgstr ""
+
+#: templates/personal.php:150
+msgid "Your website"
+msgstr ""
+
+#: templates/personal.php:163
+msgid "Your Twitter handle"
+msgstr ""
+
+#: templates/personal.php:235
+msgid "Get the apps to sync your files"
+msgstr ""
+
+#: templates/personal.php:238
+msgid "Desktop client"
+msgstr ""
+
+#: templates/personal.php:242
+msgid "Android app"
+msgstr ""
+
+#: templates/personal.php:246
+msgid "iOS app"
+msgstr ""
+
+#: templates/personal.php:259
+msgid ""
+"If you want to support the project {contributeopen}join "
+"development{linkclose} or {contributeopen}spread the word{linkclose}!"
+msgstr ""
+
+#: templates/personal.php:263
+msgid "Show First Run Wizard again"
+msgstr ""
+
+#: templates/personal.php:285
+msgid ""
+"Passcodes that give an app or device permissions to access your account."
+msgstr ""
+
+#: templates/personal.php:289
+msgid "Name"
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google Plus!"
+msgstr ""
+
+#: templates/settings.development.notice.php:52
+msgid "Like our facebook page!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Subscribe to our twitter channel!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Subscribe to our news feed!"
+msgstr ""
+
+#: templates/settings.development.notice.php:55
+msgid "Subscribe to our newsletter!"
+msgstr ""
+
+#: templates/users/main.php:58
+msgid "Show last log in"
+msgstr ""
+
+#: templates/users/part.grouplist.php:12
+msgid "Group name"
+msgstr ""
+
+#: js/apps.js:567
+msgid "Error while removing app"
+msgstr ""
+
+#: personal.php:203
+msgid "Verifying"
+msgstr ""
+
+#: templates/admin/server.php:31
+msgid ""
+"It's important for the security and performance of your instance that "
+"everything is configured correctly. To help you with that we are doing some "
+"automatic checks. Please see the Tips & Ticks section and the documentation "
+"for more information."
+msgstr ""
+
+#: templates/admin/server.php:85
+msgid ""
+"The PHP module 'fileinfo' is missing. We strongly recommend to enable this "
+"module to get best results with MIME type detection."
+msgstr ""
+
+#: templates/personal.php:361
+msgid ""
+"Web, desktop, mobile clients and app specific passwords that currently have "
+"access to your account."
+msgstr ""
+
+#: templates/personal.php:375
+msgid ""
+"Here you can generate individual passwords for apps so you don’t have to "
+"give out your password. You can revoke them individually too."
+msgstr ""
+
+#: templates/settings.development.notice.php:51
+msgid "Follow us on Google+!"
+msgstr ""
+
+#: templates/settings.development.notice.php:53
+msgid "Follow us on Twitter!"
+msgstr ""
+
+#: templates/settings.development.notice.php:54
+msgid "Check out our blog!"
+msgstr ""

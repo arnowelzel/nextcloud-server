@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Marco Lazzarotto, 2016\n"
+"Language-Team: Italian (https://www.transifex.com/nextcloud/teams/64236/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files_sharing/appinfo/app.php:59
+#: /app/apps/files_sharing/js/app.js:42
+msgid "Shared with you"
+msgstr "Condivisi con te"
+
+#: /app/apps/files_sharing/appinfo/app.php:71
+#: /app/apps/files_sharing/js/app.js:65
+msgid "Shared with others"
+msgstr "Condivisi con altri"
+
+#: /app/apps/files_sharing/appinfo/app.php:84
+#: /app/apps/files_sharing/js/app.js:88
+msgid "Shared by link"
+msgstr "Condivisi tramite collegamento"
+
+#: /app/apps/files_sharing/js/app.js:44
+msgid "Nothing shared with you yet"
+msgstr "Non è stato condiviso ancora niente con te"
+
+#: /app/apps/files_sharing/js/app.js:45
+msgid "Files and folders others share with you will show up here"
+msgstr ""
+"I file e le cartelle che altri condividono con te saranno mostrati qui"
+
+#: /app/apps/files_sharing/js/app.js:67
+msgid "Nothing shared yet"
+msgstr "Ancora nessuna condivisione"
+
+#: /app/apps/files_sharing/js/app.js:68
+msgid "Files and folders you share will show up here"
+msgstr "I file e le cartelle che condividi saranno mostrati qui"
+
+#: /app/apps/files_sharing/js/app.js:90
+msgid "No shared links"
+msgstr "Nessun collegamento condiviso"
+
+#: /app/apps/files_sharing/js/app.js:91
+msgid "Files and folders you share by link will show up here"
+msgstr ""
+"I file e le cartelle che condividi tramite collegamento saranno mostrati qui"
+
+#: /app/apps/files_sharing/js/public.js:228
+msgid "You can upload into this folder"
+msgstr "Puoi caricare in questa cartella"
+
+#: /app/apps/files_sharing/js/public.js:349
+msgid "No compatible server found at {remote}"
+msgstr "Nessun server compatibile trovato su {remote}"
+
+#: /app/apps/files_sharing/js/public.js:350
+msgid "Invalid server URL"
+msgstr "URL del server non valido"
+
+#: /app/apps/files_sharing/js/public.js:404
+msgid "Failed to add the public link to your Nextcloud"
+msgstr "Aggiunta del collegamento pubblico al tuo Nextcloud non riuscita"
+
+#: /app/apps/files_sharing/js/share.js:152
+msgid "Share"
+msgstr "Condividi"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:102
+msgid "No expiration date set"
+msgstr "Nessuna data di scadenza impostata"
+
+#: /app/apps/files_sharing/js/sharedfilelist.js:231
+msgid "Shared by"
+msgstr "Condiviso da"
+
+#: /app/apps/files_sharing/js/sharetabview.js:35
+msgid "Sharing"
+msgstr "Condivisione"
+
+#: /app/apps/files_sharing/lib/Activity/Filter.php:59
+msgid "File shares"
+msgstr "Condivisioni dei file"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:48
+msgid "Downloaded via public link"
+msgstr "Scaricata tramite collegamento pubblico"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:51
+msgid "Downloaded by {email}"
+msgstr "Scaricato da {email}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:77
+msgid "{file} downloaded via public link"
+msgstr "{file} scaricato tramite collegamento pubblico"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Downloads.php:80
+msgid "{email} downloaded {file}"
+msgstr "{email} ha scaricato {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:45
+msgid "Shared with group {group}"
+msgstr "Condivisa con il gruppo {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:47
+msgid "Removed share for group {group}"
+msgstr "Condivisione rimossa per il gruppo {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:49
+msgid "{actor} shared with group {group}"
+msgstr "{actor} ha condiviso con il gruppo {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:51
+msgid "{actor} removed share for group {group}"
+msgstr "{actor} ha rimosso la condivisione del gruppo {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:76
+msgid "You shared {file} with group {group}"
+msgstr "Hai condiviso {file} con il gruppo {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:78
+msgid "You removed group {group} from {file}"
+msgstr "Hai rimosso il gruppo {group} da {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:80
+msgid "{actor} shared {file} with group {group}"
+msgstr "{actor} ha condiviso {file} con il gruppo {group}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Groups.php:82
+msgid "{actor} removed group {group} from {file}"
+msgstr "{actor} ha ti rimosso il gruppo {group} da {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:47
+msgid "Shared as public link"
+msgstr "Condivisa tramite collegamento pubblico"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:49
+msgid "Removed public link"
+msgstr "Collegamento pubblico rimosso"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:51
+msgid "Public link expired"
+msgstr "Collegamento pubblico scaduto"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:53
+msgid "{actor} shared as public link"
+msgstr "{actor} ha condiviso tramite collegamento pubblico"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:55
+msgid "{actor} removed public link"
+msgstr "{actor} ha rimosso il collegamento pubblico"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:57
+msgid "Public link of {actor} expired"
+msgstr "Collegamento pubblico di {actor} scaduto"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:83
+msgid "You shared {file} as public link"
+msgstr "Hai condiviso {file} tramite collegamento"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:85
+msgid "You removed public link for {file}"
+msgstr "Hai rimosso il collegamento pubblico per {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:87
+msgid "Public link expired for {file}"
+msgstr "Collegamento pubblico scaduto per {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:89
+msgid "{actor} shared {file} as public link"
+msgstr "{actor} ha condiviso {file} tramite collegamento pubblico"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:91
+msgid "{actor} removed public link for {file}"
+msgstr "{actor} ha rimosso il collegamento pubblico per {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/PublicLinks.php:93
+msgid "Public link of {actor} for {file} expired"
+msgstr "Collegamento pubblico di {actor} per {file} scaduto"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:70
+msgid "{user} accepted the remote share"
+msgstr "{user} ha accettato la condivisione remota"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:72
+msgid "{user} declined the remote share"
+msgstr "{user} ha rifiutato la condivisione remota"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:97
+msgid "You received a new remote share {file} from {user}"
+msgstr "Hai ricevuto una nuova condivisione remota {file} da {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:99
+msgid "{user} accepted the remote share of {file}"
+msgstr "{user} ha accettato la condivisione remota di {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:101
+msgid "{user} declined the remote share of {file}"
+msgstr "{user} ha rifiutato la condivisione remota di {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/RemoteShares.php:103
+msgid "{user} unshared {file} from you"
+msgstr "{user} ha rimosso la condivisione {file} con te"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:49
+msgid "Shared with {user}"
+msgstr "Condivisa con {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:51
+msgid "Removed share for {user}"
+msgstr "Condivisione rimossa per {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:53
+msgid "{actor} shared with {user}"
+msgstr "{actor} ha condiviso con {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:55
+msgid "{actor} removed share for {user}"
+msgstr "{actor} ha rimosso la condivisione con {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:57
+msgid "Shared by {actor}"
+msgstr "Condiviso da {actor}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:59
+msgid "{actor} removed share"
+msgstr "{actor} ha rimosso la condivisione"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:85
+msgid "You shared {file} with {user}"
+msgstr "Hai condiviso {file} con {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:87
+msgid "You removed {user} from {file}"
+msgstr "Hai rimosso {user} da {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:89
+msgid "{actor} shared {file} with {user}"
+msgstr "{actor} ha condiviso {file} con {user}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:91
+msgid "{actor} removed {user} from {file}"
+msgstr "{actor} ha rimosso {user} da {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:93
+msgid "{actor} shared {file} with you"
+msgstr "{actor} ha condiviso {file} con te"
+
+#: /app/apps/files_sharing/lib/Activity/Providers/Users.php:95
+msgid "{actor} removed you from {file}"
+msgstr "{actor} ha ti rimosso da {file}"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/PublicLinks.php:55
+msgid ""
+"A file or folder shared by mail or by public link was "
+"<strong>downloaded</strong>"
+msgstr ""
+"Un file o una cartella condiviso via posta elettronica o collegamento "
+"pubblico è stato <strong>scaricato</strong>"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/RemoteShare.php:56
+msgid "A file or folder was shared from <strong>another server</strong>"
+msgstr ""
+"Un file o una cartella è stato condiviso da <strong>un altro server</strong>"
+
+#: /app/apps/files_sharing/lib/Activity/Settings/Shared.php:56
+msgid "A file or folder has been <strong>shared</strong>"
+msgstr "Un file o una cartella è stato <strong>condiviso</strong>"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:248
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:260
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:276
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:681
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:687
+msgid "Wrong share ID, share doesn't exist"
+msgstr "ID di condivisione errato, la condivisione non esiste"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:282
+msgid "could not delete share"
+msgstr "impossibile eliminare la condivisione"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:286
+msgid "Could not delete share"
+msgstr "impossibile eliminare la condivisione"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:332
+msgid "Please specify a file or folder path"
+msgstr "Specifica un percorso di un file o di una cartella"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:339
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:598
+msgid "Wrong path, file/folder doesn't exist"
+msgstr "Percorso errato, file/cartella inesistente"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:347
+msgid "Could not create share"
+msgstr "Impossibile creare la condivisione"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:351
+msgid "invalid permissions"
+msgstr "permessi non validi"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:375
+msgid "Please specify a valid user"
+msgstr "Specifica un utente valido"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:381
+msgid "Group sharing is disabled by the administrator"
+msgstr "La condivisione di gruppo è disabilitata dall'amministratore"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:386
+msgid "Please specify a valid group"
+msgstr "Specifica un gruppo valido"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:393
+msgid "Public link sharing is disabled by the administrator"
+msgstr ""
+"La condivisione pubblica di collegamenti è disabilitata dall'amministratore"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:408
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:730
+msgid "Public upload disabled by the administrator"
+msgstr "Caricamento pubblico disabilitato dall'amministratore"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:413
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:734
+msgid "Public upload is only possible for publicly shared folders"
+msgstr ""
+"Il caricamento pubblico è possibile solo per cartelle condivise "
+"pubblicamente"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:437
+msgid "Invalid date, date format must be YYYY-MM-DD"
+msgstr "Data non valida, il formato della data deve essere YYYY-MM-DD"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:443
+#, php-format
+msgid ""
+"Sharing %s failed because the back end does not allow shares from type %s"
+msgstr ""
+"Condivisione di %s non riuscita poiché il motore non consente condivisioni "
+"del tipo %s"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:461
+msgid "You cannot share to a Circle if the app is not enabled"
+msgstr ""
+"Non puoi condividere con una cerchia se l'applicazione non è abilitata"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:468
+msgid "Please specify a valid circle"
+msgstr "Specifica una cerchia valida"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:473
+msgid "Unknown share type"
+msgstr "Tipo di condivisione sconosciuto"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:535
+msgid "Not a directory"
+msgstr "Non è una cartella"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:600
+msgid "Could not lock path"
+msgstr "Impossibile bloccare il percorso"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:691
+msgid "Wrong or no update parameter given"
+msgstr "Parametro fornito non valido o non di aggiornamento"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:720
+msgid "Can't change permissions for public share links"
+msgstr ""
+"Impossibile cambiare i permessi per i collegamenti di condivisione pubblici"
+
+#: /app/apps/files_sharing/lib/Controller/ShareAPIController.php:803
+msgid "Cannot increase permissions"
+msgstr "Impossibile aumentare i permessi"
+
+#: /app/apps/files_sharing/lib/Middleware/OCSShareAPIMiddleware.php:56
+msgid "Share API is disabled"
+msgstr "API di condivisione disabilitate"
+
+#: /app/apps/files_sharing/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "File sharing"
+msgstr ""
+
+#: /app/apps/files_sharing/templates/authenticate.php:11
+msgid "This share is password-protected"
+msgstr "Questa condivisione è protetta da password"
+
+#: /app/apps/files_sharing/templates/authenticate.php:14
+msgid "The password is wrong. Try again."
+msgstr "La password è errata. Prova ancora."
+
+#: /app/apps/files_sharing/templates/authenticate.php:17
+#: /app/apps/files_sharing/templates/authenticate.php:20
+msgid "Password"
+msgstr "Password"
+
+#: /app/apps/files_sharing/templates/list.php:10
+msgid "No entries found in this folder"
+msgstr "Nessuna voce trovata in questa cartella"
+
+#: /app/apps/files_sharing/templates/list.php:18
+msgid "Name"
+msgstr "Nome"
+
+#: /app/apps/files_sharing/templates/list.php:22
+msgid "Share time"
+msgstr "Tempo di condivisione"
+
+#: /app/apps/files_sharing/templates/list.php:25
+msgid "Expiration date"
+msgstr "Data di scadenza"
+
+#: /app/apps/files_sharing/templates/part.404.php:3
+msgid "Sorry, this link doesn’t seem to work anymore."
+msgstr "Spiacenti, questo collegamento sembra non essere più attivo."
+
+#: /app/apps/files_sharing/templates/part.404.php:4
+msgid "Reasons might be:"
+msgstr "I motivi potrebbero essere:"
+
+#: /app/apps/files_sharing/templates/part.404.php:6
+msgid "the item was removed"
+msgstr "l'elemento è stato rimosso"
+
+#: /app/apps/files_sharing/templates/part.404.php:7
+msgid "the link expired"
+msgstr "il collegamento è scaduto"
+
+#: /app/apps/files_sharing/templates/part.404.php:8
+msgid "sharing is disabled"
+msgstr "la condivisione è disabilitata"
+
+#: /app/apps/files_sharing/templates/part.404.php:10
+msgid "For more info, please ask the person who sent this link."
+msgstr ""
+"Per ulteriori informazioni, chiedi alla persona che ti ha inviato il "
+"collegamento."
+
+#: /app/apps/files_sharing/templates/public.php:46
+#, php-format
+msgid "shared by %s"
+msgstr "condiviso da %s"
+
+#: /app/apps/files_sharing/templates/public.php:53
+#: /app/apps/files_sharing/templates/public.php:59
+msgid "Download"
+msgstr "Scarica"
+
+#: /app/apps/files_sharing/templates/public.php:65
+msgid "Direct link"
+msgstr "Collegamento diretto"
+
+#: /app/apps/files_sharing/templates/public.php:74
+msgid "Add to your Nextcloud"
+msgstr "Aggiungi al tuo Nextcloud"
+
+#: /app/apps/files_sharing/templates/public.php:108
+#, php-format
+msgid "Download %s"
+msgstr "Scarica %s"
+
+#: /app/apps/files_sharing/templates/public.php:120
+#, php-format
+msgid "Upload files to %s"
+msgstr "Carica file su %s"
+
+#: /app/apps/files_sharing/templates/public.php:127
+msgid "Select or drop files"
+msgstr "Seleziona o deseleziona file"
+
+#: /app/apps/files_sharing/templates/public.php:128
+msgid "Uploading files…"
+msgstr "Caricamento file in corso..."
+
+#: /app/apps/files_sharing/templates/public.php:129
+msgid "Uploaded files:"
+msgstr "File caricati:"

@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Javier Llamas <s_llamasj@globalhitss.com>, 2017\n"
+"Language-Team: Spanish (Paraguay) (https://www.transifex.com/nextcloud/teams/64236/es_PY/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_PY\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Filter/Calendar.php:57
+msgid "Calendar"
+msgstr "Calendario"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Filter/Todo.php:57
+msgid "Todos"
+msgstr "Pendientes"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Base.php:91
+#: /app/apps/dav/lib/CalDAV/Calendar.php:56
+msgid "Personal"
+msgstr "Personal"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:98
+msgid "{actor} created calendar {calendar}"
+msgstr "{actor} creó el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:100
+msgid "You created calendar {calendar}"
+msgstr "Creaste el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:102
+msgid "{actor} deleted calendar {calendar}"
+msgstr "{actor} borró el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:104
+msgid "You deleted calendar {calendar}"
+msgstr "Borraste el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:106
+msgid "{actor} updated calendar {calendar}"
+msgstr "{actor} actualizó el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:108
+msgid "You updated calendar {calendar}"
+msgstr "Actualizaste el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:111
+msgid "You shared calendar {calendar} as public link"
+msgstr "Compartiste el calendario {calendar} como una liga pública"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:113
+msgid "You removed public link for calendar {calendar}"
+msgstr "Eliminaste la liga pública para el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:116
+msgid "{actor} shared calendar {calendar} with you"
+msgstr "{actor} ha compartido el calendario {calendar} contigo"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:118
+msgid "You shared calendar {calendar} with {user}"
+msgstr "Compartiste el calendario {calendar} con {user}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:120
+msgid "{actor} shared calendar {calendar} with {user}"
+msgstr "{actor} compartió el calendario {calendar} con {user}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:122
+msgid "{actor} unshared calendar {calendar} from you"
+msgstr "{actor} ha dejado de compartir el calendario {calendar} contigo"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:124
+msgid "You unshared calendar {calendar} from {user}"
+msgstr "Has dejado de compartir el calendario {calendar} con {user}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:126
+msgid "{actor} unshared calendar {calendar} from {user}"
+msgstr "{actor} dejó de compartir el calendario {calendar} con {user}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:128
+msgid "{actor} unshared calendar {calendar} from themselves"
+msgstr "{actor} dejó de compartir {el calendario calendar} con él mismo"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:131
+msgid "You shared calendar {calendar} with group {group}"
+msgstr "Compartiste el calendario {calendar} con el grupo {group}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:133
+msgid "{actor} shared calendar {calendar} with group {group}"
+msgstr "{actor} compartió el calendario {calendar} con el grupo {group}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:135
+msgid "You unshared calendar {calendar} from group {group}"
+msgstr "Dejaste de compartir el calendario {calendar} con el grupo {group}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Calendar.php:137
+msgid "{actor} unshared calendar {calendar} from group {group}"
+msgstr ""
+"{actor} dejó de compartir el calendrio {calendar} con el grupo {group}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:92
+msgid "{actor} created event {event} in calendar {calendar}"
+msgstr "{actor} creó el evento {event} en el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:94
+msgid "You created event {event} in calendar {calendar}"
+msgstr "Creaste el evento {event} en el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:96
+msgid "{actor} deleted event {event} from calendar {calendar}"
+msgstr "{actor} borró el eventó {event} del calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:98
+msgid "You deleted event {event} from calendar {calendar}"
+msgstr "Borraste el evento {event} del calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:100
+msgid "{actor} updated event {event} in calendar {calendar}"
+msgstr "{actor} actualizó el evento {event} en el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Event.php:102
+msgid "You updated event {event} in calendar {calendar}"
+msgstr "Actualizaste el evento {event} en el calendario {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:52
+msgid "{actor} created todo {todo} in list {calendar}"
+msgstr "{actor} creó el pendiente {todo} en la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:54
+msgid "You created todo {todo} in list {calendar}"
+msgstr "Creaste el pendiente {todo} en la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:56
+msgid "{actor} deleted todo {todo} from list {calendar}"
+msgstr "{actor} borró el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:58
+msgid "You deleted todo {todo} from list {calendar}"
+msgstr "Borraste el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:60
+msgid "{actor} updated todo {todo} in list {calendar}"
+msgstr "{actor} actualizó el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:62
+msgid "You updated todo {todo} in list {calendar}"
+msgstr "Actualizaste el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:65
+msgid "{actor} solved todo {todo} in list {calendar}"
+msgstr "{actor} resolvió el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:67
+msgid "You solved todo {todo} in list {calendar}"
+msgstr "Resolviste el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:69
+msgid "{actor} reopened todo {todo} in list {calendar}"
+msgstr "{actor} reabrió el pendiente {todo} de la lista{calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Provider/Todo.php:71
+msgid "You reopened todo {todo} in list {calendar}"
+msgstr "Reabriste el pendiente {todo} de la lista {calendar}"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Setting/Calendar.php:55
+msgid "A <strong>calendar</strong> was modified"
+msgstr "Un <strong>calendario</strong> fue modificado"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Setting/Event.php:55
+msgid "A calendar <strong>event</strong> was modified"
+msgstr "Un <strong>evento</strong> de un calendario fue modificado"
+
+#: /app/apps/dav/lib/CalDAV/Activity/Setting/Todo.php:55
+msgid "A calendar <strong>todo</strong> was modified"
+msgstr "Un <strong>pendiente</strong> de un calendario fue modificado"
+
+#: /app/apps/dav/lib/CalDAV/Calendar.php:52
+msgid "Contact birthdays"
+msgstr "Cumpleaños del contacto"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:212
+#, php-format
+msgid "%s via %s"
+msgstr "%s vía %s"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:424
+msgid "Invitation canceled"
+msgstr "Invitación cancelada"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:424
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:428
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:432
+#, php-format
+msgid "Hello %s,"
+msgstr "Hola %s,"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:425
+#, php-format
+msgid "The meeting »%s« with %s was canceled."
+msgstr "La cita »%s« con %s fue cancelada."
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:428
+msgid "Invitation updated"
+msgstr "Invitación actualizada"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:429
+#, php-format
+msgid "The meeting »%s« with %s was updated."
+msgstr "La reunión »%s« con %s ha sido actualizada."
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:432
+#, php-format
+msgid "%s invited you to »%s«"
+msgstr "%s te ha invitado a »%s«"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:446
+msgid "When:"
+msgstr "Cuándo:"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:450
+msgid "Where:"
+msgstr "Dónde:"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:454
+msgid "Description:"
+msgstr "Descripción:"
+
+#: /app/apps/dav/lib/CalDAV/Schedule/IMipPlugin.php:458
+msgid "Link:"
+msgstr "Enlace:"
+
+#: /app/apps/dav/lib/CardDAV/AddressBook.php:53
+msgid "Contacts"
+msgstr "Contactos"
+
+#: /app/apps/dav/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "WebDAV"
+msgstr ""
+
+#: /app/apps/dav/templates/exception.php:28
+msgid "Technical details"
+msgstr "Detalles técnicos"
+
+#: /app/apps/dav/templates/exception.php:30
+#, php-format
+msgid "Remote Address: %s"
+msgstr "Dirección remota: %s"
+
+#: /app/apps/dav/templates/exception.php:31
+#, php-format
+msgid "Request ID: %s"
+msgstr "ID de solicitud: %s"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:32
+msgid "CalDAV server"
+msgstr "Servidor CalDAV"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:36
+msgid "Send invitations to attendees"
+msgstr "Enviar invitaciones a los asistentes"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:38
+msgid "Please make sure to properly set up the email settings above."
+msgstr ""
+"Por favor asegurarte de establecer correctamente las configuraciones de "
+"correo anteriores. "
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:43
+msgid "Automatically generate a birthday calendar"
+msgstr "Generar automaticamente un calendario para cumpleaños"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:45
+msgid "Birthday calendars will be generated by a background job."
+msgstr ""
+"Los calendarios de cumpleaños serán generados por un trabajo de segundo "
+"plano"
+
+#: /app/apps/dav/templates/settings-admin-caldav.php:46
+msgid ""
+"Hence they will not be available immediately after enabling but will show up"
+" after some time."
+msgstr ""
+"Por lo tanto no estarán disponbiles inmediatamente después de habilitarlos "
+"pero se mostrarán después de un tiempo."

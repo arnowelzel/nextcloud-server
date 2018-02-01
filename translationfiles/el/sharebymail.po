@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ioannis Messalas <ioannis.messalas@gmail.com>, 2017\n"
+"Language-Team: Greek (https://www.transifex.com/nextcloud/teams/64236/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/Activity.php:115
+#, php-format
+msgid "Shared with %1$s"
+msgstr "Διαμοιράστηκε με %1$s"
+
+#: lib/Activity.php:118
+msgid "Shared with {email}"
+msgstr "Διαμοιράστηκε με {email}"
+
+#: lib/Activity.php:127
+#, php-format
+msgid "Shared with %1$s by %2$s"
+msgstr "Διαμοιράστηκε με  %1$s από %2$s"
+
+#: lib/Activity.php:131
+msgid "Shared with {email} by {actor}"
+msgstr "Διαμοιράστηκε με {email} από {actor}"
+
+#: lib/Activity.php:141
+#, php-format
+msgid "Password for mail share sent to %1$s"
+msgstr ""
+"Το συνθηματικό για το διαμοιρασμό μέσου ηλ. αλληλογραφίας έχει αποσταλλεί  "
+"%1$s"
+
+#: lib/Activity.php:144
+msgid "Password for mail share sent to {email}"
+msgstr ""
+"Ο κωδικός πρόσβασης διαμοιρασμού αλληλογραφίας αποστέλλεται στο {email}"
+
+#: lib/Activity.php:153 lib/Activity.php:154
+msgid "Password for mail share sent to you"
+msgstr " Κωδικός πρόσβασης για διαμοιρασμό αλληλογραφίας σας έχει σταλεί"
+
+#: lib/Activity.php:177
+#, php-format
+msgid "You shared %1$s with %2$s by mail"
+msgstr "Διαμοιραστήκατε το %1$s με %2$s μέσω mail"
+
+#: lib/Activity.php:181
+msgid "You shared {file} with {email} by mail"
+msgstr "Διαμοιραστήκατε {file} με {email} μέσω mail"
+
+#: lib/Activity.php:188
+#, php-format
+msgid "%3$s shared %1$s with %2$s by mail"
+msgstr "%3$s Διαμοιραστηκε %1$s με %2$s μέσω mail"
+
+#: lib/Activity.php:193
+msgid "{actor} shared {file} with {email} by mail"
+msgstr "{actor} διαμοίρασε {file} με {email} μέσω mail"
+
+#: lib/Activity.php:200
+#, php-format
+msgid "Password to access %1$s was sent to %2s"
+msgstr "Το συνθηματικό για πρόσβαση στο %1$s στάθηκε στο %2s"
+
+#: lib/Activity.php:204
+msgid "Password to access {file} was sent to {email}"
+msgstr ""
+"Ο κωδικός πρόσβασης για πρόσβαση στο {αρχείο} έχει αποσταλεί στο {email}"
+
+#: lib/Activity.php:212
+#, php-format
+msgid "Password to access %1$s was sent to you"
+msgstr "Σας έχει αποσταλεί το συνθηματικό για πρόσβαση στο %1$s"
+
+#: lib/Activity.php:214
+msgid "Password to access {file} was sent to you"
+msgstr "Σας έχει αποσταλεί στο συνθηματικό για πρόσβαση {file}"
+
+#: lib/ShareByMailProvider.php:168
+#, php-format
+msgid "Sharing %s failed, this item is already shared with %s"
+msgstr ""
+"Διαμοιρασμός %s απέτυχε, αυτό το αντικείμενο είναι ήδη διαμοιρασμένο με %s"
+
+#: lib/ShareByMailProvider.php:208 lib/ShareByMailProvider.php:527
+msgid ""
+"We can't send you the auto-generated password. Please set a valid email "
+"address in your personal settings and try again."
+msgstr ""
+"Δεν μπορούμε να σας στείλουμε αυτοδημιουργημένο συνθηματικό. Παρακαλούμε "
+"βάλτε μία έγκυρη διεύθυνση email στις προσωπικές σας ρυθμίσεις και "
+"προσπαθήστε ξανά."
+
+#: lib/ShareByMailProvider.php:369
+msgid "Failed to send share by email"
+msgstr "Αποτυχία αποστολής συνδέσμου διαμοιρασμού μέσω Ηλ.ταχυδρομείου"
+
+#: lib/ShareByMailProvider.php:401 lib/ShareByMailProvider.php:403
+#, php-format
+msgid "%s shared »%s« with you"
+msgstr "%s διαμοιρασμένα »%s« με σένα"
+
+#: lib/ShareByMailProvider.php:404
+#, php-format
+msgid "%s shared »%s« with you."
+msgstr "%s διαμοιράστηκε »%s« με εσάς."
+
+#: lib/ShareByMailProvider.php:407
+msgid "Click the button below to open it."
+msgstr "Κάντε κλικ στο παρακάτω κουμπί για να το ανοίξετε."
+
+#: lib/ShareByMailProvider.php:411
+#, php-format
+msgid "Open »%s«"
+msgstr "Ανοίξτε »%s«"
+
+#: lib/ShareByMailProvider.php:420 lib/ShareByMailProvider.php:485
+#, php-format
+msgid "%s via %s"
+msgstr "%s μέσω %s"
+
+#: lib/ShareByMailProvider.php:463
+#, php-format
+msgid ""
+"%s shared »%s« with you.\n"
+"You should have already received a separate mail with a link to access it.\n"
+msgstr ""
+"%s διαμοιράστηκε »%s« με εσάς.\n"
+"Θα πρέπει να έχετε ήδη λάβει ένα ξεχωριστό mail με έναν σύνδεσμο με πρόσβαση σε αυτό.\n"
+
+#: lib/ShareByMailProvider.php:464
+#, php-format
+msgid ""
+"%s shared »%s« with you. You should have already received a separate mail "
+"with a link to access it."
+msgstr ""
+"%s διαμοιράστηκε »%s« με εσάς. Θα πρέπει να έχετε ήδη λάβει ένα ξεχωριστό "
+"mail με έναν σύνδεσμο με πρόσβαση σε αυτό."
+
+#: lib/ShareByMailProvider.php:476
+#, php-format
+msgid "Password to access »%s« shared to you by %s"
+msgstr "Συνθηματικό για πρόσβαση στο »%s« διαμοιράστηκε μαζί σας μέσω %s"
+
+#: lib/ShareByMailProvider.php:478 lib/ShareByMailProvider.php:544
+#, php-format
+msgid "Password to access »%s«"
+msgstr "Συνθηματικό για πρόσβαση στο »%s«"
+
+#: lib/ShareByMailProvider.php:480
+#, php-format
+msgid "It is protected with the following password: %s"
+msgstr "Είναι προστατευμένο με το ακόλουθο συνθηματικό: %s"
+
+#: lib/ShareByMailProvider.php:531
+#, php-format
+msgid ""
+"You just shared »%s« with %s. The share was already send to the recipient. "
+"Due to the security policies defined by the administrator of %s each share "
+"needs to be protected by password and it is not allowed to send the password"
+" directly to the recipient. Therefore you need to forward the password "
+"manually to the recipient."
+msgstr ""
+"Έχετε μόλις διαμοιραστεί »%s« με %s. Ο διαμοιρασμός έχει ήδη σταλθεί στον "
+"παραλήπτη. Βάση των πολιτικών ασφαλείας που έχουν ορισθεί από τον "
+"διαχειριστή του %s ο κάθε διαμοιρασμός χρειάζεται να προστατεύεται από ένα "
+"συνθηματικό και δεν επιτρέπετε να σταλθεί το συνθηματικό απευθείας στον "
+"παραλήπτη. Επομένως χρειάζεται να προωθήσετε το συνθηματικό χειροκίνητα στον"
+" παραλήπτη."
+
+#: lib/ShareByMailProvider.php:542
+#, php-format
+msgid "Password to access »%s« shared with %s"
+msgstr "Συνθηματικό για πρόσβαση στο »%s« διαμοιράστηκε με %s"
+
+#: lib/ShareByMailProvider.php:546
+#, php-format
+msgid "This is the password: %s"
+msgstr "Αυτό είναι το συνθηματικό: %s"
+
+#: lib/ShareByMailProvider.php:547
+msgid "You can choose a different password at any time in the share dialog."
+msgstr ""
+"Μπορείτε να διαλέξετε ένα διαφορετικό συνθηματικό οποιαδήποτε στιγμή στον "
+"διάλογο διαμοιρασμού."
+
+#: lib/ShareByMailProvider.php:862 lib/ShareByMailProvider.php:868
+msgid "Could not find share"
+msgstr "Αδυναμία εύρεσης κοινόχρηστου"
+
+#: templates/settings-admin.php:10
+msgid "Share by mail"
+msgstr "Διαμοιρασμός με ηλεκτρονική αλληλογραφία"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Allows users to share a personalized link to a file or folder by putting in "
+"an email address."
+msgstr ""
+"Να επιτρέπεται οι χρήστες να στέλνουν εξατομικευμένο σύνδεσμο σε ένα αρχείο "
+"ή φάκελο μέσω mail."
+
+#: templates/settings-admin.php:15
+msgid "Send password by mail"
+msgstr "Αποστολή συνθηματικου με ηλεκτρονική αλληλογραφία"
+
+#: templates/settings-admin.php:17
+msgid "Enforce password protection"
+msgstr "Επιβάλετε προστασία συνθηματικού"
+
+#: lib/ShareByMailProvider.php:236
+msgid "Failed to send share by E-mail"
+msgstr "Αποτυχία αποστολής συνδέσμου διαμοιρασμού μέσω Ηλ.ταχυδρομείου"
+
+#: lib/ShareByMailProvider.php:251
+#, php-format
+msgid "%s shared »%s« with you on behalf of %s"
+msgstr "%s διαμοιράστηκε »%s« με εσάς από μέρους του %s"
+
+#: lib/ShareByMailProvider.php:290
+msgid "Failed to create the E-mail"
+msgstr "Αποτυχία δημιουργίας του Ηλ.ταχυδρομείου"
+
+#: templates/altmail.php:25
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you on behalf of %s.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Γεια σας,\n"
+"\n"
+"%s διαμοιράστηκε »%s« με εσάς από μέρους του %s.\n"
+"\n"
+"%s\n"
+"\n"
+
+#: templates/altmail.php:27
+#, php-format
+msgid ""
+"Hey there,\n"
+"\n"
+"%s shared »%s« with you.\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"Γεια σας,\n"
+"\n"
+"%s διαμοιράστηκε »%s« με εσάς.\n"
+"\n"
+"%s\n"
+
+#. TRANSLATORS term at the end of a mail
+#: templates/altmail.php:30 templates/mail.php:45
+msgid "Cheers!"
+msgstr "Με εκτίμηση!"
+
+#: templates/mail.php:40
+#, php-format
+msgid ""
+"Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you on behalf of "
+"%s.<br><br>"
+msgstr ""
+"Γεια σας,<br><br>%s διαμοιράστηκε <a href=\"%s\">%s</a> με εσάς από μέρους "
+"του %s.<br><br>"
+
+#: templates/mail.php:42
+#, php-format
+msgid "Hey there,<br><br>%s shared <a href=\"%s\">%s</a> with you.<br><br>"
+msgstr "Γεια σας,<br><br>%s διαμοιράστηκε <a href=\"%s\">%s</a> με εσάς.<br><br>"

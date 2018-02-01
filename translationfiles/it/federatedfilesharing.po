@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Marco Lazzarotto, 2016\n"
+"Language-Team: Italian (https://www.transifex.com/nextcloud/teams/64236/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Condivisione federata"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Vuoi aggiungere la condivisione remota {name} da {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Condivisione remota"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Password della condivisione remota"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Annulla"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Aggiungi condivisione remota"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Copia"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Copiato!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "Non supportato!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Premi ⌘-C per copiare."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Premi Ctrl-C per copiare."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "ID di cloud federata non valido"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "La condivisione tra server non è abilitata su questo server"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "Impossibile stabilire una condivisione federata."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"Impossibile stabilire una condivisione federata, forse la password non è "
+"corretta."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"Richiesta della condivisione federata inviata, riceverai un invito. "
+"Controlla le tue notifiche."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "Il nome del punto di mount contiene caratteri non validi."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr ""
+"Non è consentito creare una condivisione federata con il proprietario."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "Certificato SSL non valido o non attendibile"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"Impossibile autenticarsi sulla condivisione remota, la password potrebbe "
+"essere errata"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Archiviazione non valida"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "Condivisione federata aggiunta"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "Impossibile aggiungere la condivisione remota"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr ""
+"Condivisione di %s non riuscita, poiché l'oggetto è già condiviso con %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr ""
+"Non è consentito creare una condivisione federata con lo stesso utente"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "Il file è già condiviso con %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"La condivisione di %s non è riuscita, impossibile trovare %s, è probabile "
+"che il server non sia al momento raggiungibile o che utilizzi un certificato"
+" auto-firmato."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "Impossibile trovare la condivisione"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"Hai ricevuto \"%3$s\" come condivisione remota da %1$s (per conto di %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr ""
+"Hai ricevuto {share} come condivisione remota da {user} (per conto di "
+"{behalf})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Hai ricevuto \"%3$s\" come condivisione remota da %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Hai ricevuto {share} come condivisione remota da {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Accetta"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Rifiuta"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Condividi con me attraverso il mio ID di cloud federata #Nextcloud, vedi %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Condividi con me attraverso il mio ID di cloud federata #Nextcloud"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Condivisione"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Condivisione cloud federata"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Apri la documentazione"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Regola come le persone possono condividere tra i server."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Consenti agli utenti su questo server di inviare condivisioni ad altri "
+"server"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Consenti agli utenti su questo server di ricevere condivisioni da altri "
+"server"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Cerca gli utenti nella rubrica globale e pubblica"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Consenti agli utenti di pubblicare i propri dati in una rubrica globale e "
+"pubblica"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Cloud federata"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Puoi condividere con chiunque utilizzi Nextcloud, ownCloud o Pydio! Ti basta"
+" inserire il loro ID di cloud federata nella finestra di condivisione. "
+"Assomiglia a persona@cloud.esempio.com "
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "Il tuo ID di cloud federata:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "Condividilo in modo che i tuoi amici possano condividere file con te:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Aggiungi al tuo sito web"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Condividi con me tramite Nextcloud"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "Codice HTML:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Cerca utenti nella rubrica globale e pubblica e consenti agli utenti di "
+"pubblicare i loro dati"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Condividilo:"

@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>, 2016\n"
+"Language-Team: Korean (https://www.transifex.com/nextcloud/teams/64236/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/Controller/SettingsController.php:75
+msgid "Added to the list of trusted servers"
+msgstr "신뢰할 수 있는 서버 목록에 추가됨"
+
+#: lib/Controller/SettingsController.php:111
+msgid "Server is already in the list of trusted servers."
+msgstr "신뢰할 수 있는 서버 목록에 이미 추가되었습니다."
+
+#: lib/Controller/SettingsController.php:117
+msgid "No server to federate with found"
+msgstr "연합 가능한 서버를 찾을 수 없음"
+
+#: lib/DbHandler.php:95
+msgid "Could not add server"
+msgstr "서버를 추가할 수 없음"
+
+#: templates/settings-admin.php:10
+msgid "Trusted servers"
+msgstr "신뢰할 수 있는 서버"
+
+#: templates/settings-admin.php:11
+msgid ""
+"Federation allows you to connect with other trusted servers to exchange the "
+"user directory. For example this will be used to auto-complete external "
+"users for federated sharing."
+msgstr ""
+"서버 연합을 통해서 다른 신뢰할 수 있는 서버와 사용자 디렉터리를 교환할 수 있습니다. 이 기능의 사용 예시로 연합 공유 시 외부 "
+"사용자를 자동 완성하는 데 사용할 수 있습니다."
+
+#: templates/settings-admin.php:15
+msgid ""
+"Add server automatically once a federated share was created successfully"
+msgstr "연합 공유를 생성했을 때 자동으로 서버 추가"
+
+#: templates/settings-admin.php:38
+msgid "+ Add trusted server"
+msgstr "+ 신뢰할 수 있는 서버 추가"
+
+#: templates/settings-admin.php:39
+msgid "Trusted server"
+msgstr "신뢰할 수 있는 서버"
+
+#: templates/settings-admin.php:40
+msgid "Add"
+msgstr "추가"
+
+#: templates/settings-admin.php:10
+msgid "Federation"
+msgstr "연합"

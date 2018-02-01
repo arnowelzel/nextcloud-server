@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: holdenger <holden42@gmail.com>, 2017\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/nextcloud/teams/64236/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: js/settings-admin.js:42
+msgid "Loading preview…"
+msgstr "Načítavanie ukážky..."
+
+#: js/settings-admin.js:58 lib/Controller/ThemingController.php:185
+#: lib/Controller/ThemingController.php:207
+#: lib/Controller/ThemingController.php:309
+#: lib/Controller/ThemingController.php:349
+#: tests/Controller/ThemingControllerTest.php:310
+msgid "Saved"
+msgstr "Uložené"
+
+#: js/settings-admin.js:84
+msgid "Admin"
+msgstr "Správca"
+
+#: js/settings-admin.js:94
+msgid "a safe home for all your data"
+msgstr "bezpečný domov pre všetky vaše dáta"
+
+#: lib/Controller/ThemingController.php:138
+msgid "The given name is too long"
+msgstr "Zadané meno je príliš dlhé"
+
+#: lib/Controller/ThemingController.php:148
+msgid "The given web address is too long"
+msgstr "Zadaná web adresa je príliš dlhá"
+
+#: lib/Controller/ThemingController.php:158
+msgid "The given slogan is too long"
+msgstr "Zadaný slogan je príliš dlhý"
+
+#: lib/Controller/ThemingController.php:168
+msgid "The given color is invalid"
+msgstr "Zadaná farba nie je platná"
+
+#: lib/Controller/ThemingController.php:217
+msgid "There is no error, the file uploaded with success"
+msgstr "Nenastala žiadna chyba, súbor bol úspešne nahraný"
+
+#: lib/Controller/ThemingController.php:218
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"Nahraný súbor prekročil limit nastavený v upload_max_filesize v súbore "
+"php.ini"
+
+#: lib/Controller/ThemingController.php:219
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Ukladaný súbor prekračuje nastavenie MAX_FILE_SIZE z volieb HTML formulára."
+
+#: lib/Controller/ThemingController.php:220
+msgid "The uploaded file was only partially uploaded"
+msgstr "Ukladaný súbor sa nahral len čiastočne"
+
+#: lib/Controller/ThemingController.php:221
+msgid "No file was uploaded"
+msgstr "Nenahral sa žiadny súbor"
+
+#: lib/Controller/ThemingController.php:222
+msgid "Missing a temporary folder"
+msgstr "Chýba priečinok pre dočasné súbory"
+
+#: lib/Controller/ThemingController.php:223
+msgid "Failed to write file to disk."
+msgstr "Nepodarilo sa zapísať súbor na disk."
+
+#: lib/Controller/ThemingController.php:224
+msgid "A PHP extension stopped the file upload."
+msgstr "rozšírenie PHP zastavilo nahrávanie súboru."
+
+#: lib/Controller/ThemingController.php:227
+msgid "No file uploaded"
+msgstr "Žiadny súbor nebol nahraný"
+
+#: lib/Controller/ThemingController.php:262
+#: lib/Controller/ThemingController.php:280
+msgid "Unsupported image type"
+msgstr "Typ obrázka nie je podporovaný"
+
+#: lib/Settings/Admin.php:70
+msgid "You are already using a custom theme"
+msgstr "Už používate upravený vzhľad"
+
+#: lib/Settings/Section.php:63 templates/settings-admin.php:30
+msgid "Theming"
+msgstr "Zmena vzhľadu"
+
+#: templates/settings-admin.php:31
+msgid ""
+"Theming makes it possible to easily customize the look and feel of your "
+"instance and supported clients. This will be visible for all users."
+msgstr ""
+"Zmena vzhľadu umožňuje ľahko upraviť pocit z vašej inštalácie a "
+"podporovaných klientov. Toto bude viditeľné pre všetkých klientov."
+
+#: templates/settings-admin.php:43 templates/settings-admin.php:44
+msgid "Name"
+msgstr "Názov"
+
+#: templates/settings-admin.php:45 templates/settings-admin.php:52
+#: templates/settings-admin.php:59 templates/settings-admin.php:66
+#: templates/settings-admin.php:75 templates/settings-admin.php:84
+msgid "Reset to default"
+msgstr "Nastaviť predvolené"
+
+#: templates/settings-admin.php:50
+msgid "Web address"
+msgstr "Web adresa"
+
+#: templates/settings-admin.php:51
+msgid "Web address https://…"
+msgstr "Webová adresa https://..."
+
+#: templates/settings-admin.php:57 templates/settings-admin.php:58
+msgid "Slogan"
+msgstr "Slogan"
+
+#: templates/settings-admin.php:64
+msgid "Color"
+msgstr "Farba"
+
+#: templates/settings-admin.php:72
+msgid "Logo"
+msgstr "Logo"
+
+#: templates/settings-admin.php:74
+msgid "Upload new logo"
+msgstr "Nahrať nové logo"
+
+#: templates/settings-admin.php:81
+msgid "Login image"
+msgstr "Prihlasovací obrázok"
+
+#: templates/settings-admin.php:83
+msgid "Upload new login background"
+msgstr "Nahrať nové prihlasovacie pozadie"
+
+#: templates/settings-admin.php:85
+msgid "Remove background image"
+msgstr "Odstrániť obrázok pozadia"
+
+#: templates/settings-admin.php:96
+msgid ""
+"Install the Imagemagick PHP extension with support for SVG images to "
+"automatically generate favicons based on the uploaded logo and color."
+msgstr ""
+"Ak chcete automaticky generovať favikony na základe nahraného loga a farby, "
+"nainštalujte rozšírenie Imagemagick PHP s podporou pre SVG obrázky."
+
+#: templates/settings-admin.php:41 templates/settings-admin.php:48
+#: templates/settings-admin.php:55 templates/settings-admin.php:62
+#: templates/settings-admin.php:71 templates/settings-admin.php:80
+msgid "reset to default"
+msgstr "nastaviť predvolené"
+
+#: templates/settings-admin.php:77
+msgid "Log in image"
+msgstr "Prihlasovací obrázok"

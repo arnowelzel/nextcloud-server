@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: enolp <enolp@softastur.org>, 2017\n"
+"Language-Team: Asturian (https://www.transifex.com/nextcloud/teams/64236/ast/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: js/admin.js:190
+msgid "Saved"
+msgstr "Guardóse"
+
+#: js/admin.js:198
+msgid "Saving failed:"
+msgstr "Falló'l guardáu:"
+
+#: js/filemimetypeplugin.js:30
+msgid "File MIME type"
+msgstr "Triba MIME de ficheru"
+
+#: js/filemimetypeplugin.js:32 js/requesturlplugin.js:33
+#: js/requestuseragentplugin.js:33
+msgid "is"
+msgstr "ye"
+
+#: js/filemimetypeplugin.js:33 js/requesturlplugin.js:34
+#: js/requestuseragentplugin.js:34
+msgid "is not"
+msgstr "nun ye"
+
+#: js/filemimetypeplugin.js:34 js/requesturlplugin.js:35
+#: js/requestuseragentplugin.js:35
+msgid "matches"
+msgstr "concasa con"
+
+#: js/filemimetypeplugin.js:35 js/requesturlplugin.js:36
+#: js/requestuseragentplugin.js:36
+msgid "does not match"
+msgstr "nun concasa con"
+
+#: js/filemimetypeplugin.js:57 js/filesizeplugin.js:47
+#: js/requestremoteaddressplugin.js:62 js/requesttimeplugin.js:73
+#: js/requesttimeplugin.js:84 js/requesturlplugin.js:53
+#: js/requestuseragentplugin.js:53
+msgid "Example: {placeholder}"
+msgstr "Exemplu: {placeholder}"
+
+#: js/filesizeplugin.js:30
+msgid "File size (upload)"
+msgstr "Tamañu de ficheru (xuba)"
+
+#: js/filesizeplugin.js:32
+msgid "less"
+msgstr "menos"
+
+#: js/filesizeplugin.js:33
+msgid "less or equals"
+msgstr "menos o igual"
+
+#: js/filesizeplugin.js:34
+msgid "greater or equals"
+msgstr "mayor o igual"
+
+#: js/filesizeplugin.js:35
+msgid "greater"
+msgstr "mayor"
+
+#: js/filesystemtagsplugin.js:32
+msgid "File system tag"
+msgstr "Etiqueta del sistema de ficheros"
+
+#: js/filesystemtagsplugin.js:34
+msgid "is tagged with"
+msgstr "etiquetóse con"
+
+#: js/filesystemtagsplugin.js:35
+msgid "is not tagged with"
+msgstr "nun s'etiquetó con"
+
+#: js/filesystemtagsplugin.js:49
+msgid "Select tag…"
+msgstr "Esbillar etiqueta..."
+
+#: js/requestremoteaddressplugin.js:30
+msgid "Request remote address"
+msgstr "Solicitar direición remot"
+
+#: js/requestremoteaddressplugin.js:32
+msgid "matches IPv4"
+msgstr ""
+
+#: js/requestremoteaddressplugin.js:33
+msgid "does not match IPv4"
+msgstr ""
+
+#: js/requestremoteaddressplugin.js:34
+msgid "matches IPv6"
+msgstr ""
+
+#: js/requestremoteaddressplugin.js:35
+msgid "does not match IPv6"
+msgstr ""
+
+#: js/requesttimeplugin.js:35
+msgid "Request time"
+msgstr ""
+
+#: js/requesttimeplugin.js:37
+msgid "between"
+msgstr "ente"
+
+#: js/requesttimeplugin.js:38
+msgid "not between"
+msgstr "distintu de"
+
+#: js/requesttimeplugin.js:72
+msgid "Start"
+msgstr "Aniciu"
+
+#: js/requesttimeplugin.js:83
+msgid "End"
+msgstr "Fin"
+
+#: js/requesttimeplugin.js:102
+msgid "Select timezone…"
+msgstr "Esbillar fusu horariu..."
+
+#: js/requesturlplugin.js:31
+msgid "Request URL"
+msgstr "Solicitar URL"
+
+#: js/requesturlplugin.js:69
+msgid "Predefined URLs"
+msgstr "URLs predefiníes"
+
+#: js/requesturlplugin.js:71
+msgid "Files WebDAV"
+msgstr "Ficheros WebDAV"
+
+#: js/requestuseragentplugin.js:31
+msgid "Request user agent"
+msgstr "Solicitar axente d'usuariu"
+
+#: js/requestuseragentplugin.js:69
+msgid "Sync clients"
+msgstr "Sincronizar veceros"
+
+#: js/requestuseragentplugin.js:71
+msgid "Android client"
+msgstr "Veceru d'Android"
+
+#: js/requestuseragentplugin.js:72
+msgid "iOS client"
+msgstr "Veceru d'iOS"
+
+#: js/requestuseragentplugin.js:73
+msgid "Desktop client"
+msgstr "Veceru d'escritoriu"
+
+#: js/usergroupmembershipplugin.js:30
+msgid "User group membership"
+msgstr ""
+
+#: js/usergroupmembershipplugin.js:32
+msgid "is member of"
+msgstr "ye miembru de"
+
+#: js/usergroupmembershipplugin.js:33
+msgid "is not member of"
+msgstr "nun ye miembru de"
+
+#: lib/Check/AbstractStringCheck.php:95 lib/Check/FileSize.php:89
+#: lib/Check/FileSystemTags.php:94 lib/Check/RequestRemoteAddress.php:82
+#: lib/Check/RequestTime.php:109 lib/Check/UserGroupMembership.php:92
+msgid "The given operator is invalid"
+msgstr "L'operador dau nun ye válidu"
+
+#: lib/Check/AbstractStringCheck.php:100
+msgid "The given regular expression is invalid"
+msgstr "La espresión regular dada nun ye válida"
+
+#: lib/Check/FileSize.php:93
+msgid "The given file size is invalid"
+msgstr "El tamañu del ficheru dau nun ye válidu"
+
+#: lib/Check/FileSystemTags.php:100 lib/Check/FileSystemTags.php:102
+msgid "The given tag id is invalid"
+msgstr "La ID de la etiqueta dada nun ye válida"
+
+#: lib/Check/RequestRemoteAddress.php:87
+msgid "The given IP range is invalid"
+msgstr "El rangu IP dau nun ye válidu"
+
+#: lib/Check/RequestRemoteAddress.php:92 lib/Check/RequestRemoteAddress.php:95
+msgid "The given IP range is not valid for IPv4"
+msgstr ""
+
+#: lib/Check/RequestRemoteAddress.php:99
+#: lib/Check/RequestRemoteAddress.php:102
+msgid "The given IP range is not valid for IPv6"
+msgstr ""
+
+#: lib/Check/RequestTime.php:115
+msgid "The given time span is invalid"
+msgstr ""
+
+#: lib/Check/RequestTime.php:121
+msgid "The given start time is invalid"
+msgstr ""
+
+#: lib/Check/RequestTime.php:126
+msgid "The given end time is invalid"
+msgstr ""
+
+#: lib/Check/UserGroupMembership.php:96
+msgid "The given group does not exist"
+msgstr "Nun esiste'l grupu dau"
+
+#: lib/Manager.php:121
+#, php-format
+msgid "Check %s is invalid or does not exist"
+msgstr ""
+
+#: lib/Manager.php:168
+#, php-format
+msgid "Operation #%s does not exist"
+msgstr "La operación #%s nun esiste"
+
+#: lib/Manager.php:253
+#, php-format
+msgid "Operation %s does not exist"
+msgstr "La operación %s nun esiste"
+
+#: lib/Manager.php:257
+#, php-format
+msgid "Operation %s is invalid"
+msgstr "La operación %s nun ye válida"
+
+#: lib/Manager.php:267
+#, php-format
+msgid "Check %s does not exist"
+msgstr ""
+
+#: lib/Manager.php:271
+#, php-format
+msgid "Check %s is invalid"
+msgstr ""
+
+#: lib/Manager.php:313
+#, php-format
+msgid "Check #%s does not exist"
+msgstr ""
+
+#: lib/Settings/Section.php:56
+msgid "Workflow"
+msgstr "Fluxu de trabayu"
+
+#: templates/admin.php:29
+msgid "Open documentation"
+msgstr "Abrir documentación"
+
+#: templates/admin.php:44
+msgid "Add rule group"
+msgstr ""
+
+#: templates/admin.php:49
+msgid "Short rule description"
+msgstr "Descipción curtia de la regla"
+
+#: templates/admin.php:74
+msgid "Add rule"
+msgstr "Amestar regla"
+
+#: templates/admin.php:78
+msgid "Reset"
+msgstr ""
+
+#: templates/admin.php:80
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/admin.php:84
+msgid "Saving…"
+msgstr "Guardando..."
+
+#: templates/admin.php:93
+msgid "Loading…"
+msgstr "Cargando..."
+
+#: js/admin.js:190
+msgid "Successfully saved"
+msgstr "Guardóse con ésitu"
+
+#: js/filemimetypeplugin.js:30
+msgid "File mime type"
+msgstr "Triba MIME de ficheru"

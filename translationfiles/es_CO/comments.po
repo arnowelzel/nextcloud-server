@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Javier Llamas <s_llamasj@globalhitss.com>, 2017\n"
+"Language-Team: Spanish (Colombia) (https://www.transifex.com/nextcloud/teams/64236/es_CO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_CO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:52 js/commentstabview.js:144 lib/Activity/Filter.php:57
+msgid "Comments"
+msgstr "Comentarios"
+
+#: js/commentstabview.js:116
+msgid "New comment …"
+msgstr "Comentario nuevo ..."
+
+#: js/commentstabview.js:117
+msgid "Delete comment"
+msgstr "Borrar comentario"
+
+#: js/commentstabview.js:118
+msgid "Post"
+msgstr "Publicar"
+
+#: js/commentstabview.js:119
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: js/commentstabview.js:129
+msgid "Edit comment"
+msgstr "Editar comentario"
+
+#: js/commentstabview.js:137
+msgid "[Deleted user]"
+msgstr "[Usuario borrado]"
+
+#: js/commentstabview.js:166
+msgid "No comments yet, start the conversation!"
+msgstr "¡Aún no hay comentarios, inicia la conversación!"
+
+#: js/commentstabview.js:167
+msgid "More comments …"
+msgstr "Más comentarios ..."
+
+#: js/commentstabview.js:486
+msgid "Save"
+msgstr "Guardar"
+
+#: js/commentstabview.js:526
+msgid "Allowed characters {count} of {max}"
+msgstr "Caracteres permitidos {count} de {max}"
+
+#: js/commentstabview.js:589
+msgid "Error occurred while retrieving comment with id {id}"
+msgstr "Se presentó un error al recuperar el comentario con Id {id}"
+
+#: js/commentstabview.js:711
+msgid "Error occurred while updating comment with id {id}"
+msgstr "Se presentó un error al actualizar el comentario con Id {id}"
+
+#: js/commentstabview.js:713
+msgid "Error occurred while posting comment"
+msgstr "Se presentó un error al publicar el comentario"
+
+#: js/filesplugin.js:47
+msgid "%n unread comment"
+msgid_plural "%n unread comments"
+msgstr[0] "%n comentarios sin leer"
+msgstr[1] "%n comentarios sin leer"
+
+#: js/filesplugin.js:90
+msgid "Comment"
+msgstr "Comentario"
+
+#: lib/Activity/Provider.php:122 lib/Activity/Provider.php:123
+msgid "You commented"
+msgstr "Comentaste"
+
+#: lib/Activity/Provider.php:126
+#, php-format
+msgid "%1$s commented"
+msgstr "%1$s comentó"
+
+#: lib/Activity/Provider.php:127
+msgid "{author} commented"
+msgstr "{author} comentó"
+
+#: lib/Activity/Provider.php:148
+#, php-format
+msgid "You commented on %1$s"
+msgstr "Usted comentó en %1$s"
+
+#: lib/Activity/Provider.php:151
+msgid "You commented on {file}"
+msgstr "Hiciste un comentario de {file}"
+
+#: lib/Activity/Provider.php:156
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr "%1$s comentó en %2$s"
+
+#: lib/Activity/Provider.php:160
+msgid "{author} commented on {file}"
+msgstr "{author} comentó en {file}"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>Comments</strong> for files"
+msgstr "<strong>Comentarios</strong> de los archivos"
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid ""
+"You were mentioned on “%s”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+"Te mencionaron en \"%s\", en un comentario de un usuario que ya ha sido "
+"borrado"
+
+#: lib/Notification/Notifier.php:112
+msgid ""
+"You were mentioned on “{file}”, in a comment by a user that has since been "
+"deleted"
+msgstr ""
+"Te mencionaron en \"{file}\", en un comentario de un usuario que ya ha sido "
+"borrado"
+
+#: lib/Notification/Notifier.php:125
+#, php-format
+msgid "%1$s mentioned you in a comment on “%2$s”"
+msgstr "%1$s te mencionó en un comentario en “%2$s”"
+
+#: lib/Notification/Notifier.php:129
+msgid "{user} mentioned you in a comment on “{file}”"
+msgstr "{user} te mencionó en un comentario en “{file}”"
+
+#: appinfo/app.php:71
+msgid "Unknown user"
+msgstr "Usuario desconocido"
+
+#: lib/Notification/Notifier.php:104
+#, php-format
+msgid "A (now) deleted user mentioned you in a comment on “%s”"
+msgstr "Un usuario (ahora) borrado te mencionó en un commentario en “%s”"
+
+#: lib/Notification/Notifier.php:108
+msgid "A (now) deleted user mentioned you in a comment on “{file}”"
+msgstr "Un usuario (ahora) borrado te mencionó en un commentario en “{file}”"

@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: evavranici <evavranici@gmail.com>, 2017\n"
+"Language-Team: Albanian (https://www.transifex.com/nextcloud/teams/64236/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files_external/appinfo/app.php:46
+#: /app/apps/files_external/js/app.js:38
+#: /app/apps/files_external/lib/Settings/Section.php:63
+#: /app/apps/files_external/templates/settings.php:91
+msgid "External storages"
+msgstr "Kujtesë e jashtëme"
+
+#: /app/apps/files_external/js/mountsfilelist.js:53
+msgid "Personal"
+msgstr "Personale"
+
+#: /app/apps/files_external/js/mountsfilelist.js:55
+msgid "System"
+msgstr "Sistem"
+
+#: /app/apps/files_external/js/oauth1.js:13
+#: /app/apps/files_external/js/oauth2.js:13
+msgid "Grant access"
+msgstr "Akordoji hyrje"
+
+#: /app/apps/files_external/js/oauth1.js:43
+#: /app/apps/files_external/js/oauth1.js:71
+#: /app/apps/files_external/js/oauth1.js:77
+msgid "Error configuring OAuth1"
+msgstr "Gabim gjatë formësimit të OAuth1"
+
+#: /app/apps/files_external/js/oauth1.js:76
+msgid "Please provide a valid app key and secret."
+msgstr "Ju lutemi jepni një kyç dhe një të fshehtë aplikacioni të vlefshme."
+
+#: /app/apps/files_external/js/oauth2.js:53
+#: /app/apps/files_external/js/oauth2.js:88
+msgid "Error configuring OAuth2"
+msgstr "Gabim gjatë formësimit të OAuth2"
+
+#: /app/apps/files_external/js/public_key.js:41
+msgid "Generate keys"
+msgstr "Prodho kyçe"
+
+#: /app/apps/files_external/js/public_key.js:60
+msgid "Error generating key pair"
+msgstr "Gabim gjatë prodhimit të çiftit të kyçeve"
+
+#: /app/apps/files_external/js/settings.js:93
+msgid "All users. Type to select user or group."
+msgstr "Krejt përdoruesit. Shtypni që të përzgjidhet përdorues ose grup."
+
+#: /app/apps/files_external/js/settings.js:178
+msgid "(group)"
+msgstr "(grup)"
+
+#: /app/apps/files_external/js/settings.js:501
+msgid "Compatibility with Mac NFD encoding (slow)"
+msgstr "Pëerputhshmëri me kodim Mac NFD (e ngadaltë)"
+
+#: /app/apps/files_external/js/settings.js:956
+msgid "Admin defined"
+msgstr "Përcaktuar nga përgjegjësi"
+
+#: /app/apps/files_external/js/settings.js:1133
+msgid "Are you sure you want to delete this external storage"
+msgstr ""
+
+#: /app/apps/files_external/js/settings.js:1135
+msgid "Delete storage?"
+msgstr ""
+
+#: /app/apps/files_external/js/settings.js:1346
+#: /app/apps/files_external/js/settings.js:1364
+#: /app/apps/files_external/js/settings.js:1392
+msgid "Saved"
+msgstr "U ruajt"
+
+#: /app/apps/files_external/js/settings.js:1380
+msgid "Saving..."
+msgstr "Po ruhet …"
+
+#: /app/apps/files_external/js/settings.js:1394
+#: /app/apps/files_external/js/statusmanager.js:440
+#: /app/apps/files_external/templates/settings.php:161
+#: /app/apps/files_external/templates/settings.php:162
+#: /app/apps/files_external/templates/settings.php:209
+msgid "Save"
+msgstr "Ruaje"
+
+#: /app/apps/files_external/js/statusmanager.js:89
+msgid "Empty response from the server"
+msgstr "Përgjigje e zbrazët prej serverit"
+
+#: /app/apps/files_external/js/statusmanager.js:105
+msgid ""
+"Couldn't access. Please log out and in again to activate this mount point"
+msgstr ""
+"Nuk mund të ketë akses. Ju lutemi, dilni dhe hyni që të aktivizohet kjo pikë"
+" montimi"
+
+#: /app/apps/files_external/js/statusmanager.js:107
+msgid "Couldn't get the information from the remote server: {code} {type}"
+msgstr "Nuk u morën dot të dhëna nga shërbyesi në largësi: {code} {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:160
+msgid "Couldn't get the list of external mount points: {type}"
+msgstr "S’u mor dot lista e pikave të jashtme të montimit: {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "There was an error with message: "
+msgstr "Pati një gabim me këtë mesazh:"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "External mount error"
+msgstr "Gabim i jashtëm montimi"
+
+#: /app/apps/files_external/js/statusmanager.js:194
+msgid "external-storage"
+msgstr "ruajtje-jashtme"
+
+#: /app/apps/files_external/js/statusmanager.js:270
+msgid ""
+"Couldn't fetch list of Windows network drive mount points: Empty response "
+"from server"
+msgstr ""
+"S’u mor dot lista e pikave të montimit Windows network drive: përgjigje e "
+"zbrazët nga shërbyesi"
+
+#: /app/apps/files_external/js/statusmanager.js:302
+msgid ""
+"Some of the configured external mount points are not connected. Please click"
+" on the red row(s) for more information"
+msgstr ""
+"Disa nga pikat e jashtme të formësuara të montimit s’janë të lidhura. Ju "
+"lutemi, klikoni në shigjetën(at) e kuqe për më tepër të dhëna"
+
+#: /app/apps/files_external/js/statusmanager.js:397
+msgid "Please enter the credentials for the {mount} mount"
+msgstr "Ju lutemi, jepni kredencialet për pikën e montimit {mount}"
+
+#: /app/apps/files_external/js/statusmanager.js:400
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:40
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:55
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:50
+#: /app/apps/files_external/templates/settings.php:202
+msgid "Username"
+msgstr "Emër përdoruesi"
+
+#: /app/apps/files_external/js/statusmanager.js:401
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:57
+#: /app/apps/files_external/templates/settings.php:206
+msgid "Password"
+msgstr "Fjalëkalim"
+
+#: /app/apps/files_external/js/statusmanager.js:423
+msgid "Credentials saved"
+msgstr "Kredencialet u ruajtën"
+
+#: /app/apps/files_external/js/statusmanager.js:430
+msgid "Credentials saving failed"
+msgstr "Ruajtja e kredencialeve dështoi"
+
+#: /app/apps/files_external/js/statusmanager.js:438
+msgid "Credentials required"
+msgstr "Lypsen kredenciale"
+
+#: /app/apps/files_external/lib/Controller/GlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/StoragesController.php:309
+#: /app/apps/files_external/lib/Controller/StoragesController.php:334
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:125
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/UserStoragesController.php:201
+#, php-format
+msgid "Storage with ID \"%d\" not found"
+msgstr "Ruajtja me ID \"%d\" nuk u gjet"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:130
+msgid "Invalid backend or authentication mechanism class"
+msgstr "Mekanizëm shërbimi ose klasë mekanizmi mirëfilltësimi e palvefshme"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:149
+msgid "Invalid mount point"
+msgstr "Pikë montimi e pavlefshme"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:159
+msgid "Objectstore forbidden"
+msgstr "Objectstore e ndaluar"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:173
+#, php-format
+msgid "Invalid storage backend \"%s\""
+msgstr "Mekanizëm shërbimi depozite i pavlefshëm \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:185
+#, php-format
+msgid "Not permitted to use backend \"%s\""
+msgstr "I palejuar të përdorë mekanizmin e shërbimit \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:196
+#, php-format
+msgid "Not permitted to use authentication mechanism \"%s\""
+msgstr "S’i lejohet të përdorë mekanizmin e mirëfilltësimit \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:208
+msgid "Unsatisfied backend parameters"
+msgstr "Parametra mekanizmi shërbimi të paplotësuar"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:217
+msgid "Unsatisfied authentication mechanism parameters"
+msgstr "Parametra mekanizmi mirëfilltësimi të papërmbushur"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:263
+#, php-format
+msgid "Insufficient data: %s"
+msgstr "Të dhëna të pamjaftueshme: %s"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:268
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:165
+#, php-format
+msgid "Storage with ID \"%d\" is not user editable"
+msgstr "Ruajtja me ID \"%d\" nuk është i editueshëm nga përdorues"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:40
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:42
+msgid "Access key"
+msgstr "Kyç hyrjesh"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:43
+msgid "Secret key"
+msgstr "Kyç i fshehtë"
+
+#: /app/apps/files_external/lib/Lib/Auth/Builtin.php:36
+msgid "Builtin"
+msgstr "I brendshëm"
+
+#: /app/apps/files_external/lib/Lib/Auth/NullMechanism.php:36
+msgid "None"
+msgstr "Asnjë"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:38
+msgid "OAuth1"
+msgstr "OAuth1"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:42
+msgid "App key"
+msgstr "Kyç aplikacioni"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
+msgid "App secret"
+msgstr "E fshehtë aplikacioni"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
+msgid "OAuth2"
+msgstr "OAuth2"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:42
+msgid "Client ID"
+msgstr "ID klienti"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
+msgid "Client secret"
+msgstr "E fshehtë klienti"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:38
+msgid "OpenStack"
+msgstr "OpenStack"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:43
+msgid "Tenant name"
+msgstr "Emër qiraxhiu"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:44
+msgid "Identity endpoint URL"
+msgstr "Identifiko pikëmbarimin URL"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:38
+msgid "Rackspace"
+msgstr "Rackspace"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:41
+msgid "API key"
+msgstr "Kyç API"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:52
+#: /app/apps/files_external/templates/settings.php:198
+msgid "Global credentials"
+msgstr "Kredenciale globale"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:56
+msgid "Log-in credentials, save in database"
+msgstr "Kredencialet e identifikimit, ruaji në bazën e të dhënave"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:38
+msgid "Username and password"
+msgstr "Emër përdoruesi dhe fjalëkalim"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
+msgid "Log-in credentials, save in session"
+msgstr "Kredenciale hyrjesh, ruaji për sesion"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
+msgid "User entered, store in database"
+msgstr "Përdoruesi u identifikua, ruaj në bazë të dhënash"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:48
+msgid "RSA public key"
+msgstr "Kyç publik RSA "
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:51
+msgid "Public key"
+msgstr "Kyç publik"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:43
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:45
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:49
+msgid "Bucket"
+msgstr "Bucket"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:46
+msgid "Hostname"
+msgstr "Strehëemër"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:48
+msgid "Port"
+msgstr "Portë"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:47
+msgid "Region"
+msgstr "Rajon"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
+msgid "Enable SSL"
+msgstr "Aktivizo SSL-në"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:54
+msgid "Enable Path Style"
+msgstr "Aktivizo Stile Shtegu"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:56
+msgid "Legacy (v2) authentication"
+msgstr ""
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:45
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:43
+msgid "URL"
+msgstr "URL"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:46
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:46
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:44
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:42
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:49
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:54
+msgid "Remote subfolder"
+msgstr "Nëndosje e largët"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:48
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:46
+msgid "Secure https://"
+msgstr "https:// e sigurt"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:43
+msgid "FTP"
+msgstr "FTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:45
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:39
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:41
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:47
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:49
+msgid "Host"
+msgstr "Strehë"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:48
+msgid "Secure ftps://"
+msgstr "ftps:// e sigurt"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:39
+msgid "Local"
+msgstr "Vendore"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:41
+msgid "Location"
+msgstr "Vendndodhje"
+
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:41
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:37
+msgid "SFTP"
+msgstr "SFTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:40
+msgid "Root"
+msgstr "Rrënjë"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:39
+msgid "SFTP with secret key login"
+msgstr "SFTP me hyrje me kyç të fshehtë"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:45
+msgid "SMB / CIFS"
+msgstr "SMB / CIFS"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:48
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:52
+msgid "Share"
+msgstr "Ndajeni me të tjerët"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:51
+msgid "Domain"
+msgstr "Përkatësi"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:47
+msgid "SMB / CIFS using OC login"
+msgstr "SMB / CIFS me përdorim hyrjeje OC"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:50
+msgid "Username as share"
+msgstr "Emër përdoruesi si emër ndarjeje"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:43
+msgid "OpenStack Object Storage"
+msgstr "Depozitë OpenStack Object"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:45
+msgid "Service name"
+msgstr "Emër shërbimi"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:50
+msgid "Request timeout (seconds)"
+msgstr "Kohë skadimi kërkese (sekonda)"
+
+#: /app/apps/files_external/lib/config.php:323
+#, php-format
+msgid ""
+"The cURL support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"Mbështetja e cURL në PHP nuk është e instaluar ose e aktivizuar. Lidhja e %s"
+" nuk është e mundur. Ju lutemi kërkojini administratorin të sistemit tuaj që"
+" ta instaloj."
+
+#: /app/apps/files_external/lib/config.php:325
+#, php-format
+msgid ""
+"The FTP support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"Mbështetja e FTP në PHP nuk është e aktivizuar ose instaluar.Lidhja e %s nuk"
+" është e mundur.Ju lutem kërkojini administratorit të sistemit tuaj që ta "
+"instalojë."
+
+#: /app/apps/files_external/lib/config.php:327
+#, php-format
+msgid ""
+"\"%s\" is not installed. Mounting of %s is not possible. Please ask your "
+"system administrator to install it."
+msgstr ""
+"\"%s\" nuk është instaluar.Montimi i %s nuk është i mundur.Ju lutem "
+"kërkojini administratorit të sistemit tuaj ta instalojë."
+
+#: /app/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "External storage support"
+msgstr ""
+
+#: /app/apps/files_external/templates/list.php:9
+msgid "No external storage configured"
+msgstr "Pa depozita të jashtme të formësuara"
+
+#: /app/apps/files_external/templates/list.php:10
+msgid "You can add external storages in the personal settings"
+msgstr "Depozita të jashtme mund të shtoni që prej rregullimeve personale"
+
+#: /app/apps/files_external/templates/list.php:20
+msgid "Name"
+msgstr "Emër"
+
+#: /app/apps/files_external/templates/list.php:24
+msgid "Storage type"
+msgstr "Lloj depozite"
+
+#: /app/apps/files_external/templates/list.php:27
+msgid "Scope"
+msgstr "Shtrirje"
+
+#: /app/apps/files_external/templates/settings.php:9
+msgid "Enable encryption"
+msgstr "Aktivizoni fshehtëzim"
+
+#: /app/apps/files_external/templates/settings.php:10
+msgid "Enable previews"
+msgstr "Aktivizoni paraparje"
+
+#: /app/apps/files_external/templates/settings.php:11
+msgid "Enable sharing"
+msgstr "Aktivizo ndarjet"
+
+#: /app/apps/files_external/templates/settings.php:12
+msgid "Check for changes"
+msgstr "Kontrollo për ndryshime"
+
+#: /app/apps/files_external/templates/settings.php:13
+msgid "Never"
+msgstr "Kurrë"
+
+#: /app/apps/files_external/templates/settings.php:14
+msgid "Once every direct access"
+msgstr "Çdo herë pas hyrjesh të drejtpërdrejta"
+
+#: /app/apps/files_external/templates/settings.php:97
+#: /app/apps/files_external/templates/settings.php:116
+msgid "Folder name"
+msgstr "Emër dosjeje"
+
+#: /app/apps/files_external/templates/settings.php:98
+msgid "External storage"
+msgstr "Depozitë e jashtme"
+
+#: /app/apps/files_external/templates/settings.php:99
+msgid "Authentication"
+msgstr "Mirëfilltësim"
+
+#: /app/apps/files_external/templates/settings.php:100
+msgid "Configuration"
+msgstr "Formësim"
+
+#: /app/apps/files_external/templates/settings.php:101
+msgid "Available for"
+msgstr "E gatshme për"
+
+#: /app/apps/files_external/templates/settings.php:122
+msgid "Add storage"
+msgstr "Shtoni depozitë"
+
+#: /app/apps/files_external/templates/settings.php:147
+#: /app/apps/files_external/templates/settings.php:148
+msgid "Advanced settings"
+msgstr "Rregullime të mëtejshme"
+
+#: /app/apps/files_external/templates/settings.php:155
+#: /app/apps/files_external/templates/settings.php:156
+msgid "Delete"
+msgstr "Fshije"
+
+#: /app/apps/files_external/templates/settings.php:173
+msgid "Allow users to mount external storage"
+msgstr "Lejoju përdoruesve të montojnë depozita të jashtme"
+
+#: /app/apps/files_external/templates/settings.php:176
+msgid "Allow users to mount the following external storage"
+msgstr "Lejoju përdoruesve të montojnë depozitën e jashtme vijuese"

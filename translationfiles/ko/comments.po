@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>, 2016\n"
+"Language-Team: Korean (https://www.transifex.com/nextcloud/teams/64236/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:52 js/commentstabview.js:144 lib/Activity/Filter.php:57
+msgid "Comments"
+msgstr "댓글"
+
+#: js/commentstabview.js:116
+msgid "New comment …"
+msgstr "새로운 댓글 …"
+
+#: js/commentstabview.js:117
+msgid "Delete comment"
+msgstr "댓글 삭제"
+
+#: js/commentstabview.js:118
+msgid "Post"
+msgstr "게시"
+
+#: js/commentstabview.js:119
+msgid "Cancel"
+msgstr "취소"
+
+#: js/commentstabview.js:129
+msgid "Edit comment"
+msgstr "댓글 편집"
+
+#: js/commentstabview.js:137
+msgid "[Deleted user]"
+msgstr "[삭제된 사용자]"
+
+#: js/commentstabview.js:166
+msgid "No comments yet, start the conversation!"
+msgstr "아직 댓글이 없습니다. 대화를 시작하십시오!"
+
+#: js/commentstabview.js:167
+msgid "More comments …"
+msgstr "더 많은 댓글 …"
+
+#: js/commentstabview.js:486
+msgid "Save"
+msgstr "저장"
+
+#: js/commentstabview.js:526
+msgid "Allowed characters {count} of {max}"
+msgstr "{count}/{max} 글자 사용 가능"
+
+#: js/commentstabview.js:589
+msgid "Error occurred while retrieving comment with id {id}"
+msgstr "댓글 ID {id}을(를) 가져오는 중 오류가 발생했습니다"
+
+#: js/commentstabview.js:711
+msgid "Error occurred while updating comment with id {id}"
+msgstr "댓글 ID {id}을(를) 업데이트하는 동안 오류가 발생했습니다 "
+
+#: js/commentstabview.js:713
+msgid "Error occurred while posting comment"
+msgstr "댓글을 게시하는 중 오류가 발생했습니다"
+
+#: js/filesplugin.js:47
+msgid "%n unread comment"
+msgid_plural "%n unread comments"
+msgstr[0] "읽지 않은 댓글 %n개"
+
+#: js/filesplugin.js:90
+msgid "Comment"
+msgstr "설명"
+
+#: lib/Activity/Provider.php:122 lib/Activity/Provider.php:123
+msgid "You commented"
+msgstr "댓글 남김"
+
+#: lib/Activity/Provider.php:126
+#, php-format
+msgid "%1$s commented"
+msgstr "%1$s 님의 댓글"
+
+#: lib/Activity/Provider.php:127
+msgid "{author} commented"
+msgstr "{author} 님이 댓글 남김"
+
+#: lib/Activity/Provider.php:148
+#, php-format
+msgid "You commented on %1$s"
+msgstr "%1$s에 댓글 남김"
+
+#: lib/Activity/Provider.php:151
+msgid "You commented on {file}"
+msgstr "{file}에 댓글 남김"
+
+#: lib/Activity/Provider.php:156
+#, php-format
+msgid "%1$s commented on %2$s"
+msgstr "%2$s에 %1$s 님이 댓글 남김"
+
+#: lib/Activity/Provider.php:160
+msgid "{author} commented on {file}"
+msgstr "{author} 님이 {file}에 댓글 남김"
+
+#: lib/Activity/Setting.php:55
+msgid "<strong>Comments</strong> for files"
+msgstr "파일의 <strong>댓글</strong>"
+
+#: lib/Notification/Notifier.php:108
+#, php-format
+msgid ""
+"You were mentioned on “%s”, in a comment by a user that has since been "
+"deleted"
+msgstr "삭제된 사용자가 남긴 “%s”의 댓글에서 여러분을 언급함"
+
+#: lib/Notification/Notifier.php:112
+msgid ""
+"You were mentioned on “{file}”, in a comment by a user that has since been "
+"deleted"
+msgstr "삭제된 사용자가 남긴 “{file}”의 댓글에서 여러분을 언급함"
+
+#: lib/Notification/Notifier.php:125
+#, php-format
+msgid "%1$s mentioned you in a comment on “%2$s”"
+msgstr "%1$s 님이 “%2$s”에 남긴 댓글에서 여러분을 언급함"
+
+#: lib/Notification/Notifier.php:129
+msgid "{user} mentioned you in a comment on “{file}”"
+msgstr "{user} 님이 “{file}”에 남긴 댓글에서 여러분을 언급함"
+
+#: appinfo/app.php:71
+msgid "Unknown user"
+msgstr "알 수 없는 사용자"
+
+#: lib/Notification/Notifier.php:104
+#, php-format
+msgid "A (now) deleted user mentioned you in a comment on “%s”"
+msgstr "(현재) 삭제된 사용자가 “%s”에 남긴 댓글에서 여러분을 언급함"
+
+#: lib/Notification/Notifier.php:108
+msgid "A (now) deleted user mentioned you in a comment on “{file}”"
+msgstr "(현재) 삭제된 사용자가 “{file}”에 남긴 댓글에서 여러분을 언급함"

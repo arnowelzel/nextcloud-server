@@ -1,0 +1,588 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations\\@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Toralv B <tb@tobeon.net>, 2017\n"
+"Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/nextcloud/teams/64236/nb_NO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /app/apps/files_external/appinfo/app.php:46
+#: /app/apps/files_external/js/app.js:38
+#: /app/apps/files_external/lib/Settings/Section.php:63
+#: /app/apps/files_external/templates/settings.php:91
+msgid "External storages"
+msgstr "Ekstern lagring"
+
+#: /app/apps/files_external/js/mountsfilelist.js:53
+msgid "Personal"
+msgstr "Personlig"
+
+#: /app/apps/files_external/js/mountsfilelist.js:55
+msgid "System"
+msgstr "System"
+
+#: /app/apps/files_external/js/oauth1.js:13
+#: /app/apps/files_external/js/oauth2.js:13
+msgid "Grant access"
+msgstr "Gi tilgang"
+
+#: /app/apps/files_external/js/oauth1.js:43
+#: /app/apps/files_external/js/oauth1.js:71
+#: /app/apps/files_external/js/oauth1.js:77
+msgid "Error configuring OAuth1"
+msgstr "Feil ved oppsett av OAuth1"
+
+#: /app/apps/files_external/js/oauth1.js:76
+msgid "Please provide a valid app key and secret."
+msgstr "Oppgi gyldig programnøkkel og hemmelighet."
+
+#: /app/apps/files_external/js/oauth2.js:53
+#: /app/apps/files_external/js/oauth2.js:88
+msgid "Error configuring OAuth2"
+msgstr "Feil ved oppsett av OAuth2"
+
+#: /app/apps/files_external/js/public_key.js:41
+msgid "Generate keys"
+msgstr "Generer nøkler"
+
+#: /app/apps/files_external/js/public_key.js:60
+msgid "Error generating key pair"
+msgstr "Feil ved nøkkelgenerering"
+
+#: /app/apps/files_external/js/settings.js:93
+msgid "All users. Type to select user or group."
+msgstr "Alle brukere. Tast for å velge bruker eller gruppe."
+
+#: /app/apps/files_external/js/settings.js:178
+msgid "(group)"
+msgstr "(gruppe)"
+
+#: /app/apps/files_external/js/settings.js:501
+msgid "Compatibility with Mac NFD encoding (slow)"
+msgstr "Kompatibelt med Mac NFD koding (treg)"
+
+#: /app/apps/files_external/js/settings.js:956
+msgid "Admin defined"
+msgstr "Admin-definert"
+
+#: /app/apps/files_external/js/settings.js:1133
+msgid "Are you sure you want to delete this external storage"
+msgstr "Er du sikker på at du vil slette denne eksterne lagringsplassen?"
+
+#: /app/apps/files_external/js/settings.js:1135
+msgid "Delete storage?"
+msgstr "Slett lagringsplass"
+
+#: /app/apps/files_external/js/settings.js:1346
+#: /app/apps/files_external/js/settings.js:1364
+#: /app/apps/files_external/js/settings.js:1392
+msgid "Saved"
+msgstr "Lagret"
+
+#: /app/apps/files_external/js/settings.js:1380
+msgid "Saving..."
+msgstr "Lagrer…"
+
+#: /app/apps/files_external/js/settings.js:1394
+#: /app/apps/files_external/js/statusmanager.js:440
+#: /app/apps/files_external/templates/settings.php:161
+#: /app/apps/files_external/templates/settings.php:162
+#: /app/apps/files_external/templates/settings.php:209
+msgid "Save"
+msgstr "Lagre"
+
+#: /app/apps/files_external/js/statusmanager.js:89
+msgid "Empty response from the server"
+msgstr "Tomt svar fra tjeneren"
+
+#: /app/apps/files_external/js/statusmanager.js:105
+msgid ""
+"Couldn't access. Please log out and in again to activate this mount point"
+msgstr ""
+"Fikk ikke tilgang. Logg ut og inn igjen for å aktivere dette "
+"oppkoblingspunktet."
+
+#: /app/apps/files_external/js/statusmanager.js:107
+msgid "Couldn't get the information from the remote server: {code} {type}"
+msgstr ""
+"Kunne ikke få informasjon fra fjerntjeneren/ remote server: {code} {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:160
+msgid "Couldn't get the list of external mount points: {type}"
+msgstr "Klarte ikke å hente listen over eksterne oppkoblingspunkter: {type}"
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "There was an error with message: "
+msgstr "Det oppstod en feil med melding: "
+
+#: /app/apps/files_external/js/statusmanager.js:185
+#: /app/apps/files_external/js/statusmanager.js:192
+msgid "External mount error"
+msgstr "Ekstern oppkoblingsfeil"
+
+#: /app/apps/files_external/js/statusmanager.js:194
+msgid "external-storage"
+msgstr "eksternlagring"
+
+#: /app/apps/files_external/js/statusmanager.js:270
+msgid ""
+"Couldn't fetch list of Windows network drive mount points: Empty response "
+"from server"
+msgstr ""
+"Klarte ikke å hente listen over oppkoblingspunkter for Windowsnettverks-"
+"disker: Tomt svar fra tjeneren"
+
+#: /app/apps/files_external/js/statusmanager.js:302
+msgid ""
+"Some of the configured external mount points are not connected. Please click"
+" on the red row(s) for more information"
+msgstr ""
+"Noen av de oppsatte eksterne oppkoblingspunktene er ikke tilkoblet. Klikk på"
+" de røde raden(e) for mer informasjon."
+
+#: /app/apps/files_external/js/statusmanager.js:397
+msgid "Please enter the credentials for the {mount} mount"
+msgstr "Legg inn påloggingsdetaljer for {mount}"
+
+#: /app/apps/files_external/js/statusmanager.js:400
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:40
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:40
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:55
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:50
+#: /app/apps/files_external/templates/settings.php:202
+msgid "Username"
+msgstr "Brukernavn"
+
+#: /app/apps/files_external/js/statusmanager.js:401
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:41
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:57
+#: /app/apps/files_external/templates/settings.php:206
+msgid "Password"
+msgstr "Passord"
+
+#: /app/apps/files_external/js/statusmanager.js:423
+msgid "Credentials saved"
+msgstr "Påloggingsdetaljer lagret"
+
+#: /app/apps/files_external/js/statusmanager.js:430
+msgid "Credentials saving failed"
+msgstr "Lagring av påloggingsdetaljer mislyktes"
+
+#: /app/apps/files_external/js/statusmanager.js:438
+msgid "Credentials required"
+msgstr "Påloggingsdetaljer kreves"
+
+#: /app/apps/files_external/lib/Controller/GlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/StoragesController.php:309
+#: /app/apps/files_external/lib/Controller/StoragesController.php:334
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:125
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:173
+#: /app/apps/files_external/lib/Controller/UserStoragesController.php:201
+#, php-format
+msgid "Storage with ID \"%d\" not found"
+msgstr "Lager med ID \"%d\" ikke funnet"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:130
+msgid "Invalid backend or authentication mechanism class"
+msgstr "Ugyldig bakende eller type autentiseringsmekanisme"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:149
+msgid "Invalid mount point"
+msgstr "Ugyldig oppkoblingspunkt"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:159
+msgid "Objectstore forbidden"
+msgstr "Objektlager forbudt"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:173
+#, php-format
+msgid "Invalid storage backend \"%s\""
+msgstr "Ugyldig lagringstjener \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:185
+#, php-format
+msgid "Not permitted to use backend \"%s\""
+msgstr "Bruk av bakenden \"%s\" tillates ikke"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:196
+#, php-format
+msgid "Not permitted to use authentication mechanism \"%s\""
+msgstr "Du tillates ikke å bruke autentiseringsmekanismen \"%s\""
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:208
+msgid "Unsatisfied backend parameters"
+msgstr "Noen bakende-parameter mangler"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:217
+msgid "Unsatisfied authentication mechanism parameters"
+msgstr "Noen parametre for autentiseringsmekanisme mangler"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:263
+#, php-format
+msgid "Insufficient data: %s"
+msgstr "Utilstrekkelige data: %s"
+
+#: /app/apps/files_external/lib/Controller/StoragesController.php:268
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /app/apps/files_external/lib/Controller/UserGlobalStoragesController.php:165
+#, php-format
+msgid "Storage with ID \"%d\" is not user editable"
+msgstr "Lager med ID \"%d\" kan ikke redigeres av bruker"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:40
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:42
+msgid "Access key"
+msgstr "Tilgangsnøkkel"
+
+#: /app/apps/files_external/lib/Lib/Auth/AmazonS3/AccessKey.php:43
+msgid "Secret key"
+msgstr "Hemmelig nøkkel"
+
+#: /app/apps/files_external/lib/Lib/Auth/Builtin.php:36
+msgid "Builtin"
+msgstr "Innebygget"
+
+#: /app/apps/files_external/lib/Lib/Auth/NullMechanism.php:36
+msgid "None"
+msgstr "Ingen"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:38
+msgid "OAuth1"
+msgstr "OAuth1"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:42
+msgid "App key"
+msgstr "Program-nøkkel"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth1/OAuth1.php:43
+msgid "App secret"
+msgstr "Program-hemmelighet"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:38
+msgid "OAuth2"
+msgstr "OAuth2"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:42
+msgid "Client ID"
+msgstr "Klient-ID"
+
+#: /app/apps/files_external/lib/Lib/Auth/OAuth2/OAuth2.php:43
+msgid "Client secret"
+msgstr "Klient-hemmelighet"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:38
+msgid "OpenStack"
+msgstr "OpenStack"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:43
+msgid "Tenant name"
+msgstr "Prosjektnavn"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/OpenStack.php:44
+msgid "Identity endpoint URL"
+msgstr "URL for identitets-endepunkt"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:38
+msgid "Rackspace"
+msgstr "Rackspace"
+
+#: /app/apps/files_external/lib/Lib/Auth/OpenStack/Rackspace.php:41
+msgid "API key"
+msgstr "API-nøkkel"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/GlobalAuth.php:52
+#: /app/apps/files_external/templates/settings.php:198
+msgid "Global credentials"
+msgstr "Globale pålogginsdetaljer"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/LoginCredentials.php:56
+msgid "Log-in credentials, save in database"
+msgstr "Påloggingsdetaljer, lagre i databasen"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/Password.php:38
+msgid "Username and password"
+msgstr "Brukernavn og passord"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/SessionCredentials.php:50
+msgid "Log-in credentials, save in session"
+msgstr "Påloggingsdetaljer, lagre i økten"
+
+#: /app/apps/files_external/lib/Lib/Auth/Password/UserProvided.php:53
+msgid "User entered, store in database"
+msgstr "Brukerangitt, lagre i databasen"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:48
+msgid "RSA public key"
+msgstr "Offentlig RSA-nøkkel"
+
+#: /app/apps/files_external/lib/Lib/Auth/PublicKey/RSA.php:51
+msgid "Public key"
+msgstr "Offentlig nøkkel"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:43
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:45
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:49
+msgid "Bucket"
+msgstr "Bøtte"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:46
+msgid "Hostname"
+msgstr "Tjenernavn"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:48
+msgid "Port"
+msgstr "Port"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:50
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:47
+msgid "Region"
+msgstr "Området"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:52
+msgid "Enable SSL"
+msgstr "Aktiver SSL"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:54
+msgid "Enable Path Style"
+msgstr "Aktiver Path Style"
+
+#: /app/apps/files_external/lib/Lib/Backend/AmazonS3.php:56
+msgid "Legacy (v2) authentication"
+msgstr "Foreldet (v2-) autentisering"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:43
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:45
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:43
+msgid "URL"
+msgstr "URL"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:46
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:46
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:44
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:42
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:49
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:54
+msgid "Remote subfolder"
+msgstr "Ekstern undermappe"
+
+#: /app/apps/files_external/lib/Lib/Backend/DAV.php:48
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:46
+msgid "Secure https://"
+msgstr "Sikker https://"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:43
+msgid "FTP"
+msgstr "FTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:45
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:39
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:41
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:47
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:49
+msgid "Host"
+msgstr "Tjener"
+
+#: /app/apps/files_external/lib/Lib/Backend/FTP.php:48
+msgid "Secure ftps://"
+msgstr "Sikker ftps://"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:39
+msgid "Local"
+msgstr "Lokal"
+
+#: /app/apps/files_external/lib/Lib/Backend/Local.php:41
+msgid "Location"
+msgstr "Sted"
+
+#: /app/apps/files_external/lib/Lib/Backend/OwnCloud.php:41
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:37
+msgid "SFTP"
+msgstr "SFTP"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP.php:40
+msgid "Root"
+msgstr "Rot"
+
+#: /app/apps/files_external/lib/Lib/Backend/SFTP_Key.php:39
+msgid "SFTP with secret key login"
+msgstr "SFTP med hemmelig nøkkel for pålogging"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:45
+msgid "SMB / CIFS"
+msgstr "SMB / CIFS"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:48
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:52
+msgid "Share"
+msgstr "Delt ressurs"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB.php:51
+msgid "Domain"
+msgstr "Domene"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:47
+msgid "SMB / CIFS using OC login"
+msgstr "SMB / CIFS med OC-pålogging"
+
+#: /app/apps/files_external/lib/Lib/Backend/SMB_OC.php:50
+msgid "Username as share"
+msgstr "Brukernavn som delt ressurs"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:43
+msgid "OpenStack Object Storage"
+msgstr "OpenStack objektlager"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:45
+msgid "Service name"
+msgstr "Tjenestenavn"
+
+#: /app/apps/files_external/lib/Lib/Backend/Swift.php:50
+msgid "Request timeout (seconds)"
+msgstr "Tidsavbrudd for forespørsel (sekunder)"
+
+#: /app/apps/files_external/lib/config.php:323
+#, php-format
+msgid ""
+"The cURL support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"<b>Merk:</b> Støtte for cURL i PHP er ikke aktivert eller installert. "
+"Oppkobling av %s er ikke mulig. Be systemadministratoren om å installere "
+"det."
+
+#: /app/apps/files_external/lib/config.php:325
+#, php-format
+msgid ""
+"The FTP support in PHP is not enabled or installed. Mounting of %s is not "
+"possible. Please ask your system administrator to install it."
+msgstr ""
+"<b>Merk:</b> FTP-støtte i PHP er ikke slått på eller installert. Kan ikke "
+"koble opp %s. Ta kontakt med systemadministratoren for å få dette "
+"installert."
+
+#: /app/apps/files_external/lib/config.php:327
+#, php-format
+msgid ""
+"\"%s\" is not installed. Mounting of %s is not possible. Please ask your "
+"system administrator to install it."
+msgstr ""
+"\"%s\" er ikke installert. Oppkobling av %s er ikke mulig. Spør din "
+"systemadministrator om å installere det."
+
+#: /app/apps/files_external/specialAppInfoFakeDummyForL10nScript.php:2
+msgid "External storage support"
+msgstr ""
+
+#: /app/apps/files_external/templates/list.php:9
+msgid "No external storage configured"
+msgstr "Eksternt lager er ikke konfigurert"
+
+#: /app/apps/files_external/templates/list.php:10
+msgid "You can add external storages in the personal settings"
+msgstr "Du kan legge til eksterne lagre i personlige innstillinger"
+
+#: /app/apps/files_external/templates/list.php:20
+msgid "Name"
+msgstr "Navn"
+
+#: /app/apps/files_external/templates/list.php:24
+msgid "Storage type"
+msgstr "Lagringstype"
+
+#: /app/apps/files_external/templates/list.php:27
+msgid "Scope"
+msgstr "Omfang"
+
+#: /app/apps/files_external/templates/settings.php:9
+msgid "Enable encryption"
+msgstr "Aktiver kryptering"
+
+#: /app/apps/files_external/templates/settings.php:10
+msgid "Enable previews"
+msgstr "Tillat fohåndsvisning"
+
+#: /app/apps/files_external/templates/settings.php:11
+msgid "Enable sharing"
+msgstr "Aktiver deling"
+
+#: /app/apps/files_external/templates/settings.php:12
+msgid "Check for changes"
+msgstr "Se etter endringer"
+
+#: /app/apps/files_external/templates/settings.php:13
+msgid "Never"
+msgstr "Aldri"
+
+#: /app/apps/files_external/templates/settings.php:14
+msgid "Once every direct access"
+msgstr "En gang pr. direkte tilgang"
+
+#: /app/apps/files_external/templates/settings.php:97
+#: /app/apps/files_external/templates/settings.php:116
+msgid "Folder name"
+msgstr "Mappenavn"
+
+#: /app/apps/files_external/templates/settings.php:98
+msgid "External storage"
+msgstr "Ekstern lagringsplass"
+
+#: /app/apps/files_external/templates/settings.php:99
+msgid "Authentication"
+msgstr "Autentisering"
+
+#: /app/apps/files_external/templates/settings.php:100
+msgid "Configuration"
+msgstr "Oppsett"
+
+#: /app/apps/files_external/templates/settings.php:101
+msgid "Available for"
+msgstr "Tilgjengelig for"
+
+#: /app/apps/files_external/templates/settings.php:122
+msgid "Add storage"
+msgstr "Legg til lagringsplass"
+
+#: /app/apps/files_external/templates/settings.php:147
+#: /app/apps/files_external/templates/settings.php:148
+msgid "Advanced settings"
+msgstr "Avanserte innstillinger"
+
+#: /app/apps/files_external/templates/settings.php:155
+#: /app/apps/files_external/templates/settings.php:156
+msgid "Delete"
+msgstr "Slett"
+
+#: /app/apps/files_external/templates/settings.php:173
+msgid "Allow users to mount external storage"
+msgstr "Tillat at brukere kobler opp eksterne lagre"
+
+#: /app/apps/files_external/templates/settings.php:176
+msgid "Allow users to mount the following external storage"
+msgstr "Tillat brukere å koble opp følgende eksterne lagring"

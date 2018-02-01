@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Pràctiques bTactic <practiques@btactic.com>, 2017\n"
+"Language-Team: Catalan (https://www.transifex.com/nextcloud/teams/64236/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "Compartició federada"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "Voleu afegir la compartició remota {nom} des de {owner}@{remote}?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "Compartició remota"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "Contrasenya de compartició remota"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "Afegeix compartició remota"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "Copia"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "Copiat!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "No soportat!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "Prem ⌘-C per copiar."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "Prem Ctrl-C per copiar."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "ID de núvol federat invàlid"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "La compartició entre servidors no està activada en aquest servidor"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "No s'ha pogut establir una part federada."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr ""
+"No s'ha pogut establir una acció compartida federada, potser la contrasenya "
+"ha estat incorrecta."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr ""
+"S'ha enviat la sol·licitud de participació federada, rebràs una invitació. "
+"Comproveu les vostres notificacions."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "El nom del punt de muntatge conté caràcters no vàlids."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "No es permet crear una compartida federada amb el propietari."
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "El certificat SSL és invàlid o no és fiable"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr ""
+"No s'ha pogut autenticar per compartir de manera remota, la contrasenya "
+"podria estar equivocada"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "Emmagatzemament no vàlid"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "S'ha afegit una part federada"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "No s'ha pogut afegir una compartició remota"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "Ha fallat en compartir %s, perquè l'element ja està compartit amb %s"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "No està permés crear una compartició federada amb el mateix usuari"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "El fitxer ja està compartit amb %s"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"S'ha produït un error en compartir%s, no s'ha pogut trobar%s, potser el "
+"servidor no estigui disponible o s'utilitzi un certificat autofirmat."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "No s'ha pogut trobar la compartició"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr ""
+"Has rebut \"/%3$s\" com una compartició remota des de %1$s (de part de %2$s)"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr "Has rebut {share} com un recompte remot de {user} (en nom de {nom})"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "Has rebut \"/%3$s\" com una compartició remota de %1$s"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "Has rebut {share} com a recompte remot de {user}"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "Acceptar"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "Denegar"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr ""
+"Compartiu amb mi a través de la meva #Nextcloud Federated Cloud Id, vegeu%s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "Compartiu amb mi a través de la meva #Nextcloud Federated Cloud ID"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "Compartir"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "Compartició federada de núvol"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "Obre la documentació"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "Ajusteu com les persones poden compartir entre servidors."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr ""
+"Permet als usuaris d'aquest servidor enviar comparticions a d'altres "
+"servidors"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr ""
+"Permet als usuaris d'aquest servidor rebre comparticions a d'altres "
+"servidors"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "Cerca llibreta d'adreces global i pública per als usuaris"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr ""
+"Permetre als usuaris publicar les seves dades en una llibreta d'adreces "
+"global i pública"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "Núvol federat"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Podeu compartir amb qualsevol persona que usi Nextcloud, ownCloud vs Pydio! "
+"Acaba de posar el seu identificador de núvol federat al diàleg d'accions. "
+"Sembla person@cloud.example.com"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "El teu ID de Núvol Federat:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr ""
+"Compartiu-lo perquè els vostres amics puguin compartir fitxers amb "
+"vosaltres:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "Afegeix a la teva pàgina web"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Comparteix amb mi a través de Nextcloud"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "Codi HTML:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr ""
+"Busqueu llibreta d'adreces global i pública per als usuaris i deixeu que els"
+" usuaris locals publiquin les seves dades"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "Comparteix-lo:"

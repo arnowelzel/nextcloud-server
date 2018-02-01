@@ -1,0 +1,1063 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: H P <bashman@hpacc.hu>, 2017\n"
+"Language-Team: Hungarian (Hungary) (https://www.transifex.com/nextcloud/teams/64236/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ajax/clearMappings.php:44
+msgid "Failed to clear the mappings."
+msgstr "Nem sikerült törölni a hozzárendeléseket."
+
+#: ajax/deleteConfiguration.php:40
+msgid "Failed to delete the server configuration"
+msgstr "Nem sikerült törölni a szerver konfigurációját"
+
+#: ajax/testConfiguration.php:72
+msgid "Invalid configuration: Anonymous binding is not allowed."
+msgstr "Érvénytelen beállítás: Anonim kötés nem engedélyezett."
+
+#: ajax/testConfiguration.php:77
+msgid "Valid configuration, connection established!"
+msgstr "Érvényes beállítás, kapcsolat létrejött!"
+
+#: ajax/testConfiguration.php:80
+msgid ""
+"Valid configuration, but binding failed. Please check the server settings "
+"and credentials."
+msgstr ""
+"Érvényes beállítás, de a kötés nem jött létre. Kérlek ellenőrizd a szerver "
+"beállításokat és a hitelesítőadatokat."
+
+#: ajax/testConfiguration.php:84
+msgid ""
+"Invalid configuration. Please have a look at the logs for further details."
+msgstr ""
+"Érvénytelen konfiguráció. További információkért nézze meg a naplófájlokat!"
+
+#: ajax/wizard.php:39
+msgid "No action specified"
+msgstr "Nincs megadva parancs"
+
+#: ajax/wizard.php:45
+msgid "No configuration specified"
+msgstr "Nincs megadva konfiguráció"
+
+#: ajax/wizard.php:129
+msgid "No data specified"
+msgstr "Nincs adat megadva"
+
+#: ajax/wizard.php:137
+#, php-format
+msgid " Could not set configuration %s"
+msgstr "A konfiguráció nem állítható be: %s"
+
+#: ajax/wizard.php:147
+msgid "Action does not exist"
+msgstr "A művelet nem létezik"
+
+#: appinfo/app.php:51
+msgid "LDAP user and group backend"
+msgstr "LDAP felhasználói és csoport háttér"
+
+#: js/renewPassword.js:28
+msgid "Renewing …"
+msgstr "Megújítás..."
+
+#: js/renewPassword.js:42
+msgid "Very weak password"
+msgstr "Nagyon gyenge jelszó"
+
+#: js/renewPassword.js:43
+msgid "Weak password"
+msgstr "Gyenge jelszó"
+
+#: js/renewPassword.js:44
+msgid "So-so password"
+msgstr "Nem túl jó jelszó"
+
+#: js/renewPassword.js:45
+msgid "Good password"
+msgstr "Jó jelszó"
+
+#: js/renewPassword.js:46
+msgid "Strong password"
+msgstr "Erős jelszó"
+
+#: js/wizard/view.js:188
+msgid "The Base DN appears to be wrong"
+msgstr "Úgy tűnik, a címtár gyökere (base DN) hibás"
+
+#: js/wizard/view.js:378
+msgid "Testing configuration…"
+msgstr "Beállítások ellenőrzése..."
+
+#: js/wizard/view.js:386
+msgid "Configuration incorrect"
+msgstr "Konfiguráió hibás"
+
+#: js/wizard/view.js:394
+msgid "Configuration incomplete"
+msgstr "Konfiguráció nincs befejezve"
+
+#: js/wizard/view.js:401
+msgid "Configuration OK"
+msgstr "Konfiguráció OK"
+
+#: js/wizard/wizardTabAbstractFilter.js:47
+msgid "Select groups"
+msgstr "Csoportok kiválasztása"
+
+#: js/wizard/wizardTabAbstractFilter.js:51
+msgid "Select object classes"
+msgstr "Objektumosztályok kiválasztása"
+
+#: js/wizard/wizardTabElementary.js:191
+msgid "Please check the credentials, they seem to be wrong."
+msgstr "Kérlek ellenőrizd az azonosítókat, hibásnak tűnnek."
+
+#: js/wizard/wizardTabElementary.js:193
+msgid "Please specify the port, it could not be auto-detected."
+msgstr "Kérlek add meg a port számát, nem lehetett automatikusan detektálni."
+
+#: js/wizard/wizardTabElementary.js:200
+msgid ""
+"Base DN could not be auto-detected, please revise credentials, host and "
+"port."
+msgstr ""
+"A címtár gyökerét (base DN) nem sikerült automatikusan felismerni, kérlek, "
+"ellenőrizd az azonosítókat, a kiszolgáló nevét és a portot."
+
+#: js/wizard/wizardTabElementary.js:202
+msgid "Could not detect Base DN, please enter it manually."
+msgstr ""
+"Nem sikerült felismerni a címtár gyökerét (base DN), kérlek, add meg kézzel."
+
+#: js/wizard/wizardTabElementary.js:233
+msgid "{nthServer}. Server"
+msgstr "{nthServer}. Szerver"
+
+#: js/wizard/wizardTabElementary.js:285
+msgid "No object found in the given Base DN. Please revise."
+msgstr ""
+"Nem találhatók objektumok a megadott címtár gyökérben (base DN). Kérlek, "
+"ellenőrizd."
+
+#: js/wizard/wizardTabElementary.js:287
+msgid "More than 1,000 directory entries available."
+msgstr "Több mint 1000 címtár bejegyzés érhető el."
+
+#: js/wizard/wizardTabElementary.js:289
+msgid " entries available within the provided Base DN"
+msgstr "a megadott címtár gyökér alatt elérhető bejegyzések"
+
+#: js/wizard/wizardTabElementary.js:293
+msgid ""
+"An error occurred. Please check the Base DN, as well as connection settings "
+"and credentials."
+msgstr ""
+"Hiba törént. Kérlek, ellenőrizd a címtár gyökerét (base DN), a kapcsolat "
+"beállításait és az azonosítókat."
+
+#: js/wizard/wizardTabElementary.js:359
+msgid "Do you really want to delete the current Server Configuration?"
+msgstr "Tényleg törölni szeretné a szerver beállításait?"
+
+#: js/wizard/wizardTabElementary.js:360
+msgid "Confirm Deletion"
+msgstr "A törlés megerősítése"
+
+#: js/wizard/wizardTabExpert.js:120
+msgid "Mappings cleared successfully!"
+msgstr "A hozzárendelések sikeresen törölve."
+
+#: js/wizard/wizardTabExpert.js:122
+msgid "Error while clearing the mappings."
+msgstr "Hiba a leképzések törlése közben."
+
+#: js/wizard/wizardTabGeneric.js:89
+msgid "Anonymous bind is not allowed. Please provide a User DN and Password."
+msgstr ""
+"A névtelen hozzáférés (anonymous bind) nem engedélyezett. Kérlek, add meg a "
+"felhasználó címtár-azonosítóját (DN) és jelszavát."
+
+#: js/wizard/wizardTabGeneric.js:94
+msgid "LDAP Operations error. Anonymous bind might not be allowed."
+msgstr ""
+"LDAP műveleti hiba. Lehetséges hogy az anonim kötés nincs engedélyezve."
+
+#: js/wizard/wizardTabGeneric.js:141
+msgid ""
+"Saving failed. Please make sure the database is in Operation. Reload before "
+"continuing."
+msgstr ""
+"A mentés sikertelen. Kérlek győződj meg róla, hogy az adatbázis működik. "
+"Töltsd újra a folytatás előtt."
+
+#: js/wizard/wizardTabGeneric.js:555
+msgid ""
+"Switching the mode will enable automatic LDAP queries. Depending on your "
+"LDAP size they may take a while. Do you still want to switch the mode?"
+msgstr ""
+"A módváltás engedélyezi az automatikus LDAP lekérdezéseket. Az LDAP-od "
+"méretétől függően sokáig tarthatnak. Biztosan átváltod a módot?"
+
+#: js/wizard/wizardTabGeneric.js:556
+msgid "Mode switch"
+msgstr "Üzemmód váltás"
+
+#: js/wizard/wizardTabLoginFilter.js:61
+msgid "Select attributes"
+msgstr "Attribútumok kiválasztása"
+
+#: js/wizard/wizardTabLoginFilter.js:146
+msgid ""
+"User not found. Please check your login attributes and username. Effective "
+"filter (to copy-and-paste for command-line validation): <br/>"
+msgstr ""
+"Felhasználó nincs meg. Kérlek ellenőrizd a felhasználónevet és a "
+"bejelentkezési adatokat. Érvényes szűrő (vágólap használathoz a parancssori "
+"ellenőrzéshez): <br/>"
+
+#: js/wizard/wizardTabLoginFilter.js:150
+msgid "User found and settings verified."
+msgstr "Felhasználó megtalálva, beállítások ellenőrizve."
+
+#: js/wizard/wizardTabLoginFilter.js:152
+msgid ""
+"Consider narrowing your search, as it encompassed many users, only the first"
+" one of whom will be able to log in."
+msgstr ""
+"Esetleg szűkítsd a keresést, mert rengeteg felhasználóra igaz, de csak az "
+"első fog tudni belépni."
+
+#: js/wizard/wizardTabLoginFilter.js:155
+msgid "An unspecified error occurred. Please check log and settings."
+msgstr "Ismeretlen hiba lépett fel. Kérlek nézd meg a naplót."
+
+#: js/wizard/wizardTabLoginFilter.js:160
+msgid ""
+"The search filter is invalid, probably due to syntax issues like uneven "
+"number of opened and closed brackets. Please revise."
+msgstr ""
+"A keresési feltétel érvénytelen, talán el van írva, például nem azonos a "
+"kezdő és záró zárójelek száma."
+
+#: js/wizard/wizardTabLoginFilter.js:162
+msgid ""
+"A connection error to LDAP / AD occurred, please check host, port and "
+"credentials."
+msgstr ""
+"LDAP/AD kapcsolati hiba lépett fel, kérlek ellenőrizd a hosztot, portot és a"
+" bejelentkezési adatokat."
+
+#: js/wizard/wizardTabLoginFilter.js:164
+msgid ""
+"The \"%uid\" placeholder is missing. It will be replaced with the login name"
+" when querying LDAP / AD."
+msgstr ""
+"A \"%uid\" helytartó hiányzik. Ez kerül behelyettesítésre a "
+"felhasználónévvel az LDAP / AD lekérdezéskor."
+
+#: js/wizard/wizardTabLoginFilter.js:248
+msgid "Please provide a login name to test against"
+msgstr "Kérlek adj meg egy bejelentkezési nevet az újrateszteléshez"
+
+#: js/wizard/wizardTabUserFilter.js:134
+msgid ""
+"The group box was disabled, because the LDAP / AD server does not support "
+"memberOf."
+msgstr ""
+"A csoport doboz ki van kapcsolva, mert az LDAP/AD szerver nem támogatja a "
+"memberOf-ot."
+
+#: lib/Access.php:367
+msgid "Password change rejected. Hint: "
+msgstr "Jelszó módosítás elutasítva. Tipp:"
+
+#: lib/Controller/RenewPasswordController.php:147
+msgid "Please login with the new password"
+msgstr "Kérlek lépj be az új jelszóval"
+
+#: lib/Notification/Notifier.php:68
+msgid "Your password will expire tomorrow."
+msgstr "A jelszavad holnap lejár"
+
+#: lib/Notification/Notifier.php:70
+msgid "Your password will expire today."
+msgstr "A jelszavad ma lejár."
+
+#: lib/Notification/Notifier.php:73
+msgid "Your password will expire within %n day."
+msgid_plural "Your password will expire within %n days."
+msgstr[0] "A jelszavad %nnap múlva lejár. "
+msgstr[1] "A jelszavad %n nap múlva lejár."
+
+#: lib/Settings/Section.php:64 templates/settings.php:58
+msgid "LDAP / AD integration"
+msgstr "LDAP / AD integráció"
+
+#: lib/Wizard.php:138 lib/Wizard.php:152
+#, php-format
+msgid "%s group found"
+msgid_plural "%s groups found"
+msgstr[0] "%s csoport van"
+msgstr[1] "%s csoport van"
+
+#: lib/Wizard.php:165
+#, php-format
+msgid "%s user found"
+msgid_plural "%s users found"
+msgstr[0] "%s felhasználó van"
+msgstr[1] "%s felhasználó van"
+
+#: lib/Wizard.php:250
+msgid ""
+"Could not detect user display name attribute. Please specify it yourself in "
+"advanced LDAP settings."
+msgstr ""
+"Nem lehet megállapítani a megjelenítendő név mezőt. Kérlek add meg kézzel a "
+"bővített LDAP beállításokban."
+
+#: lib/Wizard.php:460 lib/Wizard.php:1225
+msgid "Could not find the desired feature"
+msgstr "A kívánt funkció nem található"
+
+#: lib/Wizard.php:1036 lib/Wizard.php:1041
+msgid "Invalid Host"
+msgstr "Érvénytelen gépnév"
+
+#: templates/part.settingcontrols.php:3
+msgid "Test Configuration"
+msgstr "A beállítások tesztelése"
+
+#: templates/part.settingcontrols.php:9 templates/part.wizardcontrols.php:15
+msgid "Help"
+msgstr "Súgó"
+
+#: templates/part.wizard-groupfilter.php:4
+#, php-format
+msgid "Groups meeting these criteria are available in %s:"
+msgstr ""
+"A %s szolgáltatás azon csoportok létezését veszi figyelembe, amik a "
+"következő feltételeknek felelnek meg:"
+
+#: templates/part.wizard-groupfilter.php:8
+#: templates/part.wizard-userfilter.php:8
+msgid "Only these object classes:"
+msgstr "Csak ezek az objektumosztályok:"
+
+#: templates/part.wizard-groupfilter.php:17
+#: templates/part.wizard-userfilter.php:21
+msgid "Only from these groups:"
+msgstr "Csak ezekből a csoportokból:"
+
+#: templates/part.wizard-groupfilter.php:20
+#: templates/part.wizard-userfilter.php:24
+msgid "Search groups"
+msgstr "Csoport keresés"
+
+#: templates/part.wizard-groupfilter.php:30
+#: templates/part.wizard-userfilter.php:33
+msgid "Available groups"
+msgstr "Elérhető csoportok"
+
+#: templates/part.wizard-groupfilter.php:36
+#: templates/part.wizard-userfilter.php:39
+msgid "Selected groups"
+msgstr "Kiválasztott csoportok"
+
+#: templates/part.wizard-groupfilter.php:39
+#: templates/part.wizard-groupfilter.php:47
+#: templates/part.wizard-loginfilter.php:34
+#: templates/part.wizard-loginfilter.php:43
+#: templates/part.wizard-userfilter.php:42
+#: templates/part.wizard-userfilter.php:51
+msgid "Edit LDAP Query"
+msgstr "LDAP lekérdezés szerkesztés"
+
+#: templates/part.wizard-groupfilter.php:42
+#: templates/part.wizard-loginfilter.php:37
+#: templates/part.wizard-userfilter.php:45
+msgid "LDAP Filter:"
+msgstr "LDAP szűrő:"
+
+#: templates/part.wizard-groupfilter.php:48
+#, php-format
+msgid ""
+"The filter specifies which LDAP groups shall have access to the %s instance."
+msgstr ""
+"A szűrő meghatározza, hogy mely LDAP csoportok lesznek jogosultak %s "
+"elérésére."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count the groups"
+msgstr "Ellenőrizd a beállításokat és számold meg a csoportokat"
+
+#: templates/part.wizard-loginfilter.php:4
+#, php-format
+msgid ""
+"When logging in, %s will find the user based on the following attributes:"
+msgstr ""
+"Bejelentkezve, %s a következő attribútumok alapján találja meg a "
+"felhasználót:"
+
+#: templates/part.wizard-loginfilter.php:8
+msgid "LDAP / AD Username:"
+msgstr "LDAP / AD felhasználónév:"
+
+#: templates/part.wizard-loginfilter.php:12
+msgid ""
+"Allows login against the LDAP / AD username, which is either \"uid\" or "
+"\"sAMAccountName\" and will be detected."
+msgstr ""
+"Bejelentkezés engedélyezése LDAP / AD felhasználónévvel, ami vagy \"uid\" "
+"vagy  \"sAMAccountName\" és fel lesz ismerve."
+
+#: templates/part.wizard-loginfilter.php:17
+msgid "LDAP / AD Email Address:"
+msgstr "LDAP / AD e-mail cím:"
+
+#: templates/part.wizard-loginfilter.php:21
+msgid ""
+"Allows login against an email attribute. \"mail\" and \"mailPrimaryAddress\""
+" allowed."
+msgstr ""
+"Bejelentkezés engedélyezése az email attribútum alapján. \"mail\" és "
+"\"mailPrimaryAddress\" megengedett."
+
+#: templates/part.wizard-loginfilter.php:26
+msgid "Other Attributes:"
+msgstr "Más attribútumok:"
+
+#: templates/part.wizard-loginfilter.php:44
+#, php-format
+msgid ""
+"Defines the filter to apply, when login is attempted. \"%%uid\" replaces the"
+" username in the login action. Example: \"uid=%%uid\""
+msgstr ""
+"A belépéskor alkalmazandó filtert definiálja. \"%%uid\" lecseréli a "
+"felhasználónevez a bejelentkezésnél. Példa: \"uid=%%uid\""
+
+#: templates/part.wizard-loginfilter.php:52
+msgid "Test Loginname"
+msgstr "Teszt bejelentkezési név"
+
+#: templates/part.wizard-loginfilter.php:56
+msgid "Verify settings"
+msgstr "Beállítások ellenőrzése"
+
+#: templates/part.wizard-server.php:6
+msgid "1. Server"
+msgstr "1. Szerver"
+
+#: templates/part.wizard-server.php:13
+#, php-format
+msgid "%s. Server:"
+msgstr "%s. szerver"
+
+#: templates/part.wizard-server.php:21
+msgid "Add a new configuration"
+msgstr "Új beállítás hozzáadása"
+
+#: templates/part.wizard-server.php:25
+msgid "Copy current configuration into new directory binding"
+msgstr "Jelenlegi beállítások másolása egy új mappakötésbe"
+
+#: templates/part.wizard-server.php:28
+msgid "Delete the current configuration"
+msgstr "Aktuális konfiguráció törlése"
+
+#: templates/part.wizard-server.php:37
+msgid "Host"
+msgstr "Kiszolgáló"
+
+#: templates/part.wizard-server.php:38
+msgid ""
+"You can omit the protocol, unless you require SSL. If so, start with "
+"ldaps://"
+msgstr ""
+"Kihagyhatod a protokollt kivéve, ha SSL-t használsz. Ebben az esetben "
+"ldaps://-el kezdd"
+
+#: templates/part.wizard-server.php:42
+msgid "Port"
+msgstr "Port"
+
+#: templates/part.wizard-server.php:44
+msgid "Detect Port"
+msgstr "Port detektálás"
+
+#: templates/part.wizard-server.php:54
+msgid "User DN"
+msgstr "A kapcsolódó felhasználó DN-je"
+
+#: templates/part.wizard-server.php:55
+msgid ""
+"The DN of the client user with which the bind shall be done, e.g. "
+"uid=agent,dc=example,dc=com. For anonymous access, leave DN and Password "
+"empty."
+msgstr ""
+"Annak a felhasználónak a DN-je, akinek a nevében bejelentkezve kapcsolódunk "
+"a kiszolgálóhoz, pl. uid=agent,dc=example,dc=com. Bejelentkezés nélküli "
+"eléréshez ne töltse ki a DN és Jelszó mezőket!"
+
+#: templates/part.wizard-server.php:62
+msgid "Password"
+msgstr "Jelszó"
+
+#: templates/part.wizard-server.php:63
+msgid "For anonymous access, leave DN and Password empty."
+msgstr "Bejelentkezés nélküli eléréshez ne töltse ki a DN és Jelszó mezőket!"
+
+#: templates/part.wizard-server.php:66
+msgid "Save Credentials"
+msgstr "Hitelesítőadatok mentése"
+
+#: templates/part.wizard-server.php:74
+msgid "One Base DN per line"
+msgstr "Soronként egy DN-gyökér"
+
+#: templates/part.wizard-server.php:75
+msgid "You can specify Base DN for users and groups in the Advanced tab"
+msgstr ""
+"A Haladó fülre kattintva külön DN-gyökér állítható be a felhasználók és a "
+"csoportok számára"
+
+#: templates/part.wizard-server.php:78
+msgid "Detect Base DN"
+msgstr "Alap DN detektálása"
+
+#: templates/part.wizard-server.php:81
+msgid "Test Base DN"
+msgstr "Alap DN ellenőrzése"
+
+#: templates/part.wizard-server.php:88
+msgid ""
+"Avoids automatic LDAP requests. Better for bigger setups, but requires some "
+"LDAP knowledge."
+msgstr ""
+"Kerülje az automata LDAP kéréseket. Hasznos nagy telepítéseknél, de némi "
+"LDAP ismeretet igényel."
+
+#: templates/part.wizard-server.php:91
+msgid "Manually enter LDAP filters (recommended for large directories)"
+msgstr "LDAP szűrők kézi beállitása (ajánlott a nagy könyvtáraknál)"
+
+#: templates/part.wizard-userfilter.php:4
+msgid "Listing and searching for users is constrained by these criteria:"
+msgstr ""
+"Felhasználók keresésének és listázásának szabályozása ezekkel a "
+"szabályokkal:"
+
+#: templates/part.wizard-userfilter.php:17
+msgid ""
+"The most common object classes for users are organizationalPerson, person, "
+"user, and inetOrgPerson. If you are not sure which object class to select, "
+"please consult your directory admin."
+msgstr ""
+"A leggyakoribb objektum osztályok a felhasználóknál az organizationalPerson,"
+" person, user, és inetOrgPerson. Ha nem vagy benne biztos melyik osztályt "
+"válaszd, kérlek konzultálj a könyvtár adminnal."
+
+#: templates/part.wizard-userfilter.php:52
+#, php-format
+msgid ""
+"The filter specifies which LDAP users shall have access to the %s instance."
+msgstr ""
+"A szűrő meghatározza, hogy mely LDAP felhasználók lesznek jogosultak %s "
+"elérésére."
+
+#: templates/part.wizard-userfilter.php:60
+msgid "Verify settings and count users"
+msgstr "Beállítások ellenőrzése és felhasználók megszámolása"
+
+#: templates/part.wizardcontrols.php:2
+msgid "Saving"
+msgstr "Mentés"
+
+#: templates/part.wizardcontrols.php:6
+msgid "Back"
+msgstr "Vissza"
+
+#: templates/part.wizardcontrols.php:9
+msgid "Continue"
+msgstr "Folytatás"
+
+#: templates/renewpassword.php:19
+msgid "Please renew your password."
+msgstr "Kérjük frissítsd a jelszavad."
+
+#: templates/renewpassword.php:28
+msgid "An internal error occurred."
+msgstr "Belső hiba lépett fel."
+
+#: templates/renewpassword.php:29
+msgid "Please try again or contact your administrator."
+msgstr "Próbáld meg ismét vagy lépj kapcsolatba a rendszergazdáddal."
+
+#: templates/renewpassword.php:41 templates/renewpassword.php:43
+msgid "Current password"
+msgstr "Jelenlegi jelszó"
+
+#: templates/renewpassword.php:48 templates/renewpassword.php:50
+msgid "New password"
+msgstr "Új jelszó"
+
+#: templates/renewpassword.php:54
+msgid "Renew password"
+msgstr "Jelszó megújítás"
+
+#: templates/renewpassword.php:58
+msgid "Wrong password. Reset it?"
+msgstr "Hibás jelszó. Visszaállítja?"
+
+#: templates/renewpassword.php:62
+msgid "Wrong password."
+msgstr "Hibás jelszó."
+
+#: templates/renewpassword.php:67
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: templates/settings.php:62
+msgid "Server"
+msgstr "Szerver"
+
+#: templates/settings.php:63
+msgid "Users"
+msgstr "Felhasználók"
+
+#: templates/settings.php:64
+msgid "Login Attributes"
+msgstr "Bejelentkezési attribútumok"
+
+#: templates/settings.php:65
+msgid "Groups"
+msgstr "Csoportok"
+
+#: templates/settings.php:66
+msgid "Expert"
+msgstr "Profi"
+
+#: templates/settings.php:67
+msgid "Advanced"
+msgstr "Haladó"
+
+#: templates/settings.php:71
+msgid ""
+"<b>Warning:</b> The PHP LDAP module is not installed, the backend will not "
+"work. Please ask your system administrator to install it."
+msgstr ""
+"<b>Figyelmeztetés:</b> Az LDAP PHP modul nincs telepítve, ezért ez az "
+"alrendszer nem fog működni. Kérje meg a rendszergazdát, hogy telepítse!"
+
+#: templates/settings.php:80
+msgid "Connection Settings"
+msgstr "Kapcsolati beállítások"
+
+#: templates/settings.php:82
+msgid "Configuration Active"
+msgstr "A beállítás aktív"
+
+#: templates/settings.php:82
+msgid "When unchecked, this configuration will be skipped."
+msgstr "Ha nincs kipipálva, ez a beállítás kihagyódik."
+
+#: templates/settings.php:83
+msgid "Backup (Replica) Host"
+msgstr "Biztonsági (replika) kiszolgáló"
+
+#: templates/settings.php:83
+msgid ""
+"Give an optional backup host. It must be a replica of the main LDAP/AD "
+"server."
+msgstr ""
+"Adjon meg egy opcionális biztonsági kiszolgálót. Ez a fő LDAP/AD szerver "
+"replikája kell legyen."
+
+#: templates/settings.php:84
+msgid "Backup (Replica) Port"
+msgstr "Biztonsági kiszolgáló (replika) portszáma"
+
+#: templates/settings.php:85
+msgid "Disable Main Server"
+msgstr "A fő szerver kihagyása"
+
+#: templates/settings.php:85
+msgid "Only connect to the replica server."
+msgstr "Csak a másodlagos (másolati) szerverhez kapcsolódjunk."
+
+#: templates/settings.php:86
+msgid "Turn off SSL certificate validation."
+msgstr "Ne ellenőrizzük az SSL-tanúsítvány érvényességét"
+
+#: templates/settings.php:86
+#, php-format
+msgid ""
+"Not recommended, use it for testing only! If connection only works with this"
+" option, import the LDAP server's SSL certificate in your %s server."
+msgstr ""
+"Használata nem javasolt (kivéve tesztelési céllal). Ha a kapcsolat csak "
+"ezzel a beállítással működik, akkor importálja az LDAP-szerver SSL "
+"tanúsítványát a(z) %s szerverre!"
+
+#: templates/settings.php:87
+msgid "Cache Time-To-Live"
+msgstr "A gyorsítótár tárolási időtartama"
+
+#: templates/settings.php:87
+msgid "in seconds. A change empties the cache."
+msgstr "másodpercen belül. A változtatás törli a gyorsítótár tartalmát."
+
+#: templates/settings.php:89
+msgid "Directory Settings"
+msgstr "Címtár beállítások"
+
+#: templates/settings.php:91
+msgid "User Display Name Field"
+msgstr "A felhasználónév mezője"
+
+#: templates/settings.php:91
+msgid "The LDAP attribute to use to generate the user's display name."
+msgstr ""
+"Ebből az LDAP attribútumból képződik a felhasználó megjelenítendő neve."
+
+#: templates/settings.php:92
+msgid "2nd User Display Name Field"
+msgstr "Második felhasználónév mező"
+
+#: templates/settings.php:92
+msgid ""
+"Optional. An LDAP attribute to be added to the display name in brackets. "
+"Results in e.g. »John Doe (john.doe@example.org)«."
+msgstr ""
+"Opcionális. Egy LDAP attribútum, melyet a felhasználónév mellé teszünk a "
+"zárójelben. Például: »John Doe (john.doe@example.org)«."
+
+#: templates/settings.php:93
+msgid "Base User Tree"
+msgstr "A felhasználói fa gyökere"
+
+#: templates/settings.php:93
+msgid "One User Base DN per line"
+msgstr "Soronként egy felhasználói fa gyökerét adhatjuk meg"
+
+#: templates/settings.php:94
+msgid "User Search Attributes"
+msgstr "A felhasználók lekérdezett attribútumai"
+
+#: templates/settings.php:94 templates/settings.php:97
+msgid "Optional; one attribute per line"
+msgstr "Nem kötelező megadni, soronként egy attribútum"
+
+#: templates/settings.php:95
+msgid "Group Display Name Field"
+msgstr "A csoport nevének mezője"
+
+#: templates/settings.php:95
+msgid "The LDAP attribute to use to generate the groups's display name."
+msgstr "Ebből az LDAP attribútumból képződik a csoport megjelenítendő neve."
+
+#: templates/settings.php:96
+msgid "Base Group Tree"
+msgstr "A csoportfa gyökere"
+
+#: templates/settings.php:96
+msgid "One Group Base DN per line"
+msgstr "Soronként egy csoportfa gyökerét adhatjuk meg"
+
+#: templates/settings.php:97
+msgid "Group Search Attributes"
+msgstr "A csoportok lekérdezett attribútumai"
+
+#: templates/settings.php:98
+msgid "Group-Member association"
+msgstr "A csoporttagság attribútuma"
+
+#: templates/settings.php:98
+msgid "Dynamic Group Member URL"
+msgstr "Dinamikus csoporttag URL"
+
+#: templates/settings.php:98
+msgid ""
+"The LDAP attribute that on group objects contains an LDAP search URL that "
+"determines what objects belong to the group. (An empty setting disables "
+"dynamic group membership functionality.)"
+msgstr ""
+"Az LDAP attribútum ami megmutatja az LDAP kereséseknél a csoport objektumban"
+" mi tartozik a csoportba. (Üres beállítás esetén a dinamikus csoporttagság "
+"funkció kikapcsol.)"
+
+#: templates/settings.php:99
+msgid "Nested Groups"
+msgstr "Egymásba ágyazott csoportok"
+
+#: templates/settings.php:99
+msgid ""
+"When switched on, groups that contain groups are supported. (Only works if "
+"the group member attribute contains DNs.)"
+msgstr ""
+"Amikor be van kapcsolva, akkor azokat a csoportokat is kezelni tudjuk, "
+"melyekben a személyek mellett csoportok is vannak. (Csak akkor működik, ha a"
+" csoportok \"member\" attribútuma DN-eket tartalmaz.)"
+
+#: templates/settings.php:100
+msgid "Paging chunksize"
+msgstr "Lapozási darab méret"
+
+#: templates/settings.php:100
+msgid ""
+"Chunksize used for paged LDAP searches that may return bulky results like "
+"user or group enumeration. (Setting it 0 disables paged LDAP searches in "
+"those situations.)"
+msgstr ""
+"A lapméret megadásával korlátozható az egy fordulóban kapott találatok "
+"száma, akkor is, ha az LDAP-keresés nagyon sok találatot ad, ha ezt az LDAP-"
+"kiszolgáló támogatja. (Ha 0-ra állítjuk, akkor ezáltal letiltjuk ezt a "
+"lapozó funkciót.)"
+
+#: templates/settings.php:101
+msgid "Enable LDAP password changes per user"
+msgstr "LDAP jelszavak felhasználónkénti változtatásának engedélyezése"
+
+#: templates/settings.php:101
+msgid ""
+"Allow LDAP users to change their password and allow Super Administrators and"
+" Group Administrators to change the password of their LDAP users. Only works"
+" when access control policies are configured accordingly on the LDAP server."
+" As passwords are sent in plaintext to the LDAP server, transport encryption"
+" must be used and password hashing should be configured on the LDAP server."
+msgstr ""
+"LDAP felhasználók jelszómódosításának engedélyezése és Super "
+"Adminisztrátorok és Csoport Adminisztrátorok felhatalmazása felhasználóik "
+"jelszavainak módosítására. Csak az LDAP megfelelő jelszópolitikai "
+"beállításai mellett működik. Mivel a jelszavakat sima szövegként küldjük az "
+"LDAP szervernek, átviteli titkosítást kell alkalmazni és a jelszó hash-eket "
+"az LDAP szerveren kell bekapcsolni."
+
+#: templates/settings.php:101
+msgid "(New password is sent as plain text to LDAP)"
+msgstr "(Az új jelszó sima szövegként lett elküldve az LDAP-nak)"
+
+#: templates/settings.php:103
+msgid "Default password policy DN"
+msgstr "Alapértelmezett jelszó szabály DN"
+
+#: templates/settings.php:103
+msgid ""
+"The DN of a default password policy that will be used for password expiry "
+"handling. Works only when LDAP password changes per user are enabled and is "
+"only supported by OpenLDAP. Leave empty to disable password expiry handling."
+msgstr ""
+"Az alapértelmezett jelszó lejárati politika DN-je, melyet alkalmazunk. Csak "
+"akkor működik, ha a felhasználónkénti jelszómódosítás be van kapcsolva és "
+"csak OpenLDAP-al. Hagyd üresen a jelszólejárat kikapcsolásához."
+
+#: templates/settings.php:105
+msgid "Special Attributes"
+msgstr "Különleges attribútumok"
+
+#: templates/settings.php:107
+msgid "Quota Field"
+msgstr "Kvóta mező"
+
+#: templates/settings.php:107
+msgid ""
+"Leave empty for user's default quota. Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Hagyd üresen az alapértelmezett felhasználói kvótáért, vagy adj meg egy "
+"LDAP/AD paramétert."
+
+#: templates/settings.php:108
+msgid "Quota Default"
+msgstr "Alapértelmezett kvóta"
+
+#: templates/settings.php:108
+msgid ""
+"Override default quota for LDAP users who do not have a quota set in the "
+"Quota Field."
+msgstr ""
+"Alapértelmezett kvóta felülírása azon felhasználóknál, akiknek nincs "
+"beállított érték a Kvóta Mezőben."
+
+#: templates/settings.php:109
+msgid "Email Field"
+msgstr "E-mail mező"
+
+#: templates/settings.php:109
+msgid ""
+"Set the user's email from their LDAP attribute. Leave it empty for default "
+"behaviour."
+msgstr ""
+"Felhasználó e-mail címének beírása az LDAP attribútum alapján. Hagyd üresen "
+"az alapértelmezett működéshez."
+
+#: templates/settings.php:110
+msgid "User Home Folder Naming Rule"
+msgstr "Felhasználói Home mappa elnevezési szabály"
+
+#: templates/settings.php:110
+msgid ""
+"Leave empty for user name (default). Otherwise, specify an LDAP/AD "
+"attribute."
+msgstr ""
+"Hagyja üresen, ha a felhasználónevet kívánja használni. Ellenkező esetben "
+"adjon meg egy LDAP/AD attribútumot!"
+
+#: templates/settings.php:116
+msgid "Internal Username"
+msgstr "Belső felhasználónév"
+
+#: templates/settings.php:117
+msgid ""
+"By default the internal username will be created from the UUID attribute. It"
+" makes sure that the username is unique and characters do not need to be "
+"converted. The internal username has the restriction that only these "
+"characters are allowed: [ a-zA-Z0-9_.@- ].  Other characters are replaced "
+"with their ASCII correspondence or simply omitted. On collisions a number "
+"will be added/increased. The internal username is used to identify a user "
+"internally. It is also the default name for the user home folder. It is also"
+" a part of remote URLs, for instance for all *DAV services. With this "
+"setting, the default behavior can be overridden. Leave it empty for default "
+"behavior. Changes will have effect only on newly mapped (added) LDAP users."
+msgstr ""
+"Alapértelmezetten egy belső felhasználónév jön létre a UUID attribútumból. "
+"Gondoskodik róla, hogy a felhasználónév egyedi legyen és ne kelljen a "
+"karaktereket konvertálni. A belső felhasználónév csak a következő "
+"karakterekből állhat: [ a-zA-Z0-9_.@- ].  Más karakterek az ASCII "
+"megfelelőikre lesznek cserélve, vagy csak simán ki lesznek hagyva. Ütközés "
+"eseté egy szám lesz hozzáadva, vagy növelve. A belső felhasználónév a "
+"felhasználó belső azonosítására szolgál. Egyben a felhasználó saját "
+"mappájának neveként is szolgál. Része a távoli URL-eknek, például az összes "
+"DAV szolgáltatásnál. Ezzel a beállítással az alapértelmezett működés "
+"felülírható. Hagyd üresen az alapértelmezett működéshez. A változások csak "
+"újonnan leképezett (hozzáadott) LDAP felhasználóknál kerül alkalmazásra."
+
+#: templates/settings.php:118
+msgid "Internal Username Attribute:"
+msgstr "A belső felhasználónév attribútuma:"
+
+#: templates/settings.php:119
+msgid "Override UUID detection"
+msgstr "Az UUID-felismerés felülbírálása"
+
+#: templates/settings.php:120
+msgid ""
+"By default, the UUID attribute is automatically detected. The UUID attribute"
+" is used to doubtlessly identify LDAP users and groups. Also, the internal "
+"username will be created based on the UUID, if not specified otherwise "
+"above. You can override the setting and pass an attribute of your choice. "
+"You must make sure that the attribute of your choice can be fetched for both"
+" users and groups and it is unique. Leave it empty for default behavior. "
+"Changes will have effect only on newly mapped (added) LDAP users and groups."
+msgstr ""
+"Az UUID attribútum alapértelmezetten felismerésre kerül. Az UUID attribútum "
+"segítségével az LDAP felhasználók és csoportok egyértelműen azonosíthatók. A"
+" belső felhasználónév is azonos lesz az UUID-vel, ha fentebb nincs másként "
+"definiálva. Ezt a beállítást felülbírálhatja és bármely attribútummal "
+"helyettesítheti. Ekkor azonban gondoskodnia kell arról, hogy a kiválasztott "
+"attribútum minden felhasználó és csoport esetén lekérdezhető legyen és "
+"egyedi értékkel bír. Ha a mezőt üresen hagyja, akkor az alapértelmezett "
+"attribútum lesz érvényes. Egy esetleges módosítás csak az újonnan "
+"hozzárendelt (ill. létrehozott) felhasználókra és csoportokra lesz érvényes."
+
+#: templates/settings.php:121
+msgid "UUID Attribute for Users:"
+msgstr "A felhasználók UUID attribútuma:"
+
+#: templates/settings.php:122
+msgid "UUID Attribute for Groups:"
+msgstr "A csoportok UUID attribútuma:"
+
+#: templates/settings.php:123
+msgid "Username-LDAP User Mapping"
+msgstr "Felhasználó - LDAP felhasználó hozzárendelés"
+
+#: templates/settings.php:124
+msgid ""
+"Usernames are used to store and assign (meta) data. In order to precisely "
+"identify and recognize users, each LDAP user will have an internal username."
+" This requires a mapping from username to LDAP user. The created username is"
+" mapped to the UUID of the LDAP user. Additionally the DN is cached as well "
+"to reduce LDAP interaction, but it is not used for identification. If the DN"
+" changes, the changes will be found. The internal username is used all over."
+" Clearing the mappings will have leftovers everywhere. Clearing the mappings"
+" is not configuration sensitive, it affects all LDAP configurations! Never "
+"clear the mappings in a production environment, only in a testing or "
+"experimental stage."
+msgstr ""
+"A felhasználónevek adattárolásra és hozzárendelésre (meta) szolgálnak. A "
+"felhasználók pontos felismerésére és azonosítására, minden LDAP "
+"felhasználóhoz hozzárendelünk egy belső felhaszhálónevet. Ez a "
+"felhasználónév LDAP felhasználóhoz rendelését igényli. A létrehozott "
+"felhasználónév az LDAP UUID-hez kötődik. Egyben a DN tárolásra kerül az LDAP"
+" interakció csökkentésére, de nem használjuk az azonosítás során. Ha a DN "
+"változik, a változást megtaláljuk. A belső felhasználónevek "
+"újrahasznosításra kerülnek. A leképezés kitörlése mindenfelé maradványokat "
+"eredményez. A leképezések törlése nem konfiguráció érzékeny, minden LDAP "
+"konfigurációt érint! Soha ne töröld a leképezéseket éles rendszeren, csak "
+"tesztelési vagy kísérleti állapotban."
+
+#: templates/settings.php:125
+msgid "Clear Username-LDAP User Mapping"
+msgstr "A felhasználó - LDAP felhasználó hozzárendelés törlése"
+
+#: templates/settings.php:125
+msgid "Clear Groupname-LDAP Group Mapping"
+msgstr "A csoport - LDAP csoport hozzárendelés törlése"
+
+#: js/wizard/wizardTabLoginFilter.js:163
+msgid ""
+"The %uid placeholder is missing. It will be replaced with the login name "
+"when querying LDAP / AD."
+msgstr ""
+"A %uid helytartó hiányzik. Ez kerül behelyettesítésre a felhasználónévvel az"
+" LDAP / AD lekérdezéskor."
+
+#: templates/part.wizard-groupfilter.php:56
+msgid "Verify settings and count groups"
+msgstr "Ellenőrizd a beállításokat és számold meg a csoportokat"
+
+#: templates/part.wizard-server.php:28
+msgid "Add a new and blank configuration"
+msgstr "Új üres konfiguráció hozzáadása"
+
+#: templates/part.wizard-server.php:45
+msgid ""
+"You can omit the protocol, except you require SSL. Then start with ldaps://"
+msgstr ""
+"A protokoll előtag elhagyható, kivéve, ha SSL-t kíván használni. Ebben az "
+"esetben kezdje így:  ldaps://"
+
+#: templates/settings.php:58
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/settings.php:70
+msgid ""
+"<b>Warning:</b> Apps user_ldap and user_webdavauth are incompatible. You may"
+" experience unexpected behavior. Please ask your system administrator to "
+"disable one of them."
+msgstr ""
+"<b>Figyelem:</b> a user_ldap és user_webdavauth alkalmazások nem "
+"kompatibilisek. Együttes használatuk váratlan eredményekhez vezethet. Kérje "
+"meg a rendszergazdát, hogy a kettő közül kapcsolja ki az egyiket."
+
+#: templates/settings.php:110
+msgid "in bytes"
+msgstr "bájtban"

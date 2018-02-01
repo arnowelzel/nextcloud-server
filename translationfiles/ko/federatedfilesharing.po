@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>, 2016\n"
+"Language-Team: Korean (https://www.transifex.com/nextcloud/teams/64236/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appinfo/app.php:38
+msgid "Federated sharing"
+msgstr "연합 공유"
+
+#: js/external.js:30 js/external.js:43
+msgid "Do you want to add the remote share {name} from {owner}@{remote}?"
+msgstr "{owner}@{remote}의 원격 공유 {name}을(를) 추가하시겠습니까?"
+
+#: js/external.js:33 js/external.js:46
+msgid "Remote share"
+msgstr "원격 공유"
+
+#: js/external.js:52
+msgid "Remote share password"
+msgstr "원격 공유 암호"
+
+#: js/external.js:63
+msgid "Cancel"
+msgstr "취소"
+
+#: js/external.js:64
+msgid "Add remote share"
+msgstr "원격 공유 추가"
+
+#: js/settings-personal.js:26 js/settings-personal.js:39
+#: js/settings-personal.js:61
+msgid "Copy"
+msgstr "복사"
+
+#: js/settings-personal.js:33
+msgid "Copied!"
+msgstr "복사 성공!"
+
+#: js/settings-personal.js:47
+msgid "Not supported!"
+msgstr "지원하지 않음!"
+
+#: js/settings-personal.js:49
+msgid "Press ⌘-C to copy."
+msgstr "복사하려면 ⌘-C 키를 누르십시오."
+
+#: js/settings-personal.js:51
+msgid "Press Ctrl-C to copy."
+msgstr "복사하려면 Ctrl-C 키를 누르십시오."
+
+#: lib/AddressHandler.php:76
+msgid "Invalid Federated Cloud ID"
+msgstr "잘못된 연합 클라우드 ID"
+
+#: lib/Controller/MountPublicLinkController.php:193
+msgid "Server to server sharing is not enabled on this server"
+msgstr "이 서버에서 서버간 공유를 사용할 수 없음"
+
+#: lib/Controller/MountPublicLinkController.php:214
+msgid "Couldn't establish a federated share."
+msgstr "연합 공유를 설정할 수 없습니다."
+
+#: lib/Controller/MountPublicLinkController.php:216
+msgid "Couldn't establish a federated share, maybe the password was wrong."
+msgstr "연합 공유를 설정할 수 없습니다. 암호가 잘못되었을 수도 있습니다."
+
+#: lib/Controller/MountPublicLinkController.php:225
+msgid ""
+"Federated Share request sent, you will receive an invitation. Check your "
+"notifications."
+msgstr "연합 공유 요청을 보냈으며 초대장을 받을 것입니다. 알림을 확인하십시오."
+
+#: lib/Controller/MountPublicLinkController.php:253
+msgid "The mountpoint name contains invalid characters."
+msgstr "마운트 지점 이름에 잘못된 글자가 포함되어 있습니다."
+
+#: lib/Controller/MountPublicLinkController.php:258
+msgid "Not allowed to create a federated share with the owner."
+msgstr "소유자와 연합 공유를 만들 수 없음"
+
+#: lib/Controller/MountPublicLinkController.php:280
+msgid "Invalid or untrusted SSL certificate"
+msgstr "유효하지 않거나 신뢰할 수없는 SSL 인증서"
+
+#: lib/Controller/MountPublicLinkController.php:298
+msgid "Could not authenticate to remote share, password might be wrong"
+msgstr "원격 공유에 인증할 수 없습니다. 암호가 잘못되었을 수도 있습니다"
+
+#: lib/Controller/MountPublicLinkController.php:306
+#: lib/Controller/MountPublicLinkController.php:324
+msgid "Storage not valid"
+msgstr "유효하지 않은 저장소"
+
+#: lib/Controller/MountPublicLinkController.php:314
+msgid "Federated share added"
+msgstr "연합 공유를 추가함"
+
+#: lib/Controller/MountPublicLinkController.php:331
+#: lib/Controller/MountPublicLinkController.php:340
+msgid "Couldn't add remote share"
+msgstr "원격 공유를 추가할 수 없음"
+
+#: lib/FederatedShareProvider.php:166
+#, php-format
+msgid "Sharing %s failed, because this item is already shared with %s"
+msgstr "%s을(를) 공유할 수 없습니다. 이미 %s 님과 공유되어 있습니다"
+
+#: lib/FederatedShareProvider.php:178
+msgid "Not allowed to create a federated share with the same user"
+msgstr "같은 사용자와 연합 공유를 만들 수 없음"
+
+#: lib/FederatedShareProvider.php:211
+#, php-format
+msgid "File is already shared with %s"
+msgstr "파일이 %s와(과) 이미 공유됨"
+
+#: lib/FederatedShareProvider.php:277
+#, php-format
+msgid ""
+"Sharing %s failed, could not find %s, maybe the server is currently "
+"unreachable or uses a self-signed certificate."
+msgstr ""
+"%s을(를) 공유할 수 없습니다. %s을(를) 찾을 수 없습니다. 서버에 접근할 수 없거나 자가 서명된 인증서를 사용하고 있을 수도 "
+"있습니다."
+
+#: lib/FederatedShareProvider.php:806 lib/FederatedShareProvider.php:812
+msgid "Could not find share"
+msgstr "공유를 찾을 수 없음"
+
+#: lib/Notifier.php:85
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s (on behalf of %2$s)"
+msgstr "%1$s(%2$s 대신) 님으로부터 \"%3$s\"을(를) 원격 공유로 받음"
+
+#: lib/Notifier.php:88
+msgid ""
+"You received {share} as a remote share from {user} (on behalf of {behalf})"
+msgstr "{user}({behalf} 대신) 님으로부터 {share}을(를) 원격 공유로 받음"
+
+#: lib/Notifier.php:101
+#, php-format
+msgid "You received \"%3$s\" as a remote share from %1$s"
+msgstr "%1$s 님으로부터 \"%3$s\"을(를) 원격 공유로 받음"
+
+#: lib/Notifier.php:104
+msgid "You received {share} as a remote share from {user}"
+msgstr "{user} 님으로부터 {share}을(를) 원격 공유로 받음"
+
+#: lib/Notifier.php:121
+msgid "Accept"
+msgstr "수락"
+
+#: lib/Notifier.php:128
+msgid "Decline"
+msgstr "거절"
+
+#: lib/Settings/Personal.php:72
+#, php-format
+msgid "Share with me through my #Nextcloud Federated Cloud ID, see %s"
+msgstr "내 #Nextcloud 연합 클라우드 ID를 통해서 공유됨, 더 알아보기: %s"
+
+#: lib/Settings/Personal.php:73
+msgid "Share with me through my #Nextcloud Federated Cloud ID"
+msgstr "내 #Nextcloud 연합 클라우드 ID를 통해서 공유됨"
+
+#: lib/Settings/PersonalSection.php:72
+msgid "Sharing"
+msgstr "공유"
+
+#: templates/settings-admin.php:10
+msgid "Federated Cloud Sharing"
+msgstr "클라우드 연합 공유"
+
+#: templates/settings-admin.php:12
+msgid "Open documentation"
+msgstr "문서 열기"
+
+#: templates/settings-admin.php:14
+msgid "Adjust how people can share between servers."
+msgstr "서버간 파일 공유를 설정합니다."
+
+#: templates/settings-admin.php:20
+msgid "Allow users on this server to send shares to other servers"
+msgstr "이 서버의 사용자가 다른 서버와 공유할 수 있도록 허용"
+
+#: templates/settings-admin.php:28
+msgid "Allow users on this server to receive shares from other servers"
+msgstr "이 서버의 사용자가 다른 서버에서 공유한 파일을 받을 수 있도록 허용"
+
+#: templates/settings-admin.php:35
+msgid "Search global and public address book for users"
+msgstr "전역 및 공개 주소록에서 사용자 검색"
+
+#: templates/settings-admin.php:42
+msgid "Allow users to publish their data to a global and public address book"
+msgstr "사용자가 데이터를 전역 및 공개 주소록에 업로드할 수 있도록 허용"
+
+#: templates/settings-personal.php:10
+msgid "Federated Cloud"
+msgstr "연합 클라우드"
+
+#: templates/settings-personal.php:11
+msgid ""
+"You can share with anyone who uses Nextcloud, ownCloud or Pydio! Just put "
+"their Federated Cloud ID in the share dialog. It looks like "
+"person@cloud.example.com"
+msgstr ""
+"Nextcloud, ownCloud, Pydio를 사용하는 누구나와 공유할 수 있습니다! 공유 대화 상자에서 연합 클라우드 ID를 "
+"입력하십시오. person@cloud.example.com 형식입니다"
+
+#: templates/settings-personal.php:14
+msgid "Your Federated Cloud ID:"
+msgstr "내 연합 클라우드 ID:"
+
+#: templates/settings-personal.php:22
+msgid "Share it so your friends can share files with you:"
+msgstr "친구들과 파일을 공유할 수 있도록 공유하십시오:"
+
+#: templates/settings-personal.php:40
+msgid "Add to your website"
+msgstr "내 웹 사이트에 추가"
+
+#: templates/settings-personal.php:49 templates/settings-personal.php:57
+msgid "Share with me via Nextcloud"
+msgstr "Nextcloud로 나와 공유하기"
+
+#: templates/settings-personal.php:54
+msgid "HTML Code:"
+msgstr "HTML 코드:"
+
+#: templates/settings-admin.php:32
+msgid ""
+"Search global and public address book for users and let local users publish "
+"their data"
+msgstr "전역 및 공개 주소록에서 검색하고 로컬 사용자가 정보를 공개할 수 있도록 허용"
+
+#: templates/settings-personal.php:22
+msgid "Share it:"
+msgstr "공유하기:"

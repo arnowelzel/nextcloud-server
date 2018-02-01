@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ownCloud Core package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud Core 8.0.0\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2018-02-01 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Marin Kaltani <mpkaltani@gmail.com>, 2017\n"
+"Language-Team: Albanian (https://www.transifex.com/nextcloud/teams/64236/sq/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ajax/rollbackVersion.php:40
+#, php-format
+msgid "Could not revert: %s"
+msgstr "S’u rikthye dot: %s"
+
+#: js/versionstabview.js:78
+msgid "Versions"
+msgstr "Versione"
+
+#: js/versionstabview.js:136
+msgid "Failed to revert {file} to revision {timestamp}."
+msgstr "Dështoi në rikthimin e {file} te rishikimi {timestamp}."
+
+#: js/versionstabview.js:220
+msgid "%n byte"
+msgid_plural "%n bytes"
+msgstr[0] "%n bajte"
+msgstr[1] "%n bajte"
+
+#: js/versionstabview.js:225
+msgid "Restore"
+msgstr "Riktheje"
+
+#: js/versionstabview.js:235
+msgid "No earlier versions available"
+msgstr "Nuk ka versione të tjera të gatshme"
+
+#: js/versionstabview.js:236
+msgid "More versions …"
+msgstr "Më shumë versione ..."
+
+#: js/versionstabview.js:232
+msgid "No versions available"
+msgstr "Ska versione të gatshme"
+
+#: js/versionstabview.js:233
+msgid "More versions..."
+msgstr "Më shumë versione…"
